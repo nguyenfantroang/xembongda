@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-4c85b0b6ec",
+          "name": "Criciuma vs Operario Ferroviario PR | 05:30 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4c85b0b6ec",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4c85b0b6ec",
+                  "name": "Criciuma vs Operario Ferroviario PR",
+                  "streams": [
+                    {
+                      "id": "st-4c85b0b6ec",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-44e9aac4d8",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790020359_hd/1790020359_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Brazil Serie B",
+            "team_a": "Criciuma",
+            "team_b": "Operario Ferroviario PR",
+            "logo_a": "https://images.keovip88.net/images/teams/criciuma.png",
+            "logo_b": "https://images.keovip88.net/images/teams/operario-ferroviario-pr.png",
+            "time": "05:30:00",
+            "date": "22/09",
+            "blv": "Ngọng",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aa88adf24d46db8704964fd_88636e8d_20260922.png?v=88636e8d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-a27501f65d",
           "name": "Al-Duhail vs Al Arabi | 00:15 22/09",
@@ -84,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/r3sywqesax2o_b04f3773_20260922.png?v=b04f3773",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-4c85b0b6ec",
-          "name": "Criciuma vs Operario Ferroviario PR | 05:30 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4c85b0b6ec",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4c85b0b6ec",
-                  "name": "Criciuma vs Operario Ferroviario PR",
-                  "streams": [
-                    {
-                      "id": "st-4c85b0b6ec",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-44e9aac4d8",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790020359_hd/1790020359_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Brazil Serie B",
-            "team_a": "Criciuma",
-            "team_b": "Operario Ferroviario PR",
-            "logo_a": "https://images.keovip88.net/images/teams/criciuma.png",
-            "logo_b": "https://images.keovip88.net/images/teams/operario-ferroviario-pr.png",
-            "time": "05:30:00",
-            "date": "22/09",
-            "blv": "Ngọng",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aa88adf24d46db8704964fd_88636e8d_20260922.png?v=88636e8d",
             "width": 1600,
             "height": 1200
           }
