@@ -231,6 +231,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-188ff6618e",
+          "name": "Wigan vs Blackpool | 01:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-188ff6618e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-188ff6618e",
+                  "name": "Wigan vs Blackpool",
+                  "streams": [
+                    {
+                      "id": "st-188ff6618e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-072dce3f03",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789913590_hd/1789913590_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp Liên Đoàn Anh",
+            "team_a": "Wigan",
+            "team_b": "Blackpool",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/4/43/Wigan_Athletic.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+            "logo_b": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/df/Blackpool_FC_logo.svg/1280px-Blackpool_FC_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+            "time": "01:00:00",
+            "date": "23/09",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/785jnmli8xo5_1944359b_20260922.png?v=1944359b",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -324,7 +396,7 @@
       "channels": [
         {
           "id": "gv-d7cc5c4aa4",
-          "name": "FOKUS vs Sangal Esport | 17:00 21/09",
+          "name": "FOKUS vs Sangal Esport | 23:00 21/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -379,7 +451,7 @@
             "team_b": "Sangal Esport",
             "logo_a": "https://static.flashscore.com/res/image/data/jeCAnlFG-86KSX4dQ.png",
             "logo_b": "https://static.flashscore.com/res/image/data/Wl3fdkFa-2yjQSp95.png",
-            "time": "17:00:00",
+            "time": "23:00:00",
             "date": "21/09",
             "blv": "Mickey",
             "is_live": true,
