@@ -663,12 +663,156 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-c734e7d56d",
+          "name": "U23 Iran vs U23 Triều Tiên | 12:30 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c734e7d56d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c734e7d56d",
+                  "name": "U23 Iran vs U23 Triều Tiên",
+                  "streams": [
+                    {
+                      "id": "st-c734e7d56d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0030d18369",
+                          "name": "Bón",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790081010_hd/1790081010_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAD 2026",
+            "team_a": "U23 Iran",
+            "team_b": "U23 Triều Tiên",
+            "logo_a": "https://static.flashscore.com/res/image/data/CA3yhoGG-KMidKLjl.png",
+            "logo_b": "https://images.keovip88.net/images/teams/north-korea-w.png",
+            "time": "12:30:00",
+            "date": "23/09",
+            "blv": "Bón",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/zcqd6mggoore_10721be4_20260922.png?v=10721be4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-55f0247157",
+          "name": "U23 Trung Quốc vs U23 UAE | 12:30 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-55f0247157",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-55f0247157",
+                  "name": "U23 Trung Quốc vs U23 UAE",
+                  "streams": [
+                    {
+                      "id": "st-55f0247157",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9fd7e44c88",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790081074_hd/1790081074_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAD 2026",
+            "team_a": "U23 Trung Quốc",
+            "team_b": "U23 UAE",
+            "logo_a": "https://images.keovip88.net/images/teams/china-u17.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/v_vORXEGt13cTEb-zw7yWA_96x96.png",
+            "time": "12:30:00",
+            "date": "23/09",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/nikl30by99k3_1bfc97db_20260922.png?v=1bfc97db",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -681,10 +825,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -733,7 +877,7 @@
             "time": "19:30:00",
             "date": "22/09",
             "blv": "Điếc",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "basketball"
           },
           "image": {
@@ -741,6 +885,294 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/35697377_44ac6b20_20260922.png?v=44ac6b20",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3c265c9c29",
+          "name": "Chicago Sky vs Toronto Tempo | 07:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3c265c9c29",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3c265c9c29",
+                  "name": "Chicago Sky vs Toronto Tempo",
+                  "streams": [
+                    {
+                      "id": "st-3c265c9c29",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-981c46cb5f",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790081172_hd/1790081172_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Chicago Sky",
+            "team_b": "Toronto Tempo",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/0a570e6f3972fccc8370091d6ffdef5e.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/2144aaf701fac7e3c3caf3853aeb9929.png",
+            "time": "07:00:00",
+            "date": "23/09",
+            "blv": "Mickey",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/10525079_38d1d432_20260922.png?v=38d1d432",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f22f582ae4",
+          "name": "Indiana Fever vs Minnesota Lynx | 07:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f22f582ae4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f22f582ae4",
+                  "name": "Indiana Fever vs Minnesota Lynx",
+                  "streams": [
+                    {
+                      "id": "st-f22f582ae4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f646288422",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790081200_hd/1790081200_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Indiana Fever",
+            "team_b": "Minnesota Lynx",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/2672748dfcca12a59823b97a08ffb22d.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/df5084b6a0e471356f94c0d460105072.png",
+            "time": "07:00:00",
+            "date": "23/09",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21525070_e402a065_20260922.png?v=e402a065",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-97affd4de8",
+          "name": "Las Vegas Aces vs Los Angeles Sparks | 09:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-97affd4de8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-97affd4de8",
+                  "name": "Las Vegas Aces vs Los Angeles Sparks",
+                  "streams": [
+                    {
+                      "id": "st-97affd4de8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30d5326e40",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790081239_hd/1790081239_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Las Vegas Aces",
+            "team_b": "Los Angeles Sparks",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/cbf9424df17d6e06d655dca78651d329.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/32f21070cfd05affb7125a707c2b3b37.png",
+            "time": "09:00:00",
+            "date": "23/09",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/22525071_70e6fcba_20260922.png?v=70e6fcba",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-789b1a39de",
+          "name": "Portland Fire vs Golden State Valkyries | 09:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-789b1a39de",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-789b1a39de",
+                  "name": "Portland Fire vs Golden State Valkyries",
+                  "streams": [
+                    {
+                      "id": "st-789b1a39de",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-aa79fa8bab",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790081289_hd/1790081289_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Portland Fire",
+            "team_b": "Golden State Valkyries",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/687f4fda7efc61afefa80ee3591a56f2.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png",
+            "time": "09:00:00",
+            "date": "23/09",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/23525072_aba8d1a8_20260922.png?v=aba8d1a8",
             "width": 1600,
             "height": 1200
           }
@@ -1200,6 +1632,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/n6a9m7k6zd4z_a0d829ba_20260922.png?v=a0d829ba",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-4d160e13b4",
+          "name": "Los Angeles Dodgers vs San Diego Padres | 09:10 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4d160e13b4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4d160e13b4",
+                  "name": "Los Angeles Dodgers vs San Diego Padres",
+                  "streams": [
+                    {
+                      "id": "st-4d160e13b4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-711a258494",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790081316_hd/1790081316_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Los Angeles Dodgers",
+            "team_b": "San Diego Padres",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/58MDezoOT1DAkMexRNiW3w_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/iM_hcWzccgEfD4bo-sp6Wg_96x96.png",
+            "time": "09:10:00",
+            "date": "23/09",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/aapc2xt62zym_debd422b_20260922.png?v=debd422b",
             "width": 1600,
             "height": 1200
           }
