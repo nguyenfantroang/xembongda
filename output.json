@@ -114,25 +114,7 @@
                     {
                       "id": "st-1f3b1833e0",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-24aae9eb50",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790016476_hd/1790016476_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -147,7 +129,7 @@
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/9-A8iDJhj09K55En7WPQBg_96x96.png",
             "time": "12:00:00",
             "date": "22/09",
-            "blv": "Súp",
+            "blv": "",
             "is_live": true,
             "cate_type": "football"
           },
@@ -989,11 +971,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-cc0db87a1c",
-                          "name": "Điếc",
+                          "id": "lnk-97fb5f37a1",
+                          "name": "Chồn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790016691_hd/1790016691_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790059256_hd/1790059256_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1020,7 +1002,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/b86166676d101a3bcea1c2899eac8ab4.png",
             "time": "14:00:00",
             "date": "22/09",
-            "blv": "Điếc",
+            "blv": "Chồn",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -1181,7 +1163,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1194,10 +1176,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1246,7 +1228,7 @@
             "time": "14:00:00",
             "date": "22/09",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
