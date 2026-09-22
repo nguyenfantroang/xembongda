@@ -668,83 +668,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-a902db5be2",
-          "name": "Kazakhstan (W) vs Hong Kong China (W) | 08:00 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a902db5be2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a902db5be2",
-                  "name": "Kazakhstan (W) vs Hong Kong China (W)",
-                  "streams": [
-                    {
-                      "id": "st-a902db5be2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ce55eb3739",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790016570_hd/1790016570_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women's basketball match of the Asian Games",
-            "team_a": "Kazakhstan (W)",
-            "team_b": "Hong Kong China (W)",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/14eca0b67d35a6b3598948827cfb7280.jpg",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/433930de8f12ad07b76294a2a2ce98be.png",
-            "time": "08:00:00",
-            "date": "22/09",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21456376_eaf19d59_20260922.png?v=eaf19d59",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f6c7784997",
           "name": "Phoenix Mercury vs Dallas Wings | 09:00 22/09",
