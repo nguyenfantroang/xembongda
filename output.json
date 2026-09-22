@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-57274c1f6a",
-          "name": "FarDU vs BuxDU | 18:00 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-57274c1f6a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-57274c1f6a",
-                  "name": "FarDU vs BuxDU",
-                  "streams": [
-                    {
-                      "id": "st-57274c1f6a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27d5848e11",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790053284_hd/1790053284_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Uzbekistan Pro Liga",
-            "team_a": "FarDU",
-            "team_b": "BuxDU",
-            "logo_a": "https://static.flashscore.com/res/image/data/hMMEC3jl-jNuQsmNA.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/YqKsfXdM-pbWJWBCj.png",
-            "time": "18:00:00",
-            "date": "22/09",
-            "blv": "BLV Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/7gp73y60lzrc_c529be99_20260922.png?v=c529be99",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-42cf7020ec",
           "name": "TerDU vs Gazalkent | 21:00 22/09",
