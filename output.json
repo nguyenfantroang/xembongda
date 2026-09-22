@@ -746,78 +746,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-2f872c7853",
-          "name": "New York Liberty vs Atlanta Dream | 07:00 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2f872c7853",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2f872c7853",
-                  "name": "New York Liberty vs Atlanta Dream",
-                  "streams": [
-                    {
-                      "id": "st-2f872c7853",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a1680514fb",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790016547_hd/1790016547_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "New York Liberty",
-            "team_b": "Atlanta Dream",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/7a41b2cf98e8350722b096134858af8e.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/f527c983cab3560c60e7b9d147904d7d.png",
-            "time": "07:00:00",
-            "date": "22/09",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/27425075_8cdade78_20260922.png?v=8cdade78",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-a902db5be2",
           "name": "Kazakhstan (W) vs Hong Kong China (W) | 08:00 22/09",
           "type": "single",
@@ -897,10 +825,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -949,7 +877,7 @@
             "time": "09:00:00",
             "date": "22/09",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1109,83 +1037,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-88f3242a37",
-          "name": "Kazakhstan vs Việt Nam | 08:00 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-88f3242a37",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-88f3242a37",
-                  "name": "Kazakhstan vs Việt Nam",
-                  "streams": [
-                    {
-                      "id": "st-88f3242a37",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fe6f90fe9c",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790016751_hd/1790016751_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad 2026",
-            "team_a": "Kazakhstan",
-            "team_b": "Việt Nam",
-            "logo_a": "https://static.flashscore.com/res/image/data/hMQTrXVg-Cfuwb3yH.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IUYV_ZAMxDdabQPzSpTJtg_96x96.png",
-            "time": "08:00:00",
-            "date": "22/09",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/dyf73rc84yam_cedc961a_20260922.png?v=cedc961a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6f68021322",
           "name": "Đài Bắc Trung Hoa vs Indonesia | 11:00 22/09",
