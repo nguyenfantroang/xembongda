@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,6 +89,78 @@
           }
         },
         {
+          "id": "gv-8b3373cfac",
+          "name": "U23 Philippines vs U23 Kuwait | 12:00 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8b3373cfac",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8b3373cfac",
+                  "name": "U23 Philippines vs U23 Kuwait",
+                  "streams": [
+                    {
+                      "id": "st-8b3373cfac",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e683e0326d",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790016415_hd/1790016415_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAD 2026",
+            "team_a": "U23 Philippines",
+            "team_b": "U23 Kuwait",
+            "logo_a": "https://images.keovip88.net/images/teams/philippines.png",
+            "logo_b": "https://images.keovip88.net/images/teams/kuwait.png",
+            "time": "12:00:00",
+            "date": "22/09",
+            "blv": "Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/eg3wgr7p8a00_e92e47ea_20260922.png?v=e92e47ea",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-1f3b1833e0",
           "name": "U23 Việt Nam vs U23 Uzbekistan | 12:00 22/09",
           "type": "single",
@@ -156,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/0f5wpp8i5z3f_14eceb99_20260922.png?v=14eceb99",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8b3373cfac",
-          "name": "U23 Philippines vs U23 Kuwait | 12:00 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8b3373cfac",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8b3373cfac",
-                  "name": "U23 Philippines vs U23 Kuwait",
-                  "streams": [
-                    {
-                      "id": "st-8b3373cfac",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e683e0326d",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790016415_hd/1790016415_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIAD 2026",
-            "team_a": "U23 Philippines",
-            "team_b": "U23 Kuwait",
-            "logo_a": "https://images.keovip88.net/images/teams/philippines.png",
-            "logo_b": "https://images.keovip88.net/images/teams/kuwait.png",
-            "time": "12:00:00",
-            "date": "22/09",
-            "blv": "Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/eg3wgr7p8a00_e92e47ea_20260922.png?v=e92e47ea",
             "width": 1600,
             "height": 1200
           }
