@@ -1100,11 +1100,83 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-7047a447cb",
+          "name": "Washington Mystics vs Connecticut Sun | 06:30 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7047a447cb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7047a447cb",
+                  "name": "Washington Mystics vs Connecticut Sun",
+                  "streams": [
+                    {
+                      "id": "st-7047a447cb",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-09b3b46136",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790119265_hd/1790119265_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Washington Mystics",
+            "team_b": "Connecticut Sun",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e4fdbc941d11c2927bafb5b8978e8ea6.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/691f1fbb808378a5c4cb07fa320d017d.png",
+            "time": "06:30:00",
+            "date": "23/09",
+            "blv": "Vịt",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/29425077_de952b23_20260923.png?v=de952b23",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-3c265c9c29",
           "name": "Chicago Sky vs Toronto Tempo | 07:00 23/09",
