@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-42cf7020ec",
+          "name": "TerDU vs Gazalkent | 21:00 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-42cf7020ec",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-42cf7020ec",
+                  "name": "TerDU vs Gazalkent",
+                  "streams": [
+                    {
+                      "id": "st-42cf7020ec",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a8be6b5017",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790053333_hd/1790053333_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Uzbekistan Pro Liga",
+            "team_a": "TerDU",
+            "team_b": "Gazalkent",
+            "logo_a": "https://static.flashscore.com/res/image/data/noDiKGCa-W2CZaars.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/faCOxfWg-EoEe4K82.png",
+            "time": "21:00:00",
+            "date": "22/09",
+            "blv": "Bee",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/4bmp1oxjmc76_1b665a3e_20260922.png?v=1b665a3e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-fd2229e30b",
           "name": "Al Hamriyah vs Al Thaid | 21:40 22/09",
@@ -1029,6 +1101,168 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/23525072_aba8d1a8_20260922.png?v=aba8d1a8",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchuyen",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-666a8a290b",
+          "name": "Pháp vs Romania | 20:00 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-666a8a290b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-666a8a290b",
+                  "name": "Pháp vs Romania",
+                  "streams": [
+                    {
+                      "id": "st-666a8a290b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-91ce2acc48",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790074655_hd/1790074655_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Championship",
+            "team_a": "Pháp",
+            "team_b": "Romania",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/z3JEQB3coEAGLCJBEUzQ2A_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/QneSJOdYzN7b6Z_cbKQAEw_96x96.png",
+            "time": "20:00:00",
+            "date": "22/09",
+            "blv": "Sún",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6eltdi8v881i_3f5f58e2_20260922.png?v=3f5f58e2",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-22f18393da",
+          "name": "HEROIC vs BBL Esport | 20:00 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-22f18393da",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-22f18393da",
+                  "name": "HEROIC vs BBL Esport",
+                  "streams": [
+                    {
+                      "id": "st-22f18393da",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d0a81e507e",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790069921_hd/1790069921_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CS2-Stake Pulse Beat II",
+            "team_a": "HEROIC",
+            "team_b": "BBL Esport",
+            "logo_a": "https://static.flashscore.com/res/image/data/hfE9jfGG-rXEJRiDo.png",
+            "logo_b": "https://files.tips.gg/static/image/teams/bbl-csgo.png",
+            "time": "20:00:00",
+            "date": "22/09",
+            "blv": "Mickey",
+            "is_live": true,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/114zjj0sqbpv_4a915c63_20260922.png?v=4a915c63",
             "width": 1600,
             "height": 1200
           }
