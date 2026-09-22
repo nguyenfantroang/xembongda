@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-fd2229e30b",
-          "name": "Al Hamriyah vs Al Thaid | 21:40 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fd2229e30b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fd2229e30b",
-                  "name": "Al Hamriyah vs Al Thaid",
-                  "streams": [
-                    {
-                      "id": "st-fd2229e30b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ef8712f6b3",
-                          "name": "Bón",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790053400_hd/1790053400_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UAE Presidents Cup",
-            "team_a": "Al Hamriyah",
-            "team_b": "Al Thaid",
-            "logo_a": "https://static.flashscore.com/res/image/data/4YkwnwCr-SQmQu5R8.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/IBCqhocM-jeJRhi1f.png",
-            "time": "21:40:00",
-            "date": "22/09",
-            "blv": "Bón",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/b1gqp5b8qxf7_8c5360e9_20260923.png?v=8c5360e9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-1e888803d8",
           "name": "Nữ Bayern Munich vs Nữ Manchester City | 23:45 22/09",
@@ -1032,49 +960,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-bddfd4ae92",
-          "name": "Ba Lan vs Đức | 23:00 22/09",
+          "id": "gv-af899ef2c0",
+          "name": "Cairns Taipans vs Tasmania JackJumpers | 16:30 23/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-bddfd4ae92",
+              "id": "src-af899ef2c0",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-bddfd4ae92",
-                  "name": "Ba Lan vs Đức",
+                  "id": "ct-af899ef2c0",
+                  "name": "Cairns Taipans vs Tasmania JackJumpers",
                   "streams": [
                     {
-                      "id": "st-bddfd4ae92",
+                      "id": "st-af899ef2c0",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-ae79823084",
-                          "name": "Sún",
+                          "id": "lnk-8b39f8196a",
+                          "name": "Cầy",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790092639_hd/1790092639_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790098760_hd/1790098760_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1094,22 +1013,22 @@
             }
           ],
           "org_metadata": {
-            "league": "European Championship",
-            "team_a": "Ba Lan",
-            "team_b": "Đức",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/yTS_Piy3M1wUBnqU0n5aAw_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/h1FhPLmDg9AHXzhygqvVPg_96x96.png",
-            "time": "23:00:00",
-            "date": "22/09",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
+            "league": "National Basketball League(Australia)",
+            "team_a": "Cairns Taipans",
+            "team_b": "Tasmania JackJumpers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/690d69ad99fc8d3bd6fe4a7131521421.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/b4775c62432e01185c4fd9669952b258.png",
+            "time": "16:30:00",
+            "date": "23/09",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/rf9xdnzqawi8_d61f98c7_20260923.png?v=d61f98c7",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/28122272_a8c03cfe_20260923.png?v=a8c03cfe",
             "width": 1600,
             "height": 1200
           }
