@@ -740,83 +740,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-3b8f45f89a",
-          "name": "Brisbane Bullets vs New Zealand Breakers | 16:30 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3b8f45f89a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3b8f45f89a",
-                  "name": "Brisbane Bullets vs New Zealand Breakers",
-                  "streams": [
-                    {
-                      "id": "st-3b8f45f89a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-99c875a70e",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790070010_hd/1790070010_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball League(Australia)",
-            "team_a": "Brisbane Bullets",
-            "team_b": "New Zealand Breakers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/fd1ef26f7174d02a5a30dbe9e69b45f9.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/7778a93083d2fa50e4cb4e128f07cf5f.png",
-            "time": "16:30:00",
-            "date": "22/09",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/27122271_56286d5f_20260922.png?v=56286d5f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-8a1a6f632e",
           "name": "Mongolia (W) vs Malaysia (W) | 17:00 22/09",
@@ -1488,87 +1416,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/n6a9m7k6zd4z_a0d829ba_20260922.png?v=a0d829ba",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-d4cf4d3213",
-          "name": "Nhật Bản vs Palestine | 16:30 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d4cf4d3213",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d4cf4d3213",
-                  "name": "Nhật Bản vs Palestine",
-                  "streams": [
-                    {
-                      "id": "st-d4cf4d3213",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7610310dbe",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790066992_hd/1790066992_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad 2026",
-            "team_a": "Nhật Bản",
-            "team_b": "Palestine",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/by4OltvtZz7taxuQtkiP3A_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/qxBrX9S2fwxQ5BHasGlEuQ_96x96.png",
-            "time": "16:30:00",
-            "date": "22/09",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/b0y6weze2dk7_c637b19e_20260922.png?v=c637b19e",
             "width": 1600,
             "height": 1200
           }
