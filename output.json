@@ -1100,83 +1100,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-af899ef2c0",
-          "name": "Cairns Taipans vs Tasmania JackJumpers | 16:30 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-af899ef2c0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-af899ef2c0",
-                  "name": "Cairns Taipans vs Tasmania JackJumpers",
-                  "streams": [
-                    {
-                      "id": "st-af899ef2c0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8b39f8196a",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790098760_hd/1790098760_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball League(Australia)",
-            "team_a": "Cairns Taipans",
-            "team_b": "Tasmania JackJumpers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/690d69ad99fc8d3bd6fe4a7131521421.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/b4775c62432e01185c4fd9669952b258.png",
-            "time": "16:30:00",
-            "date": "23/09",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/28122272_a8c03cfe_20260923.png?v=a8c03cfe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-be5e31846f",
           "name": "Dubai vs Real Madrid Teka | 23:00 24/09",
