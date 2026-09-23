@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -161,78 +161,6 @@
           }
         },
         {
-          "id": "gv-b503ffd048",
-          "name": "Feyenoord W vs Vålerenga W | 23:59 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b503ffd048",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b503ffd048",
-                  "name": "Feyenoord W vs Vålerenga W",
-                  "streams": [
-                    {
-                      "id": "st-b503ffd048",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c571b287d7",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790129425_hd/1790129425_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa Cup Women",
-            "team_a": "Feyenoord W",
-            "team_b": "Vålerenga W",
-            "logo_a": "https://static.flashscore.com/res/image/data/2ebRtpBr-zVZIA7Nc.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/QkkXiGYA-YXREKNz0.png",
-            "time": "23:59:00",
-            "date": "23/09",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/vj98l99bcnuz_6c042a44_20260924.png?v=6c042a44",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-452a298066",
           "name": "Hammarby W vs Rangers LFC W | 23:59 23/09",
           "type": "single",
@@ -372,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/yov3a1slfhxv_c559fd6d_20260924.png?v=c559fd6d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b503ffd048",
+          "name": "Feyenoord W vs Vålerenga W | 23:59 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b503ffd048",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b503ffd048",
+                  "name": "Feyenoord W vs Vålerenga W",
+                  "streams": [
+                    {
+                      "id": "st-b503ffd048",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c571b287d7",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790129425_hd/1790129425_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa Cup Women",
+            "team_a": "Feyenoord W",
+            "team_b": "Vålerenga W",
+            "logo_a": "https://static.flashscore.com/res/image/data/2ebRtpBr-zVZIA7Nc.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QkkXiGYA-YXREKNz0.png",
+            "time": "23:59:00",
+            "date": "23/09",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/vj98l99bcnuz_6c042a44_20260924.png?v=6c042a44",
             "width": 1600,
             "height": 1200
           }
