@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-da08abbc12",
-          "name": "New York Yankees vs Tampa Bay Rays | 06:05 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-da08abbc12",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-da08abbc12",
-                  "name": "New York Yankees vs Tampa Bay Rays",
-                  "streams": [
-                    {
-                      "id": "st-da08abbc12",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-84f7f09989",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790089758_hd/1790089758_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "New York Yankees",
-            "team_b": "Tampa Bay Rays",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9_0Lyr2S2koF-Bs9cC_IOduDV7COArCgCCAEqH0vNEw&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxpdhw894FQt6N2CQ8i8b6CLS_j05OZl4PG8ZE9B06aQ&s=10",
-            "time": "06:05:00",
-            "date": "23/09",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/y4plmo8f0rdw_acc56f7c_20260923.png?v=acc56f7c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c426400be5",
           "name": "ASIAD 2026 vs ASIAD 2026 | 07:00 23/09",
@@ -1095,49 +1023,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-f22f582ae4",
-          "name": "Indiana Fever vs Minnesota Lynx | 07:00 23/09",
+          "id": "gv-85d34ae265",
+          "name": "Brondby IF vs Sporting | 23:00 23/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-f22f582ae4",
+              "id": "src-85d34ae265",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-f22f582ae4",
-                  "name": "Indiana Fever vs Minnesota Lynx",
+                  "id": "ct-85d34ae265",
+                  "name": "Brondby IF vs Sporting",
                   "streams": [
                     {
-                      "id": "st-f22f582ae4",
+                      "id": "st-85d34ae265",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-f646288422",
-                          "name": "Tôm",
+                          "id": "lnk-507773e490",
+                          "name": "Súp",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790081200_hd/1790081200_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790129301_hd/1790129301_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1157,26 +1076,467 @@
             }
           ],
           "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "Indiana Fever",
-            "team_b": "Minnesota Lynx",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/2672748dfcca12a59823b97a08ffb22d.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/df5084b6a0e471356f94c0d460105072.png",
-            "time": "07:00:00",
+            "league": "UEFA Europa Cup Women",
+            "team_a": "Brondby IF",
+            "team_b": "Sporting",
+            "logo_a": "https://static.flashscore.com/res/image/data/xUCbW5yB-Sd4Wk8zD.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/8xqrTEil-8SNyIXUf.png",
+            "time": "23:00:00",
             "date": "23/09",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21525070_e402a065_20260923.png?v=e402a065",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/9xpjejc182u6_5b27d1ac_20260923.png?v=5b27d1ac",
             "width": 1600,
             "height": 1200
           }
         },
+        {
+          "id": "gv-14cb94874d",
+          "name": "Servette (W) vs Nữ Lyonnais | 23:45 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-14cb94874d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-14cb94874d",
+                  "name": "Servette (W) vs Nữ Lyonnais",
+                  "streams": [
+                    {
+                      "id": "st-14cb94874d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bb4a4d5904",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790129381_hd/1790129381_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Champions League Nữ",
+            "team_a": "Servette (W)",
+            "team_b": "Nữ Lyonnais",
+            "logo_a": "https://images.keovip88.net/images/teams/servette-w.png",
+            "logo_b": "https://images.keovip88.net/images/teams/lyon-w.png",
+            "time": "23:45:00",
+            "date": "23/09",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aadd0aa24d46db870f2461b_5afa1b29_20260923.png?v=5afa1b29",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b503ffd048",
+          "name": "Feyenoord W vs Vålerenga W | 23:59 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b503ffd048",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b503ffd048",
+                  "name": "Feyenoord W vs Vålerenga W",
+                  "streams": [
+                    {
+                      "id": "st-b503ffd048",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c571b287d7",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790129425_hd/1790129425_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa Cup Women",
+            "team_a": "Feyenoord W",
+            "team_b": "Vålerenga W",
+            "logo_a": "https://static.flashscore.com/res/image/data/2ebRtpBr-zVZIA7Nc.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QkkXiGYA-YXREKNz0.png",
+            "time": "23:59:00",
+            "date": "23/09",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/vj98l99bcnuz_6c042a44_20260923.png?v=6c042a44",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-452a298066",
+          "name": "Hammarby W vs Rangers LFC W | 23:59 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-452a298066",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-452a298066",
+                  "name": "Hammarby W vs Rangers LFC W",
+                  "streams": [
+                    {
+                      "id": "st-452a298066",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-04e12338d1",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790129531_hd/1790129531_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa Cup Women",
+            "team_a": "Hammarby W",
+            "team_b": "Rangers LFC W",
+            "logo_a": "https://static.flashscore.com/res/image/data/M7BywQyS-U9pKctKr.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/ITamZIjl-niKdeomn.png",
+            "time": "23:59:00",
+            "date": "23/09",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/q16bh2a4febv_07d4796e_20260923.png?v=07d4796e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-492871d25f",
+          "name": "PSV W vs Fortuna W | 23:59 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-492871d25f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-492871d25f",
+                  "name": "PSV W vs Fortuna W",
+                  "streams": [
+                    {
+                      "id": "st-492871d25f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7c44326a3a",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790129578_hd/1790129578_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa Cup Women",
+            "team_a": "PSV W",
+            "team_b": "Fortuna W",
+            "logo_a": "https://static.flashscore.com/res/image/data/0W1C1myS-Myi417I9.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/UNQxrWDa-vaxZbxYc.png",
+            "time": "23:59:00",
+            "date": "23/09",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/yov3a1slfhxv_c559fd6d_20260923.png?v=c559fd6d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-63503e82f0",
+          "name": "Itabirito vs Cruzeiro | 01:00 24/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-63503e82f0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-63503e82f0",
+                  "name": "Itabirito vs Cruzeiro",
+                  "streams": [
+                    {
+                      "id": "st-63503e82f0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-10ea766891",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790129698_hd/1790129698_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Mineiro Feminino",
+            "team_a": "Itabirito",
+            "team_b": "Cruzeiro",
+            "logo_a": "https://static.flashscore.com/res/image/data/E9dIygWg-YJMM9EqO.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/tE3XE0Ca-re7YM05n.png",
+            "time": "01:00:00",
+            "date": "24/09",
+            "blv": "Mickey",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/q05jbjzmejir_c9072e6d_20260923.png?v=c9072e6d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d332c28db4",
+          "name": "Nữ FC Barcelona vs Nữ Paris FC | 02:00 24/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d332c28db4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d332c28db4",
+                  "name": "Nữ FC Barcelona vs Nữ Paris FC",
+                  "streams": [
+                    {
+                      "id": "st-d332c28db4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b95bd99ee2",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790129803_hd/1790129803_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Champions League Nữ",
+            "team_a": "Nữ FC Barcelona",
+            "team_b": "Nữ Paris FC",
+            "logo_a": "https://images.keovip88.net/images/teams/barcelona-w.png",
+            "logo_b": "https://images.keovip88.net/images/teams/paris-fc-w.png",
+            "time": "02:00:00",
+            "date": "24/09",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aadd18745163e9e3e085d3f_56102975_20260923.png?v=56102975",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_basketball",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "gv-97affd4de8",
           "name": "Las Vegas Aces vs Los Angeles Sparks | 09:00 23/09",
@@ -1257,10 +1617,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1309,7 +1669,7 @@
             "time": "09:00:00",
             "date": "23/09",
             "blv": "Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1470,6 +1830,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/zmpjuvorm221_9dccf5f1_20260923.png?v=9dccf5f1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6975357f09",
+          "name": "Ý vs Phần Lan | 02:05 24/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6975357f09",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6975357f09",
+                  "name": "Ý vs Phần Lan",
+                  "streams": [
+                    {
+                      "id": "st-6975357f09",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7320907ec9",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790129217_hd/1790129217_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Championship",
+            "team_a": "Ý",
+            "team_b": "Phần Lan",
+            "logo_a": "https://static.flashscore.com/res/image/data/0fCwuvXg-My5qjuKd.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/StVvHBFG-GtHlbqQc.png",
+            "time": "02:05:00",
+            "date": "24/09",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/k6pg8duvmxu7_1bc12b1e_20260923.png?v=1bc12b1e",
             "width": 1600,
             "height": 1200
           }
@@ -1856,7 +2288,7 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1869,10 +2301,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1921,7 +2353,7 @@
             "time": "09:10:00",
             "date": "23/09",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchay"
           },
           "image": {
@@ -1929,6 +2361,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/aapc2xt62zym_debd422b_20260923.png?v=debd422b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a972ea07d6",
+          "name": "New York Yankees vs Tampa Bay Rays | 06:05 24/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a972ea07d6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a972ea07d6",
+                  "name": "New York Yankees vs Tampa Bay Rays",
+                  "streams": [
+                    {
+                      "id": "st-a972ea07d6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-34dac2138d",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790129114_hd/1790129114_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "New York Yankees",
+            "team_b": "Tampa Bay Rays",
+            "logo_a": "https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/lGlxbdyB-6yNDMrbJ.png",
+            "time": "06:05:00",
+            "date": "24/09",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/m0sxzadlr0oa_dc3f8b98_20260923.png?v=dc3f8b98",
             "width": 1600,
             "height": 1200
           }
