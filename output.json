@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "gv-c426400be5",
-          "name": "ASIAD 2026 vs ASIAD 2026 | 07:00 23/09",
+          "name": "ASIAD 2026 vs ASIAD 2026 | 11:00 23/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,7 +73,7 @@
             "team_b": "ASIAD 2026",
             "logo_a": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "logo_b": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "time": "07:00:00",
+            "time": "11:00:00",
             "date": "23/09",
             "blv": "BLV Túi Mù",
             "is_live": true,
@@ -1676,83 +1676,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-97affd4de8",
-          "name": "Las Vegas Aces vs Los Angeles Sparks | 09:00 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-97affd4de8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-97affd4de8",
-                  "name": "Las Vegas Aces vs Los Angeles Sparks",
-                  "streams": [
-                    {
-                      "id": "st-97affd4de8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30d5326e40",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790081239_hd/1790081239_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "Las Vegas Aces",
-            "team_b": "Los Angeles Sparks",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/cbf9424df17d6e06d655dca78651d329.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/32f21070cfd05affb7125a707c2b3b37.png",
-            "time": "09:00:00",
-            "date": "23/09",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/22525071_70e6fcba_20260923.png?v=70e6fcba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-789b1a39de",
           "name": "Portland Fire vs Golden State Valkyries | 09:00 23/09",
