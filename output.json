@@ -11,11 +11,371 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-85d34ae265",
+          "name": "Brondby IF vs Sporting | 23:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-85d34ae265",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-85d34ae265",
+                  "name": "Brondby IF vs Sporting",
+                  "streams": [
+                    {
+                      "id": "st-85d34ae265",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-507773e490",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790129301_hd/1790129301_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa Cup Women",
+            "team_a": "Brondby IF",
+            "team_b": "Sporting",
+            "logo_a": "https://static.flashscore.com/res/image/data/xUCbW5yB-Sd4Wk8zD.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/8xqrTEil-8SNyIXUf.png",
+            "time": "23:00:00",
+            "date": "23/09",
+            "blv": "Súp",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/9xpjejc182u6_5b27d1ac_20260924.png?v=5b27d1ac",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-14cb94874d",
+          "name": "Servette (W) vs Nữ Lyonnais | 23:45 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-14cb94874d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-14cb94874d",
+                  "name": "Servette (W) vs Nữ Lyonnais",
+                  "streams": [
+                    {
+                      "id": "st-14cb94874d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bb4a4d5904",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790129381_hd/1790129381_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Champions League Nữ",
+            "team_a": "Servette (W)",
+            "team_b": "Nữ Lyonnais",
+            "logo_a": "https://images.keovip88.net/images/teams/servette-w.png",
+            "logo_b": "https://images.keovip88.net/images/teams/lyon-w.png",
+            "time": "23:45:00",
+            "date": "23/09",
+            "blv": "Bee",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aadd0aa24d46db870f2461b_5afa1b29_20260924.png?v=5afa1b29",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b503ffd048",
+          "name": "Feyenoord W vs Vålerenga W | 23:59 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b503ffd048",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b503ffd048",
+                  "name": "Feyenoord W vs Vålerenga W",
+                  "streams": [
+                    {
+                      "id": "st-b503ffd048",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c571b287d7",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790129425_hd/1790129425_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa Cup Women",
+            "team_a": "Feyenoord W",
+            "team_b": "Vålerenga W",
+            "logo_a": "https://static.flashscore.com/res/image/data/2ebRtpBr-zVZIA7Nc.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QkkXiGYA-YXREKNz0.png",
+            "time": "23:59:00",
+            "date": "23/09",
+            "blv": "Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/vj98l99bcnuz_6c042a44_20260924.png?v=6c042a44",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-452a298066",
+          "name": "Hammarby W vs Rangers LFC W | 23:59 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-452a298066",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-452a298066",
+                  "name": "Hammarby W vs Rangers LFC W",
+                  "streams": [
+                    {
+                      "id": "st-452a298066",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-04e12338d1",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790129531_hd/1790129531_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa Cup Women",
+            "team_a": "Hammarby W",
+            "team_b": "Rangers LFC W",
+            "logo_a": "https://static.flashscore.com/res/image/data/M7BywQyS-U9pKctKr.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/ITamZIjl-niKdeomn.png",
+            "time": "23:59:00",
+            "date": "23/09",
+            "blv": "Mù",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/q16bh2a4febv_07d4796e_20260924.png?v=07d4796e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-492871d25f",
+          "name": "PSV W vs Fortuna W | 23:59 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-492871d25f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-492871d25f",
+                  "name": "PSV W vs Fortuna W",
+                  "streams": [
+                    {
+                      "id": "st-492871d25f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7c44326a3a",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790129578_hd/1790129578_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa Cup Women",
+            "team_a": "PSV W",
+            "team_b": "Fortuna W",
+            "logo_a": "https://static.flashscore.com/res/image/data/0W1C1myS-Myi417I9.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/UNQxrWDa-vaxZbxYc.png",
+            "time": "23:59:00",
+            "date": "23/09",
+            "blv": "Ngọng",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/yov3a1slfhxv_c559fd6d_20260924.png?v=c559fd6d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-63503e82f0",
           "name": "Itabirito vs Cruzeiro | 01:00 24/09",
@@ -258,7 +618,25 @@
                     {
                       "id": "st-51f0e69819",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-bab7a7ef83",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790144037_hd/1790144037_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -273,7 +651,7 @@
             "logo_b": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Equatorial_Guinea.svg/250px-Flag_of_Equatorial_Guinea.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "time": "23:00:00",
             "date": "24/09",
-            "blv": "",
+            "blv": "Trĩ",
             "is_live": false,
             "cate_type": "football"
           },
@@ -312,7 +690,25 @@
                     {
                       "id": "st-26cd5110cd",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c47fcd9611",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790144181_hd/1790144181_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -327,7 +723,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/botswana.png",
             "time": "23:00:00",
             "date": "24/09",
-            "blv": "",
+            "blv": "Bee",
             "is_live": false,
             "cate_type": "football"
           },
@@ -366,7 +762,25 @@
                     {
                       "id": "st-eb9fff876d",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b1930a68a7",
+                          "name": "Bón",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790144242_hd/1790144242_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -381,7 +795,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Central_African_Republic.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
             "time": "23:00:00",
             "date": "24/09",
-            "blv": "",
+            "blv": "Bón",
             "is_live": false,
             "cate_type": "football"
           },
@@ -420,7 +834,25 @@
                     {
                       "id": "st-0d453b5ad3",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c84db09387",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790144299_hd/1790144299_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -435,7 +867,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/malta.png",
             "time": "23:00:00",
             "date": "24/09",
-            "blv": "",
+            "blv": "Riko",
             "is_live": false,
             "cate_type": "football"
           },
@@ -483,7 +915,25 @@
                     {
                       "id": "st-be5e31846f",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-64046369e1",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790144579_hd/1790144579_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -498,7 +948,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/baacc764f89f2ce4c22b48768946ca5a.png",
             "time": "23:00:00",
             "date": "24/09",
-            "blv": "",
+            "blv": "Điếc",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -537,7 +987,25 @@
                     {
                       "id": "st-7c1e55e2be",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0b4b0806b7",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790144655_hd/1790144655_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -552,7 +1020,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/1ee20d34aaf3954a5ae419166d015a1d.png",
             "time": "23:00:00",
             "date": "24/09",
-            "blv": "",
+            "blv": "Ben",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -591,7 +1059,25 @@
                     {
                       "id": "st-47cdfe74bb",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-5733c55d75",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790144678_hd/1790144678_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -606,7 +1092,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/2144aaf701fac7e3c3caf3853aeb9929.png",
             "time": "06:00:00",
             "date": "25/09",
-            "blv": "",
+            "blv": "Cầy",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -768,6 +1254,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/k6pg8duvmxu7_1bc12b1e_20260924.png?v=1bc12b1e",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-dc68a269ce",
+          "name": "100 Thieves vs Phantom Esport | 20:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dc68a269ce",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-dc68a269ce",
+                  "name": "100 Thieves vs Phantom Esport",
+                  "streams": [
+                    {
+                      "id": "st-dc68a269ce",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e794f1ef",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790100667_hd/1790100667_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CS2-Stake Pulse Beat II",
+            "team_a": "100 Thieves",
+            "team_b": "Phantom Esport",
+            "logo_a": "https://static.flashscore.com/res/image/data/OnJoAH9r-0lwPsCX2.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/x6n8cWYA-dGAZpaD5.png",
+            "time": "20:00:00",
+            "date": "23/09",
+            "blv": "Mickey",
+            "is_live": true,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/nnix6hiaysit_a41530fc_20260924.png?v=a41530fc",
             "width": 1600,
             "height": 1200
           }
