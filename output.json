@@ -11,227 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5defc9c3f0",
-          "name": "Machida vs Tochigi City | 15:00 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5defc9c3f0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5defc9c3f0",
-                  "name": "Machida vs Tochigi City",
-                  "streams": [
-                    {
-                      "id": "st-5defc9c3f0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a0101d378e",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790098934_hd/1790098934_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Emperors Cup",
-            "team_a": "Machida",
-            "team_b": "Tochigi City",
-            "logo_a": "https://static.flashscore.com/res/image/data/zcqIEsil-6uZPCvr9.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/zclXh5Fa-UPlim0Jl.png",
-            "time": "15:00:00",
-            "date": "23/09",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/x2qvjtbnhoma_f95dc93e_20260923.png?v=f95dc93e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-36b8f7d72d",
-          "name": "Gamba Osaka vs Tokushima | 15:00 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-36b8f7d72d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-36b8f7d72d",
-                  "name": "Gamba Osaka vs Tokushima",
-                  "streams": [
-                    {
-                      "id": "st-36b8f7d72d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-171e0c546e",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790099578_hd/1790099578_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Emperors Cup",
-            "team_a": "Gamba Osaka",
-            "team_b": "Tokushima",
-            "logo_a": "https://static.flashscore.com/res/image/data/8Eq347h5-WCk3MDxq.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/CW8x8EeM-j9KqC5rP.png",
-            "time": "15:00:00",
-            "date": "23/09",
-            "blv": "BLV Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/d56w1qfkj6rl_3b197fdf_20260923.png?v=3b197fdf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-a8aa5904a5",
-          "name": "Vissel Kobe vs Sagan Tosu | 15:00 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a8aa5904a5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a8aa5904a5",
-                  "name": "Vissel Kobe vs Sagan Tosu",
-                  "streams": [
-                    {
-                      "id": "st-a8aa5904a5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-404f4de21b",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790147185_hd/1790147185_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Emperors Cup",
-            "team_a": "Vissel Kobe",
-            "team_b": "Sagan Tosu",
-            "logo_a": "https://static.flashscore.com/res/image/data/v9ykKJ9r-4SU3kZUI.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/QTsIrBGG-WYtEUtB2.png",
-            "time": "15:00:00",
-            "date": "23/09",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/zchpn5mtou88_b0ce52c8_20260923.png?v=b0ce52c8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c426400be5",
           "name": "ASIAD 2026 vs ASIAD 2026 | 16:00 23/09",
@@ -305,8 +89,8 @@
           }
         },
         {
-          "id": "gv-a28355620a",
-          "name": "Minsk vs Fenerbahçe Istanbul | 17:00 23/09",
+          "id": "gv-f09a5e4cff",
+          "name": "U23 Kyrgyzstan vs U23 Hồng Kông | 17:30 23/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -316,78 +100,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a28355620a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a28355620a",
-                  "name": "Minsk vs Fenerbahçe Istanbul",
-                  "streams": [
-                    {
-                      "id": "st-a28355620a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-135ba07c49",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790100389_hd/1790100389_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa Cup Women",
-            "team_a": "Minsk",
-            "team_b": "Fenerbahçe Istanbul",
-            "logo_a": "https://static.flashscore.com/res/image/data/fPcgMcAr-0l1B8pB3.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8WgKWiCa-CCQtmQAB.png",
-            "time": "17:00:00",
-            "date": "23/09",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/r36yvmgiucup_0f7232d8_20260923.png?v=0f7232d8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f09a5e4cff",
-          "name": "U23 Kyrgyzstan vs U23 Hồng Kông | 17:30 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -436,7 +148,7 @@
             "time": "17:30:00",
             "date": "23/09",
             "blv": "Bee",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -456,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -508,7 +220,7 @@
             "time": "17:30:00",
             "date": "23/09",
             "blv": "Trĩ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
