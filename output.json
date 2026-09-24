@@ -956,83 +956,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-853ce736a2",
-          "name": "New York Liberty vs Atlanta Dream | 07:00 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-853ce736a2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-853ce736a2",
-                  "name": "New York Liberty vs Atlanta Dream",
-                  "streams": [
-                    {
-                      "id": "st-853ce736a2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-19ac8c1dd1",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790204618_hd/1790204618_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "New York Liberty",
-            "team_b": "Atlanta Dream",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/7a41b2cf98e8350722b096134858af8e.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/f527c983cab3560c60e7b9d147904d7d.png",
-            "time": "07:00:00",
-            "date": "24/09",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/24525073_8cdade78_20260924.png?v=8cdade78",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-d5bbbf171e",
           "name": "Seattle Storm vs Dallas Wings | 09:00 24/09",
