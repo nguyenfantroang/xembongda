@@ -2206,8 +2206,89 @@
       ]
     },
     {
+      "id": "cate_duaxe",
+      "name": "🏎️ Đua Xe",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-a40fb14b7d",
+          "name": "F1 vs F1 | 15:30 24/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a40fb14b7d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a40fb14b7d",
+                  "name": "F1 vs F1",
+                  "streams": [
+                    {
+                      "id": "st-a40fb14b7d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-212d8669f7",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790234614_hd/1790234614_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Qatar Airways Azerbaijan Grand Prix",
+            "team_a": "F1",
+            "team_b": "F1",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGCE1jtvTpfUfFHZBIgH4x5aCRxpXxRS5tkS_OEsuamg&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGCE1jtvTpfUfFHZBIgH4x5aCRxpXxRS5tkS_OEsuamg&s=10",
+            "time": "15:30:00",
+            "date": "24/09",
+            "blv": "Ngu",
+            "is_live": false,
+            "cate_type": "duaxe"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/stdtbtj7vpy4_6bec746e_20260924.png?v=6bec746e",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_Billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2220,10 +2301,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2272,7 +2353,7 @@
             "time": "15:00:00",
             "date": "24/09",
             "blv": "Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "Billiards"
           },
           "image": {
