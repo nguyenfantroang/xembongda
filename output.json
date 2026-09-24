@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -240,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -292,7 +292,7 @@
             "time": "23:00:00",
             "date": "24/09",
             "blv": "Riko",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football"
           },
           "image": {
@@ -807,6 +807,222 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-7be1d0493d",
+          "name": "Armenia vs Latvia | 23:00 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7be1d0493d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7be1d0493d",
+                  "name": "Armenia vs Latvia",
+                  "streams": [
+                    {
+                      "id": "st-7be1d0493d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-36ea38e3d2",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790263856_hd/1790263856_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Armenia",
+            "team_b": "Latvia",
+            "logo_a": "https://images.keovip88.net/images/teams/armenia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/latvia.png",
+            "time": "23:00:00",
+            "date": "25/09",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f695d673ba0b335e0f2ed5_1747789f_20260924.png?v=1747789f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a45df0ff47",
+          "name": "Nigeria vs Madagascar | 23:00 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a45df0ff47",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a45df0ff47",
+                  "name": "Nigeria vs Madagascar",
+                  "streams": [
+                    {
+                      "id": "st-a45df0ff47",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2ba6cc5d3c",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790263892_hd/1790263892_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Africa Cup of Nations",
+            "team_a": "Nigeria",
+            "team_b": "Madagascar",
+            "logo_a": "https://images.keovip88.net/images/teams/nigeria.png",
+            "logo_b": "https://images.keovip88.net/images/teams/madagascar.png",
+            "time": "23:00:00",
+            "date": "25/09",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a387d79153ee8455e05573b_e7c21270_20260924.png?v=e7c21270",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7ae8c003c6",
+          "name": "Sudan vs Ethiopia | 23:00 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7ae8c003c6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7ae8c003c6",
+                  "name": "Sudan vs Ethiopia",
+                  "streams": [
+                    {
+                      "id": "st-7ae8c003c6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3fbba243fd",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790264008_hd/1790264008_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Africa Cup of Nations",
+            "team_a": "Sudan",
+            "team_b": "Ethiopia",
+            "logo_a": "https://images.keovip88.net/images/teams/sudan.png",
+            "logo_b": "https://images.keovip88.net/images/teams/ethiopia.png",
+            "time": "23:00:00",
+            "date": "25/09",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a387d79153ee8455e05572b_f9a10a2b_20260924.png?v=f9a10a2b",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1260,7 +1476,7 @@
       "channels": [
         {
           "id": "gv-9882bccc49",
-          "name": "Apogee Esport vs JijieHao | 20:00 24/09",
+          "name": "Apogee Esport vs Eternal Esport | 20:00 24/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1279,7 +1495,7 @@
               "contents": [
                 {
                   "id": "ct-9882bccc49",
-                  "name": "Apogee Esport vs JijieHao",
+                  "name": "Apogee Esport vs Eternal Esport",
                   "streams": [
                     {
                       "id": "st-9882bccc49",
@@ -1312,9 +1528,9 @@
           "org_metadata": {
             "league": "CS2-Stake Pulse Beat II",
             "team_a": "Apogee Esport",
-            "team_b": "JijieHao",
+            "team_b": "Eternal Esport",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg-l_X0jsjP6R2IyqPfyskm0bq-tzpLAJeczPkm4nngg&s=10",
-            "logo_b": "https://static.flashscore.com/res/image/data/jB9ulnxS-Me1gTkWa.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ4aFpERiQ_q8gD20Jgdgq68QZQN0u-U92TPLOUNmjXA&s=10",
             "time": "20:00:00",
             "date": "24/09",
             "blv": "Mickey",
@@ -1325,7 +1541,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6yt1ylws5l5y_a5042c58_20260924.png?v=a5042c58",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6yt1ylws5l5y_9ae47160_20260924.png?v=9ae47160",
             "width": 1600,
             "height": 1200
           }
