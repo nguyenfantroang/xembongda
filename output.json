@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-cba1274f97",
-          "name": "Vancouver vs Inter Toronto | 09:00 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cba1274f97",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cba1274f97",
-                  "name": "Vancouver vs Inter Toronto",
-                  "streams": [
-                    {
-                      "id": "st-cba1274f97",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-15a491f356",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790204126_hd/1790204126_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Canada - Canadian Premier League",
-            "team_a": "Vancouver",
-            "team_b": "Inter Toronto",
-            "logo_a": "https://images.keovip88.net/images/teams/vancouver-whitecaps.png",
-            "logo_b": "https://images.keovip88.net/images/teams/dc-united.png",
-            "time": "09:00:00",
-            "date": "24/09",
-            "blv": "Bee",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aadd0c024d46db870f28975_16f0693a_20260924.png?v=16f0693a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c426400be5",
           "name": "ASIAD 2026 vs ASIAD 2026 | 10:00 24/09",
@@ -156,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/asooi3g7yvxg_62dd1b2b_20260924.png?v=62dd1b2b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f4c0a23ce5",
-          "name": "Solomon Islands vs Vanuatu | 11:00 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f4c0a23ce5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f4c0a23ce5",
-                  "name": "Solomon Islands vs Vanuatu",
-                  "streams": [
-                    {
-                      "id": "st-f4c0a23ce5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c3b6eea733",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790204241_hd/1790204241_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Solomon Islands",
-            "team_b": "Vanuatu",
-            "logo_a": "https://static.flashscore.com/res/image/data/vqLkKVYA-IJIsQ3zG.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/QH2vkEDa-nRdGpyH6.png",
-            "time": "11:00:00",
-            "date": "24/09",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aaf23424e725bdee905b83b_bd49ed40_20260924.png?v=bd49ed40",
             "width": 1600,
             "height": 1200
           }
@@ -956,7 +812,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1041,10 +897,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1093,7 +949,7 @@
             "time": "11:00:00",
             "date": "24/09",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1101,6 +957,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/25580479_7ccccbea_20260924.png?v=7ccccbea",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f09916b74f",
+          "name": "Wonju DB vs Seoul Thunders | 12:00 24/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f09916b74f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f09916b74f",
+                  "name": "Wonju DB vs Seoul Thunders",
+                  "streams": [
+                    {
+                      "id": "st-f09916b74f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f9f67583ea",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790204843_hd/1790204843_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "South Korean KBL Cup",
+            "team_a": "Wonju DB",
+            "team_b": "Seoul Thunders",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS89aV1mbuxvQhVaHfuBSqobyXOzCH2mqlw6A&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk96OsPcVdWJ_VfK8sNDt-Nh4Y2pCXQiBACA&s",
+            "time": "12:00:00",
+            "date": "24/09",
+            "blv": "Cầy",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/mr6zetxewdx5_27ef75f3_20260924.png?v=27ef75f3",
             "width": 1600,
             "height": 1200
           }
@@ -1173,78 +1101,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/s8vet3num59t_3f02e9fc_20260924.png?v=3f02e9fc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f09916b74f",
-          "name": "Wonju DB vs Seoul Thunders | 12:00 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f09916b74f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f09916b74f",
-                  "name": "Wonju DB vs Seoul Thunders",
-                  "streams": [
-                    {
-                      "id": "st-f09916b74f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f9f67583ea",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790204843_hd/1790204843_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "South Korean KBL Cup",
-            "team_a": "Wonju DB",
-            "team_b": "Seoul Thunders",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS89aV1mbuxvQhVaHfuBSqobyXOzCH2mqlw6A&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk96OsPcVdWJ_VfK8sNDt-Nh4Y2pCXQiBACA&s",
-            "time": "12:00:00",
-            "date": "24/09",
-            "blv": "Cầy",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/mr6zetxewdx5_27ef75f3_20260924.png?v=27ef75f3",
             "width": 1600,
             "height": 1200
           }
