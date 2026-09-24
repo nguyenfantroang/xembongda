@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -168,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +220,7 @@
             "time": "16:30:00",
             "date": "24/09",
             "blv": "Mù",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -240,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +292,7 @@
             "time": "17:05:00",
             "date": "24/09",
             "blv": "Bón",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1178,8 +1178,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-a22e0d55c0",
-          "name": "Goyang Sono vs Seoul Knights | 14:30 24/09",
+          "id": "gv-b9bab13ab7",
+          "name": "South East Melbourne Phoenix vs Melbourne United | 16:30 24/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1189,78 +1189,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a22e0d55c0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a22e0d55c0",
-                  "name": "Goyang Sono vs Seoul Knights",
-                  "streams": [
-                    {
-                      "id": "st-a22e0d55c0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-17f075ceb3",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790204978_hd/1790204978_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "South Korean KBL Cup",
-            "team_a": "Goyang Sono",
-            "team_b": "Seoul Knights",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/6/64/Goyang_Sono_Skygunners.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Seoul_SK_Knights_logo.svg/500px-Seoul_SK_Knights_logo.svg.png",
-            "time": "14:30:00",
-            "date": "24/09",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/aiuhlj5sja6b_024a716d_20260924.png?v=024a716d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b9bab13ab7",
-          "name": "South East Melbourne Phoenix vs Melbourne United | 16:30 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1309,7 +1237,7 @@
             "time": "16:30:00",
             "date": "24/09",
             "blv": "Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
