@@ -812,83 +812,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-a7a17b7df6",
-          "name": "Mongolia (W) vs China (w) | 11:00 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a7a17b7df6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a7a17b7df6",
-                  "name": "Mongolia (W) vs China (w)",
-                  "streams": [
-                    {
-                      "id": "st-a7a17b7df6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-45fb451945",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790204669_hd/1790204669_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women's basketball match of the Asian Games",
-            "team_a": "Mongolia (W)",
-            "team_b": "China (w)",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/66a4c6ed1029c0338a50ad413bfaf118.jpg",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/b2f29c1f131d0390b8d6c1e596843514.jpg",
-            "time": "11:00:00",
-            "date": "24/09",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/25580479_7ccccbea_20260924.png?v=7ccccbea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ae2cdb4c2e",
           "name": "KogGas vs Mobis Phoebus | 12:00 24/09",
@@ -1686,87 +1614,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/n6a9m7k6zd4z_a0d829ba_20260924.png?v=a0d829ba",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-60ecc84542",
-          "name": "Seattle Mariners vs Houston Astros | 09:10 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-60ecc84542",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-60ecc84542",
-                  "name": "Seattle Mariners vs Houston Astros",
-                  "streams": [
-                    {
-                      "id": "st-60ecc84542",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d90cc86b61",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790205055_hd/1790205055_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Seattle Mariners",
-            "team_b": "Houston Astros",
-            "logo_a": "https://static.flashscore.com/res/image/data/YPyyksFG-CrchK1NQ.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/KUkA1be5-MyFeHWzn.png",
-            "time": "09:10:00",
-            "date": "24/09",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/zz0xpvse026o_4b0ea8c2_20260924.png?v=4b0ea8c2",
             "width": 1600,
             "height": 1200
           }
