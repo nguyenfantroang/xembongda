@@ -740,83 +740,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-582bee1172",
-          "name": "Besiktas vs Valencia | 23:59 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-582bee1172",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-582bee1172",
-                  "name": "Besiktas vs Valencia",
-                  "streams": [
-                    {
-                      "id": "st-582bee1172",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9740500aa2",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790263500_hd/1790263500_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBL",
-            "team_a": "Besiktas",
-            "team_b": "Valencia",
-            "logo_a": "https://static.flashscore.com/res/image/data/GdTU14e5-U9rBY3Yf.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/UFmsOtyB-0xo9H7fm.png",
-            "time": "23:59:00",
-            "date": "25/09",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/z3q66e66p0tm_460dd8a1_20260926.png?v=460dd8a1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-a7b6421e04",
           "name": "Seoul Knights vs Wonju DB | 12:00 26/09",
@@ -1029,87 +957,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/w570xi3ru16c_a599efb5_20260926.png?v=a599efb5",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-a6e1fb2094",
-          "name": "JijieHao vs Sangal Esport | 23:59 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a6e1fb2094",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a6e1fb2094",
-                  "name": "JijieHao vs Sangal Esport",
-                  "streams": [
-                    {
-                      "id": "st-a6e1fb2094",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d7b2a09653",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790299779_hd/1790299779_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CS2-Stake Pulse Beat II",
-            "team_a": "JijieHao",
-            "team_b": "Sangal Esport",
-            "logo_a": "https://static.flashscore.com/res/image/data/CGOQ3kjl-0QI3KGta.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Wl3fdkFa-2yjQSp95.png",
-            "time": "23:59:00",
-            "date": "25/09",
-            "blv": "Mickey",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/0a45ybwkarm1_58b8a9c1_20260926.png?v=58b8a9c1",
             "width": 1600,
             "height": 1200
           }
