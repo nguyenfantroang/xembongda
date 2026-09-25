@@ -1979,6 +1979,78 @@
           }
         },
         {
+          "id": "gv-ca37dd5f21",
+          "name": "100 Thieves vs BBL Esport | 18:00 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ca37dd5f21",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ca37dd5f21",
+                  "name": "100 Thieves vs BBL Esport",
+                  "streams": [
+                    {
+                      "id": "st-ca37dd5f21",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-075f427494",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790324366_hd/1790324366_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CS2-Stake Pulse Beat II",
+            "team_a": "100 Thieves",
+            "team_b": "BBL Esport",
+            "logo_a": "https://static.flashscore.com/res/image/data/Y5Fp2sFG-j7Z9IDCI.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/4Ukyi0Fa-QurtWXGQ.png",
+            "time": "18:00:00",
+            "date": "25/09",
+            "blv": "Mickey",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ct3miaasktv5_719dd0cd_20260925.png?v=719dd0cd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-a6e1fb2094",
           "name": "JijieHao vs Sangal Esport | 23:59 25/09",
           "type": "single",
