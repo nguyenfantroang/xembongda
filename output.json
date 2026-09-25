@@ -306,7 +306,7 @@
         },
         {
           "id": "gv-fe38578983",
-          "name": "Bangladesh vs Malaysia | 15:00 25/09",
+          "name": "Bangladesh vs Malaysia | 16:00 25/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -361,7 +361,7 @@
             "team_b": "Malaysia",
             "logo_a": "https://static.flashscore.com/res/image/data/ClcfoVh5-Au8oKy8P.png",
             "logo_b": "https://static.flashscore.com/res/image/data/W6ZspTcM-QHeKqeWC.png",
-            "time": "15:00:00",
+            "time": "16:00:00",
             "date": "25/09",
             "blv": "Súp",
             "is_live": false,
@@ -1316,7 +1316,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1329,10 +1329,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1381,7 +1381,7 @@
             "time": "14:00:00",
             "date": "25/09",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1401,10 +1401,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1453,7 +1453,7 @@
             "time": "14:30:00",
             "date": "25/09",
             "blv": "Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1686,6 +1686,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/55i1tg62wi4v_8fef6b1a_20260925.png?v=8fef6b1a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a79259c987",
+          "name": "Nongsim Redforce vs NRG | 16:00 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a79259c987",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a79259c987",
+                  "name": "Nongsim Redforce vs NRG",
+                  "streams": [
+                    {
+                      "id": "st-a79259c987",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3e9af76f88",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790320354_hd/1790320354_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VCT Champions",
+            "team_a": "Nongsim Redforce",
+            "team_b": "NRG",
+            "logo_a": "https://static.flashscore.com/res/image/data/fsLmL8ZA-K2mdw3oq.png",
+            "logo_b": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/e7/NRGlogo_square.png/revision/latest/scale-to-width-down/220?cb=20260111203709",
+            "time": "16:00:00",
+            "date": "25/09",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/897is90myrrs_1867cf31_20260925.png?v=1867cf31",
             "width": 1600,
             "height": 1200
           }
@@ -1983,6 +2055,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/n6a9m7k6zd4z_a0d829ba_20260925.png?v=a0d829ba",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_duaxe",
+      "name": "🏎️ Đua Xe",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-89df1ce2fa",
+          "name": "Qatar Airways Azerbaijan vs Grand Prix | 15:30 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-89df1ce2fa",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-89df1ce2fa",
+                  "name": "Qatar Airways Azerbaijan vs Grand Prix",
+                  "streams": [
+                    {
+                      "id": "st-89df1ce2fa",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3e81a3ea7f",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790319734_hd/1790319734_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "F1",
+            "team_a": "Qatar Airways Azerbaijan",
+            "team_b": "Grand Prix",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5TgbgXG4NAm_aL0RmmlVShX7NG62--f5XLt1-D86u-AmsYKDeXKZPego&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqPkWyDZik2nfxD3ak7ulvpQWiPW0uqOgUKMHA7idLJeXIFlFRv_6FsBU&s=10",
+            "time": "15:30:00",
+            "date": "25/09",
+            "blv": "Ngu",
+            "is_live": false,
+            "cate_type": "duaxe"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/khirhs7gzq3i_4ba5203e_20260925.png?v=4ba5203e",
             "width": 1600,
             "height": 1200
           }
