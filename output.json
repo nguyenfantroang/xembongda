@@ -11,11 +11,299 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-c426400be5",
+          "name": "ASIAD 2026 vs ASIAD 2026 | 15:00 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c426400be5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c426400be5",
+                  "name": "ASIAD 2026 vs ASIAD 2026",
+                  "streams": [
+                    {
+                      "id": "st-c426400be5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-09b33be66f",
+                          "name": "BLV Túi Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAD 2026",
+            "team_a": "ASIAD 2026",
+            "team_b": "ASIAD 2026",
+            "logo_a": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "logo_b": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "time": "15:00:00",
+            "date": "25/09",
+            "blv": "BLV Túi Mù",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/asooi3g7yvxg_62dd1b2b_20260925.png?v=62dd1b2b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1382766950",
+          "name": "U23 Hàn Quốc vs U23 Việt Nam | 17:30 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1382766950",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1382766950",
+                  "name": "U23 Hàn Quốc vs U23 Việt Nam",
+                  "streams": [
+                    {
+                      "id": "st-1382766950",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3f2fc8cc30",
+                          "name": "Tỵ + Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790321036_hd/1790321036_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Games",
+            "team_a": "U23 Hàn Quốc",
+            "team_b": "U23 Việt Nam",
+            "logo_a": "https://images.keovip88.net/images/teams/south-korea-u23.png",
+            "logo_b": "https://images.keovip88.net/images/teams/vietnam-u23.png",
+            "time": "17:30:00",
+            "date": "25/09",
+            "blv": "Tỵ + Trĩ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab468e0b057b828a8092bc3_cf8f31dc_20260925.png?v=cf8f31dc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4fd1a8650d",
+          "name": "Nữ Nhật Bản vs Nữ Philippines | 17:30 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4fd1a8650d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4fd1a8650d",
+                  "name": "Nữ Nhật Bản vs Nữ Philippines",
+                  "streams": [
+                    {
+                      "id": "st-4fd1a8650d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8cf9ac3135",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790321441_hd/1790321441_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Games Nữ",
+            "team_a": "Nữ Nhật Bản",
+            "team_b": "Nữ Philippines",
+            "logo_a": "https://images.keovip88.net/images/teams/japan-w.png",
+            "logo_b": "https://images.keovip88.net/images/teams/philippines-w.png",
+            "time": "17:30:00",
+            "date": "25/09",
+            "blv": "BLV Hấu",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab3177020160d3860005951_f5b2492d_20260925.png?v=f5b2492d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7865e6214a",
+          "name": "Nữ Hàn Quốc vs Uzbekistan Nữ | 17:30 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7865e6214a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7865e6214a",
+                  "name": "Nữ Hàn Quốc vs Uzbekistan Nữ",
+                  "streams": [
+                    {
+                      "id": "st-7865e6214a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f95e3ee793",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790321580_hd/1790321580_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Games Nữ",
+            "team_a": "Nữ Hàn Quốc",
+            "team_b": "Uzbekistan Nữ",
+            "logo_a": "https://images.keovip88.net/images/teams/south-korea-w.png",
+            "logo_b": "https://images.keovip88.net/images/teams/uzbekistan-w.png",
+            "time": "17:30:00",
+            "date": "25/09",
+            "blv": "Mù",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab3177020160d3860005952_3637aa25_20260925.png?v=3637aa25",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-808f4c44a0",
           "name": "Indonesia vs Singapore | 20:00 25/09",
@@ -1172,11 +1460,83 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-603723c06a",
+          "name": "Chinese Taipei (W) vs Japan (W) | 17:20 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-603723c06a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-603723c06a",
+                  "name": "Chinese Taipei (W) vs Japan (W)",
+                  "streams": [
+                    {
+                      "id": "st-603723c06a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4e757bbdb6",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790318608_hd/1790318608_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women's basketball match of the Asian Games",
+            "team_a": "Chinese Taipei (W)",
+            "team_b": "Japan (W)",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/b86166676d101a3bcea1c2899eac8ab4.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/d3fc6c75b5a81c1d4e35a0ec94c9b031.png",
+            "time": "17:20:00",
+            "date": "25/09",
+            "blv": "Tôm",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/37990476_9787d6db_20260925.png?v=9787d6db",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-582bee1172",
           "name": "Besiktas vs Valencia | 23:59 25/09",
@@ -1334,44 +1694,116 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-2597387502",
-          "name": "Karmine Corp vs Xi Lai Gaming | 19:00 25/09",
+          "id": "gv-75e16c2bad",
+          "name": "100 Thieves vs BBL Esport | 18:00 25/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-2597387502",
+              "id": "src-75e16c2bad",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-2597387502",
-                  "name": "Karmine Corp vs Xi Lai Gaming",
+                  "id": "ct-75e16c2bad",
+                  "name": "100 Thieves vs BBL Esport",
                   "streams": [
                     {
-                      "id": "st-2597387502",
+                      "id": "st-75e16c2bad",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-27083356e4",
+                          "id": "lnk-232196cade",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790319413_hd/1790319413_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CS2-Stake Pulse Beat II",
+            "team_a": "100 Thieves",
+            "team_b": "BBL Esport",
+            "logo_a": "https://static.flashscore.com/res/image/data/Y5Fp2sFG-j7Z9IDCI.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/4Ukyi0Fa-QurtWXGQ.png",
+            "time": "18:00:00",
+            "date": "25/09",
+            "blv": "Mickey",
+            "is_live": true,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/55i1tg62wi4v_719dd0cd_20260925.png?v=719dd0cd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a79259c987",
+          "name": "XLG vs Karmine Corp | 19:00 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a79259c987",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a79259c987",
+                  "name": "XLG vs Karmine Corp",
+                  "streams": [
+                    {
+                      "id": "st-a79259c987",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3e9af76f88",
                           "name": "Riko",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790325905_hd/1790325905_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790320354_hd/1790320354_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1392,21 +1824,21 @@
           ],
           "org_metadata": {
             "league": "VCT Champions",
-            "team_a": "Karmine Corp",
-            "team_b": "Xi Lai Gaming",
-            "logo_a": "https://static.flashscore.com/res/image/data/2uAzi0e5-lldrLGON.png",
-            "logo_b": "https://liquipedia.net/commons/images/thumb/7/74/XLG_China_allmode.png/285px-XLG_China_allmode.png",
+            "team_a": "XLG",
+            "team_b": "Karmine Corp",
+            "logo_a": "https://liquipedia.net/commons/images/thumb/7/74/XLG_China_allmode.png/285px-XLG_China_allmode.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/2uAzi0e5-lldrLGON.png",
             "time": "19:00:00",
             "date": "25/09",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/pvmk1kstdcbo_9dace166_20260925.png?v=9dace166",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/897is90myrrs_95fb8c53_20260925.png?v=95fb8c53",
             "width": 1600,
             "height": 1200
           }
@@ -1437,7 +1869,25 @@
                     {
                       "id": "st-60d278c453",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c62e5d1fc9",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790327272_hd/1790327272_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1452,7 +1902,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/nXkAG2dM-O0od2Uys.png",
             "time": "21:00:00",
             "date": "25/09",
-            "blv": "",
+            "blv": "Mickey",
             "is_live": false,
             "cate_type": "esport"
           },
@@ -1541,11 +1991,83 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật",
+      "name": "🥊 Võ Thuật (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-2aa8754fd2",
+          "name": "ONE Friday Fights 172 vs The Inner Circle 32 | 18:30 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2aa8754fd2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2aa8754fd2",
+                  "name": "ONE Friday Fights 172 vs The Inner Circle 32",
+                  "streams": [
+                    {
+                      "id": "st-2aa8754fd2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9490b167b7",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790325330_hd/1790325330_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ONE Friday Fights 172 & The Inner Circle 32",
+            "team_a": "ONE Friday Fights 172",
+            "team_b": "The Inner Circle 32",
+            "logo_a": "https://cdn.onefc.com/wp-content/uploads/2026/09/PanpayakJitmuangnon-LamnamoonlekTorfunfarm-Faceoff-TheInnerCircle32-768x512.jpg",
+            "logo_b": "https://cdn.onefc.com/wp-content/uploads/2026/05/260925-BKK-OFF168_TIC32-1800x1200px.jpg",
+            "time": "18:30:00",
+            "date": "25/09",
+            "blv": "Điếc",
+            "is_live": true,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/v5aqoqhlfyno_5a3abb26_20260925.png?v=5a3abb26",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-0ddc93b2dc",
           "name": "Rosas Jr. vs Barcelos | 02:00 27/09",
@@ -1686,6 +2208,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/n6a9m7k6zd4z_a0d829ba_20260925.png?v=a0d829ba",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-7d5ecde527",
+          "name": "Hàn Quốc vs Nhật Bản | 16:30 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7d5ecde527",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7d5ecde527",
+                  "name": "Hàn Quốc vs Nhật Bản",
+                  "streams": [
+                    {
+                      "id": "st-7d5ecde527",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-32e85b4202",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790322895_hd/1790322895_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asiad 2026",
+            "team_a": "Hàn Quốc",
+            "team_b": "Nhật Bản",
+            "logo_a": "https://static.flashscore.com/res/image/data/W2K5SGfM-h05QSROl.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QRlYWUhl-E1YhvyqD.png",
+            "time": "16:30:00",
+            "date": "25/09",
+            "blv": "Cận",
+            "is_live": true,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/2u9kwtmoasr0_773a3075_20260925.png?v=773a3075",
             "width": 1600,
             "height": 1200
           }
