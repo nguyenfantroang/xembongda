@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/a41t5fzzfbcn_8692418f_20260925.png?v=8692418f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ae7781b3a5",
-          "name": "ĐT nữ Triều Tiên vs ĐT nữ Hong Kong | 13:00 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ae7781b3a5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ae7781b3a5",
-                  "name": "ĐT nữ Triều Tiên vs ĐT nữ Hong Kong",
-                  "streams": [
-                    {
-                      "id": "st-ae7781b3a5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-10e65110f9",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790314360_hd/1790314360_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asia - ASIAD 2026 - Tứ kết (Nữ)",
-            "team_a": "ĐT nữ Triều Tiên",
-            "team_b": "ĐT nữ Hong Kong",
-            "logo_a": "https://static.flashscore.com/res/image/data/tYIRtYDa-xpPmazWa.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/fqZXr0Wg-dCIdRhFh.png",
-            "time": "13:00:00",
-            "date": "25/09",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/vmo7shu2s6h1_64a6db5c_20260925.png?v=64a6db5c",
             "width": 1600,
             "height": 1200
           }
@@ -1709,11 +1637,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-890964333a",
-                          "name": "Điếc",
+                          "id": "lnk-c54b311df8",
+                          "name": "Cầy",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790322732_hd/1790322732_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790323358_hd/1790323358_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1740,7 +1668,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/e97aa6ff62044e05b1dc126043568a18.png",
             "time": "16:30:00",
             "date": "25/09",
-            "blv": "Điếc",
+            "blv": "Cầy",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -2432,7 +2360,7 @@
     },
     {
       "id": "cate_duaxe",
-      "name": "🏎️ Đua Xe",
+      "name": "🏎️ Đua Xe (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2445,10 +2373,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2497,7 +2425,7 @@
             "time": "15:30:00",
             "date": "25/09",
             "blv": "Ngu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "duaxe"
           },
           "image": {
