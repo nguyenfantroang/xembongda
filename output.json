@@ -1532,83 +1532,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1058df31c6",
-          "name": "Anyang JungKwanJang vs Suwon KT | 14:30 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1058df31c6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1058df31c6",
-                  "name": "Anyang JungKwanJang vs Suwon KT",
-                  "streams": [
-                    {
-                      "id": "st-1058df31c6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-66e3db3ea6",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790296843_hd/1790296843_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "South Korean KBL Cup",
-            "team_a": "Anyang JungKwanJang",
-            "team_b": "Suwon KT",
-            "logo_a": "https://static.flashscore.com/res/image/data/viUBkizB-KtOrDRPL.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/t4IslGYg-vDolgDz8.png",
-            "time": "14:30:00",
-            "date": "25/09",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/sxb3dnukga00_f9f012dd_20260925.png?v=f9f012dd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-4680a32271",
           "name": "Brisbane Bullets vs Illawarra Hawks | 16:30 25/09",
