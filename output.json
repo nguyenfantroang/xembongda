@@ -2657,83 +2657,11 @@
     },
     {
       "id": "cate_duaxe",
-      "name": "🏎️ Đua Xe (1 LIVE)",
+      "name": "🏎️ Đua Xe",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-89df1ce2fa",
-          "name": "Qatar Airways Azerbaijan vs Grand Prix | 15:30 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-89df1ce2fa",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-89df1ce2fa",
-                  "name": "Qatar Airways Azerbaijan vs Grand Prix",
-                  "streams": [
-                    {
-                      "id": "st-89df1ce2fa",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3e81a3ea7f",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790319734_hd/1790319734_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "F1",
-            "team_a": "Qatar Airways Azerbaijan",
-            "team_b": "Grand Prix",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5TgbgXG4NAm_aL0RmmlVShX7NG62--f5XLt1-D86u-AmsYKDeXKZPego&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqPkWyDZik2nfxD3ak7ulvpQWiPW0uqOgUKMHA7idLJeXIFlFRv_6FsBU&s=10",
-            "time": "15:30:00",
-            "date": "25/09",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "duaxe"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/khirhs7gzq3i_4ba5203e_20260925.png?v=4ba5203e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-bdd42cad89",
           "name": "Qatar Airways Azerbaijan vs Grand Prix | 19:00 25/09",
