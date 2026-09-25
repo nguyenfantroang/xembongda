@@ -449,6 +449,78 @@
           }
         },
         {
+          "id": "gv-914fbf49e2",
+          "name": "Tanzania vs Guinea Bissau | 20:00 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-914fbf49e2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-914fbf49e2",
+                  "name": "Tanzania vs Guinea Bissau",
+                  "streams": [
+                    {
+                      "id": "st-914fbf49e2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41deb471cd",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790326608_hd/1790326608_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFCON Qualification",
+            "team_a": "Tanzania",
+            "team_b": "Guinea Bissau",
+            "logo_a": "https://static.flashscore.com/res/image/data/8xZwopzB-YFbDUeTh.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/CC8i9RyS-8vfTQDSH.png",
+            "time": "20:00:00",
+            "date": "25/09",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ha8569tc3von_db5c0f23_20260925.png?v=db5c0f23",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-94372590e9",
           "name": "Ấn Độ vs Panama | 21:00 25/09",
           "type": "single",
@@ -1388,83 +1460,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-e259292861",
-          "name": "South Korea (W) vs China (w) | 14:00 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e259292861",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e259292861",
-                  "name": "South Korea (W) vs China (w)",
-                  "streams": [
-                    {
-                      "id": "st-e259292861",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c02ba333eb",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790317901_hd/1790317901_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women's basketball match of the Asian Games",
-            "team_a": "South Korea (W)",
-            "team_b": "China (w)",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/80f4ac7926dcf255ec6d32d271755d1a.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/b2f29c1f131d0390b8d6c1e596843514.jpg",
-            "time": "14:00:00",
-            "date": "25/09",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/22490476_0cc928b9_20260925.png?v=0cc928b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-1058df31c6",
           "name": "Anyang JungKwanJang vs Suwon KT | 14:30 25/09",
