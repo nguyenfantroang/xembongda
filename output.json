@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,167 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/asooi3g7yvxg_62dd1b2b_20260926.png?v=62dd1b2b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-3356228959",
-          "name": "Việt Nam vs Philippines | 19:30 26/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3356228959",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3356228959",
-                  "name": "Việt Nam vs Philippines",
-                  "streams": [
-                    {
-                      "id": "st-3356228959",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-777c7d6fbc",
-                          "name": "Đầu Cầu Việt Nam Vô Địch",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790398911_hd/1790398911_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-7b12a21685",
-                          "name": "Đầu Cầu Bốc phét ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790407345_hd/1790407345_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA ASEAN Cup",
-            "team_a": "Việt Nam",
-            "team_b": "Philippines",
-            "logo_a": "https://images.keovip88.net/images/teams/vietnam.png",
-            "logo_b": "https://images.keovip88.net/images/teams/philippines.png",
-            "time": "19:30:00",
-            "date": "26/09",
-            "blv": "Đầu Cầu Việt Nam Vô Địch, Đầu Cầu Bốc phét ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aac7f5a24d46db87036cf41_0b599666_20260926.png?v=0b599666",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-60ec87ce13",
-          "name": "Slovenia vs Scotland | 20:00 26/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-60ec87ce13",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-60ec87ce13",
-                  "name": "Slovenia vs Scotland",
-                  "streams": [
-                    {
-                      "id": "st-60ec87ce13",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-397192d845",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790427527_hd/1790427527_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Slovenia",
-            "team_b": "Scotland",
-            "logo_a": "https://images.keovip88.net/images/teams/slovenia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/scotland.png",
-            "time": "20:00:00",
-            "date": "26/09",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f695d673ba0b335e0f2ec9_018d4474_20260926.png?v=018d4474",
             "width": 1600,
             "height": 1200
           }
@@ -752,6 +591,150 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-40e188f0c4",
+          "name": "Vanuatu vs New Caledonia | 11:00 27/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-40e188f0c4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-40e188f0c4",
+                  "name": "Vanuatu vs New Caledonia",
+                  "streams": [
+                    {
+                      "id": "st-40e188f0c4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-45eac94042",
+                          "name": "Bón",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790434462_hd/1790434462_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Vanuatu",
+            "team_b": "New Caledonia",
+            "logo_a": "https://static.flashscore.com/res/image/data/QH2vkEDa-nRdGpyH6.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/SKuk88xS-nRdGpyH6.png",
+            "time": "11:00:00",
+            "date": "27/09",
+            "blv": "Bón",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab5ba6009ca9ecd4709097d_c2800cfe_20260926.png?v=c2800cfe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d3f4d4ea47",
+          "name": "Hồng Kông vs Lào | 14:00 27/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d3f4d4ea47",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d3f4d4ea47",
+                  "name": "Hồng Kông vs Lào",
+                  "streams": [
+                    {
+                      "id": "st-d3f4d4ea47",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-90f40053ff",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790435101_hd/1790435101_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA ASEAN Cup",
+            "team_a": "Hồng Kông",
+            "team_b": "Lào",
+            "logo_a": "https://images.keovip88.net/images/teams/hong-kong.png",
+            "logo_b": "https://images.keovip88.net/images/teams/laos.png",
+            "time": "14:00:00",
+            "date": "27/09",
+            "blv": "BLV Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab468f8b057b828a8092bd6_71fb2dee_20260926.png?v=71fb2dee",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -830,6 +813,222 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/5nunrxhcna4w_491f2638_20260926.png?v=491f2638",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a91ef95746",
+          "name": "Suwon KT vs Goyang Sono | 12:00 27/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a91ef95746",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a91ef95746",
+                  "name": "Suwon KT vs Goyang Sono",
+                  "streams": [
+                    {
+                      "id": "st-a91ef95746",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-20afa7a701",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790434649_hd/1790434649_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "South Korean KBL Cup",
+            "team_a": "Suwon KT",
+            "team_b": "Goyang Sono",
+            "logo_a": "https://static.flashscore.com/res/image/data/t4IslGYg-vDolgDz8.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/6/64/Goyang_Sono_Skygunners.png",
+            "time": "12:00:00",
+            "date": "27/09",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/8bgpf1zn201s_a814b8c3_20260926.png?v=a814b8c3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-e778db5beb",
+          "name": "Adelaide 36ers vs Cairns Taipans | 13:00 27/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e778db5beb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e778db5beb",
+                  "name": "Adelaide 36ers vs Cairns Taipans",
+                  "streams": [
+                    {
+                      "id": "st-e778db5beb",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-03b37b9e3b",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790434717_hd/1790434717_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball League(Australia)",
+            "team_a": "Adelaide 36ers",
+            "team_b": "Cairns Taipans",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/6a6d3d4063e675d1ce3e701153e3f367.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/690d69ad99fc8d3bd6fe4a7131521421.png",
+            "time": "13:00:00",
+            "date": "27/09",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/13222278_ac31bc00_20260926.png?v=ac31bc00",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ffb1c48a48",
+          "name": "KCC Egis vs KoGas | 14:30 27/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ffb1c48a48",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ffb1c48a48",
+                  "name": "KCC Egis vs KoGas",
+                  "streams": [
+                    {
+                      "id": "st-ffb1c48a48",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-412612d582",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790434917_hd/1790434917_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "South Korean KBL Cup",
+            "team_a": "KCC Egis",
+            "team_b": "KoGas",
+            "logo_a": "https://static.flashscore.com/res/image/data/6akehaEa-QVr2kiM7.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/9/90/Daegu_KOGAS_Pegasus.svg",
+            "time": "14:30:00",
+            "date": "27/09",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/2r7qd42iyadf_fabd0061_20260926.png?v=fabd0061",
             "width": 1600,
             "height": 1200
           }
@@ -983,6 +1182,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/hbapb4sijdis_6936e1e2_20260926.png?v=6936e1e2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d3088f3c64",
+          "name": "Hàn Quốc vs Philippines | 11:00 27/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d3088f3c64",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d3088f3c64",
+                  "name": "Hàn Quốc vs Philippines",
+                  "streams": [
+                    {
+                      "id": "st-d3088f3c64",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-97662b1375",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790434979_hd/1790434979_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asiad 2026",
+            "team_a": "Hàn Quốc",
+            "team_b": "Philippines",
+            "logo_a": "https://static.flashscore.com/res/image/data/dU3CQadM-p6UwsGvF.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QkqH8NfM-C61WJZ3f.png",
+            "time": "11:00:00",
+            "date": "27/09",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/mswzlftj4gx1_df1e8a9d_20260926.png?v=df1e8a9d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-e0e4b43140",
+          "name": "Ấn Độ vs Việt Nam | 14:00 27/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e0e4b43140",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e0e4b43140",
+                  "name": "Ấn Độ vs Việt Nam",
+                  "streams": [
+                    {
+                      "id": "st-e0e4b43140",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c32e65e9d5",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790435042_hd/1790435042_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asiad 2026",
+            "team_a": "Ấn Độ",
+            "team_b": "Việt Nam",
+            "logo_a": "https://static.flashscore.com/res/image/data/bBruoNwS-ruTy2xns.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IUYV_ZAMxDdabQPzSpTJtg_96x96.png",
+            "time": "14:00:00",
+            "date": "27/09",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/h82vz08gj9fk_3b7ec606_20260926.png?v=3b7ec606",
             "width": 1600,
             "height": 1200
           }
