@@ -469,83 +469,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-804b0dc8b3",
-          "name": "Chinese Taipei W vs China W | 14:00 26/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-804b0dc8b3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-804b0dc8b3",
-                  "name": "Chinese Taipei W vs China W",
-                  "streams": [
-                    {
-                      "id": "st-804b0dc8b3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7e9dd9e748",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790353889_hd/1790353889_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women's basketball match of the Asian Games",
-            "team_a": "Chinese Taipei W",
-            "team_b": "China W",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc8xggt88QDEI2jKI05T84yLgVlTUmYpYJNzKYJMdjUw&s=10",
-            "logo_b": "https://static.flashscore.com/res/image/data/Gv6ZTKFG-QDuM2WrS.png",
-            "time": "14:00:00",
-            "date": "26/09",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/j4yobshzor84_2499fdbd_20260926.png?v=2499fdbd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-85ee17e77c",
           "name": "Mobis Phoebus vs LG Sakers | 14:30 26/09",
