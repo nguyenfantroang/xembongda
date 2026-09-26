@@ -951,6 +951,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-6a37d74e62",
+          "name": "Baltimore Ravens vs Dallas Cowboys | 03:25 28/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6a37d74e62",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6a37d74e62",
+                  "name": "Baltimore Ravens vs Dallas Cowboys",
+                  "streams": [
+                    {
+                      "id": "st-6a37d74e62",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d1b8232db8",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790264984_hd/1790264984_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NFL",
+            "team_a": "Baltimore Ravens",
+            "team_b": "Dallas Cowboys",
+            "logo_a": "https://static.flashscore.com/res/image/data/dUe4S2il-40MWbKRi.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/2DROi6Wg-IqxwDINa.png",
+            "time": "03:25:00",
+            "date": "28/09",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/clrkfsdy3sqv_7421d9d8_20260927.png?v=7421d9d8",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
