@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c6ac826049",
-          "name": "Mỹ vs Peru | 03:30 27/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c6ac826049",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c6ac826049",
-                  "name": "Mỹ vs Peru",
-                  "streams": [
-                    {
-                      "id": "st-c6ac826049",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fcb7e6ac4f",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790417302_hd/1790417302_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Mỹ",
-            "team_b": "Peru",
-            "logo_a": "https://images.keovip88.net/images/teams/usa.png",
-            "logo_b": "https://images.keovip88.net/images/teams/peru.png",
-            "time": "03:30:00",
-            "date": "27/09",
-            "blv": "Ngọng",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1c622354480ad7b00538a_07caab08_20260927.png?v=07caab08",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-40e188f0c4",
           "name": "Vanuatu vs New Caledonia | 11:00 27/09",
