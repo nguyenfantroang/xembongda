@@ -394,6 +394,78 @@
           }
         },
         {
+          "id": "gv-60ec87ce13",
+          "name": "Slovenia vs Scotland | 20:00 26/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-60ec87ce13",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-60ec87ce13",
+                  "name": "Slovenia vs Scotland",
+                  "streams": [
+                    {
+                      "id": "st-60ec87ce13",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-664d215269",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790415318_hd/1790415318_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Slovenia",
+            "team_b": "Scotland",
+            "logo_a": "https://images.keovip88.net/images/teams/slovenia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/scotland.png",
+            "time": "20:00:00",
+            "date": "26/09",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f695d673ba0b335e0f2ec9_018d4474_20260926.png?v=018d4474",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-567d3020e9",
           "name": "Croatia U21 vs U21 Hungary | 22:00 26/09",
           "type": "single",
@@ -469,83 +541,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-85ee17e77c",
-          "name": "Mobis Phoebus vs LG Sakers | 14:30 26/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-85ee17e77c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-85ee17e77c",
-                  "name": "Mobis Phoebus vs LG Sakers",
-                  "streams": [
-                    {
-                      "id": "st-85ee17e77c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-854dcd8df2",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790354009_hd/1790354009_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "South Korean KBL Cup",
-            "team_a": "Mobis Phoebus",
-            "team_b": "LG Sakers",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/9/93/Ulsan_Hyundai_Mobis_Phoebus.svg",
-            "logo_b": "https://static.flashscore.com/res/image/data/M5dauNCa-2el3ggr9.png",
-            "time": "14:30:00",
-            "date": "26/09",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/w570xi3ru16c_a599efb5_20260926.png?v=a599efb5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b4c26b61be",
           "name": "Japan (W) vs South Korea (W) | 17:20 26/09",
