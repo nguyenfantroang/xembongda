@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-60baeffad2",
-          "name": "Lexington W vs Dallas Trinity W | 06:30 26/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-60baeffad2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-60baeffad2",
-                  "name": "Lexington W vs Dallas Trinity W",
-                  "streams": [
-                    {
-                      "id": "st-60baeffad2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-32be610eb9",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790264535_hd/1790264535_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "USL Super League Women",
-            "team_a": "Lexington W",
-            "team_b": "Dallas Trinity W",
-            "logo_a": "https://static.flashscore.com/res/image/data/EHK2Qoil-ELAAnR8q.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/z92jY9eM-6BPIv68L.png",
-            "time": "06:30:00",
-            "date": "26/09",
-            "blv": "BLV Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ftbfejdb11wc_1dec83ae_20260926.png?v=1dec83ae",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c426400be5",
           "name": "ASIAD 2026 vs ASIAD 2026 | 07:00 26/09",
@@ -156,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/asooi3g7yvxg_62dd1b2b_20260926.png?v=62dd1b2b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-a4d8d2e97e",
-          "name": "Cavalry vs Supra du Quebec | 08:00 26/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a4d8d2e97e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a4d8d2e97e",
-                  "name": "Cavalry vs Supra du Quebec",
-                  "streams": [
-                    {
-                      "id": "st-a4d8d2e97e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a672e40e21",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790353603_hd/1790353603_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Canada - Canadian Premier League",
-            "team_a": "Cavalry",
-            "team_b": "Supra du Quebec",
-            "logo_a": "https://images.keovip88.net/images/teams/aek-larnaca.png",
-            "logo_b": "https://images.keovip88.net/images/teams/nea-salamis.png",
-            "time": "08:00:00",
-            "date": "26/09",
-            "blv": "BLV Hấu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab5ba5b09ca9ecd47090974_63ce0365_20260926.png?v=63ce0365",
             "width": 1600,
             "height": 1200
           }
