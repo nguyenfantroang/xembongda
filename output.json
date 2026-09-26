@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/asooi3g7yvxg_62dd1b2b_20260926.png?v=62dd1b2b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-64174f0c6f",
-          "name": "Nhật bản vs Triều tiên | 17:30 26/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-64174f0c6f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-64174f0c6f",
-                  "name": "Nhật bản vs Triều tiên",
-                  "streams": [
-                    {
-                      "id": "st-64174f0c6f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-22b57b4bd5",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790398770_hd/1790398770_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIAD 2026",
-            "team_a": "Nhật bản",
-            "team_b": "Triều tiên",
-            "logo_a": "https://static.flashscore.com/res/image/data/S49ci8h5-YqrtLoTa.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/CEKU1UwS-049Lq8a5.png",
-            "time": "17:30:00",
-            "date": "26/09",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/hcgq6rqxy1r5_8245c6ae_20260926.png?v=8245c6ae",
             "width": 1600,
             "height": 1200
           }
@@ -901,83 +829,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b4c26b61be",
-          "name": "Japan (W) vs South Korea (W) | 17:20 26/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b4c26b61be",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b4c26b61be",
-                  "name": "Japan (W) vs South Korea (W)",
-                  "streams": [
-                    {
-                      "id": "st-b4c26b61be",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a6ba0369f0",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790399250_hd/1790399250_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women's basketball match of the Asian Games",
-            "team_a": "Japan (W)",
-            "team_b": "South Korea (W)",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/d3fc6c75b5a81c1d4e35a0ec94c9b031.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/80f4ac7926dcf255ec6d32d271755d1a.png",
-            "time": "17:20:00",
-            "date": "26/09",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/24611473_8f5abe3d_20260926.png?v=8f5abe3d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-bcbbd45928",
           "name": "Perth Wildcats vs New Zealand Breakers | 18:30 26/09",
