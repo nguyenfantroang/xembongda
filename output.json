@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -168,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +220,7 @@
             "time": "17:30:00",
             "date": "26/09",
             "blv": "Trĩ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -536,6 +536,438 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-53254961a6",
+          "name": "Bulgaria vs Luxembourg | 23:00 26/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-53254961a6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-53254961a6",
+                  "name": "Bulgaria vs Luxembourg",
+                  "streams": [
+                    {
+                      "id": "st-53254961a6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6767a49a3",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790417150_hd/1790417150_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Bulgaria",
+            "team_b": "Luxembourg",
+            "logo_a": "https://images.keovip88.net/images/teams/bulgaria.png",
+            "logo_b": "https://images.keovip88.net/images/teams/luxembourg.png",
+            "time": "23:00:00",
+            "date": "26/09",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f544134f51b3673a069155_8e2bb900_20260926.png?v=8e2bb900",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9f96baa816",
+          "name": "Iceland vs Estonia | 23:00 26/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f96baa816",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9f96baa816",
+                  "name": "Iceland vs Estonia",
+                  "streams": [
+                    {
+                      "id": "st-9f96baa816",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e2c3625ee2",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790417174_hd/1790417174_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Iceland",
+            "team_b": "Estonia",
+            "logo_a": "https://images.keovip88.net/images/teams/iceland.png",
+            "logo_b": "https://images.keovip88.net/images/teams/estonia.png",
+            "time": "23:00:00",
+            "date": "26/09",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf70_032e125a_20260926.png?v=032e125a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b61040d614",
+          "name": "Oman vs Saudi Arabia | 01:00 27/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b61040d614",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b61040d614",
+                  "name": "Oman vs Saudi Arabia",
+                  "streams": [
+                    {
+                      "id": "st-b61040d614",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1f790d8157",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790417200_hd/1790417200_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asia - Arabian Gulf Cup",
+            "team_a": "Oman",
+            "team_b": "Saudi Arabia",
+            "logo_a": "https://static.flashscore.com/res/image/data/KGYHRIYA-baDaGjjh.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/G6x4A5zB-KtpTLRpL.png",
+            "time": "01:00:00",
+            "date": "27/09",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/1k1xisab0uhc_e3e08d08_20260926.png?v=e3e08d08",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4fed3dbd6f",
+          "name": "Cộng hòa Séc vs Croatia | 01:45 27/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4fed3dbd6f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4fed3dbd6f",
+                  "name": "Cộng hòa Séc vs Croatia",
+                  "streams": [
+                    {
+                      "id": "st-4fed3dbd6f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8bb63221a0",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790417259_hd/1790417259_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Cộng hòa Séc",
+            "team_b": "Croatia",
+            "logo_a": "https://images.keovip88.net/images/teams/czech-republic.png",
+            "logo_b": "https://images.keovip88.net/images/teams/croatia.png",
+            "time": "01:45:00",
+            "date": "27/09",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf45_6342657f_20260926.png?v=6342657f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-81b1f50065",
+          "name": "Anh vs Tây Ban Nha | 01:45 27/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-81b1f50065",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-81b1f50065",
+                  "name": "Anh vs Tây Ban Nha",
+                  "streams": [
+                    {
+                      "id": "st-81b1f50065",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0219c0651a",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790417285_hd/1790417285_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Anh",
+            "team_b": "Tây Ban Nha",
+            "logo_a": "https://images.keovip88.net/images/teams/england.png",
+            "logo_b": "https://images.keovip88.net/images/teams/spain.png",
+            "time": "01:45:00",
+            "date": "27/09",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f3f2b74bff4a0c310bf768_55210355_20260926.png?v=55210355",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c6ac826049",
+          "name": "Mỹ vs Peru | 03:30 27/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c6ac826049",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c6ac826049",
+                  "name": "Mỹ vs Peru",
+                  "streams": [
+                    {
+                      "id": "st-c6ac826049",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fcb7e6ac4f",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790417302_hd/1790417302_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Mỹ",
+            "team_b": "Peru",
+            "logo_a": "https://images.keovip88.net/images/teams/usa.png",
+            "logo_b": "https://images.keovip88.net/images/teams/peru.png",
+            "time": "03:30:00",
+            "date": "27/09",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1c622354480ad7b00538a_07caab08_20260926.png?v=07caab08",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -689,6 +1121,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-e633c164db",
+          "name": "Bilbao vs Manresa | 23:00 26/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e633c164db",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e633c164db",
+                  "name": "Bilbao vs Manresa",
+                  "streams": [
+                    {
+                      "id": "st-e633c164db",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6ae5d010e6",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790417010_hd/1790417010_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spain: ACB",
+            "team_a": "Bilbao",
+            "team_b": "Manresa",
+            "logo_a": "https://static.flashscore.com/res/image/data/Ch6tZ7jl-0hu4VHO8.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/lzJMFXDa-U18AXLHF.png",
+            "time": "23:00:00",
+            "date": "26/09",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/5nunrxhcna4w_491f2638_20260926.png?v=491f2638",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -767,6 +1271,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/5oq5adzpdag8_5013d0f8_20260926.png?v=5013d0f8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f8bbbc7cd1",
+          "name": "Pháp vs Ba Lan | 02:00 27/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f8bbbc7cd1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f8bbbc7cd1",
+                  "name": "Pháp vs Ba Lan",
+                  "streams": [
+                    {
+                      "id": "st-f8bbbc7cd1",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6999b625f8",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790416813_hd/1790416813_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Championship",
+            "team_a": "Pháp",
+            "team_b": "Ba Lan",
+            "logo_a": "https://static.flashscore.com/res/image/data/I5PqTkcM-0bvH5S2D.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/zB15YqDr-vZG58BBc.png",
+            "time": "02:00:00",
+            "date": "27/09",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/hbapb4sijdis_6936e1e2_20260926.png?v=6936e1e2",
             "width": 1600,
             "height": 1200
           }
@@ -889,11 +1465,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-052d7952cd",
-                          "name": "Dory",
+                          "id": "lnk-8222dd0cec",
+                          "name": "Riko",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789368755_hd/1789368755_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790416721_hd/1790416721_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -920,7 +1496,7 @@
             "logo_b": "https://platform.mmamania.com/wp-content/uploads/sites/110/2026/08/HPz3eAZXcAAocvy.jpeg?quality=90&strip=all&crop=0,10,100,80",
             "time": "02:00:00",
             "date": "27/09",
-            "blv": "Dory",
+            "blv": "Riko",
             "is_live": false,
             "cate_type": "vothuat"
           },
