@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/asooi3g7yvxg_62dd1b2b_20260926.png?v=62dd1b2b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-6a6cd68187",
-          "name": "U23 Trung Quốc vs U23 Thái Lan | 13:00 26/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6a6cd68187",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6a6cd68187",
-                  "name": "U23 Trung Quốc vs U23 Thái Lan",
-                  "streams": [
-                    {
-                      "id": "st-6a6cd68187",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e931fe360f",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790353793_hd/1790353793_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Games",
-            "team_a": "U23 Trung Quốc",
-            "team_b": "U23 Thái Lan",
-            "logo_a": "https://images.keovip88.net/images/teams/china-u23.png",
-            "logo_b": "https://images.keovip88.net/images/teams/thailand-u23.png",
-            "time": "13:00:00",
-            "date": "26/09",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab468e0b057b828a8092bc4_fa7f17c5_20260926.png?v=fa7f17c5",
             "width": 1600,
             "height": 1200
           }
