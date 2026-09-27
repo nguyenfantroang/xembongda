@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -240,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +292,7 @@
             "time": "18:35:00",
             "date": "27/09",
             "blv": "Súp",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1341,7 +1341,7 @@
       "channels": [
         {
           "id": "gv-3072c6bd57",
-          "name": "100 Thieves vs T1 | 16:00 27/09",
+          "name": "JDG vs FUT ESPORT | 16:00 27/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1360,7 +1360,7 @@
               "contents": [
                 {
                   "id": "ct-3072c6bd57",
-                  "name": "100 Thieves vs T1",
+                  "name": "JDG vs FUT ESPORT",
                   "streams": [
                     {
                       "id": "st-3072c6bd57",
@@ -1392,8 +1392,8 @@
           ],
           "org_metadata": {
             "league": "VCT Champions",
-            "team_a": "100 Thieves",
-            "team_b": "T1",
+            "team_a": "JDG",
+            "team_b": "FUT ESPORT",
             "logo_a": "https://static.flashscore.com/res/image/data/WCkwM4dM-nJbaxYrp.png",
             "logo_b": "https://static.flashscore.com/res/image/data/hxbcCXEa-rgb1I9qH.png",
             "time": "16:00:00",
