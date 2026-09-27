@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-d3f4d4ea47",
-          "name": "Hồng Kông vs Lào | 14:00 27/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d3f4d4ea47",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d3f4d4ea47",
-                  "name": "Hồng Kông vs Lào",
-                  "streams": [
-                    {
-                      "id": "st-d3f4d4ea47",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-90f40053ff",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790435101_hd/1790435101_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA ASEAN Cup",
-            "team_a": "Hồng Kông",
-            "team_b": "Lào",
-            "logo_a": "https://images.keovip88.net/images/teams/hong-kong.png",
-            "logo_b": "https://images.keovip88.net/images/teams/laos.png",
-            "time": "14:00:00",
-            "date": "27/09",
-            "blv": "BLV Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab468f8b057b828a8092bd6_71fb2dee_20260927.png?v=71fb2dee",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f0b5d0cd93",
-          "name": "Kaya vs Philippine Army | 14:00 27/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f0b5d0cd93",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f0b5d0cd93",
-                  "name": "Kaya vs Philippine Army",
-                  "streams": [
-                    {
-                      "id": "st-f0b5d0cd93",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9d6725712e",
-                          "name": "Bón",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790489229_hd/1790489229_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VDQG Philippines ",
-            "team_a": "Kaya",
-            "team_b": "Philippine Army",
-            "logo_a": "https://images.keovip88.net/images/teams/sc-kalsdorf.png",
-            "logo_b": "https://images.keovip88.net/images/teams/grazer-ak.png",
-            "time": "14:00:00",
-            "date": "27/09",
-            "blv": "Bón",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab85d6e802222c82d0bc73f_1425f3e1_20260927.png?v=1425f3e1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c426400be5",
           "name": "ASIAD 2026 vs ASIAD 2026 | 15:00 27/09",
@@ -1685,83 +1541,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-e0e4b43140",
-          "name": "Ấn Độ vs Việt Nam | 14:00 27/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e0e4b43140",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e0e4b43140",
-                  "name": "Ấn Độ vs Việt Nam",
-                  "streams": [
-                    {
-                      "id": "st-e0e4b43140",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c32e65e9d5",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790435042_hd/1790435042_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad 2026",
-            "team_a": "Ấn Độ",
-            "team_b": "Việt Nam",
-            "logo_a": "https://static.flashscore.com/res/image/data/bBruoNwS-ruTy2xns.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IUYV_ZAMxDdabQPzSpTJtg_96x96.png",
-            "time": "14:00:00",
-            "date": "27/09",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/h82vz08gj9fk_3b7ec606_20260927.png?v=3b7ec606",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ac4993edf2",
           "name": "Nhật Bản vs Uzbekistan | 17:20 27/09",
@@ -2072,7 +1856,7 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2085,10 +1869,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2137,7 +1921,7 @@
             "time": "16:30:00",
             "date": "27/09",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchay"
           },
           "image": {
