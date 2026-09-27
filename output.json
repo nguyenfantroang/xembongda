@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -329,10 +329,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -381,7 +381,7 @@
             "time": "03:25:00",
             "date": "28/09",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -979,78 +979,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-122eaa88d9",
-          "name": "Real Madrid vs Unicaja | 23:59 27/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-122eaa88d9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-122eaa88d9",
-                  "name": "Real Madrid vs Unicaja",
-                  "streams": [
-                    {
-                      "id": "st-122eaa88d9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a76cff6f20",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790520031_hd/1790520031_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Euroleague",
-            "team_a": "Real Madrid",
-            "team_b": "Unicaja",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/b/be/Real_Madrid_Baloncesto.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/OtLQp0xS-QP5xKSl0.png",
-            "time": "23:59:00",
-            "date": "27/09",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/0xo75wufjxlc_caeed858_20260928.png?v=caeed858",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-dcd7da86cc",
           "name": "Minnesota Lynx vs New York Liberty | 01:00 28/09",
           "type": "single",
@@ -1130,10 +1058,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1182,7 +1110,7 @@
             "time": "03:00:00",
             "date": "28/09",
             "blv": "Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
