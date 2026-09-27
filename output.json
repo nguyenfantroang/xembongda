@@ -11,86 +11,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-feced88ed0",
-          "name": "Lithuania vs Azerbaijan | 20:00 27/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-feced88ed0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-feced88ed0",
-                  "name": "Lithuania vs Azerbaijan",
-                  "streams": [
-                    {
-                      "id": "st-feced88ed0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a8cb7c2aea",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790494080_hd/1790494080_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Lithuania",
-            "team_b": "Azerbaijan",
-            "logo_a": "https://images.keovip88.net/images/teams/lithuania.png",
-            "logo_b": "https://images.keovip88.net/images/teams/azerbaijan.png",
-            "time": "20:00:00",
-            "date": "27/09",
-            "blv": "Mickey",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f2a1a2bb398665fd0908e4_0bb6236e_20260927.png?v=0bb6236e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-b681bd57ca",
-          "name": "Yemen vs Qatar | 22:00 27/09",
+          "name": "Yemen vs Qatar | 22:55 27/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -145,7 +73,7 @@
             "team_b": "Qatar",
             "logo_a": "https://static.flashscore.com/res/image/data/GANOAmyS-48fOrFoJ.png",
             "logo_b": "https://static.flashscore.com/res/image/data/vky4LWkl-UPMdbcD9.png",
-            "time": "22:00:00",
+            "time": "22:55:00",
             "date": "27/09",
             "blv": "Bee",
             "is_live": true,
@@ -881,6 +809,78 @@
           }
         },
         {
+          "id": "gv-1b7274f025",
+          "name": "Baltimore Ravens vs Dallas Cowboys | 03:25 28/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1b7274f025",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1b7274f025",
+                  "name": "Baltimore Ravens vs Dallas Cowboys",
+                  "streams": [
+                    {
+                      "id": "st-1b7274f025",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-622736b914",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790520425_hd/1790520425_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NFL",
+            "team_a": "Baltimore Ravens",
+            "team_b": "Dallas Cowboys",
+            "logo_a": "https://static.flashscore.com/res/image/data/dUe4S2il-40MWbKRi.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/2DROi6Wg-IqxwDINa.png",
+            "time": "03:25:00",
+            "date": "28/09",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/kxhrr7wi3e8f_7421d9d8_20260927.png?v=7421d9d8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-607af7fb8d",
           "name": "Singapore vs Bangladesh | 16:00 28/09",
           "type": "single",
@@ -1308,6 +1308,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab317de20160d386000599d_129dbfb7_20260927.png?v=129dbfb7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b35b1dae11",
+          "name": "U19 Slovakia vs Ba Lan U19 | 22:00 28/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b35b1dae11",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b35b1dae11",
+                  "name": "U19 Slovakia vs Ba Lan U19",
+                  "streams": [
+                    {
+                      "id": "st-b35b1dae11",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d68d68be10",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790519105_hd/1790519105_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "U19 Slovakia",
+            "team_b": "Ba Lan U19",
+            "logo_a": "https://images.keovip88.net/images/teams/slovakia-u19.png",
+            "logo_b": "https://images.keovip88.net/images/teams/poland-u19.png",
+            "time": "22:00:00",
+            "date": "28/09",
+            "blv": "Mickey",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab317de20160d38600059a2_651433bc_20260927.png?v=651433bc",
             "width": 1600,
             "height": 1200
           }
