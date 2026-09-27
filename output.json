@@ -668,83 +668,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-dcd7da86cc",
-          "name": "Minnesota Lynx vs New York Liberty | 01:00 28/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dcd7da86cc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-dcd7da86cc",
-                  "name": "Minnesota Lynx vs New York Liberty",
-                  "streams": [
-                    {
-                      "id": "st-dcd7da86cc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5d73bb10e8",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790520085_hd/1790520085_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "Minnesota Lynx",
-            "team_b": "New York Liberty",
-            "logo_a": "https://static.flashscore.com/res/image/data/tYwDOwCa-pnEu7gs7.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnFsEkiU1gOwmarpw9ErB0OrMqNBZSXWNG6g&s",
-            "time": "01:00:00",
-            "date": "28/09",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/bnatbsu6z8dt_5a3d03f9_20260928.png?v=5a3d03f9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5720f50bbb",
           "name": "Las Vegas Aces vs Indiana Fever | 03:00 28/09",
