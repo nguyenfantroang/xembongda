@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "gv-c524c0ba2f",
-          "name": "Israel vs Ireland | 01:45 28/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c524c0ba2f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c524c0ba2f",
-                  "name": "Israel vs Ireland",
-                  "streams": [
-                    {
-                      "id": "st-c524c0ba2f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1a7b7a764d",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790265822_hd/1790265822_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Israel",
-            "team_b": "Ireland",
-            "logo_a": "https://images.keovip88.net/images/teams/israel.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ireland.png",
-            "time": "01:45:00",
-            "date": "28/09",
-            "blv": "Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f695d673ba0b335e0f2ed0_eb6b29f2_20260928.png?v=eb6b29f2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-b7503cc436",
           "name": "Đức vs Hy Lạp | 01:45 28/09",
           "type": "single",
@@ -168,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +148,7 @@
             "time": "01:45:00",
             "date": "28/09",
             "blv": "Ngọng",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -240,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +220,7 @@
             "time": "01:45:00",
             "date": "28/09",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -300,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f544134f51b3673a06914e_ef436caa_20260928.png?v=ef436caa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c524c0ba2f",
+          "name": "Israel vs Ireland | 01:45 28/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c524c0ba2f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c524c0ba2f",
+                  "name": "Israel vs Ireland",
+                  "streams": [
+                    {
+                      "id": "st-c524c0ba2f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1a7b7a764d",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790265822_hd/1790265822_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Israel",
+            "team_b": "Ireland",
+            "logo_a": "https://images.keovip88.net/images/teams/israel.png",
+            "logo_b": "https://images.keovip88.net/images/teams/ireland.png",
+            "time": "01:45:00",
+            "date": "28/09",
+            "blv": "Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f695d673ba0b335e0f2ed0_eb6b29f2_20260928.png?v=eb6b29f2",
             "width": 1600,
             "height": 1200
           }
@@ -884,83 +884,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-885de2e70c",
-          "name": "Valencia vs Forca Lleida | 23:00 27/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-885de2e70c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-885de2e70c",
-                  "name": "Valencia vs Forca Lleida",
-                  "streams": [
-                    {
-                      "id": "st-885de2e70c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8f757984c8",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790519908_hd/1790519908_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Euroleague",
-            "team_a": "Valencia",
-            "team_b": "Forca Lleida",
-            "logo_a": "https://static.flashscore.com/res/image/data/UFmsOtyB-0xo9H7fm.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/x8LbomyS-zRykV8ZA.png",
-            "time": "23:00:00",
-            "date": "27/09",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/rz7ildfa0aos_0268e7f7_20260928.png?v=0268e7f7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-122eaa88d9",
           "name": "Real Madrid vs Unicaja | 23:59 27/09",
