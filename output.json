@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +148,7 @@
             "time": "22:00:00",
             "date": "27/09",
             "blv": "Bee",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1239,49 +1239,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-2c31848639",
-          "name": "Hanoi buffalo vs Saigon heat | 19:30 27/09",
+          "id": "gv-119cb6ebf5",
+          "name": "Anh U17 vs U17 Israel | 21:00 28/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-2c31848639",
+              "id": "src-119cb6ebf5",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-2c31848639",
-                  "name": "Hanoi buffalo vs Saigon heat",
+                  "id": "ct-119cb6ebf5",
+                  "name": "Anh U17 vs U17 Israel",
                   "streams": [
                     {
-                      "id": "st-2c31848639",
+                      "id": "st-119cb6ebf5",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-159560c19b",
-                          "name": "Vịt",
+                          "id": "lnk-3be27f9da1",
+                          "name": "Trĩ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790511812_hd/1790511812_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790519059_hd/1790519059_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1301,26 +1292,35 @@
             }
           ],
           "org_metadata": {
-            "league": "Vietnam Basketball League",
-            "team_a": "Hanoi buffalo",
-            "team_b": "Saigon heat",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/dffc9109f99b890e6dd480f8ac53ecec.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/6a815620dec350b358d090c9739849c7.png",
-            "time": "19:30:00",
-            "date": "27/09",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
+            "league": "Giao hữu quốc tế",
+            "team_a": "Anh U17",
+            "team_b": "U17 Israel",
+            "logo_a": "https://images.keovip88.net/images/teams/england-u17.png",
+            "logo_b": "https://images.keovip88.net/images/teams/israel-u17.png",
+            "time": "21:00:00",
+            "date": "28/09",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/16001478_98e08164_20260927.png?v=98e08164",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab317de20160d386000599d_129dbfb7_20260927.png?v=129dbfb7",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_basketball",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "gv-226046bb0a",
           "name": "Basket Girona vs Murcia | 22:00 27/09",
@@ -1329,10 +1329,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1381,7 +1381,7 @@
             "time": "22:00:00",
             "date": "27/09",
             "blv": "Chồn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
