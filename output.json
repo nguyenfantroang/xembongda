@@ -1316,83 +1316,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-226046bb0a",
-          "name": "Basket Girona vs Murcia | 22:00 27/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-226046bb0a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-226046bb0a",
-                  "name": "Basket Girona vs Murcia",
-                  "streams": [
-                    {
-                      "id": "st-226046bb0a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3167894685",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790494992_hd/1790494992_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Euroleague SuperCup",
-            "team_a": "Basket Girona",
-            "team_b": "Murcia",
-            "logo_a": "https://static.flashscore.com/res/image/data/h4mAxXEa-YgmHmwO2.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/bFsA9LdM-hxasO7Sq.png",
-            "time": "22:00:00",
-            "date": "27/09",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/xi4hqmx5gbol_d28c36ab_20260928.png?v=d28c36ab",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-885de2e70c",
           "name": "Valencia vs Forca Lleida | 23:00 27/09",
