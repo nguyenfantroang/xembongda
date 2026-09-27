@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9071b4d87c",
-          "name": "Chelsea nữ vs Arsenal nữ | 22:30 27/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9071b4d87c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9071b4d87c",
-                  "name": "Chelsea nữ vs Arsenal nữ",
-                  "streams": [
-                    {
-                      "id": "st-9071b4d87c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4e4dd34d15",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790495435_hd/1790495435_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WSL",
-            "team_a": "Chelsea nữ",
-            "team_b": "Arsenal nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/Miv9FHHG-dQ3CHKf1.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/WbvWGBEG-QmAvFdvS.png",
-            "time": "22:30:00",
-            "date": "27/09",
-            "blv": "Ngọng",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/9yeq3q0t2z9d_be7d5274_20260928.png?v=be7d5274",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b681bd57ca",
           "name": "Yemen vs Qatar | 22:55 27/09",
@@ -1316,7 +1244,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1473,10 +1401,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1525,7 +1453,7 @@
             "time": "01:00:00",
             "date": "28/09",
             "blv": "Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1610,8 +1538,8 @@
           }
         },
         {
-          "id": "gv-d2cde5f9f4",
-          "name": "Golden State Valkyries vs Dallas Wings | 08:00 28/09",
+          "id": "gv-ceeeb9e8fd",
+          "name": "Atlanta Dream vs Washington Mystics | 06:00 28/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1625,23 +1553,23 @@
           ],
           "sources": [
             {
-              "id": "src-d2cde5f9f4",
+              "id": "src-ceeeb9e8fd",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-d2cde5f9f4",
-                  "name": "Golden State Valkyries vs Dallas Wings",
+                  "id": "ct-ceeeb9e8fd",
+                  "name": "Atlanta Dream vs Washington Mystics",
                   "streams": [
                     {
-                      "id": "st-d2cde5f9f4",
+                      "id": "st-ceeeb9e8fd",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-74935bf319",
-                          "name": "Ben",
+                          "id": "lnk-193db53c8e",
+                          "name": "Chồn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790528883_hd/1790528883_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790530217_hd/1790530217_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1662,13 +1590,13 @@
           ],
           "org_metadata": {
             "league": "Women’s National Basketball Association",
-            "team_a": "Golden State Valkyries",
-            "team_b": "Dallas Wings",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/17dcd412f5ecfaa1bc4b85e6e39bc0c4.png",
-            "time": "08:00:00",
+            "team_a": "Atlanta Dream",
+            "team_b": "Washington Mystics",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f527c983cab3560c60e7b9d147904d7d.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/e4fdbc941d11c2927bafb5b8978e8ea6.png",
+            "time": "06:00:00",
             "date": "28/09",
-            "blv": "Ben",
+            "blv": "Chồn",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -1676,7 +1604,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/12101475_fbfdffda_20260928.png?v=fbfdffda",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/13101476_603cee7c_20260928.png?v=603cee7c",
             "width": 1600,
             "height": 1200
           }
