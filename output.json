@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +148,7 @@
             "time": "11:00:00",
             "date": "27/09",
             "blv": "Bón",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1262,83 +1262,11 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0ddc93b2dc",
-          "name": "Rosas Jr. vs Barcelos | 04:00 27/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0ddc93b2dc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0ddc93b2dc",
-                  "name": "Rosas Jr. vs Barcelos",
-                  "streams": [
-                    {
-                      "id": "st-0ddc93b2dc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8222dd0cec",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790416721_hd/1790416721_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UFC Fight Night: Rosas Jr. vs. Barcelos",
-            "team_a": "Rosas Jr.",
-            "team_b": "Barcelos",
-            "logo_a": "https://platform.mmamania.com/wp-content/uploads/sites/110/2026/08/HPz3eAZXcAAocvy.jpeg?quality=90&strip=all&crop=0,10,100,80",
-            "logo_b": "https://platform.mmamania.com/wp-content/uploads/sites/110/2026/08/HPz3eAZXcAAocvy.jpeg?quality=90&strip=all&crop=0,10,100,80",
-            "time": "04:00:00",
-            "date": "27/09",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/hbxb5hmfy6ng_db1b1409_20260927.png?v=db1b1409",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-232423eef4",
           "name": "Dana White's Contender Series: Season 10, Week 8 vs Dana White's Contender Series: Season 10, Week 8 | 06:00 30/09",
