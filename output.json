@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "gv-c426400be5",
-          "name": "ASIAD 2026 vs ASIAD 2026 | 10:00 28/09",
+          "name": "ASIAD 2026 vs ASIAD 2026 | 13:00 28/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,7 +73,7 @@
             "team_b": "ASIAD 2026",
             "logo_a": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "logo_b": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "time": "10:00:00",
+            "time": "13:00:00",
             "date": "28/09",
             "blv": "BLV Túi Mù",
             "is_live": true,
@@ -821,83 +821,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-3aaa77de01",
-          "name": "Trung Quốc vs Philippines | 11:00 28/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3aaa77de01",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3aaa77de01",
-                  "name": "Trung Quốc vs Philippines",
-                  "streams": [
-                    {
-                      "id": "st-3aaa77de01",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6c3774e77b",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790535597_hd/1790535597_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad 2026",
-            "team_a": "Trung Quốc",
-            "team_b": "Philippines",
-            "logo_a": "https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/QkqH8NfM-C61WJZ3f.png",
-            "time": "11:00:00",
-            "date": "28/09",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/13zfdvecl76e_f57dd6eb_20260928.png?v=f57dd6eb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-8069a9d335",
           "name": "Việt Nam vs Qatar | 14:00 28/09",
