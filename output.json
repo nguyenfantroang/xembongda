@@ -1037,83 +1037,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-8069a9d335",
-          "name": "Việt Nam vs Qatar | 14:00 28/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8069a9d335",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8069a9d335",
-                  "name": "Việt Nam vs Qatar",
-                  "streams": [
-                    {
-                      "id": "st-8069a9d335",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f86760fd95",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790535667_hd/1790535667_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad 2026",
-            "team_a": "Việt Nam",
-            "team_b": "Qatar",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IUYV_ZAMxDdabQPzSpTJtg_96x96.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png",
-            "time": "14:00:00",
-            "date": "28/09",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/fck8bm7k8unb_db74d62c_20260928.png?v=db74d62c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-38610e9381",
           "name": "Nhật Bản vs Kazakhstan | 17:20 28/09",
