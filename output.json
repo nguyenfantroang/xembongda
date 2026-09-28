@@ -591,6 +591,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-563ce67db1",
+          "name": "Philippines vs Đài Bắc Trung Hoa | 11:00 29/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-563ce67db1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-563ce67db1",
+                  "name": "Philippines vs Đài Bắc Trung Hoa",
+                  "streams": [
+                    {
+                      "id": "st-563ce67db1",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4520b6fbfb",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790536088_hd/1790536088_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asiad 2026",
+            "team_a": "Philippines",
+            "team_b": "Đài Bắc Trung Hoa",
+            "logo_a": "https://images.keovip88.net/images/teams/philippines.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Chinese_Taipei_for_Olympic_Games.svg/1280px-Flag_of_Chinese_Taipei_for_Olympic_Games.svg.png",
+            "time": "11:00:00",
+            "date": "29/09",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/xk9aye35fb75_2cdec04e_20260928.png?v=2cdec04e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
