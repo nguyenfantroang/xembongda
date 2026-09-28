@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab468f8b057b828a8092bcf_c85b71c1_20260928.png?v=c85b71c1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c426400be5",
+          "name": "ASIAD 2026 vs ASIAD 2026 | 20:00 28/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c426400be5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c426400be5",
+                  "name": "ASIAD 2026 vs ASIAD 2026",
+                  "streams": [
+                    {
+                      "id": "st-c426400be5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-09b33be66f",
+                          "name": "BLV Túi Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAD 2026",
+            "team_a": "ASIAD 2026",
+            "team_b": "ASIAD 2026",
+            "logo_a": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "logo_b": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "time": "20:00:00",
+            "date": "28/09",
+            "blv": "BLV Túi Mù",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/asooi3g7yvxg_62dd1b2b_20260928.png?v=62dd1b2b",
             "width": 1600,
             "height": 1200
           }
@@ -1028,83 +1100,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-658a49388a",
-          "name": "Mindoro Tamaraws vs Basilan Viva Portmasters | 18:00 28/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-658a49388a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-658a49388a",
-                  "name": "Mindoro Tamaraws vs Basilan Viva Portmasters",
-                  "streams": [
-                    {
-                      "id": "st-658a49388a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-64b0c1caf7",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790580049_hd/1790580049_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Philippines MPBL",
-            "team_a": "Mindoro Tamaraws",
-            "team_b": "Basilan Viva Portmasters",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f265f639507860463b03c6a46fe76e93.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/44301bad4e84f5bd81f0ff4477f51121.png",
-            "time": "18:00:00",
-            "date": "28/09",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/29080478_195fbe5b_20260928.png?v=195fbe5b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-4e73d43d54",
           "name": "Indian Railway vs Al Ittihad | 21:45 28/09",
