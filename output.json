@@ -818,6 +818,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-100702a2ed",
+          "name": "Imus Agimat vs Zamboanga Familys Brand Sardines | 16:00 28/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-100702a2ed",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-100702a2ed",
+                  "name": "Imus Agimat vs Zamboanga Familys Brand Sardines",
+                  "streams": [
+                    {
+                      "id": "st-100702a2ed",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-01cd9cd694",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790580068_hd/1790580068_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Philippines MPBL",
+            "team_a": "Imus Agimat",
+            "team_b": "Zamboanga Familys Brand Sardines",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/eb293c68f4fcefb85c85dc46749b68fd.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/1ba7bc78f9d1c7a7110e43d1c6f141f3.png",
+            "time": "16:00:00",
+            "date": "28/09",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/20180470_ea8e2206_20260928.png?v=ea8e2206",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-658a49388a",
           "name": "Mindoro Tamaraws vs Basilan Viva Portmasters | 18:00 28/09",
           "type": "single",
@@ -845,11 +917,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-93a966636f",
-                          "name": "Cầy",
+                          "id": "lnk-64b0c1caf7",
+                          "name": "Vịt",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790528556_hd/1790528556_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790580049_hd/1790580049_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -876,7 +948,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/44301bad4e84f5bd81f0ff4477f51121.png",
             "time": "18:00:00",
             "date": "28/09",
-            "blv": "Cầy",
+            "blv": "Vịt",
             "is_live": false,
             "cate_type": "basketball"
           },
