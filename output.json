@@ -1556,6 +1556,87 @@
           }
         }
       ]
+    },
+    {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-c9bddc7a46",
+          "name": "Philadelphia Eagles vs Chicago bear | 07:15 29/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c9bddc7a46",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c9bddc7a46",
+                  "name": "Philadelphia Eagles vs Chicago bear",
+                  "streams": [
+                    {
+                      "id": "st-c9bddc7a46",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1319f0d954",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790635813_hd/1790635813_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NFL",
+            "team_a": "Philadelphia Eagles",
+            "team_b": "Chicago bear",
+            "logo_a": "https://a.espncdn.com/guid/d1a9b001-1df7-fbd7-ae4c-6ca7065286ec/logos/primary_logo_on_black_color.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiU-2SfGb8497a_0WUJRQFQ5MutTHBQu4YdoPcU86SxQ&s=10",
+            "time": "07:15:00",
+            "date": "29/09",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/8z6ovm85fqn0_1289007d_20260929.png?v=1289007d",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     }
   ]
 }
