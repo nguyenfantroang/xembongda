@@ -812,83 +812,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c523683ce8",
-          "name": "Fenerbahce Ulker vs FC Bayern Munchen | 00:45 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c523683ce8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c523683ce8",
-                  "name": "Fenerbahce Ulker vs FC Bayern Munchen",
-                  "streams": [
-                    {
-                      "id": "st-c523683ce8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-486f994a69",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790666671_hd/1790666671_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "EURO",
-            "team_a": "Fenerbahce Ulker",
-            "team_b": "FC Bayern Munchen",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/ad2880c512e15870ba354e89f5809541.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/1ee20d34aaf3954a5ae419166d015a1d.png",
-            "time": "00:45:00",
-            "date": "30/09",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21292273_c093eea7_20260930.png?v=c093eea7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-2c4f9cc563",
           "name": "Indiana Fever vs Las Vegas Aces | 05:30 30/09",
