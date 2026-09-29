@@ -11,117 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-df261010a6",
-          "name": "Thái Lan vs Việt Nam | 19:30 29/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-df261010a6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-df261010a6",
-                  "name": "Thái Lan vs Việt Nam",
-                  "streams": [
-                    {
-                      "id": "st-df261010a6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7c3a2c304f",
-                          "name": "Đầu cầu Hấu: Việt Nam Vô Địch",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790676054_hd/1790676054_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c8925f7481",
-                          "name": "Đầu cầu Sawasdee khap",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790681576_hd/1790681576_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e7a2142b58",
-                          "name": "Đầu Cầu Vui Vẻ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790682904_hd/1790682904_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA ASEAN Cup",
-            "team_a": "Thái Lan",
-            "team_b": "Việt Nam",
-            "logo_a": "https://images.keovip88.net/images/teams/thailand.png",
-            "logo_b": "https://images.keovip88.net/images/teams/vietnam.png",
-            "time": "19:30:00",
-            "date": "29/09",
-            "blv": "Đầu cầu Hấu: Việt Nam Vô Địch, Đầu cầu Sawasdee khap, Đầu Cầu Vui Vẻ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab468f8b057b828a8092bd3_e48d0180_20260929.png?v=e48d0180",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3eaed9139b",
           "name": "Burundi vs Algeria | 20:00 29/09",
@@ -346,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -398,7 +292,7 @@
             "time": "21:30:00",
             "date": "29/09",
             "blv": "BLV Hấu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -418,10 +312,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -470,7 +364,7 @@
             "time": "22:00:00",
             "date": "29/09",
             "blv": "Trĩ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
