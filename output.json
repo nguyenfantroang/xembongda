@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-3eaed9139b",
-          "name": "Burundi vs Algeria | 20:00 29/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3eaed9139b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3eaed9139b",
-                  "name": "Burundi vs Algeria",
-                  "streams": [
-                    {
-                      "id": "st-3eaed9139b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-045c41790f",
-                          "name": "Bón",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790622051_hd/1790622051_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Africa Cup of Nations",
-            "team_a": "Burundi",
-            "team_b": "Algeria",
-            "logo_a": "https://images.keovip88.net/images/teams/burundi.png",
-            "logo_b": "https://images.keovip88.net/images/teams/algeria.png",
-            "time": "20:00:00",
-            "date": "29/09",
-            "blv": "Bón",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a387d79153ee8455e055728_6a344ed8_20260929.png?v=6a344ed8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-1f0aa41f19",
-          "name": "Ethiopia vs Senegal | 20:00 29/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1f0aa41f19",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1f0aa41f19",
-                  "name": "Ethiopia vs Senegal",
-                  "streams": [
-                    {
-                      "id": "st-1f0aa41f19",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-80b22104dd",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790622082_hd/1790622082_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Africa Cup of Nations",
-            "team_a": "Ethiopia",
-            "team_b": "Senegal",
-            "logo_a": "https://images.keovip88.net/images/teams/ethiopia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/senegal.png",
-            "time": "20:00:00",
-            "date": "29/09",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a39cf7be3978e5e46039b06_182c96b1_20260929.png?v=182c96b1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-90482b63a1",
           "name": "U21 Slovenia vs U21 Israel | 21:00 29/09",
@@ -1164,6 +1020,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab85d64802222c82d0bc738_a31d17c6_20260929.png?v=a31d17c6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ef45619d75",
+          "name": "Hồng Kông vs Brunei | 19:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ef45619d75",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ef45619d75",
+                  "name": "Hồng Kông vs Brunei",
+                  "streams": [
+                    {
+                      "id": "st-ef45619d75",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-747ee3f9e6",
+                          "name": "Bón",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790693391_hd/1790693391_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA ASEAN Cup",
+            "team_a": "Hồng Kông",
+            "team_b": "Brunei",
+            "logo_a": "https://images.keovip88.net/images/teams/hong-kong.png",
+            "logo_b": "https://images.keovip88.net/images/teams/brunei-darussalam.png",
+            "time": "19:00:00",
+            "date": "30/09",
+            "blv": "Bón",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab468f8b057b828a8092bd7_72f8aff8_20260929.png?v=72f8aff8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9f34f851ce",
+          "name": "Aktobe W vs Ajax W | 21:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f34f851ce",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9f34f851ce",
+                  "name": "Aktobe W vs Ajax W",
+                  "streams": [
+                    {
+                      "id": "st-9f34f851ce",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1422188f60",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790693677_hd/1790693677_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Europe - UEFA Europa Cup Women Qualification",
+            "team_a": "Aktobe W",
+            "team_b": "Ajax W",
+            "logo_a": "https://static.flashscore.com/res/image/data/djXrDDYg-Mishzsa7.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/nHNpUPcM-bZZPiwAI.png",
+            "time": "21:00:00",
+            "date": "30/09",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/g16xxtltjksb_6417f8cd_20260929.png?v=6417f8cd",
             "width": 1600,
             "height": 1200
           }
