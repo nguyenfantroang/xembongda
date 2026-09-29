@@ -812,83 +812,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-4022229af6",
-          "name": "Efes Pilsen vs Real Madrid Teka | 00:00 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4022229af6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4022229af6",
-                  "name": "Efes Pilsen vs Real Madrid Teka",
-                  "streams": [
-                    {
-                      "id": "st-4022229af6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-34843c324a",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790666516_hd/1790666516_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "EURO",
-            "team_a": "Efes Pilsen",
-            "team_b": "Real Madrid Teka",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/39e14cf9edd095fe5daed21f75b67bd3.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/baacc764f89f2ce4c22b48768946ca5a.png",
-            "time": "00:00:00",
-            "date": "30/09",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39192270_1bb8fcca_20260930.png?v=1bb8fcca",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c523683ce8",
           "name": "Fenerbahce Ulker vs FC Bayern Munchen | 00:45 30/09",
