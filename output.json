@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/asooi3g7yvxg_62dd1b2b_20260929.png?v=62dd1b2b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-563ce67db1",
-          "name": "Philippines vs Đài Bắc Trung Hoa | 11:00 29/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-563ce67db1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-563ce67db1",
-                  "name": "Philippines vs Đài Bắc Trung Hoa",
-                  "streams": [
-                    {
-                      "id": "st-563ce67db1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4520b6fbfb",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790536088_hd/1790536088_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad 2026",
-            "team_a": "Philippines",
-            "team_b": "Đài Bắc Trung Hoa",
-            "logo_a": "https://images.keovip88.net/images/teams/philippines.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Chinese_Taipei_for_Olympic_Games.svg/1280px-Flag_of_Chinese_Taipei_for_Olympic_Games.svg.png",
-            "time": "11:00:00",
-            "date": "29/09",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/xk9aye35fb75_2cdec04e_20260929.png?v=2cdec04e",
             "width": 1600,
             "height": 1200
           }
@@ -563,6 +491,23 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-54ba6da48b",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790665818_hd/1790665818_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -579,7 +524,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/vietnam.png",
             "time": "19:30:00",
             "date": "29/09",
-            "blv": "BLV Hấu",
+            "blv": "BLV Hấu, Bee",
             "is_live": false,
             "cate_type": "football"
           },
@@ -876,6 +821,366 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/683ce9d16fa477d4b3036ffa_aa9aba22_20260929.png?v=aa9aba22",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-affb261053",
+          "name": "Cape Verde vs Rwanda | 23:00 29/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-affb261053",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-affb261053",
+                  "name": "Cape Verde vs Rwanda",
+                  "streams": [
+                    {
+                      "id": "st-affb261053",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-31f5ab882b",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790665395_hd/1790665395_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Africa Cup of Nations",
+            "team_a": "Cape Verde",
+            "team_b": "Rwanda",
+            "logo_a": "https://images.keovip88.net/images/teams/cape-verde.png",
+            "logo_b": "https://images.keovip88.net/images/teams/rwanda.png",
+            "time": "23:00:00",
+            "date": "29/09",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a387d79153ee8455e055734_e8ea6eb9_20260929.png?v=e8ea6eb9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-60babba8ae",
+          "name": "Ghana vs Gambia | 23:00 29/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-60babba8ae",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-60babba8ae",
+                  "name": "Ghana vs Gambia",
+                  "streams": [
+                    {
+                      "id": "st-60babba8ae",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-534e55f3bb",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790665489_hd/1790665489_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Africa Cup of Nations",
+            "team_a": "Ghana",
+            "team_b": "Gambia",
+            "logo_a": "https://images.keovip88.net/images/teams/ghana.png",
+            "logo_b": "https://images.keovip88.net/images/teams/gambia.png",
+            "time": "23:00:00",
+            "date": "29/09",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a372c0432ce87f525086b96_d5439a84_20260929.png?v=d5439a84",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b4888744c8",
+          "name": "Benin vs Mauritania | 00:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b4888744c8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b4888744c8",
+                  "name": "Benin vs Mauritania",
+                  "streams": [
+                    {
+                      "id": "st-b4888744c8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-608aac2e19",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790665740_hd/1790665740_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Africa Cup of Nations",
+            "team_a": "Benin",
+            "team_b": "Mauritania",
+            "logo_a": "https://images.keovip88.net/images/teams/benin.png",
+            "logo_b": "https://images.keovip88.net/images/teams/mauritania.png",
+            "time": "00:00:00",
+            "date": "30/09",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a372c0432ce87f525086b9e_09717996_20260929.png?v=09717996",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b5472e1874",
+          "name": "Scotland vs Thụy Sĩ | 01:45 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b5472e1874",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b5472e1874",
+                  "name": "Scotland vs Thụy Sĩ",
+                  "streams": [
+                    {
+                      "id": "st-b5472e1874",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2f7580e4e7",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790665820_hd/1790665820_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Scotland",
+            "team_b": "Thụy Sĩ",
+            "logo_a": "https://images.keovip88.net/images/teams/scotland.png",
+            "logo_b": "https://images.keovip88.net/images/teams/switzerland.png",
+            "time": "01:45:00",
+            "date": "30/09",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f3f2b74bff4a0c310bf775_73bc6efe_20260929.png?v=73bc6efe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-487aa34f1a",
+          "name": "Cộng hòa Séc vs Anh | 01:45 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-487aa34f1a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-487aa34f1a",
+                  "name": "Cộng hòa Séc vs Anh",
+                  "streams": [
+                    {
+                      "id": "st-487aa34f1a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-37e1c26fb3",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790665884_hd/1790665884_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Cộng hòa Séc",
+            "team_b": "Anh",
+            "logo_a": "https://images.keovip88.net/images/teams/czech-republic.png",
+            "logo_b": "https://images.keovip88.net/images/teams/england.png",
+            "time": "01:45:00",
+            "date": "30/09",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f3f2b74bff4a0c310bf769_8ab3ed95_20260929.png?v=8ab3ed95",
             "width": 1600,
             "height": 1200
           }
