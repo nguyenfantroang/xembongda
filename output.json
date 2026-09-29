@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "gv-c426400be5",
-          "name": "ASIAD 2026 vs ASIAD 2026 | 09:00 29/09",
+          "name": "ASIAD 2026 vs ASIAD 2026 | 10:30 29/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,7 +73,7 @@
             "team_b": "ASIAD 2026",
             "logo_a": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "logo_b": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "time": "09:00:00",
+            "time": "10:30:00",
             "date": "29/09",
             "blv": "BLV Túi Mù",
             "is_live": true,
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +148,7 @@
             "time": "11:00:00",
             "date": "29/09",
             "blv": "Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1036,237 +1036,12 @@
       ]
     },
     {
-      "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-340122c755",
-          "name": "Tsitsipas S vs Hijikata R | 09:00 29/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-340122c755",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-340122c755",
-                  "name": "Tsitsipas S vs Hijikata R",
-                  "streams": [
-                    {
-                      "id": "st-340122c755",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-16b6a82823",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790611342_hd/1790611342_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Singles - Tokyo",
-            "team_a": "Tsitsipas S",
-            "team_b": "Hijikata R",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrGn8O3yUQUHBCvBFwAzftre2bqTcF-PYjjxBfKFBSlj7O7MUYI8XxiUs&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxC2vEWXJEq6lMz3QWvJXxpinHfwKLrrk_rzXTEW1UEA&s",
-            "time": "09:00:00",
-            "date": "29/09",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/nd111gqp86zb_6a228449_20260929.png?v=6a228449",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-a657433833",
-          "name": "Việt Nam vs Hồng Kông | 08:00 29/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a657433833",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a657433833",
-                  "name": "Việt Nam vs Hồng Kông",
-                  "streams": [
-                    {
-                      "id": "st-a657433833",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-22dfe9b9b7",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790535974_hd/1790535974_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad 2026",
-            "team_a": "Việt Nam",
-            "team_b": "Hồng Kông",
-            "logo_a": "https://static.flashscore.com/res/image/data/jilBtfFG-0xLZRP53.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/vNwPljil-Sr5HBKY4.png",
-            "time": "08:00:00",
-            "date": "29/09",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ya8md5yst15f_0e6fccd1_20260929.png?v=0e6fccd1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b152372fbc",
-          "name": "Kyrgyzstan vs Thái Lan | 08:00 29/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b152372fbc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b152372fbc",
-                  "name": "Kyrgyzstan vs Thái Lan",
-                  "streams": [
-                    {
-                      "id": "st-b152372fbc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-80fe1a3658",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790611553_hd/1790611553_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad 2026",
-            "team_a": "Kyrgyzstan",
-            "team_b": "Thái Lan",
-            "logo_a": "https://static.flashscore.com/res/image/data/QgrBggHG-4b37MkS4.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/aEBU_ri8U6F06oTqWmKY5g_96x96.png",
-            "time": "08:00:00",
-            "date": "29/09",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/0eot7aq17ush_8b939a24_20260929.png?v=8b939a24",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-cc9c2b3638",
           "name": "Uzbekistan vs Kazakhstan | 11:00 29/09",
@@ -1275,10 +1050,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1327,7 +1102,7 @@
             "time": "11:00:00",
             "date": "29/09",
             "blv": "Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
@@ -1559,83 +1334,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-18855c3cd9",
-          "name": "asiad vs esports | 07:00 29/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-18855c3cd9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-18855c3cd9",
-                  "name": "asiad vs esports",
-                  "streams": [
-                    {
-                      "id": "st-18855c3cd9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-59f04a860d",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790611221_hd/1790611221_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Esports (ca 1)",
-            "team_a": "asiad",
-            "team_b": "esports",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXMtRpzwK_OQ2FlqwtfKct0dfr-DM0CF2Vr7HVhsvXFbQQ-J6vgC_kOCA&s=10",
-            "logo_b": "https://media.vov.vn/sites/default/files/styles/large/public/2026-09/esports-6.jpg",
-            "time": "07:00:00",
-            "date": "29/09",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/byijzxe1t1y4_cadf01f2_20260929.png?v=cadf01f2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ae91282480",
           "name": "Vitality vs LOUD | 16:00 30/09",
@@ -1857,87 +1560,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/n6a9m7k6zd4z_a0d829ba_20260929.png?v=a0d829ba",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-c9bddc7a46",
-          "name": "Philadelphia Eagles vs Chicago bear | 07:15 29/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c9bddc7a46",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c9bddc7a46",
-                  "name": "Philadelphia Eagles vs Chicago bear",
-                  "streams": [
-                    {
-                      "id": "st-c9bddc7a46",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1319f0d954",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790635813_hd/1790635813_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NFL",
-            "team_a": "Philadelphia Eagles",
-            "team_b": "Chicago bear",
-            "logo_a": "https://a.espncdn.com/guid/d1a9b001-1df7-fbd7-ae4c-6ca7065286ec/logos/primary_logo_on_black_color.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiU-2SfGb8497a_0WUJRQFQ5MutTHBQu4YdoPcU86SxQ&s=10",
-            "time": "07:15:00",
-            "date": "29/09",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/8z6ovm85fqn0_1289007d_20260929.png?v=1289007d",
             "width": 1600,
             "height": 1200
           }
