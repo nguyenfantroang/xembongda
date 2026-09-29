@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-654ec4ffb2",
-          "name": "Philippines vs Pakistan | 16:00 29/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-654ec4ffb2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-654ec4ffb2",
-                  "name": "Philippines vs Pakistan",
-                  "streams": [
-                    {
-                      "id": "st-654ec4ffb2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5a47078c3d",
-                          "name": "Bón",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790621538_hd/1790621538_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA ASEAN Cup",
-            "team_a": "Philippines",
-            "team_b": "Pakistan",
-            "logo_a": "https://images.keovip88.net/images/teams/philippines.png",
-            "logo_b": "https://images.keovip88.net/images/teams/pakistan.png",
-            "time": "16:00:00",
-            "date": "29/09",
-            "blv": "Bón",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab468f8b057b828a8092bd2_05b433b7_20260929.png?v=05b433b7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-c426400be5",
           "name": "ASIAD 2026 vs ASIAD 2026 | 17:00 29/09",
           "type": "single",
@@ -305,6 +233,95 @@
           }
         },
         {
+          "id": "gv-df261010a6",
+          "name": "Thái Lan vs Việt Nam | 19:30 29/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-df261010a6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-df261010a6",
+                  "name": "Thái Lan vs Việt Nam",
+                  "streams": [
+                    {
+                      "id": "st-df261010a6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7c3a2c304f",
+                          "name": "Đầu cầu Hấu: Việt Nam Vô Địch",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790676054_hd/1790676054_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-54ba6da48b",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790665818_hd/1790665818_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA ASEAN Cup",
+            "team_a": "Thái Lan",
+            "team_b": "Việt Nam",
+            "logo_a": "https://images.keovip88.net/images/teams/thailand.png",
+            "logo_b": "https://images.keovip88.net/images/teams/vietnam.png",
+            "time": "19:30:00",
+            "date": "29/09",
+            "blv": "Đầu cầu Hấu: Việt Nam Vô Địch, Bee",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab468f8b057b828a8092bd3_e48d0180_20260929.png?v=e48d0180",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-584315835f",
           "name": "U17 Gibraltar vs Bosnia and Herzegovina U17 | 19:00 29/09",
           "type": "single",
@@ -372,95 +389,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a3338060f72229b92061bcd_9a2f22b2_20260929.png?v=9a2f22b2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-df261010a6",
-          "name": "Thái Lan vs Việt Nam | 19:30 29/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-df261010a6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-df261010a6",
-                  "name": "Thái Lan vs Việt Nam",
-                  "streams": [
-                    {
-                      "id": "st-df261010a6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7c3a2c304f",
-                          "name": "Đầu cầu Hấu: Việt Nam Vô Địch",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790676054_hd/1790676054_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-54ba6da48b",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790665818_hd/1790665818_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA ASEAN Cup",
-            "team_a": "Thái Lan",
-            "team_b": "Việt Nam",
-            "logo_a": "https://images.keovip88.net/images/teams/thailand.png",
-            "logo_b": "https://images.keovip88.net/images/teams/vietnam.png",
-            "time": "19:30:00",
-            "date": "29/09",
-            "blv": "Đầu cầu Hấu: Việt Nam Vô Địch, Bee",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab468f8b057b828a8092bd3_e48d0180_20260929.png?v=e48d0180",
             "width": 1600,
             "height": 1200
           }
@@ -2054,6 +1982,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/36590471_3c12e3bf_20260929.png?v=3c12e3bf",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_tennis",
+      "name": "🎾 Tennis (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-d0a8b48f8f",
+          "name": "Medvedev D vs Rublev A | 18:30 29/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d0a8b48f8f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d0a8b48f8f",
+                  "name": "Medvedev D vs Rublev A",
+                  "streams": [
+                    {
+                      "id": "st-d0a8b48f8f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ef6bd56d7",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790680590_hd/1790680590_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Singles - Hangzhou",
+            "team_a": "Medvedev D",
+            "team_b": "Rublev A",
+            "logo_a": "https://static.flashscore.com/res/image/data/QujxPtf5-6Z1AkBdk.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/YoLW01Fa-YV2zBIg4.png",
+            "time": "18:30:00",
+            "date": "29/09",
+            "blv": "Vịt",
+            "is_live": true,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/cwitxvzephp0_0fdd1198_20260929.png?v=0fdd1198",
             "width": 1600,
             "height": 1200
           }
