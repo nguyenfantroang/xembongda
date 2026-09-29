@@ -955,6 +955,87 @@
       ]
     },
     {
+      "id": "cate_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-340122c755",
+          "name": "Tsitsipas S vs Hijikata R | 09:00 29/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-340122c755",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-340122c755",
+                  "name": "Tsitsipas S vs Hijikata R",
+                  "streams": [
+                    {
+                      "id": "st-340122c755",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-16b6a82823",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790611342_hd/1790611342_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Singles - Tokyo",
+            "team_a": "Tsitsipas S",
+            "team_b": "Hijikata R",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrGn8O3yUQUHBCvBFwAzftre2bqTcF-PYjjxBfKFBSlj7O7MUYI8XxiUs&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxC2vEWXJEq6lMz3QWvJXxpinHfwKLrrk_rzXTEW1UEA&s",
+            "time": "09:00:00",
+            "date": "29/09",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/nd111gqp86zb_6a228449_20260929.png?v=6a228449",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchuyen",
       "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
@@ -1470,78 +1551,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/byijzxe1t1y4_cadf01f2_20260929.png?v=cadf01f2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-340122c755",
-          "name": "Asiad 2026 vs esports | 09:30 29/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-340122c755",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-340122c755",
-                  "name": "Asiad 2026 vs esports",
-                  "streams": [
-                    {
-                      "id": "st-340122c755",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-16b6a82823",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790611342_hd/1790611342_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad 2026",
-            "team_a": "Asiad 2026",
-            "team_b": "esports",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXMtRpzwK_OQ2FlqwtfKct0dfr-DM0CF2Vr7HVhsvXFbQQ-J6vgC_kOCA&s=10",
-            "logo_b": "https://media.vov.vn/sites/default/files/styles/large/public/2026-09/esports-6.jpg",
-            "time": "09:30:00",
-            "date": "29/09",
-            "blv": "Vịt",
-            "is_live": false,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/nd111gqp86zb_cadf01f2_20260929.png?v=cadf01f2",
             "width": 1600,
             "height": 1200
           }
