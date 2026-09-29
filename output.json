@@ -955,6 +955,87 @@
       ]
     },
     {
+      "id": "cate_basketball",
+      "name": "🏀 Bóng Rổ",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-59dc15cf81",
+          "name": "New York Liberty vs Minnesota Lynx | 07:30 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-59dc15cf81",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-59dc15cf81",
+                  "name": "New York Liberty vs Minnesota Lynx",
+                  "streams": [
+                    {
+                      "id": "st-59dc15cf81",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-11638ecb00",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790646212_hd/1790646212_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "New York Liberty",
+            "team_b": "Minnesota Lynx",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/7a41b2cf98e8350722b096134858af8e.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/df5084b6a0e471356f94c0d460105072.png",
+            "time": "07:30:00",
+            "date": "30/09",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/36590471_3c12e3bf_20260929.png?v=3c12e3bf",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_tennis",
       "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
