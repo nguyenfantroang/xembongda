@@ -1127,83 +1127,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (2 LIVE)",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c8a5717260",
-          "name": "Atlanta Braves vs Philadelphia Phillies | 01:00 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c8a5717260",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c8a5717260",
-                  "name": "Atlanta Braves vs Philadelphia Phillies",
-                  "streams": [
-                    {
-                      "id": "st-c8a5717260",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-26f460d3e1",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790666947_hd/1790666947_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB - Wildcard",
-            "team_a": "Atlanta Braves",
-            "team_b": "Philadelphia Phillies",
-            "logo_a": "https://static.flashscore.com/res/image/data/IPmhSoEa-hvtJM6zJ.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/AcX8PwzB-Ec0dNP82.png",
-            "time": "01:00:00",
-            "date": "30/09",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/wim6v31192rs_8b4f0b2a_20260930.png?v=8b4f0b2a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5d1d38c08a",
           "name": "Houston Astros vs Chicago White Sox | 04:00 30/09",
