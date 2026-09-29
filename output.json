@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-584315835f",
-          "name": "U17 Gibraltar vs Bosnia and Herzegovina U17 | 19:00 29/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-584315835f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-584315835f",
-                  "name": "U17 Gibraltar vs Bosnia and Herzegovina U17",
-                  "streams": [
-                    {
-                      "id": "st-584315835f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9c1748e852",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790622023_hd/1790622023_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Euro U17",
-            "team_a": "U17 Gibraltar",
-            "team_b": "Bosnia and Herzegovina U17",
-            "logo_a": "https://images.keovip88.net/images/teams/gibraltar-u17.png",
-            "logo_b": "https://images.keovip88.net/images/teams/bosnia-and-herzegovina-u17.png",
-            "time": "19:00:00",
-            "date": "29/09",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a3338060f72229b92061bcd_9a2f22b2_20260929.png?v=9a2f22b2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-df261010a6",
           "name": "Thái Lan vs Việt Nam | 19:30 29/09",
@@ -436,25 +364,7 @@
                     {
                       "id": "st-cc280a0c75",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5a19fd1dea",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790675676_hd/1790675676_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -469,7 +379,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/england-u19.png",
             "time": "21:00:00",
             "date": "29/09",
-            "blv": "BLV Hấu",
+            "blv": "",
             "is_live": false,
             "cate_type": "football"
           },
