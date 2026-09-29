@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c426400be5",
-          "name": "ASIAD 2026 vs ASIAD 2026 | 10:30 29/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c426400be5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c426400be5",
-                  "name": "ASIAD 2026 vs ASIAD 2026",
-                  "streams": [
-                    {
-                      "id": "st-c426400be5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-09b33be66f",
-                          "name": "BLV Túi Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIAD 2026",
-            "team_a": "ASIAD 2026",
-            "team_b": "ASIAD 2026",
-            "logo_a": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "logo_b": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "time": "10:30:00",
-            "date": "29/09",
-            "blv": "BLV Túi Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/asooi3g7yvxg_62dd1b2b_20260929.png?v=62dd1b2b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ed0a5aa5a8",
           "name": "North Korea W vs China W | 13:00 29/09",
@@ -826,6 +754,78 @@
           }
         },
         {
+          "id": "gv-8ee6e2aed7",
+          "name": "Germany U20 vs Italy U20 | 22:30 29/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8ee6e2aed7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8ee6e2aed7",
+                  "name": "Germany U20 vs Italy U20",
+                  "streams": [
+                    {
+                      "id": "st-8ee6e2aed7",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a82ff6c1b0",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790665981_hd/1790665981_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ELITE LEAGUE U20",
+            "team_a": "Germany U20",
+            "team_b": "Italy U20",
+            "logo_a": "https://static.flashscore.com/res/image/data/pbr425eM-jwMhrJiF.png",
+            "logo_b": "https://img.uefa.com/imgml/flags/100x100/ITA.png",
+            "time": "22:30:00",
+            "date": "29/09",
+            "blv": "Ngu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/qy1vz4kv9j58_9ad72602_20260929.png?v=9ad72602",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-affb261053",
           "name": "Cape Verde vs Rwanda | 23:00 29/09",
           "type": "single",
@@ -1186,6 +1186,78 @@
           }
         },
         {
+          "id": "gv-f3bb0c449f",
+          "name": "Tây Ban Nha vs Croatia | 01:45 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f3bb0c449f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f3bb0c449f",
+                  "name": "Tây Ban Nha vs Croatia",
+                  "streams": [
+                    {
+                      "id": "st-f3bb0c449f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f2c60362d8",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790666114_hd/1790666114_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Tây Ban Nha",
+            "team_b": "Croatia",
+            "logo_a": "https://images.keovip88.net/images/teams/spain.png",
+            "logo_b": "https://images.keovip88.net/images/teams/croatia.png",
+            "time": "01:45:00",
+            "date": "30/09",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf46_3710a2dc_20260929.png?v=3710a2dc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-c05edea856",
           "name": "Mỹ vs Chilê | 07:00 30/09",
           "type": "single",
@@ -1339,6 +1411,294 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-1cc10ff813",
+          "name": "Dubai vs FC Barcelona | 23:00 29/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1cc10ff813",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1cc10ff813",
+                  "name": "Dubai vs FC Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-1cc10ff813",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-89aa39b9fe",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790666365_hd/1790666365_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "EURO",
+            "team_a": "Dubai",
+            "team_b": "FC Barcelona",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/38e7f6ed6a1053e25c1f5d60fbf563b2.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c98a3d8df4a10628be76ab5e38a4d65c.png",
+            "time": "23:00:00",
+            "date": "29/09",
+            "blv": "Chồn",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/28192279_cbae1a2a_20260929.png?v=cbae1a2a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4022229af6",
+          "name": "Efes Pilsen vs Real Madrid Teka | 00:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4022229af6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4022229af6",
+                  "name": "Efes Pilsen vs Real Madrid Teka",
+                  "streams": [
+                    {
+                      "id": "st-4022229af6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-34843c324a",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790666516_hd/1790666516_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "EURO",
+            "team_a": "Efes Pilsen",
+            "team_b": "Real Madrid Teka",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/39e14cf9edd095fe5daed21f75b67bd3.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/baacc764f89f2ce4c22b48768946ca5a.png",
+            "time": "00:00:00",
+            "date": "30/09",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39192270_1bb8fcca_20260929.png?v=1bb8fcca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c523683ce8",
+          "name": "Fenerbahce Ulker vs FC Bayern Munchen | 00:45 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c523683ce8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c523683ce8",
+                  "name": "Fenerbahce Ulker vs FC Bayern Munchen",
+                  "streams": [
+                    {
+                      "id": "st-c523683ce8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-486f994a69",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790666671_hd/1790666671_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "EURO",
+            "team_a": "Fenerbahce Ulker",
+            "team_b": "FC Bayern Munchen",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/ad2880c512e15870ba354e89f5809541.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/1ee20d34aaf3954a5ae419166d015a1d.png",
+            "time": "00:45:00",
+            "date": "30/09",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21292273_c093eea7_20260929.png?v=c093eea7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-2c4f9cc563",
+          "name": "Indiana Fever vs Las Vegas Aces | 05:30 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2c4f9cc563",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2c4f9cc563",
+                  "name": "Indiana Fever vs Las Vegas Aces",
+                  "streams": [
+                    {
+                      "id": "st-2c4f9cc563",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-81d3bbedb7",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790666780_hd/1790666780_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Indiana Fever",
+            "team_b": "Las Vegas Aces",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/2672748dfcca12a59823b97a08ffb22d.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/cbf9424df17d6e06d655dca78651d329.png",
+            "time": "05:30:00",
+            "date": "30/09",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/27101470_27ba7ff9_20260929.png?v=27ba7ff9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-59dc15cf81",
           "name": "New York Liberty vs Minnesota Lynx | 07:30 30/09",
           "type": "single",
@@ -1414,83 +1774,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-22068d7ea7",
-          "name": "Iran vs Indonesia | 14:00 29/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-22068d7ea7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-22068d7ea7",
-                  "name": "Iran vs Indonesia",
-                  "streams": [
-                    {
-                      "id": "st-22068d7ea7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-af84db42b6",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790536196_hd/1790536196_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad 2026",
-            "team_a": "Iran",
-            "team_b": "Indonesia",
-            "logo_a": "https://images.keovip88.net/images/teams/iran.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/9/9c/2025_Indonesia_National_Football_Team_Badge.png",
-            "time": "14:00:00",
-            "date": "29/09",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/nwpoiz8v7uq9_75fef670_20260929.png?v=75fef670",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-7a51286b03",
           "name": "Qatar vs Ấn Độ | 14:00 29/09",
@@ -1559,6 +1847,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/kxrq3l9g6lft_05857a24_20260929.png?v=05857a24",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-22068d7ea7",
+          "name": "Iran vs Indonesia | 14:00 29/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-22068d7ea7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-22068d7ea7",
+                  "name": "Iran vs Indonesia",
+                  "streams": [
+                    {
+                      "id": "st-22068d7ea7",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-af84db42b6",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790536196_hd/1790536196_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asiad 2026",
+            "team_a": "Iran",
+            "team_b": "Indonesia",
+            "logo_a": "https://images.keovip88.net/images/teams/iran.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/9/9c/2025_Indonesia_National_Football_Team_Badge.png",
+            "time": "14:00:00",
+            "date": "29/09",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/nwpoiz8v7uq9_75fef670_20260929.png?v=75fef670",
             "width": 1600,
             "height": 1200
           }
@@ -1865,6 +2225,159 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/n6a9m7k6zd4z_a0d829ba_20260929.png?v=a0d829ba",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-c8a5717260",
+          "name": "Atlanta Braves vs Philadelphia Phillies | 01:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c8a5717260",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c8a5717260",
+                  "name": "Atlanta Braves vs Philadelphia Phillies",
+                  "streams": [
+                    {
+                      "id": "st-c8a5717260",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-26f460d3e1",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790666947_hd/1790666947_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB - Wildcard",
+            "team_a": "Atlanta Braves",
+            "team_b": "Philadelphia Phillies",
+            "logo_a": "https://static.flashscore.com/res/image/data/IPmhSoEa-hvtJM6zJ.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/AcX8PwzB-Ec0dNP82.png",
+            "time": "01:00:00",
+            "date": "30/09",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/wim6v31192rs_8b4f0b2a_20260929.png?v=8b4f0b2a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-5d1d38c08a",
+          "name": "Houston Astros vs Chicago White Sox | 04:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5d1d38c08a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5d1d38c08a",
+                  "name": "Houston Astros vs Chicago White Sox",
+                  "streams": [
+                    {
+                      "id": "st-5d1d38c08a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e6523577cf",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790667122_hd/1790667122_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB - Wildcard",
+            "team_a": "Houston Astros",
+            "team_b": "Chicago White Sox",
+            "logo_a": "https://static.flashscore.com/res/image/data/KUkA1be5-MyFeHWzn.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/rHrt6LAr-MFkjl69i.png",
+            "time": "04:00:00",
+            "date": "30/09",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/rxs9yq6b53el_581c1ffc_20260929.png?v=581c1ffc",
             "width": 1600,
             "height": 1200
           }
