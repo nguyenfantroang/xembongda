@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f2db563ede",
-          "name": "Nữ Lyonnais vs Nữ Chelsea FC | 02:00 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f2db563ede",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f2db563ede",
-                  "name": "Nữ Lyonnais vs Nữ Chelsea FC",
-                  "streams": [
-                    {
-                      "id": "st-f2db563ede",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d8118fa671",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790776745_hd/1790776745_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Champions League Nữ",
-            "team_a": "Nữ Lyonnais",
-            "team_b": "Nữ Chelsea FC",
-            "logo_a": "https://images.keovip88.net/images/teams/lyon-w.png",
-            "logo_b": "https://images.keovip88.net/images/teams/chelsea-fc-w.png",
-            "time": "02:00:00",
-            "date": "01/10",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aaf22fc4e725bdee905b7f7_890f78d3_20261001.png?v=890f78d3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-22451d9bb9",
           "name": "Tomayapo vs Nacional Potosi | 05:30 01/10",
@@ -1394,11 +1322,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-9dba423f86",
+                          "id": "lnk-409b4105ab",
                           "name": "Riko",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790777021_hd/1790777021_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790777021_hd/1790777021_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
