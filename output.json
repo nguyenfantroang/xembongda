@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/s0u7uylogqjh_788fdbb0_20260930.png?v=788fdbb0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-fd397f2132",
-          "name": "Đông Timor vs Campuchia | 16:00 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fd397f2132",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fd397f2132",
-                  "name": "Đông Timor vs Campuchia",
-                  "streams": [
-                    {
-                      "id": "st-fd397f2132",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-84f4814bf2",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790742425_hd/1790742425_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA ASEAN Cup",
-            "team_a": "Đông Timor",
-            "team_b": "Campuchia",
-            "logo_a": "https://images.keovip88.net/images/teams/timor-leste.png",
-            "logo_b": "https://images.keovip88.net/images/teams/cambodia.png",
-            "time": "16:00:00",
-            "date": "30/09",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab468f8b057b828a8092bd9_a49fdcd3_20260930.png?v=a49fdcd3",
             "width": 1600,
             "height": 1200
           }
