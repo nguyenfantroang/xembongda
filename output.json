@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0e1b935859",
-          "name": "Nữ Roma CF vs Nữ FC Barcelona | 23:45 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0e1b935859",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0e1b935859",
-                  "name": "Nữ Roma CF vs Nữ FC Barcelona",
-                  "streams": [
-                    {
-                      "id": "st-0e1b935859",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c9ab6e3253",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790776693_hd/1790776693_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Champions League Nữ",
-            "team_a": "Nữ Roma CF",
-            "team_b": "Nữ FC Barcelona",
-            "logo_a": "https://images.keovip88.net/images/teams/roma-cf-w.png",
-            "logo_b": "https://images.keovip88.net/images/teams/barcelona-w.png",
-            "time": "23:45:00",
-            "date": "30/09",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aaf22fc4e725bdee905b7f5_a7ebcab6_20261001.png?v=a7ebcab6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f2db563ede",
           "name": "Nữ Lyonnais vs Nữ Chelsea FC | 02:00 01/10",
