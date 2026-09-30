@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ef45619d75",
-          "name": "Hồng Kông vs Brunei | 19:00 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ef45619d75",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ef45619d75",
-                  "name": "Hồng Kông vs Brunei",
-                  "streams": [
-                    {
-                      "id": "st-ef45619d75",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-75b2615d15",
-                          "name": "Bón",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790693391_hd/1790693391_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA ASEAN Cup",
-            "team_a": "Hồng Kông",
-            "team_b": "Brunei",
-            "logo_a": "https://images.keovip88.net/images/teams/hong-kong.png",
-            "logo_b": "https://images.keovip88.net/images/teams/brunei-darussalam.png",
-            "time": "19:00:00",
-            "date": "30/09",
-            "blv": "Bón",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab468f8b057b828a8092bd7_72f8aff8_20260930.png?v=72f8aff8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-9f34f851ce",
           "name": "Morocco U20 vs Algeria U20 | 20:00 30/09",
@@ -231,49 +159,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-1113ea7392",
-          "name": "Nuno Borges vs Novak Djokovic | 18:00 30/09",
+          "id": "gv-ca0c8fcb50",
+          "name": "Eritrea vs Nam Phi | 23:00 30/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-1113ea7392",
+              "id": "src-ca0c8fcb50",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-1113ea7392",
-                  "name": "Nuno Borges vs Novak Djokovic",
+                  "id": "ct-ca0c8fcb50",
+                  "name": "Eritrea vs Nam Phi",
                   "streams": [
                     {
-                      "id": "st-1113ea7392",
+                      "id": "st-ca0c8fcb50",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-6d67802e73",
-                          "name": "Ben",
+                          "id": "lnk-2c4c7c344a",
+                          "name": "Bón",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790756434_hd/1790756434_hd@720p.m3u8",
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790776512_hd/1790776512_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -293,22 +212,310 @@
             }
           ],
           "org_metadata": {
-            "league": "ATP Beijing Open",
-            "team_a": "Nuno Borges",
-            "team_b": "Novak Djokovic",
-            "logo_a": "https://static.flashscore.com/res/image/data/4WdeaLYg-Mc0Ip3ar.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/tSfwGCdM-MJZajegG.png",
-            "time": "18:00:00",
+            "league": "Africa Cup of Nations",
+            "team_a": "Eritrea",
+            "team_b": "Nam Phi",
+            "logo_a": "https://images.keovip88.net/images/teams/eritrea.png",
+            "logo_b": "https://images.keovip88.net/images/teams/south-africa.png",
+            "time": "23:00:00",
             "date": "30/09",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "tennis"
+            "blv": "Bón",
+            "is_live": false,
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/e9n1zwc4h871_01adbc18_20260930.png?v=01adbc18",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a372c0432ce87f525086b9b_667c520e_20260930.png?v=667c520e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b4a3829e03",
+          "name": "U21 Cộng hòa Séc vs U21 Bulgaria | 23:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b4a3829e03",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b4a3829e03",
+                  "name": "U21 Cộng hòa Séc vs U21 Bulgaria",
+                  "streams": [
+                    {
+                      "id": "st-b4a3829e03",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6c32a7d528",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790776618_hd/1790776618_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VCK U21 Châu Âu",
+            "team_a": "U21 Cộng hòa Séc",
+            "team_b": "U21 Bulgaria",
+            "logo_a": "https://images.keovip88.net/images/teams/czech-republic-u21.png",
+            "logo_b": "https://images.keovip88.net/images/teams/bulgaria-u21.png",
+            "time": "23:00:00",
+            "date": "30/09",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/683e3b421f892a5e5c0902eb_2e44a582_20260930.png?v=2e44a582",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0e1b935859",
+          "name": "Nữ Roma CF vs Nữ FC Barcelona | 23:45 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0e1b935859",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0e1b935859",
+                  "name": "Nữ Roma CF vs Nữ FC Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-0e1b935859",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2502e08fee",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790776693_hd/1790776693_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Champions League Nữ",
+            "team_a": "Nữ Roma CF",
+            "team_b": "Nữ FC Barcelona",
+            "logo_a": "https://images.keovip88.net/images/teams/roma-cf-w.png",
+            "logo_b": "https://images.keovip88.net/images/teams/barcelona-w.png",
+            "time": "23:45:00",
+            "date": "30/09",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aaf22fc4e725bdee905b7f5_a7ebcab6_20260930.png?v=a7ebcab6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f2db563ede",
+          "name": "Nữ Lyonnais vs Nữ Chelsea FC | 02:00 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f2db563ede",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f2db563ede",
+                  "name": "Nữ Lyonnais vs Nữ Chelsea FC",
+                  "streams": [
+                    {
+                      "id": "st-f2db563ede",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02d2b0a420",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790776745_hd/1790776745_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Champions League Nữ",
+            "team_a": "Nữ Lyonnais",
+            "team_b": "Nữ Chelsea FC",
+            "logo_a": "https://images.keovip88.net/images/teams/lyon-w.png",
+            "logo_b": "https://images.keovip88.net/images/teams/chelsea-fc-w.png",
+            "time": "02:00:00",
+            "date": "01/10",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aaf22fc4e725bdee905b7f7_890f78d3_20260930.png?v=890f78d3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a1e2964f8d",
+          "name": "Nữ Benfica vs Nữ Bayern Munich | 02:00 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a1e2964f8d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a1e2964f8d",
+                  "name": "Nữ Benfica vs Nữ Bayern Munich",
+                  "streams": [
+                    {
+                      "id": "st-a1e2964f8d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e4c655e15c",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790776769_hd/1790776769_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Champions League Nữ",
+            "team_a": "Nữ Benfica",
+            "team_b": "Nữ Bayern Munich",
+            "logo_a": "https://images.keovip88.net/images/teams/sl-benfica-w.png",
+            "logo_b": "https://images.keovip88.net/images/teams/bayern-munchen-w.png",
+            "time": "02:00:00",
+            "date": "01/10",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aaf22fc4e725bdee905b7f8_e04a5237_20260930.png?v=e04a5237",
             "width": 1600,
             "height": 1200
           }
