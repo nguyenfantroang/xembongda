@@ -11,86 +11,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-c426400be5",
-          "name": "ASIAD 2026 vs ASIAD 2026 | 11:00 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c426400be5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c426400be5",
-                  "name": "ASIAD 2026 vs ASIAD 2026",
-                  "streams": [
-                    {
-                      "id": "st-c426400be5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-09bc56ce50",
-                          "name": "BLV Túi Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIAD 2026",
-            "team_a": "ASIAD 2026",
-            "team_b": "ASIAD 2026",
-            "logo_a": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "logo_b": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "time": "11:00:00",
-            "date": "30/09",
-            "blv": "BLV Túi Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/asooi3g7yvxg_62dd1b2b_20260930.png?v=62dd1b2b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-ad08a05b33",
-          "name": "U23 Hàn Quốc vs U23 Trung Quốc | 13:00 30/09",
+          "name": "U23 Hàn Quốc vs U23 Trung Quốc | 15:00 30/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -145,7 +73,7 @@
             "team_b": "U23 Trung Quốc",
             "logo_a": "https://images.keovip88.net/images/teams/south-korea-u23.png",
             "logo_b": "https://images.keovip88.net/images/teams/china-u23.png",
-            "time": "13:00:00",
+            "time": "15:00:00",
             "date": "30/09",
             "blv": "BLV Hấu",
             "is_live": true,
