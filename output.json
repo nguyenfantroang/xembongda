@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-9f34f851ce",
-          "name": "Morocco U20 vs Algeria U20 | 20:00 30/09",
+          "id": "gv-ca0c8fcb50",
+          "name": "Eritrea vs Nam Phi | 23:00 30/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-9f34f851ce",
+              "id": "src-ca0c8fcb50",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-9f34f851ce",
-                  "name": "Morocco U20 vs Algeria U20",
+                  "id": "ct-ca0c8fcb50",
+                  "name": "Eritrea vs Nam Phi",
                   "streams": [
                     {
-                      "id": "st-9f34f851ce",
+                      "id": "st-ca0c8fcb50",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-c1e56336ac",
-                          "name": "BLV Hấu",
+                          "id": "lnk-2c4c7c344a",
+                          "name": "Bón",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790773465_hd/1790773465_hd@720p.m3u8",
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790776512_hd/1790776512_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Africa - U-20 Africa Cup of Nations",
-            "team_a": "Morocco U20",
-            "team_b": "Algeria U20",
-            "logo_a": "https://static.flashscore.com/res/image/data/Y9sYTnjl-CEPH9Bbd.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/SE5q3ixS-KAqUF00e.png",
-            "time": "20:00:00",
+            "league": "Africa Cup of Nations",
+            "team_a": "Eritrea",
+            "team_b": "Nam Phi",
+            "logo_a": "https://images.keovip88.net/images/teams/eritrea.png",
+            "logo_b": "https://images.keovip88.net/images/teams/south-africa.png",
+            "time": "23:00:00",
             "date": "30/09",
-            "blv": "BLV Hấu",
+            "blv": "Bón",
             "is_live": true,
             "cate_type": "football"
           },
@@ -83,7 +83,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/g16xxtltjksb_3c89702a_20260930.png?v=3c89702a",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a372c0432ce87f525086b9b_667c520e_20260930.png?v=667c520e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b4a3829e03",
+          "name": "U21 Cộng hòa Séc vs U21 Bulgaria | 23:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b4a3829e03",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b4a3829e03",
+                  "name": "U21 Cộng hòa Séc vs U21 Bulgaria",
+                  "streams": [
+                    {
+                      "id": "st-b4a3829e03",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6c32a7d528",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790776618_hd/1790776618_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VCK U21 Châu Âu",
+            "team_a": "U21 Cộng hòa Séc",
+            "team_b": "U21 Bulgaria",
+            "logo_a": "https://images.keovip88.net/images/teams/czech-republic-u21.png",
+            "logo_b": "https://images.keovip88.net/images/teams/bulgaria-u21.png",
+            "time": "23:00:00",
+            "date": "30/09",
+            "blv": "Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/683e3b421f892a5e5c0902eb_2e44a582_20260930.png?v=2e44a582",
             "width": 1600,
             "height": 1200
           }
@@ -156,150 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab5ba6009ca9ecd470909a4_203eae83_20260930.png?v=203eae83",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ca0c8fcb50",
-          "name": "Eritrea vs Nam Phi | 23:00 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ca0c8fcb50",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ca0c8fcb50",
-                  "name": "Eritrea vs Nam Phi",
-                  "streams": [
-                    {
-                      "id": "st-ca0c8fcb50",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2c4c7c344a",
-                          "name": "Bón",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790776512_hd/1790776512_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Africa Cup of Nations",
-            "team_a": "Eritrea",
-            "team_b": "Nam Phi",
-            "logo_a": "https://images.keovip88.net/images/teams/eritrea.png",
-            "logo_b": "https://images.keovip88.net/images/teams/south-africa.png",
-            "time": "23:00:00",
-            "date": "30/09",
-            "blv": "Bón",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a372c0432ce87f525086b9b_667c520e_20260930.png?v=667c520e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b4a3829e03",
-          "name": "U21 Cộng hòa Séc vs U21 Bulgaria | 23:00 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b4a3829e03",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b4a3829e03",
-                  "name": "U21 Cộng hòa Séc vs U21 Bulgaria",
-                  "streams": [
-                    {
-                      "id": "st-b4a3829e03",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6c32a7d528",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790776618_hd/1790776618_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VCK U21 Châu Âu",
-            "team_a": "U21 Cộng hòa Séc",
-            "team_b": "U21 Bulgaria",
-            "logo_a": "https://images.keovip88.net/images/teams/czech-republic-u21.png",
-            "logo_b": "https://images.keovip88.net/images/teams/bulgaria-u21.png",
-            "time": "23:00:00",
-            "date": "30/09",
-            "blv": "Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/683e3b421f892a5e5c0902eb_2e44a582_20260930.png?v=2e44a582",
             "width": 1600,
             "height": 1200
           }
