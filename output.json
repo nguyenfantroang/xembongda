@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -116,11 +116,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-f1a05ed37c",
-                          "name": "Trĩ",
+                          "id": "lnk-c1e56336ac",
+                          "name": "BLV Hấu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790693677_hd/1790693677_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790773465_hd/1790773465_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -147,8 +147,8 @@
             "logo_b": "https://static.flashscore.com/res/image/data/SE5q3ixS-KAqUF00e.png",
             "time": "20:00:00",
             "date": "30/09",
-            "blv": "Trĩ",
-            "is_live": false,
+            "blv": "BLV Hấu",
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
