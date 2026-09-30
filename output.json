@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -168,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +220,7 @@
             "time": "19:00:00",
             "date": "30/09",
             "blv": "Bón",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -379,87 +379,6 @@
       ]
     },
     {
-      "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-ae082445a1",
-          "name": "Sydney vs Brisbane Bullets | 16:30 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ae082445a1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ae082445a1",
-                  "name": "Sydney vs Brisbane Bullets",
-                  "streams": [
-                    {
-                      "id": "st-ae082445a1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4970ed7f1b",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790760097_hd/1790760097_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball League (New Zealand)",
-            "team_a": "Sydney",
-            "team_b": "Brisbane Bullets",
-            "logo_a": "https://static.flashscore.com/res/image/data/rRiJRJAr-UJXdVtIC.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/fFs1TVYA-860zcpZK.png",
-            "time": "16:30:00",
-            "date": "30/09",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/v7vdcbwe4cqy_505f31c5_20260930.png?v=505f31c5",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
       "id": "cate_tennis",
       "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
@@ -549,7 +468,7 @@
       "channels": [
         {
           "id": "gv-ae91282480",
-          "name": "Vitality vs LOUD | 16:00 30/09",
+          "name": "100 Thieves vs FUT Esports | 19:00 30/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -568,7 +487,7 @@
               "contents": [
                 {
                   "id": "ct-ae91282480",
-                  "name": "Vitality vs LOUD",
+                  "name": "100 Thieves vs FUT Esports",
                   "streams": [
                     {
                       "id": "st-ae91282480",
@@ -600,11 +519,11 @@
           ],
           "org_metadata": {
             "league": "VCT Champions",
-            "team_a": "Vitality",
-            "team_b": "LOUD",
-            "logo_a": "https://static.flashscore.com/res/image/data/C8zF3GEG-lG2kTCDf.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/zZePNPHG-jRVcUs7G.png",
-            "time": "16:00:00",
+            "team_a": "100 Thieves",
+            "team_b": "FUT Esports",
+            "logo_a": "https://static.flashscore.com/res/image/data/WCkwM4dM-nJbaxYrp.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/8IALaoGG-WQ0dY9GI.png",
+            "time": "19:00:00",
             "date": "30/09",
             "blv": "Riko",
             "is_live": true,
@@ -614,7 +533,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/7vnibw8rk18h_403ddf1c_20260930.png?v=403ddf1c",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/7vnibw8rk18h_3d88b46f_20260930.png?v=3d88b46f",
             "width": 1600,
             "height": 1200
           }
