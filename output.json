@@ -533,83 +533,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-31ac70952a",
-          "name": "Hàn Quốc vs Hongkong | 12:00 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-31ac70952a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-31ac70952a",
-                  "name": "Hàn Quốc vs Hongkong",
-                  "streams": [
-                    {
-                      "id": "st-31ac70952a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8e2a76783",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790742001_hd/1790742001_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad 2026 LOL",
-            "team_a": "Hàn Quốc",
-            "team_b": "Hongkong",
-            "logo_a": "https://static.flashscore.com/res/image/data/6ZpGvVEa-C0A1Du90.png",
-            "logo_b": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Flag_of_Hong_Kong.svg/250px-Flag_of_Hong_Kong.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "time": "12:00:00",
-            "date": "30/09",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/nz0326oldp4i_7143949f_20260930.png?v=7143949f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ae91282480",
           "name": "Vitality vs LOUD | 16:00 30/09",
