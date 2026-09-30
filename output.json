@@ -519,49 +519,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-ae91282480",
-          "name": "100 Thieves vs FUT Esports | 19:00 30/09",
+          "id": "gv-22451d9bb9",
+          "name": "Tomayapo vs Nacional Potosi | 05:30 01/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-ae91282480",
+              "id": "src-22451d9bb9",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-ae91282480",
-                  "name": "100 Thieves vs FUT Esports",
+                  "id": "ct-22451d9bb9",
+                  "name": "Tomayapo vs Nacional Potosi",
                   "streams": [
                     {
-                      "id": "st-ae91282480",
+                      "id": "st-22451d9bb9",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-bc727c716d",
-                          "name": "Riko",
+                          "id": "lnk-298234beb9",
+                          "name": "Mù",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790651279_hd/1790651279_hd@720p.m3u8",
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790776875_hd/1790776875_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -581,26 +572,116 @@
             }
           ],
           "org_metadata": {
-            "league": "VCT Champions",
-            "team_a": "100 Thieves",
-            "team_b": "FUT Esports",
-            "logo_a": "https://static.flashscore.com/res/image/data/WCkwM4dM-nJbaxYrp.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8IALaoGG-WQ0dY9GI.png",
-            "time": "19:00:00",
-            "date": "30/09",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "esport"
+            "league": "Copa Pacena - Round 6",
+            "team_a": "Tomayapo",
+            "team_b": "Nacional Potosi",
+            "logo_a": "https://static.flashscore.com/res/image/data/ddSOdgcM-vDimPjdq.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/UoxODHBr-juTs9wjf.png",
+            "time": "05:30:00",
+            "date": "01/10",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/7vnibw8rk18h_3d88b46f_20260930.png?v=3d88b46f",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/1q6763p5n9r0_ddec5537_20260930.png?v=ddec5537",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_basketball",
+      "name": "🏀 Bóng Rổ",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-d60918cf93",
+          "name": "Washington Mystics vs Atlanta Dream | 06:00 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d60918cf93",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d60918cf93",
+                  "name": "Washington Mystics vs Atlanta Dream",
+                  "streams": [
+                    {
+                      "id": "st-d60918cf93",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-08aa533e1b",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790776951_hd/1790776951_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Washington Mystics",
+            "team_b": "Atlanta Dream",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e4fdbc941d11c2927bafb5b8978e8ea6.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/f527c983cab3560c60e7b9d147904d7d.png",
+            "time": "06:00:00",
+            "date": "01/10",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/11201475_39a43090_20260930.png?v=39a43090",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "gv-994504a10e",
           "name": "100 Thieves vs FUT Esports | 19:00 30/09",
@@ -669,6 +750,159 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/sdbaoe9ftro8_3d88b46f_20260930.png?v=3d88b46f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ccee79bece",
+          "name": "Global Esports vs EDG | 16:00 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ccee79bece",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ccee79bece",
+                  "name": "Global Esports vs EDG",
+                  "streams": [
+                    {
+                      "id": "st-ccee79bece",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-48f4619e21",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790777715_hd/1790777715_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VCT Champions",
+            "team_a": "Global Esports",
+            "team_b": "EDG",
+            "logo_a": "https://static.flashscore.com/res/image/data/dMXGhCg5-4UTo6tjM.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/xtnvwhh5-rgb1I9qH.png",
+            "time": "16:00:00",
+            "date": "02/10",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/o9fdm20gdklt_67faecb3_20260930.png?v=67faecb3",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-93e1749d06",
+          "name": "Houston Astros vs Chicago White Sox | 04:00 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-93e1749d06",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-93e1749d06",
+                  "name": "Houston Astros vs Chicago White Sox",
+                  "streams": [
+                    {
+                      "id": "st-93e1749d06",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9dba423f86",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790777021_hd/1790777021_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB - Wildcard",
+            "team_a": "Houston Astros",
+            "team_b": "Chicago White Sox",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/KX3sEGash3boj7yGR5OJ9w_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/vwedTKxQwO9pe5tcCyecWg_96x96.png",
+            "time": "04:00:00",
+            "date": "01/10",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/gjir2jza1d9v_2c104100_20260930.png?v=2c104100",
             "width": 1600,
             "height": 1200
           }
