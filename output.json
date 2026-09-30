@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-482f0eae5c",
-          "name": "U23 Uzbekistan vs U23 Nhật Bản | 17:30 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-482f0eae5c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-482f0eae5c",
-                  "name": "U23 Uzbekistan vs U23 Nhật Bản",
-                  "streams": [
-                    {
-                      "id": "st-482f0eae5c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3196a6c280",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790651690_hd/1790651690_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Games",
-            "team_a": "U23 Uzbekistan",
-            "team_b": "U23 Nhật Bản",
-            "logo_a": "https://images.keovip88.net/images/teams/uzbekistan-u23.png",
-            "logo_b": "https://images.keovip88.net/images/teams/japan-u23.png",
-            "time": "17:30:00",
-            "date": "30/09",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab85d64802222c82d0bc738_a31d17c6_20260930.png?v=a31d17c6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ef45619d75",
           "name": "Hồng Kông vs Brunei | 19:00 30/09",
@@ -228,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/g16xxtltjksb_3c89702a_20260930.png?v=3c89702a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-0f26c2d998",
-          "name": "Seychelles vs Sri Lanka | 20:00 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0f26c2d998",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0f26c2d998",
-                  "name": "Seychelles vs Sri Lanka",
-                  "streams": [
-                    {
-                      "id": "st-0f26c2d998",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc005237a0",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790753292_hd/1790753292_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Seychelles",
-            "team_b": "Sri Lanka",
-            "logo_a": "https://images.keovip88.net/images/teams/seychelles.png",
-            "logo_b": "https://images.keovip88.net/images/teams/sri-lanka.png",
-            "time": "20:00:00",
-            "date": "30/09",
-            "blv": "BLV Hấu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abaff8724d46db8707d095d_2c1c0817_20260930.png?v=2c1c0817",
             "width": 1600,
             "height": 1200
           }
