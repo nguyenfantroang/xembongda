@@ -600,6 +600,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-ae082445a1",
+          "name": "Sydney vs Brisbane Bullets | 16:30 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ae082445a1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ae082445a1",
+                  "name": "Sydney vs Brisbane Bullets",
+                  "streams": [
+                    {
+                      "id": "st-ae082445a1",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8d9a550194",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790754566_hd/1790754566_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball League (New Zealand)",
+            "team_a": "Sydney",
+            "team_b": "Brisbane Bullets",
+            "logo_a": "https://static.flashscore.com/res/image/data/rRiJRJAr-UJXdVtIC.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/fFs1TVYA-860zcpZK.png",
+            "time": "16:30:00",
+            "date": "30/09",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/v7vdcbwe4cqy_505f31c5_20260930.png?v=505f31c5",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
