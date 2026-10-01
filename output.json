@@ -236,83 +236,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-76c8f90f4f",
-          "name": "Dallas Wings vs Golden State Valkyries | 08:00 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-76c8f90f4f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-76c8f90f4f",
-                  "name": "Dallas Wings vs Golden State Valkyries",
-                  "streams": [
-                    {
-                      "id": "st-76c8f90f4f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2224f7fec3",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790778791_hd/1790778791_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "Dallas Wings",
-            "team_b": "Golden State Valkyries",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/17dcd412f5ecfaa1bc4b85e6e39bc0c4.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png",
-            "time": "08:00:00",
-            "date": "01/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/29101472_e32cdf32_20261001.png?v=e32cdf32",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c3b60b080e",
           "name": "Tasmania JackJumpers vs Melbourne United | 16:30 01/10",
@@ -983,7 +911,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -996,10 +924,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1048,7 +976,7 @@
             "time": "11:30:00",
             "date": "01/10",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
