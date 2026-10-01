@@ -605,14 +605,86 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-a74008bf85",
+          "name": "Tokyo Open vs 2026 | 09:00 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a74008bf85",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a74008bf85",
+                  "name": "Tokyo Open vs 2026",
+                  "streams": [
+                    {
+                      "id": "st-a74008bf85",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fba206c43c",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790781031_hd/1790781031_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Tokyo Open",
+            "team_a": "Tokyo Open",
+            "team_b": "2026",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScASzyMboTqvaXcsCvqZO4pouOAu1HBj0MKVDdJhRvOY8MuXuWxc8j6CA&s=10",
+            "logo_b": "https://tennissignals.com/wp-content/uploads/2026/09/atp-tokyo-japan-open-2026-draw-featured-image.png",
+            "time": "09:00:00",
+            "date": "01/10",
+            "blv": "Mù",
+            "is_live": true,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/yo9o97ecn3ju_f5a9f638_20261001.png?v=f5a9f638",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-c37ef3cdb4",
-          "name": "Beijing Open vs 2026 | 09:00 01/10",
+          "name": "Beijing Open vs 2026 | 10:00 01/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -667,7 +739,7 @@
             "team_b": "2026",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTADC3pRGirDoA1eaQtvYds8PQ-vmcEESiPHvywMVtvYU3ERTP__FyL8m8F&s=10",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsQspwrh-Dk7JtfASP2qpK4oJgKz4Xd02T8keMrfzJeQ02gF-3s7n3mKY&s=10",
-            "time": "09:00:00",
+            "time": "10:00:00",
             "date": "01/10",
             "blv": "Ben",
             "is_live": false,
@@ -678,78 +750,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/wcw23uj5ldtg_1ad43bdf_20261001.png?v=1ad43bdf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-a74008bf85",
-          "name": "Tokyo Open vs 2026 | 09:00 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a74008bf85",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a74008bf85",
-                  "name": "Tokyo Open vs 2026",
-                  "streams": [
-                    {
-                      "id": "st-a74008bf85",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fba206c43c",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790781031_hd/1790781031_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Tokyo Open",
-            "team_a": "Tokyo Open",
-            "team_b": "2026",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScASzyMboTqvaXcsCvqZO4pouOAu1HBj0MKVDdJhRvOY8MuXuWxc8j6CA&s=10",
-            "logo_b": "https://tennissignals.com/wp-content/uploads/2026/09/atp-tokyo-japan-open-2026-draw-featured-image.png",
-            "time": "09:00:00",
-            "date": "01/10",
-            "blv": "Mù",
-            "is_live": false,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/yo9o97ecn3ju_f5a9f638_20261001.png?v=f5a9f638",
             "width": 1600,
             "height": 1200
           }
@@ -1199,83 +1199,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f8fd36be3d",
-          "name": "Việt Nam vs Đài Bắc Trung Hoa | 07:00 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f8fd36be3d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f8fd36be3d",
-                  "name": "Việt Nam vs Đài Bắc Trung Hoa",
-                  "streams": [
-                    {
-                      "id": "st-f8fd36be3d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-93f8ed212d",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790779534_hd/1790779534_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad LOL",
-            "team_a": "Việt Nam",
-            "team_b": "Đài Bắc Trung Hoa",
-            "logo_a": "https://static.flashscore.com/res/image/data/StTKbSzS-A9PcSp30.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ62Ss5AllP6wiixu-3AAcjXD2dEGon_UoOwRMwkaPF7A&s=10",
-            "time": "07:00:00",
-            "date": "01/10",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/pkxgpsw292ix_980d96dd_20261001.png?v=980d96dd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-35b290d21a",
           "name": "Hàn Quốc vs Ả Rập Xê Út | 11:30 01/10",
@@ -1649,7 +1577,7 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
+      "name": "⚾ Bóng Chày (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1734,10 +1662,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1786,7 +1714,7 @@
             "time": "09:00:00",
             "date": "01/10",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchay"
           },
           "image": {
