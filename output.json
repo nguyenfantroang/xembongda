@@ -911,83 +911,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-35b290d21a",
-          "name": "Hàn Quốc vs Ả Rập Xê Út | 11:30 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-35b290d21a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-35b290d21a",
-                  "name": "Hàn Quốc vs Ả Rập Xê Út",
-                  "streams": [
-                    {
-                      "id": "st-35b290d21a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5c98fc795f",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790779623_hd/1790779623_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad LOL",
-            "team_a": "Hàn Quốc",
-            "team_b": "Ả Rập Xê Út",
-            "logo_a": "https://static.flashscore.com/res/image/data/6ZpGvVEa-C0A1Du90.png",
-            "logo_b": "https://tulieuvankien.dangcongsan.vn/upload/3000006/20251024/581bdb70f17c97db7fb42323daf3b3c4quoc-ky-a-rap-xe-ut.svg19-9-2014.png",
-            "time": "11:30:00",
-            "date": "01/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/jrip36g4852p_27467814_20261001.png?v=27467814",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-d4581510dc",
           "name": "TYLOO vs Team Liquid | 16:00 01/10",
@@ -1296,7 +1224,7 @@
       "channels": [
         {
           "id": "gv-045230a49d",
-          "name": "VietNam Men vs Spain Man | 12:30 01/10",
+          "name": "Skyler Woodward vs Ponco Manurung | 12:30 01/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1315,18 +1243,18 @@
               "contents": [
                 {
                   "id": "ct-045230a49d",
-                  "name": "VietNam Men vs Spain Man",
+                  "name": "Skyler Woodward vs Ponco Manurung",
                   "streams": [
                     {
                       "id": "st-045230a49d",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-9f0e60f6b1",
+                          "id": "lnk-fb3d1f98e0",
                           "name": "Điếc",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790823294_hd/1790823294_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790823294_hd/1790823294_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1347,10 +1275,10 @@
           ],
           "org_metadata": {
             "league": "Bali 10 Ball Open",
-            "team_a": "VietNam Men",
-            "team_b": "Spain Man",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLL7ALhq-iF9bdJhJA0UtIC9Cg3T02IhWIhh-ox2mZkA&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhwNu08bozsX9wE04Q46JcYyBtYY6LMMbUUsOUCtFJmQ&s=10",
+            "team_a": "Skyler Woodward",
+            "team_b": "Ponco Manurung",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg091elLkS4KDlWt3J6ZF9NpsXBqez81dqTDSPq6yK5A&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWyA_oM9hY99_UcFkE10xsVYPtkoJOTQRAktuc8h8I_w&s=10",
             "time": "12:30:00",
             "date": "01/10",
             "blv": "Điếc",
@@ -1361,7 +1289,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/vqi4kttrpl34_f7d0dd97_20261001.png?v=f7d0dd97",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/vqi4kttrpl34_1a0a21de_20261001.png?v=1a0a21de",
             "width": 1600,
             "height": 1200
           }
