@@ -686,7 +686,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -699,10 +699,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -751,7 +751,7 @@
             "time": "11:00:00",
             "date": "01/10",
             "blv": "Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
@@ -1361,83 +1361,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (2 LIVE)",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-72af46c888",
-          "name": "New York Yankees vs Boston Red Sox | 07:00 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-72af46c888",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-72af46c888",
-                  "name": "New York Yankees vs Boston Red Sox",
-                  "streams": [
-                    {
-                      "id": "st-72af46c888",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b9782190ed",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790779706_hd/1790779706_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB - Wildcard",
-            "team_a": "New York Yankees",
-            "team_b": "Boston Red Sox",
-            "logo_a": "https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/MUNnNZz6uRoHFVeC0EBnmA_96x96.png",
-            "time": "07:00:00",
-            "date": "01/10",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/k5euxvdlxo74_c55108a2_20261001.png?v=c55108a2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3c0727b3aa",
           "name": "San Diego Padres vs Chicago Cubs | 09:00 01/10",
