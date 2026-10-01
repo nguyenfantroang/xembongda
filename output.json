@@ -377,6 +377,78 @@
           }
         },
         {
+          "id": "gv-a3163362a2",
+          "name": "U21 FYR Macedonia vs U21 Montenegro | 23:00 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a3163362a2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a3163362a2",
+                  "name": "U21 FYR Macedonia vs U21 Montenegro",
+                  "streams": [
+                    {
+                      "id": "st-a3163362a2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-61eae8adea",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790841543_hd/1790841543_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VCK U21 Châu Âu",
+            "team_a": "U21 FYR Macedonia",
+            "team_b": "U21 Montenegro",
+            "logo_a": "https://images.keovip88.net/images/teams/north-macedonia-u21.png",
+            "logo_b": "https://images.keovip88.net/images/teams/montenegro-u21.png",
+            "time": "23:00:00",
+            "date": "01/10",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/683ce9d16fa477d4b303700d_6b8f1883_20261001.png?v=6b8f1883",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-4c648f4e64",
           "name": "U21 Hungary vs U21 Lithuania | 00:00 02/10",
           "type": "single",
