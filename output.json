@@ -614,14 +614,14 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-fb7c3e296c",
-          "name": "Hàn Quốc vs Iran | 11:00 01/10",
+          "id": "gv-cceb1c71a1",
+          "name": "Việt Nam vs Uzbekistan | 14:00 01/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -631,78 +631,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fb7c3e296c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fb7c3e296c",
-                  "name": "Hàn Quốc vs Iran",
-                  "streams": [
-                    {
-                      "id": "st-fb7c3e296c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d0057aeb6a",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790779361_hd/1790779361_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad 2026",
-            "team_a": "Hàn Quốc",
-            "team_b": "Iran",
-            "logo_a": "https://static.flashscore.com/res/image/data/xUGWvAzB-fHcbO6Ye.png",
-            "logo_b": "https://images.keovip88.net/images/teams/iran.png",
-            "time": "11:00:00",
-            "date": "01/10",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/9m8gb1zsab07_322dff4a_20261001.png?v=322dff4a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-cceb1c71a1",
-          "name": "Việt Nam vs Uzbekistan | 14:00 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -751,7 +679,7 @@
             "time": "14:00:00",
             "date": "01/10",
             "blv": "Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
@@ -771,10 +699,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -823,7 +751,7 @@
             "time": "14:00:00",
             "date": "01/10",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
