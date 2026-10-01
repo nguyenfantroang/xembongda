@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -168,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +220,7 @@
             "time": "21:00:00",
             "date": "01/10",
             "blv": "Dory",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -300,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/s0o5rb17kycl_77af3cd4_20261001.png?v=77af3cd4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7e2d356f88",
+          "name": "U21 Hy Lạp vs U21 Latvia | 22:00 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7e2d356f88",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7e2d356f88",
+                  "name": "U21 Hy Lạp vs U21 Latvia",
+                  "streams": [
+                    {
+                      "id": "st-7e2d356f88",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a8efcc031c",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790862754_hd/1790862754_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VCK U21 Châu Âu",
+            "team_a": "U21 Hy Lạp",
+            "team_b": "U21 Latvia",
+            "logo_a": "https://images.keovip88.net/images/teams/greece-u21.png",
+            "logo_b": "https://images.keovip88.net/images/teams/latvia-u21.png",
+            "time": "22:00:00",
+            "date": "01/10",
+            "blv": "BLV Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/683f8cbd5d282c5198021ebb_42116b67_20261001.png?v=42116b67",
             "width": 1600,
             "height": 1200
           }
@@ -1164,6 +1236,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/4s35pabksefh_418a8525_20261001.png?v=418a8525",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-78dcaa2334",
+          "name": "Kazakhstan vs Moldova | 21:00 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-78dcaa2334",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-78dcaa2334",
+                  "name": "Kazakhstan vs Moldova",
+                  "streams": [
+                    {
+                      "id": "st-78dcaa2334",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c679411ab4",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790777561_hd/1790777561_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Kazakhstan",
+            "team_b": "Moldova",
+            "logo_a": "https://images.keovip88.net/images/teams/kazakhstan.png",
+            "logo_b": "https://images.keovip88.net/images/teams/moldova.png",
+            "time": "21:00:00",
+            "date": "02/10",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf6b_0fa40b28_20261001.png?v=0fa40b28",
             "width": 1600,
             "height": 1200
           }
