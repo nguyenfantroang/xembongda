@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-22451d9bb9",
-          "name": "Tomayapo vs Nacional Potosi | 05:30 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-22451d9bb9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-22451d9bb9",
-                  "name": "Tomayapo vs Nacional Potosi",
-                  "streams": [
-                    {
-                      "id": "st-22451d9bb9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d6cdcf3339",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790776875_hd/1790776875_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Copa Pacena - Round 6",
-            "team_a": "Tomayapo",
-            "team_b": "Nacional Potosi",
-            "logo_a": "https://static.flashscore.com/res/image/data/ddSOdgcM-vDimPjdq.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/UoxODHBr-juTs9wjf.png",
-            "time": "05:30:00",
-            "date": "01/10",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/1q6763p5n9r0_ddec5537_20261001.png?v=ddec5537",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-92a1da40f6",
           "name": "Argentina vs Bolivia | 07:00 01/10",
@@ -116,11 +44,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-7369b0c724",
-                          "name": "Mason",
+                          "id": "lnk-3c5550bd4e",
+                          "name": "Mù",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790778612_hd/1790778612_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790813004_hd/1790813004_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -147,7 +75,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/bolivia.png",
             "time": "07:00:00",
             "date": "01/10",
-            "blv": "Mason",
+            "blv": "Mù",
             "is_live": true,
             "cate_type": "football"
           },
