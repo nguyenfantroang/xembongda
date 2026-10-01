@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "19:30:00",
             "date": "01/10",
             "blv": "Bee",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +148,7 @@
             "time": "19:30:00",
             "date": "01/10",
             "blv": "Súp",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1023,6 +1023,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-71e7dd9c9c",
+          "name": "Dejan vs Persipura | 19:00 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-71e7dd9c9c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-71e7dd9c9c",
+                  "name": "Dejan vs Persipura",
+                  "streams": [
+                    {
+                      "id": "st-71e7dd9c9c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-54b2d148e8",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790777261_hd/1790777261_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesia - Pegadaian Championship",
+            "team_a": "Dejan",
+            "team_b": "Persipura",
+            "logo_a": "https://static.flashscore.com/res/image/data/8Oc9LNYg-Miq8CSN4.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/6ByaIGyB-l4Qyy5IA.png",
+            "time": "19:00:00",
+            "date": "02/10",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/m6tjtypisckh_94139bc1_20261001.png?v=94139bc1",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1340,8 +1412,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-d4581510dc",
-          "name": "TYLOO vs Team Liquid | 16:00 01/10",
+          "id": "gv-3c6b651f53",
+          "name": "XLG vs Nongsim Redforce | 19:00 01/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1351,78 +1423,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d4581510dc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d4581510dc",
-                  "name": "TYLOO vs Team Liquid",
-                  "streams": [
-                    {
-                      "id": "st-d4581510dc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cdbe47edf7",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790839704_hd/1790839704_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VCT Champions",
-            "team_a": "TYLOO",
-            "team_b": "Team Liquid",
-            "logo_a": "https://static.flashscore.com/res/image/data/fJuOzPzB-GnO8YQo1.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/40G19RDa-QJruPzw9.png",
-            "time": "16:00:00",
-            "date": "01/10",
-            "blv": "Mickey",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/1itin3ge3sk2_be8281cc_20261001.png?v=be8281cc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-3c6b651f53",
-          "name": "XLG vs Nongsim Redforce | 19:00 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1471,7 +1471,7 @@
             "time": "19:00:00",
             "date": "01/10",
             "blv": "Mickey",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
