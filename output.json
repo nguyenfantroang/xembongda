@@ -89,6 +89,150 @@
           }
         },
         {
+          "id": "gv-7eef403f4c",
+          "name": "Club America (MEX) vs Cruz Azul (MEX) | 09:30 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7eef403f4c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7eef403f4c",
+                  "name": "Club America (MEX) vs Cruz Azul (MEX)",
+                  "streams": [
+                    {
+                      "id": "st-7eef403f4c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f7f69d0256",
+                          "name": "Tỵ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790903638_hd/1790903638_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu",
+            "team_a": "Club America (MEX)",
+            "team_b": "Cruz Azul (MEX)",
+            "logo_a": "https://images.keovip88.net/images/teams/club-america.png",
+            "logo_b": "https://images.keovip88.net/images/teams/cdsyc-cruz-azul.png",
+            "time": "09:30:00",
+            "date": "02/10",
+            "blv": "Tỵ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/izz6y0pv9nqg_56268c37_20261002.png?v=56268c37",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4a2d932c25",
+          "name": "China W vs South Korea W | 13:00 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4a2d932c25",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4a2d932c25",
+                  "name": "China W vs South Korea W",
+                  "streams": [
+                    {
+                      "id": "st-4a2d932c25",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ca28f0eee7",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790903744_hd/1790903744_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIA - Asian Games Women - Play Offs",
+            "team_a": "China W",
+            "team_b": "South Korea W",
+            "logo_a": "https://images.keovip88.net/images/teams/china-w.png",
+            "logo_b": "https://images.keovip88.net/images/teams/south-korea-w.png",
+            "time": "13:00:00",
+            "date": "02/10",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/omjl50r526zx_603eb979_20261002.png?v=603eb979",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-c426400be5",
           "name": "ASIAD 2026 vs ASIAD 2026 | 13:00 02/10",
           "type": "single",
@@ -821,7 +965,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -834,10 +978,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -886,7 +1030,7 @@
             "time": "09:00:00",
             "date": "02/10",
             "blv": "Mù",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
