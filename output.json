@@ -1829,83 +1829,11 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-fe9466fb9e",
-          "name": "tokyo Open vs 2026 | 09:00 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fe9466fb9e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fe9466fb9e",
-                  "name": "tokyo Open vs 2026",
-                  "streams": [
-                    {
-                      "id": "st-fe9466fb9e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-75441a86b4",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790899773_hd/1790899773_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Tokyo Open",
-            "team_a": "tokyo Open",
-            "team_b": "2026",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScASzyMboTqvaXcsCvqZO4pouOAu1HBj0MKVDdJhRvOY8MuXuWxc8j6CA&s=10",
-            "logo_b": "",
-            "time": "09:00:00",
-            "date": "02/10",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/zu153ebowssu_56394125_20261002.png?v=56394125",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c37ef3cdb4",
           "name": "Beijing Open vs 2026 | 14:00 02/10",
