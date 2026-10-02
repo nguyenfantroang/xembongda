@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -161,6 +161,78 @@
           }
         },
         {
+          "id": "gv-71e7dd9c9c",
+          "name": "Dejan vs Persipura | 19:00 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-71e7dd9c9c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-71e7dd9c9c",
+                  "name": "Dejan vs Persipura",
+                  "streams": [
+                    {
+                      "id": "st-71e7dd9c9c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bd6720c8ff",
+                          "name": "Bón",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790925173_hd/1790925173_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesia - Pegadaian Championship",
+            "team_a": "Dejan",
+            "team_b": "Persipura",
+            "logo_a": "https://static.flashscore.com/res/image/data/8Oc9LNYg-Miq8CSN4.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/6ByaIGyB-l4Qyy5IA.png",
+            "time": "19:00:00",
+            "date": "02/10",
+            "blv": "Bón",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/m6tjtypisckh_94139bc1_20261002.png?v=94139bc1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-7df6568135",
           "name": "Augsburg vs Hertha BSC Berlin | 18:00 02/10",
           "type": "single",
@@ -228,78 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abaff9024d46db8707d1219_d22d133d_20261002.png?v=d22d133d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-71e7dd9c9c",
-          "name": "Dejan vs Persipura | 19:00 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-71e7dd9c9c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-71e7dd9c9c",
-                  "name": "Dejan vs Persipura",
-                  "streams": [
-                    {
-                      "id": "st-71e7dd9c9c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bd6720c8ff",
-                          "name": "Bón",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790925173_hd/1790925173_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesia - Pegadaian Championship",
-            "team_a": "Dejan",
-            "team_b": "Persipura",
-            "logo_a": "https://static.flashscore.com/res/image/data/8Oc9LNYg-Miq8CSN4.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/6ByaIGyB-l4Qyy5IA.png",
-            "time": "19:00:00",
-            "date": "02/10",
-            "blv": "Bón",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/m6tjtypisckh_94139bc1_20261002.png?v=94139bc1",
             "width": 1600,
             "height": 1200
           }
