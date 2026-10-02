@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -233,6 +233,78 @@
           }
         },
         {
+          "id": "gv-78dcaa2334",
+          "name": "Kazakhstan vs Moldova | 21:00 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-78dcaa2334",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-78dcaa2334",
+                  "name": "Kazakhstan vs Moldova",
+                  "streams": [
+                    {
+                      "id": "st-78dcaa2334",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-49f5539a53",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790777561_hd/1790777561_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Kazakhstan",
+            "team_b": "Moldova",
+            "logo_a": "https://images.keovip88.net/images/teams/kazakhstan.png",
+            "logo_b": "https://images.keovip88.net/images/teams/moldova.png",
+            "time": "21:00:00",
+            "date": "02/10",
+            "blv": "Mù",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf6b_0fa40b28_20261002.png?v=0fa40b28",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-7df6568135",
           "name": "Augsburg vs Hertha BSC Berlin | 18:00 02/10",
           "type": "single",
@@ -372,78 +444,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/4s35pabksefh_418a8525_20261002.png?v=418a8525",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-78dcaa2334",
-          "name": "Kazakhstan vs Moldova | 21:00 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-78dcaa2334",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-78dcaa2334",
-                  "name": "Kazakhstan vs Moldova",
-                  "streams": [
-                    {
-                      "id": "st-78dcaa2334",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-49f5539a53",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790777561_hd/1790777561_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Kazakhstan",
-            "team_b": "Moldova",
-            "logo_a": "https://images.keovip88.net/images/teams/kazakhstan.png",
-            "logo_b": "https://images.keovip88.net/images/teams/moldova.png",
-            "time": "21:00:00",
-            "date": "02/10",
-            "blv": "Mù",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf6b_0fa40b28_20261002.png?v=0fa40b28",
             "width": 1600,
             "height": 1200
           }
@@ -1614,87 +1614,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/wcw23uj5ldtg_1ad43bdf_20261002.png?v=1ad43bdf",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-ccee79bece",
-          "name": "T1 vs JDG | 16:00 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ccee79bece",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ccee79bece",
-                  "name": "T1 vs JDG",
-                  "streams": [
-                    {
-                      "id": "st-ccee79bece",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4528ae3300",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790937916_hd/1790937916_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VCT Champions",
-            "team_a": "T1",
-            "team_b": "JDG",
-            "logo_a": "https://static.flashscore.com/res/image/data/hxbcCXEa-rgb1I9qH.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/4Aoo4weM-MLEBzXUg.png",
-            "time": "16:00:00",
-            "date": "02/10",
-            "blv": "Mickey",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/o9fdm20gdklt_904896e2_20261002.png?v=904896e2",
             "width": 1600,
             "height": 1200
           }
