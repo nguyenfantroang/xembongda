@@ -11,11 +11,155 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-9424c53834",
+          "name": "Bosnia & Herzegovina vs Thụy Điển | 01:45 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9424c53834",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9424c53834",
+                  "name": "Bosnia & Herzegovina vs Thụy Điển",
+                  "streams": [
+                    {
+                      "id": "st-9424c53834",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9ee48100df",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790909112_hd/1790909112_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Bosnia & Herzegovina",
+            "team_b": "Thụy Điển",
+            "logo_a": "https://images.keovip88.net/images/teams/bosnia-and-herzegovina.png",
+            "logo_b": "https://images.keovip88.net/images/teams/sweden.png",
+            "time": "01:45:00",
+            "date": "03/10",
+            "blv": "Ngọng",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf62_a8fdfe85_20261003.png?v=a8fdfe85",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-2aee0f86af",
+          "name": "Hungary vs Georgia | 01:45 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2aee0f86af",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2aee0f86af",
+                  "name": "Hungary vs Georgia",
+                  "streams": [
+                    {
+                      "id": "st-2aee0f86af",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f3f6a6ad25",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790909161_hd/1790909161_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Hungary",
+            "team_b": "Georgia",
+            "logo_a": "https://images.keovip88.net/images/teams/hungary.png",
+            "logo_b": "https://images.keovip88.net/images/teams/georgia.png",
+            "time": "01:45:00",
+            "date": "03/10",
+            "blv": "Súp",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf55_6b9f29ba_20261003.png?v=6b9f29ba",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-352440f200",
           "name": "Bỉ vs Thổ Nhĩ Kỳ | 01:45 03/10",
@@ -44,11 +188,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-35ebb207cf",
+                          "id": "lnk-623cb22f96",
                           "name": "Mù",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790909187_hd/1790909187_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790909187_hd/1790909187_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -89,222 +233,6 @@
           }
         },
         {
-          "id": "gv-113f741d92",
-          "name": "Bryne vs Lyn | 19:30 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-113f741d92",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-113f741d92",
-                  "name": "Bryne vs Lyn",
-                  "streams": [
-                    {
-                      "id": "st-113f741d92",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1d7d01b909",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790841270_hd/1790841270_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Norway - OBOS-ligaen",
-            "team_a": "Bryne",
-            "team_b": "Lyn",
-            "logo_a": "https://static.flashscore.com/res/image/data/zyDlfTYA-MgUxY1Yb.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/QFujrmCa-GEWDK90d.png",
-            "time": "19:30:00",
-            "date": "02/10",
-            "blv": "BLV Hấu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/4s35pabksefh_418a8525_20261003.png?v=418a8525",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-9424c53834",
-          "name": "Bosnia & Herzegovina vs Thụy Điển | 01:45 03/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9424c53834",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9424c53834",
-                  "name": "Bosnia & Herzegovina vs Thụy Điển",
-                  "streams": [
-                    {
-                      "id": "st-9424c53834",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9e50469cb6",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790909112_hd/1790909112_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Bosnia & Herzegovina",
-            "team_b": "Thụy Điển",
-            "logo_a": "https://images.keovip88.net/images/teams/bosnia-and-herzegovina.png",
-            "logo_b": "https://images.keovip88.net/images/teams/sweden.png",
-            "time": "01:45:00",
-            "date": "03/10",
-            "blv": "Ngọng",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf62_a8fdfe85_20261003.png?v=a8fdfe85",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-2aee0f86af",
-          "name": "Hungary vs Georgia | 01:45 03/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2aee0f86af",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2aee0f86af",
-                  "name": "Hungary vs Georgia",
-                  "streams": [
-                    {
-                      "id": "st-2aee0f86af",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4453ee112d",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790909161_hd/1790909161_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Hungary",
-            "team_b": "Georgia",
-            "logo_a": "https://images.keovip88.net/images/teams/hungary.png",
-            "logo_b": "https://images.keovip88.net/images/teams/georgia.png",
-            "time": "01:45:00",
-            "date": "03/10",
-            "blv": "Súp",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf55_6b9f29ba_20261003.png?v=6b9f29ba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-c90bab175b",
           "name": "Pháp vs Ý | 01:45 03/10",
           "type": "single",
@@ -312,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -332,11 +260,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-a5c055920b",
+                          "id": "lnk-92f2ece924",
                           "name": "Chồn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790909245_hd/1790909245_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790909245_hd/1790909245_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -364,7 +292,7 @@
             "time": "01:45:00",
             "date": "03/10",
             "blv": "Chồn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -372,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f3f2b74bff4a0c310bf75b_1a502c31_20261003.png?v=1a502c31",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-37e188069f",
+          "name": "Ba Lan vs Romania | 01:45 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-37e188069f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-37e188069f",
+                  "name": "Ba Lan vs Romania",
+                  "streams": [
+                    {
+                      "id": "st-37e188069f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-99ac99b33b",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790965606_hd/1790965606_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Ba Lan",
+            "team_b": "Romania",
+            "logo_a": "https://images.keovip88.net/images/teams/poland.png",
+            "logo_b": "https://images.keovip88.net/images/teams/romania.png",
+            "time": "01:45:00",
+            "date": "03/10",
+            "blv": "Điếc",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf61_99664eb6_20261003.png?v=99664eb6",
             "width": 1600,
             "height": 1200
           }
