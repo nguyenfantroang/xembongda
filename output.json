@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-731d3b0ab8",
+          "name": "Thái Lan vs Philippines | 16:00 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-731d3b0ab8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-731d3b0ab8",
+                  "name": "Thái Lan vs Philippines",
+                  "streams": [
+                    {
+                      "id": "st-731d3b0ab8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7739cd5c02",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790776573_hd/1790776573_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA ASEAN Cup",
+            "team_a": "Thái Lan",
+            "team_b": "Philippines",
+            "logo_a": "https://images.keovip88.net/images/teams/thailand.png",
+            "logo_b": "https://images.keovip88.net/images/teams/philippines.png",
+            "time": "16:00:00",
+            "date": "02/10",
+            "blv": "Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab468f8b057b828a8092bd4_b0ee2f15_20261002.png?v=b0ee2f15",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-991a2736ed",
           "name": "North Korea W vs Japan W | 17:30 02/10",
@@ -1466,8 +1538,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-1eaff8ee54",
-          "name": "Illawarra Hawks vs Adelaide 36ers | 16:30 02/10",
+          "id": "gv-69e9163e2c",
+          "name": "Perth Wildcats vs South East Melbourne Phoenix | 18:30 02/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1477,78 +1549,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1eaff8ee54",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1eaff8ee54",
-                  "name": "Illawarra Hawks vs Adelaide 36ers",
-                  "streams": [
-                    {
-                      "id": "st-1eaff8ee54",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8da9e70c17",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790904541_hd/1790904541_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball League(Australia)",
-            "team_a": "Illawarra Hawks",
-            "team_b": "Adelaide 36ers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e97aa6ff62044e05b1dc126043568a18.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/6a6d3d4063e675d1ce3e701153e3f367.png",
-            "time": "16:30:00",
-            "date": "02/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/28222273_8f1a0118_20261002.png?v=8f1a0118",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-69e9163e2c",
-          "name": "Perth Wildcats vs South East Melbourne Phoenix | 18:30 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1597,7 +1597,7 @@
             "time": "18:30:00",
             "date": "02/10",
             "blv": "Chồn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -2141,8 +2141,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-c426400be5",
-          "name": "ASIAD 2026 vs ASIAD 2026 | 13:00 02/10",
+          "id": "gv-20b044f319",
+          "name": "ONE Friday Fights 173 vs The Inner Circle 33 | 18:30 02/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2152,78 +2152,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c426400be5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c426400be5",
-                  "name": "ASIAD 2026 vs ASIAD 2026",
-                  "streams": [
-                    {
-                      "id": "st-c426400be5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-09bc56ce50",
-                          "name": "BLV Túi Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIAD 2026",
-            "team_a": "ASIAD 2026",
-            "team_b": "ASIAD 2026",
-            "logo_a": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "logo_b": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "time": "13:00:00",
-            "date": "02/10",
-            "blv": "BLV Túi Mù",
-            "is_live": true,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/asooi3g7yvxg_62dd1b2b_20261002.png?v=62dd1b2b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-20b044f319",
-          "name": "ONE Friday Fights 173 vs The Inner Circle 33 | 18:30 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -2272,7 +2200,7 @@
             "time": "18:30:00",
             "date": "02/10",
             "blv": "Dory",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "vothuat"
           },
           "image": {
