@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-991a2736ed",
-          "name": "North Korea W vs Japan W | 17:30 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-991a2736ed",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-991a2736ed",
-                  "name": "North Korea W vs Japan W",
-                  "streams": [
-                    {
-                      "id": "st-991a2736ed",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-97837eee3b",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790904627_hd/1790904627_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIA - Asian Games Women - Play Offs",
-            "team_a": "North Korea W",
-            "team_b": "Japan W",
-            "logo_a": "https://static.flashscore.com/res/image/data/tYIRtYDa-xpPmazWa.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/QRlYWUhl-E1YhvyqD.png",
-            "time": "17:30:00",
-            "date": "02/10",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ckpqb2xlp71a_b2c6a73c_20261002.png?v=b2c6a73c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3516ad246c",
           "name": "Al Ain vs Ajman | 20:15 02/10",
@@ -1388,83 +1316,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-69e9163e2c",
-          "name": "Perth Wildcats vs South East Melbourne Phoenix | 18:30 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-69e9163e2c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-69e9163e2c",
-                  "name": "Perth Wildcats vs South East Melbourne Phoenix",
-                  "streams": [
-                    {
-                      "id": "st-69e9163e2c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5dbb80c990",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790904574_hd/1790904574_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball League(Australia)",
-            "team_a": "Perth Wildcats",
-            "team_b": "South East Melbourne Phoenix",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/d6e217ac051f3258b82d74a932d11ada.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/e5c63f30ad74c5c5159f1e7695173ae5.png",
-            "time": "18:30:00",
-            "date": "02/10",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/29222274_e6b66550_20261002.png?v=e6b66550",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-4e7a500ff4",
           "name": "Besiktas Cola Turka vs FC Barcelona | 00:00 03/10",
