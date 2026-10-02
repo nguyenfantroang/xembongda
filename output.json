@@ -347,6 +347,23 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-7910506c07",
+                          "name": "Bón",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790911406_hd/1790911406_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -363,7 +380,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/pakistan.png",
             "time": "16:00:00",
             "date": "02/10",
-            "blv": "Chồn",
+            "blv": "Chồn, Bón",
             "is_live": false,
             "cate_type": "football"
           },
@@ -2270,83 +2287,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-6592053f95",
-          "name": "Ấn Độ vs Hàn Quốc | 08:00 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6592053f95",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6592053f95",
-                  "name": "Ấn Độ vs Hàn Quốc",
-                  "streams": [
-                    {
-                      "id": "st-6592053f95",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-55798583df",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790873545_hd/1790873545_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad 2026",
-            "team_a": "Ấn Độ",
-            "team_b": "Hàn Quốc",
-            "logo_a": "https://static.flashscore.com/res/image/data/nqz3kJDa-YB0DoGZt.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/xUGWvAzB-fHcbO6Ye.png",
-            "time": "08:00:00",
-            "date": "02/10",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/yr3ec9qybdnd_e36df9ea_20261002.png?v=e36df9ea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f00e730e27",
           "name": "Qatar vs Thái Lan | 11:00 02/10",
@@ -2495,7 +2440,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2508,10 +2453,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2528,11 +2473,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-2915a0d3c8",
-                          "name": "Ngu",
+                          "id": "lnk-9ddddd32a7",
+                          "name": "Cận",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790873805_hd/1790873805_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790910590_hd/1790910590_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2559,8 +2504,8 @@
             "logo_b": "https://static.flashscore.com/res/image/data/6ZpGvVEa-C0A1Du90.png",
             "time": "10:00:00",
             "date": "02/10",
-            "blv": "Ngu",
-            "is_live": false,
+            "blv": "Cận",
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
@@ -2793,87 +2738,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/k1sbll8rr7t9_5b4a3b72_20261002.png?v=5b4a3b72",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-402d5e4796",
-          "name": "Atlanta Braves vs Philadelphia Phillies | 07:00 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-402d5e4796",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-402d5e4796",
-                  "name": "Atlanta Braves vs Philadelphia Phillies",
-                  "streams": [
-                    {
-                      "id": "st-402d5e4796",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8800384bdb",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790873889_hd/1790873889_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB - Wildcard",
-            "team_a": "Atlanta Braves",
-            "team_b": "Philadelphia Phillies",
-            "logo_a": "https://static.flashscore.com/res/image/data/IPmhSoEa-hvtJM6zJ.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/AcX8PwzB-Ec0dNP82.png",
-            "time": "07:00:00",
-            "date": "02/10",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/f7tsg2he2t9i_8b4f0b2a_20261002.png?v=8b4f0b2a",
             "width": 1600,
             "height": 1200
           }
