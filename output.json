@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-4a2d932c25",
-          "name": "China W vs South Korea W | 13:00 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4a2d932c25",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4a2d932c25",
-                  "name": "China W vs South Korea W",
-                  "streams": [
-                    {
-                      "id": "st-4a2d932c25",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d119fa9f97",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790903744_hd/1790903744_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIA - Asian Games Women - Play Offs",
-            "team_a": "China W",
-            "team_b": "South Korea W",
-            "logo_a": "https://images.keovip88.net/images/teams/china-w.png",
-            "logo_b": "https://images.keovip88.net/images/teams/south-korea-w.png",
-            "time": "13:00:00",
-            "date": "02/10",
-            "blv": "Bee",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/omjl50r526zx_603eb979_20261002.png?v=603eb979",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-46dfc5dc83",
           "name": "Việt Nam vs Pakistan | 16:00 02/10",
@@ -2746,7 +2674,7 @@
     },
     {
       "id": "cate_duaxe",
-      "name": "🏎️ Đua Xe",
+      "name": "🏎️ Đua Xe (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2759,10 +2687,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2811,7 +2739,7 @@
             "time": "15:00:00",
             "date": "02/10",
             "blv": "Ngu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "duaxe"
           },
           "image": {
