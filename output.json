@@ -2724,6 +2724,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-1ff54c333c",
+          "name": "Silva vs Wang | 04:00 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1ff54c333c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1ff54c333c",
+                  "name": "Silva vs Wang",
+                  "streams": [
+                    {
+                      "id": "st-1ff54c333c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-37b1a63a00",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790909477_hd/1790909477_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UFC 332",
+            "team_a": "Silva",
+            "team_b": "Wang",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRp8a6KZ_yEltaJBwfn3dMHT1mOi3g2iRRP6gExO_BcA&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRp8a6KZ_yEltaJBwfn3dMHT1mOi3g2iRRP6gExO_BcA&s=10",
+            "time": "04:00:00",
+            "date": "03/10",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/k1sbll8rr7t9_5b4a3b72_20261002.png?v=5b4a3b72",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
