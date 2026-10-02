@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-fd3793529d",
-          "name": "Eintracht Frankfurt vs Eintr. Braunschweig | 20:30 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fd3793529d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fd3793529d",
-                  "name": "Eintracht Frankfurt vs Eintr. Braunschweig",
-                  "streams": [
-                    {
-                      "id": "st-fd3793529d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30108fd828",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790905262_hd/1790905262_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu",
-            "team_a": "Eintracht Frankfurt",
-            "team_b": "Eintr. Braunschweig",
-            "logo_a": "https://images.keovip88.net/images/teams/eintracht-frankfurt.png",
-            "logo_b": "https://images.keovip88.net/images/teams/eintracht-braunschweig.png",
-            "time": "20:30:00",
-            "date": "02/10",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abaff9124d46db8707d139b_43b86c85_20261002.png?v=43b86c85",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-78dcaa2334",
-          "name": "Kazakhstan vs Moldova | 21:00 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-78dcaa2334",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-78dcaa2334",
-                  "name": "Kazakhstan vs Moldova",
-                  "streams": [
-                    {
-                      "id": "st-78dcaa2334",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-49f5539a53",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790777561_hd/1790777561_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Kazakhstan",
-            "team_b": "Moldova",
-            "logo_a": "https://images.keovip88.net/images/teams/kazakhstan.png",
-            "logo_b": "https://images.keovip88.net/images/teams/moldova.png",
-            "time": "21:00:00",
-            "date": "02/10",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf6b_0fa40b28_20261002.png?v=0fa40b28",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ff701f8d53",
           "name": "Shabab Al-Ahli Dubai vs Al Nasr | 22:45 02/10",
@@ -332,11 +188,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-f84582ddbe",
+                          "id": "lnk-af443b29e9",
                           "name": "Mù",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790909049_hd/1790909049_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790909049_hd/1790909049_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
