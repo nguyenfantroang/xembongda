@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ff701f8d53",
-          "name": "Shabab Al-Ahli Dubai vs Al Nasr | 22:45 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ff701f8d53",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ff701f8d53",
-                  "name": "Shabab Al-Ahli Dubai vs Al Nasr",
-                  "streams": [
-                    {
-                      "id": "st-ff701f8d53",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e5c68e9903",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790904928_hd/1790904928_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UNITED ARAB EMIRATES - League Cup",
-            "team_a": "Shabab Al-Ahli Dubai",
-            "team_b": "Al Nasr",
-            "logo_a": "https://static.flashscore.com/res/image/data/0CZOhXDa-8zUcYY2j.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/dlkIInXg-xbrb3RaU.png",
-            "time": "22:45:00",
-            "date": "02/10",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/tqndvvdklxk8_c7b87c72_20261003.png?v=c7b87c72",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-54734cf177",
           "name": "Đảo Síp vs Armenia | 23:00 02/10",
