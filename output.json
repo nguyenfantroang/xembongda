@@ -1190,83 +1190,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-49006380a0",
-          "name": "Hàn Quốc vs Qatar | 08:00 03/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-49006380a0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-49006380a0",
-                  "name": "Hàn Quốc vs Qatar",
-                  "streams": [
-                    {
-                      "id": "st-49006380a0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-54e8ec2b7f",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790960822_hd/1790960822_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad 2026",
-            "team_a": "Hàn Quốc",
-            "team_b": "Qatar",
-            "logo_a": "https://static.flashscore.com/res/image/data/xUGWvAzB-fHcbO6Ye.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png",
-            "time": "08:00:00",
-            "date": "03/10",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/pwy2qru602ua_5f6486ce_20261003.png?v=5f6486ce",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3bc84d10ba",
           "name": "Thái Lan vs Ấn Độ | 11:00 03/10",
