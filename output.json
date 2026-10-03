@@ -1095,6 +1095,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-159d6a0870",
+          "name": "Barito Putera vs Persela | 15:30 04/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-159d6a0870",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-159d6a0870",
+                  "name": "Barito Putera vs Persela",
+                  "streams": [
+                    {
+                      "id": "st-159d6a0870",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-32cddd3dbd",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790841072_hd/1790841072_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesia - Pegadaian Championship",
+            "team_a": "Barito Putera",
+            "team_b": "Persela",
+            "logo_a": "https://static.flashscore.com/res/image/data/ERrhauyS-2sRnFBPj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/tjTqq5Yg-pUG7DZrE.png",
+            "time": "15:30:00",
+            "date": "04/10",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/k20w13z8ti4q_93228944_20261003.png?v=93228944",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1349,11 +1421,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-450368b09d",
+                          "id": "lnk-e74b5cfded",
                           "name": "Vịt",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790780813_hd/1790780813_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790780813_hd/1790780813_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1478,83 +1550,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-48de0867b8",
-          "name": "Pakistan vs Trung Quốc | 14:00 03/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-48de0867b8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-48de0867b8",
-                  "name": "Pakistan vs Trung Quốc",
-                  "streams": [
-                    {
-                      "id": "st-48de0867b8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8c16464e69",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790961106_hd/1790961106_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad 2026",
-            "team_a": "Pakistan",
-            "team_b": "Trung Quốc",
-            "logo_a": "",
-            "logo_b": "https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png",
-            "time": "14:00:00",
-            "date": "03/10",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/aypu5oxinqxy_3cb3dfb3_20261003.png?v=3cb3dfb3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-492be34219",
           "name": "Kazakhstan vs Indonesia | 14:00 03/10",
@@ -1919,7 +1919,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1997,6 +1997,78 @@
           }
         },
         {
+          "id": "gv-6c5ef2b619",
+          "name": "Legacy vs PARIVISION | 16:00 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6c5ef2b619",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6c5ef2b619",
+                  "name": "Legacy vs PARIVISION",
+                  "streams": [
+                    {
+                      "id": "st-6c5ef2b619",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e1ad7827ae",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790967298_hd/1790967298_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CS2-ESL Pro League Season 24",
+            "team_a": "Legacy",
+            "team_b": "PARIVISION",
+            "logo_a": "https://static.flashscore.com/res/image/data/vJYZUiDa-rHAHYj7n.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hCocHMYg-nsgDhzrP.png",
+            "time": "16:00:00",
+            "date": "03/10",
+            "blv": "Tôm",
+            "is_live": true,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/rqdb8eh2cmcv_aeee99a8_20261003.png?v=aeee99a8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-2941da94f7",
           "name": "G2 Esports vs NaVi | 11:30 03/10",
           "type": "single",
@@ -2064,78 +2136,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ps5wmw0tgcj6_7398aa54_20261003.png?v=7398aa54",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-6c5ef2b619",
-          "name": "Legacy vs PARIVISION | 16:00 03/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6c5ef2b619",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6c5ef2b619",
-                  "name": "Legacy vs PARIVISION",
-                  "streams": [
-                    {
-                      "id": "st-6c5ef2b619",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e1ad7827ae",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790967298_hd/1790967298_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CS2-ESL Pro League Season 24",
-            "team_a": "Legacy",
-            "team_b": "PARIVISION",
-            "logo_a": "https://static.flashscore.com/res/image/data/vJYZUiDa-rHAHYj7n.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/hCocHMYg-nsgDhzrP.png",
-            "time": "16:00:00",
-            "date": "03/10",
-            "blv": "Tôm",
-            "is_live": false,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/rqdb8eh2cmcv_aeee99a8_20261003.png?v=aeee99a8",
             "width": 1600,
             "height": 1200
           }
@@ -2874,6 +2874,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/h7hlxt2nz2xv_96e57238_20261003.png?v=96e57238",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-bbb806dea7",
+          "name": "Los Angeles Dodgers vs Atlanta Braves | 03:00 04/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bbb806dea7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bbb806dea7",
+                  "name": "Los Angeles Dodgers vs Atlanta Braves",
+                  "streams": [
+                    {
+                      "id": "st-bbb806dea7",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-50737b6bc1",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791015339_hd/1791015339_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Los Angeles Dodgers",
+            "team_b": "Atlanta Braves",
+            "logo_a": "https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/IPmhSoEa-hvtJM6zJ.png",
+            "time": "03:00:00",
+            "date": "04/10",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/zhdopk2w5f96_b53f5977_20261003.png?v=b53f5977",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1809388c3f",
+          "name": "New York Yankees vs Tampa Bay Rays | 05:30 04/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1809388c3f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1809388c3f",
+                  "name": "New York Yankees vs Tampa Bay Rays",
+                  "streams": [
+                    {
+                      "id": "st-1809388c3f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-639802597b",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791015617_hd/1791015617_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "New York Yankees",
+            "team_b": "Tampa Bay Rays",
+            "logo_a": "https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/lGlxbdyB-6yNDMrbJ.png",
+            "time": "05:30:00",
+            "date": "04/10",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/d6e8z9500a5h_dc3f8b98_20261003.png?v=dc3f8b98",
             "width": 1600,
             "height": 1200
           }
