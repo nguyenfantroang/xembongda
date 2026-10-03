@@ -740,83 +740,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f432aeec6b",
-          "name": "Golden State Valkyries vs Dallas Wings | 08:00 03/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f432aeec6b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f432aeec6b",
-                  "name": "Golden State Valkyries vs Dallas Wings",
-                  "streams": [
-                    {
-                      "id": "st-f432aeec6b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b448298f56",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790960636_hd/1790960636_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "Golden State Valkyries",
-            "team_b": "Dallas Wings",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/17dcd412f5ecfaa1bc4b85e6e39bc0c4.png",
-            "time": "08:00:00",
-            "date": "03/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39442470_fbfdffda_20261003.png?v=fbfdffda",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-7d0721ac19",
           "name": "Brisbane Bullets vs Tasmania JackJumpers | 14:30 03/10",
@@ -1190,7 +1118,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1203,10 +1131,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1255,7 +1183,7 @@
             "time": "11:00:00",
             "date": "03/10",
             "blv": "Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
@@ -2374,6 +2302,78 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-1072880f94",
+          "name": "F1 vs Bahrain | 11:30 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1072880f94",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1072880f94",
+                  "name": "F1 vs Bahrain",
+                  "streams": [
+                    {
+                      "id": "st-1072880f94",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0cc351a3c8",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790996744_hd/1790996744_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Gulf Air Bahrain Grand Prix",
+            "team_a": "F1",
+            "team_b": "Bahrain",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9XChDCfKbWISkRuuQ4jx3Jvg4R6ZC5GV3futpLieB9Q&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23fKPSNSD_w0j79SxklQxej45GnJeno9HTMEVQzWugA&s=10",
+            "time": "11:30:00",
+            "date": "03/10",
+            "blv": "Ngu",
+            "is_live": false,
+            "cate_type": "duaxe"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/bkbp3pykekjd_99c13eb6_20261003.png?v=99c13eb6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-798af1f921",
           "name": "Gulf Air Bahrain Grand Prix vs Gulf Air Bahrain Grand Prix | 15:00 03/10",
