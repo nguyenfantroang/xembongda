@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab9ae1924d46db870ba25df_c001e087_20261003.png?v=c001e087",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-120dba84e5",
+          "name": "Kashiwa Reysol vs Gamba Osaka | 17:00 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-120dba84e5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-120dba84e5",
+                  "name": "Kashiwa Reysol vs Gamba Osaka",
+                  "streams": [
+                    {
+                      "id": "st-120dba84e5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fde6fa2909",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790966693_hd/1790966693_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japan - J. League Cup",
+            "team_a": "Kashiwa Reysol",
+            "team_b": "Gamba Osaka",
+            "logo_a": "https://images.keovip88.net/images/teams/kashiwa-reysol.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/8Eq347h5-WCk3MDxq.png",
+            "time": "17:00:00",
+            "date": "03/10",
+            "blv": "Trĩ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abda2c024d46db870d76b4c_518414a8_20261003.png?v=518414a8",
             "width": 1600,
             "height": 1200
           }
@@ -228,78 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab9ae1924d46db870ba25d7_53b951a1_20261003.png?v=53b951a1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-120dba84e5",
-          "name": "Kashiwa Reysol vs Gamba Osaka | 17:00 03/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-120dba84e5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-120dba84e5",
-                  "name": "Kashiwa Reysol vs Gamba Osaka",
-                  "streams": [
-                    {
-                      "id": "st-120dba84e5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fde6fa2909",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790966693_hd/1790966693_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japan - J. League Cup",
-            "team_a": "Kashiwa Reysol",
-            "team_b": "Gamba Osaka",
-            "logo_a": "https://images.keovip88.net/images/teams/kashiwa-reysol.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8Eq347h5-WCk3MDxq.png",
-            "time": "17:00:00",
-            "date": "03/10",
-            "blv": "Trĩ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abda2c024d46db870d76b4c_518414a8_20261003.png?v=518414a8",
             "width": 1600,
             "height": 1200
           }
@@ -1025,78 +1025,6 @@
           }
         },
         {
-          "id": "gv-6f5f466871",
-          "name": "Bờ Biển Ngà vs Cameroon | 02:00 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6f5f466871",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6f5f466871",
-                  "name": "Bờ Biển Ngà vs Cameroon",
-                  "streams": [
-                    {
-                      "id": "st-6f5f466871",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7975ba282d",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791012437_hd/1791012437_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Bờ Biển Ngà",
-            "team_b": "Cameroon",
-            "logo_a": "https://images.keovip88.net/images/teams/ivory-coast.png",
-            "logo_b": "https://images.keovip88.net/images/teams/cameroon.png",
-            "time": "02:00:00",
-            "date": "04/10",
-            "blv": "Ngọng",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab9ae2e24d46db870ba40fd_ff214295_20261003.png?v=ff214295",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-159d6a0870",
           "name": "Barito Putera vs Persela | 15:30 04/10",
           "type": "single",
@@ -1550,83 +1478,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-492be34219",
-          "name": "Kazakhstan vs Indonesia | 14:00 03/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-492be34219",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-492be34219",
-                  "name": "Kazakhstan vs Indonesia",
-                  "streams": [
-                    {
-                      "id": "st-492be34219",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8f807f6ef1",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790961206_hd/1790961206_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad 2016",
-            "team_a": "Kazakhstan",
-            "team_b": "Indonesia",
-            "logo_a": "https://static.flashscore.com/res/image/data/nuUeFiwS-0peDsUzn.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/9/9c/2025_Indonesia_National_Football_Team_Badge.png",
-            "time": "14:00:00",
-            "date": "03/10",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/16ta4ihnmn8s_12d6ca56_20261003.png?v=12d6ca56",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-822a0ea80b",
           "name": "Việt Nam vs Đài Bắc Trung Hoa | 17:00 03/10",
@@ -1919,7 +1775,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2069,6 +1925,78 @@
           }
         },
         {
+          "id": "gv-56ece8d1e5",
+          "name": "Falcons vs Tyloo | 16:00 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-56ece8d1e5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-56ece8d1e5",
+                  "name": "Falcons vs Tyloo",
+                  "streams": [
+                    {
+                      "id": "st-56ece8d1e5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9d0d2468eb",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790967398_hd/1790967398_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CS2-ESL Pro League Season 24",
+            "team_a": "Falcons",
+            "team_b": "Tyloo",
+            "logo_a": "https://static.flashscore.com/res/image/data/GfCFGXDa-Ox5OEEWq.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/fJuOzPzB-GnO8YQo1.png",
+            "time": "16:00:00",
+            "date": "03/10",
+            "blv": "Mickey",
+            "is_live": true,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/h8a32aswy4jk_79c2dd4f_20261003.png?v=79c2dd4f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-2941da94f7",
           "name": "G2 Esports vs NaVi | 11:30 03/10",
           "type": "single",
@@ -2136,78 +2064,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ps5wmw0tgcj6_7398aa54_20261003.png?v=7398aa54",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-56ece8d1e5",
-          "name": "Falcons vs Tyloo | 16:00 03/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-56ece8d1e5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-56ece8d1e5",
-                  "name": "Falcons vs Tyloo",
-                  "streams": [
-                    {
-                      "id": "st-56ece8d1e5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9d0d2468eb",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790967398_hd/1790967398_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CS2-ESL Pro League Season 24",
-            "team_a": "Falcons",
-            "team_b": "Tyloo",
-            "logo_a": "https://static.flashscore.com/res/image/data/GfCFGXDa-Ox5OEEWq.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/fJuOzPzB-GnO8YQo1.png",
-            "time": "16:00:00",
-            "date": "03/10",
-            "blv": "Mickey",
-            "is_live": false,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/h8a32aswy4jk_79c2dd4f_20261003.png?v=79c2dd4f",
             "width": 1600,
             "height": 1200
           }
@@ -2874,78 +2730,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/h7hlxt2nz2xv_96e57238_20261003.png?v=96e57238",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-bbb806dea7",
-          "name": "Los Angeles Dodgers vs Atlanta Braves | 03:00 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bbb806dea7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bbb806dea7",
-                  "name": "Los Angeles Dodgers vs Atlanta Braves",
-                  "streams": [
-                    {
-                      "id": "st-bbb806dea7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-50737b6bc1",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791015339_hd/1791015339_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Los Angeles Dodgers",
-            "team_b": "Atlanta Braves",
-            "logo_a": "https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/IPmhSoEa-hvtJM6zJ.png",
-            "time": "03:00:00",
-            "date": "04/10",
-            "blv": "Riko",
-            "is_live": false,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/zhdopk2w5f96_b53f5977_20261003.png?v=b53f5977",
             "width": 1600,
             "height": 1200
           }
