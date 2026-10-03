@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-4ba2983bc9",
-          "name": "Tochigi City vs Imabari FC | 15:00 03/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4ba2983bc9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4ba2983bc9",
-                  "name": "Tochigi City vs Imabari FC",
-                  "streams": [
-                    {
-                      "id": "st-4ba2983bc9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-db82658b1d",
-                          "name": "Bón",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790966665_hd/1790966665_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hạng 2 Nhật Bản",
-            "team_a": "Tochigi City",
-            "team_b": "Imabari FC",
-            "logo_a": "https://images.keovip88.net/images/teams/tochigi-city.png",
-            "logo_b": "https://images.keovip88.net/images/teams/imabari-fc.png",
-            "time": "15:00:00",
-            "date": "03/10",
-            "blv": "Bón",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab9ae1924d46db870ba25df_c001e087_20261003.png?v=c001e087",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-120dba84e5",
           "name": "Kashiwa Reysol vs Gamba Osaka | 17:00 03/10",
           "type": "single",
@@ -233,6 +161,78 @@
           }
         },
         {
+          "id": "gv-6ecbdc855c",
+          "name": "Hàn Quốc vs Nhật Bản | 17:30 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6ecbdc855c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6ecbdc855c",
+                  "name": "Hàn Quốc vs Nhật Bản",
+                  "streams": [
+                    {
+                      "id": "st-6ecbdc855c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3f880ec40d",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790966773_hd/1790966773_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAD 2026 Chung Kết",
+            "team_a": "Hàn Quốc",
+            "team_b": "Nhật Bản",
+            "logo_a": "https://images.keovip88.net/images/teams/south-korea-u23.png",
+            "logo_b": "https://images.keovip88.net/images/teams/japan.png",
+            "time": "17:30:00",
+            "date": "03/10",
+            "blv": "BLV Hấu",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/u6fiwz5ggwyg_c4926fd9_20261003.png?v=c4926fd9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-06b060261d",
           "name": "Machida Zelvia vs Kyoto Sanga | 14:00 03/10",
           "type": "single",
@@ -372,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab9ae1924d46db870ba25d7_53b951a1_20261003.png?v=53b951a1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-6ecbdc855c",
-          "name": "Hàn Quốc vs Nhật Bản | 17:30 03/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6ecbdc855c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6ecbdc855c",
-                  "name": "Hàn Quốc vs Nhật Bản",
-                  "streams": [
-                    {
-                      "id": "st-6ecbdc855c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3f880ec40d",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790966773_hd/1790966773_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIAD 2026 Chung Kết",
-            "team_a": "Hàn Quốc",
-            "team_b": "Nhật Bản",
-            "logo_a": "https://images.keovip88.net/images/teams/south-korea-u23.png",
-            "logo_b": "https://images.keovip88.net/images/teams/japan.png",
-            "time": "17:30:00",
-            "date": "03/10",
-            "blv": "BLV Hấu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/u6fiwz5ggwyg_c4926fd9_20261003.png?v=c4926fd9",
             "width": 1600,
             "height": 1200
           }
@@ -1550,7 +1478,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1635,10 +1563,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1687,7 +1615,7 @@
             "time": "17:20:00",
             "date": "03/10",
             "blv": "Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
