@@ -2216,7 +2216,7 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2289,6 +2289,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/asooi3g7yvxg_62dd1b2b_20261003.png?v=62dd1b2b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4ca705961f",
+          "name": "Erdogan vs Elliott | 08:00 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4ca705961f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4ca705961f",
+                  "name": "Erdogan vs Elliott",
+                  "streams": [
+                    {
+                      "id": "st-4ca705961f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-802c84f2eb",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790991481_hd/1790991481_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ONE Fight Night 48: Erdogan vs. Elliott",
+            "team_a": "Erdogan",
+            "team_b": "Elliott",
+            "logo_a": "https://static.flashscore.com/res/image/data/671U0L9r-0CHCDEUd.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/bmP0HwdM-UmL8FhZH.png",
+            "time": "08:00:00",
+            "date": "03/10",
+            "blv": "Dory",
+            "is_live": true,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/zpwa3q34tzjj_0a57043c_20261003.png?v=0a57043c",
             "width": 1600,
             "height": 1200
           }
