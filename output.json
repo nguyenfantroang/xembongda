@@ -44,11 +44,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-3e37d737fd",
-                          "name": "BLV Hấu",
+                          "id": "lnk-7abacc3b7a",
+                          "name": "Bee",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790960265_hd/1790960265_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790985973_hd/1790985973_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -75,7 +75,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/8/8c/Venados_F.C._logo.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
             "time": "10:00:00",
             "date": "03/10",
-            "blv": "BLV Hấu",
+            "blv": "Bee",
             "is_live": false,
             "cate_type": "football"
           },
@@ -2135,11 +2135,83 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật",
+      "name": "🥊 Võ Thuật (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-c426400be5",
+          "name": "ASIAD 2026 vs ASIAD 2026 | 07:00 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c426400be5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c426400be5",
+                  "name": "ASIAD 2026 vs ASIAD 2026",
+                  "streams": [
+                    {
+                      "id": "st-c426400be5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-09bc56ce50",
+                          "name": "BLV Túi Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAD 2026",
+            "team_a": "ASIAD 2026",
+            "team_b": "ASIAD 2026",
+            "logo_a": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "logo_b": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "time": "07:00:00",
+            "date": "03/10",
+            "blv": "BLV Túi Mù",
+            "is_live": true,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/asooi3g7yvxg_62dd1b2b_20261003.png?v=62dd1b2b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-aa8724a718",
           "name": "Dana White's Contender Series: Season 10, Week 9 vs Dana White's Contender Series: Season 10, Week 9 | 06:00 07/10",
