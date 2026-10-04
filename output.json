@@ -3302,83 +3302,11 @@
     },
     {
       "id": "cate_rugby",
-      "name": "🏅 Thể Thao (1 LIVE)",
+      "name": "🏅 Thể Thao",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-dded876a29",
-          "name": "Kansas City Chiefs vs Las Vegas Raiders | 03:25 05/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dded876a29",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-dded876a29",
-                  "name": "Kansas City Chiefs vs Las Vegas Raiders",
-                  "streams": [
-                    {
-                      "id": "st-dded876a29",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-70d04050ad",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791130741_hd/1791130741_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NFL",
-            "team_a": "Kansas City Chiefs",
-            "team_b": "Las Vegas Raiders",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/w7shEYWVYqmugc3x-DGVKg_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/UVLlczXJQ1wxxKMT9ShJQw_96x96.png",
-            "time": "03:25:00",
-            "date": "05/10",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "rugby"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/t19hln3gu1gi_624d7f69_20261005.png?v=624d7f69",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-bace2a3ed8",
           "name": "Carolina Panthers vs Detroit Lions | 07:20 05/10",
