@@ -1951,6 +1951,87 @@
       ]
     },
     {
+      "id": "cate_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-6f614b4544",
+          "name": "Alcaraz C. vs Munar J. | 14:00 05/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f614b4544",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6f614b4544",
+                  "name": "Alcaraz C. vs Munar J.",
+                  "streams": [
+                    {
+                      "id": "st-6f614b4544",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-934fd19092",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791156921_hd/1791156921_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Tokyo Open",
+            "team_a": "Alcaraz C.",
+            "team_b": "Munar J.",
+            "logo_a": "https://static.flashscore.com/res/image/data/OfjQEPjl-hGuiBKos.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/ENkQDBEG-pQ0ElVBe.png",
+            "time": "14:00:00",
+            "date": "05/10",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/1jgra0p81k7q_87480b98_20261005.png?v=87480b98",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchuyen",
       "name": "🏐 Bóng Chuyền",
       "display": "vertical",
@@ -2777,8 +2858,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-36c2d53a7c",
-          "name": "San Diego Padres vs Milwaukee Brewers | 03:00 05/10",
+          "id": "gv-92c37858cd",
+          "name": "Los Angeles Dodgers vs Atlanta Braves | 07:00 05/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2788,78 +2869,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-36c2d53a7c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-36c2d53a7c",
-                  "name": "San Diego Padres vs Milwaukee Brewers",
-                  "streams": [
-                    {
-                      "id": "st-36c2d53a7c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0f95e99dbb",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791130612_hd/1791130612_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB - Division Series",
-            "team_a": "San Diego Padres",
-            "team_b": "Milwaukee Brewers",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/467Meu6PL9-FddkGftApJA_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/iM_hcWzccgEfD4bo-sp6Wg_96x96.png",
-            "time": "03:00:00",
-            "date": "05/10",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/plpupkfv56qu_f53ce1ca_20261005.png?v=f53ce1ca",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-92c37858cd",
-          "name": "Los Angeles Dodgers vs Atlanta Braves | 07:00 05/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -2908,7 +2917,7 @@
             "time": "07:00:00",
             "date": "05/10",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchay"
           },
           "image": {
@@ -3204,6 +3213,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/z1qemnhtztik_b53f5977_20261005.png?v=b53f5977",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongban",
+      "name": "🏓 Bóng Bàn",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-25d0bfb7fd",
+          "name": "Groth J vs Harimoto T | 10:00 05/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-25d0bfb7fd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-25d0bfb7fd",
+                  "name": "Groth J vs Harimoto T",
+                  "streams": [
+                    {
+                      "id": "st-25d0bfb7fd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2b38771ce5",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791156735_hd/1791156735_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "China Smash 2026",
+            "team_a": "Groth J",
+            "team_b": "Harimoto T",
+            "logo_a": "https://static.flashscore.com/res/image/data/SbVyJfil-YHmIcfL6.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/p2pUgGEG-0GVPIiRs.png",
+            "time": "10:00:00",
+            "date": "05/10",
+            "blv": "Dory",
+            "is_live": false,
+            "cate_type": "bongban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/am7i4len8yek_4b8600b0_20261005.png?v=4b8600b0",
             "width": 1600,
             "height": 1200
           }
