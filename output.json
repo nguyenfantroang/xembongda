@@ -869,8 +869,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-bed6c2f6c9",
-          "name": "Golden State Valkyries vs Las Vegas Aces | 03:00 05/10",
+          "id": "gv-9aed2776bf",
+          "name": "Los Angeles Clippers vs Golden State Warriors | 06:00 05/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -880,78 +880,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bed6c2f6c9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bed6c2f6c9",
-                  "name": "Golden State Valkyries vs Las Vegas Aces",
-                  "streams": [
-                    {
-                      "id": "st-bed6c2f6c9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d6281f6d2b",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791115830_hd/1791115830_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "Golden State Valkyries",
-            "team_b": "Las Vegas Aces",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/cbf9424df17d6e06d655dca78651d329.png",
-            "time": "03:00:00",
-            "date": "05/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/38762474_8d23a1d0_20261005.png?v=8d23a1d0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-9aed2776bf",
-          "name": "Los Angeles Clippers vs Golden State Warriors | 06:00 05/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1000,7 +928,7 @@
             "time": "06:00:00",
             "date": "05/10",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
