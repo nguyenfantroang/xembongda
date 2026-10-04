@@ -11,227 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5f99401078",
-          "name": "Vegalta Sendai vs Jubilo Iwata | 13:00 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5f99401078",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5f99401078",
-                  "name": "Vegalta Sendai vs Jubilo Iwata",
-                  "streams": [
-                    {
-                      "id": "st-5f99401078",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-78337a3a93",
-                          "name": "Tỵ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791052056_hd/1791052056_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hạng 2 Nhật Bản",
-            "team_a": "Vegalta Sendai",
-            "team_b": "Jubilo Iwata",
-            "logo_a": "https://images.keovip88.net/images/teams/vegalta-sendai.png",
-            "logo_b": "https://images.keovip88.net/images/teams/jubilo-iwata.png",
-            "time": "13:00:00",
-            "date": "04/10",
-            "blv": "Tỵ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab9ae3024d46db870ba44b3_781c259d_20261004.png?v=781c259d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-159d6a0870",
-          "name": "Barito Putera vs Persela | 15:30 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-159d6a0870",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-159d6a0870",
-                  "name": "Barito Putera vs Persela",
-                  "streams": [
-                    {
-                      "id": "st-159d6a0870",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-32cddd3dbd",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790841072_hd/1790841072_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesia - Pegadaian Championship",
-            "team_a": "Barito Putera",
-            "team_b": "Persela",
-            "logo_a": "https://static.flashscore.com/res/image/data/ERrhauyS-2sRnFBPj.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/tjTqq5Yg-pUG7DZrE.png",
-            "time": "15:30:00",
-            "date": "04/10",
-            "blv": "Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/k20w13z8ti4q_93228944_20261004.png?v=93228944",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-a93f5b1c70",
-          "name": "Davao Aguilas vs Tuloy | 16:45 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a93f5b1c70",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a93f5b1c70",
-                  "name": "Davao Aguilas vs Tuloy",
-                  "streams": [
-                    {
-                      "id": "st-a93f5b1c70",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1eecb646ff",
-                          "name": "Tỵ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791094508_hd/1791094508_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Philippines",
-            "team_a": "Davao Aguilas",
-            "team_b": "Tuloy",
-            "logo_a": "https://static.flashscore.com/res/image/data/29c9J7e5-M3wSGPcG.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/rJNHBSEa-6N76cNOA.png",
-            "time": "16:45:00",
-            "date": "04/10",
-            "blv": "Tỵ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/dfprcvtaytob_0df627a0_20261004.png?v=0df627a0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e6936c65b7",
           "name": "Miyazaki vs Omiya Ardija | 17:00 04/10",
@@ -377,78 +161,6 @@
           }
         },
         {
-          "id": "gv-cec52b0ce2",
-          "name": "Real Sociedad B vs Granada CF | 19:00 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cec52b0ce2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cec52b0ce2",
-                  "name": "Real Sociedad B vs Granada CF",
-                  "streams": [
-                    {
-                      "id": "st-cec52b0ce2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-df20d4199e",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790841222_hd/1790841222_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hạng 2 Tây Ban Nha",
-            "team_a": "Real Sociedad B",
-            "team_b": "Granada CF",
-            "logo_a": "https://images.keovip88.net/images/teams/real-sociedad-b.png",
-            "logo_b": "https://images.keovip88.net/images/teams/granada-cf.png",
-            "time": "19:00:00",
-            "date": "04/10",
-            "blv": "Trĩ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab9ae3124d46db870ba4622_fc23eddf_20261004.png?v=fc23eddf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-4c8fc4e69b",
           "name": "Bryne vs Lyn | 19:30 04/10",
           "type": "single",
@@ -521,8 +233,8 @@
           }
         },
         {
-          "id": "gv-b2ab819034",
-          "name": "Fleury 91 W vs PSG W | 20:00 04/10",
+          "id": "gv-2ca772417e",
+          "name": "AE Prat vs San Rafael | 21:00 04/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -536,95 +248,23 @@
           ],
           "sources": [
             {
-              "id": "src-b2ab819034",
+              "id": "src-2ca772417e",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-b2ab819034",
-                  "name": "Fleury 91 W vs PSG W",
+                  "id": "ct-2ca772417e",
+                  "name": "AE Prat vs San Rafael",
                   "streams": [
                     {
-                      "id": "st-b2ab819034",
+                      "id": "st-2ca772417e",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-78f223d953",
-                          "name": "Bee",
+                          "id": "lnk-9b4bad1ed4",
+                          "name": "Trĩ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791017321_hd/1791017321_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "France - Première Ligue",
-            "team_a": "Fleury 91 W",
-            "team_b": "PSG W",
-            "logo_a": "https://static.flashscore.com/res/image/data/b5t4Xih5-Q1BcQwtS.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/GSQZijHG-hjAZZSzd.png",
-            "time": "20:00:00",
-            "date": "04/10",
-            "blv": "Bee",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/j10b03wex77g_1a2c1832_20261004.png?v=1a2c1832",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f8ad0b035f",
-          "name": "CD San Jose de Soria vs Auriense | 21:00 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f8ad0b035f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f8ad0b035f",
-                  "name": "CD San Jose de Soria vs Auriense",
-                  "streams": [
-                    {
-                      "id": "st-f8ad0b035f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-59e1ba3890",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791017485_hd/1791017485_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791113522_hd/1791113522_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -645,13 +285,13 @@
           ],
           "org_metadata": {
             "league": "Cúp nhà vua Tây Ban Nha",
-            "team_a": "CD San Jose de Soria",
-            "team_b": "Auriense",
-            "logo_a": "https://images.keovip88.net/images/teams/cd-san-jose-de-soria.png",
-            "logo_b": "https://images.keovip88.net/images/teams/default.png",
+            "team_a": "AE Prat",
+            "team_b": "San Rafael",
+            "logo_a": "https://images.keovip88.net/images/teams/ae-prat.png",
+            "logo_b": "https://images.keovip88.net/images/teams/san-rafael.png",
             "time": "21:00:00",
             "date": "04/10",
-            "blv": "Mù",
+            "blv": "Trĩ",
             "is_live": false,
             "cate_type": "football"
           },
@@ -659,7 +299,367 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aa498131f7a2190510195d5_6443e607_20261004.png?v=6443e607",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aa498131f7a2190510195c9_44e7b135_20261004.png?v=44e7b135",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f2998f64c0",
+          "name": "Malta vs Andorra | 23:00 04/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f2998f64c0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f2998f64c0",
+                  "name": "Malta vs Andorra",
+                  "streams": [
+                    {
+                      "id": "st-f2998f64c0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0775aa3055",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791115077_hd/1791115077_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Malta",
+            "team_b": "Andorra",
+            "logo_a": "https://images.keovip88.net/images/teams/malta.png",
+            "logo_b": "https://images.keovip88.net/images/teams/andorra.png",
+            "time": "23:00:00",
+            "date": "04/10",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf77_968fc009_20261004.png?v=968fc009",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f379d79a8b",
+          "name": "Kosovo vs Áo | 23:00 04/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f379d79a8b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f379d79a8b",
+                  "name": "Kosovo vs Áo",
+                  "streams": [
+                    {
+                      "id": "st-f379d79a8b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1fb3103111",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791115134_hd/1791115134_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Kosovo",
+            "team_b": "Áo",
+            "logo_a": "https://images.keovip88.net/images/teams/kosovo.png",
+            "logo_b": "https://images.keovip88.net/images/teams/austria.png",
+            "time": "23:00:00",
+            "date": "04/10",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf5a_625c8318_20261004.png?v=625c8318",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8268e338bb",
+          "name": "Hy Lạp vs Đức | 01:45 05/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8268e338bb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8268e338bb",
+                  "name": "Hy Lạp vs Đức",
+                  "streams": [
+                    {
+                      "id": "st-8268e338bb",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c7c1562742",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791115177_hd/1791115177_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Hy Lạp",
+            "team_b": "Đức",
+            "logo_a": "https://images.keovip88.net/images/teams/greece.png",
+            "logo_b": "https://images.keovip88.net/images/teams/germany.png",
+            "time": "01:45:00",
+            "date": "05/10",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f3f2b74bff4a0c310bf765_e50d1671_20261004.png?v=e50d1671",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9217e2f999",
+          "name": "Hà Lan vs Serbia | 01:45 05/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9217e2f999",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9217e2f999",
+                  "name": "Hà Lan vs Serbia",
+                  "streams": [
+                    {
+                      "id": "st-9217e2f999",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bcdfcd24bf",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791115210_hd/1791115210_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Hà Lan",
+            "team_b": "Serbia",
+            "logo_a": "https://images.keovip88.net/images/teams/netherlands.png",
+            "logo_b": "https://images.keovip88.net/images/teams/serbia.png",
+            "time": "01:45:00",
+            "date": "05/10",
+            "blv": "BLV Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f3f2b74bff4a0c310bf764_09116cf9_20261004.png?v=09116cf9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-480942b66d",
+          "name": "Bồ Đào Nha vs Na Uy | 01:45 05/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-480942b66d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-480942b66d",
+                  "name": "Bồ Đào Nha vs Na Uy",
+                  "streams": [
+                    {
+                      "id": "st-480942b66d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-117dba4f7b",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791115230_hd/1791115230_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Bồ Đào Nha",
+            "team_b": "Na Uy",
+            "logo_a": "https://images.keovip88.net/images/teams/portugal.png",
+            "logo_b": "https://images.keovip88.net/images/teams/norway.png",
+            "time": "01:45:00",
+            "date": "05/10",
+            "blv": "Chồn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf49_8c913d5a_20261004.png?v=8c913d5a",
             "width": 1600,
             "height": 1200
           }
@@ -740,227 +740,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-debdd6bbba",
-          "name": "Adelaide 36ers vs New Zealand Breakers | 13:00 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-debdd6bbba",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-debdd6bbba",
-                  "name": "Adelaide 36ers vs New Zealand Breakers",
-                  "streams": [
-                    {
-                      "id": "st-debdd6bbba",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1fb3b14a62",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791052239_hd/1791052239_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball League(Australia)",
-            "team_a": "Adelaide 36ers",
-            "team_b": "New Zealand Breakers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/6a6d3d4063e675d1ce3e701153e3f367.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/7778a93083d2fa50e4cb4e128f07cf5f.png",
-            "time": "13:00:00",
-            "date": "04/10",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/13322279_f5e4252a_20261004.png?v=f5e4252a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-86e551625e",
-          "name": "Busan KTF Magicwings vs Seoul Samsung Thunders | 14:30 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-86e551625e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-86e551625e",
-                  "name": "Busan KTF Magicwings vs Seoul Samsung Thunders",
-                  "streams": [
-                    {
-                      "id": "st-86e551625e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-28966584ac",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791052277_hd/1791052277_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korea Basketball League",
-            "team_a": "Busan KTF Magicwings",
-            "team_b": "Seoul Samsung Thunders",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/2cf065fbe1f93fb229c981c1d88d9618.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/77da210054627a8fde62b8e6d76f3d74.png",
-            "time": "14:30:00",
-            "date": "04/10",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/24750376_eb93cb7e_20261004.png?v=eb93cb7e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b87e1a10ee",
-          "name": "Obradoiro CAB vs Real Madrid | 17:00 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b87e1a10ee",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b87e1a10ee",
-                  "name": "Obradoiro CAB vs Real Madrid",
-                  "streams": [
-                    {
-                      "id": "st-b87e1a10ee",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cf3c15092",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791017529_hd/1791017529_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ACB",
-            "team_a": "Obradoiro CAB",
-            "team_b": "Real Madrid",
-            "logo_a": "https://static.flashscore.com/res/image/data/GQO85GxS-MkO5VDN4.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/GnbCKDYA-bXlcmj9T.png",
-            "time": "17:00:00",
-            "date": "04/10",
-            "blv": "Vịt",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/njzlpe07h95m_4a513d24_20261004.png?v=4a513d24",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-655b0ecdd4",
           "name": "Basket Zaragoza vs Valencia | 22:00 04/10",
@@ -969,10 +753,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -989,11 +773,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-b455ec2c5c",
+                          "id": "lnk-991dc71615",
                           "name": "Chồn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791018009_hd/1791018009_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791018009_hd/1791018009_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1021,7 +805,7 @@
             "time": "22:00:00",
             "date": "04/10",
             "blv": "Chồn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1029,6 +813,222 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/956mudyg0vwt_7fda6b44_20261004.png?v=7fda6b44",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-e2a0efb8f8",
+          "name": "Baskonia vs Basquet Girona | 23:00 04/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e2a0efb8f8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e2a0efb8f8",
+                  "name": "Baskonia vs Basquet Girona",
+                  "streams": [
+                    {
+                      "id": "st-e2a0efb8f8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9f7f99fac0",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791124690_hd/1791124690_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ACB",
+            "team_a": "Baskonia",
+            "team_b": "Basquet Girona",
+            "logo_a": "https://static.flashscore.com/res/image/data/fcISR1Ca-hhuZJcqF.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/h4mAxXEa-YgmHmwO2.png",
+            "time": "23:00:00",
+            "date": "04/10",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/07isvyb1l15h_36e0e6f6_20261004.png?v=36e0e6f6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-e514fb114e",
+          "name": "Atlanta Dream vs New York Liberty | 01:00 05/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e514fb114e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e514fb114e",
+                  "name": "Atlanta Dream vs New York Liberty",
+                  "streams": [
+                    {
+                      "id": "st-e514fb114e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e29b2d6e77",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791115599_hd/1791115599_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Atlanta Dream",
+            "team_b": "New York Liberty",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f527c983cab3560c60e7b9d147904d7d.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/7a41b2cf98e8350722b096134858af8e.png",
+            "time": "01:00:00",
+            "date": "05/10",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/24442475_7b3a274c_20261004.png?v=7b3a274c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-bed6c2f6c9",
+          "name": "Golden State Valkyries vs Las Vegas Aces | 03:00 05/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bed6c2f6c9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bed6c2f6c9",
+                  "name": "Golden State Valkyries vs Las Vegas Aces",
+                  "streams": [
+                    {
+                      "id": "st-bed6c2f6c9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1fe94694bc",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791115830_hd/1791115830_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Golden State Valkyries",
+            "team_b": "Las Vegas Aces",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/cbf9424df17d6e06d655dca78651d329.png",
+            "time": "03:00:00",
+            "date": "05/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/38762474_8d23a1d0_20261004.png?v=8d23a1d0",
             "width": 1600,
             "height": 1200
           }
@@ -1180,165 +1180,12 @@
       ]
     },
     {
-      "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-20e06ce9ac",
-          "name": "Beijing Open vs 2026 | 12:00 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-20e06ce9ac",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-20e06ce9ac",
-                  "name": "Beijing Open vs 2026",
-                  "streams": [
-                    {
-                      "id": "st-20e06ce9ac",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6b032c29f8",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791086369_hd/1791086369_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Beijing Open",
-            "team_a": "Beijing Open",
-            "team_b": "2026",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTADC3pRGirDoA1eaQtvYds8PQ-vmcEESiPHvywMVtvYU3ERTP__FyL8m8F&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsQspwrh-Dk7JtfASP2qpK4oJgKz4Xd02T8keMrfzJeQ02gF-3s7n3mKY&s=10",
-            "time": "12:00:00",
-            "date": "04/10",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/0hw54is3dabe_1ad43bdf_20261004.png?v=1ad43bdf",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
       "id": "cate_bongchuyen",
       "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1d52363bae",
-          "name": "Fenerbahce nữ vs Manisa BB Nữ | 17:00 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1d52363bae",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1d52363bae",
-                  "name": "Fenerbahce nữ vs Manisa BB Nữ",
-                  "streams": [
-                    {
-                      "id": "st-1d52363bae",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-091805a3e5",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791018075_hd/1791018075_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sultanlar Ligi Nữ",
-            "team_a": "Fenerbahce nữ",
-            "team_b": "Manisa BB Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/IROBodZA-z9Ihsud3.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/tU3wbCh5-fDi1I6CJ.png",
-            "time": "17:00:00",
-            "date": "04/10",
-            "blv": "Sún",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/xxznsgay4jcl_52cd60e5_20261004.png?v=52cd60e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-045d77ed0b",
           "name": "Scandicci Nữ vs Chieri '76 Nữ | 21:00 04/10",
@@ -1367,11 +1214,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-cb0b10529b",
+                          "id": "lnk-d3a0a4ea9f",
                           "name": "Sún",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791018164_hd/1791018164_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791018164_hd/1791018164_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1421,8 +1268,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-b49e544e2d",
-          "name": "RED Canids vs KT | 14:00 04/10",
+          "id": "gv-5b118ab750",
+          "name": "Round 2 High Matches vs 2026 | 16:00 04/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1432,150 +1279,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b49e544e2d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b49e544e2d",
-                  "name": "RED Canids vs KT",
-                  "streams": [
-                    {
-                      "id": "st-b49e544e2d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fab1da463d",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791092717_hd/1791092717_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Demacia Cup Global Invitational",
-            "team_a": "RED Canids",
-            "team_b": "KT",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJOShi9w7oKH_QwSzHrXEKAQNfRtCbJVHpSOydQ6KKFQ&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Z_VcLeqBnYlomnoDMUlVRUV3i4BHkpZxrwgGjacwKQ&s",
-            "time": "14:00:00",
-            "date": "04/10",
-            "blv": "BLV Hấu",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/exi76y9d1y3n_66e4e691_20261004.png?v=66e4e691",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c54c7de936",
-          "name": "WE vs BRO | 16:00 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c54c7de936",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c54c7de936",
-                  "name": "WE vs BRO",
-                  "streams": [
-                    {
-                      "id": "st-c54c7de936",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6d5c27f4c6",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791092839_hd/1791092839_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Demacia Cup Global Invitational",
-            "team_a": "WE",
-            "team_b": "BRO",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ93kWdW4lojNbz2kclG30QhQpInGukGF4f_L2q57UfrQ&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB2CM4MP-NO8YJiz4R1y_wGJ2_RoVcSb5FyC0xaDLvIw&s=10",
-            "time": "16:00:00",
-            "date": "04/10",
-            "blv": "BLV Hấu",
-            "is_live": false,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/tdymrifrgs8w_5a0c669a_20261004.png?v=5a0c669a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-5b118ab750",
-          "name": "Round 2 High Matches vs 2026 | 16:00 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1624,7 +1327,7 @@
             "time": "16:00:00",
             "date": "04/10",
             "blv": "Mickey",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
@@ -1632,78 +1335,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ifg3o1ysrx8a_c9594163_20261004.png?v=c9594163",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-825a912840",
-          "name": "BFX vs LGD | 18:00 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-825a912840",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-825a912840",
-                  "name": "BFX vs LGD",
-                  "streams": [
-                    {
-                      "id": "st-825a912840",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1513fa656f",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791093038_hd/1791093038_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Demacia Cup Global Invitational",
-            "team_a": "BFX",
-            "team_b": "LGD",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDRrEmNb1ep4AF3ZmHm103vbTGm5vAVnPog_JDcdUYxQ&s=10",
-            "logo_b": "https://static.flashscore.com/res/image/data/K2DzGSil-IizXy6Yg.png",
-            "time": "18:00:00",
-            "date": "04/10",
-            "blv": "Cận",
-            "is_live": false,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/2b2dp1vxm5r8_47348fe1_20261004.png?v=47348fe1",
             "width": 1600,
             "height": 1200
           }
@@ -1717,78 +1348,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c426400be5",
-          "name": "ASIAD 2026 vs ASIAD 2026 | 16:00 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c426400be5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c426400be5",
-                  "name": "ASIAD 2026 vs ASIAD 2026",
-                  "streams": [
-                    {
-                      "id": "st-c426400be5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-09bc56ce50",
-                          "name": "BLV Túi Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIAD 2026",
-            "team_a": "ASIAD 2026",
-            "team_b": "ASIAD 2026",
-            "logo_a": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "logo_b": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "time": "16:00:00",
-            "date": "04/10",
-            "blv": "BLV Túi Mù",
-            "is_live": false,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/asooi3g7yvxg_62dd1b2b_20261004.png?v=62dd1b2b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-aa8724a718",
           "name": "Dana White's Contender Series: Season 10, Week 9 vs Dana White's Contender Series: Season 10, Week 9 | 06:00 07/10",
@@ -1857,6 +1416,222 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/gnr1wdci2u1m_2ebec21f_20261004.png?v=2ebec21f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-780cefb489",
+          "name": "ONE Friday Fights 174 vs The Inner Circle 34 | 18:30 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-780cefb489",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-780cefb489",
+                  "name": "ONE Friday Fights 174 vs The Inner Circle 34",
+                  "streams": [
+                    {
+                      "id": "st-780cefb489",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-456082a9ed",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791103825_hd/1791103825_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ONE Friday Fights 174 & The Inner Circle 34",
+            "team_a": "ONE Friday Fights 174",
+            "team_b": "The Inner Circle 34",
+            "logo_a": "https://cdn.onefc.com/wp-content/uploads/2026/09/261009-BKK-OFF174_TIC34-1800x1200px-768x512.jpg",
+            "logo_b": "https://cdn.onefc.com/wp-content/uploads/2026/09/261009-BKK-OFF174_TIC34-1800x1200px-768x512.jpg",
+            "time": "18:30:00",
+            "date": "09/10",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/czzqr80h420j_f0da90f9_20261004.png?v=f0da90f9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-707c147faf",
+          "name": "Brendan Allen vs. Christian Leroy Duncan vs Brendan Allen vs. Christian Leroy Duncan | 04:00 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-707c147faf",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-707c147faf",
+                  "name": "Brendan Allen vs. Christian Leroy Duncan vs Brendan Allen vs. Christian Leroy Duncan",
+                  "streams": [
+                    {
+                      "id": "st-707c147faf",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a0437aaa16",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791103892_hd/1791103892_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UFC Fight Night",
+            "team_a": "Brendan Allen vs. Christian Leroy Duncan",
+            "team_b": "Brendan Allen vs. Christian Leroy Duncan",
+            "logo_a": "https://middleeasy.com/wp-content/uploads/2026/09/brendan-allen-christian-leroy-duncan-ufc-vegas-122-870x489.jpg",
+            "logo_b": "https://middleeasy.com/wp-content/uploads/2026/09/brendan-allen-christian-leroy-duncan-ufc-vegas-122-870x489.jpg",
+            "time": "04:00:00",
+            "date": "11/10",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/laii04ykl3h1_861f079b_20261004.png?v=861f079b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-aa79b00ebc",
+          "name": "Dana White's Contender Series: Season 10, Week 10 vs Dana White's Contender Series: Season 10, Week 10 | 06:00 14/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aa79b00ebc",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-aa79b00ebc",
+                  "name": "Dana White's Contender Series: Season 10, Week 10 vs Dana White's Contender Series: Season 10, Week 10",
+                  "streams": [
+                    {
+                      "id": "st-aa79b00ebc",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-da220bd1a3",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791103969_hd/1791103969_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Dana White's Contender Series: Season 10, Week 10",
+            "team_a": "Dana White's Contender Series: Season 10, Week 10",
+            "team_b": "Dana White's Contender Series: Season 10, Week 10",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5PqBjSuTa8tkab03yt8x1ljR3sm1zwX3DPgv-rEM1SqpBvX3RA6f9QRE&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5PqBjSuTa8tkab03yt8x1ljR3sm1zwX3DPgv-rEM1SqpBvX3RA6f9QRE&s=10",
+            "time": "06:00:00",
+            "date": "14/10",
+            "blv": "Dory",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/85syb27z5gra_2ebec21f_20261004.png?v=2ebec21f",
             "width": 1600,
             "height": 1200
           }
@@ -1945,242 +1720,8 @@
       ]
     },
     {
-      "id": "cate_duaxe",
-      "name": "🏎️ Đua Xe (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-0ee3d0585c",
-          "name": "F1 vs Bahrain Grand Prix | 14:00 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0ee3d0585c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0ee3d0585c",
-                  "name": "F1 vs Bahrain Grand Prix",
-                  "streams": [
-                    {
-                      "id": "st-0ee3d0585c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e880cca513",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791052822_hd/1791052822_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Gulf Air Bahrain Grand Prix",
-            "team_a": "F1",
-            "team_b": "Bahrain Grand Prix",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9XChDCfKbWISkRuuQ4jx3Jvg4R6ZC5GV3futpLieB9Q&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCu9iJSMV7ddzvrI09JUmTSq39BKCb71JG5Bt-BYhA1A&s=10",
-            "time": "14:00:00",
-            "date": "04/10",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "duaxe"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/o863zg6rgxw6_77491149_20261004.png?v=77491149",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongban",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-54fa06e5b3",
-          "name": "Iulian CHIRITA vs Wen RuiBo | 11:00 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-54fa06e5b3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-54fa06e5b3",
-                  "name": "Iulian CHIRITA vs Wen RuiBo",
-                  "streams": [
-                    {
-                      "id": "st-54fa06e5b3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b0f4cb7a07",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791080347_hd/1791080347_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "China SMash 2026",
-            "team_a": "Iulian CHIRITA",
-            "team_b": "Wen RuiBo",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbg18GIOWp8q_dFBu8rLgj9m7noorvHBbyg2iTJdznlWaqZYtt82kUrff2CQqLh7aoppplMKuMO7x03x2ASfD-5i5mlC_KAtM1nKqDt4o&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9eYudge4knbzlgr84sm_CnlELN8WSWY1LX3Df3Wx2TqV61t6jGAZR-xH24a6yo6tL6nzjqo4Q_DnC4ZjhpdFOdVII8Ib1f6QWagp6bhQ&s=10",
-            "time": "11:00:00",
-            "date": "04/10",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "bongban"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/hgk8o2rsc8bl_d372c1e5_20261004.png?v=d372c1e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b59e5fa29b",
-          "name": "China Smash 2026 vs China Smash 2026 | 17:00 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b59e5fa29b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b59e5fa29b",
-                  "name": "China Smash 2026 vs China Smash 2026",
-                  "streams": [
-                    {
-                      "id": "st-b59e5fa29b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d9d86c04f2",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791018250_hd/1791018250_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "China Smash 2026",
-            "team_a": "China Smash 2026",
-            "team_b": "China Smash 2026",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPeUf5SGxZgN4FtG0kE7T_5IgtQykkJCDLljkW-w9QSrqBdRMtCghSZoM&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPeUf5SGxZgN4FtG0kE7T_5IgtQykkJCDLljkW-w9QSrqBdRMtCghSZoM&s=10",
-            "time": "17:00:00",
-            "date": "04/10",
-            "blv": "Súp",
-            "is_live": false,
-            "cate_type": "bongban"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/0k1wm45ky3ai_82b28aff_20261004.png?v=82b28aff",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
       "id": "cate_rugby",
-      "name": "🏅 Thể Thao",
+      "name": "🏅 Thể Thao (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2193,10 +1734,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2213,11 +1754,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-ffc500236f",
+                          "id": "lnk-b4dccd15dc",
                           "name": "Riko",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791095113_hd/1791095113_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791095113_hd/1791095113_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2245,7 +1786,7 @@
             "time": "20:30:00",
             "date": "04/10",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "rugby"
           },
           "image": {
