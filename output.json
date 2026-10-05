@@ -11,100 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b67480bd2a",
-          "name": "Indonesia vs Thái Lan | 20:00 05/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b67480bd2a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b67480bd2a",
-                  "name": "Indonesia vs Thái Lan",
-                  "streams": [
-                    {
-                      "id": "st-b67480bd2a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-59af973f59",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791131835_hd/1791131835_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-611b76abd1",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791131840_hd/1791131840_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA ASEAN Cup",
-            "team_a": "Indonesia",
-            "team_b": "Thái Lan",
-            "logo_a": "https://images.keovip88.net/images/teams/indonesia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/thailand.png",
-            "time": "20:00:00",
-            "date": "05/10",
-            "blv": "BLV Hấu, Cận",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac1970824d46db87058bd90_8527ef26_20261005.png?v=8527ef26",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-fcc5a862a9",
           "name": "U21 Montenegro vs U21 Armenia | 21:30 05/10",
@@ -610,6 +521,78 @@
           }
         },
         {
+          "id": "gv-01e285ffa4",
+          "name": "Lâm Đồng FC vs Sông Lam Nghệ An | 15:30 06/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-01e285ffa4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-01e285ffa4",
+                  "name": "Lâm Đồng FC vs Sông Lam Nghệ An",
+                  "streams": [
+                    {
+                      "id": "st-01e285ffa4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-283d2d6bf2",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791215336_hd/1791215336_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp Quốc gia Việt Nam",
+            "team_a": "Lâm Đồng FC",
+            "team_b": "Sông Lam Nghệ An",
+            "logo_a": "https://images.keovip88.net/images/teams/lam-dong.png",
+            "logo_b": "https://images.keovip88.net/images/teams/song-lam-nghe-an.png",
+            "time": "15:30:00",
+            "date": "06/10",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93733afccd5ecc44060db4_b2454ef4_20261005.png?v=b2454ef4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-f2b90cdfd9",
           "name": "Changchun Yatai vs Yanbian Longding | 18:00 06/10",
           "type": "single",
@@ -827,7 +810,7 @@
         },
         {
           "id": "gv-cc4172e00f",
-          "name": "Bình Phước vs Cao Su Đồng Tháp | 18:00 06/10",
+          "name": "Đồng Nai vs Cao Su Đồng Tháp | 18:00 06/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -846,7 +829,7 @@
               "contents": [
                 {
                   "id": "ct-cc4172e00f",
-                  "name": "Bình Phước vs Cao Su Đồng Tháp",
+                  "name": "Đồng Nai vs Cao Su Đồng Tháp",
                   "streams": [
                     {
                       "id": "st-cc4172e00f",
@@ -878,7 +861,7 @@
           ],
           "org_metadata": {
             "league": "Cúp Quốc gia Việt Nam",
-            "team_a": "Bình Phước",
+            "team_a": "Đồng Nai",
             "team_b": "Cao Su Đồng Tháp",
             "logo_a": "https://images.keovip88.net/images/teams/truong-tuoi-dong-nai.png",
             "logo_b": "https://images.keovip88.net/images/teams/dong-thap.png",
@@ -1555,6 +1538,150 @@
           }
         },
         {
+          "id": "gv-d82fe82cef",
+          "name": "Milwaukee Bucks vs Minnesota Timberwolves | 07:00 06/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d82fe82cef",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d82fe82cef",
+                  "name": "Milwaukee Bucks vs Minnesota Timberwolves",
+                  "streams": [
+                    {
+                      "id": "st-d82fe82cef",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-23d2e353d1",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791215830_hd/1791215830_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Milwaukee Bucks",
+            "team_b": "Minnesota Timberwolves",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e82de69ea44942a3e90a5be6cf0004da.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/e97782502546bad80da0347446a3a311.png",
+            "time": "07:00:00",
+            "date": "06/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/26802477_fa68ac53_20261005.png?v=fa68ac53",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-06d0143eae",
+          "name": "Sacramento Kings vs Los Angeles Lakers | 09:00 06/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-06d0143eae",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-06d0143eae",
+                  "name": "Sacramento Kings vs Los Angeles Lakers",
+                  "streams": [
+                    {
+                      "id": "st-06d0143eae",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-be9e6e866b",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791215852_hd/1791215852_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Sacramento Kings",
+            "team_b": "Los Angeles Lakers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/b7096093642227c698108ad872603a76.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/935e553f4435030c604a4948c1e4d243.png",
+            "time": "09:00:00",
+            "date": "06/10",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/26902276_aba5cbb6_20261005.png?v=aba5cbb6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-ca737ec44c",
           "name": "Suwon KT vs LG Sakers | 17:00 06/10",
           "type": "single",
@@ -2216,6 +2343,159 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/q9yw2eitoqhb_b846e942_20261005.png?v=b846e942",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-333d006978",
+          "name": "BRO vs NAVI | 14:00 06/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-333d006978",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-333d006978",
+                  "name": "BRO vs NAVI",
+                  "streams": [
+                    {
+                      "id": "st-333d006978",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-89f05a5239",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791215765_hd/1791215765_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Demacia Cup Global Invitational",
+            "team_a": "BRO",
+            "team_b": "NAVI",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRROVyF3K0ggd96nHyTgwPWUwJCJfq36DIVgHfl7jIadw&s=10",
+            "logo_b": "https://static.flashscore.com/res/image/data/nyckaNwS-dMZzuAHL.png",
+            "time": "14:00:00",
+            "date": "06/10",
+            "blv": "BLV Hấu",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/c1mg7kvsazfx_58c3968b_20261005.png?v=58c3968b",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_caulong",
+      "name": "🏸 Cầu Lông",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-ef37d73e4c",
+          "name": "HUANG Youzheng vs LIN Yun-Ju | 10:00 06/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ef37d73e4c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ef37d73e4c",
+                  "name": "HUANG Youzheng vs LIN Yun-Ju",
+                  "streams": [
+                    {
+                      "id": "st-ef37d73e4c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8f00b1259b",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791215888_hd/1791215888_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "China Smash 2026",
+            "team_a": "HUANG Youzheng",
+            "team_b": "LIN Yun-Ju",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_9Nbqsaxp_rrUBkfU3Q3qzaGRKIIqygPknVtO1gXVz74X2pP8usBXoCGw&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQU8kjly2Guw4XAy7edPdIV-adQLzmWv8mk13iCMmEHA&s=10",
+            "time": "10:00:00",
+            "date": "06/10",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "caulong"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/v1taifq9t1w3_4aec2238_20261005.png?v=4aec2238",
             "width": 1600,
             "height": 1200
           }
