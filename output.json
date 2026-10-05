@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c785e5d002",
-          "name": "Đảo Síp vs Latvia | 23:00 05/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c785e5d002",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c785e5d002",
-                  "name": "Đảo Síp vs Latvia",
-                  "streams": [
-                    {
-                      "id": "st-c785e5d002",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e78e7ec455",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791130571_hd/1791130571_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Đảo Síp",
-            "team_b": "Latvia",
-            "logo_a": "https://images.keovip88.net/images/teams/cyprus.png",
-            "logo_b": "https://images.keovip88.net/images/teams/latvia.png",
-            "time": "23:00:00",
-            "date": "05/10",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf66_8fefa9e5_20261006.png?v=8fefa9e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-0f7f2c2289",
           "name": "Bosnia & Herzegovina vs Ba Lan | 01:45 06/10",
