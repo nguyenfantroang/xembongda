@@ -1826,7 +1826,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1911,10 +1911,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1963,7 +1963,7 @@
             "time": "16:00:00",
             "date": "05/10",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
@@ -1971,6 +1971,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ac0ogpkgxdt2_ebea2a0e_20261005.png?v=ebea2a0e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-321d8831bc",
+          "name": "Round 3 Mid-Win Matches vs Round 3 Mid-Win Matches | 16:00 05/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-321d8831bc",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-321d8831bc",
+                  "name": "Round 3 Mid-Win Matches vs Round 3 Mid-Win Matches",
+                  "streams": [
+                    {
+                      "id": "st-321d8831bc",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7cebbd5e99",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791189110_hd/1791189110_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CS2-ESL Pro League Season 24",
+            "team_a": "Round 3 Mid-Win Matches",
+            "team_b": "Round 3 Mid-Win Matches",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFFcfUGo7QmrMRL1Dg39DgPsEgv_9bV8hqxLgdK26Z4Q&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFFcfUGo7QmrMRL1Dg39DgPsEgv_9bV8hqxLgdK26Z4Q&s",
+            "time": "16:00:00",
+            "date": "05/10",
+            "blv": "Mickey",
+            "is_live": true,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/q9yw2eitoqhb_b846e942_20261005.png?v=b846e942",
             "width": 1600,
             "height": 1200
           }
