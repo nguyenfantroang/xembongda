@@ -2942,83 +2942,11 @@
     },
     {
       "id": "cate_Billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f66d62482e",
-          "name": "Joshua Filler vs Mi Le | 08:00 05/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f66d62482e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f66d62482e",
-                  "name": "Joshua Filler vs Mi Le",
-                  "streams": [
-                    {
-                      "id": "st-f66d62482e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0a92baffb7",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791162546_hd/1791162546_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chung Kết ARAMITH Men’s 10-Ball Open 2026",
-            "team_a": "Joshua Filler",
-            "team_b": "Mi Le",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlHxtFKaiypchFCBpUDsyq4B4zefBl30BfsHrzMKILBoRZ3tAzZfNc6KM&s=10",
-            "logo_b": "https://thanhnien.mediacdn.vn/Uploaded/minhtan/2022_10_05/250302462-216624673905188-5333336102677502613-n-602.jpg",
-            "time": "08:00:00",
-            "date": "05/10",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "Billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/y5yvqfdzw795_18a0d82e_20261005.png?v=18a0d82e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e12a647e5b",
           "name": "Spain Men vs Phillippines Man | 12:30 05/10",
