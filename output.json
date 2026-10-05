@@ -1931,11 +1931,28 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-0b801bc1e7",
+                          "id": "lnk-4737397a6d",
                           "name": "Cận",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791132036_hd/1791132036_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791132036_hd/1791132036_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-2b95ddfd88",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791190727_hd/1791190727_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1962,7 +1979,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/KSfxi1Br-CITctYCH.png",
             "time": "16:00:00",
             "date": "05/10",
-            "blv": "Cận",
+            "blv": "Cận, Dory",
             "is_live": true,
             "cate_type": "esport"
           },
