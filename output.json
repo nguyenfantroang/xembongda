@@ -791,83 +791,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-90f6343d8e",
-          "name": "Ulsan Hyundai Mobis Phoebus vs Jeonju KCC Egis | 12:00 05/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-90f6343d8e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-90f6343d8e",
-                  "name": "Ulsan Hyundai Mobis Phoebus vs Jeonju KCC Egis",
-                  "streams": [
-                    {
-                      "id": "st-90f6343d8e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4f8a5c7daf",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791051035_hd/1791051035_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korea Basketball League",
-            "team_a": "Ulsan Hyundai Mobis Phoebus",
-            "team_b": "Jeonju KCC Egis",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e22caa597076764dd0d04b55d46f764e.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/a2ba5e8d224376506856ad5dd34de831.png",
-            "time": "12:00:00",
-            "date": "05/10",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/25750377_27f79c23_20261005.png?v=27f79c23",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3b7f2384cb",
           "name": "Daegu KoGas Pegasus vs Anyang Jung Kwan Jang Red Boosters | 14:30 05/10",
@@ -1664,7 +1592,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1677,10 +1605,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1729,7 +1657,7 @@
             "time": "14:00:00",
             "date": "05/10",
             "blv": "Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -1737,6 +1665,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/1jgra0p81k7q_87480b98_20261005.png?v=87480b98",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c6a9f075d1",
+          "name": "De Minaur A. vs Hurkacz H. | 14:00 05/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c6a9f075d1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c6a9f075d1",
+                  "name": "De Minaur A. vs Hurkacz H.",
+                  "streams": [
+                    {
+                      "id": "st-c6a9f075d1",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-079376344e",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791182367_hd/1791182367_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Beijing Open",
+            "team_a": "De Minaur A.",
+            "team_b": "Hurkacz H.",
+            "logo_a": "https://static.flashscore.com/res/image/data/jcP2ujzB-CID30mRm.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/xGuYHTGG-xEfD5uDB.png",
+            "time": "14:00:00",
+            "date": "05/10",
+            "blv": "Ben",
+            "is_live": true,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/syrlfqma1044_26405e31_20261005.png?v=26405e31",
             "width": 1600,
             "height": 1200
           }
@@ -1826,7 +1826,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1839,10 +1839,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1891,7 +1891,7 @@
             "time": "14:00:00",
             "date": "05/10",
             "blv": "BLV Hấu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
