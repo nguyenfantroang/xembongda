@@ -1740,6 +1740,60 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-45f11d3a76",
+          "name": "Jiri Lehecka vs Valentin Vacherot | 18:00 05/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-45f11d3a76",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-45f11d3a76",
+                  "name": "Jiri Lehecka vs Valentin Vacherot",
+                  "streams": [
+                    {
+                      "id": "st-45f11d3a76",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Tokyo Open",
+            "team_a": "Jiri Lehecka",
+            "team_b": "Valentin Vacherot",
+            "logo_a": "https://static.flashscore.com/res/image/data/AqYxUkCa-ne6Kkdx9.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/fkT5LycM-6VJ5WJfp.png",
+            "time": "18:00:00",
+            "date": "05/10",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/q645bpegv6ic_c7e63db5_20261005.png?v=c7e63db5",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1946,23 +2000,6 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-2b95ddfd88",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791190727_hd/1791190727_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -1979,7 +2016,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/KSfxi1Br-CITctYCH.png",
             "time": "16:00:00",
             "date": "05/10",
-            "blv": "Cận, Dory",
+            "blv": "Cận",
             "is_live": true,
             "cate_type": "esport"
           },
@@ -2060,6 +2097,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/q9yw2eitoqhb_b846e942_20261005.png?v=b846e942",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_caulong",
+      "name": "🏸 Cầu Lông (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-db43a137f0",
+          "name": "R64 - Bàn TT vs R64 - Bàn TT | 17:00 05/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-db43a137f0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-db43a137f0",
+                  "name": "R64 - Bàn TT vs R64 - Bàn TT",
+                  "streams": [
+                    {
+                      "id": "st-db43a137f0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-27ba3b149e",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791191574_hd/1791191574_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "China Smash 2026",
+            "team_a": "R64 - Bàn TT",
+            "team_b": "R64 - Bàn TT",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwsXo22dR0a8IwO2dJ7JIgmB8rC0jxrLUToAz8V8rzvg&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwsXo22dR0a8IwO2dJ7JIgmB8rC0jxrLUToAz8V8rzvg&s",
+            "time": "17:00:00",
+            "date": "05/10",
+            "blv": "Dory",
+            "is_live": true,
+            "cate_type": "caulong"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/guqcverpaanl_aa57f03d_20261005.png?v=aa57f03d",
             "width": 1600,
             "height": 1200
           }
@@ -2870,87 +2988,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/z1qemnhtztik_b53f5977_20261005.png?v=b53f5977",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_Billiards",
-      "name": "🎱 Billiards (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-e12a647e5b",
-          "name": "Spain Men vs Phillippines Man | 12:30 05/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e12a647e5b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e12a647e5b",
-                  "name": "Spain Men vs Phillippines Man",
-                  "streams": [
-                    {
-                      "id": "st-e12a647e5b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c67c84e1e3",
-                          "name": "Bón x KimChon",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791162937_hd/1791162937_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WPA Men's Doubles 10-Ball World Championship",
-            "team_a": "Spain Men",
-            "team_b": "Phillippines Man",
-            "logo_a": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Flag_of_the_Kingdom_of_Spain.svg/1280px-Flag_of_the_Kingdom_of_Spain.svg.png?utm_source=vi.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-            "logo_b": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/1280px-Flag_of_the_Philippines.svg.png?utm_source=vi.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-            "time": "12:30:00",
-            "date": "05/10",
-            "blv": "Bón x KimChon",
-            "is_live": true,
-            "cate_type": "Billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/tnc1bzhi2ibs_6e811be8_20261005.png?v=6e811be8",
             "width": 1600,
             "height": 1200
           }
