@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1c631806ac",
-          "name": "Guerrilla FC vs Raniza FC | 08:00 05/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1c631806ac",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1c631806ac",
-                  "name": "Guerrilla FC vs Raniza FC",
-                  "streams": [
-                    {
-                      "id": "st-1c631806ac",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96fc1f4aa0",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791155816_hd/1791155816_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Kings Cup Mexico",
-            "team_a": "Guerrilla FC",
-            "team_b": "Raniza FC",
-            "logo_a": "https://static.flashscore.com/res/image/data/M73oSlgl-0vOGE30O.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/APZRCReM-0toPMBYu.png",
-            "time": "08:00:00",
-            "date": "05/10",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/cbtzk8sfypjx_7b02ae86_20261005.png?v=7b02ae86",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-fca8d52c39",
           "name": "Malaysia vs Việt Nam | 16:00 05/10",
@@ -3150,6 +3078,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/am7i4len8yek_4b8600b0_20261005.png?v=4b8600b0",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-f66d62482e",
+          "name": "Joshua Filler vs Mi Le | 08:00 05/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f66d62482e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f66d62482e",
+                  "name": "Joshua Filler vs Mi Le",
+                  "streams": [
+                    {
+                      "id": "st-f66d62482e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0a92baffb7",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791162546_hd/1791162546_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chung Kết ARAMITH Men’s 10-Ball Open 2026",
+            "team_a": "Joshua Filler",
+            "team_b": "Mi Le",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlHxtFKaiypchFCBpUDsyq4B4zefBl30BfsHrzMKILBoRZ3tAzZfNc6KM&s=10",
+            "logo_b": "https://thanhnien.mediacdn.vn/Uploaded/minhtan/2022_10_05/250302462-216624673905188-5333336102677502613-n-602.jpg",
+            "time": "08:00:00",
+            "date": "05/10",
+            "blv": "Mason",
+            "is_live": true,
+            "cate_type": "Billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/y5yvqfdzw795_18a0d82e_20261005.png?v=18a0d82e",
             "width": 1600,
             "height": 1200
           }
