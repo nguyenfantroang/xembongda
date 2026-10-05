@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -44,11 +44,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-ae248f17e3",
-                          "name": "Súp",
+                          "id": "lnk-011b6b723f",
+                          "name": "Sún",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791221560_hd/1791221560_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791225765_hd/1791225765_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -75,7 +75,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/poland.png",
             "time": "01:45:00",
             "date": "06/10",
-            "blv": "Súp",
+            "blv": "Sún",
             "is_live": true,
             "cate_type": "football"
           },
@@ -84,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f3f2b74bff4a0c310bf77f_56d362be_20261006.png?v=56d362be",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d36018063f",
+          "name": "Bắc Ireland vs Georgia | 01:45 06/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d36018063f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d36018063f",
+                  "name": "Bắc Ireland vs Georgia",
+                  "streams": [
+                    {
+                      "id": "st-d36018063f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0f95e99dbb",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791130612_hd/1791130612_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Bắc Ireland",
+            "team_b": "Georgia",
+            "logo_a": "https://images.keovip88.net/images/teams/northern-ireland.png",
+            "logo_b": "https://images.keovip88.net/images/teams/georgia.png",
+            "time": "01:45:00",
+            "date": "06/10",
+            "blv": "Súp",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf56_3dd124b3_20261006.png?v=3dd124b3",
             "width": 1600,
             "height": 1200
           }
@@ -233,78 +305,6 @@
           }
         },
         {
-          "id": "gv-d36018063f",
-          "name": "Bắc Ireland vs Georgia | 01:45 06/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d36018063f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d36018063f",
-                  "name": "Bắc Ireland vs Georgia",
-                  "streams": [
-                    {
-                      "id": "st-d36018063f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0f95e99dbb",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791130612_hd/1791130612_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Bắc Ireland",
-            "team_b": "Georgia",
-            "logo_a": "https://images.keovip88.net/images/teams/northern-ireland.png",
-            "logo_b": "https://images.keovip88.net/images/teams/georgia.png",
-            "time": "01:45:00",
-            "date": "06/10",
-            "blv": "Súp",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf56_3dd124b3_20261006.png?v=3dd124b3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-d77232b4fe",
           "name": "Pháp vs Bỉ | 01:45 06/10",
           "type": "single",
@@ -312,10 +312,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -364,7 +364,7 @@
             "time": "01:45:00",
             "date": "06/10",
             "blv": "Ngọng",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -384,10 +384,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -436,7 +436,7 @@
             "time": "01:45:00",
             "date": "06/10",
             "blv": "Bee",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1236,6 +1236,438 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/683b98524bc32556c602742f_9369f0d0_20261006.png?v=9369f0d0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-480f503139",
+          "name": "Scotland vs Slovenia | 01:45 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-480f503139",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-480f503139",
+                  "name": "Scotland vs Slovenia",
+                  "streams": [
+                    {
+                      "id": "st-480f503139",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4d77d18179",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791130883_hd/1791130883_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Scotland",
+            "team_b": "Slovenia",
+            "logo_a": "https://images.keovip88.net/images/teams/scotland.png",
+            "logo_b": "https://images.keovip88.net/images/teams/slovenia.png",
+            "time": "01:45:00",
+            "date": "07/10",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf51_88c5c72c_20261006.png?v=88c5c72c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-016956faaa",
+          "name": "Thụy Sĩ vs Bắc Macedonia | 01:45 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-016956faaa",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-016956faaa",
+                  "name": "Thụy Sĩ vs Bắc Macedonia",
+                  "streams": [
+                    {
+                      "id": "st-016956faaa",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-948386da0f",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791130938_hd/1791130938_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Thụy Sĩ",
+            "team_b": "Bắc Macedonia",
+            "logo_a": "https://images.keovip88.net/images/teams/switzerland.png",
+            "logo_b": "https://images.keovip88.net/images/teams/north-macedonia.png",
+            "time": "01:45:00",
+            "date": "07/10",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f3f2b74bff4a0c310bf776_136ca2d2_20261006.png?v=136ca2d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c6837594d6",
+          "name": "Croatia vs Tây Ban Nha | 01:45 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c6837594d6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c6837594d6",
+                  "name": "Croatia vs Tây Ban Nha",
+                  "streams": [
+                    {
+                      "id": "st-c6837594d6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2a6561ec5d",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791130970_hd/1791130970_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Croatia",
+            "team_b": "Tây Ban Nha",
+            "logo_a": "https://images.keovip88.net/images/teams/croatia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/spain.png",
+            "time": "01:45:00",
+            "date": "07/10",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f2a1a2bb398665fd0908dd_27b626f0_20261006.png?v=27b626f0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-fe194abeac",
+          "name": "Anh vs Cộng hòa Séc | 01:45 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fe194abeac",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fe194abeac",
+                  "name": "Anh vs Cộng hòa Séc",
+                  "streams": [
+                    {
+                      "id": "st-fe194abeac",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f53f996fd7",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791131003_hd/1791131003_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Anh",
+            "team_b": "Cộng hòa Séc",
+            "logo_a": "https://images.keovip88.net/images/teams/england.png",
+            "logo_b": "https://images.keovip88.net/images/teams/czech-republic.png",
+            "time": "01:45:00",
+            "date": "07/10",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f3f2b74bff4a0c310bf76c_58190b32_20261006.png?v=58190b32",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-18c08e0b14",
+          "name": "Belarus vs Phần Lan | 01:45 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-18c08e0b14",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-18c08e0b14",
+                  "name": "Belarus vs Phần Lan",
+                  "streams": [
+                    {
+                      "id": "st-18c08e0b14",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75ebdba6d5",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791131036_hd/1791131036_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Belarus",
+            "team_b": "Phần Lan",
+            "logo_a": "https://images.keovip88.net/images/teams/belarus.png",
+            "logo_b": "https://images.keovip88.net/images/teams/finland.png",
+            "time": "01:45:00",
+            "date": "07/10",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f544134f51b3673a069152_723649bd_20261006.png?v=723649bd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-727f06c452",
+          "name": "Luxembourg vs Bulgaria | 01:45 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-727f06c452",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-727f06c452",
+                  "name": "Luxembourg vs Bulgaria",
+                  "streams": [
+                    {
+                      "id": "st-727f06c452",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4821405e0a",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791131068_hd/1791131068_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Luxembourg",
+            "team_b": "Bulgaria",
+            "logo_a": "https://images.keovip88.net/images/teams/luxembourg.png",
+            "logo_b": "https://images.keovip88.net/images/teams/bulgaria.png",
+            "time": "01:45:00",
+            "date": "07/10",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f695d673ba0b335e0f2ed9_3161f0ac_20261006.png?v=3161f0ac",
             "width": 1600,
             "height": 1200
           }
