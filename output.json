@@ -1184,6 +1184,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-28470e707b",
+          "name": "Ấn Độ vs Uruguay | 20:30 06/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-28470e707b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-28470e707b",
+                  "name": "Ấn Độ vs Uruguay",
+                  "streams": [
+                    {
+                      "id": "st-28470e707b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6097dcce7d",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791132408_hd/1791132408_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Ấn Độ",
+            "team_b": "Uruguay",
+            "logo_a": "https://images.keovip88.net/images/teams/india.png",
+            "logo_b": "https://images.keovip88.net/images/teams/uruguay.png",
+            "time": "20:30:00",
+            "date": "06/10",
+            "blv": "Chồn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac0459e24d46db8705b2ce1_5cfe7e94_20261005.png?v=5cfe7e94",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
