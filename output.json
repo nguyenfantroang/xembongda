@@ -3743,6 +3743,87 @@
           }
         }
       ]
+    },
+    {
+      "id": "cate_bongban",
+      "name": "🏓 Bóng Bàn",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-874a5143bc",
+          "name": "Benedikt DUDA vs Wen Ruibo | 17:00 06/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-874a5143bc",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-874a5143bc",
+                  "name": "Benedikt DUDA vs Wen Ruibo",
+                  "streams": [
+                    {
+                      "id": "st-874a5143bc",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e26a651763",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791280384_hd/1791280384_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "Benedikt DUDA",
+            "team_b": "Wen Ruibo",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "17:00:00",
+            "date": "06/10",
+            "blv": "Dory",
+            "is_live": false,
+            "cate_type": "bongban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/m6ppw7y8x359_6654c734_20261006.png?v=6654c734",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     }
   ]
 }
