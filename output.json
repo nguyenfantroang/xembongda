@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-7c574fadc5",
-          "name": "U21 Bồ Đào Nha vs U21 Cộng hòa Séc | 23:30 06/10",
+          "id": "gv-480f503139",
+          "name": "Scotland vs Slovenia | 01:45 07/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-7c574fadc5",
+              "id": "src-480f503139",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-7c574fadc5",
-                  "name": "U21 Bồ Đào Nha vs U21 Cộng hòa Séc",
+                  "id": "ct-480f503139",
+                  "name": "Scotland vs Slovenia",
                   "streams": [
                     {
-                      "id": "st-7c574fadc5",
+                      "id": "st-480f503139",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-c6ca86b1e2",
-                          "name": "Trĩ",
+                          "id": "lnk-4d77d18179",
+                          "name": "Sún",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791130829_hd/1791130829_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791130883_hd/1791130883_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "VCK U21 Châu Âu",
-            "team_a": "U21 Bồ Đào Nha",
-            "team_b": "U21 Cộng hòa Séc",
-            "logo_a": "https://images.keovip88.net/images/teams/portugal-u21.png",
-            "logo_b": "https://images.keovip88.net/images/teams/czech-republic-u21.png",
-            "time": "23:30:00",
-            "date": "06/10",
-            "blv": "Trĩ",
+            "league": "UEFA Nations League",
+            "team_a": "Scotland",
+            "team_b": "Slovenia",
+            "logo_a": "https://images.keovip88.net/images/teams/scotland.png",
+            "logo_b": "https://images.keovip88.net/images/teams/slovenia.png",
+            "time": "01:45:00",
+            "date": "07/10",
+            "blv": "Sún",
             "is_live": true,
             "cate_type": "football"
           },
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/683b98524bc32556c602742f_9369f0d0_20261007.png?v=9369f0d0",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf51_88c5c72c_20261007.png?v=88c5c72c",
             "width": 1600,
             "height": 1200
           }
@@ -233,38 +233,38 @@
           }
         },
         {
-          "id": "gv-480f503139",
-          "name": "Scotland vs Slovenia | 01:45 07/10",
+          "id": "gv-18c08e0b14",
+          "name": "Belarus vs Phần Lan | 01:45 07/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-480f503139",
+              "id": "src-18c08e0b14",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-480f503139",
-                  "name": "Scotland vs Slovenia",
+                  "id": "ct-18c08e0b14",
+                  "name": "Belarus vs Phần Lan",
                   "streams": [
                     {
-                      "id": "st-480f503139",
+                      "id": "st-18c08e0b14",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-4d77d18179",
-                          "name": "Sún",
+                          "id": "lnk-75ebdba6d5",
+                          "name": "Cầy",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791130883_hd/1791130883_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791131036_hd/1791131036_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -285,21 +285,93 @@
           ],
           "org_metadata": {
             "league": "UEFA Nations League",
-            "team_a": "Scotland",
-            "team_b": "Slovenia",
-            "logo_a": "https://images.keovip88.net/images/teams/scotland.png",
-            "logo_b": "https://images.keovip88.net/images/teams/slovenia.png",
+            "team_a": "Belarus",
+            "team_b": "Phần Lan",
+            "logo_a": "https://images.keovip88.net/images/teams/belarus.png",
+            "logo_b": "https://images.keovip88.net/images/teams/finland.png",
             "time": "01:45:00",
             "date": "07/10",
-            "blv": "Sún",
-            "is_live": false,
+            "blv": "Cầy",
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf51_88c5c72c_20261007.png?v=88c5c72c",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f544134f51b3673a069152_723649bd_20261007.png?v=723649bd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-727f06c452",
+          "name": "Luxembourg vs Bulgaria | 01:45 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-727f06c452",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-727f06c452",
+                  "name": "Luxembourg vs Bulgaria",
+                  "streams": [
+                    {
+                      "id": "st-727f06c452",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4821405e0a",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791131068_hd/1791131068_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Luxembourg",
+            "team_b": "Bulgaria",
+            "logo_a": "https://images.keovip88.net/images/teams/luxembourg.png",
+            "logo_b": "https://images.keovip88.net/images/teams/bulgaria.png",
+            "time": "01:45:00",
+            "date": "07/10",
+            "blv": "Súp",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f695d673ba0b335e0f2ed9_3161f0ac_20261007.png?v=3161f0ac",
             "width": 1600,
             "height": 1200
           }
@@ -372,150 +444,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f3f2b74bff4a0c310bf76c_58190b32_20261007.png?v=58190b32",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-18c08e0b14",
-          "name": "Belarus vs Phần Lan | 01:45 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-18c08e0b14",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-18c08e0b14",
-                  "name": "Belarus vs Phần Lan",
-                  "streams": [
-                    {
-                      "id": "st-18c08e0b14",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-75ebdba6d5",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791131036_hd/1791131036_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Belarus",
-            "team_b": "Phần Lan",
-            "logo_a": "https://images.keovip88.net/images/teams/belarus.png",
-            "logo_b": "https://images.keovip88.net/images/teams/finland.png",
-            "time": "01:45:00",
-            "date": "07/10",
-            "blv": "Cầy",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f544134f51b3673a069152_723649bd_20261007.png?v=723649bd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-727f06c452",
-          "name": "Luxembourg vs Bulgaria | 01:45 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-727f06c452",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-727f06c452",
-                  "name": "Luxembourg vs Bulgaria",
-                  "streams": [
-                    {
-                      "id": "st-727f06c452",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4821405e0a",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791131068_hd/1791131068_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Luxembourg",
-            "team_b": "Bulgaria",
-            "logo_a": "https://images.keovip88.net/images/teams/luxembourg.png",
-            "logo_b": "https://images.keovip88.net/images/teams/bulgaria.png",
-            "time": "01:45:00",
-            "date": "07/10",
-            "blv": "Súp",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f695d673ba0b335e0f2ed9_3161f0ac_20261007.png?v=3161f0ac",
             "width": 1600,
             "height": 1200
           }
