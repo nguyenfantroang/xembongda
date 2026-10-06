@@ -2414,83 +2414,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ced6115fb5",
-          "name": "Round 4 High Matches vs 2026 | 19:00 06/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ced6115fb5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ced6115fb5",
-                  "name": "Round 4 High Matches vs 2026",
-                  "streams": [
-                    {
-                      "id": "st-ced6115fb5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-18434cbb47",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791278573_hd/1791278573_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CS2-ESL Pro League Season 24",
-            "team_a": "Round 4 High Matches",
-            "team_b": "2026",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf9QzUG3w181exwDdiGzk6G1or2KmURfInqgywNsLBzQ&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG8inANODTYEJvlMaupwyomJ1jzeFFDZtnQWnsqSwXVA&s",
-            "time": "19:00:00",
-            "date": "06/10",
-            "blv": "Mickey",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/dit82awaxhxw_cf1050e6_20261007.png?v=cf1050e6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-2602f4632a",
           "name": "GAM vs FLY | 14:00 07/10",
