@@ -1838,7 +1838,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1851,10 +1851,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1871,11 +1871,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-89f05a5239",
-                          "name": "BLV Hấu",
+                          "id": "lnk-f556a346e9",
+                          "name": "Cận",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791215765_hd/1791215765_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791267536_hd/1791267536_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1902,8 +1902,8 @@
             "logo_b": "https://static.flashscore.com/res/image/data/nyckaNwS-dMZzuAHL.png",
             "time": "14:00:00",
             "date": "06/10",
-            "blv": "BLV Hấu",
-            "is_live": false,
+            "blv": "Cận",
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
