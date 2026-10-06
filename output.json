@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5a086434c4",
-          "name": "BIT vs Chengdu Rongcheng II\tChina | 14:30 06/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5a086434c4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5a086434c4",
-                  "name": "BIT vs Chengdu Rongcheng II\tChina",
-                  "streams": [
-                    {
-                      "id": "st-5a086434c4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5c7c77e6aa",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791269865_hd/1791269865_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "China - China League Two",
-            "team_a": "BIT",
-            "team_b": "Chengdu Rongcheng II\tChina",
-            "logo_a": "https://static.flashscore.com/res/image/data/d0ilGECa-IwoOwT3M.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/xbQfuEFG-vXX1U3MD.png",
-            "time": "14:30:00",
-            "date": "06/10",
-            "blv": "BLV Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6tr6037ijx2x_8b2bae88_20261006.png?v=8b2bae88",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-01e285ffa4",
           "name": "Lâm Đồng FC vs Sông Lam Nghệ An | 15:30 06/10",
@@ -1455,12 +1383,156 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-3f2370bd28",
+          "name": "Cerezo Osaka vs Kagoshima United | 16:30 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3f2370bd28",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3f2370bd28",
+                  "name": "Cerezo Osaka vs Kagoshima United",
+                  "streams": [
+                    {
+                      "id": "st-3f2370bd28",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-068b0a5c96",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791132766_hd/1791132766_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japan - Emperor's Cup",
+            "team_a": "Cerezo Osaka",
+            "team_b": "Kagoshima United",
+            "logo_a": "https://static.flashscore.com/res/image/data/UPIOwxZA-8l3GGez7.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/AJ3xyMf5-ShSYOZxs.png",
+            "time": "16:30:00",
+            "date": "07/10",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/qavoqu1frk1k_203713b0_20261006.png?v=203713b0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-69e3170705",
+          "name": "Sanfrecce Hiroshima vs Iwaki | 16:30 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-69e3170705",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-69e3170705",
+                  "name": "Sanfrecce Hiroshima vs Iwaki",
+                  "streams": [
+                    {
+                      "id": "st-69e3170705",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bdffb27ef1",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791132807_hd/1791132807_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japan - Emperor's Cup",
+            "team_a": "Sanfrecce Hiroshima",
+            "team_b": "Iwaki",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/z1S3BXH6T2DWKzgx-FsUpg_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/FVMs4NYX8-qVnHtswEXJlg_96x96.png",
+            "time": "16:30:00",
+            "date": "07/10",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/dot7iatqh7ts_d8fb26e1_20261006.png?v=d8fb26e1",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1473,10 +1545,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1525,7 +1597,7 @@
             "time": "17:00:00",
             "date": "06/10",
             "blv": "Chồn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -2553,6 +2625,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-71c132a356",
+          "name": "Novak Djokovic vs Alex de Minaur | 18:00 06/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-71c132a356",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-71c132a356",
+                  "name": "Novak Djokovic vs Alex de Minaur",
+                  "streams": [
+                    {
+                      "id": "st-71c132a356",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1bb7c715f4",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791278496_hd/1791278496_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Beijing Open",
+            "team_a": "Novak Djokovic",
+            "team_b": "Alex de Minaur",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXshSmhdgszqxy5O9_48cxrzdphduJhK4eFGm3r_KEZg&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN5hN0uxuAyXKXteYAABrRIawnFxCTKZrJ5pZ6qS8_vg&s=10",
+            "time": "18:00:00",
+            "date": "06/10",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/qiqlkctws5md_72c10bf2_20261006.png?v=72c10bf2",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2639,83 +2783,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-333d006978",
-          "name": "BRO vs NAVI | 14:00 06/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-333d006978",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-333d006978",
-                  "name": "BRO vs NAVI",
-                  "streams": [
-                    {
-                      "id": "st-333d006978",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f556a346e9",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791267536_hd/1791267536_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Demacia Cup Global Invitational",
-            "team_a": "BRO",
-            "team_b": "NAVI",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRROVyF3K0ggd96nHyTgwPWUwJCJfq36DIVgHfl7jIadw&s=10",
-            "logo_b": "https://static.flashscore.com/res/image/data/nyckaNwS-dMZzuAHL.png",
-            "time": "14:00:00",
-            "date": "06/10",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/c1mg7kvsazfx_58c3968b_20261006.png?v=58c3968b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5657da15d1",
           "name": "JDG vs LGD | 16:00 06/10",
@@ -2784,6 +2856,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/sqlc3z0mssqf_26d40a89_20261006.png?v=26d40a89",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ced6115fb5",
+          "name": "Round 4 High Matches vs 2026 | 19:00 06/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ced6115fb5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ced6115fb5",
+                  "name": "Round 4 High Matches vs 2026",
+                  "streams": [
+                    {
+                      "id": "st-ced6115fb5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-18434cbb47",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791278573_hd/1791278573_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CS2-ESL Pro League Season 24",
+            "team_a": "Round 4 High Matches",
+            "team_b": "2026",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf9QzUG3w181exwDdiGzk6G1or2KmURfInqgywNsLBzQ&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG8inANODTYEJvlMaupwyomJ1jzeFFDZtnQWnsqSwXVA&s",
+            "time": "19:00:00",
+            "date": "06/10",
+            "blv": "Mickey",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/dit82awaxhxw_cf1050e6_20261006.png?v=cf1050e6",
             "width": 1600,
             "height": 1200
           }
