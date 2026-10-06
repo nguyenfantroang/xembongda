@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93733afccd5ecc44060db5_c04f142a_20261006.png?v=c04f142a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-db3a9ee656",
+          "name": "Hàn Quốc vs Uzbekistan | 18:00 06/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-db3a9ee656",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-db3a9ee656",
+                  "name": "Hàn Quốc vs Uzbekistan",
+                  "streams": [
+                    {
+                      "id": "st-db3a9ee656",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3524e6dc29",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791132263_hd/1791132263_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Hàn Quốc",
+            "team_b": "Uzbekistan",
+            "logo_a": "https://images.keovip88.net/images/teams/south-korea.png",
+            "logo_b": "https://images.keovip88.net/images/teams/uzbekistan.png",
+            "time": "18:00:00",
+            "date": "06/10",
+            "blv": "Cận",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac0459d24d46db8705b2c2e_f62d41c1_20261006.png?v=f62d41c1",
             "width": 1600,
             "height": 1200
           }
@@ -233,8 +305,8 @@
           }
         },
         {
-          "id": "gv-db3a9ee656",
-          "name": "Hàn Quốc vs Uzbekistan | 18:00 06/10",
+          "id": "gv-e554b3b969",
+          "name": "Langfang Glory City vs Xi'an Ronghai | 18:30 06/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -244,78 +316,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-db3a9ee656",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-db3a9ee656",
-                  "name": "Hàn Quốc vs Uzbekistan",
-                  "streams": [
-                    {
-                      "id": "st-db3a9ee656",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3524e6dc29",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791132263_hd/1791132263_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Hàn Quốc",
-            "team_b": "Uzbekistan",
-            "logo_a": "https://images.keovip88.net/images/teams/south-korea.png",
-            "logo_b": "https://images.keovip88.net/images/teams/uzbekistan.png",
-            "time": "18:00:00",
-            "date": "06/10",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac0459d24d46db8705b2c2e_f62d41c1_20261006.png?v=f62d41c1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e554b3b969",
-          "name": "Langfang Glory City vs Xi'an Ronghai | 18:30 06/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -364,7 +364,7 @@
             "time": "18:30:00",
             "date": "06/10",
             "blv": "Trĩ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -384,10 +384,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -436,7 +436,7 @@
             "time": "18:35:00",
             "date": "06/10",
             "blv": "Súp",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1596,6 +1596,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/y3q4gwpseogy_1f2c60c3_20261006.png?v=1f2c60c3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-df65afd21c",
+          "name": "ShenZhen Juniors vs Guangdong GZ-Power | 18:00 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-df65afd21c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-df65afd21c",
+                  "name": "ShenZhen Juniors vs Guangdong GZ-Power",
+                  "streams": [
+                    {
+                      "id": "st-df65afd21c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-db6fe7cba4",
+                          "name": "Bón",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791132919_hd/1791132919_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hạng Nhất Trung Quốc",
+            "team_a": "ShenZhen Juniors",
+            "team_b": "Guangdong GZ-Power",
+            "logo_a": "https://images.keovip88.net/images/teams/shenzhen-juniors.png",
+            "logo_b": "https://images.keovip88.net/images/teams/guangdong-gz-power.png",
+            "time": "18:00:00",
+            "date": "07/10",
+            "blv": "Bón",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abaffc024d46db8707d46b7_11f7d500_20261006.png?v=11f7d500",
             "width": 1600,
             "height": 1200
           }
