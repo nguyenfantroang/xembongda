@@ -1313,6 +1313,78 @@
           }
         },
         {
+          "id": "gv-124f0d975f",
+          "name": "Mỹ vs Canada | 07:00 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-124f0d975f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-124f0d975f",
+                  "name": "Mỹ vs Canada",
+                  "streams": [
+                    {
+                      "id": "st-124f0d975f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-35e62f1907",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791276801_hd/1791276801_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Mỹ",
+            "team_b": "Canada",
+            "logo_a": "https://images.keovip88.net/images/teams/usa.png",
+            "logo_b": "https://images.keovip88.net/images/teams/canada.png",
+            "time": "07:00:00",
+            "date": "07/10",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac2e88b24d46db87056dd9f_11edcac8_20261006.png?v=11edcac8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-6e01911882",
           "name": "Tai'an Tiankuang vs Ganzhou Ruishi | 15:00 07/10",
           "type": "single",
@@ -1533,6 +1605,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/27802478_75551c69_20261006.png?v=75551c69",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8f107260a3",
+          "name": "Oklahoma City Thunder vs New Orleans Pelicans | 07:00 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8f107260a3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8f107260a3",
+                  "name": "Oklahoma City Thunder vs New Orleans Pelicans",
+                  "streams": [
+                    {
+                      "id": "st-8f107260a3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bacfc4c84c",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791276851_hd/1791276851_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Oklahoma City Thunder",
+            "team_b": "New Orleans Pelicans",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/75c31ec2c28ab86f2f54563667653426.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/b745bb8171bc1a860d480067c1bb9b8f.png",
+            "time": "07:00:00",
+            "date": "07/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/28802479_8f45c769_20261006.png?v=8f45c769",
             "width": 1600,
             "height": 1200
           }
@@ -2188,6 +2332,87 @@
       ]
     },
     {
+      "id": "cate_tennis",
+      "name": "🎾 Tennis (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-bd473be73a",
+          "name": "Carlos Alcaraz vs Jiri Lehecka | 16:00 06/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bd473be73a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bd473be73a",
+                  "name": "Carlos Alcaraz vs Jiri Lehecka",
+                  "streams": [
+                    {
+                      "id": "st-bd473be73a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b9b2e153cb",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791276784_hd/1791276784_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Tokyo Open",
+            "team_a": "Carlos Alcaraz",
+            "team_b": "Jiri Lehecka",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXpTAF9pPVfwW7DK1pDikNDFkKsgucE_NZRwKc3ZnbTQ&s=10",
+            "logo_b": "https://static.flashscore.com/res/image/data/AqYxUkCa-ne6Kkdx9.png",
+            "time": "16:00:00",
+            "date": "06/10",
+            "blv": "Vịt",
+            "is_live": true,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/pw7genpz38x0_344dd601_20261006.png?v=344dd601",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchuyen",
       "name": "🏐 Bóng Chuyền",
       "display": "vertical",
@@ -2270,7 +2495,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2343,6 +2568,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/c1mg7kvsazfx_58c3968b_20261006.png?v=58c3968b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-5657da15d1",
+          "name": "JDG vs LGD | 16:00 06/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5657da15d1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5657da15d1",
+                  "name": "JDG vs LGD",
+                  "streams": [
+                    {
+                      "id": "st-5657da15d1",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b2a2dc7b5e",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791276865_hd/1791276865_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Demacia Cup Global Invitational",
+            "team_a": "JDG",
+            "team_b": "LGD",
+            "logo_a": "https://static.flashscore.com/res/image/data/4Aoo4weM-MLEBzXUg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/K2DzGSil-IizXy6Yg.png",
+            "time": "16:00:00",
+            "date": "06/10",
+            "blv": "Ngu",
+            "is_live": true,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/sqlc3z0mssqf_26d40a89_20261006.png?v=26d40a89",
             "width": 1600,
             "height": 1200
           }
