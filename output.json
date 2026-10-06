@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-9c6cc77a1e",
+          "name": "Argentina vs Benin | 06:00 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9c6cc77a1e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9c6cc77a1e",
+                  "name": "Argentina vs Benin",
+                  "streams": [
+                    {
+                      "id": "st-9c6cc77a1e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-534047b2e8",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791326250_hd/1791326250_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Argentina",
+            "team_b": "Benin",
+            "logo_a": "https://images.keovip88.net/images/teams/argentina.png",
+            "logo_b": "https://images.keovip88.net/images/teams/benin.png",
+            "time": "06:00:00",
+            "date": "07/10",
+            "blv": "Chồn",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac045a024d46db8705b2fb4_aec99105_20261007.png?v=aec99105",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-b4e2b8c8d2",
           "name": "Colombia vs Peru | 06:45 07/10",
@@ -24,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +148,7 @@
             "time": "06:45:00",
             "date": "07/10",
             "blv": "BLV Hấu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -96,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +220,7 @@
             "time": "07:00:00",
             "date": "07/10",
             "blv": "Ngọng",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1100,7 +1172,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1185,10 +1257,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1237,7 +1309,7 @@
             "time": "07:00:00",
             "date": "07/10",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1257,10 +1329,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1309,7 +1381,7 @@
             "time": "08:00:00",
             "date": "07/10",
             "blv": "Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -2864,44 +2936,44 @@
     },
     {
       "id": "cate_rugby",
-      "name": "🏅 Thể Thao",
+      "name": "🏅 Thể Thao (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-755da95c13",
-          "name": "Troy vs Southern Miss | 07:00 07/10",
+          "id": "gv-e3d3f1e503",
+          "name": "Southern Miss vs Troy | 07:00 07/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-755da95c13",
+              "id": "src-e3d3f1e503",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-755da95c13",
-                  "name": "Troy vs Southern Miss",
+                  "id": "ct-e3d3f1e503",
+                  "name": "Southern Miss vs Troy",
                   "streams": [
                     {
-                      "id": "st-755da95c13",
+                      "id": "st-e3d3f1e503",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-12a90c4ab3",
+                          "id": "lnk-b454f4d3cf",
                           "name": "Riko",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791325536_hd/1791325536_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791330131_hd/1791330131_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2921,22 +2993,22 @@
             }
           ],
           "org_metadata": {
-            "league": "NFL",
-            "team_a": "Troy",
-            "team_b": "Southern Miss",
-            "logo_a": "https://static.flashscore.com/res/image/data/xfAKTEGG-nRIxxncR.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/KI9usadM-EPxjTxib.png",
+            "league": "NCAA",
+            "team_a": "Southern Miss",
+            "team_b": "Troy",
+            "logo_a": "https://static.flashscore.com/res/image/data/OvE2Irjl-jsMTAAgs.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/OAR7KKCa-YXNc32Ym.png",
             "time": "07:00:00",
             "date": "07/10",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "rugby"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/9u1ewtvj6mku_9b443a1d_20261007.png?v=9b443a1d",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/nh8luzohlzog_fa35dd72_20261007.png?v=fa35dd72",
             "width": 1600,
             "height": 1200
           }
