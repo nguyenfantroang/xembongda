@@ -1311,6 +1311,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-6e01911882",
+          "name": "Tai'an Tiankuang vs Ganzhou Ruishi | 15:00 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6e01911882",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6e01911882",
+                  "name": "Tai'an Tiankuang vs Ganzhou Ruishi",
+                  "streams": [
+                    {
+                      "id": "st-6e01911882",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1ea54a1b30",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791132704_hd/1791132704_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "China - China League Two",
+            "team_a": "Tai'an Tiankuang",
+            "team_b": "Ganzhou Ruishi",
+            "logo_a": "https://static.flashscore.com/res/image/data/2P5VbT9r-QRt3o64U.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/YPa0CHwS-C0bzbE1c.png",
+            "time": "15:00:00",
+            "date": "07/10",
+            "blv": "BLV Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/jxdps6bcgmh1_2a3fab64_20261006.png?v=2a3fab64",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
