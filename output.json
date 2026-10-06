@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-5a086434c4",
+          "name": "BIT vs Chengdu Rongcheng II\tChina | 14:30 06/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5a086434c4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5a086434c4",
+                  "name": "BIT vs Chengdu Rongcheng II\tChina",
+                  "streams": [
+                    {
+                      "id": "st-5a086434c4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c7c77e6aa",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791269865_hd/1791269865_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "China - China League Two",
+            "team_a": "BIT",
+            "team_b": "Chengdu Rongcheng II\tChina",
+            "logo_a": "https://static.flashscore.com/res/image/data/d0ilGECa-IwoOwT3M.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/xbQfuEFG-vXX1U3MD.png",
+            "time": "14:30:00",
+            "date": "06/10",
+            "blv": "BLV Hấu",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6tr6037ijx2x_8b2bae88_20261006.png?v=8b2bae88",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-01e285ffa4",
           "name": "Lâm Đồng FC vs Sông Lam Nghệ An | 15:30 06/10",
