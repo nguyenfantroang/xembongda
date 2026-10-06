@@ -11,299 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ed05acccaa",
-          "name": "PVF-CAND vs Huế FC | 18:00 06/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ed05acccaa",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ed05acccaa",
-                  "name": "PVF-CAND vs Huế FC",
-                  "streams": [
-                    {
-                      "id": "st-ed05acccaa",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cac1876e0e",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791132215_hd/1791132215_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp Quốc gia Việt Nam",
-            "team_a": "PVF-CAND",
-            "team_b": "Huế FC",
-            "logo_a": "https://images.keovip88.net/images/teams/pvf-cand.png",
-            "logo_b": "https://images.keovip88.net/images/teams/huda-hue.png",
-            "time": "18:00:00",
-            "date": "06/10",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93733afccd5ecc44060db5_c04f142a_20261006.png?v=c04f142a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-db3a9ee656",
-          "name": "Hàn Quốc vs Uzbekistan | 18:00 06/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-db3a9ee656",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-db3a9ee656",
-                  "name": "Hàn Quốc vs Uzbekistan",
-                  "streams": [
-                    {
-                      "id": "st-db3a9ee656",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3524e6dc29",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791132263_hd/1791132263_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Hàn Quốc",
-            "team_b": "Uzbekistan",
-            "logo_a": "https://images.keovip88.net/images/teams/south-korea.png",
-            "logo_b": "https://images.keovip88.net/images/teams/uzbekistan.png",
-            "time": "18:00:00",
-            "date": "06/10",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac0459d24d46db8705b2c2e_f62d41c1_20261006.png?v=f62d41c1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f2b90cdfd9",
-          "name": "Changchun Yatai vs Yanbian Longding | 18:00 06/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f2b90cdfd9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f2b90cdfd9",
-                  "name": "Changchun Yatai vs Yanbian Longding",
-                  "streams": [
-                    {
-                      "id": "st-f2b90cdfd9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b7a2a04c65",
-                          "name": "Bón",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791132163_hd/1791132163_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hạng Nhất Trung Quốc",
-            "team_a": "Changchun Yatai",
-            "team_b": "Yanbian Longding",
-            "logo_a": "https://images.keovip88.net/images/teams/changchun-yatai.png",
-            "logo_b": "https://images.keovip88.net/images/teams/yanbian-longding.png",
-            "time": "18:00:00",
-            "date": "06/10",
-            "blv": "Bón",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab9ae3b24d46db870ba5377_d5e72c2d_20261006.png?v=d5e72c2d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-cc4172e00f",
-          "name": "Đồng Nai vs Cao Su Đồng Tháp | 18:00 06/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cc4172e00f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cc4172e00f",
-                  "name": "Đồng Nai vs Cao Su Đồng Tháp",
-                  "streams": [
-                    {
-                      "id": "st-cc4172e00f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-385528f30a",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791132243_hd/1791132243_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp Quốc gia Việt Nam",
-            "team_a": "Đồng Nai",
-            "team_b": "Cao Su Đồng Tháp",
-            "logo_a": "https://images.keovip88.net/images/teams/truong-tuoi-dong-nai.png",
-            "logo_b": "https://images.keovip88.net/images/teams/dong-thap.png",
-            "time": "18:00:00",
-            "date": "06/10",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93733afccd5ecc44060db6_d3ed8de0_20261006.png?v=d3ed8de0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-be19c44e93",
           "name": "Trung Quốc vs Tajikistan | 18:35 06/10",
@@ -384,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -436,7 +148,7 @@
             "time": "20:30:00",
             "date": "06/10",
             "blv": "Chồn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -456,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -508,7 +220,7 @@
             "time": "20:45:00",
             "date": "06/10",
             "blv": "Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -660,6 +372,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/683e3b421f892a5e5c0902fa_2501fdca_20261006.png?v=2501fdca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8baf9be1a9",
+          "name": "Nga vs Nigeria | 23:00 06/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8baf9be1a9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8baf9be1a9",
+                  "name": "Nga vs Nigeria",
+                  "streams": [
+                    {
+                      "id": "st-8baf9be1a9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-62c2c7b6a7",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791291362_hd/1791291362_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Nga",
+            "team_b": "Nigeria",
+            "logo_a": "https://images.keovip88.net/images/teams/russia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/nigeria.png",
+            "time": "23:00:00",
+            "date": "06/10",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac0459e24d46db8705b2d6f_6837dbed_20261006.png?v=6837dbed",
             "width": 1600,
             "height": 1200
           }
@@ -1815,6 +1599,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-12e77513c6",
+          "name": "Kuching FA vs Tampines Rovers FC | 20:00 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-12e77513c6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-12e77513c6",
+                  "name": "Kuching FA vs Tampines Rovers FC",
+                  "streams": [
+                    {
+                      "id": "st-12e77513c6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-380ab45b3c",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791133012_hd/1791133012_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Club Championship",
+            "team_a": "Kuching FA",
+            "team_b": "Tampines Rovers FC",
+            "logo_a": "https://images.keovip88.net/images/teams/kuching-fa.png",
+            "logo_b": "https://images.keovip88.net/images/teams/tampines-rovers-fc.png",
+            "time": "20:00:00",
+            "date": "07/10",
+            "blv": "BLV Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a3c72121de2475184064772_4d99dc4a_20261006.png?v=4d99dc4a",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2925,7 +2781,7 @@
       "channels": [
         {
           "id": "gv-71d768195e",
-          "name": "Vakifbank vs Eczacibasi | 23:00 06/10",
+          "name": "Vakifbank vs Eczacibasi | 22:00 06/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2980,7 +2836,7 @@
             "team_b": "Eczacibasi",
             "logo_a": "https://static.flashscore.com/res/image/data/YRICRqzB-A3UKTsyj.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Eczac%C4%B1ba%C5%9F%C4%B1.svg/1280px-Eczac%C4%B1ba%C5%9F%C4%B1.svg.png",
-            "time": "23:00:00",
+            "time": "22:00:00",
             "date": "06/10",
             "blv": "Sún",
             "is_live": false,
@@ -2999,83 +2855,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (3 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5657da15d1",
-          "name": "JDG vs LGD | 16:00 06/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5657da15d1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5657da15d1",
-                  "name": "JDG vs LGD",
-                  "streams": [
-                    {
-                      "id": "st-5657da15d1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b2a2dc7b5e",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791276865_hd/1791276865_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Demacia Cup Global Invitational",
-            "team_a": "JDG",
-            "team_b": "LGD",
-            "logo_a": "https://static.flashscore.com/res/image/data/4Aoo4weM-MLEBzXUg.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/K2DzGSil-IizXy6Yg.png",
-            "time": "16:00:00",
-            "date": "06/10",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/sqlc3z0mssqf_26d40a89_20261006.png?v=26d40a89",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ced6115fb5",
           "name": "Round 4 High Matches vs 2026 | 19:00 06/10",
