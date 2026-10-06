@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-01e285ffa4",
-          "name": "Lâm Đồng FC vs Sông Lam Nghệ An | 15:30 06/10",
+          "id": "gv-ed05acccaa",
+          "name": "PVF-CAND vs Huế FC | 18:00 06/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,150 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-01e285ffa4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-01e285ffa4",
-                  "name": "Lâm Đồng FC vs Sông Lam Nghệ An",
-                  "streams": [
-                    {
-                      "id": "st-01e285ffa4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-283d2d6bf2",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791215336_hd/1791215336_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp Quốc gia Việt Nam",
-            "team_a": "Lâm Đồng FC",
-            "team_b": "Sông Lam Nghệ An",
-            "logo_a": "https://images.keovip88.net/images/teams/lam-dong.png",
-            "logo_b": "https://images.keovip88.net/images/teams/song-lam-nghe-an.png",
-            "time": "15:30:00",
-            "date": "06/10",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93733afccd5ecc44060db4_b2454ef4_20261006.png?v=b2454ef4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f2b90cdfd9",
-          "name": "Changchun Yatai vs Yanbian Longding | 18:00 06/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f2b90cdfd9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f2b90cdfd9",
-                  "name": "Changchun Yatai vs Yanbian Longding",
-                  "streams": [
-                    {
-                      "id": "st-f2b90cdfd9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b7a2a04c65",
-                          "name": "Bón",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791132163_hd/1791132163_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hạng Nhất Trung Quốc",
-            "team_a": "Changchun Yatai",
-            "team_b": "Yanbian Longding",
-            "logo_a": "https://images.keovip88.net/images/teams/changchun-yatai.png",
-            "logo_b": "https://images.keovip88.net/images/teams/yanbian-longding.png",
-            "time": "18:00:00",
-            "date": "06/10",
-            "blv": "Bón",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab9ae3b24d46db870ba5377_d5e72c2d_20261006.png?v=d5e72c2d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ed05acccaa",
-          "name": "PVF-CAND vs Huế FC | 18:00 06/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -220,7 +76,7 @@
             "time": "18:00:00",
             "date": "06/10",
             "blv": "Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -233,6 +89,78 @@
           }
         },
         {
+          "id": "gv-f2b90cdfd9",
+          "name": "Changchun Yatai vs Yanbian Longding | 18:00 06/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f2b90cdfd9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f2b90cdfd9",
+                  "name": "Changchun Yatai vs Yanbian Longding",
+                  "streams": [
+                    {
+                      "id": "st-f2b90cdfd9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b7a2a04c65",
+                          "name": "Bón",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791132163_hd/1791132163_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hạng Nhất Trung Quốc",
+            "team_a": "Changchun Yatai",
+            "team_b": "Yanbian Longding",
+            "logo_a": "https://images.keovip88.net/images/teams/changchun-yatai.png",
+            "logo_b": "https://images.keovip88.net/images/teams/yanbian-longding.png",
+            "time": "18:00:00",
+            "date": "06/10",
+            "blv": "Bón",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab9ae3b24d46db870ba5377_d5e72c2d_20261006.png?v=d5e72c2d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-cc4172e00f",
           "name": "Đồng Nai vs Cao Su Đồng Tháp | 18:00 06/10",
           "type": "single",
@@ -240,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +220,7 @@
             "time": "18:00:00",
             "date": "06/10",
             "blv": "Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -312,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -364,7 +292,7 @@
             "time": "18:00:00",
             "date": "06/10",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2693,7 +2621,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2778,10 +2706,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2830,7 +2758,7 @@
             "time": "18:00:00",
             "date": "06/10",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
