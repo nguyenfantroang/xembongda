@@ -1244,83 +1244,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-06d0143eae",
-          "name": "Sacramento Kings vs Los Angeles Lakers | 09:00 06/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-06d0143eae",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-06d0143eae",
-                  "name": "Sacramento Kings vs Los Angeles Lakers",
-                  "streams": [
-                    {
-                      "id": "st-06d0143eae",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-be9e6e866b",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791215852_hd/1791215852_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Sacramento Kings",
-            "team_b": "Los Angeles Lakers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/b7096093642227c698108ad872603a76.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/935e553f4435030c604a4948c1e4d243.png",
-            "time": "09:00:00",
-            "date": "06/10",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/26902276_aba5cbb6_20261006.png?v=aba5cbb6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ca737ec44c",
           "name": "Suwon KT vs LG Sakers | 17:00 06/10",
