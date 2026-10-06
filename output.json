@@ -11,100 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9c6cc77a1e",
-          "name": "Argentina vs Benin | 06:00 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9c6cc77a1e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9c6cc77a1e",
-                  "name": "Argentina vs Benin",
-                  "streams": [
-                    {
-                      "id": "st-9c6cc77a1e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-534047b2e8",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791326250_hd/1791326250_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-85baa2c8f5",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791326433_hd/1791326433_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Argentina",
-            "team_b": "Benin",
-            "logo_a": "https://images.keovip88.net/images/teams/argentina.png",
-            "logo_b": "https://images.keovip88.net/images/teams/benin.png",
-            "time": "06:00:00",
-            "date": "07/10",
-            "blv": "Chồn, Súp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac045a024d46db8705b2fb4_aec99105_20261007.png?v=aec99105",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b4e2b8c8d2",
           "name": "Colombia vs Peru | 06:45 07/10",
