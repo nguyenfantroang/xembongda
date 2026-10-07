@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -240,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +292,7 @@
             "time": "20:00:00",
             "date": "07/10",
             "blv": "BLV Hấu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1977,6 +1977,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-30a85bf0d5",
+          "name": "Karolina Muchova vs Nikola Bartunkova | 13:30 08/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-30a85bf0d5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-30a85bf0d5",
+                  "name": "Karolina Muchova vs Nikola Bartunkova",
+                  "streams": [
+                    {
+                      "id": "st-30a85bf0d5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-10aa261f4d",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791376099_hd/1791376099_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Beijing Open",
+            "team_a": "Karolina Muchova",
+            "team_b": "Nikola Bartunkova",
+            "logo_a": "https://static.flashscore.com/res/image/data/zPfjENFG-b9SLPqcf.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/U1bZs9e5-SUaUoUDh.png",
+            "time": "13:30:00",
+            "date": "08/10",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6jjifytmf1ph_8eae824d_20261007.png?v=8eae824d",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2279,83 +2351,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (3 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-fc9b85de0e",
-          "name": "FLY vs SR | 18:00 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fc9b85de0e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fc9b85de0e",
-                  "name": "FLY vs SR",
-                  "streams": [
-                    {
-                      "id": "st-fc9b85de0e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-74cb58ac74",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791348558_hd/1791348558_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Demacia Cup Global Invitational",
-            "team_a": "FLY",
-            "team_b": "SR",
-            "logo_a": "https://liquipedia.net/commons/images/thumb/b/b2/FlyQuest_2021_allmode.png/77px-FlyQuest_2021_allmode.png",
-            "logo_b": "https://liquipedia.net/commons/images/thumb/9/92/Shopify_Rebellion_2021_darkmode.png/49px-Shopify_Rebellion_2021_darkmode.png",
-            "time": "18:00:00",
-            "date": "07/10",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ddk69skm0536_e7c1608c_20261007.png?v=e7c1608c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-0bd0d93077",
           "name": "Paper Rex vs LOUD | 19:00 07/10",
@@ -3234,6 +3234,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/isr27yqjfr9n_dc3f8b98_20261007.png?v=dc3f8b98",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8f06922955",
+          "name": "San Diego Padres vs Milwaukee Brewers | 09:00 08/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8f06922955",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8f06922955",
+                  "name": "San Diego Padres vs Milwaukee Brewers",
+                  "streams": [
+                    {
+                      "id": "st-8f06922955",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-708f3214e7",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791376018_hd/1791376018_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "San Diego Padres",
+            "team_b": "Milwaukee Brewers",
+            "logo_a": "https://static.flashscore.com/res/image/data/YsFz7vWg-plL3Lm41.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/nitvFMWg-xIOhFH4B.png",
+            "time": "09:00:00",
+            "date": "08/10",
+            "blv": "Ngu",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/lrz4t1bg4cjf_0e3c6ff5_20261007.png?v=0e3c6ff5",
             "width": 1600,
             "height": 1200
           }
