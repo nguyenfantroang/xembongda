@@ -2197,6 +2197,87 @@
       ]
     },
     {
+      "id": "cate_caulong",
+      "name": "🏸 Cầu Lông",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-a891c04c47",
+          "name": "LIANG Jingkun vs KUO Guan Hong | 10:00 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a891c04c47",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a891c04c47",
+                  "name": "LIANG Jingkun vs KUO Guan Hong",
+                  "streams": [
+                    {
+                      "id": "st-a891c04c47",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ab0b033841",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791330838_hd/1791330838_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "China Smash 2026",
+            "team_a": "LIANG Jingkun",
+            "team_b": "KUO Guan Hong",
+            "logo_a": "https://static.flashscore.com/res/image/data/ncNQBIAr-0GVPIiRs.png",
+            "logo_b": "https://vn.tabletennis-reference.com/images/player/12828_1_450.png",
+            "time": "10:00:00",
+            "date": "07/10",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "caulong"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/hmjx2p54hrq7_2a6fc7de_20261007.png?v=2a6fc7de",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_vothuat",
       "name": "🥊 Võ Thuật (1 LIVE)",
       "display": "vertical",
