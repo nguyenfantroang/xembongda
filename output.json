@@ -956,83 +956,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-8f107260a3",
-          "name": "Oklahoma City Thunder vs New Orleans Pelicans | 07:00 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8f107260a3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8f107260a3",
-                  "name": "Oklahoma City Thunder vs New Orleans Pelicans",
-                  "streams": [
-                    {
-                      "id": "st-8f107260a3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bacfc4c84c",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791276851_hd/1791276851_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Oklahoma City Thunder",
-            "team_b": "New Orleans Pelicans",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/75c31ec2c28ab86f2f54563667653426.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/b745bb8171bc1a860d480067c1bb9b8f.png",
-            "time": "07:00:00",
-            "date": "07/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/28802479_8f45c769_20261007.png?v=8f45c769",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-194af0d4fa",
           "name": "Utah Jazz vs Denver Nuggets | 08:00 07/10",
@@ -1824,6 +1752,294 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-f7f0005c18",
+          "name": "New York Liberty vs Atlanta Dream | 06:30 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f7f0005c18",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f7f0005c18",
+                  "name": "New York Liberty vs Atlanta Dream",
+                  "streams": [
+                    {
+                      "id": "st-f7f0005c18",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2338f64740",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791340420_hd/1791340420_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "New York Liberty",
+            "team_b": "Atlanta Dream",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/7a41b2cf98e8350722b096134858af8e.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/f527c983cab3560c60e7b9d147904d7d.png",
+            "time": "06:30:00",
+            "date": "10/10",
+            "blv": "Mickey",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/23542475_8cdade78_20261007.png?v=8cdade78",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-5d397c3c91",
+          "name": "Toronto Raptors vs Los Angeles Clippers | 05:30 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5d397c3c91",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5d397c3c91",
+                  "name": "Toronto Raptors vs Los Angeles Clippers",
+                  "streams": [
+                    {
+                      "id": "st-5d397c3c91",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-aa48816d32",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791340913_hd/1791340913_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Toronto Raptors",
+            "team_b": "Los Angeles Clippers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/3f61db02c20eb73e5f27948b3122f2fb.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/d96dfd2dedd39877ed1f06ea31270a46.png",
+            "time": "05:30:00",
+            "date": "11/10",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/27022270_41bdf38d_20261007.png?v=41bdf38d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a7fa8289aa",
+          "name": "Washington Wizards vs Detroit Pistons | 06:00 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a7fa8289aa",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a7fa8289aa",
+                  "name": "Washington Wizards vs Detroit Pistons",
+                  "streams": [
+                    {
+                      "id": "st-a7fa8289aa",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-45fcb84866",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791340957_hd/1791340957_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Washington Wizards",
+            "team_b": "Detroit Pistons",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f4a3bba0c74c9f2b90bc5861ec26e3c7.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c4677b9a5c8823ad3070069d8741a809.png",
+            "time": "06:00:00",
+            "date": "11/10",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/22912475_88d7702e_20261007.png?v=88d7702e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-64c5f456b6",
+          "name": "Indiana Pacers vs Atlanta Hawks | 06:00 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-64c5f456b6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-64c5f456b6",
+                  "name": "Indiana Pacers vs Atlanta Hawks",
+                  "streams": [
+                    {
+                      "id": "st-64c5f456b6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-aecaeeaae3",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791340977_hd/1791340977_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Indiana Pacers",
+            "team_b": "Atlanta Hawks",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/3a8c9a8a304f078913c60b52698ab585.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/57bd383cc8c9b3d4f92a5d1c371e38e9.png",
+            "time": "06:00:00",
+            "date": "11/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/36832470_e1d7fb9e_20261007.png?v=e1d7fb9e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1974,6 +2190,159 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/jbu6qk58mzwk_86be3590_20261007.png?v=86be3590",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-80dde966bf",
+          "name": "Vallefoglia Nữ vs Scandicci Nữ | 00:30 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-80dde966bf",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-80dde966bf",
+                  "name": "Vallefoglia Nữ vs Scandicci Nữ",
+                  "streams": [
+                    {
+                      "id": "st-80dde966bf",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e6107129d3",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791341014_hd/1791341014_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seri A1 Nữ",
+            "team_a": "Vallefoglia Nữ",
+            "team_b": "Scandicci Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/0xTbjcWg-MaeUFCRe.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/0QZRMbg5-MuuCgGgG.png",
+            "time": "00:30:00",
+            "date": "11/10",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/v23z1yudao2v_85394ca7_20261007.png?v=85394ca7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-e776abaef2",
+          "name": "Conegliano Nữ vs UYBA Busto Arsizio Nữ | 01:30 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e776abaef2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e776abaef2",
+                  "name": "Conegliano Nữ vs UYBA Busto Arsizio Nữ",
+                  "streams": [
+                    {
+                      "id": "st-e776abaef2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e45c42dd26",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791341064_hd/1791341064_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seri A1 Nữ",
+            "team_a": "Conegliano Nữ",
+            "team_b": "UYBA Busto Arsizio Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/8SyXR1f5-zwIwk56d.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/pfEiFCxS-h8saiGlG.png",
+            "time": "01:30:00",
+            "date": "11/10",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/db1j6yn4ahjg_79c4d90b_20261007.png?v=79c4d90b",
             "width": 1600,
             "height": 1200
           }
@@ -2652,12 +3021,156 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-27271c0dec",
+          "name": "Tây Ban Nha vs Đức | 23:59 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-27271c0dec",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-27271c0dec",
+                  "name": "Tây Ban Nha vs Đức",
+                  "streams": [
+                    {
+                      "id": "st-27271c0dec",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f8a29909be",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791340482_hd/1791340482_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vòng loại Premier 12",
+            "team_a": "Tây Ban Nha",
+            "team_b": "Đức",
+            "logo_a": "https://static.flashscore.com/res/image/data/Od7JGXZA-0E8Iihe1.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/zP226aXg-fB4vYUZp.png",
+            "time": "23:59:00",
+            "date": "09/10",
+            "blv": "Ngu",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/t1s774uvjens_aa830356_20261007.png?v=aa830356",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-af23ea8333",
+          "name": "Tây Ban Nha vs Italy | 23:59 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-af23ea8333",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-af23ea8333",
+                  "name": "Tây Ban Nha vs Italy",
+                  "streams": [
+                    {
+                      "id": "st-af23ea8333",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a79c26130d",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791341120_hd/1791341120_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vòng loại Premier 12",
+            "team_a": "Tây Ban Nha",
+            "team_b": "Italy",
+            "logo_a": "https://static.flashscore.com/res/image/data/0tkDnLYg-YkJFuI5b.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/pnWkuyil-IqGe7NUC.png",
+            "time": "23:59:00",
+            "date": "10/10",
+            "blv": "Ngu",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/5j10gvrpx9dm_91699240_20261007.png?v=91699240",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_bongban",
-      "name": "🏓 Bóng Bàn",
+      "name": "🏓 Bóng Bàn (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2670,10 +3183,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2690,11 +3203,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-ab0b033841",
-                          "name": "Súp",
+                          "id": "lnk-ae7d9b147b",
+                          "name": "Dory",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791330838_hd/1791330838_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791340538_hd/1791340538_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2721,8 +3234,8 @@
             "logo_b": "https://vn.tabletennis-reference.com/images/player/12828_1_450.png",
             "time": "10:00:00",
             "date": "07/10",
-            "blv": "Súp",
-            "is_live": false,
+            "blv": "Dory",
+            "is_live": true,
             "cate_type": "bongban"
           },
           "image": {
