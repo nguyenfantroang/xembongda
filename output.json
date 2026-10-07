@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9c6cc77a1e",
-          "name": "Argentina vs Benin | 06:00 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9c6cc77a1e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9c6cc77a1e",
-                  "name": "Argentina vs Benin",
-                  "streams": [
-                    {
-                      "id": "st-9c6cc77a1e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-534047b2e8",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791326250_hd/1791326250_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Argentina",
-            "team_b": "Benin",
-            "logo_a": "https://images.keovip88.net/images/teams/argentina.png",
-            "logo_b": "https://images.keovip88.net/images/teams/benin.png",
-            "time": "06:00:00",
-            "date": "07/10",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac045a024d46db8705b2fb4_aec99105_20261007.png?v=aec99105",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b4e2b8c8d2",
           "name": "Colombia vs Peru | 06:45 07/10",
@@ -1178,78 +1106,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-1e29e5419d",
-          "name": "Charlotte Hornets vs Brooklyn Nets | 06:00 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1e29e5419d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1e29e5419d",
-                  "name": "Charlotte Hornets vs Brooklyn Nets",
-                  "streams": [
-                    {
-                      "id": "st-1e29e5419d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7336730fc0",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791131525_hd/1791131525_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Charlotte Hornets",
-            "team_b": "Brooklyn Nets",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/9e28959b5af233b67c389787d2886c84.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c01b5e6f6659dd42195e9db3aaef13b7.png",
-            "time": "06:00:00",
-            "date": "07/10",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/27802478_75551c69_20261007.png?v=75551c69",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-8f107260a3",
           "name": "Oklahoma City Thunder vs New Orleans Pelicans | 07:00 07/10",
           "type": "single",
@@ -1401,10 +1257,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1453,7 +1309,7 @@
             "time": "09:00:00",
             "date": "07/10",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -2350,165 +2206,12 @@
       ]
     },
     {
-      "id": "cate_caulong",
-      "name": "🏸 Cầu Lông",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-a891c04c47",
-          "name": "LIANG Jingkun vs KUO Guan Hong | 10:00 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a891c04c47",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a891c04c47",
-                  "name": "LIANG Jingkun vs KUO Guan Hong",
-                  "streams": [
-                    {
-                      "id": "st-a891c04c47",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ab0b033841",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791330838_hd/1791330838_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "China Smash 2026",
-            "team_a": "LIANG Jingkun",
-            "team_b": "KUO Guan Hong",
-            "logo_a": "https://static.flashscore.com/res/image/data/ncNQBIAr-0GVPIiRs.png",
-            "logo_b": "https://vn.tabletennis-reference.com/images/player/12828_1_450.png",
-            "time": "10:00:00",
-            "date": "07/10",
-            "blv": "Súp",
-            "is_live": false,
-            "cate_type": "caulong"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/hmjx2p54hrq7_2a6fc7de_20261007.png?v=2a6fc7de",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-aa8724a718",
-          "name": "Dana White's Contender Series: Season 10, Week 9 vs Dana White's Contender Series: Season 10, Week 9 | 06:00 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aa8724a718",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-aa8724a718",
-                  "name": "Dana White's Contender Series: Season 10, Week 9 vs Dana White's Contender Series: Season 10, Week 9",
-                  "streams": [
-                    {
-                      "id": "st-aa8724a718",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2e398f4a62",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790932520_hd/1790932520_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Dana White's Contender Series: Season 10, Week 9",
-            "team_a": "Dana White's Contender Series: Season 10, Week 9",
-            "team_b": "Dana White's Contender Series: Season 10, Week 9",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5PqBjSuTa8tkab03yt8x1ljR3sm1zwX3DPgv-rEM1SqpBvX3RA6f9QRE&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5PqBjSuTa8tkab03yt8x1ljR3sm1zwX3DPgv-rEM1SqpBvX3RA6f9QRE&s=10",
-            "time": "06:00:00",
-            "date": "07/10",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/gnr1wdci2u1m_2ebec21f_20261007.png?v=2ebec21f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-780cefb489",
           "name": "ONE Friday Fights 174 vs The Inner Circle 34 | 18:30 09/10",
@@ -3050,11 +2753,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-9c971517ba",
-                          "name": "Ngu",
+                          "id": "lnk-8460dc538c",
+                          "name": "Cận",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791277280_hd/1791277280_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791336543_hd/1791336543_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3081,7 +2784,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/nitvFMWg-xIOhFH4B.png",
             "time": "08:30:00",
             "date": "07/10",
-            "blv": "Ngu",
+            "blv": "Cận",
             "is_live": true,
             "cate_type": "bongchay"
           },
@@ -3090,6 +2793,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/o7xfrk5p1nft_0e3c6ff5_20261007.png?v=0e3c6ff5",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongban",
+      "name": "🏓 Bóng Bàn",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-a891c04c47",
+          "name": "LIANG Jingkun vs KUO Guan Hong | 10:00 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a891c04c47",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a891c04c47",
+                  "name": "LIANG Jingkun vs KUO Guan Hong",
+                  "streams": [
+                    {
+                      "id": "st-a891c04c47",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ab0b033841",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791330838_hd/1791330838_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "China Smash 2026",
+            "team_a": "LIANG Jingkun",
+            "team_b": "KUO Guan Hong",
+            "logo_a": "https://static.flashscore.com/res/image/data/ncNQBIAr-0GVPIiRs.png",
+            "logo_b": "https://vn.tabletennis-reference.com/images/player/12828_1_450.png",
+            "time": "10:00:00",
+            "date": "07/10",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "bongban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/hmjx2p54hrq7_2a6fc7de_20261007.png?v=2a6fc7de",
             "width": 1600,
             "height": 1200
           }
