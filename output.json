@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-12e77513c6",
-          "name": "Kuching FA vs Tampines Rovers FC | 20:00 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-12e77513c6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-12e77513c6",
-                  "name": "Kuching FA vs Tampines Rovers FC",
-                  "streams": [
-                    {
-                      "id": "st-12e77513c6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1f696be72c",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791133012_hd/1791133012_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Club Championship",
-            "team_a": "Kuching FA",
-            "team_b": "Tampines Rovers FC",
-            "logo_a": "https://images.keovip88.net/images/teams/kuching-fa.png",
-            "logo_b": "https://images.keovip88.net/images/teams/tampines-rovers-fc.png",
-            "time": "20:00:00",
-            "date": "07/10",
-            "blv": "BLV Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a3c72121de2475184064772_4d99dc4a_20261007.png?v=4d99dc4a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-42c5ff098a",
           "name": "Inter Toronto vs Supra du Quebec | 22:00 07/10",
