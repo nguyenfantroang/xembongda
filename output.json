@@ -1028,7 +1028,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1041,10 +1041,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1093,7 +1093,7 @@
             "time": "15:30:00",
             "date": "07/10",
             "blv": "Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1829,83 +1829,11 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-8ddf5795c4",
-          "name": "Coco Gauff vs Elise Mertens | 13:30 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8ddf5795c4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8ddf5795c4",
-                  "name": "Coco Gauff vs Elise Mertens",
-                  "streams": [
-                    {
-                      "id": "st-8ddf5795c4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3643747591",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791331064_hd/1791331064_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA Beijing Open",
-            "team_a": "Coco Gauff",
-            "team_b": "Elise Mertens",
-            "logo_a": "https://static.flashscore.com/res/image/data/UDnGEpDr-j3eqe4HM.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/zuslwRfM-jX0SdYnI.png",
-            "time": "13:30:00",
-            "date": "07/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/jbu6qk58mzwk_86be3590_20261007.png?v=86be3590",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5be5f80c72",
           "name": "Alina Charaeva vs Qinwen Zheng | 18:00 07/10",
@@ -2351,83 +2279,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-2602f4632a",
-          "name": "GAM vs FLY | 14:00 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2602f4632a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2602f4632a",
-                  "name": "GAM vs FLY",
-                  "streams": [
-                    {
-                      "id": "st-2602f4632a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-706697cc09",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791277566_hd/1791277566_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Demacia Cup Global Invitational",
-            "team_a": "GAM",
-            "team_b": "FLY",
-            "logo_a": "https://static.flashscore.com/res/image/data/0pNEMpgl-4vkrpDE8.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/W2tjRICr-WM82XxUn.png",
-            "time": "14:00:00",
-            "date": "07/10",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/hcki7y3ngsiu_1807b36b_20261007.png?v=1807b36b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c54b7ee185",
           "name": "GAM vs SR | 16:00 07/10",
