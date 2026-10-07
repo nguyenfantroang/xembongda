@@ -956,83 +956,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-194af0d4fa",
-          "name": "Utah Jazz vs Denver Nuggets | 08:00 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-194af0d4fa",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-194af0d4fa",
-                  "name": "Utah Jazz vs Denver Nuggets",
-                  "streams": [
-                    {
-                      "id": "st-194af0d4fa",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6144bf757e",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791276942_hd/1791276942_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Utah Jazz",
-            "team_b": "Denver Nuggets",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/a0f2371dad505780cccd4cba8baa0610.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/36f49ea85609f6b7b32d9fbcba105c2d.png",
-            "time": "08:00:00",
-            "date": "07/10",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39802470_7ce41bd4_20261007.png?v=7ce41bd4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-4ad0ebb239",
           "name": "Golden State Warriors vs Los Angeles Lakers | 09:00 07/10",
@@ -3162,6 +3090,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/o7xfrk5p1nft_0e3c6ff5_20261007.png?v=0e3c6ff5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-44b1aa167e",
+          "name": "Chicago White Sox vs Cleverland Guardians | 03:00 08/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-44b1aa167e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-44b1aa167e",
+                  "name": "Chicago White Sox vs Cleverland Guardians",
+                  "streams": [
+                    {
+                      "id": "st-44b1aa167e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6539893ed8",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791343449_hd/1791343449_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB - Division Series",
+            "team_a": "Chicago White Sox",
+            "team_b": "Cleverland Guardians",
+            "logo_a": "https://static.flashscore.com/res/image/data/rHrt6LAr-MFkjl69i.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/CMe9zXzS-QNrz0V5B.png",
+            "time": "03:00:00",
+            "date": "08/10",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/fynjv84lm6zn_dc918707_20261007.png?v=dc918707",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b0f091c910",
+          "name": "Los Angeles Dodgers vs Atlanta Braves | 05:00 08/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b0f091c910",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b0f091c910",
+                  "name": "Los Angeles Dodgers vs Atlanta Braves",
+                  "streams": [
+                    {
+                      "id": "st-b0f091c910",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-65a4a35e59",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791343518_hd/1791343518_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB - Division Series",
+            "team_a": "Los Angeles Dodgers",
+            "team_b": "Atlanta Braves",
+            "logo_a": "https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/IPmhSoEa-hvtJM6zJ.png",
+            "time": "05:00:00",
+            "date": "08/10",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/wpuelveo4rak_b53f5977_20261007.png?v=b53f5977",
             "width": 1600,
             "height": 1200
           }
