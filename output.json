@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f7de0a44c9",
-          "name": "Buriram United vs Borneo FC Samarinda | 19:00 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f7de0a44c9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f7de0a44c9",
-                  "name": "Buriram United vs Borneo FC Samarinda",
-                  "streams": [
-                    {
-                      "id": "st-f7de0a44c9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-25920abaf3",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791371427_hd/1791371427_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Club Championship",
-            "team_a": "Buriram United",
-            "team_b": "Borneo FC Samarinda",
-            "logo_a": "https://images.keovip88.net/images/teams/buriram-united.png",
-            "logo_b": "https://images.keovip88.net/images/teams/borneo-fc-samarinda.png",
-            "time": "19:00:00",
-            "date": "07/10",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a3b209929d03bd35c0da63b_f4e3e957_20261007.png?v=f4e3e957",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-0fbd727ce5",
           "name": "Ratchaburi FC vs TP Hồ Chí Minh | 19:00 07/10",
@@ -3306,87 +3234,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/5j10gvrpx9dm_91699240_20261007.png?v=91699240",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongban",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-17a3fb4770",
-          "name": "SUN Yingsha vs Orawan PARANANG | 17:00 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-17a3fb4770",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-17a3fb4770",
-                  "name": "SUN Yingsha vs Orawan PARANANG",
-                  "streams": [
-                    {
-                      "id": "st-17a3fb4770",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4f4899f3bd",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791348985_hd/1791348985_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "China Smash 2026",
-            "team_a": "SUN Yingsha",
-            "team_b": "Orawan PARANANG",
-            "logo_a": "https://static.flashscore.com/res/image/data/U9Szb8Wg-b7qbNXIQ.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/O2l05rZg-OrAJV5sp.png",
-            "time": "17:00:00",
-            "date": "07/10",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "bongban"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/inq60x3d2rsm_479a5932_20261007.png?v=479a5932",
             "width": 1600,
             "height": 1200
           }
