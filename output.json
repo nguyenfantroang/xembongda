@@ -1829,83 +1829,11 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-dab9e1d8d1",
-          "name": "Iva Jovic vs Iga Swiatek | 12:00 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dab9e1d8d1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-dab9e1d8d1",
-                  "name": "Iva Jovic vs Iga Swiatek",
-                  "streams": [
-                    {
-                      "id": "st-dab9e1d8d1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cf9afbb944",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791330950_hd/1791330950_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA Beijing Open",
-            "team_a": "Iva Jovic",
-            "team_b": "Iga Swiatek",
-            "logo_a": "https://static.flashscore.com/res/image/data/zDQTpgGG-tjoxv74H.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/S2NdWdWg-tOt4Rhy2.png",
-            "time": "12:00:00",
-            "date": "07/10",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/2znjl2nxc250_6c0492b5_20261007.png?v=6c0492b5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-8ddf5795c4",
           "name": "Coco Gauff vs Elise Mertens | 13:30 07/10",
@@ -2423,7 +2351,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2436,10 +2364,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2456,11 +2384,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-043b1bb2ed",
+                          "id": "lnk-706697cc09",
                           "name": "Cận",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791277566_hd/1791277566_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791277566_hd/1791277566_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2488,7 +2416,7 @@
             "time": "14:00:00",
             "date": "07/10",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
@@ -3674,83 +3602,11 @@
     },
     {
       "id": "cate_bongban",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
+      "name": "🏓 Bóng Bàn",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-a891c04c47",
-          "name": "LIANG Jingkun vs KUO Guan Hong | 10:00 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a891c04c47",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a891c04c47",
-                  "name": "LIANG Jingkun vs KUO Guan Hong",
-                  "streams": [
-                    {
-                      "id": "st-a891c04c47",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ae7d9b147b",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791340538_hd/1791340538_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "China Smash 2026",
-            "team_a": "LIANG Jingkun",
-            "team_b": "KUO Guan Hong",
-            "logo_a": "https://static.flashscore.com/res/image/data/ncNQBIAr-0GVPIiRs.png",
-            "logo_b": "https://vn.tabletennis-reference.com/images/player/12828_1_450.png",
-            "time": "10:00:00",
-            "date": "07/10",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "bongban"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/hmjx2p54hrq7_2a6fc7de_20261007.png?v=2a6fc7de",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-17a3fb4770",
           "name": "SUN Yingsha vs Orawan PARANANG | 17:00 07/10",
