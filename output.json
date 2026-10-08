@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c424f770a5",
-          "name": "Al Ain vs Ittihad Kalba | 20:10 08/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c424f770a5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c424f770a5",
-                  "name": "Al Ain vs Ittihad Kalba",
-                  "streams": [
-                    {
-                      "id": "st-c424f770a5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2cefa39350",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791396544_hd/1791396544_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UAE - League Cup",
-            "team_a": "Al Ain",
-            "team_b": "Ittihad Kalba",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3BD-y2DxwZSUlzof8w6RhcS02kJ1Q0H2r6iHDduAFEw&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSp77LSqVXAeuYLCqO7zVFkuBwfjMEyKLoVYzYTvwO0w&s",
-            "time": "20:10:00",
-            "date": "08/10",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ub8ru91ux0vp_69338c56_20261008.png?v=69338c56",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-1e0b50adcf",
           "name": "Al-Shamal vs Al-Duhail | 21:45 08/10",
@@ -804,6 +732,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e635e5e6975d550f0812_2cfbc38e_20261008.png?v=2cfbc38e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f628a91e66",
+          "name": "Zlin vs Slavia Praha | 23:00 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f628a91e66",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f628a91e66",
+                  "name": "Zlin vs Slavia Praha",
+                  "streams": [
+                    {
+                      "id": "st-f628a91e66",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9d7e28fe4e",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791340047_hd/1791340047_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Séc",
+            "team_a": "Zlin",
+            "team_b": "Slavia Praha",
+            "logo_a": "https://images.keovip88.net/images/teams/tescoma-zlin.png",
+            "logo_b": "https://images.keovip88.net/images/teams/slavia-praha.png",
+            "time": "23:00:00",
+            "date": "09/10",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abda2c124d46db870d76d6d_fee99ad0_20261008.png?v=fee99ad0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7000aa49c3",
+          "name": "Vejle vs Hvidovre | 23:00 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7000aa49c3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7000aa49c3",
+                  "name": "Vejle vs Hvidovre",
+                  "streams": [
+                    {
+                      "id": "st-7000aa49c3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-105bed5efa",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791340091_hd/1791340091_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Denmark - 1. division",
+            "team_a": "Vejle",
+            "team_b": "Hvidovre",
+            "logo_a": "https://static.flashscore.com/res/image/data/4E8WJpAr-lvRNDH7M.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/rwd1C1Ar-UusW87Jh.png",
+            "time": "23:00:00",
+            "date": "09/10",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/evhkljgj1jzu_1c3505a6_20261008.png?v=1c3505a6",
             "width": 1600,
             "height": 1200
           }
@@ -1765,87 +1837,6 @@
       ]
     },
     {
-      "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-9af765aae1",
-          "name": "Nongsing Redforce vs Vitality | 17:00 08/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9af765aae1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9af765aae1",
-                  "name": "Nongsing Redforce vs Vitality",
-                  "streams": [
-                    {
-                      "id": "st-9af765aae1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-43192bc1f1",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791443659_hd/1791443659_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Valorant Champions 2026",
-            "team_a": "Nongsing Redforce",
-            "team_b": "Vitality",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiEwSmZHOLOrBsniv_Xe1A9GdiWre3-W1JUuUR6M2uFA&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa2n-BeE0u8NbMLwMrDmepTdGvPtU31FsmtfGCD7GNdg&s=10",
-            "time": "17:00:00",
-            "date": "08/10",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/eluxql9njw3o_844e093e_20261008.png?v=844e093e",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
       "id": "cate_vothuat",
       "name": "🥊 Võ Thuật",
       "display": "vertical",
@@ -2577,87 +2568,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/5j10gvrpx9dm_91699240_20261008.png?v=91699240",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongban",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-c61dcd0a12",
-          "name": "Truls MOREGARD vs WEN Ruibo | 17:00 08/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c61dcd0a12",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c61dcd0a12",
-                  "name": "Truls MOREGARD vs WEN Ruibo",
-                  "streams": [
-                    {
-                      "id": "st-c61dcd0a12",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-77c1e75a64",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791443935_hd/1791443935_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "China Smash 2026",
-            "team_a": "Truls MOREGARD",
-            "team_b": "WEN Ruibo",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK1YpmDLlAR7tEO9O35-KL9KCEChtzus_0XoVBjB1-IayU9LkJyEGGaynW&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgeJkqn5uc1Qz61ysJe17YDRzcouykW74VTEkfIXfKYw&s=10",
-            "time": "17:00:00",
-            "date": "08/10",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "bongban"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/w6y7ydeui1wd_4aa5bee1_20261008.png?v=4aa5bee1",
             "width": 1600,
             "height": 1200
           }
