@@ -668,83 +668,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-61ba4c4d2c",
-          "name": "Chicago Bulls vs Phoenix Suns | 07:00 08/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-61ba4c4d2c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-61ba4c4d2c",
-                  "name": "Chicago Bulls vs Phoenix Suns",
-                  "streams": [
-                    {
-                      "id": "st-61ba4c4d2c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-59f4de7430",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791374818_hd/1791374818_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Chicago Bulls",
-            "team_b": "Phoenix Suns",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c73eca8b9cc18ff386bf6ff4c1236b9e.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/6a6855785a58edb23c76c99ed6601a33.png",
-            "time": "07:00:00",
-            "date": "08/10",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/25612273_f6aaa7da_20261008.png?v=f6aaa7da",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-92d8b25c3c",
           "name": "Golden State Valkyries vs Las Vegas Aces | 08:30 08/10",
