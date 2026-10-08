@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-6778058e48",
+          "name": "Santos vs Flamengo | 05:30 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6778058e48",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6778058e48",
+                  "name": "Santos vs Flamengo",
+                  "streams": [
+                    {
+                      "id": "st-6778058e48",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d828a9a45c",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791271714_hd/1791271714_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Brazil",
+            "team_a": "Santos",
+            "team_b": "Flamengo",
+            "logo_a": "https://images.keovip88.net/images/teams/santos.png",
+            "logo_b": "https://images.keovip88.net/images/teams/flamengo.png",
+            "time": "05:30:00",
+            "date": "09/10",
+            "blv": "Ngọng",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e635e5e6975d550f080f_5fb52d61_20261009.png?v=5fb52d61",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-3e2f4ceb1b",
           "name": "U23 Nữ Na Uy vs Portugal (W) U23 | 23:30 08/10",
@@ -84,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac2e89224d46db87056e539_a6572caf_20261009.png?v=a6572caf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-6778058e48",
-          "name": "Santos vs Flamengo | 05:30 09/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6778058e48",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6778058e48",
-                  "name": "Santos vs Flamengo",
-                  "streams": [
-                    {
-                      "id": "st-6778058e48",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d828a9a45c",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791271714_hd/1791271714_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Brazil",
-            "team_a": "Santos",
-            "team_b": "Flamengo",
-            "logo_a": "https://images.keovip88.net/images/teams/santos.png",
-            "logo_b": "https://images.keovip88.net/images/teams/flamengo.png",
-            "time": "05:30:00",
-            "date": "09/10",
-            "blv": "Ngọng",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e635e5e6975d550f080f_5fb52d61_20261009.png?v=5fb52d61",
             "width": 1600,
             "height": 1200
           }
