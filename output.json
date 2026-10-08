@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f87c6397a0",
-          "name": "Mobarakeh Sepahan vs Fajr Sepasi | 21:45 08/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f87c6397a0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f87c6397a0",
-                  "name": "Mobarakeh Sepahan vs Fajr Sepasi",
-                  "streams": [
-                    {
-                      "id": "st-f87c6397a0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-04539b5a35",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791443073_hd/1791443073_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Iran",
-            "team_a": "Mobarakeh Sepahan",
-            "team_b": "Fajr Sepasi",
-            "logo_a": "https://images.keovip88.net/images/teams/sepahan.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fajr-sepasi.png",
-            "time": "21:45:00",
-            "date": "08/10",
-            "blv": "Bee",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac2e89124d46db87056e490_49352ae8_20261009.png?v=49352ae8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-a436f1ba86",
           "name": "Al Nasr vs Hatta | 22:45 08/10",
@@ -588,6 +516,222 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e635e5e6975d550f0812_2cfbc38e_20261009.png?v=2cfbc38e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3b7de812c3",
+          "name": "Finland W vs Serbia W | 10:30 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3b7de812c3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3b7de812c3",
+                  "name": "Finland W vs Serbia W",
+                  "streams": [
+                    {
+                      "id": "st-3b7de812c3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-751e34ca88",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791479148_hd/1791479148_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Europe - World Cup Women Qualification Promotion Play Offs",
+            "team_a": "Finland W",
+            "team_b": "Serbia W",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/8/80/Finland_national_football_team_crest.png",
+            "logo_b": "https://images.keovip88.net/images/teams/serbia.png",
+            "time": "10:30:00",
+            "date": "09/10",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/1h5sz0rbvr8u_b076fb2b_20261009.png?v=b076fb2b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-2e3d3fc220",
+          "name": "Kitchee vs Hong Kong | 15:00 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2e3d3fc220",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2e3d3fc220",
+                  "name": "Kitchee vs Hong Kong",
+                  "streams": [
+                    {
+                      "id": "st-2e3d3fc220",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e51a9a0c4a",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791479486_hd/1791479486_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hong Kong - Hong Kong Premier League",
+            "team_a": "Kitchee",
+            "team_b": "Hong Kong",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxQIVP2dXIpeuo4NDDR2i015O0PnuxJAa3mtniCk8AzQ&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEOHboIxaJdwZfNt30CHr9IjamT5hvHo7wvOuSOI2nHQ&s=10",
+            "time": "15:00:00",
+            "date": "09/10",
+            "blv": "BLV Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/yvefaby17a1g_eba0a8dc_20261009.png?v=eba0a8dc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-32036043d0",
+          "name": "Wofoo Tai Po vs Kowloon City | 15:00 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-32036043d0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-32036043d0",
+                  "name": "Wofoo Tai Po vs Kowloon City",
+                  "streams": [
+                    {
+                      "id": "st-32036043d0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6ddce8ef84",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791479623_hd/1791479623_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hong Kong - Hong Kong Premier League",
+            "team_a": "Wofoo Tai Po",
+            "team_b": "Kowloon City",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtKobEJKrFt7OB_LKLv3RS0R4CjEGph5Y1ieE9ldk1qQ&s=10",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/8/82/Kowloon_City_District_SA.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+            "time": "15:00:00",
+            "date": "09/10",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/cj5z2ren9s16_e5953c7d_20261009.png?v=e5953c7d",
             "width": 1600,
             "height": 1200
           }
@@ -1677,6 +1821,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/10022475_af2b65ca_20261009.png?v=af2b65ca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-04ef4fa692",
+          "name": "Illawarra Hawks vs Tasmania JackJumpers | 15:30 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-04ef4fa692",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-04ef4fa692",
+                  "name": "Illawarra Hawks vs Tasmania JackJumpers",
+                  "streams": [
+                    {
+                      "id": "st-04ef4fa692",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fca00bfb5f",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791480400_hd/1791480400_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball League(Australia)",
+            "team_a": "Illawarra Hawks",
+            "team_b": "Tasmania JackJumpers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e97aa6ff62044e05b1dc126043568a18.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/b4775c62432e01185c4fd9669952b258.png",
+            "time": "15:30:00",
+            "date": "09/10",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/26322272_bd8726fe_20261009.png?v=bd8726fe",
             "width": 1600,
             "height": 1200
           }
