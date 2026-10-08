@@ -668,83 +668,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-7c83d957c6",
-          "name": "Portland Trail Blazers vs Golden State Warriors | 09:00 08/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7c83d957c6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7c83d957c6",
-                  "name": "Portland Trail Blazers vs Golden State Warriors",
-                  "streams": [
-                    {
-                      "id": "st-7c83d957c6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-364efdb7ae",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791375901_hd/1791375901_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Portland Trail Blazers",
-            "team_b": "Golden State Warriors",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/ea86671a348a3277fa075840258d8bc7.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c7341a14964f12885ea2ae80b76cebe8.png",
-            "time": "09:00:00",
-            "date": "08/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39812471_3ffc5f09_20261008.png?v=3ffc5f09",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-d665030ad8",
           "name": "Cleveland Cavaliers vs Boston Celtics | 06:00 09/10",
@@ -1332,7 +1260,7 @@
       "channels": [
         {
           "id": "gv-30a85bf0d5",
-          "name": "Karolina Muchova vs Nikola Bartunkova | 13:30 08/10",
+          "name": "Karolina Muchova vs Nikola Bartunkova | 14:10 08/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1387,7 +1315,7 @@
             "team_b": "Nikola Bartunkova",
             "logo_a": "https://static.flashscore.com/res/image/data/zPfjENFG-b9SLPqcf.png",
             "logo_b": "https://static.flashscore.com/res/image/data/U1bZs9e5-SUaUoUDh.png",
-            "time": "13:30:00",
+            "time": "14:10:00",
             "date": "08/10",
             "blv": "Mù",
             "is_live": false,
