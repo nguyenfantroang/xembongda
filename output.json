@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-a436f1ba86",
-          "name": "Al Nasr vs Hatta | 22:45 08/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a436f1ba86",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a436f1ba86",
-                  "name": "Al Nasr vs Hatta",
-                  "streams": [
-                    {
-                      "id": "st-a436f1ba86",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b09c3924e0",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791441738_hd/1791441738_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United Arab Emirates - UAE League Cup",
-            "team_a": "Al Nasr",
-            "team_b": "Hatta",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwEM-xxWzeVitnazbPYdIgmN-Fwgj2GaxvcwAYuRtPRA&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9D6pnwX20n30r470E-1VSHl6-LOxHBLuvkxjWrwSMgw&s=10",
-            "time": "22:45:00",
-            "date": "08/10",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/r9u1l6wktak4_ded9e0bd_20261009.png?v=ded9e0bd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-70661f5f24",
-          "name": "KuPS vs AC Oulu | 23:00 08/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-70661f5f24",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-70661f5f24",
-                  "name": "KuPS vs AC Oulu",
-                  "streams": [
-                    {
-                      "id": "st-70661f5f24",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5595a791d1",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791259010_hd/1791259010_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Phần Lan",
-            "team_a": "KuPS",
-            "team_b": "AC Oulu",
-            "logo_a": "https://images.keovip88.net/images/teams/kups.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ac-oulu.png",
-            "time": "23:00:00",
-            "date": "08/10",
-            "blv": "Mickey",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abda2be24d46db870d769ec_86857ad3_20261009.png?v=86857ad3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3e2f4ceb1b",
           "name": "U23 Nữ Na Uy vs Portugal (W) U23 | 23:30 08/10",
@@ -1313,6 +1169,78 @@
           }
         },
         {
+          "id": "gv-5932170b1f",
+          "name": "Finland W vs Serbia W | 22:30 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5932170b1f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5932170b1f",
+                  "name": "Finland W vs Serbia W",
+                  "streams": [
+                    {
+                      "id": "st-5932170b1f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-97209af9c6",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791482651_hd/1791482651_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Europe - World Cup Women Qualification Promotion Play Offs",
+            "team_a": "Finland W",
+            "team_b": "Serbia W",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/OR16mUDJv-0yTyh-jxlaKQ_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/xyh1vmZ-xJH2iJCKjqS1Ow_96x96.png",
+            "time": "22:30:00",
+            "date": "09/10",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/fgceyxsxu6r4_7f418805_20261009.png?v=7f418805",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-f628a91e66",
           "name": "Zlin vs Slavia Praha | 23:00 09/10",
           "type": "single",
@@ -1452,6 +1380,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/evhkljgj1jzu_1c3505a6_20261009.png?v=1c3505a6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ec84b29ea4",
+          "name": "Al-Nassr FC vs Al-Draih | 01:00 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ec84b29ea4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ec84b29ea4",
+                  "name": "Al-Nassr FC vs Al-Draih",
+                  "streams": [
+                    {
+                      "id": "st-ec84b29ea4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-31871f4866",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791340180_hd/1791340180_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ả Rập Xê Út",
+            "team_a": "Al-Nassr FC",
+            "team_b": "Al-Draih",
+            "logo_a": "https://images.keovip88.net/images/teams/al-nassr.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-draih.png",
+            "time": "01:00:00",
+            "date": "10/10",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aa88a9724d46db870489025_351181a3_20261009.png?v=351181a3",
             "width": 1600,
             "height": 1200
           }
