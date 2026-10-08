@@ -890,78 +890,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-af868b7675",
-          "name": "Indiana Pacers vs Minnesota Timberwolves | 06:00 08/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-af868b7675",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-af868b7675",
-                  "name": "Indiana Pacers vs Minnesota Timberwolves",
-                  "streams": [
-                    {
-                      "id": "st-af868b7675",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-223b2bd112",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791131556_hd/1791131556_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Indiana Pacers",
-            "team_b": "Minnesota Timberwolves",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/3a8c9a8a304f078913c60b52698ab585.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/e97782502546bad80da0347446a3a311.png",
-            "time": "06:00:00",
-            "date": "08/10",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/20902472_46dd97e0_20261008.png?v=46dd97e0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-bb44f7973b",
           "name": "Atlanta Dream vs New York Liberty | 06:30 08/10",
           "type": "single",
@@ -1329,10 +1257,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1381,7 +1309,7 @@
             "time": "09:00:00",
             "date": "08/10",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -2864,7 +2792,7 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
+      "name": "⚾ Bóng Chày (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2949,10 +2877,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3001,7 +2929,7 @@
             "time": "09:00:00",
             "date": "08/10",
             "blv": "Ngu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchay"
           },
           "image": {
