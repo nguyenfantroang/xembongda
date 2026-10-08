@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-00f64b16d1",
-          "name": "Botafogo (RJ) vs Vasco Gama | 06:30 08/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-00f64b16d1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-00f64b16d1",
-                  "name": "Botafogo (RJ) vs Vasco Gama",
-                  "streams": [
-                    {
-                      "id": "st-00f64b16d1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-db2f36063a",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791131285_hd/1791131285_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Brazil",
-            "team_a": "Botafogo (RJ)",
-            "team_b": "Vasco Gama",
-            "logo_a": "https://images.keovip88.net/images/teams/botafogo-rj.png",
-            "logo_b": "https://images.keovip88.net/images/teams/vasco-da-gama.png",
-            "time": "06:30:00",
-            "date": "08/10",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e635e5e6975d550f080d_45a58364_20261008.png?v=45a58364",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-a704f7512c",
           "name": "Cruzeiro (MG) vs Sao Paulo | 07:30 08/10",
@@ -3081,6 +3009,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/5j10gvrpx9dm_91699240_20261008.png?v=91699240",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongban",
+      "name": "🏓 Bóng Bàn",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-bce02e0f1b",
+          "name": "SORA MATSUSHIMA vs KUO GUAN HONG | 10:00 08/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bce02e0f1b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bce02e0f1b",
+                  "name": "SORA MATSUSHIMA vs KUO GUAN HONG",
+                  "streams": [
+                    {
+                      "id": "st-bce02e0f1b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cd3fea4d7b",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791423573_hd/1791423573_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "China Smash 2026",
+            "team_a": "SORA MATSUSHIMA",
+            "team_b": "KUO GUAN HONG",
+            "logo_a": "https://photofiles.worldtabletennis.com/wtt-media/photos/400px/135996_Headshot_R_Sora%20MATSUSHIMA.png?v=2_2026-10-02",
+            "logo_b": "https://vn.tabletennis-reference.com/images/player/12828_1_450.png",
+            "time": "10:00:00",
+            "date": "08/10",
+            "blv": "Mickey",
+            "is_live": false,
+            "cate_type": "bongban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/8axw5wuqmb8p_ca863648_20261008.png?v=ca863648",
             "width": 1600,
             "height": 1200
           }
