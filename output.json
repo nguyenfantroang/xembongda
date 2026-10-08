@@ -1959,12 +1959,84 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-ba85394c95",
+          "name": "Lexington vs FC Tulsa | 06:30 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ba85394c95",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ba85394c95",
+                  "name": "Lexington vs FC Tulsa",
+                  "streams": [
+                    {
+                      "id": "st-ba85394c95",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7375164266",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791340379_hd/1791340379_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "USL Championship Mỹ",
+            "team_a": "Lexington",
+            "team_b": "FC Tulsa",
+            "logo_a": "https://images.keovip88.net/images/teams/lexington.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fc-tulsa.png",
+            "time": "06:30:00",
+            "date": "10/10",
+            "blv": "BLV Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abef43f24d46db8709077f9_dcaada1b_20261009.png?v=dcaada1b",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2114,6 +2186,78 @@
           }
         },
         {
+          "id": "gv-cfd00d4b2c",
+          "name": "Brooklyn Nets vs Philadelphia 76ers | 06:30 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cfd00d4b2c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cfd00d4b2c",
+                  "name": "Brooklyn Nets vs Philadelphia 76ers",
+                  "streams": [
+                    {
+                      "id": "st-cfd00d4b2c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-14afe7d878",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791272212_hd/1791272212_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Brooklyn Nets",
+            "team_b": "Philadelphia 76ers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c01b5e6f6659dd42195e9db3aaef13b7.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/7f086c864d1e283b7862a756f0b88373.png",
+            "time": "06:30:00",
+            "date": "09/10",
+            "blv": "Tôm",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21912474_69ad30da_20261009.png?v=69ad30da",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-a40debea1d",
           "name": "New York Knicks vs Washington Wizards | 06:30 09/10",
           "type": "single",
@@ -2181,78 +2325,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/20912473_041139de_20261009.png?v=041139de",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-cfd00d4b2c",
-          "name": "Brooklyn Nets vs Philadelphia 76ers | 06:30 09/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cfd00d4b2c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cfd00d4b2c",
-                  "name": "Brooklyn Nets vs Philadelphia 76ers",
-                  "streams": [
-                    {
-                      "id": "st-cfd00d4b2c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-14afe7d878",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791272212_hd/1791272212_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Brooklyn Nets",
-            "team_b": "Philadelphia 76ers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c01b5e6f6659dd42195e9db3aaef13b7.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/7f086c864d1e283b7862a756f0b88373.png",
-            "time": "06:30:00",
-            "date": "09/10",
-            "blv": "Tôm",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21912474_69ad30da_20261009.png?v=69ad30da",
             "width": 1600,
             "height": 1200
           }
