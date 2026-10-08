@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f0bebc36a1",
-          "name": "Thể Công Viettel vs Hồng Lĩnh Hà Tĩnh | 19:15 08/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f0bebc36a1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f0bebc36a1",
-                  "name": "Thể Công Viettel vs Hồng Lĩnh Hà Tĩnh",
-                  "streams": [
-                    {
-                      "id": "st-f0bebc36a1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c3bce8d555",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791396493_hd/1791396493_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "Thể Công Viettel",
-            "team_b": "Hồng Lĩnh Hà Tĩnh",
-            "logo_a": "https://images.keovip88.net/images/teams/viettel-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/hong-linh-ha-tinh.png",
-            "time": "19:15:00",
-            "date": "08/10",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abda2c024d46db870d76be9_dde7d671_20261008.png?v=dde7d671",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c424f770a5",
           "name": "Al Ain vs Ittihad Kalba | 20:10 08/10",
@@ -156,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ub8ru91ux0vp_69338c56_20261008.png?v=69338c56",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-5fc405f368",
-          "name": "Mauritius W vs Ghana W | 21:30 08/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5fc405f368",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5fc405f368",
-                  "name": "Mauritius W vs Ghana W",
-                  "streams": [
-                    {
-                      "id": "st-5fc405f368",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-130b8ea15e",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791441986_hd/1791441986_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Olympic Games Women - Qualification",
-            "team_a": "Mauritius W",
-            "team_b": "Ghana W",
-            "logo_a": "https://images.keovip88.net/images/teams/mauritius.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ghana.png",
-            "time": "21:30:00",
-            "date": "08/10",
-            "blv": "Tỵ ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/o272tsgg181a_1fac3a9c_20261008.png?v=1fac3a9c",
             "width": 1600,
             "height": 1200
           }
