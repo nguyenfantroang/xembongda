@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "18:00:00",
             "date": "08/10",
             "blv": "Mù",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +148,7 @@
             "time": "18:30:00",
             "date": "08/10",
             "blv": "Bón",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -188,11 +188,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-7aa69015a7",
-                          "name": "Chồn",
+                          "id": "lnk-219aa190e6",
+                          "name": "Bee",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791396438_hd/1791396438_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791456665_hd/1791456665_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -219,7 +219,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/svay-rieng-fc.png",
             "time": "19:00:00",
             "date": "08/10",
-            "blv": "Chồn",
+            "blv": "Bee",
             "is_live": false,
             "cate_type": "football"
           },
@@ -2142,7 +2142,7 @@
       "channels": [
         {
           "id": "gv-9af765aae1",
-          "name": "100T vs G2 Esports | 16:00 08/10",
+          "name": "Nongsing Redforce vs Vitality | 17:00 08/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2161,7 +2161,7 @@
               "contents": [
                 {
                   "id": "ct-9af765aae1",
-                  "name": "100T vs G2 Esports",
+                  "name": "Nongsing Redforce vs Vitality",
                   "streams": [
                     {
                       "id": "st-9af765aae1",
@@ -2193,11 +2193,11 @@
           ],
           "org_metadata": {
             "league": "Valorant Champions 2026",
-            "team_a": "100T",
-            "team_b": "G2 Esports",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0d2v6956ItjoYprOwgmhzlSzPnK5oDsMDC-_5cmqwZw&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2edGjWO7xfOa35xzAGka5cE_8EdajWHfOFRAHFep7JQ&s=10",
-            "time": "16:00:00",
+            "team_a": "Nongsing Redforce",
+            "team_b": "Vitality",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiEwSmZHOLOrBsniv_Xe1A9GdiWre3-W1JUuUR6M2uFA&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa2n-BeE0u8NbMLwMrDmepTdGvPtU31FsmtfGCD7GNdg&s=10",
+            "time": "17:00:00",
             "date": "08/10",
             "blv": "Riko",
             "is_live": true,
@@ -2207,7 +2207,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/eluxql9njw3o_98912dcc_20261008.png?v=98912dcc",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/eluxql9njw3o_844e093e_20261008.png?v=844e093e",
             "width": 1600,
             "height": 1200
           }
@@ -3035,83 +3035,11 @@
     },
     {
       "id": "cate_bongban",
-      "name": "🏓 Bóng Bàn (2 LIVE)",
+      "name": "🏓 Bóng Bàn (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-bce02e0f1b",
-          "name": "SORA MATSUSHIMA vs KUO GUAN HONG | 10:00 08/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bce02e0f1b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bce02e0f1b",
-                  "name": "SORA MATSUSHIMA vs KUO GUAN HONG",
-                  "streams": [
-                    {
-                      "id": "st-bce02e0f1b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cd3fea4d7b",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791423573_hd/1791423573_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "China Smash 2026",
-            "team_a": "SORA MATSUSHIMA",
-            "team_b": "KUO GUAN HONG",
-            "logo_a": "https://photofiles.worldtabletennis.com/wtt-media/photos/400px/135996_Headshot_R_Sora%20MATSUSHIMA.png?v=2_2026-10-02",
-            "logo_b": "https://vn.tabletennis-reference.com/images/player/12828_1_450.png",
-            "time": "10:00:00",
-            "date": "08/10",
-            "blv": "Mickey",
-            "is_live": true,
-            "cate_type": "bongban"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/8axw5wuqmb8p_ca863648_20261008.png?v=ca863648",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c61dcd0a12",
           "name": "Truls MOREGARD vs WEN Ruibo | 17:00 08/10",
