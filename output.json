@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -156,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e635e5e6975d550f0812_2cfbc38e_20261009.png?v=2cfbc38e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-0e6ff729c4",
-          "name": "Alebrijes de Oaxaca vs Correcaminos UAT | 08:00 09/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0e6ff729c4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0e6ff729c4",
-                  "name": "Alebrijes de Oaxaca vs Correcaminos UAT",
-                  "streams": [
-                    {
-                      "id": "st-0e6ff729c4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-520943bbd4",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791489468_hd/1791489468_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Mexico - Liga de Expansión MX",
-            "team_a": "Alebrijes de Oaxaca",
-            "team_b": "Correcaminos UAT",
-            "logo_a": "https://static.flashscore.com/res/image/data/0KLjcaCr-2u4uDeVT.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/hpAaJcyB-EcnnWKX6.png",
-            "time": "08:00:00",
-            "date": "09/10",
-            "blv": "BLV Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/8z203f7emnq4_1f95500e_20261009.png?v=1f95500e",
             "width": 1600,
             "height": 1200
           }
@@ -1892,83 +1820,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (5 LIVE)",
+      "name": "🏀 Bóng Rổ (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-d665030ad8",
-          "name": "Cleveland Cavaliers vs Boston Celtics | 06:00 09/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d665030ad8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d665030ad8",
-                  "name": "Cleveland Cavaliers vs Boston Celtics",
-                  "streams": [
-                    {
-                      "id": "st-d665030ad8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4edf32fc8",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791272147_hd/1791272147_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Cleveland Cavaliers",
-            "team_b": "Boston Celtics",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/d4d48671e1b8c3830897ac4f6604ea9a.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/ef37e5c1c853e5b689b6791b00e8bc58.png",
-            "time": "06:00:00",
-            "date": "09/10",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39912472_a2d8ee23_20261009.png?v=a2d8ee23",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-0ab9458ffa",
           "name": "Miami Heat vs New Orleans Pelicans | 06:30 09/10",
