@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "21:55:00",
             "date": "09/10",
             "blv": "Trĩ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -114,25 +114,7 @@
                     {
                       "id": "st-511b755796",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f9afe798d7",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791479120_hd/1791479120_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -147,7 +129,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/lahti.png",
             "time": "22:00:00",
             "date": "09/10",
-            "blv": "Bee",
+            "blv": "",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1815,49 +1797,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-33a1bf7017",
-          "name": "Houston Rockets vs Dallas Mavericks | 19:00 09/10",
+          "id": "gv-877fa944a2",
+          "name": "Alaves vs Atletico Madrid | 21:15 10/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-33a1bf7017",
+              "id": "src-877fa944a2",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-33a1bf7017",
-                  "name": "Houston Rockets vs Dallas Mavericks",
+                  "id": "ct-877fa944a2",
+                  "name": "Alaves vs Atletico Madrid",
                   "streams": [
                     {
-                      "id": "st-33a1bf7017",
+                      "id": "st-877fa944a2",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-50d8887938",
-                          "name": "Tôm",
+                          "id": "lnk-d1e272906e",
+                          "name": "blv-bon",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791480868_hd/1791480868_hd@720p.m3u8",
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791480248_hd/1791480248_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1877,26 +1850,35 @@
             }
           ],
           "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Houston Rockets",
-            "team_b": "Dallas Mavericks",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/cd4e8cb86960160ecba025ba8d73cd3f.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/0ae1b26dafd6ba3ff82f91d19b235038.png",
-            "time": "19:00:00",
-            "date": "09/10",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
+            "league": "La Liga",
+            "team_a": "Alaves",
+            "team_b": "Atletico Madrid",
+            "logo_a": "https://images.keovip88.net/images/teams/alaves.png",
+            "logo_b": "https://images.keovip88.net/images/teams/atletico-madrid.png",
+            "time": "21:15:00",
+            "date": "10/10",
+            "blv": "blv-bon",
+            "is_live": false,
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21191271_6db68831_20261009.png?v=6db68831",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5bce5e6975d550f0748_dc8d0071_20261009.png?v=dc8d0071",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_basketball",
+      "name": "🏀 Bóng Rổ",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "gv-f7f0005c18",
           "name": "New York Liberty vs Atlanta Dream | 06:30 10/10",
