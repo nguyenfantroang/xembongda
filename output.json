@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -168,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +220,7 @@
             "time": "15:30:00",
             "date": "09/10",
             "blv": "BLV Hấu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1388,7 +1388,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1473,10 +1473,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1525,7 +1525,7 @@
             "time": "15:30:00",
             "date": "09/10",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1749,6 +1749,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/23542475_8cdade78_20261009.png?v=8cdade78",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1bb411f500",
+          "name": "Las Vegas Aces vs Golden State Valkyries | 08:30 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1bb411f500",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1bb411f500",
+                  "name": "Las Vegas Aces vs Golden State Valkyries",
+                  "streams": [
+                    {
+                      "id": "st-1bb411f500",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1415813a5c",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791534163_hd/1791534163_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Las Vegas Aces",
+            "team_b": "Golden State Valkyries",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/cbf9424df17d6e06d655dca78651d329.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png",
+            "time": "08:30:00",
+            "date": "10/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39762475_7093094a_20261009.png?v=7093094a",
             "width": 1600,
             "height": 1200
           }
@@ -2117,83 +2189,11 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5077c3780f",
-          "name": "ATP Shanghai Open vs ATP Shanghai Open | 11:00 09/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5077c3780f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5077c3780f",
-                  "name": "ATP Shanghai Open vs ATP Shanghai Open",
-                  "streams": [
-                    {
-                      "id": "st-5077c3780f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a48f79ff71",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791490552_hd/1791490552_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Shanghai Open",
-            "team_a": "ATP Shanghai Open",
-            "team_b": "ATP Shanghai Open",
-            "logo_a": "https://static.flashscore.com/res/image/data/6X67JIYA-4AguOuCD.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/E1rCFmCr-4rBjn5Su.png",
-            "time": "11:00:00",
-            "date": "09/10",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/mj4crk2yxbye_ce823076_20261009.png?v=ce823076",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c01b1ea75a",
           "name": "Qinwen Zheng vs Elina Svitolina | 14:00 09/10",
@@ -2783,7 +2783,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2796,10 +2796,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2848,7 +2848,7 @@
             "time": "15:30:00",
             "date": "09/10",
             "blv": "Mickey",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
@@ -2868,10 +2868,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2920,7 +2920,7 @@
             "time": "16:00:00",
             "date": "09/10",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
@@ -2969,11 +2969,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-456082a9ed",
-                          "name": "Điếc",
+                          "id": "lnk-bee4b61fd6",
+                          "name": "Cầy",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791103825_hd/1791103825_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791532951_hd/1791532951_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3000,7 +3000,7 @@
             "logo_b": "https://cdn.onefc.com/wp-content/uploads/2026/09/261009-BKK-OFF174_TIC34-1800x1200px-768x512.jpg",
             "time": "18:30:00",
             "date": "09/10",
-            "blv": "Điếc",
+            "blv": "Cầy",
             "is_live": false,
             "cate_type": "vothuat"
           },
@@ -3674,7 +3674,7 @@
     },
     {
       "id": "cate_duaxe",
-      "name": "🏎️ Đua Xe",
+      "name": "🏎️ Đua Xe (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3687,10 +3687,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3739,7 +3739,7 @@
             "time": "15:30:00",
             "date": "09/10",
             "blv": "Ngu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "duaxe"
           },
           "image": {
