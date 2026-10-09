@@ -1527,6 +1527,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-492bdb242f",
+          "name": "Augsburg vs Bayern Munich | 20:30 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-492bdb242f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-492bdb242f",
+                  "name": "Augsburg vs Bayern Munich",
+                  "streams": [
+                    {
+                      "id": "st-492bdb242f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4bff2e4095",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791480075_hd/1791480075_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Augsburg",
+            "team_b": "Bayern Munich",
+            "logo_a": "https://images.keovip88.net/images/teams/augsburg.png",
+            "logo_b": "https://images.keovip88.net/images/teams/bayern-munchen.png",
+            "time": "20:30:00",
+            "date": "10/10",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5cae5e6975d550f076d_ec28f43e_20261009.png?v=ec28f43e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
