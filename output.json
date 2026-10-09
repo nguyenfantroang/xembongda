@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-6ce460e686",
-          "name": "Atletico Paranaense vs Atletico Mineiro | 06:00 09/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6ce460e686",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6ce460e686",
-                  "name": "Atletico Paranaense vs Atletico Mineiro",
-                  "streams": [
-                    {
-                      "id": "st-6ce460e686",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-384d1a6dc4",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791271756_hd/1791271756_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Brazil",
-            "team_a": "Atletico Paranaense",
-            "team_b": "Atletico Mineiro",
-            "logo_a": "https://images.keovip88.net/images/teams/atletico-paranaense.png",
-            "logo_b": "https://images.keovip88.net/images/teams/atletico-mineiro.png",
-            "time": "06:00:00",
-            "date": "09/10",
-            "blv": "BLV Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e635e5e6975d550f0810_3156c94a_20261009.png?v=3156c94a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c7815f6330",
           "name": "Fluminense (RJ) vs Coritiba (PR) | 07:30 09/10",
