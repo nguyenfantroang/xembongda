@@ -1599,6 +1599,150 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-0636eab529",
+          "name": "Hải Phòng vs Thanh Hóa | 18:00 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0636eab529",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0636eab529",
+                  "name": "Hải Phòng vs Thanh Hóa",
+                  "streams": [
+                    {
+                      "id": "st-0636eab529",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-08f7cb43f5",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791479752_hd/1791479752_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "Hải Phòng",
+            "team_b": "Thanh Hóa",
+            "logo_a": "https://images.keovip88.net/images/teams/hai-phong.png",
+            "logo_b": "https://images.keovip88.net/images/teams/thanh-hoa.png",
+            "time": "18:00:00",
+            "date": "10/10",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abef44124d46db870907b2d_85b2de3e_20261009.png?v=85b2de3e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-5d9f2da141",
+          "name": "Thép Xanh Nam Định vs Phu Dong | 18:00 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5d9f2da141",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5d9f2da141",
+                  "name": "Thép Xanh Nam Định vs Phu Dong",
+                  "streams": [
+                    {
+                      "id": "st-5d9f2da141",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd893c8610",
+                          "name": "blv-bon",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791479790_hd/1791479790_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "Thép Xanh Nam Định",
+            "team_b": "Phu Dong",
+            "logo_a": "https://images.keovip88.net/images/teams/nam-dinh-fc.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5-DF-BVIXw46lEQozhIBlXCmW_lmrcZtVdTFqwA7a4A&s=10",
+            "time": "18:00:00",
+            "date": "10/10",
+            "blv": "blv-bon",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abef44124d46db870907b31_786146d8_20261009.png?v=786146d8",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -3152,7 +3296,7 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật",
+      "name": "🥊 Võ Thuật (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3165,10 +3309,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3217,7 +3361,7 @@
             "time": "18:30:00",
             "date": "09/10",
             "blv": "Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "vothuat"
           },
           "image": {
