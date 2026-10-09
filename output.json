@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "gv-5932170b1f",
-          "name": "Finland W vs Serbia W | 22:30 09/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5932170b1f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5932170b1f",
-                  "name": "Finland W vs Serbia W",
-                  "streams": [
-                    {
-                      "id": "st-5932170b1f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-97209af9c6",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791482651_hd/1791482651_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Europe - World Cup Women Qualification Promotion Play Offs",
-            "team_a": "Finland W",
-            "team_b": "Serbia W",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/OR16mUDJv-0yTyh-jxlaKQ_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/xyh1vmZ-xJH2iJCKjqS1Ow_96x96.png",
-            "time": "22:30:00",
-            "date": "09/10",
-            "blv": "Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/fgceyxsxu6r4_7f418805_20261009.png?v=7f418805",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-6bdc8c2162",
           "name": "Al Sharjah vs Al Jazira | 22:45 09/10",
           "type": "single",
@@ -168,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +148,7 @@
             "time": "22:45:00",
             "date": "09/10",
             "blv": "Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -233,8 +161,8 @@
           }
         },
         {
-          "id": "gv-7000aa49c3",
-          "name": "Vejle vs Hvidovre | 23:00 09/10",
+          "id": "gv-67cf9b5b9b",
+          "name": "Belarus W vs Italy W | 23:15 09/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-7000aa49c3",
+              "id": "src-67cf9b5b9b",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-7000aa49c3",
-                  "name": "Vejle vs Hvidovre",
+                  "id": "ct-67cf9b5b9b",
+                  "name": "Belarus W vs Italy W",
                   "streams": [
                     {
-                      "id": "st-7000aa49c3",
+                      "id": "st-67cf9b5b9b",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-105bed5efa",
-                          "name": "Mù",
+                          "id": "lnk-9aa43a5412",
+                          "name": "Ngu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791340091_hd/1791340091_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791559241_hd/1791559241_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -284,14 +212,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Denmark - 1. division",
-            "team_a": "Vejle",
-            "team_b": "Hvidovre",
-            "logo_a": "https://static.flashscore.com/res/image/data/4E8WJpAr-lvRNDH7M.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/rwd1C1Ar-UusW87Jh.png",
-            "time": "23:00:00",
+            "league": "World Cup Nữ",
+            "team_a": "Belarus W",
+            "team_b": "Italy W",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFI-dLl9W41-IkM3J9EMnAf3X7WdjkK_72mQ&s",
+            "logo_b": "https://img.uefa.com/imgml/flags/100x100/ITA.png",
+            "time": "23:15:00",
             "date": "09/10",
-            "blv": "Mù",
+            "blv": "Ngu",
             "is_live": false,
             "cate_type": "football"
           },
@@ -299,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/evhkljgj1jzu_1c3505a6_20261009.png?v=1c3505a6",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/th2lk1burqk5_11753ff8_20261009.png?v=11753ff8",
             "width": 1600,
             "height": 1200
           }
@@ -377,6 +305,78 @@
           }
         },
         {
+          "id": "gv-a49a243086",
+          "name": "PSV vs Heerenveen | 01:00 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a49a243086",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a49a243086",
+                  "name": "PSV vs Heerenveen",
+                  "streams": [
+                    {
+                      "id": "st-a49a243086",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bda4c53043",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791559597_hd/1791559597_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Eredivisie",
+            "team_a": "PSV",
+            "team_b": "Heerenveen",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/FylTPR72JXIGFzqwQocSAQ_96x96.png",
+            "logo_b": "https://images.keovip88.net/images/teams/henan-football-club.png",
+            "time": "01:00:00",
+            "date": "10/10",
+            "blv": "BLV Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/uf1xl8kf99ok_02813932_20261009.png?v=02813932",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-5e5d4d8ec1",
           "name": "Borussia Dortmund vs Werder Bremen | 01:30 10/10",
           "type": "single",
@@ -444,6 +444,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5cae5e6975d550f076c_66169312_20261009.png?v=66169312",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-241cb59e92",
+          "name": "Lens vs Lyonnais | 01:45 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-241cb59e92",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-241cb59e92",
+                  "name": "Lens vs Lyonnais",
+                  "streams": [
+                    {
+                      "id": "st-241cb59e92",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-105bed5efa",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791340091_hd/1791340091_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Lens",
+            "team_b": "Lyonnais",
+            "logo_a": "https://images.keovip88.net/images/teams/lens.png",
+            "logo_b": "https://images.keovip88.net/images/teams/lyon.png",
+            "time": "01:45:00",
+            "date": "10/10",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5f5e5e6975d550f07ad_bfb0c56f_20261009.png?v=bfb0c56f",
             "width": 1600,
             "height": 1200
           }
@@ -1969,6 +2041,78 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-e30cedd71f",
+          "name": "Olympiacos Piraeus vs Efes Pilsen | 01:15 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e30cedd71f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e30cedd71f",
+                  "name": "Olympiacos Piraeus vs Efes Pilsen",
+                  "streams": [
+                    {
+                      "id": "st-e30cedd71f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-28c2b2c565",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791559763_hd/1791559763_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "EURO",
+            "team_a": "Olympiacos Piraeus",
+            "team_b": "Efes Pilsen",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/12df366aacf59aec8467d50fd0611a5f.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/39e14cf9edd095fe5daed21f75b67bd3.png",
+            "time": "01:15:00",
+            "date": "10/10",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/25492279_9d1d812b_20261009.png?v=9d1d812b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-f7f0005c18",
           "name": "New York Liberty vs Atlanta Dream | 06:30 10/10",
@@ -3743,78 +3887,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-27271c0dec",
-          "name": "Tây Ban Nha vs Đức | 23:59 09/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-27271c0dec",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-27271c0dec",
-                  "name": "Tây Ban Nha vs Đức",
-                  "streams": [
-                    {
-                      "id": "st-27271c0dec",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f8a29909be",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791340482_hd/1791340482_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vòng loại Premier 12",
-            "team_a": "Tây Ban Nha",
-            "team_b": "Đức",
-            "logo_a": "https://static.flashscore.com/res/image/data/Od7JGXZA-0E8Iihe1.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/zP226aXg-fB4vYUZp.png",
-            "time": "23:59:00",
-            "date": "09/10",
-            "blv": "Ngu",
-            "is_live": false,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/t1s774uvjens_aa830356_20261009.png?v=aa830356",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-af23ea8333",
           "name": "Tây Ban Nha vs Italy | 23:59 10/10",
           "type": "single",
@@ -3882,87 +3954,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/5j10gvrpx9dm_91699240_20261009.png?v=91699240",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongban",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-2bffc3d023",
-          "name": "WANG Manyu vs SHIN Yubin | 17:00 09/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2bffc3d023",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2bffc3d023",
-                  "name": "WANG Manyu vs SHIN Yubin",
-                  "streams": [
-                    {
-                      "id": "st-2bffc3d023",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-68ee73fb44",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791532491_hd/1791532491_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "China Smash 2026",
-            "team_a": "WANG Manyu",
-            "team_b": "SHIN Yubin",
-            "logo_a": "https://static.flashscore.com/res/image/data/63DuH2eM-b7qbNXIQ.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/hz0Kt9Ca-vy2f42h6.png",
-            "time": "17:00:00",
-            "date": "09/10",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "bongban"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/k0joln04gr9v_0127a194_20261009.png?v=0127a194",
             "width": 1600,
             "height": 1200
           }
