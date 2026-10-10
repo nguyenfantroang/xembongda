@@ -2629,87 +2629,6 @@
       ]
     },
     {
-      "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-a1453186af",
-          "name": "MOUZ vs Spirit | 23:59 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a1453186af",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a1453186af",
-                  "name": "MOUZ vs Spirit",
-                  "streams": [
-                    {
-                      "id": "st-a1453186af",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5075bfb58b",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791640186_hd/1791640186_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CS2-ESL Pro League Season 24",
-            "team_a": "MOUZ",
-            "team_b": "Spirit",
-            "logo_a": "https://static.flashscore.com/res/image/data/ObrRkAe5-xrMguOa9.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/QcXfQGf5-KKlHXGtD.png",
-            "time": "23:59:00",
-            "date": "10/10",
-            "blv": "Mickey",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/p6rjds77uypm_12fae35d_20261011.png?v=12fae35d",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
       "id": "cate_vothuat",
       "name": "🥊 Võ Thuật (1 LIVE)",
       "display": "vertical",
@@ -2718,7 +2637,7 @@
       "channels": [
         {
           "id": "gv-707c147faf",
-          "name": "Brendan Allen vs. Christian Leroy Duncan vs Brendan Allen vs. Christian Leroy Duncan | 04:00 11/10",
+          "name": "Brendan Allen vs Christian Leroy Duncan | 04:00 11/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2737,18 +2656,18 @@
               "contents": [
                 {
                   "id": "ct-707c147faf",
-                  "name": "Brendan Allen vs. Christian Leroy Duncan vs Brendan Allen vs. Christian Leroy Duncan",
+                  "name": "Brendan Allen vs Christian Leroy Duncan",
                   "streams": [
                     {
                       "id": "st-707c147faf",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-a0437aaa16",
+                          "id": "lnk-9906c69f2d",
                           "name": "Cầy",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791103892_hd/1791103892_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791103892_hd/1791103892_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2769,8 +2688,8 @@
           ],
           "org_metadata": {
             "league": "UFC Fight Night",
-            "team_a": "Brendan Allen vs. Christian Leroy Duncan",
-            "team_b": "Brendan Allen vs. Christian Leroy Duncan",
+            "team_a": "Brendan Allen",
+            "team_b": "Christian Leroy Duncan",
             "logo_a": "https://middleeasy.com/wp-content/uploads/2026/09/brendan-allen-christian-leroy-duncan-ufc-vegas-122-870x489.jpg",
             "logo_b": "https://middleeasy.com/wp-content/uploads/2026/09/brendan-allen-christian-leroy-duncan-ufc-vegas-122-870x489.jpg",
             "time": "04:00:00",
