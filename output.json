@@ -1316,7 +1316,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1394,6 +1394,78 @@
           }
         },
         {
+          "id": "gv-a7fa8289aa",
+          "name": "Washington Wizards vs Detroit Pistons | 06:00 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a7fa8289aa",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a7fa8289aa",
+                  "name": "Washington Wizards vs Detroit Pistons",
+                  "streams": [
+                    {
+                      "id": "st-a7fa8289aa",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d0d6675c19",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791645699_hd/1791645699_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Washington Wizards",
+            "team_b": "Detroit Pistons",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f4a3bba0c74c9f2b90bc5861ec26e3c7.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c4677b9a5c8823ad3070069d8741a809.png",
+            "time": "06:00:00",
+            "date": "11/10",
+            "blv": "Mickey",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/22912475_88d7702e_20261011.png?v=88d7702e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-64c5f456b6",
           "name": "Indiana Pacers vs Atlanta Hawks | 06:00 11/10",
           "type": "single",
@@ -1461,78 +1533,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/36832470_e1d7fb9e_20261011.png?v=e1d7fb9e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-a7fa8289aa",
-          "name": "Washington Wizards vs Detroit Pistons | 06:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a7fa8289aa",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a7fa8289aa",
-                  "name": "Washington Wizards vs Detroit Pistons",
-                  "streams": [
-                    {
-                      "id": "st-a7fa8289aa",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d0d6675c19",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791645699_hd/1791645699_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Washington Wizards",
-            "team_b": "Detroit Pistons",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f4a3bba0c74c9f2b90bc5861ec26e3c7.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c4677b9a5c8823ad3070069d8741a809.png",
-            "time": "06:00:00",
-            "date": "11/10",
-            "blv": "Mickey",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/22912475_88d7702e_20261011.png?v=88d7702e",
             "width": 1600,
             "height": 1200
           }
@@ -3080,7 +3080,7 @@
     },
     {
       "id": "cate_rugby",
-      "name": "🏅 Thể Thao (1 LIVE)",
+      "name": "🏅 Thể Thao (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3165,10 +3165,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3217,7 +3217,7 @@
             "time": "06:30:00",
             "date": "11/10",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "rugby"
           },
           "image": {
