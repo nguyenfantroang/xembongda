@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5fcc7f727e",
-          "name": "Arema Malang vs Bhayangkara Solo FC | 15:30 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5fcc7f727e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5fcc7f727e",
-                  "name": "Arema Malang vs Bhayangkara Solo FC",
-                  "streams": [
-                    {
-                      "id": "st-5fcc7f727e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-847dc24e79",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791618373_hd/1791618373_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Indonesia",
-            "team_a": "Arema Malang",
-            "team_b": "Bhayangkara Solo FC",
-            "logo_a": "https://images.keovip88.net/images/teams/arema-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/bhayangkara-solo-fc.png",
-            "time": "15:30:00",
-            "date": "10/10",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abef44024d46db87090795b_056b07d8_20261010.png?v=056b07d8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-092b4ff672",
-          "name": "Persita Tangerang vs Garudayaksa | 15:30 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-092b4ff672",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-092b4ff672",
-                  "name": "Persita Tangerang vs Garudayaksa",
-                  "streams": [
-                    {
-                      "id": "st-092b4ff672",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4f68bfda63",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791618586_hd/1791618586_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Indonesia",
-            "team_a": "Persita Tangerang",
-            "team_b": "Garudayaksa",
-            "logo_a": "https://images.keovip88.net/images/teams/persita-tangerang.png",
-            "logo_b": "https://images.keovip88.net/images/teams/garudayaksa.png",
-            "time": "15:30:00",
-            "date": "10/10",
-            "blv": "BLV Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abef44024d46db87090795f_066e10a1_20261010.png?v=066e10a1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-029554177e",
           "name": "Hoàng Anh Gia Lai vs SHB Đà Nẵng | 17:00 10/10",
@@ -233,6 +89,78 @@
           }
         },
         {
+          "id": "gv-5d9f2da141",
+          "name": "Thép Xanh Nam Định vs Phu Dong | 18:00 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5d9f2da141",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5d9f2da141",
+                  "name": "Thép Xanh Nam Định vs Phu Dong",
+                  "streams": [
+                    {
+                      "id": "st-5d9f2da141",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-86d4ff4c2a",
+                          "name": "Tỵ ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791620242_hd/1791620242_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "Thép Xanh Nam Định",
+            "team_b": "Phu Dong",
+            "logo_a": "https://images.keovip88.net/images/teams/nam-dinh-fc.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5-DF-BVIXw46lEQozhIBlXCmW_lmrcZtVdTFqwA7a4A&s=10",
+            "time": "18:00:00",
+            "date": "10/10",
+            "blv": "Tỵ ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abef44124d46db870907b31_786146d8_20261010.png?v=786146d8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-c3c77b7b0a",
           "name": "Đồng Tâm Long An vs Than Quảng Ninh | 16:00 10/10",
           "type": "single",
@@ -300,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abef44024d46db8709079d4_f9a161bd_20261010.png?v=f9a161bd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-5d9f2da141",
-          "name": "Thép Xanh Nam Định vs Phu Dong | 18:00 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5d9f2da141",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5d9f2da141",
-                  "name": "Thép Xanh Nam Định vs Phu Dong",
-                  "streams": [
-                    {
-                      "id": "st-5d9f2da141",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-86d4ff4c2a",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791620242_hd/1791620242_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "Thép Xanh Nam Định",
-            "team_b": "Phu Dong",
-            "logo_a": "https://images.keovip88.net/images/teams/nam-dinh-fc.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5-DF-BVIXw46lEQozhIBlXCmW_lmrcZtVdTFqwA7a4A&s=10",
-            "time": "18:00:00",
-            "date": "10/10",
-            "blv": "Tỵ ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abef44124d46db870907b31_786146d8_20261010.png?v=786146d8",
             "width": 1600,
             "height": 1200
           }
@@ -1909,83 +1765,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ffe941ddf9",
-          "name": "South East Melbourne Phoenix vs Melbourne United | 15:30 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ffe941ddf9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ffe941ddf9",
-                  "name": "South East Melbourne Phoenix vs Melbourne United",
-                  "streams": [
-                    {
-                      "id": "st-ffe941ddf9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-45af865c6f",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791480907_hd/1791480907_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball League(Australia)",
-            "team_a": "South East Melbourne Phoenix",
-            "team_b": "Melbourne United",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e5c63f30ad74c5c5159f1e7695173ae5.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/21d2a46a9599ab792dc3a7884839072f.png",
-            "time": "15:30:00",
-            "date": "10/10",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/27322273_f7595d87_20261010.png?v=f7595d87",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-882564300b",
           "name": "Perth Wildcats vs New Zealand Breakers | 17:30 10/10",
