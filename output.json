@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-a1fd67b6d3",
-          "name": "Arsenal vs Leeds United | 18:30 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a1fd67b6d3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a1fd67b6d3",
-                  "name": "Arsenal vs Leeds United",
-                  "streams": [
-                    {
-                      "id": "st-a1fd67b6d3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ea693b5ab1",
-                          "name": "Fan Arsenal: Ngọng + Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791479973_hd/1791479973_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Arsenal",
-            "team_b": "Leeds United",
-            "logo_a": "https://images.keovip88.net/images/teams/arsenal.png",
-            "logo_b": "https://images.keovip88.net/images/teams/leeds-united.png",
-            "time": "18:30:00",
-            "date": "10/10",
-            "blv": "Fan Arsenal: Ngọng + Cận",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06e2_5d65dd40_20261010.png?v=5d65dd40",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c478d51ff2",
           "name": "Genoa vs Fiorentina | 20:00 10/10",
@@ -305,6 +233,366 @@
           }
         },
         {
+          "id": "gv-182ea03806",
+          "name": "Aston Villa vs Brentford | 21:00 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-182ea03806",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-182ea03806",
+                  "name": "Aston Villa vs Brentford",
+                  "streams": [
+                    {
+                      "id": "st-182ea03806",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-999fce5199",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791480121_hd/1791480121_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Aston Villa",
+            "team_b": "Brentford",
+            "logo_a": "https://images.keovip88.net/images/teams/aston-villa.png",
+            "logo_b": "https://images.keovip88.net/images/teams/brentford.png",
+            "time": "21:00:00",
+            "date": "10/10",
+            "blv": "Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06e3_23f87cf0_20261010.png?v=23f87cf0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8019764ddc",
+          "name": "Chelsea FC vs AFC Bournemouth | 21:00 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8019764ddc",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8019764ddc",
+                  "name": "Chelsea FC vs AFC Bournemouth",
+                  "streams": [
+                    {
+                      "id": "st-8019764ddc",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1275bab496",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791480149_hd/1791480149_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Chelsea FC",
+            "team_b": "AFC Bournemouth",
+            "logo_a": "https://images.keovip88.net/images/teams/chelsea.png",
+            "logo_b": "https://images.keovip88.net/images/teams/afc-bournemouth.png",
+            "time": "21:00:00",
+            "date": "10/10",
+            "blv": "Chồn",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06e4_cd358e90_20261010.png?v=cd358e90",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-22570213d9",
+          "name": "Ipswich vs Fulham | 21:00 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-22570213d9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-22570213d9",
+                  "name": "Ipswich vs Fulham",
+                  "streams": [
+                    {
+                      "id": "st-22570213d9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f657cb9e14",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791480177_hd/1791480177_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Ipswich",
+            "team_b": "Fulham",
+            "logo_a": "https://images.keovip88.net/images/teams/ipswich-town.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fulham.png",
+            "time": "21:00:00",
+            "date": "10/10",
+            "blv": "Mù",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06e5_4022f316_20261010.png?v=4022f316",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-83bfb29b25",
+          "name": "Sunderland vs Brighton   Hove Albion | 21:00 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-83bfb29b25",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-83bfb29b25",
+                  "name": "Sunderland vs Brighton   Hove Albion",
+                  "streams": [
+                    {
+                      "id": "st-83bfb29b25",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a62f13ad53",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791480216_hd/1791480216_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Sunderland",
+            "team_b": "Brighton   Hove Albion",
+            "logo_a": "https://images.keovip88.net/images/teams/sunderland-afc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/brighton-hove-albion.png",
+            "time": "21:00:00",
+            "date": "10/10",
+            "blv": "BLV Hấu",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abef44824d46db870908ed2_04c6a14c_20261010.png?v=04c6a14c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-877fa944a2",
+          "name": "Alaves vs Atletico Madrid | 21:15 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-877fa944a2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-877fa944a2",
+                  "name": "Alaves vs Atletico Madrid",
+                  "streams": [
+                    {
+                      "id": "st-877fa944a2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e0f23d6dc6",
+                          "name": "Tỵ ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791620315_hd/1791620315_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Alaves",
+            "team_b": "Atletico Madrid",
+            "logo_a": "https://images.keovip88.net/images/teams/alaves.png",
+            "logo_b": "https://images.keovip88.net/images/teams/atletico-madrid.png",
+            "time": "21:15:00",
+            "date": "10/10",
+            "blv": "Tỵ ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5bce5e6975d550f0748_dc8d0071_20261010.png?v=dc8d0071",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-c3c77b7b0a",
           "name": "Đồng Tâm Long An vs Than Quảng Ninh | 16:00 10/10",
           "type": "single",
@@ -516,366 +804,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abef44424d46db870907f1e_c14d2279_20261010.png?v=c14d2279",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-182ea03806",
-          "name": "Aston Villa vs Brentford | 21:00 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-182ea03806",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-182ea03806",
-                  "name": "Aston Villa vs Brentford",
-                  "streams": [
-                    {
-                      "id": "st-182ea03806",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-999fce5199",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791480121_hd/1791480121_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Aston Villa",
-            "team_b": "Brentford",
-            "logo_a": "https://images.keovip88.net/images/teams/aston-villa.png",
-            "logo_b": "https://images.keovip88.net/images/teams/brentford.png",
-            "time": "21:00:00",
-            "date": "10/10",
-            "blv": "Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06e3_23f87cf0_20261010.png?v=23f87cf0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8019764ddc",
-          "name": "Chelsea FC vs AFC Bournemouth | 21:00 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8019764ddc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8019764ddc",
-                  "name": "Chelsea FC vs AFC Bournemouth",
-                  "streams": [
-                    {
-                      "id": "st-8019764ddc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1275bab496",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791480149_hd/1791480149_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Chelsea FC",
-            "team_b": "AFC Bournemouth",
-            "logo_a": "https://images.keovip88.net/images/teams/chelsea.png",
-            "logo_b": "https://images.keovip88.net/images/teams/afc-bournemouth.png",
-            "time": "21:00:00",
-            "date": "10/10",
-            "blv": "Chồn",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06e4_cd358e90_20261010.png?v=cd358e90",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-22570213d9",
-          "name": "Ipswich vs Fulham | 21:00 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-22570213d9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-22570213d9",
-                  "name": "Ipswich vs Fulham",
-                  "streams": [
-                    {
-                      "id": "st-22570213d9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f657cb9e14",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791480177_hd/1791480177_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Ipswich",
-            "team_b": "Fulham",
-            "logo_a": "https://images.keovip88.net/images/teams/ipswich-town.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fulham.png",
-            "time": "21:00:00",
-            "date": "10/10",
-            "blv": "Mù",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06e5_4022f316_20261010.png?v=4022f316",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-83bfb29b25",
-          "name": "Sunderland vs Brighton   Hove Albion | 21:00 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-83bfb29b25",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-83bfb29b25",
-                  "name": "Sunderland vs Brighton   Hove Albion",
-                  "streams": [
-                    {
-                      "id": "st-83bfb29b25",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a62f13ad53",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791480216_hd/1791480216_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Sunderland",
-            "team_b": "Brighton   Hove Albion",
-            "logo_a": "https://images.keovip88.net/images/teams/sunderland-afc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/brighton-hove-albion.png",
-            "time": "21:00:00",
-            "date": "10/10",
-            "blv": "BLV Hấu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abef44824d46db870908ed2_04c6a14c_20261010.png?v=04c6a14c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-877fa944a2",
-          "name": "Alaves vs Atletico Madrid | 21:15 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-877fa944a2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-877fa944a2",
-                  "name": "Alaves vs Atletico Madrid",
-                  "streams": [
-                    {
-                      "id": "st-877fa944a2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e0f23d6dc6",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791620315_hd/1791620315_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Alaves",
-            "team_b": "Atletico Madrid",
-            "logo_a": "https://images.keovip88.net/images/teams/alaves.png",
-            "logo_b": "https://images.keovip88.net/images/teams/atletico-madrid.png",
-            "time": "21:15:00",
-            "date": "10/10",
-            "blv": "Tỵ ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5bce5e6975d550f0748_dc8d0071_20261010.png?v=dc8d0071",
             "width": 1600,
             "height": 1200
           }
@@ -3007,11 +2935,83 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-1c8a69c482",
+          "name": "Vitality vs Aurora | 20:45 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1c8a69c482",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1c8a69c482",
+                  "name": "Vitality vs Aurora",
+                  "streams": [
+                    {
+                      "id": "st-1c8a69c482",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ea754730ed",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791619676_hd/1791619676_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CS2-ESL Pro League Season 24",
+            "team_a": "Vitality",
+            "team_b": "Aurora",
+            "logo_a": "https://static.flashscore.com/res/image/data/C8zF3GEG-lG2kTCDf.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/8dZOBwvS-hvzueWgo.png",
+            "time": "20:45:00",
+            "date": "10/10",
+            "blv": "Tôm",
+            "is_live": true,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/h5jv5799kq2g_18c608b5_20261010.png?v=18c608b5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-67b9c23dc1",
           "name": "G2 vs Vitality | 19:00 10/10",
@@ -3080,78 +3080,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/bfmukuqy9an7_cc5bfbaf_20261010.png?v=cc5bfbaf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-1c8a69c482",
-          "name": "Vitality vs Aurora | 20:45 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1c8a69c482",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1c8a69c482",
-                  "name": "Vitality vs Aurora",
-                  "streams": [
-                    {
-                      "id": "st-1c8a69c482",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ea754730ed",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791619676_hd/1791619676_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CS2-ESL Pro League Season 24",
-            "team_a": "Vitality",
-            "team_b": "Aurora",
-            "logo_a": "https://static.flashscore.com/res/image/data/C8zF3GEG-lG2kTCDf.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8dZOBwvS-hvzueWgo.png",
-            "time": "20:45:00",
-            "date": "10/10",
-            "blv": "Tôm",
-            "is_live": false,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/h5jv5799kq2g_18c608b5_20261010.png?v=18c608b5",
             "width": 1600,
             "height": 1200
           }
