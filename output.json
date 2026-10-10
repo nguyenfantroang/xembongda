@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-f42d618e75",
-          "name": "Gimcheon Sangmu vs FC Anyang | 14:30 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f42d618e75",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f42d618e75",
-                  "name": "Gimcheon Sangmu vs FC Anyang",
-                  "streams": [
-                    {
-                      "id": "st-f42d618e75",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96fa98cd95",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791535992_hd/1791535992_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K-League Hàn Quốc",
-            "team_a": "Gimcheon Sangmu",
-            "team_b": "FC Anyang",
-            "logo_a": "https://images.keovip88.net/images/teams/gimcheon-sangmu-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fc-anyang.png",
-            "time": "14:30:00",
-            "date": "10/10",
-            "blv": "Tỵ ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abef44024d46db8709078f4_eaadded5_20261010.png?v=eaadded5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-5fcc7f727e",
           "name": "Arema Malang vs Bhayangkara Solo FC | 15:30 10/10",
           "type": "single",
@@ -233,6 +161,78 @@
           }
         },
         {
+          "id": "gv-029554177e",
+          "name": "Hoàng Anh Gia Lai vs SHB Đà Nẵng | 17:00 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-029554177e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-029554177e",
+                  "name": "Hoàng Anh Gia Lai vs SHB Đà Nẵng",
+                  "streams": [
+                    {
+                      "id": "st-029554177e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-934f0f1894",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791479723_hd/1791479723_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "Hoàng Anh Gia Lai",
+            "team_b": "SHB Đà Nẵng",
+            "logo_a": "https://images.keovip88.net/images/teams/hoang-anh-gia-lai.png",
+            "logo_b": "https://images.keovip88.net/images/teams/da-nang.png",
+            "time": "17:00:00",
+            "date": "10/10",
+            "blv": "Súp",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abef44124d46db870907a04_752294fa_20261010.png?v=752294fa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-c3c77b7b0a",
           "name": "Đồng Tâm Long An vs Than Quảng Ninh | 16:00 10/10",
           "type": "single",
@@ -300,78 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abef44024d46db8709079d4_f9a161bd_20261010.png?v=f9a161bd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-029554177e",
-          "name": "Hoàng Anh Gia Lai vs SHB Đà Nẵng | 17:00 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-029554177e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-029554177e",
-                  "name": "Hoàng Anh Gia Lai vs SHB Đà Nẵng",
-                  "streams": [
-                    {
-                      "id": "st-029554177e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-934f0f1894",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791479723_hd/1791479723_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "Hoàng Anh Gia Lai",
-            "team_b": "SHB Đà Nẵng",
-            "logo_a": "https://images.keovip88.net/images/teams/hoang-anh-gia-lai.png",
-            "logo_b": "https://images.keovip88.net/images/teams/da-nang.png",
-            "time": "17:00:00",
-            "date": "10/10",
-            "blv": "Súp",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6abef44124d46db870907a04_752294fa_20261010.png?v=752294fa",
             "width": 1600,
             "height": 1200
           }
@@ -1981,83 +1909,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-bb794a6814",
-          "name": "Ulsan Hyundai Mobis Phoebus vs Daegu KoGas Pegasus | 14:30 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bb794a6814",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bb794a6814",
-                  "name": "Ulsan Hyundai Mobis Phoebus vs Daegu KoGas Pegasus",
-                  "streams": [
-                    {
-                      "id": "st-bb794a6814",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-52e926c223",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791536131_hd/1791536131_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korea Basketball League",
-            "team_a": "Ulsan Hyundai Mobis Phoebus",
-            "team_b": "Daegu KoGas Pegasus",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e22caa597076764dd0d04b55d46f764e.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/a322b3f45e8fc272b36c48003e467f20.png",
-            "time": "14:30:00",
-            "date": "10/10",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/23850376_d5c73c27_20261010.png?v=d5c73c27",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ffe941ddf9",
           "name": "South East Melbourne Phoenix vs Melbourne United | 15:30 10/10",
