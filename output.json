@@ -3979,83 +3979,11 @@
     },
     {
       "id": "cate_duaxe",
-      "name": "🏎️ Đua Xe (1 LIVE)",
+      "name": "🏎️ Đua Xe",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-a01e19c090",
-          "name": "F1 vs 2026 | 16:00 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a01e19c090",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a01e19c090",
-                  "name": "F1 vs 2026",
-                  "streams": [
-                    {
-                      "id": "st-a01e19c090",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-951a23b232",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791619949_hd/1791619949_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Singapore Grand Prix",
-            "team_a": "F1",
-            "team_b": "2026",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Gb3S_hVBxADavywtKLX_sSpJUrlsxbdBeKq6YIXZqQ&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMplgC19spe8oa94t1lUIL7xIDkNrw99ur0M-8OQPDtg&s",
-            "time": "16:00:00",
-            "date": "10/10",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "duaxe"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/89ik6lftyk70_3ad7bb2a_20261010.png?v=3ad7bb2a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-39fe1a445d",
           "name": "F1 vs 2026 | 20:00 10/10",
