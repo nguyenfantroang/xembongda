@@ -2295,7 +2295,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2308,10 +2308,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2360,7 +2360,7 @@
             "time": "11:00:00",
             "date": "10/10",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -2380,10 +2380,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2432,7 +2432,7 @@
             "time": "11:00:00",
             "date": "10/10",
             "blv": "Mù",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -3475,6 +3475,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/5j10gvrpx9dm_91699240_20261010.png?v=91699240",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongban",
+      "name": "🏓 Bóng Bàn (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-8a2472f396",
+          "name": "LIN Yun-Ju vs Truls MOREGARD | 11:00 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8a2472f396",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8a2472f396",
+                  "name": "LIN Yun-Ju vs Truls MOREGARD",
+                  "streams": [
+                    {
+                      "id": "st-8a2472f396",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-53369aea9f",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791603523_hd/1791603523_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "China Smash 2026",
+            "team_a": "LIN Yun-Ju",
+            "team_b": "Truls MOREGARD",
+            "logo_a": "https://static.flashscore.com/res/image/data/0Y20XKDa-0GVPIiRs.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/KEq2LBzB-UisPPFJj.png",
+            "time": "11:00:00",
+            "date": "10/10",
+            "blv": "Súp",
+            "is_live": true,
+            "cate_type": "bongban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/71pdajp28bfw_4a5562cf_20261010.png?v=4a5562cf",
             "width": 1600,
             "height": 1200
           }
