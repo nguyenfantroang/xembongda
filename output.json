@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -168,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -188,11 +188,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-be22d53157",
+                          "id": "lnk-4f68bfda63",
                           "name": "BLV Hấu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791618586_hd/1791618586_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791618586_hd/1791618586_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -220,7 +220,7 @@
             "time": "15:30:00",
             "date": "10/10",
             "blv": "BLV Hấu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -549,7 +549,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-ea693b5ab1",
-                          "name": "Fan Arsenal: Ngọng + Mù",
+                          "name": "Fan Arsenal: Ngọng + Cận",
                           "type": "hls",
                           "default": true,
                           "url": "https://ftlh5sc02iliv.vcdn.cloud/1791479973_hd/1791479973_hd@720p.m3u8",
@@ -579,7 +579,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/leeds-united.png",
             "time": "18:30:00",
             "date": "10/10",
-            "blv": "Fan Arsenal: Ngọng + Mù",
+            "blv": "Fan Arsenal: Ngọng + Cận",
             "is_live": false,
             "cate_type": "football"
           },
@@ -660,6 +660,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5bce5e6975d550f0747_992c7e0c_20261010.png?v=992c7e0c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ab645fe795",
+          "name": "Mainz vs Bayer Leverkusen | 20:30 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ab645fe795",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ab645fe795",
+                  "name": "Mainz vs Bayer Leverkusen",
+                  "streams": [
+                    {
+                      "id": "st-ab645fe795",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6014def5d0",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791621951_hd/1791621951_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Mainz",
+            "team_b": "Bayer Leverkusen",
+            "logo_a": "https://images.keovip88.net/images/teams/fsv-mainz-05.png",
+            "logo_b": "https://images.keovip88.net/images/teams/bayer-leverkusen.png",
+            "time": "20:30:00",
+            "date": "10/10",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5cae5e6975d550f076f_c8b0e024_20261010.png?v=c8b0e024",
             "width": 1600,
             "height": 1200
           }
@@ -2998,7 +3070,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3071,78 +3143,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/29we4c0py349_84ea7b8e_20261010.png?v=84ea7b8e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-515abad838",
-          "name": "Mirra Andreeva vs Nikola Bartunkova | 14:00 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-515abad838",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-515abad838",
-                  "name": "Mirra Andreeva vs Nikola Bartunkova",
-                  "streams": [
-                    {
-                      "id": "st-515abad838",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fce6a3a62b",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791561268_hd/1791561268_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA Beijing Open",
-            "team_a": "Mirra Andreeva",
-            "team_b": "Nikola Bartunkova",
-            "logo_a": "https://static.flashscore.com/res/image/data/ncDnFmzB-xE40e4KN.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/U1bZs9e5-Qajqi1nf.png",
-            "time": "14:00:00",
-            "date": "10/10",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/wsaej6wzsbxk_e4d7ebd6_20261010.png?v=e4d7ebd6",
             "width": 1600,
             "height": 1200
           }
@@ -3520,83 +3520,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5bc1ef3e04",
-          "name": "NRG vs LOUD | 16:00 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5bc1ef3e04",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5bc1ef3e04",
-                  "name": "NRG vs LOUD",
-                  "streams": [
-                    {
-                      "id": "st-5bc1ef3e04",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1877f9c718",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791619491_hd/1791619491_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Valorant Champions 2026",
-            "team_a": "NRG",
-            "team_b": "LOUD",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXYzk1RBSBGEbrgh2NE-5oEgbLqg1urQV9HPhBSOwlro7RkwZceJD8w9Y&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLeJWTY9FZpLcBEQ-vIez_zzElIZIkM_rfqKspcVuihA&s=10",
-            "time": "16:00:00",
-            "date": "10/10",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/4hj93pimmn4v_4953e491_20261010.png?v=4953e491",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-67b9c23dc1",
           "name": "G2 vs Vitality | 19:00 10/10",
