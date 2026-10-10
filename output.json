@@ -1316,7 +1316,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1394,6 +1394,78 @@
           }
         },
         {
+          "id": "gv-64c5f456b6",
+          "name": "Indiana Pacers vs Atlanta Hawks | 06:00 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-64c5f456b6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-64c5f456b6",
+                  "name": "Indiana Pacers vs Atlanta Hawks",
+                  "streams": [
+                    {
+                      "id": "st-64c5f456b6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ebb3d80076",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791643281_hd/1791643281_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Indiana Pacers",
+            "team_b": "Atlanta Hawks",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/3a8c9a8a304f078913c60b52698ab585.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/57bd383cc8c9b3d4f92a5d1c371e38e9.png",
+            "time": "06:00:00",
+            "date": "11/10",
+            "blv": "Ben",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/36832470_e1d7fb9e_20261011.png?v=e1d7fb9e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-a7fa8289aa",
           "name": "Washington Wizards vs Detroit Pistons | 06:00 11/10",
           "type": "single",
@@ -1461,78 +1533,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/22912475_88d7702e_20261011.png?v=88d7702e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-64c5f456b6",
-          "name": "Indiana Pacers vs Atlanta Hawks | 06:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-64c5f456b6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-64c5f456b6",
-                  "name": "Indiana Pacers vs Atlanta Hawks",
-                  "streams": [
-                    {
-                      "id": "st-64c5f456b6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ebb3d80076",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791643281_hd/1791643281_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Indiana Pacers",
-            "team_b": "Atlanta Hawks",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/3a8c9a8a304f078913c60b52698ab585.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/57bd383cc8c9b3d4f92a5d1c371e38e9.png",
-            "time": "06:00:00",
-            "date": "11/10",
-            "blv": "Ben",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/36832470_e1d7fb9e_20261011.png?v=e1d7fb9e",
             "width": 1600,
             "height": 1200
           }
@@ -3004,78 +3004,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-af23ea8333",
-          "name": "Tây Ban Nha vs Italy | 23:59 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-af23ea8333",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-af23ea8333",
-                  "name": "Tây Ban Nha vs Italy",
-                  "streams": [
-                    {
-                      "id": "st-af23ea8333",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a79c26130d",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791341120_hd/1791341120_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vòng loại Premier 12",
-            "team_a": "Tây Ban Nha",
-            "team_b": "Italy",
-            "logo_a": "https://static.flashscore.com/res/image/data/0tkDnLYg-YkJFuI5b.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/pnWkuyil-IqGe7NUC.png",
-            "time": "23:59:00",
-            "date": "10/10",
-            "blv": "Ngu",
-            "is_live": false,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/5j10gvrpx9dm_91699240_20261011.png?v=91699240",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-2a057ca0ad",
           "name": "Cleverland Guardians vs Chicago White Sox | 07:00 11/10",
