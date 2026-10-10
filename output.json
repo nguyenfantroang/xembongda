@@ -2503,83 +2503,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1c8a69c482",
-          "name": "Vitality vs Aurora | 20:45 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1c8a69c482",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1c8a69c482",
-                  "name": "Vitality vs Aurora",
-                  "streams": [
-                    {
-                      "id": "st-1c8a69c482",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ea754730ed",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791619676_hd/1791619676_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CS2-ESL Pro League Season 24",
-            "team_a": "Vitality",
-            "team_b": "Aurora",
-            "logo_a": "https://static.flashscore.com/res/image/data/C8zF3GEG-lG2kTCDf.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8dZOBwvS-hvzueWgo.png",
-            "time": "20:45:00",
-            "date": "10/10",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/h5jv5799kq2g_18c608b5_20261010.png?v=18c608b5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-67b9c23dc1",
           "name": "G2 vs Vitality | 19:00 10/10",
