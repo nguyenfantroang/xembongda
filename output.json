@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -168,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +220,7 @@
             "time": "14:30:00",
             "date": "10/10",
             "blv": "Tỵ ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1699,8 +1699,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-34b7509f6a",
-          "name": "Jeonju KCC Egis vs Wonju Dongbu Promy | 12:00 10/10",
+          "id": "gv-bb794a6814",
+          "name": "Ulsan Hyundai Mobis Phoebus vs Daegu KoGas Pegasus | 14:30 10/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1710,78 +1710,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-34b7509f6a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-34b7509f6a",
-                  "name": "Jeonju KCC Egis vs Wonju Dongbu Promy",
-                  "streams": [
-                    {
-                      "id": "st-34b7509f6a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-df59ad42b0",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791535555_hd/1791535555_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korea Basketball League",
-            "team_a": "Jeonju KCC Egis",
-            "team_b": "Wonju Dongbu Promy",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/a2ba5e8d224376506856ad5dd34de831.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/ad13a8e4c726a65f277f7da7a19a4126.png",
-            "time": "12:00:00",
-            "date": "10/10",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/22850375_1fc8d300_20261010.png?v=1fc8d300",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-bb794a6814",
-          "name": "Ulsan Hyundai Mobis Phoebus vs Daegu KoGas Pegasus | 14:30 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1830,7 +1758,7 @@
             "time": "14:30:00",
             "date": "10/10",
             "blv": "Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -3458,87 +3386,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/5j10gvrpx9dm_91699240_20261010.png?v=91699240",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongban",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-8a2472f396",
-          "name": "LIN Yun-Ju vs Truls MOREGARD | 11:00 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8a2472f396",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8a2472f396",
-                  "name": "LIN Yun-Ju vs Truls MOREGARD",
-                  "streams": [
-                    {
-                      "id": "st-8a2472f396",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-53369aea9f",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791603523_hd/1791603523_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "China Smash 2026",
-            "team_a": "LIN Yun-Ju",
-            "team_b": "Truls MOREGARD",
-            "logo_a": "https://static.flashscore.com/res/image/data/0Y20XKDa-0GVPIiRs.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/KEq2LBzB-UisPPFJj.png",
-            "time": "11:00:00",
-            "date": "10/10",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "bongban"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/71pdajp28bfw_4a5562cf_20261010.png?v=4a5562cf",
             "width": 1600,
             "height": 1200
           }
