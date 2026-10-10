@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-81b9d30df6",
-          "name": "Napoli vs Frosinone | 01:45 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-81b9d30df6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-81b9d30df6",
-                  "name": "Napoli vs Frosinone",
-                  "streams": [
-                    {
-                      "id": "st-81b9d30df6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-df5bb1c514",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791640357_hd/1791640357_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Napoli",
-            "team_b": "Frosinone",
-            "logo_a": "https://images.keovip88.net/images/teams/napoli.png",
-            "logo_b": "https://images.keovip88.net/images/teams/frosinone.png",
-            "time": "01:45:00",
-            "date": "11/10",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac045c224d46db8705b5228_1642c9f5_20261011.png?v=1642c9f5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-23dad8a893",
-          "name": "Paris Saint Germain vs Le Mans | 01:45 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-23dad8a893",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-23dad8a893",
-                  "name": "Paris Saint Germain vs Le Mans",
-                  "streams": [
-                    {
-                      "id": "st-23dad8a893",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-da490986a1",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791340722_hd/1791340722_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Paris Saint Germain",
-            "team_b": "Le Mans",
-            "logo_a": "https://images.keovip88.net/images/teams/paris-saint-germain-psg.png",
-            "logo_b": "https://images.keovip88.net/images/teams/le-mans.png",
-            "time": "01:45:00",
-            "date": "11/10",
-            "blv": "Ngọng",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5f5e5e6975d550f07b1_7673fe26_20261011.png?v=7673fe26",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-14cd405c88",
           "name": "Real Madrid vs Villarreal | 02:00 11/10",
@@ -809,6 +665,78 @@
           }
         },
         {
+          "id": "gv-8f2d0186ab",
+          "name": "Lazio vs Monza | 20:00 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8f2d0186ab",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8f2d0186ab",
+                  "name": "Lazio vs Monza",
+                  "streams": [
+                    {
+                      "id": "st-8f2d0186ab",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e70b6e93dd",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791655309_hd/1791655309_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Lazio",
+            "team_b": "Monza",
+            "logo_a": "https://images.keovip88.net/images/teams/lazio.png",
+            "logo_b": "https://images.keovip88.net/images/teams/monza.png",
+            "time": "20:00:00",
+            "date": "11/10",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac045c824d46db8705b6553_1a8bc5f7_20261011.png?v=1a8bc5f7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-98592f693d",
           "name": "Hull City vs Everton | 20:00 11/10",
           "type": "single",
@@ -948,78 +876,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac045c824d46db8705b6548_c202dffd_20261011.png?v=c202dffd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8f2d0186ab",
-          "name": "Lazio vs Monza | 20:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8f2d0186ab",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8f2d0186ab",
-                  "name": "Lazio vs Monza",
-                  "streams": [
-                    {
-                      "id": "st-8f2d0186ab",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e70b6e93dd",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791655309_hd/1791655309_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Lazio",
-            "team_b": "Monza",
-            "logo_a": "https://images.keovip88.net/images/teams/lazio.png",
-            "logo_b": "https://images.keovip88.net/images/teams/monza.png",
-            "time": "20:00:00",
-            "date": "11/10",
-            "blv": "Bee",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac045c824d46db8705b6553_1a8bc5f7_20261011.png?v=1a8bc5f7",
             "width": 1600,
             "height": 1200
           }
@@ -2477,83 +2333,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-e776abaef2",
-          "name": "Conegliano Nữ vs UYBA Busto Arsizio Nữ | 01:30 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e776abaef2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e776abaef2",
-                  "name": "Conegliano Nữ vs UYBA Busto Arsizio Nữ",
-                  "streams": [
-                    {
-                      "id": "st-e776abaef2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e45c42dd26",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791341064_hd/1791341064_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seri A1 Nữ",
-            "team_a": "Conegliano Nữ",
-            "team_b": "UYBA Busto Arsizio Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/8SyXR1f5-zwIwk56d.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/pfEiFCxS-h8saiGlG.png",
-            "time": "01:30:00",
-            "date": "11/10",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/db1j6yn4ahjg_79c4d90b_20261011.png?v=79c4d90b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-80dde966bf",
           "name": "Vallefoglia Nữ vs Scandicci Nữ | 00:30 11/10",
@@ -2999,7 +2783,7 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật",
+      "name": "🥊 Võ Thuật (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3012,10 +2796,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3064,7 +2848,7 @@
             "time": "04:00:00",
             "date": "11/10",
             "blv": "Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "vothuat"
           },
           "image": {
