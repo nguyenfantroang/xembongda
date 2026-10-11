@@ -1316,83 +1316,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (6 LIVE)",
+      "name": "🏀 Bóng Rổ (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5d397c3c91",
-          "name": "Toronto Raptors vs Los Angeles Clippers | 05:30 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5d397c3c91",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5d397c3c91",
-                  "name": "Toronto Raptors vs Los Angeles Clippers",
-                  "streams": [
-                    {
-                      "id": "st-5d397c3c91",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aa48816d32",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791340913_hd/1791340913_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Toronto Raptors",
-            "team_b": "Los Angeles Clippers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/3f61db02c20eb73e5f27948b3122f2fb.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/d96dfd2dedd39877ed1f06ea31270a46.png",
-            "time": "05:30:00",
-            "date": "11/10",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/27022270_41bdf38d_20261011.png?v=41bdf38d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-a7fa8289aa",
           "name": "Washington Wizards vs Detroit Pistons | 06:00 11/10",
@@ -1538,78 +1466,6 @@
           }
         },
         {
-          "id": "gv-80aca18098",
-          "name": "Miami Heat vs Minnesota Timberwolves | 07:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-80aca18098",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-80aca18098",
-                  "name": "Miami Heat vs Minnesota Timberwolves",
-                  "streams": [
-                    {
-                      "id": "st-80aca18098",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3628e97841",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791616186_hd/1791616186_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Miami Heat",
-            "team_b": "Minnesota Timberwolves",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/43ebb4d6ad3ea5b68e9b1c969dff055b.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/e97782502546bad80da0347446a3a311.png",
-            "time": "07:00:00",
-            "date": "11/10",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/15022278_a39745dd_20261011.png?v=a39745dd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-07d7969dbb",
           "name": "Boston Celtics vs Philadelphia 76ers | 07:00 11/10",
           "type": "single",
@@ -1677,6 +1533,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/23732476_ec28ca46_20261011.png?v=ec28ca46",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-80aca18098",
+          "name": "Miami Heat vs Minnesota Timberwolves | 07:00 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-80aca18098",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-80aca18098",
+                  "name": "Miami Heat vs Minnesota Timberwolves",
+                  "streams": [
+                    {
+                      "id": "st-80aca18098",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3628e97841",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791616186_hd/1791616186_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Miami Heat",
+            "team_b": "Minnesota Timberwolves",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/43ebb4d6ad3ea5b68e9b1c969dff055b.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/e97782502546bad80da0347446a3a311.png",
+            "time": "07:00:00",
+            "date": "11/10",
+            "blv": "Chồn",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/15022278_a39745dd_20261011.png?v=a39745dd",
             "width": 1600,
             "height": 1200
           }
