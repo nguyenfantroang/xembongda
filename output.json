@@ -1008,83 +1008,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-415173b311",
-          "name": "Goztepe Nữ vs Vakifbank Nữ | 20:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-415173b311",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-415173b311",
-                  "name": "Goztepe Nữ vs Vakifbank Nữ",
-                  "streams": [
-                    {
-                      "id": "st-415173b311",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b1a1f02255",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791655957_hd/1791655957_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sultanlar Ligi Nữ Vòng 2",
-            "team_a": "Goztepe Nữ",
-            "team_b": "Vakifbank Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/CS0WQUh5-27rUgAz8.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/YRICRqzB-A3UKTsyj.png",
-            "time": "20:00:00",
-            "date": "11/10",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/hjhki4dtknlf_4794e193_20261011.png?v=4794e193",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ce793771ee",
           "name": "Besiktas Nữ vs Fenerbahce Nữ | 23:00 11/10",
@@ -1233,7 +1161,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1246,10 +1174,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1298,7 +1226,7 @@
             "time": "22:00:00",
             "date": "11/10",
             "blv": "Mickey + Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
@@ -1900,87 +1828,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/u6xsyhzc64yx_6472594c_20261011.png?v=6472594c",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_duaxe",
-      "name": "🏎️ Đua Xe (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-6a21300a28",
-          "name": "F1 vs F1  Singapore Grand Prix | 19:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6a21300a28",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6a21300a28",
-                  "name": "F1 vs F1  Singapore Grand Prix",
-                  "streams": [
-                    {
-                      "id": "st-6a21300a28",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-33c97b16c3",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791703836_hd/1791703836_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Singapore Grand Prix",
-            "team_a": "F1",
-            "team_b": "F1  Singapore Grand Prix",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Gb3S_hVBxADavywtKLX_sSpJUrlsxbdBeKq6YIXZqQ&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjVAwoONb3nJT__FcIYbiwlWgJZq81_swcbaq2XSOIwQ&s=10",
-            "time": "19:00:00",
-            "date": "11/10",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "duaxe"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/iuzhyxzxeln4_35aaa9bb_20261011.png?v=35aaa9bb",
             "width": 1600,
             "height": 1200
           }
