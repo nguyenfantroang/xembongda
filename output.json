@@ -11,189 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-26c21a201f",
-          "name": "Liverpool vs Manchester City | 22:30 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-26c21a201f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-26c21a201f",
-                  "name": "Liverpool vs Manchester City",
-                  "streams": [
-                    {
-                      "id": "st-26c21a201f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5fd39eee2",
-                          "name": "Man Xì Tin: Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791712349_hd/1791712349_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-0d3b7cb558",
-                          "name": "Đầu cầu cò: Tỵ + Trĩ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791712368_hd/1791712368_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-60c7c8e9fe",
-                          "name": "Trung lập: Chồn + Hấu",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791712375_hd/1791712375_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Liverpool",
-            "team_b": "Manchester City",
-            "logo_a": "https://images.keovip88.net/images/teams/liverpool.png",
-            "logo_b": "https://images.keovip88.net/images/teams/manchester-city.png",
-            "time": "22:30:00",
-            "date": "11/10",
-            "blv": "Man Xì Tin: Ben, Đầu cầu cò: Tỵ + Trĩ, Trung lập: Chồn + Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06e8_f862baed_20261012.png?v=f862baed",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-2a7fccaaf5",
-          "name": "SC Freiburg vs Schalke 04 | 22:30 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2a7fccaaf5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2a7fccaaf5",
-                  "name": "SC Freiburg vs Schalke 04",
-                  "streams": [
-                    {
-                      "id": "st-2a7fccaaf5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0d724943f5",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791655424_hd/1791655424_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "SC Freiburg",
-            "team_b": "Schalke 04",
-            "logo_a": "https://images.keovip88.net/images/teams/sc-freiburg.png",
-            "logo_b": "https://images.keovip88.net/images/teams/schalke-04.png",
-            "time": "22:30:00",
-            "date": "11/10",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5cae5e6975d550f0774_b8721430_20261012.png?v=b8721430",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-842770630c",
           "name": "US Sassuolo Calcio vs AC Milan | 23:00 11/10",
@@ -2409,8 +2231,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-ed5ec31294",
-          "name": "Philadelphia Eagles vs Jacksonville Jaguars | 20:30 11/10",
+          "id": "gv-f804c651bc",
+          "name": "New York Jets vs Cleveland Browns | 23:59 11/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2420,78 +2242,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ed5ec31294",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ed5ec31294",
-                  "name": "Philadelphia Eagles vs Jacksonville Jaguars",
-                  "streams": [
-                    {
-                      "id": "st-ed5ec31294",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b8760bc48d",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791723758_hd/1791723758_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NFL",
-            "team_a": "Philadelphia Eagles",
-            "team_b": "Jacksonville Jaguars",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ_aKqsWZ0tWj8iy4tHOnmpU8R59fzeAOqAiKNpfGXYw&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1FmsTJ19OGGlJ8xUfy56Zs3z9Xb69CJtFbqieuuHDRQ&s",
-            "time": "20:30:00",
-            "date": "11/10",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "rugby"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/3to1hcpz7ghx_62405a5b_20261012.png?v=62405a5b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f804c651bc",
-          "name": "New York Jets vs Cleveland Browns | 23:59 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -2540,7 +2290,7 @@
             "time": "23:59:00",
             "date": "11/10",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "rugby"
           },
           "image": {
