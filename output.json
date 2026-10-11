@@ -1613,83 +1613,11 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-a12f3c40de",
-          "name": "Ben Shelton vs Arthur Gea | 11:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a12f3c40de",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a12f3c40de",
-                  "name": "Ben Shelton vs Arthur Gea",
-                  "streams": [
-                    {
-                      "id": "st-a12f3c40de",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7a78bd9a1e",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791678928_hd/1791678928_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Shanghai Open",
-            "team_a": "Ben Shelton",
-            "team_b": "Arthur Gea",
-            "logo_a": "https://static.flashscore.com/res/image/data/UBXM3cXg-fgTOwTv9.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/E9MoxtwS-IaAVktFg.png",
-            "time": "11:00:00",
-            "date": "11/10",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/g5w8rd9p7st8_5e1fc3b4_20261011.png?v=5e1fc3b4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-85b24f122d",
           "name": "Alex de Minaur vs Rei Sakamoto | 12:10 11/10",
@@ -2568,87 +2496,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/q9gvcw8bholw_41706bdf_20261011.png?v=41706bdf",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongban",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-72a59000a4",
-          "name": "ZHOU Qihao vs Sora MATSUSHIMA | 11:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-72a59000a4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-72a59000a4",
-                  "name": "ZHOU Qihao vs Sora MATSUSHIMA",
-                  "streams": [
-                    {
-                      "id": "st-72a59000a4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2603f887e1",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791680363_hd/1791680363_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "China Smash 2026",
-            "team_a": "ZHOU Qihao",
-            "team_b": "Sora MATSUSHIMA",
-            "logo_a": "https://static.flashscore.com/res/image/data/h4RlwZcM-W4DreWqd.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/69MsHPAr-8pDGMe4G.png",
-            "time": "11:00:00",
-            "date": "11/10",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "bongban"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ayadndb23y4w_3664c356_20261011.png?v=3664c356",
             "width": 1600,
             "height": 1200
           }
