@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-7246142ab8",
-          "name": "Flamengo vs Fluminense (RJ) | 03:30 12/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7246142ab8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7246142ab8",
-                  "name": "Flamengo vs Fluminense (RJ)",
-                  "streams": [
-                    {
-                      "id": "st-7246142ab8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b497b8b00f",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791341354_hd/1791341354_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Brazil",
-            "team_a": "Flamengo",
-            "team_b": "Fluminense (RJ)",
-            "logo_a": "https://images.keovip88.net/images/teams/flamengo.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fluminense-rj.png",
-            "time": "03:30:00",
-            "date": "12/10",
-            "blv": "Ngọng",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e635e5e6975d550f0816_df11d20c_20261012.png?v=df11d20c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c98bdf0475",
           "name": "Germany U17 W vs Iceland U17 W | 17:30 12/10",
@@ -884,7 +812,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -969,10 +897,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1021,7 +949,7 @@
             "time": "06:00:00",
             "date": "12/10",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
