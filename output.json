@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -267,6 +267,78 @@
           }
         },
         {
+          "id": "gv-bac6e10eb8",
+          "name": "Real Betis vs Osasuna | 23:30 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bac6e10eb8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bac6e10eb8",
+                  "name": "Real Betis vs Osasuna",
+                  "streams": [
+                    {
+                      "id": "st-bac6e10eb8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-20bd1293d6",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791341216_hd/1791341216_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Real Betis",
+            "team_b": "Osasuna",
+            "logo_a": "https://images.keovip88.net/images/teams/real-betis.png",
+            "logo_b": "https://images.keovip88.net/images/teams/osasuna.png",
+            "time": "23:30:00",
+            "date": "11/10",
+            "blv": "Mù",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5bce5e6975d550f074d_9a6435c4_20261011.png?v=9a6435c4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-75bab26ae2",
           "name": "Sisaket FC vs Chonburi Shark FC | 18:30 11/10",
           "type": "single",
@@ -334,78 +406,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac045c724d46db8705b6452_539fdd30_20261011.png?v=539fdd30",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-bac6e10eb8",
-          "name": "Real Betis vs Osasuna | 23:30 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bac6e10eb8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bac6e10eb8",
-                  "name": "Real Betis vs Osasuna",
-                  "streams": [
-                    {
-                      "id": "st-bac6e10eb8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-20bd1293d6",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791341216_hd/1791341216_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Real Betis",
-            "team_b": "Osasuna",
-            "logo_a": "https://images.keovip88.net/images/teams/real-betis.png",
-            "logo_b": "https://images.keovip88.net/images/teams/osasuna.png",
-            "time": "23:30:00",
-            "date": "11/10",
-            "blv": "Mù",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5bce5e6975d550f074d_9a6435c4_20261011.png?v=9a6435c4",
             "width": 1600,
             "height": 1200
           }
@@ -1126,6 +1126,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a8b8a6f4d3de1ad3e0d9538_75560075_20261011.png?v=75560075",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d078fa65ec",
+          "name": "Atalanta vs Venezia F.C. | 23:30 12/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d078fa65ec",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d078fa65ec",
+                  "name": "Atalanta vs Venezia F.C.",
+                  "streams": [
+                    {
+                      "id": "st-d078fa65ec",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5dec3aa22",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791655575_hd/1791655575_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Atalanta",
+            "team_b": "Venezia F.C.",
+            "logo_a": "https://images.keovip88.net/images/teams/atalanta.png",
+            "logo_b": "https://images.keovip88.net/images/teams/venezia.png",
+            "time": "23:30:00",
+            "date": "12/10",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac1974324d46db870590ec3_27623565_20261011.png?v=27623565",
             "width": 1600,
             "height": 1200
           }
