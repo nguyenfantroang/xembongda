@@ -483,6 +483,78 @@
           }
         },
         {
+          "id": "gv-93fb1bd6a9",
+          "name": "Cagliari vs Juventus | 01:45 12/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-93fb1bd6a9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-93fb1bd6a9",
+                  "name": "Cagliari vs Juventus",
+                  "streams": [
+                    {
+                      "id": "st-93fb1bd6a9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75c01ec67e",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791734082_hd/1791734082_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Cagliari",
+            "team_b": "Juventus",
+            "logo_a": "https://images.keovip88.net/images/teams/cagliari.png",
+            "logo_b": "https://images.keovip88.net/images/teams/juventus.png",
+            "time": "01:45:00",
+            "date": "12/10",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac1974024d46db870590b61_e9358710_20261011.png?v=e9358710",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-4285dc2aa7",
           "name": "Racing Santander vs Valencia | 02:00 12/10",
           "type": "single",
@@ -710,87 +782,6 @@
       ]
     },
     {
-      "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-fe88c07670",
-          "name": "Alejandro Davivdovich Fokina vs Frances Tiafoe | 18:30 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fe88c07670",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fe88c07670",
-                  "name": "Alejandro Davivdovich Fokina vs Frances Tiafoe",
-                  "streams": [
-                    {
-                      "id": "st-fe88c07670",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0c1e5450eb",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791722332_hd/1791722332_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Shanghai Open",
-            "team_a": "Alejandro Davivdovich Fokina",
-            "team_b": "Frances Tiafoe",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0SKRpL1qzFfXXnWuHGRB8DL0El7l8GdwUixQByF4fR4FoZq00izVunJLm&s=10",
-            "logo_b": "https://static.flashscore.com/res/image/data/A3X3wNil-AJjcvBgm.png",
-            "time": "18:30:00",
-            "date": "11/10",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/045v6z6zxo94_e3c1d550_20261011.png?v=e3c1d550",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
       "id": "cate_bongchuyen",
       "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
@@ -825,11 +816,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-f2b696ad66",
+                          "id": "lnk-8a3837a8cb",
                           "name": "Sún",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791732817_hd/1791732817_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791732817_hd/1791732817_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -865,60 +856,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/77gimnpud63f_f70132e9_20261011.png?v=f70132e9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-fefc948c5a",
-          "name": "Besiktas Nữ vs Fenerbahce Nữ | 23:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fefc948c5a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fefc948c5a",
-                  "name": "Besiktas Nữ vs Fenerbahce Nữ",
-                  "streams": [
-                    {
-                      "id": "st-fefc948c5a",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sultanlar Ligi Nữ Vòng 2",
-            "team_a": "Besiktas Nữ",
-            "team_b": "Fenerbahce Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/KGLt9DfM-tprtUH6d.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8WgKWiCa-CCQtmQAB.png",
-            "time": "23:00:00",
-            "date": "11/10",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/19i2etzxj6vc_f70132e9_20261011.png?v=f70132e9",
             "width": 1600,
             "height": 1200
           }
@@ -1231,7 +1168,7 @@
       "channels": [
         {
           "id": "gv-a5a9289a04",
-          "name": "2026 PFL Africa: Morocco vs 2026 PFL Africa: Morocco | 00:00 12/10",
+          "name": "2026 PFL Africa: Morocco vs 2026 PFL Africa: Morocco | 12:00 12/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1286,7 +1223,7 @@
             "team_b": "2026 PFL Africa: Morocco",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbXEvyqm6qs3j_g4sVPyWYc-jdhR7wDJkhatBZf6yRZA&s=10",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbXEvyqm6qs3j_g4sVPyWYc-jdhR7wDJkhatBZf6yRZA&s=10",
-            "time": "00:00:00",
+            "time": "12:00:00",
             "date": "12/10",
             "blv": "Mason",
             "is_live": false,
@@ -1891,6 +1828,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/rvibz1pti29p_b5a54202_20261011.png?v=b5a54202",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8287ce2378",
+          "name": "San Francisco 49ers vs Seattle Seahawks | 03:25 12/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8287ce2378",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8287ce2378",
+                  "name": "San Francisco 49ers vs Seattle Seahawks",
+                  "streams": [
+                    {
+                      "id": "st-8287ce2378",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8508646f39",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791733652_hd/1791733652_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NFL",
+            "team_a": "San Francisco 49ers",
+            "team_b": "Seattle Seahawks",
+            "logo_a": "https://static.flashscore.com/res/image/data/CMor3wZg-fsiWdyRa.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/r3Fomsf5-ER5jeflb.png",
+            "time": "03:25:00",
+            "date": "12/10",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "rugby"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/46g6k1pnne14_cdb00f01_20261011.png?v=cdb00f01",
             "width": 1600,
             "height": 1200
           }
