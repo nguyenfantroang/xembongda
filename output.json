@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -44,11 +44,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-75c01ec67e",
-                          "name": "Trĩ",
+                          "id": "lnk-e4c8dc0a9d",
+                          "name": "Điếc",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791734082_hd/1791734082_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791744462_hd/1791744462_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -75,8 +75,8 @@
             "logo_b": "https://images.keovip88.net/images/teams/juventus.png",
             "time": "01:45:00",
             "date": "12/10",
-            "blv": "Trĩ",
-            "is_live": false,
+            "blv": "Điếc",
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -879,6 +879,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-50cb9aacab",
+          "name": "Torino vs Udinese | 01:45 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-50cb9aacab",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-50cb9aacab",
+                  "name": "Torino vs Udinese",
+                  "streams": [
+                    {
+                      "id": "st-50cb9aacab",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b93e646772",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791655672_hd/1791655672_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Torino",
+            "team_b": "Udinese",
+            "logo_a": "https://images.keovip88.net/images/teams/torino.png",
+            "logo_b": "https://images.keovip88.net/images/teams/udinese.png",
+            "time": "01:45:00",
+            "date": "13/10",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac2e8cc24d46db870572f5f_522ab316_20261012.png?v=522ab316",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1109,83 +1181,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-967cbc29e0",
-          "name": "Besiktas Nữ vs Fenerbahce Nữ | 23:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-967cbc29e0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-967cbc29e0",
-                  "name": "Besiktas Nữ vs Fenerbahce Nữ",
-                  "streams": [
-                    {
-                      "id": "st-967cbc29e0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8a3837a8cb",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791732817_hd/1791732817_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sultanlar Ligi Nữ Vòng 2",
-            "team_a": "Besiktas Nữ",
-            "team_b": "Fenerbahce Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/KGLt9DfM-tprtUH6d.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8WgKWiCa-CCQtmQAB.png",
-            "time": "23:00:00",
-            "date": "11/10",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/77gimnpud63f_f70132e9_20261012.png?v=f70132e9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ce793771ee",
           "name": "Besiktas Nữ vs Fenerbahce Nữ | 23:00 11/10",
@@ -1334,83 +1334,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-2788045a04",
-          "name": "Vitality vs MOUZ | 22:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2788045a04",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2788045a04",
-                  "name": "Vitality vs MOUZ",
-                  "streams": [
-                    {
-                      "id": "st-2788045a04",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d0cdaa78a8",
-                          "name": "Mickey + Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791703677_hd/1791703677_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CS2-ESL Pro League Season 24",
-            "team_a": "Vitality",
-            "team_b": "MOUZ",
-            "logo_a": "https://static.flashscore.com/res/image/data/C8zF3GEG-lG2kTCDf.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/ObrRkAe5-xrMguOa9.png",
-            "time": "22:00:00",
-            "date": "11/10",
-            "blv": "Mickey + Điếc",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/bl0idggvi83v_2b1d3044_20261012.png?v=2b1d3044",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b1cfbfd103",
           "name": "KT vs VIT | 13:00 12/10",
