@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-842770630c",
-          "name": "US Sassuolo Calcio vs AC Milan | 23:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-842770630c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-842770630c",
-                  "name": "US Sassuolo Calcio vs AC Milan",
-                  "streams": [
-                    {
-                      "id": "st-842770630c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-53cab3a1b1",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791341264_hd/1791341264_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "US Sassuolo Calcio",
-            "team_b": "AC Milan",
-            "logo_a": "https://images.keovip88.net/images/teams/sassuolo.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ac-milan.png",
-            "time": "23:00:00",
-            "date": "11/10",
-            "blv": "Bee",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac045cf24d46db8705b6f2f_7fec9a94_20261012.png?v=7fec9a94",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-bac6e10eb8",
           "name": "Real Betis vs Osasuna | 23:30 11/10",
@@ -948,6 +876,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac1974324d46db870590ec3_27623565_20261012.png?v=27623565",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b716740c99",
+          "name": "Al-Nassr FC vs Neftchi Fargona | 01:15 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b716740c99",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b716740c99",
+                  "name": "Al-Nassr FC vs Neftchi Fargona",
+                  "streams": [
+                    {
+                      "id": "st-b716740c99",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2de1eb03b1",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791655608_hd/1791655608_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Al-Nassr FC",
+            "team_b": "Neftchi Fargona",
+            "logo_a": "https://images.keovip88.net/images/teams/al-nassr.png",
+            "logo_b": "https://images.keovip88.net/images/teams/neftchi-fargona.png",
+            "time": "01:15:00",
+            "date": "13/10",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a8a38deeb269e70040bbd82_266b9fe2_20261012.png?v=266b9fe2",
             "width": 1600,
             "height": 1200
           }
