@@ -1316,83 +1316,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (4 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-07d7969dbb",
-          "name": "Boston Celtics vs Philadelphia 76ers | 07:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-07d7969dbb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-07d7969dbb",
-                  "name": "Boston Celtics vs Philadelphia 76ers",
-                  "streams": [
-                    {
-                      "id": "st-07d7969dbb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1e9f6d94df",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791675538_hd/1791675538_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Boston Celtics",
-            "team_b": "Philadelphia 76ers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/ef37e5c1c853e5b689b6791b00e8bc58.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/7f086c864d1e283b7862a756f0b88373.png",
-            "time": "07:00:00",
-            "date": "11/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/23732476_ec28ca46_20261011.png?v=ec28ca46",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-80aca18098",
           "name": "Miami Heat vs Minnesota Timberwolves | 07:00 11/10",
