@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-fa7e9bb726",
-          "name": "JEF United Ichihara vs V-Varen Nagasaki | 12:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fa7e9bb726",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fa7e9bb726",
-                  "name": "JEF United Ichihara vs V-Varen Nagasaki",
-                  "streams": [
-                    {
-                      "id": "st-fa7e9bb726",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-295c3ea22e",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791616866_hd/1791616866_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "JEF United Ichihara",
-            "team_b": "V-Varen Nagasaki",
-            "logo_a": "https://images.keovip88.net/images/teams/jef-united-ichihara-chiba.png",
-            "logo_b": "https://images.keovip88.net/images/teams/v-varen-nagasaki.png",
-            "time": "12:00:00",
-            "date": "11/10",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac045c524d46db8705b5947_cde2f907_20261011.png?v=cde2f907",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3d873f2300",
           "name": "Mito Hollyhock vs Shimizu S-Pulse | 13:00 11/10",
@@ -233,6 +161,78 @@
           }
         },
         {
+          "id": "gv-ccd1a6c7ec",
+          "name": "Rangers vs Warriors | 15:00 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ccd1a6c7ec",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ccd1a6c7ec",
+                  "name": "Rangers vs Warriors",
+                  "streams": [
+                    {
+                      "id": "st-ccd1a6c7ec",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-42f2a22f69",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791703104_hd/1791703104_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hong Kong - Hong Kong Premier League",
+            "team_a": "Rangers",
+            "team_b": "Warriors",
+            "logo_a": "https://static.flashscore.com/res/image/data/MZyANfYg-f5cCdGda.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/xA03aUzB-S8Q0DgXs.png",
+            "time": "15:00:00",
+            "date": "11/10",
+            "blv": "BLV Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ew456biivzb8_4456fb8c_20261011.png?v=4456fb8c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-e9073118c4",
           "name": "Malut United vs Borneo FC Samarinda | 15:30 11/10",
           "type": "single",
@@ -260,11 +260,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-05e6dead81",
+                          "id": "lnk-f7c08abff0",
                           "name": "Tỵ ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791655003_hd/1791655003_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791655003_hd/1791655003_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1689,6 +1689,150 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-ab44105186",
+          "name": "Alexander Zverev vs Quentin Halys | 17:00 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ab44105186",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ab44105186",
+                  "name": "Alexander Zverev vs Quentin Halys",
+                  "streams": [
+                    {
+                      "id": "st-ab44105186",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6dbffa1057",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791703327_hd/1791703327_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Shanghai Open",
+            "team_a": "Alexander Zverev",
+            "team_b": "Quentin Halys",
+            "logo_a": "https://static.flashscore.com/res/image/data/tO5cePjl-2DqYxEbl.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/0GxnPUDa-d4CRNZWd.png",
+            "time": "17:00:00",
+            "date": "11/10",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac045c724d46db8705b639c_8a59abe1_20261011.png?v=8a59abe1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-fe88c07670",
+          "name": "Alejandro Davivdovich Fokina vs Frances Tiafoe | 18:30 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fe88c07670",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fe88c07670",
+                  "name": "Alejandro Davivdovich Fokina vs Frances Tiafoe",
+                  "streams": [
+                    {
+                      "id": "st-fe88c07670",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-457b417b1c",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791703423_hd/1791703423_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Shanghai Open",
+            "team_a": "Alejandro Davivdovich Fokina",
+            "team_b": "Frances Tiafoe",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0SKRpL1qzFfXXnWuHGRB8DL0El7l8GdwUixQByF4fR4FoZq00izVunJLm&s=10",
+            "logo_b": "https://static.flashscore.com/res/image/data/A3X3wNil-AJjcvBgm.png",
+            "time": "18:30:00",
+            "date": "11/10",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/045v6z6zxo94_e3c1d550_20261011.png?v=e3c1d550",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2352,6 +2496,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/q9gvcw8bholw_41706bdf_20261011.png?v=41706bdf",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongban",
+      "name": "🏓 Bóng Bàn",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-99e1f73f58",
+          "name": "WANG Manyu vs Hitomi SATO | 16:00 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-99e1f73f58",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-99e1f73f58",
+                  "name": "WANG Manyu vs Hitomi SATO",
+                  "streams": [
+                    {
+                      "id": "st-99e1f73f58",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5a401daea2",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791703164_hd/1791703164_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "China Smash 2026",
+            "team_a": "WANG Manyu",
+            "team_b": "Hitomi SATO",
+            "logo_a": "https://static.flashscore.com/res/image/data/63DuH2eM-b7qbNXIQ.png",
+            "logo_b": "https://tabletennis-reference.com/images/player/1088_1_450.jpg",
+            "time": "16:00:00",
+            "date": "11/10",
+            "blv": "Dory",
+            "is_live": false,
+            "cate_type": "bongban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/v8cjok2juiap_8262194b_20261011.png?v=8262194b",
             "width": 1600,
             "height": 1200
           }
