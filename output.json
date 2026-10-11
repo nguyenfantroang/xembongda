@@ -1316,83 +1316,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (4 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-e5fd025dd8",
-          "name": "Phoenix Suns vs San Antonio Spurs | 09:30 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e5fd025dd8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e5fd025dd8",
-                  "name": "Phoenix Suns vs San Antonio Spurs",
-                  "streams": [
-                    {
-                      "id": "st-e5fd025dd8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-34f6e5ff49",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791616419_hd/1791616419_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Phoenix Suns",
-            "team_b": "San Antonio Spurs",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/6a6855785a58edb23c76c99ed6601a33.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/908efbb5ed053f61540cca47cc36e7ec.png",
-            "time": "09:30:00",
-            "date": "11/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/23912476_b5b31c6e_20261011.png?v=b5b31c6e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-8727cca3b3",
           "name": "Sydney Kings vs Adelaide 36ers | 11:00 11/10",
