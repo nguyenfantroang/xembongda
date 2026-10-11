@@ -1172,7 +1172,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1185,10 +1185,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1237,7 +1237,7 @@
             "time": "17:00:00",
             "date": "11/10",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1253,7 +1253,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1403,78 +1403,6 @@
           }
         },
         {
-          "id": "gv-8e3ca5404a",
-          "name": "Alexander Bublik vs Brandon Nakashima | 14:30 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8e3ca5404a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8e3ca5404a",
-                  "name": "Alexander Bublik vs Brandon Nakashima",
-                  "streams": [
-                    {
-                      "id": "st-8e3ca5404a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9a57a34566",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791680173_hd/1791680173_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Shanghai Open",
-            "team_a": "Alexander Bublik",
-            "team_b": "Brandon Nakashima",
-            "logo_a": "https://static.flashscore.com/res/image/data/xEzx16Fa-p45uyGM1.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/h8wF43GG-I3vxtblK.png",
-            "time": "14:30:00",
-            "date": "11/10",
-            "blv": "Mù",
-            "is_live": false,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/nglud9uti4d5_3219c0a8_20261011.png?v=3219c0a8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-ab44105186",
           "name": "Alexander Zverev vs Quentin Halys | 17:00 11/10",
           "type": "single",
@@ -1482,10 +1410,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1534,7 +1462,7 @@
             "time": "17:00:00",
             "date": "11/10",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -1622,7 +1550,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1635,10 +1563,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1687,7 +1615,7 @@
             "time": "17:00:00",
             "date": "11/10",
             "blv": "Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
