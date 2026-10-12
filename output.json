@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-3cefe09eb8",
-          "name": "Pakhtakor Tashkent vs Al-Qadasiya | 20:45 12/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3cefe09eb8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3cefe09eb8",
-                  "name": "Pakhtakor Tashkent vs Al-Qadasiya",
-                  "streams": [
-                    {
-                      "id": "st-3cefe09eb8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-db901946f4",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791734978_hd/1791734978_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League",
-            "team_a": "Pakhtakor Tashkent",
-            "team_b": "Al-Qadasiya",
-            "logo_a": "https://images.keovip88.net/images/teams/pakhtakor.png",
-            "logo_b": "https://images.keovip88.net/images/teams/al-qadsiah.png",
-            "time": "20:45:00",
-            "date": "12/10",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a8a38deeb269e70040bbd81_6d7a8a8a_20261012.png?v=6d7a8a8a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-bd0049feb7",
           "name": "Moldova W vs Georgia W | 21:00 12/10",
@@ -1236,6 +1164,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a88e7955d02aeccba005298_c605c0ec_20261012.png?v=c605c0ec",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ced96d14dd",
+          "name": "Al-Sadd vs Al Hilal | 23:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ced96d14dd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ced96d14dd",
+                  "name": "Al-Sadd vs Al Hilal",
+                  "streams": [
+                    {
+                      "id": "st-ced96d14dd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-78829b37c2",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791656127_hd/1791656127_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Al-Sadd",
+            "team_b": "Al Hilal",
+            "logo_a": "https://images.keovip88.net/images/teams/al-sadd.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-hilal.png",
+            "time": "23:00:00",
+            "date": "13/10",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a88e7865d02aeccba00527b_8c349a6e_20261012.png?v=8c349a6e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d9b3ac5659",
+          "name": "Al-Seeb vs Al Hussein Irbid | 23:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d9b3ac5659",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d9b3ac5659",
+                  "name": "Al-Seeb vs Al Hussein Irbid",
+                  "streams": [
+                    {
+                      "id": "st-d9b3ac5659",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7c81fc800b",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791656162_hd/1791656162_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Cup",
+            "team_a": "Al-Seeb",
+            "team_b": "Al Hussein Irbid",
+            "logo_a": "https://images.keovip88.net/images/teams/al-seeb.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-hussein-irbid.png",
+            "time": "23:00:00",
+            "date": "13/10",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a88e7955d02aeccba005299_03c5a9c8_20261012.png?v=03c5a9c8",
             "width": 1600,
             "height": 1200
           }
