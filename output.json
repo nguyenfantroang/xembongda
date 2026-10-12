@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-a7e6cd3e25",
-          "name": "Hougang United vs Balestier Khalsa | 18:30 12/10",
+          "id": "gv-3cefe09eb8",
+          "name": "Pakhtakor Tashkent vs Al-Qadasiya | 20:45 12/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,78 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a7e6cd3e25",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a7e6cd3e25",
-                  "name": "Hougang United vs Balestier Khalsa",
-                  "streams": [
-                    {
-                      "id": "st-a7e6cd3e25",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ebd729dce7",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791734902_hd/1791734902_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Singapore - Singapore Premier League",
-            "team_a": "Hougang United",
-            "team_b": "Balestier Khalsa",
-            "logo_a": "https://images.keovip88.net/images/teams/hougang-united-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/balestier-khalsa-fc.png",
-            "time": "18:30:00",
-            "date": "12/10",
-            "blv": "Tỵ ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/bqfshrxcp62c_05b07e87_20261012.png?v=05b07e87",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-3cefe09eb8",
-          "name": "Pakhtakor Tashkent vs Al-Qadasiya | 20:45 12/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -148,7 +76,7 @@
             "time": "20:45:00",
             "date": "12/10",
             "blv": "Chồn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -168,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +148,7 @@
             "time": "21:00:00",
             "date": "12/10",
             "blv": "Trĩ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1244,83 +1172,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1df6902b34",
-          "name": "Mobis Phoebus vs Wonju DB | 17:00 12/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1df6902b34",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1df6902b34",
-                  "name": "Mobis Phoebus vs Wonju DB",
-                  "streams": [
-                    {
-                      "id": "st-1df6902b34",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-55a2403a68",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791780067_hd/1791780067_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "South Korean KBL Cup",
-            "team_a": "Mobis Phoebus",
-            "team_b": "Wonju DB",
-            "logo_a": "https://static.flashscore.com/res/image/data/UTvcCjBr-Egd2koIh.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/ELYOWIAr-xtco8W2d.png",
-            "time": "17:00:00",
-            "date": "12/10",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/mf5i502ax8jq_060b5662_20261012.png?v=060b5662",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e8bfb36999",
           "name": "Atlanta Hawks vs Oklahoma City Thunder | 06:00 13/10",
