@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c0f322455e",
-          "name": "Al Wasl FC vs Al Ahli Jeddah | 23:00 12/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c0f322455e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c0f322455e",
-                  "name": "Al Wasl FC vs Al Ahli Jeddah",
-                  "streams": [
-                    {
-                      "id": "st-c0f322455e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5195fb67f5",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791655515_hd/1791655515_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League",
-            "team_a": "Al Wasl FC",
-            "team_b": "Al Ahli Jeddah",
-            "logo_a": "https://images.keovip88.net/images/teams/al-wasl.png",
-            "logo_b": "https://images.keovip88.net/images/teams/al-ahli-sfc.png",
-            "time": "23:00:00",
-            "date": "12/10",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a8b8a6f4d3de1ad3e0d9539_f158ee47_20261013.png?v=f158ee47",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-d078fa65ec",
           "name": "Atalanta vs Venezia F.C. | 23:30 12/10",
