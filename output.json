@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-80df976708",
-          "name": "Levante vs Sevilla | 02:00 13/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-80df976708",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-80df976708",
-                  "name": "Levante vs Sevilla",
-                  "streams": [
-                    {
-                      "id": "st-80df976708",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b5183c017a",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791655700_hd/1791655700_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Levante",
-            "team_b": "Sevilla",
-            "logo_a": "https://images.keovip88.net/images/teams/levante.png",
-            "logo_b": "https://images.keovip88.net/images/teams/sevilla.png",
-            "time": "02:00:00",
-            "date": "13/10",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5bce5e6975d550f074f_0772ebdd_20261013.png?v=0772ebdd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b716740c99",
-          "name": "Al-Nassr FC vs Neftchi Fargona | 02:15 13/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b716740c99",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b716740c99",
-                  "name": "Al-Nassr FC vs Neftchi Fargona",
-                  "streams": [
-                    {
-                      "id": "st-b716740c99",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-29ed4fe404",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791655608_hd/1791655608_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League",
-            "team_a": "Al-Nassr FC",
-            "team_b": "Neftchi Fargona",
-            "logo_a": "https://images.keovip88.net/images/teams/al-nassr.png",
-            "logo_b": "https://images.keovip88.net/images/teams/neftchi-fargona.png",
-            "time": "02:15:00",
-            "date": "13/10",
-            "blv": "Ngọng",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a8a38deeb269e70040bbd82_266b9fe2_20261013.png?v=266b9fe2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-a28e06947b",
           "name": "Newcastle Jets FC vs Gamba Osaka | 14:45 13/10",
@@ -3221,7 +3077,7 @@
             "league": "MLB - Championship Series",
             "team_a": "Los Angeles Dodgers",
             "team_b": "Milwaukee Brewers",
-            "logo_a": "https://static.flashscore.com/res/image/data/Yg133Fg5-pnn58dSo.png",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/58MDezoOT1DAkMexRNiW3w_96x96.png",
             "logo_b": "https://static.flashscore.com/res/image/data/nitvFMWg-xIOhFH4B.png",
             "time": "04:00:00",
             "date": "13/10",
@@ -3233,7 +3089,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/55rbc6uvzmt3_c341e377_20261013.png?v=c341e377",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/55rbc6uvzmt3_07654fab_20261013.png?v=07654fab",
             "width": 1600,
             "height": 1200
           }
