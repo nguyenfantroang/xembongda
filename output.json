@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "18:30:00",
             "date": "12/10",
             "blv": "Tỵ ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1172,83 +1172,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-8e1eca7c5e",
-          "name": "Mindoro Tamaraws vs Binan Tatak Gel | 16:00 12/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8e1eca7c5e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8e1eca7c5e",
-                  "name": "Mindoro Tamaraws vs Binan Tatak Gel",
-                  "streams": [
-                    {
-                      "id": "st-8e1eca7c5e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-76b76437cb",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791780005_hd/1791780005_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Philippines MPBL",
-            "team_a": "Mindoro Tamaraws",
-            "team_b": "Binan Tatak Gel",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f265f639507860463b03c6a46fe76e93.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/50c55a722740c471fa456f9c42a1ae6c.png",
-            "time": "16:00:00",
-            "date": "12/10",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/23324473_90beed80_20261012.png?v=90beed80",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-1df6902b34",
           "name": "Mobis Phoebus vs Wonju DB | 17:00 12/10",
@@ -2797,78 +2725,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-a5a9289a04",
-          "name": "2026 PFL Africa: Morocco vs 2026 PFL Africa: Morocco | 12:00 12/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a5a9289a04",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a5a9289a04",
-                  "name": "2026 PFL Africa: Morocco vs 2026 PFL Africa: Morocco",
-                  "streams": [
-                    {
-                      "id": "st-a5a9289a04",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b1430db4a0",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791722617_hd/1791722617_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2026 PFL Africa: Morocco",
-            "team_a": "2026 PFL Africa: Morocco",
-            "team_b": "2026 PFL Africa: Morocco",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbXEvyqm6qs3j_g4sVPyWYc-jdhR7wDJkhatBZf6yRZA&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbXEvyqm6qs3j_g4sVPyWYc-jdhR7wDJkhatBZf6yRZA&s=10",
-            "time": "12:00:00",
-            "date": "12/10",
-            "blv": "Mason",
-            "is_live": false,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/n6qtkv5zrkcg_75786c57_20261012.png?v=75786c57",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-aa79b00ebc",
           "name": "Dana White's Contender Series: Season 10, Week 10 vs Dana White's Contender Series: Season 10, Week 10 | 06:00 14/10",
