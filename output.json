@@ -892,6 +892,159 @@
       ]
     },
     {
+      "id": "cate_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-52eb8ac676",
+          "name": "Learner Tien vs Casper Ruud | 11:00 12/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-52eb8ac676",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-52eb8ac676",
+                  "name": "Learner Tien vs Casper Ruud",
+                  "streams": [
+                    {
+                      "id": "st-52eb8ac676",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3faa2c2910",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791772652_hd/1791772652_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Shanghai Open",
+            "team_a": "Learner Tien",
+            "team_b": "Casper Ruud",
+            "logo_a": "https://static.flashscore.com/res/image/data/6gxrZhwS-nTVr8xro.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/EwLW3og5-6NHltuug.png",
+            "time": "11:00:00",
+            "date": "12/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ii3w8a2tzjbt_48c0f696_20261012.png?v=48c0f696",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3e255fb25b",
+          "name": "Jiri Lehecka vs Rafael Jodar | 12:10 12/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3e255fb25b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3e255fb25b",
+                  "name": "Jiri Lehecka vs Rafael Jodar",
+                  "streams": [
+                    {
+                      "id": "st-3e255fb25b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2994dc62fe",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791772725_hd/1791772725_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Shanghai Open",
+            "team_a": "Jiri Lehecka",
+            "team_b": "Rafael Jodar",
+            "logo_a": "https://static.flashscore.com/res/image/data/AqYxUkCa-ne6Kkdx9.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/A5stpqzB-bJuw1oYE.png",
+            "time": "12:10:00",
+            "date": "12/10",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ywzknc2whw8z_ad537956_20261012.png?v=ad537956",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_esport",
       "name": "🎮 Esport",
       "display": "vertical",
