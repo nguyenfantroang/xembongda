@@ -1718,8 +1718,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-8287ce2378",
-          "name": "San Francisco 49ers vs Seattle Seahawks | 03:25 12/10",
+          "id": "gv-d494725db6",
+          "name": "Atlanta Falcons vs Baltimore Ravens | 07:30 12/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1729,78 +1729,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8287ce2378",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8287ce2378",
-                  "name": "San Francisco 49ers vs Seattle Seahawks",
-                  "streams": [
-                    {
-                      "id": "st-8287ce2378",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8508646f39",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791733652_hd/1791733652_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NFL",
-            "team_a": "San Francisco 49ers",
-            "team_b": "Seattle Seahawks",
-            "logo_a": "https://static.flashscore.com/res/image/data/CMor3wZg-fsiWdyRa.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/r3Fomsf5-ER5jeflb.png",
-            "time": "03:25:00",
-            "date": "12/10",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "rugby"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/46g6k1pnne14_cdb00f01_20261012.png?v=cdb00f01",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d494725db6",
-          "name": "Atlanta Falcons vs Baltimore Ravens | 07:30 12/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1849,7 +1777,7 @@
             "time": "07:30:00",
             "date": "12/10",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "rugby"
           },
           "image": {
