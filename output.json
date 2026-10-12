@@ -2117,23 +2117,23 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "gv-512b14adc6",
-          "name": "Ziraat Bankasi vs Galatasaray | 22:00 12/10",
+          "name": "Ziraat Bankasi vs Galatasaray | 23:30 12/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -2179,10 +2179,10 @@
             "team_b": "Galatasaray",
             "logo_a": "https://static.flashscore.com/res/image/data/nN1hHJYA-vaQC7xt4.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/5/51/Galatasaray_daikin_voleybol_logo.png",
-            "time": "22:00:00",
+            "time": "23:30:00",
             "date": "12/10",
             "blv": "Sún",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "bongchuyen"
           },
           "image": {
@@ -2342,83 +2342,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-42efe4c3b9",
-          "name": "BFX vs JDG | 16:00 12/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-42efe4c3b9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-42efe4c3b9",
-                  "name": "BFX vs JDG",
-                  "streams": [
-                    {
-                      "id": "st-42efe4c3b9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-31e415803c",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791780691_hd/1791780691_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Demacia Cup Global Invitational",
-            "team_a": "BFX",
-            "team_b": "JDG",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDRrEmNb1ep4AF3ZmHm103vbTGm5vAVnPog_JDcdUYxQ&s=10",
-            "logo_b": "https://static.flashscore.com/res/image/data/4Aoo4weM-MLEBzXUg.png",
-            "time": "16:00:00",
-            "date": "12/10",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/aoqbm95zua4q_efa23db5_20261012.png?v=efa23db5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-0ae6f5ff87",
           "name": "WE vs FLY | 13:00 13/10",
