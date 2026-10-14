@@ -2566,7 +2566,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2579,10 +2579,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2631,7 +2631,7 @@
             "time": "11:00:00",
             "date": "14/10",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -3164,6 +3164,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-7513aaf650",
+          "name": "C9 vs KC | 01:00 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7513aaf650",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7513aaf650",
+                  "name": "C9 vs KC",
+                  "streams": [
+                    {
+                      "id": "st-7513aaf650",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3574007f3c",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791949110_hd/1791949110_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Worlds 2026 - Playin",
+            "team_a": "C9",
+            "team_b": "KC",
+            "logo_a": "https://rft.gg/_next/image?url=https%3A%2F%2Fuploads.rft.gg%2Fimages%2Fesport%2Fteams%2Fcloud9-2023.png&w=64&q=75",
+            "logo_b": "https://rft.gg/_next/image?url=https%3A%2F%2Fuploads.rft.gg%2Fimages%2Fesport%2Fteams%2Fkarmine-corp.webp&w=64&q=75",
+            "time": "01:00:00",
+            "date": "16/10",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/r20zq82di1l1_f2049d6c_20261014.png?v=f2049d6c",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -3539,6 +3611,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/iad1ghgg4nbp_6472594c_20261014.png?v=6472594c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4ac47e2897",
+          "name": "Tampa Bay Rays vs Cleverland Guardians | 05:00 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4ac47e2897",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4ac47e2897",
+                  "name": "Tampa Bay Rays vs Cleverland Guardians",
+                  "streams": [
+                    {
+                      "id": "st-4ac47e2897",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4ab1f07d8a",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791949175_hd/1791949175_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB - Championship Series",
+            "team_a": "Tampa Bay Rays",
+            "team_b": "Cleverland Guardians",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/OKV4PkdXNzXJd_Qalvh63g_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/zGJ5ZWjK2s9nUNXy8CGf5A_96x96.png",
+            "time": "05:00:00",
+            "date": "16/10",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/xgsb6l3o9fes_f8c28a68_20261014.png?v=f8c28a68",
             "width": 1600,
             "height": 1200
           }
