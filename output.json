@@ -1405,83 +1405,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-522014dca8",
-          "name": "Oklahoma City Thunder vs Indiana Pacers | 07:00 14/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-522014dca8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-522014dca8",
-                  "name": "Oklahoma City Thunder vs Indiana Pacers",
-                  "streams": [
-                    {
-                      "id": "st-522014dca8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e49e76e66e",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791902775_hd/1791902775_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Oklahoma City Thunder",
-            "team_b": "Indiana Pacers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/75c31ec2c28ab86f2f54563667653426.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/3a8c9a8a304f078913c60b52698ab585.png",
-            "time": "07:00:00",
-            "date": "14/10",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/28532479_5c9397d4_20261014.png?v=5c9397d4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-15aaf002ce",
           "name": "Los Angeles Lakers vs Golden State Warriors | 09:00 14/10",
@@ -2203,6 +2131,366 @@
           }
         },
         {
+          "id": "gv-4133808638",
+          "name": "Minnesota Timberwolves vs Detroit Pistons | 07:00 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4133808638",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4133808638",
+                  "name": "Minnesota Timberwolves vs Detroit Pistons",
+                  "streams": [
+                    {
+                      "id": "st-4133808638",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2951783317",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791944098_hd/1791944098_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Minnesota Timberwolves",
+            "team_b": "Detroit Pistons",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e97782502546bad80da0347446a3a311.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c4677b9a5c8823ad3070069d8741a809.png",
+            "time": "07:00:00",
+            "date": "15/10",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/20632472_cd6162e8_20261014.png?v=cd6162e8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-65175c5536",
+          "name": "Milwaukee Bucks vs Chicago Bulls | 07:00 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-65175c5536",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-65175c5536",
+                  "name": "Milwaukee Bucks vs Chicago Bulls",
+                  "streams": [
+                    {
+                      "id": "st-65175c5536",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-264a9f4cc5",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791944127_hd/1791944127_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Milwaukee Bucks",
+            "team_b": "Chicago Bulls",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e82de69ea44942a3e90a5be6cf0004da.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c73eca8b9cc18ff386bf6ff4c1236b9e.png",
+            "time": "07:00:00",
+            "date": "15/10",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/28612276_f598efce_20261014.png?v=f598efce",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b26d462834",
+          "name": "San Antonio Spurs vs Phoenix Suns | 07:00 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b26d462834",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b26d462834",
+                  "name": "San Antonio Spurs vs Phoenix Suns",
+                  "streams": [
+                    {
+                      "id": "st-b26d462834",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75f36e8a70",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791944163_hd/1791944163_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "San Antonio Spurs",
+            "team_b": "Phoenix Suns",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/908efbb5ed053f61540cca47cc36e7ec.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/6a6855785a58edb23c76c99ed6601a33.png",
+            "time": "07:00:00",
+            "date": "15/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/22632474_ebff66e3_20261014.png?v=ebff66e3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-02975d5aca",
+          "name": "Dallas Mavericks vs New Orleans Pelicans | 07:00 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-02975d5aca",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-02975d5aca",
+                  "name": "Dallas Mavericks vs New Orleans Pelicans",
+                  "streams": [
+                    {
+                      "id": "st-02975d5aca",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a78292f90e",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791944186_hd/1791944186_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Dallas Mavericks",
+            "team_b": "New Orleans Pelicans",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/0ae1b26dafd6ba3ff82f91d19b235038.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/b745bb8171bc1a860d480067c1bb9b8f.png",
+            "time": "07:00:00",
+            "date": "15/10",
+            "blv": "Chồn",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21632473_2c6e77d2_20261014.png?v=2c6e77d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-5450f069b0",
+          "name": "Los Angeles Clippers vs Denver Nuggets | 09:30 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5450f069b0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5450f069b0",
+                  "name": "Los Angeles Clippers vs Denver Nuggets",
+                  "streams": [
+                    {
+                      "id": "st-5450f069b0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-62c9f8947a",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791944227_hd/1791944227_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Los Angeles Clippers",
+            "team_b": "Denver Nuggets",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/d96dfd2dedd39877ed1f06ea31270a46.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/36f49ea85609f6b7b32d9fbcba105c2d.png",
+            "time": "09:30:00",
+            "date": "15/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/23632475_90a5f201_20261014.png?v=90a5f201",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-e6f0f76e1f",
           "name": "New York Knicks vs Toronto Raptors | 06:30 16/10",
           "type": "single",
@@ -2651,6 +2939,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-fa86b49f6a",
+          "name": "Pepper Savings Bank Nữ vs Hungkuk Nữ | 13:30 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fa86b49f6a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fa86b49f6a",
+                  "name": "Pepper Savings Bank Nữ vs Hungkuk Nữ",
+                  "streams": [
+                    {
+                      "id": "st-fa86b49f6a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-388aa1c092",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791944255_hd/1791944255_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hàn Quốc Cúp KOVO Nữ",
+            "team_a": "Pepper Savings Bank Nữ",
+            "team_b": "Hungkuk Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/zaBfVVfM-Y57t5X1j.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/8bAPfUCa-SfuGhwLE.png",
+            "time": "13:30:00",
+            "date": "15/10",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/f881h08giym0_8340ec8d_20261014.png?v=8340ec8d",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2809,83 +3169,11 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-aa79b00ebc",
-          "name": "Dana White's Contender Series: Season 10, Week 10 vs Dana White's Contender Series: Season 10, Week 10 | 06:00 14/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aa79b00ebc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-aa79b00ebc",
-                  "name": "Dana White's Contender Series: Season 10, Week 10 vs Dana White's Contender Series: Season 10, Week 10",
-                  "streams": [
-                    {
-                      "id": "st-aa79b00ebc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d87ce9c707",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791103969_hd/1791103969_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Dana White's Contender Series: Season 10, Week 10",
-            "team_a": "Dana White's Contender Series: Season 10, Week 10",
-            "team_b": "Dana White's Contender Series: Season 10, Week 10",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5PqBjSuTa8tkab03yt8x1ljR3sm1zwX3DPgv-rEM1SqpBvX3RA6f9QRE&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5PqBjSuTa8tkab03yt8x1ljR3sm1zwX3DPgv-rEM1SqpBvX3RA6f9QRE&s=10",
-            "time": "06:00:00",
-            "date": "14/10",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/85syb27z5gra_2ebec21f_20261014.png?v=2ebec21f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-351ee6b5b5",
           "name": "ONE Friday Fights 175 vs The Inner Circle 35 | 18:30 16/10",
@@ -3251,6 +3539,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/zc02u1gdwf3g_9e050375_20261014.png?v=9e050375",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ce95895aec",
+          "name": "Los Angeles Dodgers vs Milwaukee Brewers | 07:00 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ce95895aec",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ce95895aec",
+                  "name": "Los Angeles Dodgers vs Milwaukee Brewers",
+                  "streams": [
+                    {
+                      "id": "st-ce95895aec",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6f2e4709a8",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791944310_hd/1791944310_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB - Championship Series",
+            "team_a": "Los Angeles Dodgers",
+            "team_b": "Milwaukee Brewers",
+            "logo_a": "https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/nitvFMWg-xIOhFH4B.png",
+            "time": "07:00:00",
+            "date": "15/10",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/iad1ghgg4nbp_6472594c_20261014.png?v=6472594c",
             "width": 1600,
             "height": 1200
           }
