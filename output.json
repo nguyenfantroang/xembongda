@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-fe7d7df6b1",
-          "name": "FC Terek Groznyi vs Dinamo Moscow | 22:30 14/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fe7d7df6b1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fe7d7df6b1",
-                  "name": "FC Terek Groznyi vs Dinamo Moscow",
-                  "streams": [
-                    {
-                      "id": "st-fe7d7df6b1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a39ce62888",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791908730_hd/1791908730_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp Nga",
-            "team_a": "FC Terek Groznyi",
-            "team_b": "Dinamo Moscow",
-            "logo_a": "https://images.keovip88.net/images/teams/terek-grozny.png",
-            "logo_b": "https://images.keovip88.net/images/teams/dynamo-moscow.png",
-            "time": "22:30:00",
-            "date": "14/10",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a445b1c16bc0c527505aeb3_b5870804_20261015.png?v=b5870804",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ad7101bd5b",
           "name": "Feyenoord Rotterdam vs Como | 23:45 14/10",
@@ -1261,83 +1189,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f8e29a7ddd",
-          "name": "Hapoel Tel-Aviv vs Besiktas Cola Turka | 23:00 14/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f8e29a7ddd",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f8e29a7ddd",
-                  "name": "Hapoel Tel-Aviv vs Besiktas Cola Turka",
-                  "streams": [
-                    {
-                      "id": "st-f8e29a7ddd",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-739aead8a1",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791903529_hd/1791903529_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "EURO",
-            "team_a": "Hapoel Tel-Aviv",
-            "team_b": "Besiktas Cola Turka",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/3cf0f296f43dd0a1184d339fd24c97af.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/4c56f517bc64726563ed7f0d226a828e.png",
-            "time": "23:00:00",
-            "date": "14/10",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/35592270_ea666876_20261015.png?v=ea666876",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-852a927157",
           "name": "Miami Heat vs Brooklyn Nets | 06:30 15/10",
@@ -2206,7 +2062,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2291,10 +2147,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2343,7 +2199,7 @@
             "time": "01:30:00",
             "date": "15/10",
             "blv": "Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
