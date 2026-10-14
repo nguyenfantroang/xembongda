@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-e1ed2c0e4a",
-          "name": "Persib Bandung vs Thể Công Viettel | 19:15 14/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e1ed2c0e4a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e1ed2c0e4a",
-                  "name": "Persib Bandung vs Thể Công Viettel",
-                  "streams": [
-                    {
-                      "id": "st-e1ed2c0e4a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5803c29829",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791902249_hd/1791902249_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Cup",
-            "team_a": "Persib Bandung",
-            "team_b": "Thể Công Viettel",
-            "logo_a": "https://images.keovip88.net/images/teams/persib-bandung.png",
-            "logo_b": "https://images.keovip88.net/images/teams/viettel-fc.png",
-            "time": "19:15:00",
-            "date": "14/10",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aa5ea751d1aab51a804b866_ffc4ecbf_20261014.png?v=ffc4ecbf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-9600f4b157",
           "name": "Nasaf Qarshi vs Al Wahda | 20:45 14/10",
@@ -2061,87 +1989,6 @@
       ]
     },
     {
-      "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-7a24fd0c3a",
-          "name": "Daniil Medvedev vs Stefanos Tsitsipas | 17:10 14/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7a24fd0c3a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7a24fd0c3a",
-                  "name": "Daniil Medvedev vs Stefanos Tsitsipas",
-                  "streams": [
-                    {
-                      "id": "st-7a24fd0c3a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c39ebb78da",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791909314_hd/1791909314_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Shanghai Open",
-            "team_a": "Daniil Medvedev",
-            "team_b": "Stefanos Tsitsipas",
-            "logo_a": "https://static.flashscore.com/res/image/data/QujxPtf5-6Z1AkBdk.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/zLzqR2Xg-hbIQr8HQ.png",
-            "time": "17:10:00",
-            "date": "14/10",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/nu83u3b4kypk_1b35917d_20261014.png?v=1b35917d",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
       "id": "cate_bongchuyen",
       "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
@@ -2368,83 +2215,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-d15059e81d",
-          "name": "BFX vs KT | 16:00 14/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d15059e81d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d15059e81d",
-                  "name": "BFX vs KT",
-                  "streams": [
-                    {
-                      "id": "st-d15059e81d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7dbc848b73",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791909630_hd/1791909630_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Demacia Cup Global Invitational",
-            "team_a": "BFX",
-            "team_b": "KT",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDRrEmNb1ep4AF3ZmHm103vbTGm5vAVnPog_JDcdUYxQ&s=10",
-            "logo_b": "https://static.flashscore.com/res/image/data/vRS62UcM-WbSxsmeb.png",
-            "time": "16:00:00",
-            "date": "14/10",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ixbn3szste4c_b9fb8f03_20261014.png?v=b9fb8f03",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-7513aaf650",
           "name": "C9 vs KC | 01:00 16/10",
