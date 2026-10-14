@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a88e7955d02aeccba00528f_625ba35c_20261014.png?v=625ba35c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-66bab944f3",
-          "name": "SK Super Nova U19 vs Cliftonville U19 | 22:00 14/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-66bab944f3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-66bab944f3",
-                  "name": "SK Super Nova U19 vs Cliftonville U19",
-                  "streams": [
-                    {
-                      "id": "st-66bab944f3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b9fa336b0c",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791908675_hd/1791908675_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Youth League",
-            "team_a": "SK Super Nova U19",
-            "team_b": "Cliftonville U19",
-            "logo_a": "https://images.keovip88.net/images/teams/sk-super-nova-u19.png",
-            "logo_b": "https://images.keovip88.net/images/teams/cliftonville-u19.png",
-            "time": "22:00:00",
-            "date": "14/10",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aa9dd0db5dda8c9400d666c_f14362c5_20261014.png?v=f14362c5",
             "width": 1600,
             "height": 1200
           }
