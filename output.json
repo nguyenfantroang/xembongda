@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "14:45:00",
             "date": "14/10",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2710,83 +2710,11 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5442b81599",
-          "name": "Casper Ruud vs Felix Auger-Aliassime | 12:30 14/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5442b81599",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5442b81599",
-                  "name": "Casper Ruud vs Felix Auger-Aliassime",
-                  "streams": [
-                    {
-                      "id": "st-5442b81599",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e93a717c71",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791941468_hd/1791941468_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Shanghai Open",
-            "team_a": "Casper Ruud",
-            "team_b": "Felix Auger-Aliassime",
-            "logo_a": "https://static.flashscore.com/res/image/data/EwLW3og5-6NHltuug.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/vyQLHQEG-8fYqFF2n.png",
-            "time": "12:30:00",
-            "date": "14/10",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/rhi9fusxga76_fe9e3254_20261014.png?v=fe9e3254",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-7a24fd0c3a",
           "name": "Daniil Medvedev vs Stefanos Tsitsipas | 17:10 14/10",
