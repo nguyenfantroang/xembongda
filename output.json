@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-ad7101bd5b",
-          "name": "Feyenoord Rotterdam vs Como | 23:45 14/10",
+          "id": "gv-a88ac2631b",
+          "name": "Manchester City vs Paris Saint Germain | 02:00 15/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,40 @@
           ],
           "sources": [
             {
-              "id": "src-ad7101bd5b",
+              "id": "src-a88ac2631b",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-ad7101bd5b",
-                  "name": "Feyenoord Rotterdam vs Como",
+                  "id": "ct-a88ac2631b",
+                  "name": "Manchester City vs Paris Saint Germain",
                   "streams": [
                     {
-                      "id": "st-ad7101bd5b",
+                      "id": "st-a88ac2631b",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-c0c5b76ced",
-                          "name": "Ngọng",
+                          "id": "lnk-e2f0bcfae0",
+                          "name": "Ben",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791903115_hd/1791903115_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791903304_hd/1791903304_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-bbb59b153c",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791903307_hd/1791903307_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,13 +86,13 @@
           ],
           "org_metadata": {
             "league": "C1",
-            "team_a": "Feyenoord Rotterdam",
-            "team_b": "Como",
-            "logo_a": "https://images.keovip88.net/images/teams/feyenoord.png",
-            "logo_b": "https://images.keovip88.net/images/teams/como.png",
-            "time": "23:45:00",
-            "date": "14/10",
-            "blv": "Ngọng",
+            "team_a": "Manchester City",
+            "team_b": "Paris Saint Germain",
+            "logo_a": "https://images.keovip88.net/images/teams/manchester-city.png",
+            "logo_b": "https://images.keovip88.net/images/teams/paris-saint-germain-psg.png",
+            "time": "02:00:00",
+            "date": "15/10",
+            "blv": "Ben, Chồn",
             "is_live": true,
             "cate_type": "football"
           },
@@ -83,79 +100,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4cd164566b7f70b4338_f16d1b43_20261015.png?v=f16d1b43",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-161b4fda50",
-          "name": "LASK Linz vs Liverpool | 23:45 14/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-161b4fda50",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-161b4fda50",
-                  "name": "LASK Linz vs Liverpool",
-                  "streams": [
-                    {
-                      "id": "st-161b4fda50",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf00556ff1",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791903154_hd/1791903154_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C1",
-            "team_a": "LASK Linz",
-            "team_b": "Liverpool",
-            "logo_a": "https://images.keovip88.net/images/teams/lask-linz.png",
-            "logo_b": "https://images.keovip88.net/images/teams/liverpool.png",
-            "time": "23:45:00",
-            "date": "14/10",
-            "blv": "Tỵ ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4cd164566b7f70b4337_97223019_20261015.png?v=97223019",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a92220607a55a68f709da8e_872c9377_20261015.png?v=872c9377",
             "width": 1600,
             "height": 1200
           }
@@ -449,6 +394,78 @@
           }
         },
         {
+          "id": "gv-bc0fcbdbb4",
+          "name": "Slovan Bratislava vs VfB Stuttgart | 02:00 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bc0fcbdbb4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bc0fcbdbb4",
+                  "name": "Slovan Bratislava vs VfB Stuttgart",
+                  "streams": [
+                    {
+                      "id": "st-bc0fcbdbb4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc3c05484e",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791903381_hd/1791903381_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C1",
+            "team_a": "Slovan Bratislava",
+            "team_b": "VfB Stuttgart",
+            "logo_a": "https://images.keovip88.net/images/teams/slovan-bratislava.png",
+            "logo_b": "https://images.keovip88.net/images/teams/vfb-stuttgart.png",
+            "time": "02:00:00",
+            "date": "15/10",
+            "blv": "Trĩ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4cd164566b7f70b4339_446c9d74_20261015.png?v=446c9d74",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-db83589278",
           "name": "AS Roma vs Real Madrid | 02:00 15/10",
           "type": "single",
@@ -588,167 +605,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac58bd324d46db870fc72a5_8346cae4_20261015.png?v=8346cae4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-a88ac2631b",
-          "name": "Manchester City vs Paris Saint Germain | 02:00 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a88ac2631b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a88ac2631b",
-                  "name": "Manchester City vs Paris Saint Germain",
-                  "streams": [
-                    {
-                      "id": "st-a88ac2631b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e2f0bcfae0",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791903304_hd/1791903304_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-bbb59b153c",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791903307_hd/1791903307_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C1",
-            "team_a": "Manchester City",
-            "team_b": "Paris Saint Germain",
-            "logo_a": "https://images.keovip88.net/images/teams/manchester-city.png",
-            "logo_b": "https://images.keovip88.net/images/teams/paris-saint-germain-psg.png",
-            "time": "02:00:00",
-            "date": "15/10",
-            "blv": "Ben, Chồn",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a92220607a55a68f709da8e_872c9377_20261015.png?v=872c9377",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-bc0fcbdbb4",
-          "name": "Slovan Bratislava vs VfB Stuttgart | 02:00 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bc0fcbdbb4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bc0fcbdbb4",
-                  "name": "Slovan Bratislava vs VfB Stuttgart",
-                  "streams": [
-                    {
-                      "id": "st-bc0fcbdbb4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc3c05484e",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791903381_hd/1791903381_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C1",
-            "team_a": "Slovan Bratislava",
-            "team_b": "VfB Stuttgart",
-            "logo_a": "https://images.keovip88.net/images/teams/slovan-bratislava.png",
-            "logo_b": "https://images.keovip88.net/images/teams/vfb-stuttgart.png",
-            "time": "02:00:00",
-            "date": "15/10",
-            "blv": "Trĩ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4cd164566b7f70b4339_446c9d74_20261015.png?v=446c9d74",
             "width": 1600,
             "height": 1200
           }
@@ -1181,6 +1037,366 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4d9164566b7f70b43a5_5035f7b9_20261015.png?v=5035f7b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-cddb5b7588",
+          "name": "AFC Bournemouth vs Sturm Graz | 02:00 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cddb5b7588",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cddb5b7588",
+                  "name": "AFC Bournemouth vs Sturm Graz",
+                  "streams": [
+                    {
+                      "id": "st-cddb5b7588",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8a71f69f3e",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791948700_hd/1791948700_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C2",
+            "team_a": "AFC Bournemouth",
+            "team_b": "Sturm Graz",
+            "logo_a": "https://images.keovip88.net/images/teams/afc-bournemouth.png",
+            "logo_b": "https://images.keovip88.net/images/teams/sturm-graz.png",
+            "time": "02:00:00",
+            "date": "16/10",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93738cfccd5ecc44060e81_539e0254_20261015.png?v=539e0254",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-551f063ed9",
+          "name": "Stade Rennais FC vs OFI Crete | 02:00 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-551f063ed9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-551f063ed9",
+                  "name": "Stade Rennais FC vs OFI Crete",
+                  "streams": [
+                    {
+                      "id": "st-551f063ed9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-48e149b854",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791948727_hd/1791948727_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C2",
+            "team_a": "Stade Rennais FC",
+            "team_b": "OFI Crete",
+            "logo_a": "https://images.keovip88.net/images/teams/rennes.png",
+            "logo_b": "https://images.keovip88.net/images/teams/ofi-crete.png",
+            "time": "02:00:00",
+            "date": "16/10",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a9767c031f9dda471080123_5acdc631_20261015.png?v=5acdc631",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d3e343d4e6",
+          "name": "Hoffenheim vs Besiktas JK | 02:00 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d3e343d4e6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d3e343d4e6",
+                  "name": "Hoffenheim vs Besiktas JK",
+                  "streams": [
+                    {
+                      "id": "st-d3e343d4e6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3becb6813f",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791948839_hd/1791948839_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C2",
+            "team_a": "Hoffenheim",
+            "team_b": "Besiktas JK",
+            "logo_a": "https://images.keovip88.net/images/teams/tsg-hoffenheim.png",
+            "logo_b": "https://images.keovip88.net/images/teams/besiktas-jk.png",
+            "time": "02:00:00",
+            "date": "16/10",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4d6164566b7f70b4380_8df854c9_20261015.png?v=8df854c9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-75c8936a1f",
+          "name": "Celta Vigo vs Juventus | 02:00 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-75c8936a1f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-75c8936a1f",
+                  "name": "Celta Vigo vs Juventus",
+                  "streams": [
+                    {
+                      "id": "st-75c8936a1f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b6a0de63f4",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791948860_hd/1791948860_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C2",
+            "team_a": "Celta Vigo",
+            "team_b": "Juventus",
+            "logo_a": "https://images.keovip88.net/images/teams/celta-vigo.png",
+            "logo_b": "https://images.keovip88.net/images/teams/juventus.png",
+            "time": "02:00:00",
+            "date": "16/10",
+            "blv": "Dory",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93738cfccd5ecc44060e77_065d3a8d_20261015.png?v=065d3a8d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b3e1de7c81",
+          "name": "SL Benfica vs Celtic | 02:00 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b3e1de7c81",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b3e1de7c81",
+                  "name": "SL Benfica vs Celtic",
+                  "streams": [
+                    {
+                      "id": "st-b3e1de7c81",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1639a11176",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791948876_hd/1791948876_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C2",
+            "team_a": "SL Benfica",
+            "team_b": "Celtic",
+            "logo_a": "https://images.keovip88.net/images/teams/benfica.png",
+            "logo_b": "https://images.keovip88.net/images/teams/celtic-fc.png",
+            "time": "02:00:00",
+            "date": "16/10",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93738cfccd5ecc44060e72_bbcf2cc9_20261015.png?v=bbcf2cc9",
             "width": 1600,
             "height": 1200
           }
