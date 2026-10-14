@@ -1411,150 +1411,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-ef64692f8c",
-          "name": "Orlando Magic vs Cleveland Cavaliers | 06:00 14/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ef64692f8c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ef64692f8c",
-                  "name": "Orlando Magic vs Cleveland Cavaliers",
-                  "streams": [
-                    {
-                      "id": "st-ef64692f8c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-435da3b914",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791800593_hd/1791800593_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Orlando Magic",
-            "team_b": "Cleveland Cavaliers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/2566b135b0e54971193a132bd8a1473c.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/d4d48671e1b8c3830897ac4f6604ea9a.png",
-            "time": "06:00:00",
-            "date": "14/10",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/24532475_c3835f54_20261014.png?v=c3835f54",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8939899aa1",
-          "name": "Toronto Raptors vs New York Knicks | 06:00 14/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8939899aa1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8939899aa1",
-                  "name": "Toronto Raptors vs New York Knicks",
-                  "streams": [
-                    {
-                      "id": "st-8939899aa1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-407956c7be",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791800620_hd/1791800620_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Toronto Raptors",
-            "team_b": "New York Knicks",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/3f61db02c20eb73e5f27948b3122f2fb.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c34850b658b2b7735d3bf51912e01bd1.png",
-            "time": "06:00:00",
-            "date": "14/10",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/28022271_428b3724_20261014.png?v=428b3724",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-522014dca8",
           "name": "Oklahoma City Thunder vs Indiana Pacers | 07:00 14/10",
           "type": "single",
@@ -1634,10 +1490,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1686,7 +1542,7 @@
             "time": "09:00:00",
             "date": "14/10",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1706,10 +1562,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1758,7 +1614,7 @@
             "time": "09:00:00",
             "date": "14/10",
             "blv": "Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -2427,6 +2283,150 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-de7bc70343",
+          "name": "Botic van de Zandschulp vs Rafael Jodar | 11:00 14/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-de7bc70343",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-de7bc70343",
+                  "name": "Botic van de Zandschulp vs Rafael Jodar",
+                  "streams": [
+                    {
+                      "id": "st-de7bc70343",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5192a914b",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791941380_hd/1791941380_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Shanghai Open",
+            "team_a": "Botic van de Zandschulp",
+            "team_b": "Rafael Jodar",
+            "logo_a": "https://static.flashscore.com/res/image/data/IBtP1lf5-dbDiF5vB.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/A5stpqzB-bJuw1oYE.png",
+            "time": "11:00:00",
+            "date": "14/10",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/kcamzktghwsf_69acda20_20261014.png?v=69acda20",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-5442b81599",
+          "name": "Casper Ruud vs Felix Auger-Aliassime | 12:30 14/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5442b81599",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5442b81599",
+                  "name": "Casper Ruud vs Felix Auger-Aliassime",
+                  "streams": [
+                    {
+                      "id": "st-5442b81599",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e93a717c71",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791941468_hd/1791941468_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Shanghai Open",
+            "team_a": "Casper Ruud",
+            "team_b": "Felix Auger-Aliassime",
+            "logo_a": "https://static.flashscore.com/res/image/data/EwLW3og5-6NHltuug.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/vyQLHQEG-8fYqFF2n.png",
+            "time": "12:30:00",
+            "date": "14/10",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/rhi9fusxga76_fe9e3254_20261014.png?v=fe9e3254",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-7a24fd0c3a",
           "name": "Daniil Medvedev vs Stefanos Tsitsipas | 17:10 14/10",
