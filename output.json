@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,6 +89,78 @@
           }
         },
         {
+          "id": "gv-ad7101bd5b",
+          "name": "Feyenoord Rotterdam vs Como | 23:45 14/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ad7101bd5b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ad7101bd5b",
+                  "name": "Feyenoord Rotterdam vs Como",
+                  "streams": [
+                    {
+                      "id": "st-ad7101bd5b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c0c5b76ced",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791903115_hd/1791903115_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C1",
+            "team_a": "Feyenoord Rotterdam",
+            "team_b": "Como",
+            "logo_a": "https://images.keovip88.net/images/teams/feyenoord.png",
+            "logo_b": "https://images.keovip88.net/images/teams/como.png",
+            "time": "23:45:00",
+            "date": "14/10",
+            "blv": "Ngọng",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4cd164566b7f70b4338_f16d1b43_20261014.png?v=f16d1b43",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-161b4fda50",
           "name": "LASK Linz vs Liverpool | 23:45 14/10",
           "type": "single",
@@ -156,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4cd164566b7f70b4337_97223019_20261014.png?v=97223019",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ad7101bd5b",
-          "name": "Feyenoord Rotterdam vs Como | 23:45 14/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ad7101bd5b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ad7101bd5b",
-                  "name": "Feyenoord Rotterdam vs Como",
-                  "streams": [
-                    {
-                      "id": "st-ad7101bd5b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c0c5b76ced",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791903115_hd/1791903115_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C1",
-            "team_a": "Feyenoord Rotterdam",
-            "team_b": "Como",
-            "logo_a": "https://images.keovip88.net/images/teams/feyenoord.png",
-            "logo_b": "https://images.keovip88.net/images/teams/como.png",
-            "time": "23:45:00",
-            "date": "14/10",
-            "blv": "Ngọng",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4cd164566b7f70b4338_f16d1b43_20261014.png?v=f16d1b43",
             "width": 1600,
             "height": 1200
           }
@@ -821,6 +821,438 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac58bd324d46db870fc72a5_8346cae4_20261014.png?v=8346cae4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-5e22d34e87",
+          "name": "SC Uniao Torreense vs Sunderland | 23:45 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5e22d34e87",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5e22d34e87",
+                  "name": "SC Uniao Torreense vs Sunderland",
+                  "streams": [
+                    {
+                      "id": "st-5e22d34e87",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ab04bafd05",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791948033_hd/1791948033_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C2",
+            "team_a": "SC Uniao Torreense",
+            "team_b": "Sunderland",
+            "logo_a": "https://images.keovip88.net/images/teams/scu-torreense.png",
+            "logo_b": "https://images.keovip88.net/images/teams/sunderland-afc.png",
+            "time": "23:45:00",
+            "date": "15/10",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a9767c031f9dda471080121_0bc0e204_20261014.png?v=0bc0e204",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ee5f708b27",
+          "name": "Red Bull Salzburg vs AC Milan | 23:45 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ee5f708b27",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ee5f708b27",
+                  "name": "Red Bull Salzburg vs AC Milan",
+                  "streams": [
+                    {
+                      "id": "st-ee5f708b27",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-42666135af",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791948082_hd/1791948082_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C2",
+            "team_a": "Red Bull Salzburg",
+            "team_b": "AC Milan",
+            "logo_a": "https://images.keovip88.net/images/teams/red-bull-salzburg.png",
+            "logo_b": "https://images.keovip88.net/images/teams/ac-milan.png",
+            "time": "23:45:00",
+            "date": "15/10",
+            "blv": "Ngu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93738cfccd5ecc44060e7e_5cd43e6b_20261014.png?v=5cd43e6b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-166fbc6c16",
+          "name": "Saint Gilloise vs Real Sociedad | 23:45 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-166fbc6c16",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-166fbc6c16",
+                  "name": "Saint Gilloise vs Real Sociedad",
+                  "streams": [
+                    {
+                      "id": "st-166fbc6c16",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b9a66b7e8f",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791948096_hd/1791948096_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C2",
+            "team_a": "Saint Gilloise",
+            "team_b": "Real Sociedad",
+            "logo_a": "https://images.keovip88.net/images/teams/saint-gilloise.png",
+            "logo_b": "https://images.keovip88.net/images/teams/real-sociedad.png",
+            "time": "23:45:00",
+            "date": "15/10",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a92221807a55a68f709dab5_35b9b73b_20261014.png?v=35b9b73b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c81d510730",
+          "name": "Lyonnais vs Crystal Palace | 23:45 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c81d510730",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c81d510730",
+                  "name": "Lyonnais vs Crystal Palace",
+                  "streams": [
+                    {
+                      "id": "st-c81d510730",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-80c40b46cd",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791948130_hd/1791948130_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C2",
+            "team_a": "Lyonnais",
+            "team_b": "Crystal Palace",
+            "logo_a": "https://images.keovip88.net/images/teams/lyon.png",
+            "logo_b": "https://images.keovip88.net/images/teams/crystal-palace.png",
+            "time": "23:45:00",
+            "date": "15/10",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4d6164566b7f70b437e_079173f5_20261014.png?v=079173f5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d1c391c2b0",
+          "name": "Lech Poznan vs Bayer Leverkusen | 23:45 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d1c391c2b0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d1c391c2b0",
+                  "name": "Lech Poznan vs Bayer Leverkusen",
+                  "streams": [
+                    {
+                      "id": "st-d1c391c2b0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b244a58a80",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791948145_hd/1791948145_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C2",
+            "team_a": "Lech Poznan",
+            "team_b": "Bayer Leverkusen",
+            "logo_a": "https://images.keovip88.net/images/teams/lech-poznan.png",
+            "logo_b": "https://images.keovip88.net/images/teams/bayer-leverkusen.png",
+            "time": "23:45:00",
+            "date": "15/10",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4d6164566b7f70b437d_82d60604_20261014.png?v=82d60604",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d245f48860",
+          "name": "Hajduk Split vs Ajax Amsterdam | 23:45 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d245f48860",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d245f48860",
+                  "name": "Hajduk Split vs Ajax Amsterdam",
+                  "streams": [
+                    {
+                      "id": "st-d245f48860",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d19d5a7946",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791948276_hd/1791948276_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Europa Conference League",
+            "team_a": "Hajduk Split",
+            "team_b": "Ajax Amsterdam",
+            "logo_a": "https://images.keovip88.net/images/teams/hajduk-split.png",
+            "logo_b": "https://images.keovip88.net/images/teams/afc-ajax.png",
+            "time": "23:45:00",
+            "date": "15/10",
+            "blv": "Dory",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4d9164566b7f70b43a5_5035f7b9_20261014.png?v=5035f7b9",
             "width": 1600,
             "height": 1200
           }
