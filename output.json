@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,6 +89,78 @@
           }
         },
         {
+          "id": "gv-161b4fda50",
+          "name": "LASK Linz vs Liverpool | 23:45 14/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-161b4fda50",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-161b4fda50",
+                  "name": "LASK Linz vs Liverpool",
+                  "streams": [
+                    {
+                      "id": "st-161b4fda50",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf00556ff1",
+                          "name": "Tỵ ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791903154_hd/1791903154_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C1",
+            "team_a": "LASK Linz",
+            "team_b": "Liverpool",
+            "logo_a": "https://images.keovip88.net/images/teams/lask-linz.png",
+            "logo_b": "https://images.keovip88.net/images/teams/liverpool.png",
+            "time": "23:45:00",
+            "date": "14/10",
+            "blv": "Tỵ ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4cd164566b7f70b4337_97223019_20261014.png?v=97223019",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-ad7101bd5b",
           "name": "Feyenoord Rotterdam vs Como | 23:45 14/10",
           "type": "single",
@@ -161,78 +233,6 @@
           }
         },
         {
-          "id": "gv-161b4fda50",
-          "name": "LASK Linz vs Liverpool | 23:45 14/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-161b4fda50",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-161b4fda50",
-                  "name": "LASK Linz vs Liverpool",
-                  "streams": [
-                    {
-                      "id": "st-161b4fda50",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf00556ff1",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791903154_hd/1791903154_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C1",
-            "team_a": "LASK Linz",
-            "team_b": "Liverpool",
-            "logo_a": "https://images.keovip88.net/images/teams/lask-linz.png",
-            "logo_b": "https://images.keovip88.net/images/teams/liverpool.png",
-            "time": "23:45:00",
-            "date": "14/10",
-            "blv": "Tỵ ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4cd164566b7f70b4337_97223019_20261014.png?v=97223019",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-ceae7af995",
           "name": "Aston Villa vs Fenerbahce | 02:00 15/10",
           "type": "single",
@@ -260,11 +260,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-9c55499b73",
+                          "id": "lnk-e5b5da1761",
                           "name": "Mù",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791903194_hd/1791903194_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791903194_hd/1791903194_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -332,11 +332,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-b649f8690c",
+                          "id": "lnk-75e3bb6cf0",
                           "name": "Bee",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791903217_hd/1791903217_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791903217_hd/1791903217_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -404,11 +404,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-80d151b546",
+                          "id": "lnk-27181be836",
                           "name": "Ngọng",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791903263_hd/1791903263_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791903263_hd/1791903263_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -565,11 +565,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-38a9214f1e",
+                          "id": "lnk-f80e3ff80a",
                           "name": "Dory",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791903339_hd/1791903339_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791903339_hd/1791903339_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -637,11 +637,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-6005684e77",
+                          "id": "lnk-bc3c05484e",
                           "name": "Trĩ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791903381_hd/1791903381_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791903381_hd/1791903381_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -709,11 +709,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-af2855836c",
+                          "id": "lnk-b2235a215e",
                           "name": "Mason",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791903408_hd/1791903408_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791903408_hd/1791903408_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -749,6 +749,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e4a_a31c839c_20261014.png?v=a31c839c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0665908418",
+          "name": "Lincoln City vs West Ham United | 02:00 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0665908418",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0665908418",
+                  "name": "Lincoln City vs West Ham United",
+                  "streams": [
+                    {
+                      "id": "st-0665908418",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c66326b64d",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791993813_hd/1791993813_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hạng Nhất Anh",
+            "team_a": "Lincoln City",
+            "team_b": "West Ham United",
+            "logo_a": "https://images.keovip88.net/images/teams/lincoln-city.png",
+            "logo_b": "https://images.keovip88.net/images/teams/west-ham-united.png",
+            "time": "02:00:00",
+            "date": "15/10",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac58bd324d46db870fc72a5_8346cae4_20261014.png?v=8346cae4",
             "width": 1600,
             "height": 1200
           }
@@ -835,150 +907,6 @@
           }
         },
         {
-          "id": "gv-779fdeae1d",
-          "name": "Efes Pilsen vs FC Bayern Munchen | 00:30 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-779fdeae1d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-779fdeae1d",
-                  "name": "Efes Pilsen vs FC Bayern Munchen",
-                  "streams": [
-                    {
-                      "id": "st-779fdeae1d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4e07230ad",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791800662_hd/1791800662_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "EURO",
-            "team_a": "Efes Pilsen",
-            "team_b": "FC Bayern Munchen",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/39e14cf9edd095fe5daed21f75b67bd3.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/1ee20d34aaf3954a5ae419166d015a1d.png",
-            "time": "00:30:00",
-            "date": "15/10",
-            "blv": "Chồn",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/36592271_fafd2bfb_20261014.png?v=fafd2bfb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-dc910428c7",
-          "name": "Paris vs Virtus Bologna | 01:45 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dc910428c7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-dc910428c7",
-                  "name": "Paris vs Virtus Bologna",
-                  "streams": [
-                    {
-                      "id": "st-dc910428c7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-09cd93fccf",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791800697_hd/1791800697_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "EURO",
-            "team_a": "Paris",
-            "team_b": "Virtus Bologna",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/379bcd41f23aff50b9aa09d0d41e22d1.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/dbace366c85c2255f2d1eab26edfe7b9.png",
-            "time": "01:45:00",
-            "date": "15/10",
-            "blv": "Điếc",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/37592272_6a58fd47_20261014.png?v=6a58fd47",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-852a927157",
           "name": "Miami Heat vs Brooklyn Nets | 06:30 15/10",
           "type": "single",
@@ -1006,11 +934,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-22d28a86d9",
+                          "id": "lnk-91e10477c8",
                           "name": "Cầy",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791800726_hd/1791800726_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791800726_hd/1791800726_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1078,11 +1006,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-26e11cfc97",
+                          "id": "lnk-8e1a06459a",
                           "name": "Tôm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791800754_hd/1791800754_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791800754_hd/1791800754_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1919,6 +1847,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/fpe1qt6jgbsl_e51709f3_20261014.png?v=e51709f3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-12325403d9",
+          "name": "Chieri '76 Nữ vs Conegliano Nữ | 01:30 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-12325403d9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-12325403d9",
+                  "name": "Chieri '76 Nữ vs Conegliano Nữ",
+                  "streams": [
+                    {
+                      "id": "st-12325403d9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-64fd3980f8",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791994163_hd/1791994163_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italy - Seri A1 Nữ ",
+            "team_a": "Chieri '76 Nữ",
+            "team_b": "Conegliano Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/6m34C7xS-zwIwk56d.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/8SyXR1f5-zwIwk56d.png",
+            "time": "01:30:00",
+            "date": "15/10",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/mi8ff3vq94zm_d2c9779e_20261014.png?v=d2c9779e",
             "width": 1600,
             "height": 1200
           }
