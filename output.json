@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9600f4b157",
-          "name": "Nasaf Qarshi vs Al Wahda | 20:45 14/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9600f4b157",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9600f4b157",
-                  "name": "Nasaf Qarshi vs Al Wahda",
-                  "streams": [
-                    {
-                      "id": "st-9600f4b157",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-01d3bac70c",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791902294_hd/1791902294_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Cup",
-            "team_a": "Nasaf Qarshi",
-            "team_b": "Al Wahda",
-            "logo_a": "https://images.keovip88.net/images/teams/nasaf-qarshi.png",
-            "logo_b": "https://images.keovip88.net/images/teams/al-wahdauae.png",
-            "time": "20:45:00",
-            "date": "14/10",
-            "blv": "Tỵ ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a88e7955d02aeccba00528f_625ba35c_20261014.png?v=625ba35c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-fe7d7df6b1",
           "name": "FC Terek Groznyi vs Dinamo Moscow | 22:30 14/10",
@@ -188,11 +116,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-2672ac261f",
+                          "id": "lnk-c0c5b76ced",
                           "name": "Ngọng",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791903115_hd/1791903115_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791903115_hd/1791903115_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -260,11 +188,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-9da0078ac7",
+                          "id": "lnk-bf00556ff1",
                           "name": "Tỵ ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791903154_hd/1791903154_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791903154_hd/1791903154_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -829,7 +757,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -842,10 +770,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -862,11 +790,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-e7dcfaff23",
+                          "id": "lnk-739aead8a1",
                           "name": "Điếc",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791903529_hd/1791903529_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791903529_hd/1791903529_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -894,7 +822,7 @@
             "time": "23:00:00",
             "date": "14/10",
             "blv": "Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -934,11 +862,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-2d93f56e2b",
+                          "id": "lnk-a4e07230ad",
                           "name": "Chồn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791800662_hd/1791800662_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791800662_hd/1791800662_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1924,8 +1852,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-9fb1456274",
-          "name": "Aras Kargo Nữ vs Galatasaray nữ | 20:00 14/10",
+          "id": "gv-2f22d39e43",
+          "name": "Fenerbahce Nữ vs Goztepe Nữ | 23:00 14/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1939,23 +1867,23 @@
           ],
           "sources": [
             {
-              "id": "src-9fb1456274",
+              "id": "src-2f22d39e43",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-9fb1456274",
-                  "name": "Aras Kargo Nữ vs Galatasaray nữ",
+                  "id": "ct-2f22d39e43",
+                  "name": "Fenerbahce Nữ vs Goztepe Nữ",
                   "streams": [
                     {
-                      "id": "st-9fb1456274",
+                      "id": "st-2f22d39e43",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-b57e39149f",
+                          "id": "lnk-4c7819ffa6",
                           "name": "Sún",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791909240_hd/1791909240_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791990891_hd/1791990891_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1976,11 +1904,11 @@
           ],
           "org_metadata": {
             "league": "Turkey Sultanlar Ligi Nữ ",
-            "team_a": "Aras Kargo Nữ",
-            "team_b": "Galatasaray nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/OlaTX8Xg-OWRI6OC5.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/5/51/Galatasaray_daikin_voleybol_logo.png",
-            "time": "20:00:00",
+            "team_a": "Fenerbahce Nữ",
+            "team_b": "Goztepe Nữ",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/am1hqNcHXX7QHNzqOjT6qw_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/WB1orOJBxA3j12X_54XREg_96x96.png",
+            "time": "23:00:00",
             "date": "14/10",
             "blv": "Sún",
             "is_live": true,
@@ -1990,7 +1918,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/44llxvwjnjg8_bc4ae9e6_20261014.png?v=bc4ae9e6",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/fpe1qt6jgbsl_e51709f3_20261014.png?v=e51709f3",
             "width": 1600,
             "height": 1200
           }
