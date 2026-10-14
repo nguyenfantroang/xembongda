@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-bdbf44fcdd",
-          "name": "Fagiano Okayama vs Nagoya Grampus | 17:00 14/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bdbf44fcdd",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bdbf44fcdd",
-                  "name": "Fagiano Okayama vs Nagoya Grampus",
-                  "streams": [
-                    {
-                      "id": "st-bdbf44fcdd",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-56372e616c",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791902374_hd/1791902374_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japan - J. League Cup",
-            "team_a": "Fagiano Okayama",
-            "team_b": "Nagoya Grampus",
-            "logo_a": "https://images.keovip88.net/images/teams/fagiano-okayama.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Nagoya_Grampus_Logo.svg/1280px-Nagoya_Grampus_Logo.svg.png",
-            "time": "17:00:00",
-            "date": "14/10",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/d57damcm12ew_a7584a8a_20261014.png?v=a7584a8a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e1ed2c0e4a",
           "name": "Persib Bandung vs Thể Công Viettel | 19:15 14/10",
