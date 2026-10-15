@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-8d8c6da589",
-          "name": "Al-Hazm vs Al-Fateh SC | 22:15 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8d8c6da589",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8d8c6da589",
-                  "name": "Al-Hazm vs Al-Fateh SC",
-                  "streams": [
-                    {
-                      "id": "st-8d8c6da589",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dca4177450",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792051439_hd/1792051439_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ả Rập Xê Út",
-            "team_a": "Al-Hazm",
-            "team_b": "Al-Fateh SC",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDYPSdb6vk7_DlYWTtBh23SoUoVoMFmKAYtIB_X905vA&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPbkF9dbAa3Yw8SYdZhkdFCZQPbKxYpQKRLq65vWyGcg&s=10",
-            "time": "22:15:00",
-            "date": "15/10",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac58bd524d46db870fc74ee_1a034763_20261016.png?v=1a034763",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5e22d34e87",
           "name": "SC Uniao Torreense vs Sunderland | 23:45 15/10",
@@ -2639,7 +2567,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2724,10 +2652,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2776,7 +2704,7 @@
             "time": "01:00:00",
             "date": "16/10",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
