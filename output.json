@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -156,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93738cfccd5ecc44060e77_d48d12ce_20261016.png?v=d48d12ce",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b3e1de7c81",
-          "name": "SL Benfica vs Celtic | 02:00 16/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b3e1de7c81",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b3e1de7c81",
-                  "name": "SL Benfica vs Celtic",
-                  "streams": [
-                    {
-                      "id": "st-b3e1de7c81",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1639a11176",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791948876_hd/1791948876_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C2",
-            "team_a": "SL Benfica",
-            "team_b": "Celtic",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqC8Rv99HBqDM0dEOz9KOXAV2SSSGPErdd2fTDw1sLLg&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe28iS91clF66Cy1VPXYUsTxTqky9LFIu8mX3E6oHoTg&s=10",
-            "time": "02:00:00",
-            "date": "16/10",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93738cfccd5ecc44060e72_b8115c4e_20261016.png?v=b8115c4e",
             "width": 1600,
             "height": 1200
           }
