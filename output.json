@@ -11,227 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ee5f708b27",
-          "name": "Red Bull Salzburg vs AC Milan | 23:45 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ee5f708b27",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ee5f708b27",
-                  "name": "Red Bull Salzburg vs AC Milan",
-                  "streams": [
-                    {
-                      "id": "st-ee5f708b27",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-42666135af",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791948082_hd/1791948082_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C2",
-            "team_a": "Red Bull Salzburg",
-            "team_b": "AC Milan",
-            "logo_a": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/77/FC_Red_Bull_Salzburg_logo.svg/1280px-FC_Red_Bull_Salzburg_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-            "logo_b": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/250px-Logo_of_AC_Milan.svg.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "time": "23:45:00",
-            "date": "15/10",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93738cfccd5ecc44060e7e_a5c76256_20261016.png?v=a5c76256",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c81d510730",
-          "name": "Lyonnais vs Crystal Palace | 23:45 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c81d510730",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c81d510730",
-                  "name": "Lyonnais vs Crystal Palace",
-                  "streams": [
-                    {
-                      "id": "st-c81d510730",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-80c40b46cd",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791948130_hd/1791948130_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C2",
-            "team_a": "Lyonnais",
-            "team_b": "Crystal Palace",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJAW68tQ3-InZLFqpbdhhFHoHsBYps_kw5gNTlf8e44w&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_uF-MshFQM40Ufe3TmEYTAUDgxk5jM1T6uwjbqVBeaw&s",
-            "time": "23:45:00",
-            "date": "15/10",
-            "blv": "Bee",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4d6164566b7f70b437e_69347f3f_20261016.png?v=69347f3f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d1c391c2b0",
-          "name": "Lech Poznan vs Bayer Leverkusen | 23:45 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d1c391c2b0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d1c391c2b0",
-                  "name": "Lech Poznan vs Bayer Leverkusen",
-                  "streams": [
-                    {
-                      "id": "st-d1c391c2b0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-097cb79575",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791948145_hd/1791948145_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C2",
-            "team_a": "Lech Poznan",
-            "team_b": "Bayer Leverkusen",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlqQF-FpoUID0AL8C8h56lThuSUcDeq_iLjHyW0TljYQ&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbM5NFTZU5XCQc-S8pNj-rEHKrqV6ejGfmwefSA6uNGQ&s",
-            "time": "23:45:00",
-            "date": "15/10",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4d6164566b7f70b437d_fdc721f8_20261016.png?v=fdc721f8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5e22d34e87",
           "name": "SC Uniao Torreense vs Sunderland | 23:45 15/10",
@@ -300,150 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a9767c031f9dda471080121_131389b0_20261016.png?v=131389b0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-166fbc6c16",
-          "name": "Saint Gilloise vs Real Sociedad | 23:45 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-166fbc6c16",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-166fbc6c16",
-                  "name": "Saint Gilloise vs Real Sociedad",
-                  "streams": [
-                    {
-                      "id": "st-166fbc6c16",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3bce9d8100",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791948096_hd/1791948096_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C2",
-            "team_a": "Saint Gilloise",
-            "team_b": "Real Sociedad",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/0/02/Royale_Union_Saint-Gilloise_logo.png?utm_source=vi.wikipedia.org&utm_campaign=index&utm_content=original",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9eIu6xkuuSokLj1hiw6wQmnyOODD6--aagIrruJQKA&s=10",
-            "time": "23:45:00",
-            "date": "15/10",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a92221807a55a68f709dab5_fad4ec49_20261016.png?v=fad4ec49",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-6d2633ea4c",
-          "name": "Sparta Prague vs Lillestrom | 23:45 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6d2633ea4c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6d2633ea4c",
-                  "name": "Sparta Prague vs Lillestrom",
-                  "streams": [
-                    {
-                      "id": "st-6d2633ea4c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-857dafa005",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792078516_hd/1792078516_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C2",
-            "team_a": "Sparta Prague",
-            "team_b": "Lillestrom",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcw-O4OBpC4STF_sxH-dBAS6e2r7gzRHV9Ybzq5X0o_h4srrwdGmH9LRIY&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRQwOMvqy1saRb6M-ZmWr8PKt1qRcx2SPReApEdfbF9g&s=10",
-            "time": "23:45:00",
-            "date": "15/10",
-            "blv": "Tỵ ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a9767c031f9dda471080120_ec609476_20261016.png?v=ec609476",
             "width": 1600,
             "height": 1200
           }
@@ -528,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -580,7 +220,7 @@
             "time": "02:00:00",
             "date": "16/10",
             "blv": "Mù",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -600,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -652,7 +292,7 @@
             "time": "02:00:00",
             "date": "16/10",
             "blv": "Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -672,10 +312,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -724,7 +364,7 @@
             "time": "02:00:00",
             "date": "16/10",
             "blv": "Ngọng",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -744,10 +384,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -796,7 +436,7 @@
             "time": "02:00:00",
             "date": "16/10",
             "blv": "Dory",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -816,10 +456,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -868,7 +508,7 @@
             "time": "02:00:00",
             "date": "16/10",
             "blv": "Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -888,10 +528,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -940,7 +580,7 @@
             "time": "02:00:00",
             "date": "16/10",
             "blv": "Tỵ ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -960,10 +600,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1012,7 +652,7 @@
             "time": "02:00:00",
             "date": "16/10",
             "blv": "Bee",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1596,6 +1236,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac6dd5124d46db870d13beb_61d8b30f_20261016.png?v=61d8b30f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-e9c34bc4fe",
+          "name": "Eintracht Frankfurt vs Koln | 01:30 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e9c34bc4fe",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e9c34bc4fe",
+                  "name": "Eintracht Frankfurt vs Koln",
+                  "streams": [
+                    {
+                      "id": "st-e9c34bc4fe",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-99ec946d0e",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791950103_hd/1791950103_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Eintracht Frankfurt",
+            "team_b": "Koln",
+            "logo_a": "https://images.keovip88.net/images/teams/eintracht-frankfurt.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fc-koln.png",
+            "time": "01:30:00",
+            "date": "17/10",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5cae5e6975d550f0775_229cdc90_20261016.png?v=229cdc90",
             "width": 1600,
             "height": 1200
           }
@@ -2567,83 +2279,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-fb726343b4",
-          "name": "Single Elimination vs Bracket | 20:30 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fb726343b4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fb726343b4",
-                  "name": "Single Elimination vs Bracket",
-                  "streams": [
-                    {
-                      "id": "st-fb726343b4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-abbe0de4b0",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792069269_hd/1792069269_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CS2-Thunderpick World Championship 2026",
-            "team_a": "Single Elimination",
-            "team_b": "Bracket",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9C8u5REg6anHhtvSgx9SI9-mj5EWxpD4ptLm1BvZEhrYGTfQlAl-pPQLZ&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS51BbFm9V18wwl5QBoeQyaLCisKQA6gITiCWZjw4pyuqlpt49Kx12YafzO&s=10",
-            "time": "20:30:00",
-            "date": "15/10",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/oqkt3766z08e_855f7dad_20261016.png?v=855f7dad",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-7513aaf650",
           "name": "C9 vs KC | 01:00 16/10",
