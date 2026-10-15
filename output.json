@@ -1684,6 +1684,87 @@
       ]
     },
     {
+      "id": "cate_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-3dd77db548",
+          "name": "Arthur Gea vs Alejandro Davidovich Fokina | 13:30 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3dd77db548",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3dd77db548",
+                  "name": "Arthur Gea vs Alejandro Davidovich Fokina",
+                  "streams": [
+                    {
+                      "id": "st-3dd77db548",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-de18c737fe",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792027900_hd/1792027900_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Shanghai Open",
+            "team_a": "Arthur Gea",
+            "team_b": "Alejandro Davidovich Fokina",
+            "logo_a": "https://static.flashscore.com/res/image/data/E9MoxtwS-IaAVktFg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/fLk5DXhl-SbT3RDiH.png",
+            "time": "13:30:00",
+            "date": "15/10",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/b7am2olm1em3_1bf6cab3_20261015.png?v=1bf6cab3",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchuyen",
       "name": "🏐 Bóng Chuyền",
       "display": "vertical",
