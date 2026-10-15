@@ -1937,83 +1937,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
+      "name": "⚾ Bóng Chày",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ce95895aec",
-          "name": "Los Angeles Dodgers vs Milwaukee Brewers | 07:00 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ce95895aec",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ce95895aec",
-                  "name": "Los Angeles Dodgers vs Milwaukee Brewers",
-                  "streams": [
-                    {
-                      "id": "st-ce95895aec",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6f2e4709a8",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791944310_hd/1791944310_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB - Championship Series",
-            "team_a": "Los Angeles Dodgers",
-            "team_b": "Milwaukee Brewers",
-            "logo_a": "https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/nitvFMWg-xIOhFH4B.png",
-            "time": "07:00:00",
-            "date": "15/10",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/iad1ghgg4nbp_6472594c_20261015.png?v=6472594c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-4ac47e2897",
           "name": "Tampa Bay Rays vs Cleverland Guardians | 05:00 16/10",
