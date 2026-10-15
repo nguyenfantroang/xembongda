@@ -951,49 +951,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-e3150cb3e4",
-          "name": "Seoul Samsung Thunders vs Changwon LG Sakers | 17:00 15/10",
+          "id": "gv-337c5ed3bc",
+          "name": "PSIM Yogyakarta vs PSM Makassar | 15:30 16/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-e3150cb3e4",
+              "id": "src-337c5ed3bc",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-e3150cb3e4",
-                  "name": "Seoul Samsung Thunders vs Changwon LG Sakers",
+                  "id": "ct-337c5ed3bc",
+                  "name": "PSIM Yogyakarta vs PSM Makassar",
                   "streams": [
                     {
-                      "id": "st-e3150cb3e4",
+                      "id": "st-337c5ed3bc",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-55fa284343",
-                          "name": "Vịt",
+                          "id": "lnk-7c8c2148a3",
+                          "name": "BLV Hấu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792050805_hd/1792050805_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792066992_hd/1792066992_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1013,26 +1004,251 @@
             }
           ],
           "org_metadata": {
-            "league": "Korea Basketball League",
-            "team_a": "Seoul Samsung Thunders",
-            "team_b": "Changwon LG Sakers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/77da210054627a8fde62b8e6d76f3d74.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/ccac4cdb678cc18454c6aecd42e321d6.png",
-            "time": "17:00:00",
-            "date": "15/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
+            "league": "VĐQG Indonesia",
+            "team_a": "PSIM Yogyakarta",
+            "team_b": "PSM Makassar",
+            "logo_a": "https://images.keovip88.net/images/teams/psim-yogyakarta.png",
+            "logo_b": "https://images.keovip88.net/images/teams/psm-makassar.png",
+            "time": "15:30:00",
+            "date": "16/10",
+            "blv": "BLV Hấu",
+            "is_live": false,
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/20950374_1f6a79a9_20261015.png?v=1f6a79a9",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac6dd5024d46db870d13a4e_beffcbf9_20261015.png?v=beffcbf9",
             "width": 1600,
             "height": 1200
           }
         },
+        {
+          "id": "gv-73bfef6788",
+          "name": "Sydney FC vs Western Sydney Wanderers | 16:00 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-73bfef6788",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-73bfef6788",
+                  "name": "Sydney FC vs Western Sydney Wanderers",
+                  "streams": [
+                    {
+                      "id": "st-73bfef6788",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-452962379e",
+                          "name": "Tỵ ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792067492_hd/1792067492_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Úc",
+            "team_a": "Sydney FC",
+            "team_b": "Western Sydney Wanderers",
+            "logo_a": "https://images.keovip88.net/images/teams/sydney-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/western-sydney.png",
+            "time": "16:00:00",
+            "date": "16/10",
+            "blv": "Tỵ ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac6dd5024d46db870d13a66_a5badc60_20261015.png?v=a5badc60",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4871c2cb4c",
+          "name": "Henan FC vs Tianjin Jinmen Tiger | 18:35 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4871c2cb4c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4871c2cb4c",
+                  "name": "Henan FC vs Tianjin Jinmen Tiger",
+                  "streams": [
+                    {
+                      "id": "st-4871c2cb4c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2c7ebbb187",
+                          "name": "Tỵ ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792067616_hd/1792067616_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Trung Quốc",
+            "team_a": "Henan FC",
+            "team_b": "Tianjin Jinmen Tiger",
+            "logo_a": "https://images.keovip88.net/images/teams/henan-football-club.png",
+            "logo_b": "https://images.keovip88.net/images/teams/tianjin-tigers.png",
+            "time": "18:35:00",
+            "date": "16/10",
+            "blv": "Tỵ ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac6dd5024d46db870d13ab4_9274738e_20261015.png?v=9274738e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-30780eca10",
+          "name": "Malut United vs Bali United FC | 19:00 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-30780eca10",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-30780eca10",
+                  "name": "Malut United vs Bali United FC",
+                  "streams": [
+                    {
+                      "id": "st-30780eca10",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b2ce131b6d",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792067706_hd/1792067706_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Indonesia",
+            "team_a": "Malut United",
+            "team_b": "Bali United FC",
+            "logo_a": "https://images.keovip88.net/images/teams/malut-united.png",
+            "logo_b": "https://images.keovip88.net/images/teams/bali-united.png",
+            "time": "19:00:00",
+            "date": "16/10",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac6dd5124d46db870d13acc_52c5e36d_20261015.png?v=52c5e36d",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_basketball",
+      "name": "🏀 Bóng Rổ",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "gv-e6f0f76e1f",
           "name": "New York Knicks vs Toronto Raptors | 06:30 16/10",
@@ -1173,6 +1389,222 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/30588270_e429a364_20261015.png?v=e429a364",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1c62c03bad",
+          "name": "Tasmania JackJumpers vs Adelaide 36ers | 15:30 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1c62c03bad",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1c62c03bad",
+                  "name": "Tasmania JackJumpers vs Adelaide 36ers",
+                  "streams": [
+                    {
+                      "id": "st-1c62c03bad",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9a1c245cb1",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792067437_hd/1792067437_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball League(Australia)",
+            "team_a": "Tasmania JackJumpers",
+            "team_b": "Adelaide 36ers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/b4775c62432e01185c4fd9669952b258.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/6a6d3d4063e675d1ce3e701153e3f367.png",
+            "time": "15:30:00",
+            "date": "16/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/23422270_6edcb36f_20261015.png?v=6edcb36f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9695eacf81",
+          "name": "Goyang Orions vs Ulsan Hyundai Mobis Phoebus | 17:00 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9695eacf81",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9695eacf81",
+                  "name": "Goyang Orions vs Ulsan Hyundai Mobis Phoebus",
+                  "streams": [
+                    {
+                      "id": "st-9695eacf81",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2f55e25d81",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792067549_hd/1792067549_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korea Basketball League",
+            "team_a": "Goyang Orions",
+            "team_b": "Ulsan Hyundai Mobis Phoebus",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/5b0e513f868dee6a403d7d5dfc3628b3.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/e22caa597076764dd0d04b55d46f764e.png",
+            "time": "17:00:00",
+            "date": "16/10",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21950375_f5706302_20261015.png?v=f5706302",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4407217073",
+          "name": "Shanghai bilibili vs Shenzhen Leopards | 18:35 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4407217073",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4407217073",
+                  "name": "Shanghai bilibili vs Shenzhen Leopards",
+                  "streams": [
+                    {
+                      "id": "st-4407217073",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2398cff8ec",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792067666_hd/1792067666_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "Shanghai bilibili",
+            "team_b": "Shenzhen Leopards",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/d67cd54e91fe7a46a2f9bdd646544989.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/4d9ec843176ad902c32b3b317118e543.png",
+            "time": "18:35:00",
+            "date": "16/10",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21263473_7df54afd_20261015.png?v=7df54afd",
             "width": 1600,
             "height": 1200
           }
@@ -1622,83 +2054,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-15c9a861bc",
-          "name": "IBK Nữ vs Daejeon JKJ Nữ | 17:00 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-15c9a861bc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-15c9a861bc",
-                  "name": "IBK Nữ vs Daejeon JKJ Nữ",
-                  "streams": [
-                    {
-                      "id": "st-15c9a861bc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-60e49c8cba",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792051601_hd/1792051601_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hàn Quốc Cúp KOVO Nữ",
-            "team_a": "IBK Nữ",
-            "team_b": "Daejeon JKJ Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/GCVCfeyS-8pDUfQGg.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/C6oehGYg-YPeUstG1.png",
-            "time": "17:00:00",
-            "date": "15/10",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/rbepwqxocd6z_dde94a07_20261015.png?v=dde94a07",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ee1f5228fc",
           "name": "Vero Volley Nữ vs Novara Nữ | 01:30 18/10",
