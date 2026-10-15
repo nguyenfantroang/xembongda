@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9ec4e151cc",
-          "name": "Svay Rieng FC vs Shanghai Shenhua | 19:15 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9ec4e151cc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9ec4e151cc",
-                  "name": "Svay Rieng FC vs Shanghai Shenhua",
-                  "streams": [
-                    {
-                      "id": "st-9ec4e151cc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-78179641b6",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792051391_hd/1792051391_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Cup",
-            "team_a": "Svay Rieng FC",
-            "team_b": "Shanghai Shenhua",
-            "logo_a": "https://images.keovip88.net/images/teams/svay-rieng-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/shanghai-shenhua.png",
-            "time": "19:15:00",
-            "date": "15/10",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a8b8a724d3de1ad3e0d956e_a06fe5ca_20261015.png?v=a06fe5ca",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-8d8c6da589",
           "name": "Al-Hazm vs Al-Fateh SC | 22:15 15/10",
@@ -1383,6 +1311,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-1c9561fe08",
+          "name": "Al-Ahli Doha vs Al-Wakra | 21:30 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1c9561fe08",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1c9561fe08",
+                  "name": "Al-Ahli Doha vs Al-Wakra",
+                  "streams": [
+                    {
+                      "id": "st-1c9561fe08",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ebdb02e27d",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792068083_hd/1792068083_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Qatar",
+            "team_a": "Al-Ahli Doha",
+            "team_b": "Al-Wakra",
+            "logo_a": "https://images.keovip88.net/images/teams/al-ahli-doha.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-wakra.png",
+            "time": "21:30:00",
+            "date": "16/10",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac6dd5124d46db870d13be6_08b40e65_20261015.png?v=08b40e65",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2351,83 +2351,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-d22c728c01",
-          "name": "Single Elimination vs Bracket | 15:30 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d22c728c01",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d22c728c01",
-                  "name": "Single Elimination vs Bracket",
-                  "streams": [
-                    {
-                      "id": "st-d22c728c01",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-43c5d5d84e",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792049446_hd/1792049446_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CS2-Thunderpick World Championship 2026",
-            "team_a": "Single Elimination",
-            "team_b": "Bracket",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9C8u5REg6anHhtvSgx9SI9-mj5EWxpD4ptLm1BvZEhrYGTfQlAl-pPQLZ&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS51BbFm9V18wwl5QBoeQyaLCisKQA6gITiCWZjw4pyuqlpt49Kx12YafzO&s=10",
-            "time": "15:30:00",
-            "date": "15/10",
-            "blv": "Mickey",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/owjbx5gdsuii_855f7dad_20261015.png?v=855f7dad",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-fb726343b4",
           "name": "Single Elimination vs Bracket | 20:30 15/10",
