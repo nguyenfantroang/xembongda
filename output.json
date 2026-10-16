@@ -161,6 +161,78 @@
           }
         },
         {
+          "id": "gv-5593dcbd7e",
+          "name": "Cao Su Đồng Tháp vs Bình Định | 17:00 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5593dcbd7e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5593dcbd7e",
+                  "name": "Cao Su Đồng Tháp vs Bình Định",
+                  "streams": [
+                    {
+                      "id": "st-5593dcbd7e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-69d09a2c62",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792140827_hd/1792140827_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hạng Nhất Việt Nam",
+            "team_a": "Cao Su Đồng Tháp",
+            "team_b": "Bình Định",
+            "logo_a": "https://images.keovip88.net/images/teams/dong-thap.png",
+            "logo_b": "https://images.keovip88.net/images/teams/binh-dinh.png",
+            "time": "17:00:00",
+            "date": "16/10",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac6dd5024d46db870d13a72_4551cc32_20261016.png?v=4551cc32",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-4871c2cb4c",
           "name": "Henan FC vs Tianjin Jinmen Tiger | 18:35 16/10",
           "type": "single",
@@ -2621,83 +2693,11 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9ced4365df",
-          "name": "Rafael Jodar vs Casper Ruud | 13:30 16/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9ced4365df",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9ced4365df",
-                  "name": "Rafael Jodar vs Casper Ruud",
-                  "streams": [
-                    {
-                      "id": "st-9ced4365df",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-256eebc4df",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792054726_hd/1792054726_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Shanghai Open",
-            "team_a": "Rafael Jodar",
-            "team_b": "Casper Ruud",
-            "logo_a": "https://static.flashscore.com/res/image/data/A5stpqzB-bJuw1oYE.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/EwLW3og5-6NHltuug.png",
-            "time": "13:30:00",
-            "date": "16/10",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/187fb93njx95_599045c4_20261016.png?v=599045c4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-93d99b4d98",
           "name": "Daniil Medvedev vs Tommy Paul | 17:00 16/10",
