@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-73bfef6788",
+          "name": "Sydney FC vs Western Sydney Wanderers | 16:00 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-73bfef6788",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-73bfef6788",
+                  "name": "Sydney FC vs Western Sydney Wanderers",
+                  "streams": [
+                    {
+                      "id": "st-73bfef6788",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-452962379e",
+                          "name": "Tỵ ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792067492_hd/1792067492_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Úc",
+            "team_a": "Sydney FC",
+            "team_b": "Western Sydney Wanderers",
+            "logo_a": "https://images.keovip88.net/images/teams/sydney-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/western-sydney.png",
+            "time": "16:00:00",
+            "date": "16/10",
+            "blv": "Tỵ ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac6dd5024d46db870d13a66_a5badc60_20261016.png?v=a5badc60",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-337c5ed3bc",
           "name": "PSIM Yogyakarta vs PSM Makassar | 15:30 16/10",
@@ -84,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac6dd5024d46db870d13a4e_beffcbf9_20261016.png?v=beffcbf9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-73bfef6788",
-          "name": "Sydney FC vs Western Sydney Wanderers | 16:00 16/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-73bfef6788",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-73bfef6788",
-                  "name": "Sydney FC vs Western Sydney Wanderers",
-                  "streams": [
-                    {
-                      "id": "st-73bfef6788",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-452962379e",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792067492_hd/1792067492_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Úc",
-            "team_a": "Sydney FC",
-            "team_b": "Western Sydney Wanderers",
-            "logo_a": "https://images.keovip88.net/images/teams/sydney-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/western-sydney.png",
-            "time": "16:00:00",
-            "date": "16/10",
-            "blv": "Tỵ ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac6dd5024d46db870d13a66_a5badc60_20261016.png?v=a5badc60",
             "width": 1600,
             "height": 1200
           }
@@ -735,6 +735,366 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-5518086ac0",
+          "name": "Auckland FC vs Melbourne City | 11:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5518086ac0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5518086ac0",
+                  "name": "Auckland FC vs Melbourne City",
+                  "streams": [
+                    {
+                      "id": "st-5518086ac0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5564a3b695",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792136643_hd/1792136643_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Úc",
+            "team_a": "Auckland FC",
+            "team_b": "Melbourne City",
+            "logo_a": "https://images.keovip88.net/images/teams/auckland-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/melbourne-city.png",
+            "time": "11:00:00",
+            "date": "17/10",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac82ed324d46db87090d6a5_4b370d0a_20261016.png?v=4b370d0a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4d5ccb54e9",
+          "name": "Kashima Antlers vs V-Varen Nagasaki | 13:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4d5ccb54e9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4d5ccb54e9",
+                  "name": "Kashima Antlers vs V-Varen Nagasaki",
+                  "streams": [
+                    {
+                      "id": "st-4d5ccb54e9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-da03d21086",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792136710_hd/1792136710_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Kashima Antlers",
+            "team_b": "V-Varen Nagasaki",
+            "logo_a": "https://images.keovip88.net/images/teams/kashima-antlers.png",
+            "logo_b": "https://images.keovip88.net/images/teams/v-varen-nagasaki.png",
+            "time": "13:00:00",
+            "date": "17/10",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac82ed324d46db87090d74e_6e20d737_20261016.png?v=6e20d737",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-08b0bedb6f",
+          "name": "Cerezo Osaka vs Kawasaki Frontale | 13:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-08b0bedb6f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-08b0bedb6f",
+                  "name": "Cerezo Osaka vs Kawasaki Frontale",
+                  "streams": [
+                    {
+                      "id": "st-08b0bedb6f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-50a70de377",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792136685_hd/1792136685_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Cerezo Osaka",
+            "team_b": "Kawasaki Frontale",
+            "logo_a": "https://images.keovip88.net/images/teams/cerezo-osaka.png",
+            "logo_b": "https://images.keovip88.net/images/teams/kawasaki-frontale.png",
+            "time": "13:00:00",
+            "date": "17/10",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac82ed324d46db87090d746_e5e6bb84_20261016.png?v=e5e6bb84",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-22b5be02a5",
+          "name": "Mito Hollyhock vs Urawa Red Diamonds | 14:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-22b5be02a5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-22b5be02a5",
+                  "name": "Mito Hollyhock vs Urawa Red Diamonds",
+                  "streams": [
+                    {
+                      "id": "st-22b5be02a5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-11d0be6cfc",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1792136834_hd/1792136834_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Mito Hollyhock",
+            "team_b": "Urawa Red Diamonds",
+            "logo_a": "https://images.keovip88.net/images/teams/mito-hollyhock.png",
+            "logo_b": "https://images.keovip88.net/images/teams/urawa-red-diamonds.png",
+            "time": "14:00:00",
+            "date": "17/10",
+            "blv": "BLV Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac82ed324d46db87090d756_d2b85479_20261016.png?v=d2b85479",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f2ada41595",
+          "name": "Ulsan Hyundai vs Bucheon FC 1995 | 14:30 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f2ada41595",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f2ada41595",
+                  "name": "Ulsan Hyundai vs Bucheon FC 1995",
+                  "streams": [
+                    {
+                      "id": "st-f2ada41595",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc6d15ad74",
+                          "name": "Tỵ ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792136856_hd/1792136856_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K-League Hàn Quốc",
+            "team_a": "Ulsan Hyundai",
+            "team_b": "Bucheon FC 1995",
+            "logo_a": "https://images.keovip88.net/images/teams/ulsan-hd-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/bucheon-fc-1995.png",
+            "time": "14:30:00",
+            "date": "17/10",
+            "blv": "Tỵ ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac82ed324d46db87090d776_e16f8d24_20261016.png?v=e16f8d24",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1245,6 +1605,366 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/29800377_db4f361b_20261016.png?v=db4f361b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4902cafa6f",
+          "name": "Chicago Bulls vs Minnesota Timberwolves | 07:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4902cafa6f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4902cafa6f",
+                  "name": "Chicago Bulls vs Minnesota Timberwolves",
+                  "streams": [
+                    {
+                      "id": "st-4902cafa6f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bd8992621a",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792136960_hd/1792136960_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Chicago Bulls",
+            "team_b": "Minnesota Timberwolves",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c73eca8b9cc18ff386bf6ff4c1236b9e.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/e97782502546bad80da0347446a3a311.png",
+            "time": "07:00:00",
+            "date": "17/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/29612277_f803d6d1_20261016.png?v=f803d6d1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-13ea356862",
+          "name": "Memphis Grizzlies vs Charlotte Hornets | 07:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-13ea356862",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-13ea356862",
+                  "name": "Memphis Grizzlies vs Charlotte Hornets",
+                  "streams": [
+                    {
+                      "id": "st-13ea356862",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a1cabb7465",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792136997_hd/1792136997_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Memphis Grizzlies",
+            "team_b": "Charlotte Hornets",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/1a66910c422c9a4be29bde3618ff8af5.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/9e28959b5af233b67c389787d2886c84.png",
+            "time": "07:00:00",
+            "date": "17/10",
+            "blv": "Mickey",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/24632476_899f9e81_20261016.png?v=899f9e81",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-5fdb82fb66",
+          "name": "SiChuan PinSheng Whale vs Tianjin Pioneers | 18:35 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5fdb82fb66",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5fdb82fb66",
+                  "name": "SiChuan PinSheng Whale vs Tianjin Pioneers",
+                  "streams": [
+                    {
+                      "id": "st-5fdb82fb66",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2da8a29da2",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792136725_hd/1792136725_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "SiChuan PinSheng Whale",
+            "team_b": "Tianjin Pioneers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/1cb8d991c7b1dbf8f56adbb08619f919.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c95a72565d21fd4797acfbfb63c829e8.PNG",
+            "time": "18:35:00",
+            "date": "17/10",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/22263474_717fe27c_20261016.png?v=717fe27c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-fbeb8121d7",
+          "name": "Suzhou Dragons vs Fujian Sturgeons | 18:35 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fbeb8121d7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fbeb8121d7",
+                  "name": "Suzhou Dragons vs Fujian Sturgeons",
+                  "streams": [
+                    {
+                      "id": "st-fbeb8121d7",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f837584ace",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792136639_hd/1792136639_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "Suzhou Dragons",
+            "team_b": "Fujian Sturgeons",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/d1c8a0f21d4d300f8ddce93f11b79c70.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/513a673e2abf3080d21b0dc4d0b0dad8.png",
+            "time": "18:35:00",
+            "date": "17/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/23263475_fbf0d32b_20261016.png?v=fbf0d32b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ecbeb954a0",
+          "name": "Xinjiang Flying Tigers vs QingDao Eagles | 19:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ecbeb954a0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ecbeb954a0",
+                  "name": "Xinjiang Flying Tigers vs QingDao Eagles",
+                  "streams": [
+                    {
+                      "id": "st-ecbeb954a0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-59c48a4806",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792136910_hd/1792136910_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "Xinjiang Flying Tigers",
+            "team_b": "QingDao Eagles",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f68788874e0a17dd655083cb42b1d00b.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/cbbeaf29a9996f0500e140e33cb780ae.png",
+            "time": "19:00:00",
+            "date": "17/10",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/26263478_980816b9_20261016.png?v=980816b9",
             "width": 1600,
             "height": 1200
           }
