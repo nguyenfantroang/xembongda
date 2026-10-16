@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-337c5ed3bc",
-          "name": "PSIM Yogyakarta vs PSM Makassar | 15:30 16/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-337c5ed3bc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-337c5ed3bc",
-                  "name": "PSIM Yogyakarta vs PSM Makassar",
-                  "streams": [
-                    {
-                      "id": "st-337c5ed3bc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7c8c2148a3",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792066992_hd/1792066992_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Indonesia",
-            "team_a": "PSIM Yogyakarta",
-            "team_b": "PSM Makassar",
-            "logo_a": "https://images.keovip88.net/images/teams/psim-yogyakarta.png",
-            "logo_b": "https://images.keovip88.net/images/teams/psm-makassar.png",
-            "time": "15:30:00",
-            "date": "16/10",
-            "blv": "BLV Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac6dd5024d46db870d13a4e_beffcbf9_20261016.png?v=beffcbf9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-73bfef6788",
           "name": "Sydney FC vs Western Sydney Wanderers | 16:00 16/10",
@@ -1244,7 +1172,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1329,10 +1257,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1381,7 +1309,7 @@
             "time": "18:35:00",
             "date": "16/10",
             "blv": "Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -3152,7 +3080,7 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật",
+      "name": "🥊 Võ Thuật (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3165,10 +3093,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3217,7 +3145,7 @@
             "time": "18:30:00",
             "date": "16/10",
             "blv": "Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "vothuat"
           },
           "image": {
@@ -3674,7 +3602,7 @@
     },
     {
       "id": "cate_Billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3687,10 +3615,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3739,7 +3667,7 @@
             "time": "18:00:00",
             "date": "16/10",
             "blv": "BLV Kim Chon",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "Billiards"
           },
           "image": {
