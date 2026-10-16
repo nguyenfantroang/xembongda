@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -156,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac6dd5124d46db870d13be6_08b40e65_20261016.png?v=08b40e65",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-45c8e13183",
-          "name": "Al-Riyadh vs Al Hilal | 22:00 16/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-45c8e13183",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-45c8e13183",
-                  "name": "Al-Riyadh vs Al Hilal",
-                  "streams": [
-                    {
-                      "id": "st-45c8e13183",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-49361508fa",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792068380_hd/1792068380_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ả Rập Xê Út",
-            "team_a": "Al-Riyadh",
-            "team_b": "Al Hilal",
-            "logo_a": "https://images.keovip88.net/images/teams/al-riyadh.png",
-            "logo_b": "https://images.keovip88.net/images/teams/al-hilal.png",
-            "time": "22:00:00",
-            "date": "16/10",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac6dd5124d46db870d13beb_61d8b30f_20261016.png?v=61d8b30f",
             "width": 1600,
             "height": 1200
           }
@@ -1397,6 +1325,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06ec_44a3e7e4_20261016.png?v=44a3e7e4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-de82bfcc5b",
+          "name": "Strasbourg vs Paris Saint Germain | 22:15 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-de82bfcc5b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-de82bfcc5b",
+                  "name": "Strasbourg vs Paris Saint Germain",
+                  "streams": [
+                    {
+                      "id": "st-de82bfcc5b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-68b9fd16b5",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792138021_hd/1792138021_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Strasbourg",
+            "team_b": "Paris Saint Germain",
+            "logo_a": "https://images.keovip88.net/images/teams/strasbourg.png",
+            "logo_b": "https://images.keovip88.net/images/teams/paris-saint-germain-psg.png",
+            "time": "22:15:00",
+            "date": "17/10",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5f5e5e6975d550f07b7_50174a8e_20261016.png?v=50174a8e",
             "width": 1600,
             "height": 1200
           }
