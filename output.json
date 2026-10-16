@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-337c5ed3bc",
+          "name": "PSIM Yogyakarta vs PSM Makassar | 15:30 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-337c5ed3bc",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-337c5ed3bc",
+                  "name": "PSIM Yogyakarta vs PSM Makassar",
+                  "streams": [
+                    {
+                      "id": "st-337c5ed3bc",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7c8c2148a3",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792066992_hd/1792066992_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Indonesia",
+            "team_a": "PSIM Yogyakarta",
+            "team_b": "PSM Makassar",
+            "logo_a": "https://images.keovip88.net/images/teams/psim-yogyakarta.png",
+            "logo_b": "https://images.keovip88.net/images/teams/psm-makassar.png",
+            "time": "15:30:00",
+            "date": "16/10",
+            "blv": "BLV Hấu",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac6dd5024d46db870d13a4e_beffcbf9_20261016.png?v=beffcbf9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-73bfef6788",
           "name": "Sydney FC vs Western Sydney Wanderers | 16:00 16/10",
@@ -84,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac6dd5024d46db870d13a66_a5badc60_20261016.png?v=a5badc60",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-337c5ed3bc",
-          "name": "PSIM Yogyakarta vs PSM Makassar | 15:30 16/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-337c5ed3bc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-337c5ed3bc",
-                  "name": "PSIM Yogyakarta vs PSM Makassar",
-                  "streams": [
-                    {
-                      "id": "st-337c5ed3bc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7c8c2148a3",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792066992_hd/1792066992_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Indonesia",
-            "team_a": "PSIM Yogyakarta",
-            "team_b": "PSM Makassar",
-            "logo_a": "https://images.keovip88.net/images/teams/psim-yogyakarta.png",
-            "logo_b": "https://images.keovip88.net/images/teams/psm-makassar.png",
-            "time": "15:30:00",
-            "date": "16/10",
-            "blv": "BLV Hấu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac6dd5024d46db870d13a4e_beffcbf9_20261016.png?v=beffcbf9",
             "width": 1600,
             "height": 1200
           }
@@ -1100,7 +1100,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1113,10 +1113,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1165,7 +1165,7 @@
             "time": "15:30:00",
             "date": "16/10",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1754,6 +1754,654 @@
           }
         },
         {
+          "id": "gv-e2ebd216aa",
+          "name": "San Antonio Spurs vs Sacramento Kings | 07:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e2ebd216aa",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e2ebd216aa",
+                  "name": "San Antonio Spurs vs Sacramento Kings",
+                  "streams": [
+                    {
+                      "id": "st-e2ebd216aa",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e930bcb88c",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792138018_hd/1792138018_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "San Antonio Spurs",
+            "team_b": "Sacramento Kings",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/908efbb5ed053f61540cca47cc36e7ec.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/b7096093642227c698108ad872603a76.png",
+            "time": "07:00:00",
+            "date": "17/10",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/10012272_12e512ad_20261016.png?v=12e512ad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-137d8031d3",
+          "name": "Dallas Mavericks vs Atlanta Hawks | 07:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-137d8031d3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-137d8031d3",
+                  "name": "Dallas Mavericks vs Atlanta Hawks",
+                  "streams": [
+                    {
+                      "id": "st-137d8031d3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7bca9475b7",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792138269_hd/1792138269_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Dallas Mavericks",
+            "team_b": "Atlanta Hawks",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/0ae1b26dafd6ba3ff82f91d19b235038.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/57bd383cc8c9b3d4f92a5d1c371e38e9.png",
+            "time": "07:00:00",
+            "date": "17/10",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/38732471_20b08f5b_20261016.png?v=20b08f5b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3c4b96006a",
+          "name": "New Orleans Pelicans vs Washington Wizards | 07:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3c4b96006a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3c4b96006a",
+                  "name": "New Orleans Pelicans vs Washington Wizards",
+                  "streams": [
+                    {
+                      "id": "st-3c4b96006a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6370da1696",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792138295_hd/1792138295_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "New Orleans Pelicans",
+            "team_b": "Washington Wizards",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/b745bb8171bc1a860d480067c1bb9b8f.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/f4a3bba0c74c9f2b90bc5861ec26e3c7.png",
+            "time": "07:00:00",
+            "date": "17/10",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/25632477_582c470b_20261016.png?v=582c470b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d09a808e0e",
+          "name": "Phoenix Suns vs Utah Jazz | 09:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d09a808e0e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d09a808e0e",
+                  "name": "Phoenix Suns vs Utah Jazz",
+                  "streams": [
+                    {
+                      "id": "st-d09a808e0e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-abd8b7f0ee",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792138313_hd/1792138313_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Phoenix Suns",
+            "team_b": "Utah Jazz",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/6a6855785a58edb23c76c99ed6601a33.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/a0f2371dad505780cccd4cba8baa0610.png",
+            "time": "09:00:00",
+            "date": "17/10",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/26632478_6531e5b0_20261016.png?v=6531e5b0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1751dc3dda",
+          "name": "Golden State Warriors vs Portland Trail Blazers | 09:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1751dc3dda",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1751dc3dda",
+                  "name": "Golden State Warriors vs Portland Trail Blazers",
+                  "streams": [
+                    {
+                      "id": "st-1751dc3dda",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3f360b1392",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792138340_hd/1792138340_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Golden State Warriors",
+            "team_b": "Portland Trail Blazers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c7341a14964f12885ea2ae80b76cebe8.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/ea86671a348a3277fa075840258d8bc7.png",
+            "time": "09:00:00",
+            "date": "17/10",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/37728273_f82db0e9_20261016.png?v=f82db0e9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ee26a0a517",
+          "name": "Los Angeles Lakers vs Denver Nuggets | 09:30 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ee26a0a517",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ee26a0a517",
+                  "name": "Los Angeles Lakers vs Denver Nuggets",
+                  "streams": [
+                    {
+                      "id": "st-ee26a0a517",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-079da1e059",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792138366_hd/1792138366_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Los Angeles Lakers",
+            "team_b": "Denver Nuggets",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/935e553f4435030c604a4948c1e4d243.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/36f49ea85609f6b7b32d9fbcba105c2d.png",
+            "time": "09:30:00",
+            "date": "17/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/27632479_5d3e4716_20261016.png?v=5d3e4716",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3d21e2deb8",
+          "name": "Anyang Jung Kwan Jang vs Sonicboom | 12:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3d21e2deb8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3d21e2deb8",
+                  "name": "Anyang Jung Kwan Jang vs Sonicboom",
+                  "streams": [
+                    {
+                      "id": "st-3d21e2deb8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3564a1eb64",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792138392_hd/1792138392_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "South Korean KBL Cup",
+            "team_a": "Anyang Jung Kwan Jang",
+            "team_b": "Sonicboom",
+            "logo_a": "https://static.flashscore.com/res/image/data/viUBkizB-KtOrDRPL.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/t4IslGYg-vDolgDz8.png",
+            "time": "12:00:00",
+            "date": "17/10",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/xlit2p5banz9_f9f012dd_20261016.png?v=f9f012dd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f94bb3a616",
+          "name": "Wonju DB Promy vs Samsung Thunders | 12:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f94bb3a616",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f94bb3a616",
+                  "name": "Wonju DB Promy vs Samsung Thunders",
+                  "streams": [
+                    {
+                      "id": "st-f94bb3a616",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9b9bd9770e",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792138878_hd/1792138878_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "South Korean KBL Cup",
+            "team_a": "Wonju DB Promy",
+            "team_b": "Samsung Thunders",
+            "logo_a": "https://static.flashscore.com/res/image/data/ELYOWIAr-xtco8W2d.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/xYOD9rXg-viABvcCI.png",
+            "time": "12:00:00",
+            "date": "17/10",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/k5zzl5mdyy2t_ff4b4156_20261016.png?v=ff4b4156",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-fbfda8fb56",
+          "name": "South East Melbourne Phoenix vs Cairns Taipans | 13:30 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fbfda8fb56",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fbfda8fb56",
+                  "name": "South East Melbourne Phoenix vs Cairns Taipans",
+                  "streams": [
+                    {
+                      "id": "st-fbfda8fb56",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9abfe855e9",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792138929_hd/1792138929_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball League(Australia)",
+            "team_a": "South East Melbourne Phoenix",
+            "team_b": "Cairns Taipans",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e5c63f30ad74c5c5159f1e7695173ae5.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/690d69ad99fc8d3bd6fe4a7131521421.png",
+            "time": "13:30:00",
+            "date": "17/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/24422271_735fd310_20261016.png?v=735fd310",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-5fdb82fb66",
           "name": "SiChuan PinSheng Whale vs Tianjin Pioneers | 18:35 17/10",
           "type": "single",
@@ -2204,6 +2852,78 @@
           }
         },
         {
+          "id": "gv-2843d1fe93",
+          "name": "Astemo Rivale Ibaraki Nữ vs Gunma Greenwings Nữ | 12:05 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2843d1fe93",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2843d1fe93",
+                  "name": "Astemo Rivale Ibaraki Nữ vs Gunma Greenwings Nữ",
+                  "streams": [
+                    {
+                      "id": "st-2843d1fe93",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ea5e333b15",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792138977_hd/1792138977_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nhật Bản SV. League",
+            "team_a": "Astemo Rivale Ibaraki Nữ",
+            "team_b": "Gunma Greenwings Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/0rpuWOAr-6FZ2yXJ6.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/OQvoiZCr-KMZ7hG6b.png",
+            "time": "12:05:00",
+            "date": "17/10",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/eqel2equr8l7_095c93dc_20261016.png?v=095c93dc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-ee1f5228fc",
           "name": "Vero Volley Nữ vs Novara Nữ | 01:30 18/10",
           "type": "single",
@@ -2424,6 +3144,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/e7c1g9847iea_ff1ac2f4_20261016.png?v=ff1ac2f4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-98097ae989",
+          "name": "WE vs BFX | 16:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-98097ae989",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-98097ae989",
+                  "name": "WE vs BFX",
+                  "streams": [
+                    {
+                      "id": "st-98097ae989",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eebc921c6a",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792138413_hd/1792138413_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Demacia Cup Global Invitational",
+            "team_a": "WE",
+            "team_b": "BFX",
+            "logo_a": "https://static.flashscore.com/res/image/data/rFWqQsgl-Mqc5HTbN.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/t0Ieuvf5-h2pEHB7M.png",
+            "time": "16:00:00",
+            "date": "17/10",
+            "blv": "Ngu",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ctuimrwhdj2v_9c8360da_20261016.png?v=9c8360da",
             "width": 1600,
             "height": 1200
           }
@@ -2872,6 +3664,87 @@
       ]
     },
     {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-6e325aa062",
+          "name": "Tampa Bay Rays vs Cleverland Guardians | 07:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6e325aa062",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6e325aa062",
+                  "name": "Tampa Bay Rays vs Cleverland Guardians",
+                  "streams": [
+                    {
+                      "id": "st-6e325aa062",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ce4de16dc7",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792139300_hd/1792139300_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB - Championship Series",
+            "team_a": "Tampa Bay Rays",
+            "team_b": "Cleverland Guardians",
+            "logo_a": "https://static.flashscore.com/res/image/data/lGlxbdyB-6yNDMrbJ.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/CMe9zXzS-QNrz0V5B.png",
+            "time": "07:00:00",
+            "date": "17/10",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/jmskd2knchlj_9e050375_20261016.png?v=9e050375",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_Billiards",
       "name": "🎱 Billiards",
       "display": "vertical",
@@ -2946,6 +3819,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/y0uudpnqs8jj_a48f1384_20261016.png?v=a48f1384",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-da40674c71",
+          "name": "Team Asia vs Team Rest of the World (ROW) | 18:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da40674c71",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-da40674c71",
+                  "name": "Team Asia vs Team Rest of the World (ROW)",
+                  "streams": [
+                    {
+                      "id": "st-da40674c71",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-663affad2b",
+                          "name": "BLV Kim Chon",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792138322_hd/1792138322_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Reyes Cup 2026",
+            "team_a": "Team Asia",
+            "team_b": "Team Rest of the World (ROW)",
+            "logo_a": "https://img-evg4.tv360.vn/2026/10/b0812ead772c79a3860c9bad2e602698-1024x576.jpg",
+            "logo_b": "https://worldnineballtour.com/wp-content/uploads/B-REYES-CUP-21.jpg",
+            "time": "18:00:00",
+            "date": "17/10",
+            "blv": "BLV Kim Chon",
+            "is_live": false,
+            "cate_type": "Billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/7zcc37ilhphr_a48f1384_20261016.png?v=a48f1384",
             "width": 1600,
             "height": 1200
           }
