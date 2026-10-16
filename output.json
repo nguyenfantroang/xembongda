@@ -1167,49 +1167,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-1c62c03bad",
-          "name": "Tasmania JackJumpers vs Adelaide 36ers | 15:30 16/10",
+          "id": "gv-c40379a6cc",
+          "name": "Thanh Hóa vs Thép Xanh Nam Định | 17:00 17/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-1c62c03bad",
+              "id": "src-c40379a6cc",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-1c62c03bad",
-                  "name": "Tasmania JackJumpers vs Adelaide 36ers",
+                  "id": "ct-c40379a6cc",
+                  "name": "Thanh Hóa vs Thép Xanh Nam Định",
                   "streams": [
                     {
-                      "id": "st-1c62c03bad",
+                      "id": "st-c40379a6cc",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-9a1c245cb1",
-                          "name": "Vịt",
+                          "id": "lnk-d7ecaec48e",
+                          "name": "Sún",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792067437_hd/1792067437_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792135857_hd/1792135857_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1229,26 +1220,35 @@
             }
           ],
           "org_metadata": {
-            "league": "National Basketball League(Australia)",
-            "team_a": "Tasmania JackJumpers",
-            "team_b": "Adelaide 36ers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/b4775c62432e01185c4fd9669952b258.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/6a6d3d4063e675d1ce3e701153e3f367.png",
-            "time": "15:30:00",
-            "date": "16/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
+            "league": "V-League",
+            "team_a": "Thanh Hóa",
+            "team_b": "Thép Xanh Nam Định",
+            "logo_a": "https://images.keovip88.net/images/teams/thanh-hoa.png",
+            "logo_b": "https://images.keovip88.net/images/teams/nam-dinh-fc.png",
+            "time": "17:00:00",
+            "date": "17/10",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/23422270_6edcb36f_20261016.png?v=6edcb36f",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac82ed424d46db87090d8af_6825415a_20261016.png?v=6825415a",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_basketball",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "gv-9695eacf81",
           "name": "Goyang Orions vs Ulsan Hyundai Mobis Phoebus | 17:00 16/10",
