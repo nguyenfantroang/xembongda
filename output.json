@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-4d5ccb54e9",
-          "name": "Kashima Antlers vs V-Varen Nagasaki | 13:00 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4d5ccb54e9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4d5ccb54e9",
-                  "name": "Kashima Antlers vs V-Varen Nagasaki",
-                  "streams": [
-                    {
-                      "id": "st-4d5ccb54e9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-da03d21086",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792136710_hd/1792136710_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Kashima Antlers",
-            "team_b": "V-Varen Nagasaki",
-            "logo_a": "https://images.keovip88.net/images/teams/kashima-antlers.png",
-            "logo_b": "https://images.keovip88.net/images/teams/v-varen-nagasaki.png",
-            "time": "13:00:00",
-            "date": "17/10",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac82ed324d46db87090d74e_6e20d737_20261017.png?v=6e20d737",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-08b0bedb6f",
-          "name": "Cerezo Osaka vs Kawasaki Frontale | 13:00 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-08b0bedb6f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-08b0bedb6f",
-                  "name": "Cerezo Osaka vs Kawasaki Frontale",
-                  "streams": [
-                    {
-                      "id": "st-08b0bedb6f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-50a70de377",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792136685_hd/1792136685_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Cerezo Osaka",
-            "team_b": "Kawasaki Frontale",
-            "logo_a": "https://images.keovip88.net/images/teams/cerezo-osaka.png",
-            "logo_b": "https://images.keovip88.net/images/teams/kawasaki-frontale.png",
-            "time": "13:00:00",
-            "date": "17/10",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac82ed324d46db87090d746_e5e6bb84_20261017.png?v=e5e6bb84",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-22b5be02a5",
           "name": "Mito Hollyhock vs Urawa Red Diamonds | 14:00 17/10",
@@ -1278,83 +1134,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-fbfda8fb56",
-          "name": "South East Melbourne Phoenix vs Cairns Taipans | 13:30 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fbfda8fb56",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fbfda8fb56",
-                  "name": "South East Melbourne Phoenix vs Cairns Taipans",
-                  "streams": [
-                    {
-                      "id": "st-fbfda8fb56",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9abfe855e9",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792138929_hd/1792138929_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball League(Australia)",
-            "team_a": "South East Melbourne Phoenix",
-            "team_b": "Cairns Taipans",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e5c63f30ad74c5c5159f1e7695173ae5.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/690d69ad99fc8d3bd6fe4a7131521421.png",
-            "time": "13:30:00",
-            "date": "17/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/24422271_735fd310_20261017.png?v=735fd310",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5fdb82fb66",
           "name": "SiChuan PinSheng Whale vs Tianjin Pioneers | 18:35 17/10",
@@ -1719,7 +1503,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1732,10 +1516,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1784,7 +1568,7 @@
             "time": "15:30:00",
             "date": "17/10",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -1872,83 +1656,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-2843d1fe93",
-          "name": "Astemo Rivale Ibaraki Nữ vs Gunma Greenwings Nữ | 12:05 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2843d1fe93",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2843d1fe93",
-                  "name": "Astemo Rivale Ibaraki Nữ vs Gunma Greenwings Nữ",
-                  "streams": [
-                    {
-                      "id": "st-2843d1fe93",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ea5e333b15",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792138977_hd/1792138977_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nhật Bản SV. League",
-            "team_a": "Astemo Rivale Ibaraki Nữ",
-            "team_b": "Gunma Greenwings Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/0rpuWOAr-6FZ2yXJ6.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/OQvoiZCr-KMZ7hG6b.png",
-            "time": "12:05:00",
-            "date": "17/10",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/eqel2equr8l7_095c93dc_20261017.png?v=095c93dc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ee1f5228fc",
           "name": "Vero Volley Nữ vs Novara Nữ | 01:30 18/10",
@@ -2458,6 +2170,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/c282ygr1h0nr_855f7dad_20261017.png?v=855f7dad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ac963beeb9",
+          "name": "Grand vs Finals | 22:00 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ac963beeb9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ac963beeb9",
+                  "name": "Grand vs Finals",
+                  "streams": [
+                    {
+                      "id": "st-ac963beeb9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fc7d01c568",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792223483_hd/1792223483_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CS2-Thunderpick World Championship 2026",
+            "team_a": "Grand",
+            "team_b": "Finals",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9C8u5REg6anHhtvSgx9SI9-mj5EWxpD4ptLm1BvZEhrYGTfQlAl-pPQLZ&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS51BbFm9V18wwl5QBoeQyaLCisKQA6gITiCWZjw4pyuqlpt49Kx12YafzO&s=10",
+            "time": "22:00:00",
+            "date": "18/10",
+            "blv": "Mickey",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ibqfgo74l25x_855f7dad_20261017.png?v=855f7dad",
             "width": 1600,
             "height": 1200
           }
