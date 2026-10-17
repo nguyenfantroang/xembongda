@@ -1350,83 +1350,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ee26a0a517",
-          "name": "Los Angeles Lakers vs Denver Nuggets | 09:30 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ee26a0a517",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ee26a0a517",
-                  "name": "Los Angeles Lakers vs Denver Nuggets",
-                  "streams": [
-                    {
-                      "id": "st-ee26a0a517",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-079da1e059",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792138366_hd/1792138366_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Los Angeles Lakers",
-            "team_b": "Denver Nuggets",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/935e553f4435030c604a4948c1e4d243.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/36f49ea85609f6b7b32d9fbcba105c2d.png",
-            "time": "09:30:00",
-            "date": "17/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/27632479_5d3e4716_20261017.png?v=5d3e4716",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3d21e2deb8",
           "name": "Anyang Jung Kwan Jang vs Sonicboom | 12:00 17/10",
