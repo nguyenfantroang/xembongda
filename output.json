@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b3f55fb0cc",
-          "name": "Newcastle United vs Aston Villa | 23:30 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b3f55fb0cc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b3f55fb0cc",
-                  "name": "Newcastle United vs Aston Villa",
-                  "streams": [
-                    {
-                      "id": "st-b3f55fb0cc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-279a6a366f",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791950605_hd/1791950605_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Newcastle United",
-            "team_b": "Aston Villa",
-            "logo_a": "https://images.keovip88.net/images/teams/newcastle-united.png",
-            "logo_b": "https://images.keovip88.net/images/teams/aston-villa.png",
-            "time": "23:30:00",
-            "date": "17/10",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06ee_552bb3bb_20261018.png?v=552bb3bb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-0b1205f246",
           "name": "Real Betis vs Barcelona | 23:30 17/10",
@@ -156,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5bce5e6975d550f0753_2ccca2d4_20261018.png?v=2ccca2d4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-9da782eaf6",
-          "name": "Bayern Munich vs RB Leipzig | 23:30 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9da782eaf6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9da782eaf6",
-                  "name": "Bayern Munich vs RB Leipzig",
-                  "streams": [
-                    {
-                      "id": "st-9da782eaf6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-247eb2adff",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791950863_hd/1791950863_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Bayern Munich",
-            "team_b": "RB Leipzig",
-            "logo_a": "https://images.keovip88.net/images/teams/bayern-munchen.png",
-            "logo_b": "https://images.keovip88.net/images/teams/rb-leipzig.png",
-            "time": "23:30:00",
-            "date": "17/10",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5cae5e6975d550f077b_4381d682_20261018.png?v=4381d682",
             "width": 1600,
             "height": 1200
           }
