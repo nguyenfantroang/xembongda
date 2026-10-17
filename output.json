@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,6 +89,78 @@
           }
         },
         {
+          "id": "gv-0b18bbbfac",
+          "name": "SHB Đà Nẵng vs Hải Phòng | 18:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0b18bbbfac",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0b18bbbfac",
+                  "name": "SHB Đà Nẵng vs Hải Phòng",
+                  "streams": [
+                    {
+                      "id": "st-0b18bbbfac",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6ddfdc4660",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792136038_hd/1792136038_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "SHB Đà Nẵng",
+            "team_b": "Hải Phòng",
+            "logo_a": "https://images.keovip88.net/images/teams/da-nang.png",
+            "logo_b": "https://images.keovip88.net/images/teams/hai-phong.png",
+            "time": "18:00:00",
+            "date": "17/10",
+            "blv": "Trĩ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac82ed524d46db87090d9b2_390934f1_20261017.png?v=390934f1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-94daa98eed",
           "name": "Hồng Lĩnh Hà Tĩnh vs Sông Lam Nghệ An | 18:00 17/10",
           "type": "single",
@@ -156,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac82ed524d46db87090d9bc_70755a5d_20261017.png?v=70755a5d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-0b18bbbfac",
-          "name": "SHB Đà Nẵng vs Hải Phòng | 18:00 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0b18bbbfac",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0b18bbbfac",
-                  "name": "SHB Đà Nẵng vs Hải Phòng",
-                  "streams": [
-                    {
-                      "id": "st-0b18bbbfac",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6ddfdc4660",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792136038_hd/1792136038_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "SHB Đà Nẵng",
-            "team_b": "Hải Phòng",
-            "logo_a": "https://images.keovip88.net/images/teams/da-nang.png",
-            "logo_b": "https://images.keovip88.net/images/teams/hai-phong.png",
-            "time": "18:00:00",
-            "date": "17/10",
-            "blv": "Trĩ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac82ed524d46db87090d9b2_390934f1_20261017.png?v=390934f1",
             "width": 1600,
             "height": 1200
           }
@@ -1808,7 +1808,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1893,10 +1893,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1945,7 +1945,7 @@
             "time": "18:00:00",
             "date": "17/10",
             "blv": "Mù",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
