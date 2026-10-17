@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-94daa98eed",
-          "name": "Hồng Lĩnh Hà Tĩnh vs Sông Lam Nghệ An | 18:00 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-94daa98eed",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-94daa98eed",
-                  "name": "Hồng Lĩnh Hà Tĩnh vs Sông Lam Nghệ An",
-                  "streams": [
-                    {
-                      "id": "st-94daa98eed",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-28913a89c7",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792136241_hd/1792136241_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "Hồng Lĩnh Hà Tĩnh",
-            "team_b": "Sông Lam Nghệ An",
-            "logo_a": "https://images.keovip88.net/images/teams/hong-linh-ha-tinh.png",
-            "logo_b": "https://images.keovip88.net/images/teams/song-lam-nghe-an.png",
-            "time": "18:00:00",
-            "date": "17/10",
-            "blv": "Tỵ ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac82ed524d46db87090d9bc_70755a5d_20261017.png?v=70755a5d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e63ee85b80",
           "name": "Everton vs Chelsea FC | 18:30 17/10",
@@ -930,6 +858,256 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-98bb44ba70",
+          "name": "AFC Bournemouth vs Sunderland | 20:00 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-98bb44ba70",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-98bb44ba70",
+                  "name": "AFC Bournemouth vs Sunderland",
+                  "streams": [
+                    {
+                      "id": "st-98bb44ba70",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b073992690",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792173150_hd/1792173150_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "AFC Bournemouth",
+            "team_b": "Sunderland",
+            "logo_a": "https://images.keovip88.net/images/teams/afc-bournemouth.png",
+            "logo_b": "https://images.keovip88.net/images/teams/sunderland-afc.png",
+            "time": "20:00:00",
+            "date": "18/10",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06f0_91d02bb6_20261017.png?v=91d02bb6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a623ed5632",
+          "name": "Leeds United vs Manchester United | 20:00 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a623ed5632",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a623ed5632",
+                  "name": "Leeds United vs Manchester United",
+                  "streams": [
+                    {
+                      "id": "st-a623ed5632",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-25c7a77ab5",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792173181_hd/1792173181_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9ae08a5d4c",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792173222_hd/1792173222_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-7b7aeb9c53",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792173236_hd/1792173236_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Leeds United",
+            "team_b": "Manchester United",
+            "logo_a": "https://images.keovip88.net/images/teams/leeds-united.png",
+            "logo_b": "https://images.keovip88.net/images/teams/manchester-united.png",
+            "time": "20:00:00",
+            "date": "18/10",
+            "blv": "BLV Hấu, Bee, Dory",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06ef_b9d43f53_20261017.png?v=b9d43f53",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0362ac3eb3",
+          "name": "Brighton   Hove Albion vs Crystal Palace | 20:00 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0362ac3eb3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0362ac3eb3",
+                  "name": "Brighton   Hove Albion vs Crystal Palace",
+                  "streams": [
+                    {
+                      "id": "st-0362ac3eb3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e9b6169e47",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792173307_hd/1792173307_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Brighton   Hove Albion",
+            "team_b": "Crystal Palace",
+            "logo_a": "https://images.keovip88.net/images/teams/brighton-hove-albion.png",
+            "logo_b": "https://images.keovip88.net/images/teams/crystal-palace.png",
+            "time": "20:00:00",
+            "date": "18/10",
+            "blv": "Chồn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac9805824d46db8704f9797_5ed43657_20261017.png?v=5ed43657",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1584,87 +1762,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/27263479_f5b32390_20261017.png?v=f5b32390",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-3485cc0d7b",
-          "name": "Rafael Jodar vs Daniil Medvedev | 18:00 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3485cc0d7b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3485cc0d7b",
-                  "name": "Rafael Jodar vs Daniil Medvedev",
-                  "streams": [
-                    {
-                      "id": "st-3485cc0d7b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-33c80acd7c",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792169748_hd/1792169748_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Shanghai Open",
-            "team_a": "Rafael Jodar",
-            "team_b": "Daniil Medvedev",
-            "logo_a": "https://static.flashscore.com/res/image/data/A5stpqzB-bJuw1oYE.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/QujxPtf5-6Z1AkBdk.png",
-            "time": "18:00:00",
-            "date": "17/10",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/zdvkg6ban8xw_868fcf2a_20261017.png?v=868fcf2a",
             "width": 1600,
             "height": 1200
           }
