@@ -930,6 +930,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-88cd55390d",
+          "name": "Bahia(BA) vs Flamengo | 04:30 19/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-88cd55390d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-88cd55390d",
+                  "name": "Bahia(BA) vs Flamengo",
+                  "streams": [
+                    {
+                      "id": "st-88cd55390d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1c77676da9",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791951624_hd/1791951624_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Brazil",
+            "team_a": "Bahia(BA)",
+            "team_b": "Flamengo",
+            "logo_a": "https://images.keovip88.net/images/teams/bahia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/flamengo.png",
+            "time": "04:30:00",
+            "date": "19/10",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e635e5e6975d550f081d_227dff09_20261018.png?v=227dff09",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
