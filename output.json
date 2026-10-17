@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -173,78 +173,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06ec_44a3e7e4_20261017.png?v=44a3e7e4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-030714d351",
-          "name": "Fulham vs Hull City | 21:00 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-030714d351",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-030714d351",
-                  "name": "Fulham vs Hull City",
-                  "streams": [
-                    {
-                      "id": "st-030714d351",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fca4eccde2",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792137575_hd/1792137575_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Fulham",
-            "team_b": "Hull City",
-            "logo_a": "https://images.keovip88.net/images/teams/fulham.png",
-            "logo_b": "https://images.keovip88.net/images/teams/hull-city.png",
-            "time": "21:00:00",
-            "date": "17/10",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06eb_e9fddbe1_20261017.png?v=e9fddbe1",
             "width": 1600,
             "height": 1200
           }
