@@ -1592,83 +1592,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ee1f5228fc",
-          "name": "Vero Volley Nữ vs Novara Nữ | 01:30 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ee1f5228fc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ee1f5228fc",
-                  "name": "Vero Volley Nữ vs Novara Nữ",
-                  "streams": [
-                    {
-                      "id": "st-ee1f5228fc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e6d69a781f",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791951003_hd/1791951003_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italy - Seri A1 Nữ ",
-            "team_a": "Vero Volley Nữ",
-            "team_b": "Novara Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/prWwhLwS-dbN3tce0.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8UCiWxdM-KbBsKXD2.png",
-            "time": "01:30:00",
-            "date": "18/10",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/fntgwdtprbd0_0387c538_20261018.png?v=0387c538",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-71cca75319",
           "name": "Astemo Rivale Ibaraki Nữ vs Gunma Greenwings Nữ | 12:05 18/10",
@@ -2186,7 +2114,7 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2271,10 +2199,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2323,7 +2251,7 @@
             "time": "04:00:00",
             "date": "18/10",
             "blv": "Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "vothuat"
           },
           "image": {
@@ -2501,83 +2429,11 @@
     },
     {
       "id": "cate_rugby",
-      "name": "🏅 Thể Thao (1 LIVE)",
+      "name": "🏅 Thể Thao",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-a7e2b06205",
-          "name": "Ohio State Buckeyes vs Indiana Hoosiers | 23:00 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a7e2b06205",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a7e2b06205",
-                  "name": "Ohio State Buckeyes vs Indiana Hoosiers",
-                  "streams": [
-                    {
-                      "id": "st-a7e2b06205",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0966bdca62",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792248723_hd/1792248723_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NCAA",
-            "team_a": "Ohio State Buckeyes",
-            "team_b": "Indiana Hoosiers",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx1qRFPxAQ_n6CyTLmKpadbS9HRnsVJg2AOFZAlLbWrw&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3DHiw3DQou7icZ9lAxfQjTWm3V8VEQ0tiWxVjkoTsTw&s=10",
-            "time": "23:00:00",
-            "date": "17/10",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "rugby"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/d0okwjyfbxat_0c0496ac_20261018.png?v=0c0496ac",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-06a184e7db",
           "name": "Houston Texans vs Jacksonville Jaguars | 20:30 18/10",
