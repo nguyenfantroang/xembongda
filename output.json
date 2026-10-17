@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -329,10 +329,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -381,7 +381,7 @@
             "time": "23:00:00",
             "date": "17/10",
             "blv": "Bee",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1143,6 +1143,167 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5bce5e6975d550f0756_dec543b0_20261017.png?v=dec543b0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3c720a0ca0",
+          "name": "Nottingham Forest vs Arsenal | 22:30 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3c720a0ca0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3c720a0ca0",
+                  "name": "Nottingham Forest vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "st-3c720a0ca0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7fff487bd9",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792173433_hd/1792173433_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-92b038e17c",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792173441_hd/1792173441_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Nottingham Forest",
+            "team_b": "Arsenal",
+            "logo_a": "https://images.keovip88.net/images/teams/nottingham-forest.png",
+            "logo_b": "https://images.keovip88.net/images/teams/arsenal.png",
+            "time": "22:30:00",
+            "date": "18/10",
+            "blv": "Ngọng, Chồn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06f1_1e856611_20261017.png?v=1e856611",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a8e82ed695",
+          "name": "Monchengladbach vs Hoffenheim | 22:30 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a8e82ed695",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a8e82ed695",
+                  "name": "Monchengladbach vs Hoffenheim",
+                  "streams": [
+                    {
+                      "id": "st-a8e82ed695",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e235617d1f",
+                          "name": "Tỵ ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792173667_hd/1792173667_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Monchengladbach",
+            "team_b": "Hoffenheim",
+            "logo_a": "https://images.keovip88.net/images/teams/borussia-monchengladbach.png",
+            "logo_b": "https://images.keovip88.net/images/teams/tsg-hoffenheim.png",
+            "time": "22:30:00",
+            "date": "18/10",
+            "blv": "Tỵ ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5cae5e6975d550f077d_a288488b_20261017.png?v=a288488b",
             "width": 1600,
             "height": 1200
           }
@@ -2336,114 +2497,6 @@
           }
         },
         {
-          "id": "gv-031cbfb026",
-          "name": "Dubois vs vs Wardley 2 | 23:00 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-031cbfb026",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-031cbfb026",
-                  "name": "Dubois vs vs Wardley 2",
-                  "streams": [
-                    {
-                      "id": "st-031cbfb026",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WBO Heavyweight Title",
-            "team_a": "Dubois vs",
-            "team_b": "Wardley 2",
-            "logo_a": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT75WzoIGFNpa3vJcmLm1Wff-VoeqkryAQp8rV_0plQkDX0rokV",
-            "logo_b": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT75WzoIGFNpa3vJcmLm1Wff-VoeqkryAQp8rV_0plQkDX0rokV",
-            "time": "23:00:00",
-            "date": "17/10",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/qcqvu4tdq7tx_98766c8b_20261017.png?v=98766c8b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c39a4b2a40",
-          "name": "Dubois vs Wardley 2 | 23:00 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c39a4b2a40",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c39a4b2a40",
-                  "name": "Dubois vs Wardley 2",
-                  "streams": [
-                    {
-                      "id": "st-c39a4b2a40",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WBO Heavyweight Title",
-            "team_a": "Dubois",
-            "team_b": "Wardley 2",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUtVTnXZQB1jDNk7ZXAdbCkjwJuhZTHQVS7YVXL-vWgg&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUtVTnXZQB1jDNk7ZXAdbCkjwJuhZTHQVS7YVXL-vWgg&s",
-            "time": "23:00:00",
-            "date": "17/10",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/xa8tltk54w41_e59aecdf_20261017.png?v=e59aecdf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-af934093b3",
           "name": "Joaquin Buckley vs Mike Malott | 04:00 18/10",
           "type": "single",
@@ -2471,11 +2524,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-1207f00f86",
-                          "name": "Cầy",
+                          "id": "lnk-81e1c79566",
+                          "name": "Điếc",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791128130_hd/1791128130_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792250600_hd/1792250600_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2502,7 +2555,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx4T8DFDLQ4rF1ySMtIT00SzWS0TrdS-_ILhl2ia5K0KBW9FSyI6TX_Bf_&s=10",
             "time": "04:00:00",
             "date": "18/10",
-            "blv": "Cầy",
+            "blv": "Điếc",
             "is_live": false,
             "cate_type": "vothuat"
           },
@@ -2600,83 +2653,11 @@
     },
     {
       "id": "cate_Billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-da40674c71",
-          "name": "Team Asia vs Team Rest of the World (ROW) | 18:00 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-da40674c71",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-da40674c71",
-                  "name": "Team Asia vs Team Rest of the World (ROW)",
-                  "streams": [
-                    {
-                      "id": "st-da40674c71",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-663affad2b",
-                          "name": "BLV Kim Chon",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792138322_hd/1792138322_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Reyes Cup 2026",
-            "team_a": "Team Asia",
-            "team_b": "Team Rest of the World (ROW)",
-            "logo_a": "https://img-evg4.tv360.vn/2026/10/b0812ead772c79a3860c9bad2e602698-1024x576.jpg",
-            "logo_b": "https://worldnineballtour.com/wp-content/uploads/B-REYES-CUP-21.jpg",
-            "time": "18:00:00",
-            "date": "17/10",
-            "blv": "BLV Kim Chon",
-            "is_live": true,
-            "cate_type": "Billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/7zcc37ilhphr_a48f1384_20261017.png?v=a48f1384",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-157da4ac22",
           "name": "Team Asia vs Team Rest of the World (ROW) | 18:00 18/10",
@@ -2753,7 +2734,7 @@
     },
     {
       "id": "cate_rugby",
-      "name": "🏅 Thể Thao",
+      "name": "🏅 Thể Thao (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2766,10 +2747,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2818,7 +2799,7 @@
             "time": "23:00:00",
             "date": "17/10",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "rugby"
           },
           "image": {
