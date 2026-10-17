@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-2965385b1d",
-          "name": "AS Roma vs Genoa | 01:45 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2965385b1d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2965385b1d",
-                  "name": "AS Roma vs Genoa",
-                  "streams": [
-                    {
-                      "id": "st-2965385b1d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c01d232641",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791950756_hd/1791950756_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "AS Roma",
-            "team_b": "Genoa",
-            "logo_a": "https://images.keovip88.net/images/teams/as-roma.png",
-            "logo_b": "https://images.keovip88.net/images/teams/genoa.png",
-            "time": "01:45:00",
-            "date": "18/10",
-            "blv": "Ngọng",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac9805124d46db8704f8def_4caf2553_20261018.png?v=4caf2553",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-04869b0d82",
           "name": "Valencia vs Athletic Bilbao | 02:00 18/10",
