@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -240,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -309,7 +309,7 @@
             "time": "18:30:00",
             "date": "17/10",
             "blv": "Hứa, BLV Hấu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1151,7 +1151,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1164,10 +1164,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1216,7 +1216,7 @@
             "time": "18:35:00",
             "date": "17/10",
             "blv": "Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1236,10 +1236,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1288,7 +1288,7 @@
             "time": "18:35:00",
             "date": "17/10",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1808,83 +1808,11 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9f5973b9fa",
-          "name": "Alexander Zverev vs Alejandro Davidovich Fokina | 15:30 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9f5973b9fa",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9f5973b9fa",
-                  "name": "Alexander Zverev vs Alejandro Davidovich Fokina",
-                  "streams": [
-                    {
-                      "id": "st-9f5973b9fa",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-67e7bc82dc",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792169628_hd/1792169628_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Shanghai Open",
-            "team_a": "Alexander Zverev",
-            "team_b": "Alejandro Davidovich Fokina",
-            "logo_a": "https://static.flashscore.com/res/image/data/tO5cePjl-2DqYxEbl.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/fLk5DXhl-SbT3RDiH.png",
-            "time": "15:30:00",
-            "date": "17/10",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/2j74krgs62u7_3d0239a9_20261017.png?v=3d0239a9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3485cc0d7b",
           "name": "Rafael Jodar vs Daniil Medvedev | 18:00 17/10",
@@ -2258,83 +2186,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9aa4d6b706",
-          "name": "Team Vitality vs 100T | 14:00 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9aa4d6b706",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9aa4d6b706",
-                  "name": "Team Vitality vs 100T",
-                  "streams": [
-                    {
-                      "id": "st-9aa4d6b706",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02117a1095",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792217511_hd/1792217511_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Valorant Champions 2026",
-            "team_a": "Team Vitality",
-            "team_b": "100T",
-            "logo_a": "https://static.flashscore.com/res/image/data/C8zF3GEG-lG2kTCDf.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Y5Fp2sFG-j7Z9IDCI.png",
-            "time": "14:00:00",
-            "date": "17/10",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a43n5u7gg2i_c1c7413d_20261017.png?v=c1c7413d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-98097ae989",
           "name": "WE vs BFX | 16:00 17/10",
@@ -2627,83 +2483,11 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-e82880cf98",
-          "name": "ONE SAMURAI 4 vs ONE SAMURAI 4 | 14:00 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e82880cf98",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e82880cf98",
-                  "name": "ONE SAMURAI 4 vs ONE SAMURAI 4",
-                  "streams": [
-                    {
-                      "id": "st-e82880cf98",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e53d672c64",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791127745_hd/1791127745_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ONE SAMURAI 4",
-            "team_a": "ONE SAMURAI 4",
-            "team_b": "ONE SAMURAI 4",
-            "logo_a": "https://cdn.onefc.com/wp-content/uploads/2026/06/261017-OS4-1800x1200px-2.jpg",
-            "logo_b": "https://cdn.onefc.com/wp-content/uploads/2026/06/261017-OS4-1800x1200px-2.jpg",
-            "time": "14:00:00",
-            "date": "17/10",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/eefzx5x5avaf_d9125078_20261017.png?v=d9125078",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-a832b8b1a2",
           "name": "Dubois vs Wardley | 22:00 17/10",
@@ -3077,7 +2861,7 @@
     },
     {
       "id": "cate_Billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3090,10 +2874,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3142,7 +2926,7 @@
             "time": "18:00:00",
             "date": "17/10",
             "blv": "BLV Kim Chon",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "Billiards"
           },
           "image": {
