@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -257,10 +257,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -309,7 +309,7 @@
             "time": "22:15:00",
             "date": "17/10",
             "blv": "Ngọng",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -317,6 +317,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5f5e5e6975d550f07b7_50174a8e_20261017.png?v=50174a8e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-65c6b7a407",
+          "name": "Bologna vs Inter Milan | 23:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-65c6b7a407",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-65c6b7a407",
+                  "name": "Bologna vs Inter Milan",
+                  "streams": [
+                    {
+                      "id": "st-65c6b7a407",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2aefd50554",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792248177_hd/1792248177_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Bologna",
+            "team_b": "Inter Milan",
+            "logo_a": "https://images.keovip88.net/images/teams/bologna.png",
+            "logo_b": "https://images.keovip88.net/images/teams/inter-milan.png",
+            "time": "23:00:00",
+            "date": "17/10",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac82ee324d46db87090ec00_91dc9f6d_20261017.png?v=91dc9f6d",
             "width": 1600,
             "height": 1200
           }
@@ -605,6 +677,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac9805324d46db8704f912b_f221d22e_20261017.png?v=f221d22e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-38107da094",
+          "name": "JEF United vs Urawa Reds | 11:00 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-38107da094",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-38107da094",
+                  "name": "JEF United vs Urawa Reds",
+                  "streams": [
+                    {
+                      "id": "st-38107da094",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2f2966d5e1",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792248107_hd/1792248107_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japan - WE League",
+            "team_a": "JEF United",
+            "team_b": "Urawa Reds",
+            "logo_a": "https://static.flashscore.com/res/image/data/hCz5kaZg-0rbJf5W9.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/8Ql03eh5-EsSICT7E.png",
+            "time": "11:00:00",
+            "date": "18/10",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/p9ve2b8q95fi_3186c924_20261017.png?v=3186c924",
             "width": 1600,
             "height": 1200
           }
@@ -1012,6 +1156,78 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-ee1c2a33d7",
+          "name": "Golden State Valkyries vs Atlanta Dream | 02:30 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ee1c2a33d7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ee1c2a33d7",
+                  "name": "Golden State Valkyries vs Atlanta Dream",
+                  "streams": [
+                    {
+                      "id": "st-ee1c2a33d7",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d2f2e9b8ba",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792248620_hd/1792248620_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Golden State Valkyries",
+            "team_b": "Atlanta Dream",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/f527c983cab3560c60e7b9d147904d7d.png",
+            "time": "02:30:00",
+            "date": "18/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/26335478_ec8579d0_20261017.png?v=ec8579d0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-9eab81e6fe",
           "name": "Tasmania JackJumpers vs New Zealand Breakers | 11:00 18/10",
@@ -1481,11 +1697,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-f192bc3c97",
+                          "id": "lnk-e6d69a781f",
                           "name": "Sún",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791951003_hd/1791951003_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791951003_hd/1791951003_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2145,25 +2361,7 @@
                     {
                       "id": "st-031cbfb026",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d3413a1dc1",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791951122_hd/1791951122_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -2178,7 +2376,7 @@
             "logo_b": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT75WzoIGFNpa3vJcmLm1Wff-VoeqkryAQp8rV_0plQkDX0rokV",
             "time": "23:00:00",
             "date": "17/10",
-            "blv": "Cầy",
+            "blv": "",
             "is_live": false,
             "cate_type": "vothuat"
           },
@@ -2217,25 +2415,7 @@
                     {
                       "id": "st-c39a4b2a40",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b07af44fd6",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791128060_hd/1791128060_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -2250,7 +2430,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUtVTnXZQB1jDNk7ZXAdbCkjwJuhZTHQVS7YVXL-vWgg&s",
             "time": "23:00:00",
             "date": "17/10",
-            "blv": "Cầy",
+            "blv": "",
             "is_live": false,
             "cate_type": "vothuat"
           },
@@ -2291,11 +2471,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-1609ae329f",
+                          "id": "lnk-1207f00f86",
                           "name": "Cầy",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791128130_hd/1791128130_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791128130_hd/1791128130_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2579,6 +2759,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-a7e2b06205",
+          "name": "Ohio State Buckeyes vs Indiana Hoosiers | 23:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a7e2b06205",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a7e2b06205",
+                  "name": "Ohio State Buckeyes vs Indiana Hoosiers",
+                  "streams": [
+                    {
+                      "id": "st-a7e2b06205",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0966bdca62",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792248723_hd/1792248723_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NCAA",
+            "team_a": "Ohio State Buckeyes",
+            "team_b": "Indiana Hoosiers",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx1qRFPxAQ_n6CyTLmKpadbS9HRnsVJg2AOFZAlLbWrw&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3DHiw3DQou7icZ9lAxfQjTWm3V8VEQ0tiWxVjkoTsTw&s=10",
+            "time": "23:00:00",
+            "date": "17/10",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "rugby"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/d0okwjyfbxat_0c0496ac_20261017.png?v=0c0496ac",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-06a184e7db",
           "name": "Houston Texans vs Jacksonville Jaguars | 20:30 18/10",
           "type": "single",
@@ -2646,6 +2898,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/7pp0089k9ww5_3a3c3cbc_20261017.png?v=3a3c3cbc",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_formula1",
+      "name": "🏅 Thể Thao",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-5e03ea7c32",
+          "name": "New Jersey Devils vs Washington Capitals | 23:59 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5e03ea7c32",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5e03ea7c32",
+                  "name": "New Jersey Devils vs Washington Capitals",
+                  "streams": [
+                    {
+                      "id": "st-5e03ea7c32",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3f8539bf8e",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792248872_hd/1792248872_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NHL",
+            "team_a": "New Jersey Devils",
+            "team_b": "Washington Capitals",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnSl4DQUYDgX-VsVwRIquElZd3TcqkRHaSh0KNUOju0g&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGcPwFocB0PGfJD1a5OBGjEmkL5faASYoM4CkLbYIoGw&s",
+            "time": "23:59:00",
+            "date": "17/10",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "formula1"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ovcpmqidvz61_be07b635_20261017.png?v=be07b635",
             "width": 1600,
             "height": 1200
           }
