@@ -1007,83 +1007,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ee1c2a33d7",
-          "name": "Golden State Valkyries vs Atlanta Dream | 02:30 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ee1c2a33d7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ee1c2a33d7",
-                  "name": "Golden State Valkyries vs Atlanta Dream",
-                  "streams": [
-                    {
-                      "id": "st-ee1c2a33d7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d2f2e9b8ba",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792248620_hd/1792248620_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "Golden State Valkyries",
-            "team_b": "Atlanta Dream",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/f527c983cab3560c60e7b9d147904d7d.png",
-            "time": "02:30:00",
-            "date": "18/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/26335478_ec8579d0_20261018.png?v=ec8579d0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-9eab81e6fe",
           "name": "Tasmania JackJumpers vs New Zealand Breakers | 11:00 18/10",
