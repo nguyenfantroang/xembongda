@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-f2ada41595",
-          "name": "Ulsan Hyundai vs Bucheon FC 1995 | 14:30 17/10",
+          "id": "gv-c40379a6cc",
+          "name": "Thanh Hóa vs Thép Xanh Nam Định | 17:00 17/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,78 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f2ada41595",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f2ada41595",
-                  "name": "Ulsan Hyundai vs Bucheon FC 1995",
-                  "streams": [
-                    {
-                      "id": "st-f2ada41595",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc6d15ad74",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792136856_hd/1792136856_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K-League Hàn Quốc",
-            "team_a": "Ulsan Hyundai",
-            "team_b": "Bucheon FC 1995",
-            "logo_a": "https://images.keovip88.net/images/teams/ulsan-hd-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/bucheon-fc-1995.png",
-            "time": "14:30:00",
-            "date": "17/10",
-            "blv": "Tỵ ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac82ed324d46db87090d776_e16f8d24_20261017.png?v=e16f8d24",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c40379a6cc",
-          "name": "Thanh Hóa vs Thép Xanh Nam Định | 17:00 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -148,7 +76,7 @@
             "time": "17:00:00",
             "date": "17/10",
             "blv": "Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -156,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac82ed424d46db87090d8af_6825415a_20261017.png?v=6825415a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-94daa98eed",
+          "name": "Hồng Lĩnh Hà Tĩnh vs Sông Lam Nghệ An | 18:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-94daa98eed",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-94daa98eed",
+                  "name": "Hồng Lĩnh Hà Tĩnh vs Sông Lam Nghệ An",
+                  "streams": [
+                    {
+                      "id": "st-94daa98eed",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-28913a89c7",
+                          "name": "Tỵ ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792136241_hd/1792136241_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "Hồng Lĩnh Hà Tĩnh",
+            "team_b": "Sông Lam Nghệ An",
+            "logo_a": "https://images.keovip88.net/images/teams/hong-linh-ha-tinh.png",
+            "logo_b": "https://images.keovip88.net/images/teams/song-lam-nghe-an.png",
+            "time": "18:00:00",
+            "date": "17/10",
+            "blv": "Tỵ ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac82ed524d46db87090d9bc_70755a5d_20261017.png?v=70755a5d",
             "width": 1600,
             "height": 1200
           }
@@ -228,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac82ed524d46db87090d9b2_390934f1_20261017.png?v=390934f1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-94daa98eed",
-          "name": "Hồng Lĩnh Hà Tĩnh vs Sông Lam Nghệ An | 18:00 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-94daa98eed",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-94daa98eed",
-                  "name": "Hồng Lĩnh Hà Tĩnh vs Sông Lam Nghệ An",
-                  "streams": [
-                    {
-                      "id": "st-94daa98eed",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-28913a89c7",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792136241_hd/1792136241_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "Hồng Lĩnh Hà Tĩnh",
-            "team_b": "Sông Lam Nghệ An",
-            "logo_a": "https://images.keovip88.net/images/teams/hong-linh-ha-tinh.png",
-            "logo_b": "https://images.keovip88.net/images/teams/song-lam-nghe-an.png",
-            "time": "18:00:00",
-            "date": "17/10",
-            "blv": "Tỵ ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac82ed524d46db87090d9bc_70755a5d_20261017.png?v=70755a5d",
             "width": 1600,
             "height": 1200
           }
@@ -1057,6 +985,150 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-1d4a8bd94e",
+          "name": "Adelaide United FC vs Brisbane Roar FC | 11:00 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1d4a8bd94e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1d4a8bd94e",
+                  "name": "Adelaide United FC vs Brisbane Roar FC",
+                  "streams": [
+                    {
+                      "id": "st-1d4a8bd94e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-43998b2a14",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792228300_hd/1792228300_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Úc",
+            "team_a": "Adelaide United FC",
+            "team_b": "Brisbane Roar FC",
+            "logo_a": "https://images.keovip88.net/images/teams/adelaide-united.png",
+            "logo_b": "https://images.keovip88.net/images/teams/brisbane-roar.png",
+            "time": "11:00:00",
+            "date": "18/10",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac9805324d46db8704f912b_f221d22e_20261017.png?v=f221d22e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-316977c95b",
+          "name": "Gangwon FC vs Incheon United FC | 14:30 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-316977c95b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-316977c95b",
+                  "name": "Gangwon FC vs Incheon United FC",
+                  "streams": [
+                    {
+                      "id": "st-316977c95b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-235fbbe8d6",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792228483_hd/1792228483_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K-League Hàn Quốc",
+            "team_a": "Gangwon FC",
+            "team_b": "Incheon United FC",
+            "logo_a": "https://images.keovip88.net/images/teams/gangwon-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/incheon-united.png",
+            "time": "14:30:00",
+            "date": "18/10",
+            "blv": "BLV Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac9805424d46db8704f9216_76269310_20261017.png?v=76269310",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1279,6 +1351,294 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/26263478_980816b9_20261017.png?v=980816b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9eab81e6fe",
+          "name": "Tasmania JackJumpers vs New Zealand Breakers | 11:00 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9eab81e6fe",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9eab81e6fe",
+                  "name": "Tasmania JackJumpers vs New Zealand Breakers",
+                  "streams": [
+                    {
+                      "id": "st-9eab81e6fe",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eaeaf011b9",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792228531_hd/1792228531_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball League(Australia)",
+            "team_a": "Tasmania JackJumpers",
+            "team_b": "New Zealand Breakers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/b4775c62432e01185c4fd9669952b258.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/7778a93083d2fa50e4cb4e128f07cf5f.png",
+            "time": "11:00:00",
+            "date": "18/10",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/26422273_d9b90e01_20261017.png?v=d9b90e01",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-5a30e2077a",
+          "name": "SK Knights vs Goyang Sono | 12:00 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5a30e2077a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5a30e2077a",
+                  "name": "SK Knights vs Goyang Sono",
+                  "streams": [
+                    {
+                      "id": "st-5a30e2077a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cc00da344c",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792228570_hd/1792228570_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "South Korean KBL Cup",
+            "team_a": "SK Knights",
+            "team_b": "Goyang Sono",
+            "logo_a": "https://static.flashscore.com/res/image/data/W2SxG2g5-rVVwDBZs.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Q7U6ouhl-8M6D6J3r.png",
+            "time": "12:00:00",
+            "date": "18/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/dz2a0mh2f2u3_f28cd22a_20261017.png?v=f28cd22a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3481b78ac3",
+          "name": "Melbourne United vs Illawarra Hawks | 13:00 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3481b78ac3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3481b78ac3",
+                  "name": "Melbourne United vs Illawarra Hawks",
+                  "streams": [
+                    {
+                      "id": "st-3481b78ac3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4ad70975e7",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792228630_hd/1792228630_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball League(Australia)",
+            "team_a": "Melbourne United",
+            "team_b": "Illawarra Hawks",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/21d2a46a9599ab792dc3a7884839072f.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/e97aa6ff62044e05b1dc126043568a18.png",
+            "time": "13:00:00",
+            "date": "18/10",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/27422274_ff36b7e6_20261017.png?v=ff36b7e6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-2df9b71488",
+          "name": "Anyang Jung Kwan Jang vs KCC Egis | 14:30 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2df9b71488",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2df9b71488",
+                  "name": "Anyang Jung Kwan Jang vs KCC Egis",
+                  "streams": [
+                    {
+                      "id": "st-2df9b71488",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-03e5879f27",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792228657_hd/1792228657_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "South Korean KBL Cup",
+            "team_a": "Anyang Jung Kwan Jang",
+            "team_b": "KCC Egis",
+            "logo_a": "https://static.flashscore.com/res/image/data/viUBkizB-KtOrDRPL.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/6akehaEa-QVr2kiM7.png",
+            "time": "14:30:00",
+            "date": "18/10",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/0hsq2fbczjtk_c9be6cdb_20261017.png?v=c9be6cdb",
             "width": 1600,
             "height": 1200
           }
@@ -1657,6 +2017,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/fntgwdtprbd0_0387c538_20261017.png?v=0387c538",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-71cca75319",
+          "name": "Astemo Rivale Ibaraki Nữ vs Gunma Greenwings Nữ | 12:05 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-71cca75319",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-71cca75319",
+                  "name": "Astemo Rivale Ibaraki Nữ vs Gunma Greenwings Nữ",
+                  "streams": [
+                    {
+                      "id": "st-71cca75319",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-562fd915eb",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792228782_hd/1792228782_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nhật Bản SV. League",
+            "team_a": "Astemo Rivale Ibaraki Nữ",
+            "team_b": "Gunma Greenwings Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/0rpuWOAr-6FZ2yXJ6.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/OQvoiZCr-KMZ7hG6b.png",
+            "time": "12:05:00",
+            "date": "18/10",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/rnx0ayd3gqho_095c93dc_20261017.png?v=095c93dc",
             "width": 1600,
             "height": 1200
           }
@@ -2539,6 +2971,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/q9gvcw8bholw_41706bdf_20261017.png?v=41706bdf",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-36caa1d7c0",
+          "name": "Tampa Bay Rays vs Cleverland Guardians | 07:00 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-36caa1d7c0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-36caa1d7c0",
+                  "name": "Tampa Bay Rays vs Cleverland Guardians",
+                  "streams": [
+                    {
+                      "id": "st-36caa1d7c0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2f96105a26",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792228897_hd/1792228897_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB - Championship Series",
+            "team_a": "Tampa Bay Rays",
+            "team_b": "Cleverland Guardians",
+            "logo_a": "https://static.flashscore.com/res/image/data/lGlxbdyB-6yNDMrbJ.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/CMe9zXzS-QNrz0V5B.png",
+            "time": "07:00:00",
+            "date": "18/10",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ffva2eji0ecm_9e050375_20261017.png?v=9e050375",
             "width": 1600,
             "height": 1200
           }
