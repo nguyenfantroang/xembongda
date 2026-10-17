@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-22b5be02a5",
-          "name": "Mito Hollyhock vs Urawa Red Diamonds | 14:00 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-22b5be02a5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-22b5be02a5",
-                  "name": "Mito Hollyhock vs Urawa Red Diamonds",
-                  "streams": [
-                    {
-                      "id": "st-22b5be02a5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-78904696bc",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792136834_hd/1792136834_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Mito Hollyhock",
-            "team_b": "Urawa Red Diamonds",
-            "logo_a": "https://images.keovip88.net/images/teams/mito-hollyhock.png",
-            "logo_b": "https://images.keovip88.net/images/teams/urawa-red-diamonds.png",
-            "time": "14:00:00",
-            "date": "17/10",
-            "blv": "BLV Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac82ed324d46db87090d756_d2b85479_20261017.png?v=d2b85479",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f2ada41595",
           "name": "Ulsan Hyundai vs Bucheon FC 1995 | 14:30 17/10",
