@@ -11,172 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5a50b61f48",
-          "name": "Manchester City vs Ipswich | 21:00 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5a50b61f48",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5a50b61f48",
-                  "name": "Manchester City vs Ipswich",
-                  "streams": [
-                    {
-                      "id": "st-5a50b61f48",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8cfdd46eb8",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792137082_hd/1792137082_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Manchester City",
-            "team_b": "Ipswich",
-            "logo_a": "https://images.keovip88.net/images/teams/manchester-city.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ipswich-town.png",
-            "time": "21:00:00",
-            "date": "17/10",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06ed_2754e598_20261017.png?v=2754e598",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d10310d971",
-          "name": "Brentford vs Liverpool | 21:00 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d10310d971",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d10310d971",
-                  "name": "Brentford vs Liverpool",
-                  "streams": [
-                    {
-                      "id": "st-d10310d971",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eee83d7b2f",
-                          "name": "Tỵ + Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792137723_hd/1792137723_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3447eae56b",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792137930_hd/1792137930_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Brentford",
-            "team_b": "Liverpool",
-            "logo_a": "https://images.keovip88.net/images/teams/brentford.png",
-            "logo_b": "https://images.keovip88.net/images/teams/liverpool.png",
-            "time": "21:00:00",
-            "date": "17/10",
-            "blv": "Tỵ + Trĩ, BLV Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06ec_44a3e7e4_20261017.png?v=44a3e7e4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-de82bfcc5b",
           "name": "Strasbourg vs Paris Saint Germain | 22:15 17/10",
@@ -322,150 +161,6 @@
           }
         },
         {
-          "id": "gv-0b1205f246",
-          "name": "Real Betis vs Barcelona | 23:30 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0b1205f246",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0b1205f246",
-                  "name": "Real Betis vs Barcelona",
-                  "streams": [
-                    {
-                      "id": "st-0b1205f246",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9ed5e9b39e",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791950686_hd/1791950686_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Real Betis",
-            "team_b": "Barcelona",
-            "logo_a": "https://images.keovip88.net/images/teams/real-betis.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fc-barcelona.png",
-            "time": "23:30:00",
-            "date": "17/10",
-            "blv": "Mù",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5bce5e6975d550f0753_2ccca2d4_20261017.png?v=2ccca2d4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-9da782eaf6",
-          "name": "Bayern Munich vs RB Leipzig | 23:30 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9da782eaf6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9da782eaf6",
-                  "name": "Bayern Munich vs RB Leipzig",
-                  "streams": [
-                    {
-                      "id": "st-9da782eaf6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-247eb2adff",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791950863_hd/1791950863_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Bayern Munich",
-            "team_b": "RB Leipzig",
-            "logo_a": "https://images.keovip88.net/images/teams/bayern-munchen.png",
-            "logo_b": "https://images.keovip88.net/images/teams/rb-leipzig.png",
-            "time": "23:30:00",
-            "date": "17/10",
-            "blv": "Ngu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5cae5e6975d550f077b_4381d682_20261017.png?v=4381d682",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-b3f55fb0cc",
           "name": "Newcastle United vs Aston Villa | 23:30 17/10",
           "type": "single",
@@ -473,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -525,7 +220,7 @@
             "time": "23:30:00",
             "date": "17/10",
             "blv": "Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -533,6 +228,294 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06ee_552bb3bb_20261017.png?v=552bb3bb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0b1205f246",
+          "name": "Real Betis vs Barcelona | 23:30 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0b1205f246",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0b1205f246",
+                  "name": "Real Betis vs Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-0b1205f246",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9ed5e9b39e",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791950686_hd/1791950686_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Real Betis",
+            "team_b": "Barcelona",
+            "logo_a": "https://images.keovip88.net/images/teams/real-betis.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fc-barcelona.png",
+            "time": "23:30:00",
+            "date": "17/10",
+            "blv": "Mù",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5bce5e6975d550f0753_2ccca2d4_20261017.png?v=2ccca2d4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9da782eaf6",
+          "name": "Bayern Munich vs RB Leipzig | 23:30 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9da782eaf6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9da782eaf6",
+                  "name": "Bayern Munich vs RB Leipzig",
+                  "streams": [
+                    {
+                      "id": "st-9da782eaf6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-247eb2adff",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791950863_hd/1791950863_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Bayern Munich",
+            "team_b": "RB Leipzig",
+            "logo_a": "https://images.keovip88.net/images/teams/bayern-munchen.png",
+            "logo_b": "https://images.keovip88.net/images/teams/rb-leipzig.png",
+            "time": "23:30:00",
+            "date": "17/10",
+            "blv": "Ngu",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5cae5e6975d550f077b_4381d682_20261017.png?v=4381d682",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-2965385b1d",
+          "name": "AS Roma vs Genoa | 01:45 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2965385b1d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2965385b1d",
+                  "name": "AS Roma vs Genoa",
+                  "streams": [
+                    {
+                      "id": "st-2965385b1d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c01d232641",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791950756_hd/1791950756_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "AS Roma",
+            "team_b": "Genoa",
+            "logo_a": "https://images.keovip88.net/images/teams/as-roma.png",
+            "logo_b": "https://images.keovip88.net/images/teams/genoa.png",
+            "time": "01:45:00",
+            "date": "18/10",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac9805124d46db8704f8def_4caf2553_20261017.png?v=4caf2553",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-04869b0d82",
+          "name": "Valencia vs Athletic Bilbao | 02:00 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-04869b0d82",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-04869b0d82",
+                  "name": "Valencia vs Athletic Bilbao",
+                  "streams": [
+                    {
+                      "id": "st-04869b0d82",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d6c8d7fd55",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792253565_hd/1792253565_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Valencia",
+            "team_b": "Athletic Bilbao",
+            "logo_a": "https://images.keovip88.net/images/teams/valencia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/athletic-bilbao.png",
+            "time": "02:00:00",
+            "date": "18/10",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5bce5e6975d550f0754_ad3dcb23_20261017.png?v=ad3dcb23",
             "width": 1600,
             "height": 1200
           }
@@ -2815,7 +2798,7 @@
     },
     {
       "id": "cate_formula1",
-      "name": "🏅 Thể Thao",
+      "name": "🏅 Thể Thao (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2828,10 +2811,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2880,7 +2863,7 @@
             "time": "23:59:00",
             "date": "17/10",
             "blv": "Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "formula1"
           },
           "image": {
