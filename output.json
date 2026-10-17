@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ab25647c4e",
-          "name": "Espanyol vs Atletico Madrid | 19:00 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ab25647c4e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ab25647c4e",
-                  "name": "Espanyol vs Atletico Madrid",
-                  "streams": [
-                    {
-                      "id": "st-ab25647c4e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9b8942cb44",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792136791_hd/1792136791_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Espanyol",
-            "team_b": "Atletico Madrid",
-            "logo_a": "https://images.keovip88.net/images/teams/rcd-espanyol.png",
-            "logo_b": "https://images.keovip88.net/images/teams/atletico-madrid.png",
-            "time": "19:00:00",
-            "date": "17/10",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5bce5e6975d550f0751_55087efb_20261017.png?v=55087efb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5a50b61f48",
           "name": "Manchester City vs Ipswich | 21:00 17/10",
@@ -1019,160 +947,88 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-6734217c21",
+          "name": "Celta Vigo vs Alaves | 21:15 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6734217c21",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6734217c21",
+                  "name": "Celta Vigo vs Alaves",
+                  "streams": [
+                    {
+                      "id": "st-6734217c21",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b538667c",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792173366_hd/1792173366_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Celta Vigo",
+            "team_b": "Alaves",
+            "logo_a": "https://images.keovip88.net/images/teams/celta-vigo.png",
+            "logo_b": "https://images.keovip88.net/images/teams/alaves.png",
+            "time": "21:15:00",
+            "date": "18/10",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5bce5e6975d550f0756_dec543b0_20261017.png?v=dec543b0",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-fbeb8121d7",
-          "name": "Suzhou Dragons vs Fujian Sturgeons | 18:35 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fbeb8121d7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fbeb8121d7",
-                  "name": "Suzhou Dragons vs Fujian Sturgeons",
-                  "streams": [
-                    {
-                      "id": "st-fbeb8121d7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f837584ace",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792136639_hd/1792136639_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Basketball Association",
-            "team_a": "Suzhou Dragons",
-            "team_b": "Fujian Sturgeons",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/d1c8a0f21d4d300f8ddce93f11b79c70.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/513a673e2abf3080d21b0dc4d0b0dad8.png",
-            "time": "18:35:00",
-            "date": "17/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/23263475_fbf0d32b_20261017.png?v=fbf0d32b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ecbeb954a0",
-          "name": "Xinjiang Flying Tigers vs QingDao Eagles | 19:00 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ecbeb954a0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ecbeb954a0",
-                  "name": "Xinjiang Flying Tigers vs QingDao Eagles",
-                  "streams": [
-                    {
-                      "id": "st-ecbeb954a0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-59c48a4806",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792136910_hd/1792136910_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Basketball Association",
-            "team_a": "Xinjiang Flying Tigers",
-            "team_b": "QingDao Eagles",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f68788874e0a17dd655083cb42b1d00b.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/cbbeaf29a9996f0500e140e33cb780ae.png",
-            "time": "19:00:00",
-            "date": "17/10",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/26263478_980816b9_20261017.png?v=980816b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-9eab81e6fe",
           "name": "Tasmania JackJumpers vs New Zealand Breakers | 11:00 18/10",
