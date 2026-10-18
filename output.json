@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-fca33536b7",
-          "name": "Lyonnais vs Nice | 01:45 19/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fca33536b7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fca33536b7",
-                  "name": "Lyonnais vs Nice",
-                  "streams": [
-                    {
-                      "id": "st-fca33536b7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9431ec3fd5",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792339154_hd/1792339154_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Lyonnais",
-            "team_b": "Nice",
-            "logo_a": "https://images.keovip88.net/images/teams/lyon.png",
-            "logo_b": "https://images.keovip88.net/images/teams/nice.png",
-            "time": "01:45:00",
-            "date": "19/10",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5f5e5e6975d550f07be_72d44bc9_20261019.png?v=72d44bc9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d3b01b7605",
-          "name": "Juventus vs Lazio | 01:45 19/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d3b01b7605",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d3b01b7605",
-                  "name": "Juventus vs Lazio",
-                  "streams": [
-                    {
-                      "id": "st-d3b01b7605",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0da02011da",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791951480_hd/1791951480_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Juventus",
-            "team_b": "Lazio",
-            "logo_a": "https://images.keovip88.net/images/teams/juventus.png",
-            "logo_b": "https://images.keovip88.net/images/teams/lazio.png",
-            "time": "01:45:00",
-            "date": "19/10",
-            "blv": "Ngọng",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acc235024d46db8701808d1_6907b434_20261019.png?v=6907b434",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-dc96501eac",
           "name": "Real Madrid vs Sevilla | 02:00 19/10",
@@ -1630,7 +1486,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1703,78 +1559,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ibqfgo74l25x_855f7dad_20261019.png?v=855f7dad",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-58648b4afa",
-          "name": "KC vs MVK | 01:00 19/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-58648b4afa",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-58648b4afa",
-                  "name": "KC vs MVK",
-                  "streams": [
-                    {
-                      "id": "st-58648b4afa",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6c7b463e48",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792334571_hd/1792334571_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Worlds 2026 - Playin",
-            "team_a": "KC",
-            "team_b": "MVK",
-            "logo_a": "https://dpm.lol/esports/img/128/assets.dpm.lol/team-assets/sha256/ae/aea0a85631116aa2a6c90efbcd0ac3cb39a354cbc46d274341c3fd505c1b54d8.png",
-            "logo_b": "https://dpm.lol/esports/img/128/assets.dpm.lol/team-assets/sha256/d6/d6bc8458cd4cbc8727f6e07910b3002fdb77c80ef2c4ef00aea766f1cc8cbdba.png",
-            "time": "01:00:00",
-            "date": "19/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/67v3nqtwq0bo_381492c5_20261019.png?v=381492c5",
             "width": 1600,
             "height": 1200
           }
@@ -2233,7 +2017,7 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2246,10 +2030,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2298,7 +2082,7 @@
             "time": "04:00:00",
             "date": "19/10",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchay"
           },
           "image": {
