@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -168,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -237,7 +237,7 @@
             "time": "02:00:00",
             "date": "19/10",
             "blv": "Mason, Súp",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -277,11 +277,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-1c77676da9",
+                          "id": "lnk-2c35a3f9a9",
                           "name": "Mù",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791951624_hd/1791951624_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791951624_hd/1791951624_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2319,78 +2319,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-45f590e11b",
-          "name": "Los Angeles Chargers vs Kansas City Chiefs | 03:25 19/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-45f590e11b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-45f590e11b",
-                  "name": "Los Angeles Chargers vs Kansas City Chiefs",
-                  "streams": [
-                    {
-                      "id": "st-45f590e11b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2d5fe1a12c",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792335553_hd/1792335553_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NFL",
-            "team_a": "Los Angeles Chargers",
-            "team_b": "Kansas City Chiefs",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/fQRCFlwKEORFAvo-Tix0dg_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/UVLlczXJQ1wxxKMT9ShJQw_96x96.png",
-            "time": "03:25:00",
-            "date": "19/10",
-            "blv": "Riko",
-            "is_live": false,
-            "cate_type": "rugby"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/49332jkvepbf_9b558a74_20261019.png?v=9b558a74",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-34b71f3ad1",
           "name": "Dallas Cowboys vs Green Bay Packers | 07:20 19/10",
