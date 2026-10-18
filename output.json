@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-dc96501eac",
-          "name": "Real Madrid vs Sevilla | 02:00 19/10",
+          "id": "gv-88cd55390d",
+          "name": "Bahia(BA) vs Flamengo | 04:30 19/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,95 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dc96501eac",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-dc96501eac",
-                  "name": "Real Madrid vs Sevilla",
-                  "streams": [
-                    {
-                      "id": "st-dc96501eac",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5b245035bb",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791951509_hd/1791951509_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-15d9e5f8f1",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792347687_hd/1792347687_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Real Madrid",
-            "team_b": "Sevilla",
-            "logo_a": "https://images.keovip88.net/images/teams/real-madrid.png",
-            "logo_b": "https://images.keovip88.net/images/teams/sevilla.png",
-            "time": "02:00:00",
-            "date": "19/10",
-            "blv": "Mason, Súp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5bce5e6975d550f0758_7df327f1_20261019.png?v=7df327f1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-88cd55390d",
-          "name": "Bahia(BA) vs Flamengo | 04:30 19/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -165,7 +76,7 @@
             "time": "04:30:00",
             "date": "19/10",
             "blv": "Mù",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
