@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1d4a8bd94e",
-          "name": "Adelaide United FC vs Brisbane Roar FC | 11:00 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1d4a8bd94e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1d4a8bd94e",
-                  "name": "Adelaide United FC vs Brisbane Roar FC",
-                  "streams": [
-                    {
-                      "id": "st-1d4a8bd94e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-43998b2a14",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792228300_hd/1792228300_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Úc",
-            "team_a": "Adelaide United FC",
-            "team_b": "Brisbane Roar FC",
-            "logo_a": "https://images.keovip88.net/images/teams/adelaide-united.png",
-            "logo_b": "https://images.keovip88.net/images/teams/brisbane-roar.png",
-            "time": "11:00:00",
-            "date": "18/10",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac9805324d46db8704f912b_f221d22e_20261018.png?v=f221d22e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-38107da094",
           "name": "JEF United vs Urawa Reds | 11:00 18/10",
