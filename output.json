@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ccdad8f8f6",
-          "name": "Công An Hà Nội vs Hà Nội | 19:15 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ccdad8f8f6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ccdad8f8f6",
-                  "name": "Công An Hà Nội vs Hà Nội",
-                  "streams": [
-                    {
-                      "id": "st-ccdad8f8f6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-99fd1a30da",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792288526_hd/1792288526_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "Công An Hà Nội",
-            "team_b": "Hà Nội",
-            "logo_a": "https://images.keovip88.net/images/teams/cong-an-ha-noi.png",
-            "logo_b": "https://images.keovip88.net/images/teams/hanoi-fc.png",
-            "time": "19:15:00",
-            "date": "18/10",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac9805824d46db8704f9730_aab54e30_20261018.png?v=aab54e30",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-98bb44ba70",
           "name": "AFC Bournemouth vs Sunderland | 20:00 18/10",
@@ -483,6 +411,78 @@
           }
         },
         {
+          "id": "gv-e1f14d318b",
+          "name": "Lorient vs AS Monaco | 22:15 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e1f14d318b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e1f14d318b",
+                  "name": "Lorient vs AS Monaco",
+                  "streams": [
+                    {
+                      "id": "st-e1f14d318b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e992a0f550",
+                          "name": "Fan Mu: Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792332590_hd/1792332590_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Lorient",
+            "team_b": "AS Monaco",
+            "logo_a": "https://images.keovip88.net/images/teams/lorient.png",
+            "logo_b": "https://images.keovip88.net/images/teams/monaco.png",
+            "time": "22:15:00",
+            "date": "18/10",
+            "blv": "Fan Mu: Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5f5e5e6975d550f07bc_9a394ca5_20261018.png?v=9a394ca5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-3c720a0ca0",
           "name": "Nottingham Forest vs Arsenal | 22:30 18/10",
           "type": "single",
@@ -644,6 +644,78 @@
           }
         },
         {
+          "id": "gv-75447c64f2",
+          "name": "AC Milan vs Atalanta | 23:00 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-75447c64f2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-75447c64f2",
+                  "name": "AC Milan vs Atalanta",
+                  "streams": [
+                    {
+                      "id": "st-75447c64f2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4d145a5b39",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792334202_hd/1792334202_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "AC Milan",
+            "team_b": "Atalanta",
+            "logo_a": "https://images.keovip88.net/images/teams/ac-milan.png",
+            "logo_b": "https://images.keovip88.net/images/teams/atalanta.png",
+            "time": "23:00:00",
+            "date": "18/10",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac9806024d46db8704fa1cb_4ed541c1_20261018.png?v=4ed541c1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-b1f3bcd6a3",
           "name": "Malaga vs Real Sociedad | 23:30 18/10",
           "type": "single",
@@ -671,11 +743,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-ac0b3e6a81",
+                          "id": "lnk-e0b508fd45",
                           "name": "Trĩ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791951439_hd/1791951439_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791951439_hd/1791951439_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2024,7 +2096,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2037,10 +2109,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2089,7 +2161,7 @@
             "time": "22:00:00",
             "date": "18/10",
             "blv": "Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
@@ -2250,6 +2322,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ibqfgo74l25x_855f7dad_20261018.png?v=855f7dad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-58648b4afa",
+          "name": "KC vs MVK | 01:00 19/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-58648b4afa",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-58648b4afa",
+                  "name": "KC vs MVK",
+                  "streams": [
+                    {
+                      "id": "st-58648b4afa",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6c7b463e48",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792334571_hd/1792334571_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Worlds 2026 - Playin",
+            "team_a": "KC",
+            "team_b": "MVK",
+            "logo_a": "https://dpm.lol/esports/img/128/assets.dpm.lol/team-assets/sha256/ae/aea0a85631116aa2a6c90efbcd0ac3cb39a354cbc46d274341c3fd505c1b54d8.png",
+            "logo_b": "https://dpm.lol/esports/img/128/assets.dpm.lol/team-assets/sha256/d6/d6bc8458cd4cbc8727f6e07910b3002fdb77c80ef2c4ef00aea766f1cc8cbdba.png",
+            "time": "01:00:00",
+            "date": "19/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/67v3nqtwq0bo_381492c5_20261018.png?v=381492c5",
             "width": 1600,
             "height": 1200
           }
