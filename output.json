@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c1936a1560",
-          "name": "Persebaya Surabaya vs PSS Sleman | 15:30 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c1936a1560",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c1936a1560",
-                  "name": "Persebaya Surabaya vs PSS Sleman",
-                  "streams": [
-                    {
-                      "id": "st-c1936a1560",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad0da92862",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792311168_hd/1792311168_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Indonesia",
-            "team_a": "Persebaya Surabaya",
-            "team_b": "PSS Sleman",
-            "logo_a": "https://images.keovip88.net/images/teams/persebaya-surabaya.png",
-            "logo_b": "https://images.keovip88.net/images/teams/pss-sleman.png",
-            "time": "15:30:00",
-            "date": "18/10",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac9805424d46db8704f92a0_d5a394b2_20261018.png?v=d5a394b2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ccdad8f8f6",
           "name": "Công An Hà Nội vs Hà Nội | 19:15 18/10",
