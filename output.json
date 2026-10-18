@@ -11,261 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-98bb44ba70",
-          "name": "AFC Bournemouth vs Sunderland | 20:00 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-98bb44ba70",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-98bb44ba70",
-                  "name": "AFC Bournemouth vs Sunderland",
-                  "streams": [
-                    {
-                      "id": "st-98bb44ba70",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b073992690",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792173150_hd/1792173150_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "AFC Bournemouth",
-            "team_b": "Sunderland",
-            "logo_a": "https://images.keovip88.net/images/teams/afc-bournemouth.png",
-            "logo_b": "https://images.keovip88.net/images/teams/sunderland-afc.png",
-            "time": "20:00:00",
-            "date": "18/10",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06f0_91d02bb6_20261018.png?v=91d02bb6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-a623ed5632",
-          "name": "Leeds United vs Manchester United | 20:00 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a623ed5632",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a623ed5632",
-                  "name": "Leeds United vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "st-a623ed5632",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-25c7a77ab5",
-                          "name": "Fan Mu: Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792173181_hd/1792173181_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9ae08a5d4c",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792173222_hd/1792173222_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-7b7aeb9c53",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792173236_hd/1792173236_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Leeds United",
-            "team_b": "Manchester United",
-            "logo_a": "https://images.keovip88.net/images/teams/leeds-united.png",
-            "logo_b": "https://images.keovip88.net/images/teams/manchester-united.png",
-            "time": "20:00:00",
-            "date": "18/10",
-            "blv": "Fan Mu: Hấu, Bee, Dory",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06ef_b9d43f53_20261018.png?v=b9d43f53",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-0362ac3eb3",
-          "name": "Brighton   Hove Albion vs Crystal Palace | 20:00 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0362ac3eb3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0362ac3eb3",
-                  "name": "Brighton   Hove Albion vs Crystal Palace",
-                  "streams": [
-                    {
-                      "id": "st-0362ac3eb3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e9b6169e47",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792173307_hd/1792173307_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Brighton   Hove Albion",
-            "team_b": "Crystal Palace",
-            "logo_a": "https://images.keovip88.net/images/teams/brighton-hove-albion.png",
-            "logo_b": "https://images.keovip88.net/images/teams/crystal-palace.png",
-            "time": "20:00:00",
-            "date": "18/10",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac9805824d46db8704f9797_5ed43657_20261018.png?v=5ed43657",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6734217c21",
           "name": "Celta Vigo vs Alaves | 21:15 18/10",
@@ -411,78 +161,6 @@
           }
         },
         {
-          "id": "gv-e1f14d318b",
-          "name": "Lorient vs AS Monaco | 22:15 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e1f14d318b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e1f14d318b",
-                  "name": "Lorient vs AS Monaco",
-                  "streams": [
-                    {
-                      "id": "st-e1f14d318b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e992a0f550",
-                          "name": "Fan Mu: Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792332590_hd/1792332590_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Lorient",
-            "team_b": "AS Monaco",
-            "logo_a": "https://images.keovip88.net/images/teams/lorient.png",
-            "logo_b": "https://images.keovip88.net/images/teams/monaco.png",
-            "time": "22:15:00",
-            "date": "18/10",
-            "blv": "Fan Mu: Hấu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5f5e5e6975d550f07bc_9a394ca5_20261018.png?v=9a394ca5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-3c720a0ca0",
           "name": "Nottingham Forest vs Arsenal | 22:30 18/10",
           "type": "single",
@@ -490,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -510,11 +188,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-7fff487bd9",
-                          "name": "Ngọng",
+                          "id": "lnk-0797b87be5",
+                          "name": "Fan Arsenal: Ngọng",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792173433_hd/1792173433_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792335727_hd/1792335727_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -527,11 +205,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-92b038e17c",
-                          "name": "Chồn",
+                          "id": "lnk-3c5e819934",
+                          "name": "Trung lập Chồn",
                           "type": "hls",
                           "default": false,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792173441_hd/1792173441_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792335732_hd/1792335732_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -558,8 +236,8 @@
             "logo_b": "https://images.keovip88.net/images/teams/arsenal.png",
             "time": "22:30:00",
             "date": "18/10",
-            "blv": "Ngọng, Chồn",
-            "is_live": false,
+            "blv": "Fan Arsenal: Ngọng, Trung lập Chồn",
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -579,10 +257,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -631,7 +309,7 @@
             "time": "22:30:00",
             "date": "18/10",
             "blv": "Tỵ ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -639,6 +317,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5cae5e6975d550f077d_a288488b_20261018.png?v=a288488b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-e1f14d318b",
+          "name": "Lorient vs AS Monaco | 22:15 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e1f14d318b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e1f14d318b",
+                  "name": "Lorient vs AS Monaco",
+                  "streams": [
+                    {
+                      "id": "st-e1f14d318b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e992a0f550",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792332590_hd/1792332590_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Lorient",
+            "team_b": "AS Monaco",
+            "logo_a": "https://images.keovip88.net/images/teams/lorient.png",
+            "logo_b": "https://images.keovip88.net/images/teams/monaco.png",
+            "time": "22:15:00",
+            "date": "18/10",
+            "blv": "Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5f5e5e6975d550f07bc_9a394ca5_20261018.png?v=9a394ca5",
             "width": 1600,
             "height": 1200
           }
@@ -1104,7 +854,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-efd0284aac",
-                          "name": "Fan Mu: Hấu",
+                          "name": "Hấu",
                           "type": "hls",
                           "default": true,
                           "url": "https://ftlh5sc02iliv.vcdn.cloud/1792309423_hd/1792309423_hd@720p.m3u8",
@@ -1134,7 +884,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/8SJdwZVg-dnP37qkH.png",
             "time": "15:00:00",
             "date": "19/10",
-            "blv": "Fan Mu: Hấu",
+            "blv": "Hấu",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1287,6 +1037,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acc235224d46db870180afa_2f4efc01_20261018.png?v=2f4efc01",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-5fb93eed7c",
+          "name": "Al Zulfi vs Al Ula | 22:05 19/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5fb93eed7c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5fb93eed7c",
+                  "name": "Al Zulfi vs Al Ula",
+                  "streams": [
+                    {
+                      "id": "st-5fb93eed7c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b4157e2e43",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1792309670_hd/1792309670_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp Hoàng tử Faisal bin Fahd",
+            "team_a": "Al Zulfi",
+            "team_b": "Al Ula",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBxWgR0c-sy5rDNjUGvvvCEiLuB4qURyPZAKH1EtoMqw&s=10",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/8/87/Al-Ula_FC_Logo.svg",
+            "time": "22:05:00",
+            "date": "19/10",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/wmbl0jasnsae_a43f38d7_20261018.png?v=a43f38d7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-59395c8990",
+          "name": "Al-Feiha vs Al Ahli Jeddah | 22:05 19/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-59395c8990",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-59395c8990",
+                  "name": "Al-Feiha vs Al Ahli Jeddah",
+                  "streams": [
+                    {
+                      "id": "st-59395c8990",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a06c55aac0",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792309956_hd/1792309956_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ả Rập Xê Út",
+            "team_a": "Al-Feiha",
+            "team_b": "Al Ahli Jeddah",
+            "logo_a": "https://images.keovip88.net/images/teams/al-feiha.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-ahli-sfc.png",
+            "time": "22:05:00",
+            "date": "19/10",
+            "blv": "Chồn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acc235324d46db870180c35_3894b514_20261018.png?v=3894b514",
             "width": 1600,
             "height": 1200
           }
@@ -1833,7 +1727,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-ebed7e6313",
-                          "name": "Fan Mu: Hấu",
+                          "name": "Hấu",
                           "type": "hls",
                           "default": true,
                           "url": "https://ftlh5sc02iliv.vcdn.cloud/1792311765_hd/1792311765_hd@720p.m3u8",
@@ -1863,7 +1757,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/2b1276c6b68b581bd3023f5f11bb6f44.png",
             "time": "18:35:00",
             "date": "20/10",
-            "blv": "Fan Mu: Hấu",
+            "blv": "Hấu",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -2177,83 +2071,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c5971c82ab",
-          "name": "3rd Place vs Decider Match | 18:30 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c5971c82ab",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c5971c82ab",
-                  "name": "3rd Place vs Decider Match",
-                  "streams": [
-                    {
-                      "id": "st-c5971c82ab",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4acaa688d",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792222478_hd/1792222478_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CS2-Thunderpick World Championship 2026",
-            "team_a": "3rd Place",
-            "team_b": "Decider Match",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9C8u5REg6anHhtvSgx9SI9-mj5EWxpD4ptLm1BvZEhrYGTfQlAl-pPQLZ&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS51BbFm9V18wwl5QBoeQyaLCisKQA6gITiCWZjw4pyuqlpt49Kx12YafzO&s=10",
-            "time": "18:30:00",
-            "date": "18/10",
-            "blv": "Mickey",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/c282ygr1h0nr_855f7dad_20261018.png?v=855f7dad",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ac963beeb9",
           "name": "Grand vs Finals | 22:00 18/10",
@@ -2394,6 +2216,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/67v3nqtwq0bo_381492c5_20261018.png?v=381492c5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d05bebd908",
+          "name": "Columbus Blue Jackets vs Minnesota Wild | 05:00 19/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d05bebd908",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d05bebd908",
+                  "name": "Columbus Blue Jackets vs Minnesota Wild",
+                  "streams": [
+                    {
+                      "id": "st-d05bebd908",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fee661fc4c",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792335728_hd/1792335728_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NHL",
+            "team_a": "Columbus Blue Jackets",
+            "team_b": "Minnesota Wild",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/7lrK9CX_nZj_veEeleHTmg_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/2AkZ-bLhHUaPoj_LlLPBVA_96x96.png",
+            "time": "05:00:00",
+            "date": "19/10",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/rbq4d5bk89b9_4929e18b_20261018.png?v=4929e18b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7049c18240",
+          "name": "Calgary Flames vs Carolina Hurricanes | 07:00 19/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7049c18240",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7049c18240",
+                  "name": "Calgary Flames vs Carolina Hurricanes",
+                  "streams": [
+                    {
+                      "id": "st-7049c18240",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6b4c07d2d8",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1792335771_hd/1792335771_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NHL",
+            "team_a": "Calgary Flames",
+            "team_b": "Carolina Hurricanes",
+            "logo_a": "https://static.flashscore.com/res/image/data/EZDBK3FG-zBmwri9p.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/jo2tZcXg-Ea3nasx0.png",
+            "time": "07:00:00",
+            "date": "19/10",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/zay96q5ym58k_19a2e016_20261018.png?v=19a2e016",
             "width": 1600,
             "height": 1200
           }
@@ -2707,6 +2673,87 @@
       ]
     },
     {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-14a62255c0",
+          "name": "Tampa Bay Rays vs Cleverland Guardians | 04:00 19/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-14a62255c0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-14a62255c0",
+                  "name": "Tampa Bay Rays vs Cleverland Guardians",
+                  "streams": [
+                    {
+                      "id": "st-14a62255c0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-490377f021",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792334676_hd/1792334676_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB - Championship Series",
+            "team_a": "Tampa Bay Rays",
+            "team_b": "Cleverland Guardians",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/OKV4PkdXNzXJd_Qalvh63g_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/zGJ5ZWjK2s9nUNXy8CGf5A_96x96.png",
+            "time": "04:00:00",
+            "date": "19/10",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/yebermvxbpl4_f8c28a68_20261018.png?v=f8c28a68",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_Billiards",
       "name": "🎱 Billiards",
       "display": "vertical",
@@ -2862,6 +2909,222 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/7pp0089k9ww5_3a3c3cbc_20261018.png?v=3a3c3cbc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9a250bc1f0",
+          "name": "Baltimore Ravens vs Cleveland Browns | 00:00 19/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9a250bc1f0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9a250bc1f0",
+                  "name": "Baltimore Ravens vs Cleveland Browns",
+                  "streams": [
+                    {
+                      "id": "st-9a250bc1f0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2bb83b55a5",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792335492_hd/1792335492_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NFL",
+            "team_a": "Baltimore Ravens",
+            "team_b": "Cleveland Browns",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/4o4skCUO63LJdhtbyNbtCQ_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/rcEbdDpgOvasova75gwf9g_96x96.png",
+            "time": "00:00:00",
+            "date": "19/10",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "rugby"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/a97psas7beiz_c42914a5_20261018.png?v=c42914a5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-45f590e11b",
+          "name": "Los Angeles Chargers vs Kansas City Chiefs | 03:25 19/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-45f590e11b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-45f590e11b",
+                  "name": "Los Angeles Chargers vs Kansas City Chiefs",
+                  "streams": [
+                    {
+                      "id": "st-45f590e11b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2d5fe1a12c",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792335553_hd/1792335553_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NFL",
+            "team_a": "Los Angeles Chargers",
+            "team_b": "Kansas City Chiefs",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/fQRCFlwKEORFAvo-Tix0dg_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/UVLlczXJQ1wxxKMT9ShJQw_96x96.png",
+            "time": "03:25:00",
+            "date": "19/10",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "rugby"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/49332jkvepbf_9b558a74_20261018.png?v=9b558a74",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-34b71f3ad1",
+          "name": "Dallas Cowboys vs Green Bay Packers | 07:20 19/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-34b71f3ad1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-34b71f3ad1",
+                  "name": "Dallas Cowboys vs Green Bay Packers",
+                  "streams": [
+                    {
+                      "id": "st-34b71f3ad1",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fe60cadcb2",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792335678_hd/1792335678_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NFL",
+            "team_a": "Dallas Cowboys",
+            "team_b": "Green Bay Packers",
+            "logo_a": "https://static.flashscore.com/res/image/data/2DROi6Wg-IqxwDINa.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hpgNlTf5-AinqGEaT.png",
+            "time": "07:20:00",
+            "date": "19/10",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "rugby"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/7nqc3qz4w341_a05b2995_20261018.png?v=a05b2995",
             "width": 1600,
             "height": 1200
           }
