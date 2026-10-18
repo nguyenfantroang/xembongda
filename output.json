@@ -11,244 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-a06ae332d1",
-          "name": "Paris FC vs Stade Rennais FC | 22:15 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a06ae332d1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a06ae332d1",
-                  "name": "Paris FC vs Stade Rennais FC",
-                  "streams": [
-                    {
-                      "id": "st-a06ae332d1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-25684ef15f",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792331085_hd/1792331085_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Paris FC",
-            "team_b": "Stade Rennais FC",
-            "logo_a": "https://images.keovip88.net/images/teams/paris-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/rennes.png",
-            "time": "22:15:00",
-            "date": "18/10",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5f5e5e6975d550f07bd_b9156b71_20261019.png?v=b9156b71",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-3c720a0ca0",
-          "name": "Nottingham Forest vs Arsenal | 22:30 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3c720a0ca0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3c720a0ca0",
-                  "name": "Nottingham Forest vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "st-3c720a0ca0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0797b87be5",
-                          "name": "Fan Arsenal: Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792335727_hd/1792335727_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3c5e819934",
-                          "name": "Trung lập Chồn",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792335732_hd/1792335732_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Nottingham Forest",
-            "team_b": "Arsenal",
-            "logo_a": "https://images.keovip88.net/images/teams/nottingham-forest.png",
-            "logo_b": "https://images.keovip88.net/images/teams/arsenal.png",
-            "time": "22:30:00",
-            "date": "18/10",
-            "blv": "Fan Arsenal: Ngọng, Trung lập Chồn",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06f1_1e856611_20261019.png?v=1e856611",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-a8e82ed695",
-          "name": "Monchengladbach vs Hoffenheim | 22:30 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a8e82ed695",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a8e82ed695",
-                  "name": "Monchengladbach vs Hoffenheim",
-                  "streams": [
-                    {
-                      "id": "st-a8e82ed695",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e235617d1f",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792173667_hd/1792173667_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Monchengladbach",
-            "team_b": "Hoffenheim",
-            "logo_a": "https://images.keovip88.net/images/teams/borussia-monchengladbach.png",
-            "logo_b": "https://images.keovip88.net/images/teams/tsg-hoffenheim.png",
-            "time": "22:30:00",
-            "date": "18/10",
-            "blv": "Tỵ ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5cae5e6975d550f077d_a288488b_20261019.png?v=a288488b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-75447c64f2",
           "name": "AC Milan vs Atalanta | 23:00 18/10",
@@ -2071,7 +1838,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2156,10 +1923,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2208,7 +1975,7 @@
             "time": "01:00:00",
             "date": "19/10",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
@@ -2755,83 +2522,11 @@
     },
     {
       "id": "cate_rugby",
-      "name": "🏅 Thể Thao (1 LIVE)",
+      "name": "🏅 Thể Thao",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9a250bc1f0",
-          "name": "Baltimore Ravens vs Cleveland Browns | 00:00 19/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9a250bc1f0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9a250bc1f0",
-                  "name": "Baltimore Ravens vs Cleveland Browns",
-                  "streams": [
-                    {
-                      "id": "st-9a250bc1f0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2bb83b55a5",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792335492_hd/1792335492_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NFL",
-            "team_a": "Baltimore Ravens",
-            "team_b": "Cleveland Browns",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/4o4skCUO63LJdhtbyNbtCQ_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/rcEbdDpgOvasova75gwf9g_96x96.png",
-            "time": "00:00:00",
-            "date": "19/10",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "rugby"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/a97psas7beiz_c42914a5_20261019.png?v=c42914a5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-45f590e11b",
           "name": "Los Angeles Chargers vs Kansas City Chiefs | 03:25 19/10",
