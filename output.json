@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-b1f3bcd6a3",
-          "name": "Malaga vs Real Sociedad | 23:30 18/10",
+          "id": "gv-fca33536b7",
+          "name": "Lyonnais vs Nice | 01:45 19/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,78 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b1f3bcd6a3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b1f3bcd6a3",
-                  "name": "Malaga vs Real Sociedad",
-                  "streams": [
-                    {
-                      "id": "st-b1f3bcd6a3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e0b508fd45",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791951439_hd/1791951439_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Malaga",
-            "team_b": "Real Sociedad",
-            "logo_a": "https://images.keovip88.net/images/teams/malaga.png",
-            "logo_b": "https://images.keovip88.net/images/teams/real-sociedad.png",
-            "time": "23:30:00",
-            "date": "18/10",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5bce5e6975d550f0757_51d7723a_20261019.png?v=51d7723a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-fca33536b7",
-          "name": "Lyonnais vs Nice | 01:45 19/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -148,7 +76,7 @@
             "time": "01:45:00",
             "date": "19/10",
             "blv": "Dory",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -168,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -188,11 +116,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-392139c896",
+                          "id": "lnk-0da02011da",
                           "name": "Ngọng",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791951480_hd/1791951480_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791951480_hd/1791951480_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -220,7 +148,7 @@
             "time": "01:45:00",
             "date": "19/10",
             "blv": "Ngọng",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -260,11 +188,28 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-ce0c5bab71",
+                          "id": "lnk-5b245035bb",
                           "name": "Mason",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791951509_hd/1791951509_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791951509_hd/1791951509_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-15d9e5f8f1",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792347687_hd/1792347687_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -291,7 +236,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/sevilla.png",
             "time": "02:00:00",
             "date": "19/10",
-            "blv": "Mason",
+            "blv": "Mason, Súp",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1677,87 +1622,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/20463474_acdad744_20261019.png?v=acdad744",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-d24e06470e",
-          "name": "Eczacibasi vs Vakifbank | 22:00 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d24e06470e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d24e06470e",
-                  "name": "Eczacibasi vs Vakifbank",
-                  "streams": [
-                    {
-                      "id": "st-d24e06470e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3155da9749",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792223060_hd/1792223060_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Turkey Sultanlar Ligi Nữ",
-            "team_a": "Eczacibasi",
-            "team_b": "Vakifbank",
-            "logo_a": "https://static.flashscore.com/res/image/data/6wWfI3zB-jm1g2SD5.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/YRICRqzB-A3UKTsyj.png",
-            "time": "22:00:00",
-            "date": "18/10",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/deq4ayj1tjhk_e08accef_20261019.png?v=e08accef",
             "width": 1600,
             "height": 1200
           }
