@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-38107da094",
-          "name": "JEF United vs Urawa Reds | 11:00 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-38107da094",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-38107da094",
-                  "name": "JEF United vs Urawa Reds",
-                  "streams": [
-                    {
-                      "id": "st-38107da094",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2f2966d5e1",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792248107_hd/1792248107_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japan - WE League",
-            "team_a": "JEF United",
-            "team_b": "Urawa Reds",
-            "logo_a": "https://static.flashscore.com/res/image/data/hCz5kaZg-0rbJf5W9.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8Ql03eh5-EsSICT7E.png",
-            "time": "11:00:00",
-            "date": "18/10",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/p9ve2b8q95fi_3186c924_20261018.png?v=3186c924",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-316977c95b",
           "name": "Gangwon FC vs Incheon United FC | 14:30 18/10",
@@ -1007,83 +935,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9eab81e6fe",
-          "name": "Tasmania JackJumpers vs New Zealand Breakers | 11:00 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9eab81e6fe",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9eab81e6fe",
-                  "name": "Tasmania JackJumpers vs New Zealand Breakers",
-                  "streams": [
-                    {
-                      "id": "st-9eab81e6fe",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eaeaf011b9",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792228531_hd/1792228531_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball League(Australia)",
-            "team_a": "Tasmania JackJumpers",
-            "team_b": "New Zealand Breakers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/b4775c62432e01185c4fd9669952b258.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/7778a93083d2fa50e4cb4e128f07cf5f.png",
-            "time": "11:00:00",
-            "date": "18/10",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/26422273_d9b90e01_20261018.png?v=d9b90e01",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5a30e2077a",
           "name": "SK Knights vs Goyang Sono | 12:00 18/10",
