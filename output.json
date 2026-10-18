@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -334,6 +334,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ac9805824d46db8704f9797_5ed43657_20261018.png?v=5ed43657",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a06ae332d1",
+          "name": "Paris FC vs Stade Rennais FC | 22:15 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a06ae332d1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a06ae332d1",
+                  "name": "Paris FC vs Stade Rennais FC",
+                  "streams": [
+                    {
+                      "id": "st-a06ae332d1",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-25684ef15f",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792331085_hd/1792331085_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Paris FC",
+            "team_b": "Stade Rennais FC",
+            "logo_a": "https://images.keovip88.net/images/teams/paris-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/rennes.png",
+            "time": "22:15:00",
+            "date": "18/10",
+            "blv": "Tôm",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5f5e5e6975d550f07bd_b9156b71_20261018.png?v=b9156b71",
             "width": 1600,
             "height": 1200
           }
@@ -1151,155 +1223,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f9f8a20c47",
-          "name": "Guangzhou Loong Lions vs Zhejiang Golden Bulls | 18:35 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f9f8a20c47",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f9f8a20c47",
-                  "name": "Guangzhou Loong Lions vs Zhejiang Golden Bulls",
-                  "streams": [
-                    {
-                      "id": "st-f9f8a20c47",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1e29033ebf",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792321174_hd/1792321174_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Basketball Association",
-            "team_a": "Guangzhou Loong Lions",
-            "team_b": "Zhejiang Golden Bulls",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/9d93f6e7f4e54c71cd975b2be434bcf9.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/eaff06bd8c853345d0a2061a1ef15585.png",
-            "time": "18:35:00",
-            "date": "18/10",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39263471_a9a4cac7_20261018.png?v=a9a4cac7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-3778e656c3",
-          "name": "Shandong Heroes vs Liaoning Dinosaurs | 18:35 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3778e656c3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3778e656c3",
-                  "name": "Shandong Heroes vs Liaoning Dinosaurs",
-                  "streams": [
-                    {
-                      "id": "st-3778e656c3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a24b7551d3",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792173112_hd/1792173112_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Basketball Association",
-            "team_a": "Shandong Heroes",
-            "team_b": "Liaoning Dinosaurs",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/5e5e6dd519553b0782b6ad7cda315e98.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/e5b2db0dc53319933071f194e099180f.png",
-            "time": "18:35:00",
-            "date": "18/10",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/27263479_f5b32390_20261018.png?v=f5b32390",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e5b55d7486",
           "name": "Wonju Dongbu Promy vs Daegu KoGas Pegasus | 17:00 19/10",
