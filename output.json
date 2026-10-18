@@ -1151,83 +1151,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-2df9b71488",
-          "name": "Anyang Jung Kwan Jang vs KCC Egis | 14:30 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2df9b71488",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2df9b71488",
-                  "name": "Anyang Jung Kwan Jang vs KCC Egis",
-                  "streams": [
-                    {
-                      "id": "st-2df9b71488",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-03e5879f27",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792228657_hd/1792228657_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "South Korean KBL Cup",
-            "team_a": "Anyang Jung Kwan Jang",
-            "team_b": "KCC Egis",
-            "logo_a": "https://static.flashscore.com/res/image/data/viUBkizB-KtOrDRPL.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/6akehaEa-QVr2kiM7.png",
-            "time": "14:30:00",
-            "date": "18/10",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/0hsq2fbczjtk_c9be6cdb_20261018.png?v=c9be6cdb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f9f8a20c47",
           "name": "Guangzhou Loong Lions vs Zhejiang Golden Bulls | 18:35 18/10",
