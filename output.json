@@ -519,6 +519,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-bb891883d2",
+          "name": "Adhyaksa Farmel FC vs Malut United | 15:30 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bb891883d2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bb891883d2",
+                  "name": "Adhyaksa Farmel FC vs Malut United",
+                  "streams": [
+                    {
+                      "id": "st-bb891883d2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eee8913e2f",
+                          "name": "Tỵ ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792310180_hd/1792310180_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Indonesia",
+            "team_a": "Adhyaksa Farmel FC",
+            "team_b": "Malut United",
+            "logo_a": "https://images.keovip88.net/images/teams/adhyaksa-farmel-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/malut-united.png",
+            "time": "15:30:00",
+            "date": "20/10",
+            "blv": "Tỵ ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74c924d46db870dcff8a_3e43e10f_20261019.png?v=3e43e10f",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
