@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/wmbl0jasnsae_a43f38d7_20261020.png?v=a43f38d7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-59395c8990",
-          "name": "Al-Feiha vs Al Ahli Jeddah | 22:05 19/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-59395c8990",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-59395c8990",
-                  "name": "Al-Feiha vs Al Ahli Jeddah",
-                  "streams": [
-                    {
-                      "id": "st-59395c8990",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a06c55aac0",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792309956_hd/1792309956_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ả Rập Xê Út",
-            "team_a": "Al-Feiha",
-            "team_b": "Al Ahli Jeddah",
-            "logo_a": "https://images.keovip88.net/images/teams/al-feiha.png",
-            "logo_b": "https://images.keovip88.net/images/teams/al-ahli-sfc.png",
-            "time": "22:05:00",
-            "date": "19/10",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acc235324d46db870180c35_3894b514_20261020.png?v=3894b514",
             "width": 1600,
             "height": 1200
           }
@@ -1527,6 +1455,150 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-8f6fd9f5d3",
+          "name": "Fenerbahce vs Slavia Praha | 23:45 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8f6fd9f5d3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8f6fd9f5d3",
+                  "name": "Fenerbahce vs Slavia Praha",
+                  "streams": [
+                    {
+                      "id": "st-8f6fd9f5d3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-42e50e6142",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792430522_hd/1792430522_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C1",
+            "team_a": "Fenerbahce",
+            "team_b": "Slavia Praha",
+            "logo_a": "https://images.keovip88.net/images/teams/fenerbahce.png",
+            "logo_b": "https://images.keovip88.net/images/teams/slavia-praha.png",
+            "time": "23:45:00",
+            "date": "20/10",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e1d_8c22e22a_20261020.png?v=8c22e22a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-dcfd597a55",
+          "name": "Sabah FK vs Borussia Dortmund | 23:45 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dcfd597a55",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-dcfd597a55",
+                  "name": "Sabah FK vs Borussia Dortmund",
+                  "streams": [
+                    {
+                      "id": "st-dcfd597a55",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2d260e0298",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792430561_hd/1792430561_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C1",
+            "team_a": "Sabah FK",
+            "team_b": "Borussia Dortmund",
+            "logo_a": "https://images.keovip88.net/images/teams/sabah-fk-baku.png",
+            "logo_b": "https://images.keovip88.net/images/teams/borussia-dortmund.png",
+            "time": "23:45:00",
+            "date": "20/10",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e37_98a0fb1e_20261020.png?v=98a0fb1e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2109,6 +2181,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39363472_baa11cc1_20261020.png?v=baa11cc1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-68cdfaf1cc",
+          "name": "Detroit Pistons vs Boston Celtics | 02:00 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-68cdfaf1cc",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-68cdfaf1cc",
+                  "name": "Detroit Pistons vs Boston Celtics",
+                  "streams": [
+                    {
+                      "id": "st-68cdfaf1cc",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c34b9f0e3c",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792430926_hd/1792430926_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Detroit Pistons",
+            "team_b": "Boston Celtics",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c4677b9a5c8823ad3070069d8741a809.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/ef37e5c1c853e5b689b6791b00e8bc58.png",
+            "time": "02:00:00",
+            "date": "21/10",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/38587277_a4203d5b_20261020.png?v=a4203d5b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9ca396f1c4",
+          "name": "New York Knicks vs Philadelphia 76ers | 06:00 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9ca396f1c4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9ca396f1c4",
+                  "name": "New York Knicks vs Philadelphia 76ers",
+                  "streams": [
+                    {
+                      "id": "st-9ca396f1c4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5f7f6dd684",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792431209_hd/1792431209_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "New York Knicks",
+            "team_b": "Philadelphia 76ers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c34850b658b2b7735d3bf51912e01bd1.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/7f086c864d1e283b7862a756f0b88373.png",
+            "time": "06:00:00",
+            "date": "21/10",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39587278_f3c8c546_20261020.png?v=f3c8c546",
             "width": 1600,
             "height": 1200
           }
