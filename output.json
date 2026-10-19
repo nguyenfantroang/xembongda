@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-18835e6fea",
-          "name": "Mauritania u20 vs Sierra-leone u20 | 23:00 19/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-18835e6fea",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-18835e6fea",
-                  "name": "Mauritania u20 vs Sierra-leone u20",
-                  "streams": [
-                    {
-                      "id": "st-18835e6fea",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-51896f47f9",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792310075_hd/1792310075_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Africa Cup of Nations U20 - Qualification",
-            "team_a": "Mauritania u20",
-            "team_b": "Sierra-leone u20",
-            "logo_a": "https://images.keovip88.net/images/teams/mauritania.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Coat_of_arms_of_Sierra_Leone.svg",
-            "time": "23:00:00",
-            "date": "19/10",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/vqi4kttrpl34232323_2cbaef4f_20261020.png?v=2cbaef4f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-eb314b4b4a",
-          "name": "Monza vs Cagliari | 23:30 19/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eb314b4b4a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-eb314b4b4a",
-                  "name": "Monza vs Cagliari",
-                  "streams": [
-                    {
-                      "id": "st-eb314b4b4a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9d25719663",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792403613_hd/1792403613_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Monza",
-            "team_b": "Cagliari",
-            "logo_a": "https://images.keovip88.net/images/teams/monza.png",
-            "logo_b": "https://images.keovip88.net/images/teams/cagliari.png",
-            "time": "23:30:00",
-            "date": "19/10",
-            "blv": "Tỵ ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acc235324d46db870180c79_e59ec7a2_20261020.png?v=e59ec7a2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-69c683d061",
           "name": "Al Raed vs Al Saqer | 23:50 19/10",
@@ -384,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -436,7 +292,7 @@
             "time": "01:45:00",
             "date": "20/10",
             "blv": "Súp",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
