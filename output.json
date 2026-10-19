@@ -11,227 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9a0ca28bc4",
-          "name": "Parma vs Torino | 01:45 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9a0ca28bc4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9a0ca28bc4",
-                  "name": "Parma vs Torino",
-                  "streams": [
-                    {
-                      "id": "st-9a0ca28bc4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fe1bb272c4",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792403871_hd/1792403871_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Parma",
-            "team_b": "Torino",
-            "logo_a": "https://images.keovip88.net/images/teams/parma.png",
-            "logo_b": "https://images.keovip88.net/images/teams/torino.png",
-            "time": "01:45:00",
-            "date": "20/10",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acc235424d46db870180d85_b65637f0_20261020.png?v=b65637f0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c38dbad13e",
-          "name": "Tottenham Hotspur vs Coventry | 02:00 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c38dbad13e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c38dbad13e",
-                  "name": "Tottenham Hotspur vs Coventry",
-                  "streams": [
-                    {
-                      "id": "st-c38dbad13e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2841e20c88",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792403945_hd/1792403945_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Tottenham Hotspur",
-            "team_b": "Coventry",
-            "logo_a": "https://images.keovip88.net/images/teams/tottenham-hotspur.png",
-            "logo_b": "https://images.keovip88.net/images/teams/coventry-city.png",
-            "time": "02:00:00",
-            "date": "20/10",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06f2_191135d8_20261020.png?v=191135d8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-5559d2e2c4",
-          "name": "Getafe vs Rayo Vallecano | 02:00 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5559d2e2c4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5559d2e2c4",
-                  "name": "Getafe vs Rayo Vallecano",
-                  "streams": [
-                    {
-                      "id": "st-5559d2e2c4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7f723d9446",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792404007_hd/1792404007_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Getafe",
-            "team_b": "Rayo Vallecano",
-            "logo_a": "https://images.keovip88.net/images/teams/getafe.png",
-            "logo_b": "https://images.keovip88.net/images/teams/rayo-vallecano.png",
-            "time": "02:00:00",
-            "date": "20/10",
-            "blv": "Ngọng",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5bce5e6975d550f0759_e0e35f3e_20261020.png?v=e0e35f3e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-af21a750a9",
           "name": "Corinthians Paulista (SP) vs Vitoria Salvador BA | 06:00 20/10",
@@ -240,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +76,7 @@
             "time": "06:00:00",
             "date": "20/10",
             "blv": "Ngọng",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
