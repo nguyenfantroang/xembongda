@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "22:05:00",
             "date": "19/10",
             "blv": "Bee",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +148,7 @@
             "time": "22:05:00",
             "date": "19/10",
             "blv": "Chồn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -168,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +220,7 @@
             "time": "22:20:00",
             "date": "19/10",
             "blv": "Hứa",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -240,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +292,7 @@
             "time": "22:20:00",
             "date": "19/10",
             "blv": "Súp",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1023,6 +1023,294 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-6f77d8a409",
+          "name": "Hajer vs Al Najma | 21:45 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f77d8a409",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6f77d8a409",
+                  "name": "Hajer vs Al Najma",
+                  "streams": [
+                    {
+                      "id": "st-6f77d8a409",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-57d2a5bb15",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1792310354_hd/1792310354_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp Hoàng tử Faisal bin Fahd",
+            "team_a": "Hajer",
+            "team_b": "Al Najma",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/8/86/Hajer_FC_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/6/66/Al_Najma_Sports_club_%28Official%29.png",
+            "time": "21:45:00",
+            "date": "20/10",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/wmdfe6913xsw_347a48ec_20261019.png?v=347a48ec",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9079fd5f9d",
+          "name": "Xorazm Urganch vs Buxoro FK | 22:00 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9079fd5f9d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9079fd5f9d",
+                  "name": "Xorazm Urganch vs Buxoro FK",
+                  "streams": [
+                    {
+                      "id": "st-9079fd5f9d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f8d261961b",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792310429_hd/1792310429_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Uzbekistan Super League",
+            "team_a": "Xorazm Urganch",
+            "team_b": "Buxoro FK",
+            "logo_a": "https://images.keovip88.net/images/teams/xorazm-urganch.png",
+            "logo_b": "https://images.keovip88.net/images/teams/buxoro-fk.png",
+            "time": "22:00:00",
+            "date": "20/10",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74c924d46db870dd0059_ade7e5fa_20261019.png?v=ade7e5fa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-aa9ebef1ea",
+          "name": "Al-Draih vs Al-Riyadh | 22:00 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aa9ebef1ea",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-aa9ebef1ea",
+                  "name": "Al-Draih vs Al-Riyadh",
+                  "streams": [
+                    {
+                      "id": "st-aa9ebef1ea",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-94664cb627",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792310459_hd/1792310459_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ả Rập Xê Út",
+            "team_a": "Al-Draih",
+            "team_b": "Al-Riyadh",
+            "logo_a": "https://images.keovip88.net/images/teams/al-draih.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-riyadh.png",
+            "time": "22:00:00",
+            "date": "20/10",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74c924d46db870dd0055_f31503fd_20261019.png?v=f31503fd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d8429e02e5",
+          "name": "Al-Taawon vs Al-Qadasiya | 22:10 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d8429e02e5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d8429e02e5",
+                  "name": "Al-Taawon vs Al-Qadasiya",
+                  "streams": [
+                    {
+                      "id": "st-d8429e02e5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-482fc8ebc6",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792310507_hd/1792310507_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ả Rập Xê Út",
+            "team_a": "Al-Taawon",
+            "team_b": "Al-Qadasiya",
+            "logo_a": "https://images.keovip88.net/images/teams/al-taawoun.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-qadsiah.png",
+            "time": "22:10:00",
+            "date": "20/10",
+            "blv": "Dory",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74c924d46db870dd0063_4ab550a0_20261019.png?v=4ab550a0",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1178,78 +1466,6 @@
           }
         },
         {
-          "id": "gv-41e7099524",
-          "name": "Fujian Xunxing Sturgeons vs Zhejiang Lions | 18:35 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-41e7099524",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-41e7099524",
-                  "name": "Fujian Xunxing Sturgeons vs Zhejiang Lions",
-                  "streams": [
-                    {
-                      "id": "st-41e7099524",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-68c8d1272c",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792311659_hd/1792311659_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Basketball Association",
-            "team_a": "Fujian Xunxing Sturgeons",
-            "team_b": "Zhejiang Lions",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/513a673e2abf3080d21b0dc4d0b0dad8.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/17bf3755eecad867cf5fcc08b83104af.png",
-            "time": "18:35:00",
-            "date": "20/10",
-            "blv": "Vịt",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/37363470_b7591c2d_20261019.png?v=b7591c2d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-6bcf0c9707",
           "name": "Jilin Northeast Tigers vs SiChuan Jingqiang Blue Whales | 18:35 20/10",
           "type": "single",
@@ -1389,6 +1605,222 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/25363478_930c11ce_20261019.png?v=930c11ce",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-faf8b87bf1",
+          "name": "NanJing Monkey Kings vs Guangzhou Loong Lions | 18:35 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-faf8b87bf1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-faf8b87bf1",
+                  "name": "NanJing Monkey Kings vs Guangzhou Loong Lions",
+                  "streams": [
+                    {
+                      "id": "st-faf8b87bf1",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-77b2eb6e6d",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792420726_hd/1792420726_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "NanJing Monkey Kings",
+            "team_b": "Guangzhou Loong Lions",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e3bbce6525ca22d736f744cd2e31ff59.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/9d93f6e7f4e54c71cd975b2be434bcf9.png",
+            "time": "18:35:00",
+            "date": "20/10",
+            "blv": "Ngu",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/24363477_dcb78c0f_20261019.png?v=dcb78c0f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-41e7099524",
+          "name": "Fujian Xunxing Sturgeons vs Zhejiang Lions | 18:35 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-41e7099524",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-41e7099524",
+                  "name": "Fujian Xunxing Sturgeons vs Zhejiang Lions",
+                  "streams": [
+                    {
+                      "id": "st-41e7099524",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-68c8d1272c",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792311659_hd/1792311659_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "Fujian Xunxing Sturgeons",
+            "team_b": "Zhejiang Lions",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/513a673e2abf3080d21b0dc4d0b0dad8.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/17bf3755eecad867cf5fcc08b83104af.png",
+            "time": "18:35:00",
+            "date": "20/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/37363470_b7591c2d_20261019.png?v=b7591c2d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c4beb9a80c",
+          "name": "Xinjiang Flying Tigers vs Tianjin Pioneers | 19:00 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c4beb9a80c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c4beb9a80c",
+                  "name": "Xinjiang Flying Tigers vs Tianjin Pioneers",
+                  "streams": [
+                    {
+                      "id": "st-c4beb9a80c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2c44a145e3",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792420787_hd/1792420787_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "Xinjiang Flying Tigers",
+            "team_b": "Tianjin Pioneers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f68788874e0a17dd655083cb42b1d00b.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c95a72565d21fd4797acfbfb63c829e8.PNG",
+            "time": "19:00:00",
+            "date": "20/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39363472_baa11cc1_20261019.png?v=baa11cc1",
             "width": 1600,
             "height": 1200
           }
