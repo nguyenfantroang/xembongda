@@ -1023,49 +1023,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-e5b55d7486",
-          "name": "Wonju Dongbu Promy vs Daegu KoGas Pegasus | 17:00 19/10",
+          "id": "gv-b8f709cd43",
+          "name": "Dewa United FC vs Persijap Jepara | 19:00 20/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-e5b55d7486",
+              "id": "src-b8f709cd43",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-e5b55d7486",
-                  "name": "Wonju Dongbu Promy vs Daegu KoGas Pegasus",
+                  "id": "ct-b8f709cd43",
+                  "name": "Dewa United FC vs Persijap Jepara",
                   "streams": [
                     {
-                      "id": "st-e5b55d7486",
+                      "id": "st-b8f709cd43",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-4db547aa41",
-                          "name": "Vịt",
+                          "id": "lnk-6883482862",
+                          "name": "Trĩ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792311437_hd/1792311437_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792310255_hd/1792310255_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1085,26 +1076,107 @@
             }
           ],
           "org_metadata": {
-            "league": "Korea Basketball League",
-            "team_a": "Wonju Dongbu Promy",
-            "team_b": "Daegu KoGas Pegasus",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/ad13a8e4c726a65f277f7da7a19a4126.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/a322b3f45e8fc272b36c48003e467f20.png",
-            "time": "17:00:00",
-            "date": "19/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
+            "league": "VĐQG Indonesia",
+            "team_a": "Dewa United FC",
+            "team_b": "Persijap Jepara",
+            "logo_a": "https://images.keovip88.net/images/teams/dewa-united-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/persijap-jepara.png",
+            "time": "19:00:00",
+            "date": "20/10",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/38950372_6357b7df_20261019.png?v=6357b7df",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74c924d46db870dcffa7_1ef39acc_20261019.png?v=1ef39acc",
             "width": 1600,
             "height": 1200
           }
         },
+        {
+          "id": "gv-8b9cd78700",
+          "name": "Bhayangkara Solo FC vs PSIM Yogyakarta | 19:00 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8b9cd78700",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8b9cd78700",
+                  "name": "Bhayangkara Solo FC vs PSIM Yogyakarta",
+                  "streams": [
+                    {
+                      "id": "st-8b9cd78700",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f24afb0534",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792310287_hd/1792310287_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Indonesia",
+            "team_a": "Bhayangkara Solo FC",
+            "team_b": "PSIM Yogyakarta",
+            "logo_a": "https://images.keovip88.net/images/teams/bhayangkara-solo-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/psim-yogyakarta.png",
+            "time": "19:00:00",
+            "date": "20/10",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74c924d46db870dcffaf_e05dfb5b_20261019.png?v=e05dfb5b",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_basketball",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "gv-0b9c148c35",
           "name": "Beijing Royal Fighters vs Shanghai Jiushi Sharks | 18:35 19/10",
@@ -1836,7 +1908,7 @@
       "channels": [
         {
           "id": "gv-8563ecdb7c",
-          "name": "The Mongolz vs Alliance | 19:00 19/10",
+          "name": "BIG vs PRivate | 19:00 19/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1855,7 +1927,7 @@
               "contents": [
                 {
                   "id": "ct-8563ecdb7c",
-                  "name": "The Mongolz vs Alliance",
+                  "name": "BIG vs PRivate",
                   "streams": [
                     {
                       "id": "st-8563ecdb7c",
@@ -1887,10 +1959,10 @@
           ],
           "org_metadata": {
             "league": "CS2 1W Private Club Season 2 - 1/8-finals",
-            "team_a": "The Mongolz",
-            "team_b": "Alliance",
-            "logo_a": "https://liquipedia.net/commons/images/thumb/2/2b/The_MongolZ_2024_03_allmode.png/600px-The_MongolZ_2024_03_allmode.png",
-            "logo_b": "https://static.gosugamers.net/ab/aa/95/3ef6bb30bd8d5a240941f49395237b3c6d129b650816250ecae623d44d.webp?w=256",
+            "team_a": "BIG",
+            "team_b": "PRivate",
+            "logo_a": "https://liquipedia.net/commons/images/thumb/3/31/BIG_lightmode.png/140px-BIG_lightmode.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV0xw0duIDLgRcvfva64h7HmdtmvlIc4pIQk7x9CekKI4kuJqGnqGaN6mb&s=10",
             "time": "19:00:00",
             "date": "19/10",
             "blv": "Hấu",
@@ -1901,7 +1973,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ks7l5ol1nvfw_aa196c7a_20261019.png?v=aa196c7a",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ks7l5ol1nvfw_c079c6cf_20261019.png?v=c079c6cf",
             "width": 1600,
             "height": 1200
           }
