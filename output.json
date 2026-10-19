@@ -1325,83 +1325,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-d05bebd908",
-          "name": "Columbus Blue Jackets vs Minnesota Wild | 05:00 19/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d05bebd908",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d05bebd908",
-                  "name": "Columbus Blue Jackets vs Minnesota Wild",
-                  "streams": [
-                    {
-                      "id": "st-d05bebd908",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fee661fc4c",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792335728_hd/1792335728_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NHL",
-            "team_a": "Columbus Blue Jackets",
-            "team_b": "Minnesota Wild",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/7lrK9CX_nZj_veEeleHTmg_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/2AkZ-bLhHUaPoj_LlLPBVA_96x96.png",
-            "time": "05:00:00",
-            "date": "19/10",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/rbq4d5bk89b9_4929e18b_20261019.png?v=4929e18b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-7049c18240",
           "name": "Calgary Flames vs Carolina Hurricanes | 07:00 19/10",
@@ -1783,89 +1711,8 @@
       ]
     },
     {
-      "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-14a62255c0",
-          "name": "Tampa Bay Rays vs Cleverland Guardians | 04:00 19/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-14a62255c0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-14a62255c0",
-                  "name": "Tampa Bay Rays vs Cleverland Guardians",
-                  "streams": [
-                    {
-                      "id": "st-14a62255c0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-490377f021",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792334676_hd/1792334676_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB - Championship Series",
-            "team_a": "Tampa Bay Rays",
-            "team_b": "Cleverland Guardians",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/OKV4PkdXNzXJd_Qalvh63g_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/zGJ5ZWjK2s9nUNXy8CGf5A_96x96.png",
-            "time": "04:00:00",
-            "date": "19/10",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/yebermvxbpl4_f8c28a68_20261019.png?v=f8c28a68",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
       "id": "cate_rugby",
-      "name": "🏅 Thể Thao (1 LIVE)",
+      "name": "🏅 Thể Thao",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1878,10 +1725,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1930,7 +1777,7 @@
             "time": "07:20:00",
             "date": "19/10",
             "blv": "Riko",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "rugby"
           },
           "image": {
