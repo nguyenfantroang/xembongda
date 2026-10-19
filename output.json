@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1ee94a7401",
-          "name": "Al Hilal vs Al-Hazm | 01:00 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1ee94a7401",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1ee94a7401",
-                  "name": "Al Hilal vs Al-Hazm",
-                  "streams": [
-                    {
-                      "id": "st-1ee94a7401",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4766199f54",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792429055_hd/1792429055_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ả Rập Xê Út",
-            "team_a": "Al Hilal",
-            "team_b": "Al-Hazm",
-            "logo_a": "https://images.keovip88.net/images/teams/al-hilal.png",
-            "logo_b": "https://images.keovip88.net/images/teams/al-hazm.png",
-            "time": "01:00:00",
-            "date": "20/10",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acc235424d46db870180d49_22924462_20261020.png?v=22924462",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-9a0ca28bc4",
           "name": "Parma vs Torino | 01:45 20/10",
