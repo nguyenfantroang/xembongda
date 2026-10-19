@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "15:00:00",
             "date": "19/10",
             "blv": "Hấu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -90,7 +90,7 @@
         },
         {
           "id": "gv-c14b043b13",
-          "name": "Warriors vs Kitchee | 15:30 19/10",
+          "name": "Warriors vs Kitchee | 17:30 19/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -145,7 +145,7 @@
             "team_b": "Kitchee",
             "logo_a": "https://static.flashscore.com/res/image/data/xA03aUzB-S8Q0DgXs.png",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxQIVP2dXIpeuo4NDDR2i015O0PnuxJAa3mtniCk8AzQ&s=10",
-            "time": "15:30:00",
+            "time": "17:30:00",
             "date": "19/10",
             "blv": "Mù",
             "is_live": false,
@@ -188,11 +188,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-11ebb09a32",
+                          "id": "lnk-ed39b73e6d",
                           "name": "Tỵ ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1792309593_hd/1792309593_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792309593_hd/1792309593_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -228,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acc235224d46db870180afa_2f4efc01_20261019.png?v=2f4efc01",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8563ecdb7c",
-          "name": "The Mongolz vs Alliance | 19:00 19/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8563ecdb7c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8563ecdb7c",
-                  "name": "The Mongolz vs Alliance",
-                  "streams": [
-                    {
-                      "id": "st-8563ecdb7c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2adc53ab93",
-                          "name": "Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792393036_hd/1792393036_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CS2 1W Private Club Season 2 - 1/8-finals",
-            "team_a": "The Mongolz",
-            "team_b": "Alliance",
-            "logo_a": "https://liquipedia.net/commons/images/thumb/2/2b/The_MongolZ_2024_03_allmode.png/600px-The_MongolZ_2024_03_allmode.png",
-            "logo_b": "https://static.gosugamers.net/ab/aa/95/3ef6bb30bd8d5a240941f49395237b3c6d129b650816250ecae623d44d.webp?w=256",
-            "time": "19:00:00",
-            "date": "19/10",
-            "blv": "Hấu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ks7l5ol1nvfw_aa196c7a_20261019.png?v=aa196c7a",
             "width": 1600,
             "height": 1200
           }
@@ -701,11 +629,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-d447ef9ed1",
+                          "id": "lnk-c0da2a3776",
                           "name": "Tôm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1792311493_hd/1792311493_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792311493_hd/1792311493_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1389,6 +1317,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/20463474_acdad744_20261019.png?v=acdad744",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-8563ecdb7c",
+          "name": "The Mongolz vs Alliance | 19:00 19/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8563ecdb7c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8563ecdb7c",
+                  "name": "The Mongolz vs Alliance",
+                  "streams": [
+                    {
+                      "id": "st-8563ecdb7c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2adc53ab93",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792393036_hd/1792393036_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CS2 1W Private Club Season 2 - 1/8-finals",
+            "team_a": "The Mongolz",
+            "team_b": "Alliance",
+            "logo_a": "https://liquipedia.net/commons/images/thumb/2/2b/The_MongolZ_2024_03_allmode.png/600px-The_MongolZ_2024_03_allmode.png",
+            "logo_b": "https://static.gosugamers.net/ab/aa/95/3ef6bb30bd8d5a240941f49395237b3c6d129b650816250ecae623d44d.webp?w=256",
+            "time": "19:00:00",
+            "date": "19/10",
+            "blv": "Hấu",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ks7l5ol1nvfw_aa196c7a_20261019.png?v=aa196c7a",
             "width": 1600,
             "height": 1200
           }
