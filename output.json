@@ -521,6 +521,78 @@
           }
         },
         {
+          "id": "gv-eb314b4b4a",
+          "name": "Monza vs Cagliari | 23:30 19/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eb314b4b4a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-eb314b4b4a",
+                  "name": "Monza vs Cagliari",
+                  "streams": [
+                    {
+                      "id": "st-eb314b4b4a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9d25719663",
+                          "name": "Tỵ ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792403613_hd/1792403613_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Monza",
+            "team_b": "Cagliari",
+            "logo_a": "https://images.keovip88.net/images/teams/monza.png",
+            "logo_b": "https://images.keovip88.net/images/teams/cagliari.png",
+            "time": "23:30:00",
+            "date": "19/10",
+            "blv": "Tỵ ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acc235324d46db870180c79_e59ec7a2_20261019.png?v=e59ec7a2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-bb891883d2",
           "name": "Adhyaksa Farmel FC vs Malut United | 15:30 20/10",
           "type": "single",
@@ -596,7 +668,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -609,10 +681,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -661,7 +733,7 @@
             "time": "17:00:00",
             "date": "19/10",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
