@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/wmdfe6913xsw_347a48ec_20261020.png?v=347a48ec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-9079fd5f9d",
-          "name": "Xorazm Urganch vs Buxoro FK | 22:00 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9079fd5f9d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9079fd5f9d",
-                  "name": "Xorazm Urganch vs Buxoro FK",
-                  "streams": [
-                    {
-                      "id": "st-9079fd5f9d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f8d261961b",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792310429_hd/1792310429_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Uzbekistan Super League",
-            "team_a": "Xorazm Urganch",
-            "team_b": "Buxoro FK",
-            "logo_a": "https://images.keovip88.net/images/teams/xorazm-urganch.png",
-            "logo_b": "https://images.keovip88.net/images/teams/buxoro-fk.png",
-            "time": "22:00:00",
-            "date": "20/10",
-            "blv": "Bee",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74c924d46db870dd0059_ade7e5fa_20261020.png?v=ade7e5fa",
             "width": 1600,
             "height": 1200
           }
@@ -240,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +220,7 @@
             "time": "22:10:00",
             "date": "20/10",
             "blv": "Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -312,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -364,7 +292,7 @@
             "time": "22:20:00",
             "date": "20/10",
             "blv": "Hấu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -372,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/mphqsekw5xdb_5255e317_20261020.png?v=5255e317",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9079fd5f9d",
+          "name": "Xorazm Urganch vs Buxoro FK | 22:00 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9079fd5f9d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9079fd5f9d",
+                  "name": "Xorazm Urganch vs Buxoro FK",
+                  "streams": [
+                    {
+                      "id": "st-9079fd5f9d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f8d261961b",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792310429_hd/1792310429_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Uzbekistan Super League",
+            "team_a": "Xorazm Urganch",
+            "team_b": "Buxoro FK",
+            "logo_a": "https://images.keovip88.net/images/teams/xorazm-urganch.png",
+            "logo_b": "https://images.keovip88.net/images/teams/buxoro-fk.png",
+            "time": "22:00:00",
+            "date": "20/10",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74c924d46db870dd0059_ade7e5fa_20261020.png?v=ade7e5fa",
             "width": 1600,
             "height": 1200
           }
@@ -1812,6 +1812,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad2baaf24d46db870e25bfe_43af4efd_20261020.png?v=43af4efd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d5f10be2e4",
+          "name": "Al Jeel vs Al Jandal | 21:45 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d5f10be2e4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d5f10be2e4",
+                  "name": "Al Jeel vs Al Jandal",
+                  "streams": [
+                    {
+                      "id": "st-d5f10be2e4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf645a95ca",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792311205_hd/1792311205_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp Hoàng tử Faisal bin Fahd",
+            "team_a": "Al Jeel",
+            "team_b": "Al Jandal",
+            "logo_a": "https://static.flashscore.com/res/image/data/Eyaf2bil-fe8kvGSu.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-AJgw8eaRwGb5-gy1x6GpadWWh-vAhvQ6gOJ5RyDwXQ&s",
+            "time": "21:45:00",
+            "date": "21/10",
+            "blv": "Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/96p9r72fng76_6dc25b39_20261020.png?v=6dc25b39",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f44d96f3bb",
+          "name": "Al-Anwar vs Al Wehda | 22:00 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f44d96f3bb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f44d96f3bb",
+                  "name": "Al-Anwar vs Al Wehda",
+                  "streams": [
+                    {
+                      "id": "st-f44d96f3bb",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-79917e9565",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792311345_hd/1792311345_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp Hoàng tử Faisal bin Fahd",
+            "team_a": "Al-Anwar",
+            "team_b": "Al Wehda",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgU-_ef4MiVlT5ZZ0IG2WoCuyyrE_1HzVF7GHCSeJmZg&s=10",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/5/58/Al_Wahda_FC_logo.png",
+            "time": "22:00:00",
+            "date": "21/10",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/cpx0l6tv7uc8_a0a22478_20261020.png?v=a0a22478",
             "width": 1600,
             "height": 1200
           }
