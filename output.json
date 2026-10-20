@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "19:00:00",
             "date": "20/10",
             "blv": "Trĩ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +148,7 @@
             "time": "19:00:00",
             "date": "20/10",
             "blv": "Mù",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -404,11 +404,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-482fc8ebc6",
-                          "name": "Dory",
+                          "id": "lnk-be0e78416e",
+                          "name": "Điếc",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792310507_hd/1792310507_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792496106_hd/1792496106_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -435,7 +435,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/al-qadsiah.png",
             "time": "22:10:00",
             "date": "20/10",
-            "blv": "Dory",
+            "blv": "Điếc",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1887,12 +1887,84 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-4b23232e7e",
+          "name": "Lion City Sailors vs Tampines Rovers FC | 18:30 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4b23232e7e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4b23232e7e",
+                  "name": "Lion City Sailors vs Tampines Rovers FC",
+                  "streams": [
+                    {
+                      "id": "st-4b23232e7e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a14925885f",
+                          "name": "Tỵ ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792310924_hd/1792310924_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG  Singapore",
+            "team_a": "Lion City Sailors",
+            "team_b": "Tampines Rovers FC",
+            "logo_a": "https://images.keovip88.net/images/teams/lion-city-sailors.png",
+            "logo_b": "https://images.keovip88.net/images/teams/tampines-rovers-fc.png",
+            "time": "18:30:00",
+            "date": "21/10",
+            "blv": "Tỵ ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad2baaf24d46db870e25bfe_43af4efd_20261020.png?v=43af4efd",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (5 LIVE)",
+      "name": "🏀 Bóng Rổ (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2258,6 +2330,78 @@
           }
         },
         {
+          "id": "gv-c4beb9a80c",
+          "name": "Xinjiang Flying Tigers vs Tianjin Pioneers | 19:00 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c4beb9a80c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c4beb9a80c",
+                  "name": "Xinjiang Flying Tigers vs Tianjin Pioneers",
+                  "streams": [
+                    {
+                      "id": "st-c4beb9a80c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2c44a145e3",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792420787_hd/1792420787_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "Xinjiang Flying Tigers",
+            "team_b": "Tianjin Pioneers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f68788874e0a17dd655083cb42b1d00b.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c95a72565d21fd4797acfbfb63c829e8.PNG",
+            "time": "19:00:00",
+            "date": "20/10",
+            "blv": "Vịt",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39363472_baa11cc1_20261020.png?v=baa11cc1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-41e7099524",
           "name": "Fujian Xunxing Sturgeons vs Zhejiang Lions | 18:35 20/10",
           "type": "single",
@@ -2325,78 +2469,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/37363470_b7591c2d_20261020.png?v=b7591c2d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c4beb9a80c",
-          "name": "Xinjiang Flying Tigers vs Tianjin Pioneers | 19:00 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c4beb9a80c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c4beb9a80c",
-                  "name": "Xinjiang Flying Tigers vs Tianjin Pioneers",
-                  "streams": [
-                    {
-                      "id": "st-c4beb9a80c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2c44a145e3",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792420787_hd/1792420787_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Basketball Association",
-            "team_a": "Xinjiang Flying Tigers",
-            "team_b": "Tianjin Pioneers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f68788874e0a17dd655083cb42b1d00b.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c95a72565d21fd4797acfbfb63c829e8.PNG",
-            "time": "19:00:00",
-            "date": "20/10",
-            "blv": "Vịt",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39363472_baa11cc1_20261020.png?v=baa11cc1",
             "width": 1600,
             "height": 1200
           }
