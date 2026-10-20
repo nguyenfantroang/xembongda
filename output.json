@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-bb891883d2",
-          "name": "Adhyaksa Farmel FC vs Malut United | 15:30 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bb891883d2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bb891883d2",
-                  "name": "Adhyaksa Farmel FC vs Malut United",
-                  "streams": [
-                    {
-                      "id": "st-bb891883d2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eee8913e2f",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792310180_hd/1792310180_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Indonesia",
-            "team_a": "Adhyaksa Farmel FC",
-            "team_b": "Malut United",
-            "logo_a": "https://images.keovip88.net/images/teams/adhyaksa-farmel-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/malut-united.png",
-            "time": "15:30:00",
-            "date": "20/10",
-            "blv": "Tỵ ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74c924d46db870dcff8a_3e43e10f_20261020.png?v=3e43e10f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b8f709cd43",
           "name": "Dewa United FC vs Persijap Jepara | 19:00 20/10",
@@ -737,6 +665,78 @@
           }
         },
         {
+          "id": "gv-c75f1a64df",
+          "name": "Al-Nassr FC vs Al-Suqoor | 01:00 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c75f1a64df",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c75f1a64df",
+                  "name": "Al-Nassr FC vs Al-Suqoor",
+                  "streams": [
+                    {
+                      "id": "st-c75f1a64df",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d862c29785",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792492031_hd/1792492031_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ả Rập Xê Út",
+            "team_a": "Al-Nassr FC",
+            "team_b": "Al-Suqoor",
+            "logo_a": "https://images.keovip88.net/images/teams/al-nassr.png",
+            "logo_b": "https://images.keovip88.net/images/teams/neom.png",
+            "time": "01:00:00",
+            "date": "21/10",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74ca24d46db870dd0108_f0cfd2cf_20261020.png?v=f0cfd2cf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-e26862dab3",
           "name": "AS Roma vs Slovan Bratislava | 02:00 21/10",
           "type": "single",
@@ -1164,6 +1164,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e63_6702e9cc_20261020.png?v=6702e9cc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-666f945370",
+          "name": "FC Porto vs PSV Eindhoven | 02:00 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-666f945370",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-666f945370",
+                  "name": "FC Porto vs PSV Eindhoven",
+                  "streams": [
+                    {
+                      "id": "st-666f945370",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d6bc712286",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792492072_hd/1792492072_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C1",
+            "team_a": "FC Porto",
+            "team_b": "PSV Eindhoven",
+            "logo_a": "https://images.keovip88.net/images/teams/fc-porto.png",
+            "logo_b": "https://images.keovip88.net/images/teams/psv-eindhoven.png",
+            "time": "02:00:00",
+            "date": "21/10",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4cd164566b7f70b433c_61aa2b79_20261020.png?v=61aa2b79",
             "width": 1600,
             "height": 1200
           }
@@ -1820,7 +1892,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1905,10 +1977,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1957,7 +2029,7 @@
             "time": "18:35:00",
             "date": "20/10",
             "blv": "Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1977,10 +2049,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2029,7 +2101,7 @@
             "time": "18:35:00",
             "date": "20/10",
             "blv": "Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
