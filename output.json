@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-6f77d8a409",
-          "name": "Hajer vs Al Najma | 21:45 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6f77d8a409",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6f77d8a409",
-                  "name": "Hajer vs Al Najma",
-                  "streams": [
-                    {
-                      "id": "st-6f77d8a409",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-670731310a",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792310354_hd/1792310354_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp Hoàng tử Faisal bin Fahd",
-            "team_a": "Hajer",
-            "team_b": "Al Najma",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/8/86/Hajer_FC_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/6/66/Al_Najma_Sports_club_%28Official%29.png",
-            "time": "21:45:00",
-            "date": "20/10",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/wmdfe6913xsw_347a48ec_20261020.png?v=347a48ec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-aa9ebef1ea",
-          "name": "Al-Draih vs Al-Riyadh | 22:00 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aa9ebef1ea",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-aa9ebef1ea",
-                  "name": "Al-Draih vs Al-Riyadh",
-                  "streams": [
-                    {
-                      "id": "st-aa9ebef1ea",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-94664cb627",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792310459_hd/1792310459_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ả Rập Xê Út",
-            "team_a": "Al-Draih",
-            "team_b": "Al-Riyadh",
-            "logo_a": "https://images.keovip88.net/images/teams/al-draih.png",
-            "logo_b": "https://images.keovip88.net/images/teams/al-riyadh.png",
-            "time": "22:00:00",
-            "date": "20/10",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74c924d46db870dd0055_f31503fd_20261020.png?v=f31503fd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-d8429e02e5",
           "name": "Al-Taawon vs Al-Qadasiya | 22:10 20/10",
@@ -227,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74c924d46db870dd0063_4ab550a0_20261020.png?v=4ab550a0",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74c924d46db870dd0063_4ab550a0_20261021.png?v=4ab550a0",
             "width": 1600,
             "height": 1200
           }
@@ -299,7 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/mphqsekw5xdb_5255e317_20261020.png?v=5255e317",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/mphqsekw5xdb_5255e317_20261021.png?v=5255e317",
             "width": 1600,
             "height": 1200
           }
@@ -371,7 +227,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e1d_8c22e22a_20261020.png?v=8c22e22a",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e1d_8c22e22a_20261021.png?v=8c22e22a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-dcfd597a55",
+          "name": "Sabah FK vs Borussia Dortmund | 23:45 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dcfd597a55",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-dcfd597a55",
+                  "name": "Sabah FK vs Borussia Dortmund",
+                  "streams": [
+                    {
+                      "id": "st-dcfd597a55",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2d260e0298",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792430561_hd/1792430561_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C1",
+            "team_a": "Sabah FK",
+            "team_b": "Borussia Dortmund",
+            "logo_a": "https://images.keovip88.net/images/teams/sabah-fk-baku.png",
+            "logo_b": "https://images.keovip88.net/images/teams/borussia-dortmund.png",
+            "time": "23:45:00",
+            "date": "20/10",
+            "blv": "Trĩ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e37_98a0fb1e_20261021.png?v=98a0fb1e",
             "width": 1600,
             "height": 1200
           }
@@ -443,79 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74c924d46db870dd0059_ade7e5fa_20261020.png?v=ade7e5fa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-dcfd597a55",
-          "name": "Sabah FK vs Borussia Dortmund | 23:45 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dcfd597a55",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-dcfd597a55",
-                  "name": "Sabah FK vs Borussia Dortmund",
-                  "streams": [
-                    {
-                      "id": "st-dcfd597a55",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2d260e0298",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792430561_hd/1792430561_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C1",
-            "team_a": "Sabah FK",
-            "team_b": "Borussia Dortmund",
-            "logo_a": "https://images.keovip88.net/images/teams/sabah-fk-baku.png",
-            "logo_b": "https://images.keovip88.net/images/teams/borussia-dortmund.png",
-            "time": "23:45:00",
-            "date": "20/10",
-            "blv": "Trĩ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e37_98a0fb1e_20261020.png?v=98a0fb1e",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74c924d46db870dd0059_ade7e5fa_20261021.png?v=ade7e5fa",
             "width": 1600,
             "height": 1200
           }
@@ -587,7 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74ca24d46db870dd0108_f0cfd2cf_20261020.png?v=f0cfd2cf",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74ca24d46db870dd0108_f0cfd2cf_20261021.png?v=f0cfd2cf",
             "width": 1600,
             "height": 1200
           }
@@ -659,7 +515,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e45_d737b783_20261020.png?v=d737b783",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e45_d737b783_20261021.png?v=d737b783",
             "width": 1600,
             "height": 1200
           }
@@ -731,7 +587,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e23_3caa22dc_20261020.png?v=3caa22dc",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e23_3caa22dc_20261021.png?v=3caa22dc",
             "width": 1600,
             "height": 1200
           }
@@ -803,7 +659,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e4f_0a709a98_20261020.png?v=0a709a98",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e4f_0a709a98_20261021.png?v=0a709a98",
             "width": 1600,
             "height": 1200
           }
@@ -875,7 +731,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4cd164566b7f70b433b_21e9080e_20261020.png?v=21e9080e",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4cd164566b7f70b433b_21e9080e_20261021.png?v=21e9080e",
             "width": 1600,
             "height": 1200
           }
@@ -947,7 +803,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4cd164566b7f70b433d_632e43ca_20261020.png?v=632e43ca",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4cd164566b7f70b433d_632e43ca_20261021.png?v=632e43ca",
             "width": 1600,
             "height": 1200
           }
@@ -1019,7 +875,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e63_6702e9cc_20261020.png?v=6702e9cc",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e63_6702e9cc_20261021.png?v=6702e9cc",
             "width": 1600,
             "height": 1200
           }
@@ -1091,7 +947,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4cd164566b7f70b433c_61aa2b79_20261020.png?v=61aa2b79",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a94c4cd164566b7f70b433c_61aa2b79_20261021.png?v=61aa2b79",
             "width": 1600,
             "height": 1200
           }
@@ -1163,7 +1019,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/obk4a4vzwaid_5f3ef341_20261020.png?v=5f3ef341",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/obk4a4vzwaid_5f3ef341_20261021.png?v=5f3ef341",
             "width": 1600,
             "height": 1200
           }
@@ -1235,7 +1091,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74cc24d46db870dd02d7_ab1fce90_20261020.png?v=ab1fce90",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74cc24d46db870dd02d7_ab1fce90_20261021.png?v=ab1fce90",
             "width": 1600,
             "height": 1200
           }
@@ -1307,7 +1163,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74cc24d46db870dd02eb_27bb75f9_20261020.png?v=27bb75f9",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74cc24d46db870dd02eb_27bb75f9_20261021.png?v=27bb75f9",
             "width": 1600,
             "height": 1200
           }
@@ -1379,7 +1235,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74cc24d46db870dd02ef_64e02cd1_20261020.png?v=64e02cd1",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74cc24d46db870dd02ef_64e02cd1_20261021.png?v=64e02cd1",
             "width": 1600,
             "height": 1200
           }
@@ -1451,7 +1307,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74cc24d46db870dd02f7_23671ba3_20261020.png?v=23671ba3",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74cc24d46db870dd02f7_23671ba3_20261021.png?v=23671ba3",
             "width": 1600,
             "height": 1200
           }
@@ -1523,7 +1379,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74cc24d46db870dd02fb_60b73834_20261020.png?v=60b73834",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74cc24d46db870dd02fb_60b73834_20261021.png?v=60b73834",
             "width": 1600,
             "height": 1200
           }
@@ -1595,7 +1451,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74cc24d46db870dd02ff_22312f7b_20261020.png?v=22312f7b",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74cc24d46db870dd02ff_22312f7b_20261021.png?v=22312f7b",
             "width": 1600,
             "height": 1200
           }
@@ -1667,7 +1523,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74cc24d46db870dd030b_212764de_20261020.png?v=212764de",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74cc24d46db870dd030b_212764de_20261021.png?v=212764de",
             "width": 1600,
             "height": 1200
           }
@@ -1739,7 +1595,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74cc24d46db870dd0317_e6228b9f_20261020.png?v=e6228b9f",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74cc24d46db870dd0317_e6228b9f_20261021.png?v=e6228b9f",
             "width": 1600,
             "height": 1200
           }
@@ -1811,7 +1667,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad2baaf24d46db870e25bfe_43af4efd_20261020.png?v=43af4efd",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad2baaf24d46db870e25bfe_43af4efd_20261021.png?v=43af4efd",
             "width": 1600,
             "height": 1200
           }
@@ -1883,7 +1739,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/96p9r72fng76_6dc25b39_20261020.png?v=6dc25b39",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/96p9r72fng76_6dc25b39_20261021.png?v=6dc25b39",
             "width": 1600,
             "height": 1200
           }
@@ -1955,7 +1811,185 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/cpx0l6tv7uc8_a0a22478_20261020.png?v=a0a22478",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/cpx0l6tv7uc8_a0a22478_20261021.png?v=a0a22478",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8c4b07bc6f",
+          "name": "Como vs Manchester United | 23:45 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8c4b07bc6f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8c4b07bc6f",
+                  "name": "Como vs Manchester United",
+                  "streams": [
+                    {
+                      "id": "st-8c4b07bc6f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f5d7521460",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792431676_hd/1792431676_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-dd0549a272",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792431685_hd/1792431685_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-5cbf8c9b7a",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792431691_hd/1792431691_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C1",
+            "team_a": "Como",
+            "team_b": "Manchester United",
+            "logo_a": "https://images.keovip88.net/images/teams/como.png",
+            "logo_b": "https://images.keovip88.net/images/teams/manchester-united.png",
+            "time": "23:45:00",
+            "date": "21/10",
+            "blv": "Hấu, Dory, Chồn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a92220607a55a68f709da99_8e31df05_20261021.png?v=8e31df05",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d4a2579ff5",
+          "name": "Lille OSC vs Galatasaray | 23:45 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d4a2579ff5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d4a2579ff5",
+                  "name": "Lille OSC vs Galatasaray",
+                  "streams": [
+                    {
+                      "id": "st-d4a2579ff5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7749a73c5c",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792431765_hd/1792431765_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C1",
+            "team_a": "Lille OSC",
+            "team_b": "Galatasaray",
+            "logo_a": "https://images.keovip88.net/images/teams/lille.png",
+            "logo_b": "https://images.keovip88.net/images/teams/galatasaray.png",
+            "time": "23:45:00",
+            "date": "21/10",
+            "blv": "Ngu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e2b_c5ba006c_20261021.png?v=c5ba006c",
             "width": 1600,
             "height": 1200
           }
@@ -2036,7 +2070,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/37363470_b7591c2d_20261020.png?v=b7591c2d",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/37363470_b7591c2d_20261021.png?v=b7591c2d",
             "width": 1600,
             "height": 1200
           }
@@ -2108,7 +2142,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/38587277_a4203d5b_20261020.png?v=a4203d5b",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/38587277_a4203d5b_20261021.png?v=a4203d5b",
             "width": 1600,
             "height": 1200
           }
@@ -2180,7 +2214,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39587278_f3c8c546_20261020.png?v=f3c8c546",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39587278_f3c8c546_20261021.png?v=f3c8c546",
             "width": 1600,
             "height": 1200
           }
@@ -2252,7 +2286,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/35687275_8fbb1051_20261020.png?v=8fbb1051",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/35687275_8fbb1051_20261021.png?v=8fbb1051",
             "width": 1600,
             "height": 1200
           }
@@ -2324,7 +2358,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/28422275_f9a2a9a1_20261020.png?v=f9a2a9a1",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/28422275_f9a2a9a1_20261021.png?v=f9a2a9a1",
             "width": 1600,
             "height": 1200
           }
@@ -2396,7 +2430,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/10060376_5e4cd34e_20261020.png?v=5e4cd34e",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/10060376_5e4cd34e_20261021.png?v=5e4cd34e",
             "width": 1600,
             "height": 1200
           }
@@ -2468,7 +2502,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/20463474_acdad744_20261020.png?v=acdad744",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/20463474_acdad744_20261021.png?v=acdad744",
             "width": 1600,
             "height": 1200
           }
@@ -2549,7 +2583,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/e3s8vxajrzue_fc5ec4f4_20261020.png?v=fc5ec4f4",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/e3s8vxajrzue_fc5ec4f4_20261021.png?v=fc5ec4f4",
             "width": 1600,
             "height": 1200
           }
@@ -2621,7 +2655,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/r3scrditqxci_208cd6f5_20261020.png?v=208cd6f5",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/r3scrditqxci_208cd6f5_20261021.png?v=208cd6f5",
             "width": 1600,
             "height": 1200
           }
@@ -2693,7 +2727,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/oj930b0i8692_24565cfe_20261020.png?v=24565cfe",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/oj930b0i8692_24565cfe_20261021.png?v=24565cfe",
             "width": 1600,
             "height": 1200
           }
@@ -2765,7 +2799,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/bg2q68hn5yia_72c38974_20261020.png?v=72c38974",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/bg2q68hn5yia_72c38974_20261021.png?v=72c38974",
             "width": 1600,
             "height": 1200
           }
@@ -2846,7 +2880,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/7otvyyb7kbi0_58fe07bb_20261020.png?v=58fe07bb",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/7otvyyb7kbi0_58fe07bb_20261021.png?v=58fe07bb",
             "width": 1600,
             "height": 1200
           }
