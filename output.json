@@ -1062,7 +1062,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1075,10 +1075,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1127,7 +1127,7 @@
             "time": "06:00:00",
             "date": "21/10",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1167,11 +1167,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-028928cc67",
+                          "id": "lnk-fb7bc8fba5",
                           "name": "Vịt",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1792425551_hd/1792425551_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792425551_hd/1792425551_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1423,6 +1423,159 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/20463474_acdad744_20261021.png?v=acdad744",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-09fd13e64a",
+          "name": "Minnesota Wild vs Edmonton Oilers | 08:00 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-09fd13e64a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-09fd13e64a",
+                  "name": "Minnesota Wild vs Edmonton Oilers",
+                  "streams": [
+                    {
+                      "id": "st-09fd13e64a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cd9053a9da",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792538374_hd/1792538374_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NHL",
+            "team_a": "Minnesota Wild",
+            "team_b": "Edmonton Oilers",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/2AkZ-bLhHUaPoj_LlLPBVA_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/GFR5_nXarHj6qRI8R05otg_96x96.png",
+            "time": "08:00:00",
+            "date": "21/10",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/kaeq538z70ts_4bc670fc_20261021.png?v=4bc670fc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1dd39ff748",
+          "name": "Tampa Bay Lightning vs Vegas Golden Knights | 09:30 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1dd39ff748",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1dd39ff748",
+                  "name": "Tampa Bay Lightning vs Vegas Golden Knights",
+                  "streams": [
+                    {
+                      "id": "st-1dd39ff748",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ebc1288919",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792538438_hd/1792538438_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NHL",
+            "team_a": "Tampa Bay Lightning",
+            "team_b": "Vegas Golden Knights",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IFjTMxl-nMxMJK2b64xLFQ_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/QeG0x42j0YlJGYEAwowewA_96x96.png",
+            "time": "09:30:00",
+            "date": "21/10",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ksk0gdkai62w_8d089754_20261021.png?v=8d089754",
             "width": 1600,
             "height": 1200
           }
