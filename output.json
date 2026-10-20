@@ -1273,6 +1273,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-b76ac63adb",
+          "name": "Inac Kobe Leonesa vs JEF United | 10:00 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b76ac63adb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b76ac63adb",
+                  "name": "Inac Kobe Leonesa vs JEF United",
+                  "streams": [
+                    {
+                      "id": "st-b76ac63adb",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-265775d192",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792425497_hd/1792425497_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japan - WE League",
+            "team_a": "Inac Kobe Leonesa",
+            "team_b": "JEF United",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/-dzxSZwvXWZ-BSkwdODvHQ_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/RjhzwKAvdLTJTcrRlNx8og_96x96.png",
+            "time": "10:00:00",
+            "date": "21/10",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/obk4a4vzwaid_5f3ef341_20261020.png?v=5f3ef341",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2601,83 +2673,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
+      "name": "⚾ Bóng Chày",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ba0d8ff6f3",
-          "name": "Tampa Bay Rays vs Cleverland Guardians | 07:00 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ba0d8ff6f3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ba0d8ff6f3",
-                  "name": "Tampa Bay Rays vs Cleverland Guardians",
-                  "streams": [
-                    {
-                      "id": "st-ba0d8ff6f3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c833dd7441",
-                          "name": "Đầu cầu vui vẻ: Cận vs Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792424636_hd/1792424636_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB - Championship Series",
-            "team_a": "Tampa Bay Rays",
-            "team_b": "Cleverland Guardians",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/OKV4PkdXNzXJd_Qalvh63g_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/zGJ5ZWjK2s9nUNXy8CGf5A_96x96.png",
-            "time": "07:00:00",
-            "date": "20/10",
-            "blv": "Đầu cầu vui vẻ: Cận vs Ngu",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ur1rtp5deikj_f8c28a68_20261020.png?v=f8c28a68",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-8fb430cf6e",
           "name": "Los Angeles Kings vs Washington Capitals | 06:00 21/10",
