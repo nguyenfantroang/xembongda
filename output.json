@@ -1964,83 +1964,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (6 LIVE)",
+      "name": "🏀 Bóng Rổ (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b393bd42c5",
-          "name": "Seoul SK Knights vs Anyang Jung Kwan Jang Red Boosters | 17:00 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b393bd42c5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b393bd42c5",
-                  "name": "Seoul SK Knights vs Anyang Jung Kwan Jang Red Boosters",
-                  "streams": [
-                    {
-                      "id": "st-b393bd42c5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a82112913c",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792311587_hd/1792311587_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korea Basketball League",
-            "team_a": "Seoul SK Knights",
-            "team_b": "Anyang Jung Kwan Jang Red Boosters",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/425cf7236b655f8922a9b53220d3d1b6.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/a41dc05de91a396420f82f30bab19765.png",
-            "time": "17:00:00",
-            "date": "20/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39950373_4a84a754_20261020.png?v=4a84a754",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-4a27f0d882",
           "name": "Beijing Shougang Ducks vs Guangdong Southern Tigers | 18:35 20/10",
