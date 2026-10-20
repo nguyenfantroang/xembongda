@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -161,6 +161,78 @@
           }
         },
         {
+          "id": "gv-c75f1a64df",
+          "name": "Al-Nassr FC vs Al-Suqoor | 01:00 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c75f1a64df",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c75f1a64df",
+                  "name": "Al-Nassr FC vs Al-Suqoor",
+                  "streams": [
+                    {
+                      "id": "st-c75f1a64df",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d862c29785",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792492031_hd/1792492031_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ả Rập Xê Út",
+            "team_a": "Al-Nassr FC",
+            "team_b": "Al-Suqoor",
+            "logo_a": "https://images.keovip88.net/images/teams/al-nassr.png",
+            "logo_b": "https://images.keovip88.net/images/teams/neom.png",
+            "time": "01:00:00",
+            "date": "21/10",
+            "blv": "Bee",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74ca24d46db870dd0108_f0cfd2cf_20261021.png?v=f0cfd2cf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-9079fd5f9d",
           "name": "Xorazm Urganch vs Buxoro FK | 22:00 20/10",
           "type": "single",
@@ -228,78 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74c924d46db870dd0059_ade7e5fa_20261021.png?v=ade7e5fa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c75f1a64df",
-          "name": "Al-Nassr FC vs Al-Suqoor | 01:00 21/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c75f1a64df",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c75f1a64df",
-                  "name": "Al-Nassr FC vs Al-Suqoor",
-                  "streams": [
-                    {
-                      "id": "st-c75f1a64df",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d862c29785",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792492031_hd/1792492031_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ả Rập Xê Út",
-            "team_a": "Al-Nassr FC",
-            "team_b": "Al-Suqoor",
-            "logo_a": "https://images.keovip88.net/images/teams/al-nassr.png",
-            "logo_b": "https://images.keovip88.net/images/teams/neom.png",
-            "time": "01:00:00",
-            "date": "21/10",
-            "blv": "Bee",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74ca24d46db870dd0108_f0cfd2cf_20261021.png?v=f0cfd2cf",
             "width": 1600,
             "height": 1200
           }
