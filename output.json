@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-4a1ef84b77",
-          "name": "Bali United FC vs Garudayaksa | 15:30 21/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4a1ef84b77",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4a1ef84b77",
-                  "name": "Bali United FC vs Garudayaksa",
-                  "streams": [
-                    {
-                      "id": "st-4a1ef84b77",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-555eb9cbfc",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792310643_hd/1792310643_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Indonesia",
-            "team_a": "Bali United FC",
-            "team_b": "Garudayaksa",
-            "logo_a": "https://images.keovip88.net/images/teams/bali-united.png",
-            "logo_b": "https://images.keovip88.net/images/teams/garudayaksa.png",
-            "time": "15:30:00",
-            "date": "21/10",
-            "blv": "Tỵ ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74cc24d46db870dd02d7_ab1fce90_20261021.png?v=ab1fce90",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f101155151",
           "name": "Avispa Fukuoka vs Gamba Osaka | 17:00 21/10",
@@ -1794,49 +1722,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-08b00c52ee",
-          "name": "Tasmania JackJumpers vs Brisbane Bullets | 15:30 21/10",
+          "id": "gv-d1146b3dde",
+          "name": "Van Hien University vs Cao Su Đồng Tháp | 17:00 22/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-08b00c52ee",
+              "id": "src-d1146b3dde",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-08b00c52ee",
-                  "name": "Tasmania JackJumpers vs Brisbane Bullets",
+                  "id": "ct-d1146b3dde",
+                  "name": "Van Hien University vs Cao Su Đồng Tháp",
                   "streams": [
                     {
-                      "id": "st-08b00c52ee",
+                      "id": "st-d1146b3dde",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-d2e68f9d0e",
-                          "name": "Chồn",
+                          "id": "lnk-3308994d63",
+                          "name": "Cận",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792311818_hd/1792311818_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792550689_hd/1792550689_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1856,26 +1775,35 @@
             }
           ],
           "org_metadata": {
-            "league": "National Basketball League(Australia)",
-            "team_a": "Tasmania JackJumpers",
-            "team_b": "Brisbane Bullets",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/b4775c62432e01185c4fd9669952b258.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/fd1ef26f7174d02a5a30dbe9e69b45f9.png",
-            "time": "15:30:00",
-            "date": "21/10",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "basketball"
+            "league": "Hạng Nhất Việt Nam",
+            "team_a": "Van Hien University",
+            "team_b": "Cao Su Đồng Tháp",
+            "logo_a": "https://images.keovip88.net/images/teams/van-hien-university.png",
+            "logo_b": "https://images.keovip88.net/images/teams/dong-thap.png",
+            "time": "17:00:00",
+            "date": "22/10",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/28422275_f9a2a9a1_20261021.png?v=f9a2a9a1",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad017d324d46db8705c8598_a240589f_20261021.png?v=a240589f",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_basketball",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "gv-e2a9d37d98",
           "name": "Seoul Samsung Thunders vs Jeonju KCC Egis | 17:00 21/10",
@@ -2741,6 +2669,78 @@
           }
         },
         {
+          "id": "gv-5c185f99ca",
+          "name": "Philadelphia 76ers vs Cleveland Cavaliers | 06:00 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5c185f99ca",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5c185f99ca",
+                  "name": "Philadelphia 76ers vs Cleveland Cavaliers",
+                  "streams": [
+                    {
+                      "id": "st-5c185f99ca",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f8830482db",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792577696_hd/1792577696_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Philadelphia 76ers",
+            "team_b": "Cleveland Cavaliers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/7f086c864d1e283b7862a756f0b88373.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/d4d48671e1b8c3830897ac4f6604ea9a.png",
+            "time": "06:00:00",
+            "date": "23/10",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/31687271_95cf9b55_20261021.png?v=95cf9b55",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-05715f11f5",
           "name": "Busan KTF Magicwings vs Wonju Dongbu Promy | 17:00 23/10",
           "type": "single",
@@ -3173,6 +3173,366 @@
           }
         },
         {
+          "id": "gv-9c3ac7541f",
+          "name": "Charlotte Hornets vs Atlanta Hawks | 06:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9c3ac7541f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9c3ac7541f",
+                  "name": "Charlotte Hornets vs Atlanta Hawks",
+                  "streams": [
+                    {
+                      "id": "st-9c3ac7541f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9ac2ea6f1f",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792577735_hd/1792577735_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Charlotte Hornets",
+            "team_b": "Atlanta Hawks",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/9e28959b5af233b67c389787d2886c84.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/57bd383cc8c9b3d4f92a5d1c371e38e9.png",
+            "time": "06:00:00",
+            "date": "24/10",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/25810374_41a0ba23_20261021.png?v=41a0ba23",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ffb9b6b08c",
+          "name": "Boston Celtics vs New York Knicks | 06:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ffb9b6b08c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ffb9b6b08c",
+                  "name": "Boston Celtics vs New York Knicks",
+                  "streams": [
+                    {
+                      "id": "st-ffb9b6b08c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-be5e0213e1",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792577774_hd/1792577774_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Boston Celtics",
+            "team_b": "New York Knicks",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/ef37e5c1c853e5b689b6791b00e8bc58.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c34850b658b2b7735d3bf51912e01bd1.png",
+            "time": "06:00:00",
+            "date": "24/10",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/32687272_6d4f3733_20261021.png?v=6d4f3733",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c81376d80c",
+          "name": "Indiana Pacers vs Dallas Mavericks | 06:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c81376d80c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c81376d80c",
+                  "name": "Indiana Pacers vs Dallas Mavericks",
+                  "streams": [
+                    {
+                      "id": "st-c81376d80c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-23ef945370",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792577809_hd/1792577809_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Indiana Pacers",
+            "team_b": "Dallas Mavericks",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/3a8c9a8a304f078913c60b52698ab585.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/0ae1b26dafd6ba3ff82f91d19b235038.png",
+            "time": "06:00:00",
+            "date": "24/10",
+            "blv": "Mickey",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/26810375_733217ad_20261021.png?v=733217ad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0bc26a3eaf",
+          "name": "Washington Wizards vs Toronto Raptors | 06:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0bc26a3eaf",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0bc26a3eaf",
+                  "name": "Washington Wizards vs Toronto Raptors",
+                  "streams": [
+                    {
+                      "id": "st-0bc26a3eaf",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9b172d6452",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792577844_hd/1792577844_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Washington Wizards",
+            "team_b": "Toronto Raptors",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f4a3bba0c74c9f2b90bc5861ec26e3c7.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/3f61db02c20eb73e5f27948b3122f2fb.png",
+            "time": "06:00:00",
+            "date": "24/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/22904476_7619c79b_20261021.png?v=7619c79b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4e1b4a581b",
+          "name": "Orlando Magic vs Minnesota Timberwolves | 06:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4e1b4a581b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4e1b4a581b",
+                  "name": "Orlando Magic vs Minnesota Timberwolves",
+                  "streams": [
+                    {
+                      "id": "st-4e1b4a581b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-da44ccbd45",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792577886_hd/1792577886_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Orlando Magic",
+            "team_b": "Minnesota Timberwolves",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/2566b135b0e54971193a132bd8a1473c.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/e97782502546bad80da0347446a3a311.png",
+            "time": "06:00:00",
+            "date": "24/10",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21904475_2e3f179f_20261021.png?v=2e3f179f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-1885935047",
           "name": "South East Melbourne Phoenix vs Adelaide 36ers | 15:30 24/10",
           "type": "single",
@@ -3393,6 +3753,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/35zukiq5jtov_b15709f3_20261021.png?v=b15709f3",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-0fac5e3a3b",
+          "name": "Swiss Stage Day 1 Ca 4 vs Swiss Stage Day 1 Ca 4 | 06:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0fac5e3a3b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0fac5e3a3b",
+                  "name": "Swiss Stage Day 1 Ca 4 vs Swiss Stage Day 1 Ca 4",
+                  "streams": [
+                    {
+                      "id": "st-0fac5e3a3b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a8d0a64d57",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792577964_hd/1792577964_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Worlds 2026",
+            "team_a": "Swiss Stage Day 1 Ca 4",
+            "team_b": "Swiss Stage Day 1 Ca 4",
+            "logo_a": "https://store-images.s-microsoft.com/image/apps.18996.14127010465288187.f9de4a96-0ee4-4da3-bf66-d4132b38c599.caf661a7-e0b3-492d-b91b-63627e47283e",
+            "logo_b": "https://store-images.s-microsoft.com/image/apps.18996.14127010465288187.f9de4a96-0ee4-4da3-bf66-d4132b38c599.caf661a7-e0b3-492d-b91b-63627e47283e",
+            "time": "06:00:00",
+            "date": "24/10",
+            "blv": "Hấu",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/5dcqp34r6a7y_6732c057_20261021.png?v=6732c057",
             "width": 1600,
             "height": 1200
           }
@@ -3690,6 +4131,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/bg2q68hn5yia_72c38974_20261021.png?v=72c38974",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_duaxe",
+      "name": "🏎️ Đua Xe",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-d74dc3d2c6",
+          "name": "F1 vs F1 | 00:30 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d74dc3d2c6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d74dc3d2c6",
+                  "name": "F1 vs F1",
+                  "streams": [
+                    {
+                      "id": "st-d74dc3d2c6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-10a8d49829",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792578176_hd/1792578176_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MSC Cruises United States Grand Prix",
+            "team_a": "F1",
+            "team_b": "F1",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Gb3S_hVBxADavywtKLX_sSpJUrlsxbdBeKq6YIXZqQ&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Gb3S_hVBxADavywtKLX_sSpJUrlsxbdBeKq6YIXZqQ&s",
+            "time": "00:30:00",
+            "date": "24/10",
+            "blv": "Ngu",
+            "is_live": false,
+            "cate_type": "duaxe"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/5jx1y5f95uml_c436b015_20261021.png?v=c436b015",
             "width": 1600,
             "height": 1200
           }
