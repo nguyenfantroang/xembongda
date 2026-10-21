@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-8310402359",
-          "name": "Chumphon United vs Songkhla | 15:00 21/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8310402359",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8310402359",
-                  "name": "Chumphon United vs Songkhla",
-                  "streams": [
-                    {
-                      "id": "st-8310402359",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-54a4a76b2d",
-                          "name": "Hứa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792567419_hd/1792567419_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Thailand - Thai FA Cup",
-            "team_a": "Chumphon United",
-            "team_b": "Songkhla",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/b/bd/Chumphon_United_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/2/20/Songkhla_2011.png",
-            "time": "15:00:00",
-            "date": "21/10",
-            "blv": "Hứa",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/0od49o807lil_7f58b10b_20261021.png?v=7f58b10b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-4a1ef84b77",
           "name": "Bali United FC vs Garudayaksa | 15:30 21/10",
@@ -908,11 +836,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-f5d7521460",
-                          "name": "Hấu",
+                          "id": "lnk-05c46fd6d0",
+                          "name": "Fan MU: Hấu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792431676_hd/1792431676_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792571754_hd/1792571754_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -926,7 +854,7 @@
                         },
                         {
                           "id": "lnk-9bdba806ac",
-                          "name": "Cầy + Dory",
+                          "name": "Đầu Cầu Vui Vẻ: Cầy + Dory",
                           "type": "hls",
                           "default": false,
                           "url": "https://ftlh5sc02iliv.vcdn.cloud/1792568556_hd/1792568556_hd@720p.m3u8",
@@ -942,11 +870,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-5cbf8c9b7a",
-                          "name": "Chồn",
+                          "id": "lnk-fdeb82c5b7",
+                          "name": "Trung lập Chồn",
                           "type": "hls",
                           "default": false,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792431691_hd/1792431691_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792571816_hd/1792571816_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -973,7 +901,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/manchester-united.png",
             "time": "23:45:00",
             "date": "21/10",
-            "blv": "Hấu, Cầy + Dory, Chồn",
+            "blv": "Fan MU: Hấu, Đầu Cầu Vui Vẻ: Cầy + Dory, Trung lập Chồn",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1158,11 +1086,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-d3d2123a0e",
-                          "name": "Ngọng",
+                          "id": "lnk-f088f02dc2",
+                          "name": "Fan Arsenal: Ngọng",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792569587_hd/1792569587_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792571901_hd/1792571901_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1175,11 +1103,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-a99ab62775",
-                          "name": "Chồn",
+                          "id": "lnk-efc660a195",
+                          "name": "Trung lập Chồn",
                           "type": "hls",
                           "default": false,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792569595_hd/1792569595_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792571912_hd/1792571912_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1206,7 +1134,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/arsenal.png",
             "time": "02:00:00",
             "date": "22/10",
-            "blv": "Ngọng, Chồn",
+            "blv": "Fan Arsenal: Ngọng, Trung lập Chồn",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1506,6 +1434,366 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-1470a791bd",
+          "name": "Sporting CP vs LASK Linz | 02:00 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1470a791bd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1470a791bd",
+                  "name": "Sporting CP vs LASK Linz",
+                  "streams": [
+                    {
+                      "id": "st-1470a791bd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ba4c392e91",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792569947_hd/1792569947_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C1",
+            "team_a": "Sporting CP",
+            "team_b": "LASK Linz",
+            "logo_a": "https://images.keovip88.net/images/teams/sporting-cp.png",
+            "logo_b": "https://images.keovip88.net/images/teams/lask-linz.png",
+            "time": "02:00:00",
+            "date": "22/10",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a92220607a55a68f709da9a_d5551483_20261021.png?v=d5551483",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-cb2b01c2a3",
+          "name": "Aston Villa vs Viking | 02:00 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cb2b01c2a3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cb2b01c2a3",
+                  "name": "Aston Villa vs Viking",
+                  "streams": [
+                    {
+                      "id": "st-cb2b01c2a3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-86dac794d1",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792569999_hd/1792569999_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C1",
+            "team_a": "Aston Villa",
+            "team_b": "Viking",
+            "logo_a": "https://images.keovip88.net/images/teams/aston-villa.png",
+            "logo_b": "https://images.keovip88.net/images/teams/viking.png",
+            "time": "02:00:00",
+            "date": "22/10",
+            "blv": "Dory",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e3d_0d07c7bd_20261021.png?v=0d07c7bd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0ce8629711",
+          "name": "Lions vs Preston Lions | 15:30 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0ce8629711",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0ce8629711",
+                  "name": "Lions vs Preston Lions",
+                  "streams": [
+                    {
+                      "id": "st-0ce8629711",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e9c8242c9e",
+                          "name": "Hứa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792549688_hd/1792549688_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Australia - Australian Championship",
+            "team_a": "Lions",
+            "team_b": "Preston Lions",
+            "logo_a": "https://static.flashscore.com/res/image/data/j7l1L9e5-GnWJ2Fya.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/4rLQYLGG-lldGheui.png",
+            "time": "15:30:00",
+            "date": "22/10",
+            "blv": "Hứa",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/7457spzpv5xt_c6d35d5a_20261021.png?v=c6d35d5a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-49c4bab071",
+          "name": "Persik Kediri vs PSS Sleman | 15:30 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-49c4bab071",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-49c4bab071",
+                  "name": "Persik Kediri vs PSS Sleman",
+                  "streams": [
+                    {
+                      "id": "st-49c4bab071",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d6a0e7ac92",
+                          "name": "Tỵ ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792549807_hd/1792549807_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Indonesia",
+            "team_a": "Persik Kediri",
+            "team_b": "PSS Sleman",
+            "logo_a": "https://images.keovip88.net/images/teams/persik-kediri.png",
+            "logo_b": "https://images.keovip88.net/images/teams/pss-sleman.png",
+            "time": "15:30:00",
+            "date": "22/10",
+            "blv": "Tỵ ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad017d324d46db8705c8584_b6cded87_20261021.png?v=b6cded87",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-32810bf457",
+          "name": "PSM Makassar vs Persebaya Surabaya | 15:30 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-32810bf457",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-32810bf457",
+                  "name": "PSM Makassar vs Persebaya Surabaya",
+                  "streams": [
+                    {
+                      "id": "st-32810bf457",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d4a70c37e3",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792550664_hd/1792550664_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Indonesia",
+            "team_a": "PSM Makassar",
+            "team_b": "Persebaya Surabaya",
+            "logo_a": "https://images.keovip88.net/images/teams/psm-makassar.png",
+            "logo_b": "https://images.keovip88.net/images/teams/persebaya-surabaya.png",
+            "time": "15:30:00",
+            "date": "22/10",
+            "blv": "Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad017d324d46db8705c858c_76505a56_20261021.png?v=76505a56",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1728,6 +2016,366 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/20463474_acdad744_20261021.png?v=acdad744",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6bcb7d3013",
+          "name": "Washington Wizards vs Milwaukee Bucks | 06:00 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6bcb7d3013",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6bcb7d3013",
+                  "name": "Washington Wizards vs Milwaukee Bucks",
+                  "streams": [
+                    {
+                      "id": "st-6bcb7d3013",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-15986db170",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792570111_hd/1792570111_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Washington Wizards",
+            "team_b": "Milwaukee Bucks",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f4a3bba0c74c9f2b90bc5861ec26e3c7.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/e82de69ea44942a3e90a5be6cf0004da.png",
+            "time": "06:00:00",
+            "date": "22/10",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/22810371_773cb555_20261021.png?v=773cb555",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ef2eafd601",
+          "name": "Orlando Magic vs Atlanta Hawks | 06:00 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ef2eafd601",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ef2eafd601",
+                  "name": "Orlando Magic vs Atlanta Hawks",
+                  "streams": [
+                    {
+                      "id": "st-ef2eafd601",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-66ea89ea61",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792570166_hd/1792570166_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Orlando Magic",
+            "team_b": "Atlanta Hawks",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/2566b135b0e54971193a132bd8a1473c.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/57bd383cc8c9b3d4f92a5d1c371e38e9.png",
+            "time": "06:00:00",
+            "date": "22/10",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21810370_4e507d06_20261021.png?v=4e507d06",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-cf9056f5ab",
+          "name": "Miami Heat vs Minnesota Timberwolves | 06:30 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cf9056f5ab",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cf9056f5ab",
+                  "name": "Miami Heat vs Minnesota Timberwolves",
+                  "streams": [
+                    {
+                      "id": "st-cf9056f5ab",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2dd955bcfa",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792570655_hd/1792570655_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Miami Heat",
+            "team_b": "Minnesota Timberwolves",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/43ebb4d6ad3ea5b68e9b1c969dff055b.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/e97782502546bad80da0347446a3a311.png",
+            "time": "06:30:00",
+            "date": "22/10",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/30687270_a39745dd_20261021.png?v=a39745dd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3fc5eea8d2",
+          "name": "Brooklyn Nets vs Charlotte Hornets | 06:30 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3fc5eea8d2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3fc5eea8d2",
+                  "name": "Brooklyn Nets vs Charlotte Hornets",
+                  "streams": [
+                    {
+                      "id": "st-3fc5eea8d2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-efee8f0d64",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792570702_hd/1792570702_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Brooklyn Nets",
+            "team_b": "Charlotte Hornets",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c01b5e6f6659dd42195e9db3aaef13b7.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/9e28959b5af233b67c389787d2886c84.png",
+            "time": "06:30:00",
+            "date": "22/10",
+            "blv": "Ngu",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/23810372_e592f5c2_20261021.png?v=e592f5c2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6b4daf0fd9",
+          "name": "Toronto Raptors vs Chicago Bulls | 06:30 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6b4daf0fd9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6b4daf0fd9",
+                  "name": "Toronto Raptors vs Chicago Bulls",
+                  "streams": [
+                    {
+                      "id": "st-6b4daf0fd9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4a24aeed19",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792570751_hd/1792570751_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Toronto Raptors",
+            "team_b": "Chicago Bulls",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/3f61db02c20eb73e5f27948b3122f2fb.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c73eca8b9cc18ff386bf6ff4c1236b9e.png",
+            "time": "06:30:00",
+            "date": "22/10",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/24810373_c28c4ac3_20261021.png?v=c28c4ac3",
             "width": 1600,
             "height": 1200
           }
