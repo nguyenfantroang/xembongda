@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b76ac63adb",
-          "name": "Inac Kobe Leonesa vs JEF United | 10:00 21/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b76ac63adb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b76ac63adb",
-                  "name": "Inac Kobe Leonesa vs JEF United",
-                  "streams": [
-                    {
-                      "id": "st-b76ac63adb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-265775d192",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792425497_hd/1792425497_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japan - WE League",
-            "team_a": "Inac Kobe Leonesa",
-            "team_b": "JEF United",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/-dzxSZwvXWZ-BSkwdODvHQ_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/RjhzwKAvdLTJTcrRlNx8og_96x96.png",
-            "time": "10:00:00",
-            "date": "21/10",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/obk4a4vzwaid_5f3ef341_20261021.png?v=5f3ef341",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-4a1ef84b77",
           "name": "Bali United FC vs Garudayaksa | 15:30 21/10",
@@ -1647,83 +1575,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-09fd13e64a",
-          "name": "Minnesota Wild vs Edmonton Oilers | 08:00 21/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-09fd13e64a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-09fd13e64a",
-                  "name": "Minnesota Wild vs Edmonton Oilers",
-                  "streams": [
-                    {
-                      "id": "st-09fd13e64a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cd9053a9da",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792538374_hd/1792538374_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NHL",
-            "team_a": "Minnesota Wild",
-            "team_b": "Edmonton Oilers",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/2AkZ-bLhHUaPoj_LlLPBVA_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/GFR5_nXarHj6qRI8R05otg_96x96.png",
-            "time": "08:00:00",
-            "date": "21/10",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/kaeq538z70ts_4bc670fc_20261021.png?v=4bc670fc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-1dd39ff748",
           "name": "Tampa Bay Lightning vs Vegas Golden Knights | 09:30 21/10",
