@@ -1062,83 +1062,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9ca396f1c4",
-          "name": "New York Knicks vs Philadelphia 76ers | 06:00 21/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9ca396f1c4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9ca396f1c4",
-                  "name": "New York Knicks vs Philadelphia 76ers",
-                  "streams": [
-                    {
-                      "id": "st-9ca396f1c4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5f7f6dd684",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792431209_hd/1792431209_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "New York Knicks",
-            "team_b": "Philadelphia 76ers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c34850b658b2b7735d3bf51912e01bd1.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/7f086c864d1e283b7862a756f0b88373.png",
-            "time": "06:00:00",
-            "date": "21/10",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39587278_f3c8c546_20261021.png?v=f3c8c546",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3f33d1f849",
           "name": "San Antonio Spurs vs Oklahoma City Thunder | 08:30 21/10",
@@ -1431,7 +1359,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1516,10 +1444,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1568,7 +1496,7 @@
             "time": "09:30:00",
             "date": "21/10",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
@@ -1873,87 +1801,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/bg2q68hn5yia_72c38974_20261021.png?v=72c38974",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-8fb430cf6e",
-          "name": "Colorado Avalanche vs New Jersey Devils | 06:00 21/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8fb430cf6e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8fb430cf6e",
-                  "name": "Colorado Avalanche vs New Jersey Devils",
-                  "streams": [
-                    {
-                      "id": "st-8fb430cf6e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c6eafa9a75",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792431608_hd/1792431608_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NHL",
-            "team_a": "Colorado Avalanche",
-            "team_b": "New Jersey Devils",
-            "logo_a": "https://static.flashscore.com/res/image/data/hzAqe0zB-UkrSKu1K.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/61j2zMXg-S4A5n02E.png",
-            "time": "06:00:00",
-            "date": "21/10",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/7otvyyb7kbi0_674f7579_20261021.png?v=674f7579",
             "width": 1600,
             "height": 1200
           }
