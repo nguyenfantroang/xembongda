@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-8310402359",
+          "name": "Chumphon United vs Songkhla | 15:00 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8310402359",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8310402359",
+                  "name": "Chumphon United vs Songkhla",
+                  "streams": [
+                    {
+                      "id": "st-8310402359",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-54a4a76b2d",
+                          "name": "Hứa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792567419_hd/1792567419_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Thailand - Thai FA Cup",
+            "team_a": "Chumphon United",
+            "team_b": "Songkhla",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/b/bd/Chumphon_United_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/2/20/Songkhla_2011.png",
+            "time": "15:00:00",
+            "date": "21/10",
+            "blv": "Hứa",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/0od49o807lil_7f58b10b_20261021.png?v=7f58b10b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-4a1ef84b77",
           "name": "Bali United FC vs Garudayaksa | 15:30 21/10",
@@ -24,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -44,11 +116,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-552cff63e2",
+                          "id": "lnk-555eb9cbfc",
                           "name": "Tỵ ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1792310643_hd/1792310643_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792310643_hd/1792310643_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -76,7 +148,7 @@
             "time": "15:30:00",
             "date": "21/10",
             "blv": "Tỵ ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -332,11 +404,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-d071f378a8",
+                          "id": "lnk-3c33b91273",
                           "name": "Mù",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1792310777_hd/1792310777_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792310777_hd/1792310777_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -449,78 +521,6 @@
           }
         },
         {
-          "id": "gv-0840abd365",
-          "name": "Shimizu S-Pulse vs FC Machida Zelvia | 17:00 21/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0840abd365",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0840abd365",
-                  "name": "Shimizu S-Pulse vs FC Machida Zelvia",
-                  "streams": [
-                    {
-                      "id": "st-0840abd365",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-74cdf8b432",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792310847_hd/1792310847_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Shimizu S-Pulse",
-            "team_b": "FC Machida Zelvia",
-            "logo_a": "https://images.keovip88.net/images/teams/shimizu-s-pulse.png",
-            "logo_b": "https://images.keovip88.net/images/teams/machida-zelvia.png",
-            "time": "17:00:00",
-            "date": "21/10",
-            "blv": "Bee",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74cc24d46db870dd030b_212764de_20261021.png?v=212764de",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-d608e71cc6",
           "name": "Yokohama F Marinos vs Tokyo Verdy | 17:00 21/10",
           "type": "single",
@@ -588,6 +588,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74cc24d46db870dd0317_e6228b9f_20261021.png?v=e6228b9f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0840abd365",
+          "name": "Shimizu S-Pulse vs FC Machida Zelvia | 17:00 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0840abd365",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0840abd365",
+                  "name": "Shimizu S-Pulse vs FC Machida Zelvia",
+                  "streams": [
+                    {
+                      "id": "st-0840abd365",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-74cdf8b432",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792310847_hd/1792310847_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Shimizu S-Pulse",
+            "team_b": "FC Machida Zelvia",
+            "logo_a": "https://images.keovip88.net/images/teams/shimizu-s-pulse.png",
+            "logo_b": "https://images.keovip88.net/images/teams/machida-zelvia.png",
+            "time": "17:00:00",
+            "date": "21/10",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6acd74cc24d46db870dd030b_212764de_20261021.png?v=212764de",
             "width": 1600,
             "height": 1200
           }
@@ -853,11 +925,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-dd0549a272",
-                          "name": "Dory",
+                          "id": "lnk-9bdba806ac",
+                          "name": "Cầy + Dory",
                           "type": "hls",
                           "default": false,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792431685_hd/1792431685_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792568556_hd/1792568556_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -901,7 +973,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/manchester-united.png",
             "time": "23:45:00",
             "date": "21/10",
-            "blv": "Hấu, Dory, Chồn",
+            "blv": "Hấu, Cầy + Dory, Chồn",
             "is_live": false,
             "cate_type": "football"
           },
@@ -985,12 +1057,461 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-505253630c",
+          "name": "Levante vs Athletic Bilbao | 01:00 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-505253630c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-505253630c",
+                  "name": "Levante vs Athletic Bilbao",
+                  "streams": [
+                    {
+                      "id": "st-505253630c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c424cff08b",
+                          "name": "Hứa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792569512_hd/1792569512_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Levante",
+            "team_b": "Athletic Bilbao",
+            "logo_a": "https://images.keovip88.net/images/teams/levante.png",
+            "logo_b": "https://images.keovip88.net/images/teams/athletic-bilbao.png",
+            "time": "01:00:00",
+            "date": "22/10",
+            "blv": "Hứa",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aa0a19924d46db8705369a0_17259a85_20261021.png?v=17259a85",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-fe2af1b0af",
+          "name": "Bayern Munich vs Arsenal | 02:00 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fe2af1b0af",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fe2af1b0af",
+                  "name": "Bayern Munich vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "st-fe2af1b0af",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d3d2123a0e",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792569587_hd/1792569587_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a99ab62775",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792569595_hd/1792569595_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C1",
+            "team_a": "Bayern Munich",
+            "team_b": "Arsenal",
+            "logo_a": "https://images.keovip88.net/images/teams/bayern-munchen.png",
+            "logo_b": "https://images.keovip88.net/images/teams/arsenal.png",
+            "time": "02:00:00",
+            "date": "22/10",
+            "blv": "Ngọng, Chồn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e46_6c51cd4f_20261021.png?v=6c51cd4f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-95fd1d64ba",
+          "name": "Real Betis vs Feyenoord Rotterdam | 02:00 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-95fd1d64ba",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-95fd1d64ba",
+                  "name": "Real Betis vs Feyenoord Rotterdam",
+                  "streams": [
+                    {
+                      "id": "st-95fd1d64ba",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0b7ed297b3",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792569687_hd/1792569687_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C1",
+            "team_a": "Real Betis",
+            "team_b": "Feyenoord Rotterdam",
+            "logo_a": "https://images.keovip88.net/images/teams/real-betis.png",
+            "logo_b": "https://images.keovip88.net/images/teams/feyenoord.png",
+            "time": "02:00:00",
+            "date": "22/10",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e40_fb0ec518_20261021.png?v=fb0ec518",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1bbd651c1c",
+          "name": "Club Brugge vs Lens | 02:00 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1bbd651c1c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1bbd651c1c",
+                  "name": "Club Brugge vs Lens",
+                  "streams": [
+                    {
+                      "id": "st-1bbd651c1c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75503b46a4",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792569740_hd/1792569740_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C1",
+            "team_a": "Club Brugge",
+            "team_b": "Lens",
+            "logo_a": "https://images.keovip88.net/images/teams/club-brugge.png",
+            "logo_b": "https://images.keovip88.net/images/teams/lens.png",
+            "time": "02:00:00",
+            "date": "22/10",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e33_1944df6f_20261021.png?v=1944df6f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f8ec9e1d87",
+          "name": "Inter Milan vs FC Shakhtar Donetsk | 02:00 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f8ec9e1d87",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f8ec9e1d87",
+                  "name": "Inter Milan vs FC Shakhtar Donetsk",
+                  "streams": [
+                    {
+                      "id": "st-f8ec9e1d87",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7651439063",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792569826_hd/1792569826_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C1",
+            "team_a": "Inter Milan",
+            "team_b": "FC Shakhtar Donetsk",
+            "logo_a": "https://images.keovip88.net/images/teams/inter-milan.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fc-shakhtar-donetsk.png",
+            "time": "02:00:00",
+            "date": "22/10",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a92220607a55a68f709da92_b89ba383_20261021.png?v=b89ba383",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4843e1a150",
+          "name": "Real Madrid vs RB Leipzig | 02:00 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4843e1a150",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4843e1a150",
+                  "name": "Real Madrid vs RB Leipzig",
+                  "streams": [
+                    {
+                      "id": "st-4843e1a150",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dcca628604",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792569892_hd/1792569892_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C1",
+            "team_a": "Real Madrid",
+            "team_b": "RB Leipzig",
+            "logo_a": "https://images.keovip88.net/images/teams/real-madrid.png",
+            "logo_b": "https://images.keovip88.net/images/teams/rb-leipzig.png",
+            "time": "02:00:00",
+            "date": "22/10",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e48_40efa0a3_20261021.png?v=40efa0a3",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1003,10 +1524,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1055,7 +1576,7 @@
             "time": "15:30:00",
             "date": "21/10",
             "blv": "Chồn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1567,6 +2088,438 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/22463476_98463056_20261021.png?v=98463056",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-05715f11f5",
+          "name": "Busan KTF Magicwings vs Wonju Dongbu Promy | 17:00 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-05715f11f5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-05715f11f5",
+                  "name": "Busan KTF Magicwings vs Wonju Dongbu Promy",
+                  "streams": [
+                    {
+                      "id": "st-05715f11f5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-af641bc98c",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792568986_hd/1792568986_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korea Basketball League",
+            "team_a": "Busan KTF Magicwings",
+            "team_b": "Wonju Dongbu Promy",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/2cf065fbe1f93fb229c981c1d88d9618.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/ad13a8e4c726a65f277f7da7a19a4126.png",
+            "time": "17:00:00",
+            "date": "23/10",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/12060378_d0174d4b_20261021.png?v=d0174d4b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a60baa650a",
+          "name": "Perth Wildcats vs Melbourne United | 17:30 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a60baa650a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a60baa650a",
+                  "name": "Perth Wildcats vs Melbourne United",
+                  "streams": [
+                    {
+                      "id": "st-a60baa650a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-abe8e50a42",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792569037_hd/1792569037_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball League(Australia)",
+            "team_a": "Perth Wildcats",
+            "team_b": "Melbourne United",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/d6e217ac051f3258b82d74a932d11ada.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/21d2a46a9599ab792dc3a7884839072f.png",
+            "time": "17:30:00",
+            "date": "23/10",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/10522278_fff19145_20261021.png?v=fff19145",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-e001dbfe7d",
+          "name": "Beijing Royal Fighters vs Suzhou Dragons Kentier | 18:35 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e001dbfe7d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e001dbfe7d",
+                  "name": "Beijing Royal Fighters vs Suzhou Dragons Kentier",
+                  "streams": [
+                    {
+                      "id": "st-e001dbfe7d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e556ef4fe8",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792569066_hd/1792569066_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "Beijing Royal Fighters",
+            "team_b": "Suzhou Dragons Kentier",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/af8d9f59130550be6228fcd35c70ae11.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/d1c8a0f21d4d300f8ddce93f11b79c70.png",
+            "time": "18:35:00",
+            "date": "23/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/37463471_70dba641_20261021.png?v=70dba641",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-bc13cb5adb",
+          "name": "Liaoning Flying Leopards vs SiChuan Jingqiang Blue Whales | 18:35 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bc13cb5adb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bc13cb5adb",
+                  "name": "Liaoning Flying Leopards vs SiChuan Jingqiang Blue Whales",
+                  "streams": [
+                    {
+                      "id": "st-bc13cb5adb",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-73cb88a819",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792569098_hd/1792569098_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "Liaoning Flying Leopards",
+            "team_b": "SiChuan Jingqiang Blue Whales",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e5b2db0dc53319933071f194e099180f.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/1cb8d991c7b1dbf8f56adbb08619f919.png",
+            "time": "18:35:00",
+            "date": "23/10",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/38463472_523b62ca_20261021.png?v=523b62ca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-44dd702f58",
+          "name": "Tianjin Pioneers vs Guangzhou Loong Lions | 18:35 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-44dd702f58",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-44dd702f58",
+                  "name": "Tianjin Pioneers vs Guangzhou Loong Lions",
+                  "streams": [
+                    {
+                      "id": "st-44dd702f58",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1117c4f98c",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792569135_hd/1792569135_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "Tianjin Pioneers",
+            "team_b": "Guangzhou Loong Lions",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c95a72565d21fd4797acfbfb63c829e8.PNG",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/9d93f6e7f4e54c71cd975b2be434bcf9.png",
+            "time": "18:35:00",
+            "date": "23/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39463473_124cf196_20261021.png?v=124cf196",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9bef011416",
+          "name": "Zhejiang Golden Bulls vs QingDao Eagles | 18:35 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9bef011416",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9bef011416",
+                  "name": "Zhejiang Golden Bulls vs QingDao Eagles",
+                  "streams": [
+                    {
+                      "id": "st-9bef011416",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-556c3706fd",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792569164_hd/1792569164_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "Zhejiang Golden Bulls",
+            "team_b": "QingDao Eagles",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/eaff06bd8c853345d0a2061a1ef15585.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/cbbeaf29a9996f0500e140e33cb780ae.png",
+            "time": "18:35:00",
+            "date": "23/10",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/36463470_54282e3e_20261021.png?v=54282e3e",
             "width": 1600,
             "height": 1200
           }
