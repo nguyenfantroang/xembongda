@@ -1578,6 +1578,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-98e1cdab8e",
+          "name": "Công An Hà Nội vs Thanh Hóa | 19:15 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-98e1cdab8e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-98e1cdab8e",
+                  "name": "Công An Hà Nội vs Thanh Hóa",
+                  "streams": [
+                    {
+                      "id": "st-98e1cdab8e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-84e6733f9e",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792550882_hd/1792550882_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "Công An Hà Nội",
+            "team_b": "Thanh Hóa",
+            "logo_a": "https://images.keovip88.net/images/teams/cong-an-ha-noi.png",
+            "logo_b": "https://images.keovip88.net/images/teams/thanh-hoa.png",
+            "time": "19:15:00",
+            "date": "22/10",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad017d324d46db8705c85de_1d4c82d3_20261021.png?v=1d4c82d3",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
