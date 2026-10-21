@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-d5f10be2e4",
-          "name": "Al Jeel vs Al Jandal | 21:45 21/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d5f10be2e4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d5f10be2e4",
-                  "name": "Al Jeel vs Al Jandal",
-                  "streams": [
-                    {
-                      "id": "st-d5f10be2e4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf645a95ca",
-                          "name": "Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792311205_hd/1792311205_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp Hoàng tử Faisal bin Fahd",
-            "team_a": "Al Jeel",
-            "team_b": "Al Jandal",
-            "logo_a": "https://static.flashscore.com/res/image/data/Eyaf2bil-fe8kvGSu.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-AJgw8eaRwGb5-gy1x6GpadWWh-vAhvQ6gOJ5RyDwXQ&s",
-            "time": "21:45:00",
-            "date": "21/10",
-            "blv": "Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/96p9r72fng76_6dc25b39_20261021.png?v=6dc25b39",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f44d96f3bb",
           "name": "Al-Anwar vs Al Wehda | 22:00 21/10",
@@ -1506,6 +1434,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-b4254b5159",
+          "name": "Kairat vs Panathinaikos | 21:30 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b4254b5159",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b4254b5159",
+                  "name": "Kairat vs Panathinaikos",
+                  "streams": [
+                    {
+                      "id": "st-b4254b5159",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-26394f2112",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792550915_hd/1792550915_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Europe - UEFA Conference League",
+            "team_a": "Kairat",
+            "team_b": "Panathinaikos",
+            "logo_a": "https://static.flashscore.com/res/image/data/6uyKz6FG-rwQpsSWo.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Me3pW6Ea-GM4Cu0wi.png",
+            "time": "21:30:00",
+            "date": "22/10",
+            "blv": "Chồn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/jmpqfatvbeo1_1b81c3dd_20261021.png?v=1b81c3dd",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2160,6 +2160,222 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/33588273_6db68831_20261021.png?v=6db68831",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3a649aa1aa",
+          "name": "Los Angeles Lakers vs Golden State Warriors | 09:00 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a649aa1aa",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3a649aa1aa",
+                  "name": "Los Angeles Lakers vs Golden State Warriors",
+                  "streams": [
+                    {
+                      "id": "st-3a649aa1aa",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5235289149",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792592206_hd/1792592206_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Los Angeles Lakers",
+            "team_b": "Golden State Warriors",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/935e553f4435030c604a4948c1e4d243.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c7341a14964f12885ea2ae80b76cebe8.png",
+            "time": "09:00:00",
+            "date": "22/10",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/36687276_bcf930d4_20261021.png?v=bcf930d4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-835dbb08b2",
+          "name": "Portland Trail Blazers vs Phoenix Suns | 09:00 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-835dbb08b2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-835dbb08b2",
+                  "name": "Portland Trail Blazers vs Phoenix Suns",
+                  "streams": [
+                    {
+                      "id": "st-835dbb08b2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-63a9651c5d",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792592253_hd/1792592253_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Portland Trail Blazers",
+            "team_b": "Phoenix Suns",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/ea86671a348a3277fa075840258d8bc7.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/6a6855785a58edb23c76c99ed6601a33.png",
+            "time": "09:00:00",
+            "date": "22/10",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/34588274_bb0fb8ff_20261021.png?v=bb0fb8ff",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-58a4cc4ed2",
+          "name": "Los Angeles Clippers vs Sacramento Kings | 09:30 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-58a4cc4ed2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-58a4cc4ed2",
+                  "name": "Los Angeles Clippers vs Sacramento Kings",
+                  "streams": [
+                    {
+                      "id": "st-58a4cc4ed2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-867b68d2c2",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792592173_hd/1792592173_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Los Angeles Clippers",
+            "team_b": "Sacramento Kings",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/d96dfd2dedd39877ed1f06ea31270a46.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/b7096093642227c698108ad872603a76.png",
+            "time": "09:30:00",
+            "date": "22/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/35588275_af11192b_20261021.png?v=af11192b",
             "width": 1600,
             "height": 1200
           }
