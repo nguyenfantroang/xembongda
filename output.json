@@ -1383,12 +1383,84 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-05160108fb",
+          "name": "Fort Lauderdale United vs Carolina Ascent | 06:30 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-05160108fb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-05160108fb",
+                  "name": "Fort Lauderdale United vs Carolina Ascent",
+                  "streams": [
+                    {
+                      "id": "st-05160108fb",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-736a677cbe",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792577456_hd/1792577456_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "USL Championship Mỹ",
+            "team_a": "Fort Lauderdale United",
+            "team_b": "Carolina Ascent",
+            "logo_a": "https://images.keovip88.net/images/teams/tampa-bay-rowdies.png",
+            "logo_b": "https://images.keovip88.net/images/teams/sporting-jax.png",
+            "time": "06:30:00",
+            "date": "23/10",
+            "blv": "Chồn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad2bad624d46db870e29091_17cfd9c2_20261022.png?v=17cfd9c2",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1401,10 +1473,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1453,7 +1525,7 @@
             "time": "06:00:00",
             "date": "22/10",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1473,10 +1545,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1525,7 +1597,7 @@
             "time": "06:00:00",
             "date": "22/10",
             "blv": "Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1545,10 +1617,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1597,7 +1669,7 @@
             "time": "06:30:00",
             "date": "22/10",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1617,10 +1689,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1669,7 +1741,7 @@
             "time": "06:30:00",
             "date": "22/10",
             "blv": "Ngu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1689,10 +1761,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1741,7 +1813,7 @@
             "time": "06:30:00",
             "date": "22/10",
             "blv": "Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1761,10 +1833,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1813,7 +1885,7 @@
             "time": "07:00:00",
             "date": "22/10",
             "blv": "Mickey",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1833,10 +1905,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1885,7 +1957,7 @@
             "time": "07:00:00",
             "date": "22/10",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1905,10 +1977,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1957,7 +2029,7 @@
             "time": "07:00:00",
             "date": "22/10",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1977,10 +2049,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2029,7 +2101,7 @@
             "time": "07:30:00",
             "date": "22/10",
             "blv": "Chồn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -2069,11 +2141,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-5235289149",
-                          "name": "Ben",
+                          "id": "lnk-933e6c3cd5",
+                          "name": "Tôm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792592206_hd/1792592206_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792629307_hd/1792629307_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2100,7 +2172,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c7341a14964f12885ea2ae80b76cebe8.png",
             "time": "09:00:00",
             "date": "22/10",
-            "blv": "Ben",
+            "blv": "Tôm",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -2141,11 +2213,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-63a9651c5d",
-                          "name": "Tôm",
+                          "id": "lnk-b36d592784",
+                          "name": "Ben",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792592253_hd/1792592253_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792629319_hd/1792629319_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2172,7 +2244,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/6a6855785a58edb23c76c99ed6601a33.png",
             "time": "09:00:00",
             "date": "22/10",
-            "blv": "Tôm",
+            "blv": "Ben",
             "is_live": false,
             "cate_type": "basketball"
           },
