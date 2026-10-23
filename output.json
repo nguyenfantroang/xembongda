@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-427524ba4a",
-          "name": "Brisbane Roar FC vs Perth Glory FC | 16:00 23/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-427524ba4a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-427524ba4a",
-                  "name": "Brisbane Roar FC vs Perth Glory FC",
-                  "streams": [
-                    {
-                      "id": "st-427524ba4a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1f86750736",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792568586_hd/1792568586_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Úc",
-            "team_a": "Brisbane Roar FC",
-            "team_b": "Perth Glory FC",
-            "logo_a": "https://images.keovip88.net/images/teams/brisbane-roar.png",
-            "logo_b": "https://images.keovip88.net/images/teams/perth-glory.png",
-            "time": "16:00:00",
-            "date": "23/10",
-            "blv": "Tỵ ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad017d424d46db8705c8781_0f7e1e18_20261023.png?v=0f7e1e18",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-dca3e5bdb4",
           "name": "Hoàng Anh Gia Lai vs Sông Lam Nghệ An | 17:00 23/10",
@@ -96,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +76,7 @@
             "time": "17:00:00",
             "date": "23/10",
             "blv": "Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -156,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad017d424d46db8705c8785_c9515f9c_20261023.png?v=c9515f9c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7cbb7645b9",
+          "name": "Thể Công Viettel vs TDTT Bac Ninh | 19:15 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7cbb7645b9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7cbb7645b9",
+                  "name": "Thể Công Viettel vs TDTT Bac Ninh",
+                  "streams": [
+                    {
+                      "id": "st-7cbb7645b9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a8f9095d23",
+                          "name": "Tỵ ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792568755_hd/1792568755_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "Thể Công Viettel",
+            "team_b": "TDTT Bac Ninh",
+            "logo_a": "https://images.keovip88.net/images/teams/viettel-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/tdtt-bac-ninh.PNG",
+            "time": "19:15:00",
+            "date": "23/10",
+            "blv": "Tỵ ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad017d524d46db8705c887f_b10fa49c_20261023.png?v=b10fa49c",
             "width": 1600,
             "height": 1200
           }
@@ -233,8 +233,8 @@
           }
         },
         {
-          "id": "gv-7cbb7645b9",
-          "name": "Thể Công Viettel vs TDTT Bac Ninh | 19:15 23/10",
+          "id": "gv-424f3de242",
+          "name": "DPMM FC vs Johor Darul Ta'zim | 19:15 23/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +248,23 @@
           ],
           "sources": [
             {
-              "id": "src-7cbb7645b9",
+              "id": "src-424f3de242",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-7cbb7645b9",
-                  "name": "Thể Công Viettel vs TDTT Bac Ninh",
+                  "id": "ct-424f3de242",
+                  "name": "DPMM FC vs Johor Darul Ta'zim",
                   "streams": [
                     {
-                      "id": "st-7cbb7645b9",
+                      "id": "st-424f3de242",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-a8f9095d23",
-                          "name": "Tỵ ",
+                          "id": "lnk-a8d26786da",
+                          "name": "Hứa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792568755_hd/1792568755_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792739018_hd/1792739018_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -284,14 +284,14 @@
             }
           ],
           "org_metadata": {
-            "league": "V-League",
-            "team_a": "Thể Công Viettel",
-            "team_b": "TDTT Bac Ninh",
-            "logo_a": "https://images.keovip88.net/images/teams/viettel-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/tdtt-bac-ninh.PNG",
+            "league": "Malaysia - Malaysia FA Cup",
+            "team_a": "DPMM FC",
+            "team_b": "Johor Darul Ta'zim",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn0u4mLHMIT6vvvAvlSVx87Gv6w8A_biSm-SXk4sMWYA&s=10",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/c/c0/Johor_Darul_Ta%27zim_F.C..svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
             "time": "19:15:00",
             "date": "23/10",
-            "blv": "Tỵ ",
+            "blv": "Hứa",
             "is_live": false,
             "cate_type": "football"
           },
@@ -299,7 +299,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad017d524d46db8705c887f_b10fa49c_20261023.png?v=b10fa49c",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/1m3y4f06q5e5_de324540_20261023.png?v=de324540",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-130539c951",
+          "name": "Selangor vs Kuching City | 20:00 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-130539c951",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-130539c951",
+                  "name": "Selangor vs Kuching City",
+                  "streams": [
+                    {
+                      "id": "st-130539c951",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9e701d00b3",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792739120_hd/1792739120_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Malaysia - Malaysia FA Cup",
+            "team_a": "Selangor",
+            "team_b": "Kuching City",
+            "logo_a": "https://images.keovip88.net/images/teams/selangor.png",
+            "logo_b": "https://images.keovip88.net/images/teams/kuala-lumpur-city-fc.png",
+            "time": "20:00:00",
+            "date": "23/10",
+            "blv": "Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/62830awba9ph_a94b5892_20261023.png?v=a94b5892",
             "width": 1600,
             "height": 1200
           }
@@ -377,8 +449,8 @@
           }
         },
         {
-          "id": "gv-7ea9b5695c",
-          "name": "Buxoro FK vs Termez Surkhon | 21:00 23/10",
+          "id": "gv-2aae54bcde",
+          "name": "Istiqlol Dushanbe (TAJ) vs Homs Al Fidaa (SYR) | 21:00 23/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -392,23 +464,23 @@
           ],
           "sources": [
             {
-              "id": "src-7ea9b5695c",
+              "id": "src-2aae54bcde",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-7ea9b5695c",
-                  "name": "Buxoro FK vs Termez Surkhon",
+                  "id": "ct-2aae54bcde",
+                  "name": "Istiqlol Dushanbe (TAJ) vs Homs Al Fidaa (SYR)",
                   "streams": [
                     {
-                      "id": "st-7ea9b5695c",
+                      "id": "st-2aae54bcde",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-f0203b57bc",
+                          "id": "lnk-3d9132aae5",
                           "name": "Bee",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792568845_hd/1792568845_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792740863_hd/1792740863_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -428,11 +500,11 @@
             }
           ],
           "org_metadata": {
-            "league": "Uzbekistan Super League",
-            "team_a": "Buxoro FK",
-            "team_b": "Termez Surkhon",
-            "logo_a": "https://images.keovip88.net/images/teams/buxoro-fk.png",
-            "logo_b": "https://images.keovip88.net/images/teams/termez-surkhon.png",
+            "league": "AFC Challenge League",
+            "team_a": "Istiqlol Dushanbe (TAJ)",
+            "team_b": "Homs Al Fidaa (SYR)",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgbxqAZiSMPjKtwruEvmFmwSaWL5vAsvCQXPww6Ycb3Q&s=10",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/c/cf/Homs_Al_Fidaa_SC_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
             "time": "21:00:00",
             "date": "23/10",
             "blv": "Bee",
@@ -443,14 +515,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad017d624d46db8705c897a_9030cfaa_20261023.png?v=9030cfaa",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/y2x10qzlc6wb_e37a73fb_20261023.png?v=e37a73fb",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "gv-e5ce0e3d45",
-          "name": "Pakhtakor Tashkent vs Neftchi Fargona | 21:00 23/10",
+          "id": "gv-368ea0c44d",
+          "name": "Al-Shamal vs Qatar SC | 21:30 23/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -464,23 +536,23 @@
           ],
           "sources": [
             {
-              "id": "src-e5ce0e3d45",
+              "id": "src-368ea0c44d",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-e5ce0e3d45",
-                  "name": "Pakhtakor Tashkent vs Neftchi Fargona",
+                  "id": "ct-368ea0c44d",
+                  "name": "Al-Shamal vs Qatar SC",
                   "streams": [
                     {
-                      "id": "st-e5ce0e3d45",
+                      "id": "st-368ea0c44d",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-8d5fd6ab41",
-                          "name": "Trĩ",
+                          "id": "lnk-95283080df",
+                          "name": "Hứa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792568954_hd/1792568954_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792740461_hd/1792740461_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -500,13 +572,157 @@
             }
           ],
           "org_metadata": {
-            "league": "Uzbekistan Super League",
-            "team_a": "Pakhtakor Tashkent",
-            "team_b": "Neftchi Fargona",
-            "logo_a": "https://images.keovip88.net/images/teams/pakhtakor.png",
-            "logo_b": "https://images.keovip88.net/images/teams/neftchi-fargona.png",
-            "time": "21:00:00",
+            "league": "VĐQG Qatar",
+            "team_a": "Al-Shamal",
+            "team_b": "Qatar SC",
+            "logo_a": "https://images.keovip88.net/images/teams/al-shamal.png",
+            "logo_b": "https://images.keovip88.net/images/teams/qatar-sc.png",
+            "time": "21:30:00",
             "date": "23/10",
+            "blv": "Hứa",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad017d724d46db8705c8b05_d8e0d298_20261023.png?v=d8e0d298",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f3fd3c4bf8",
+          "name": "Al Ittihad Jeddah vs Al-Draih | 22:30 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f3fd3c4bf8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f3fd3c4bf8",
+                  "name": "Al Ittihad Jeddah vs Al-Draih",
+                  "streams": [
+                    {
+                      "id": "st-f3fd3c4bf8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4c61b1a0a6",
+                          "name": "Tỵ ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792740440_hd/1792740440_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ả Rập Xê Út",
+            "team_a": "Al Ittihad Jeddah",
+            "team_b": "Al-Draih",
+            "logo_a": "https://images.keovip88.net/images/teams/al-ittihad.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-draih.png",
+            "time": "22:30:00",
+            "date": "23/10",
+            "blv": "Tỵ ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad017d624d46db8705c89f3_799efe9b_20261023.png?v=799efe9b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-fbb1d07a89",
+          "name": "VfB Stuttgart vs Monchengladbach | 01:30 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fbb1d07a89",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fbb1d07a89",
+                  "name": "VfB Stuttgart vs Monchengladbach",
+                  "streams": [
+                    {
+                      "id": "st-fbb1d07a89",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b13c5e65db",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792742812_hd/1792742812_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "VfB Stuttgart",
+            "team_b": "Monchengladbach",
+            "logo_a": "https://images.keovip88.net/images/teams/vfb-stuttgart.png",
+            "logo_b": "https://images.keovip88.net/images/teams/borussia-monchengladbach.png",
+            "time": "01:30:00",
+            "date": "24/10",
             "blv": "Trĩ",
             "is_live": false,
             "cate_type": "football"
@@ -515,7 +731,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad017d624d46db8705c8997_02f3a0b9_20261023.png?v=02f3a0b9",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5cae5e6975d550f077e_08809d45_20261023.png?v=08809d45",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9c87823fd4",
+          "name": "Torino vs Monza | 01:45 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9c87823fd4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9c87823fd4",
+                  "name": "Torino vs Monza",
+                  "streams": [
+                    {
+                      "id": "st-9c87823fd4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cde835a193",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792742859_hd/1792742859_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Torino",
+            "team_b": "Monza",
+            "logo_a": "https://images.keovip88.net/images/teams/torino.png",
+            "logo_b": "https://images.keovip88.net/images/teams/monza.png",
+            "time": "01:45:00",
+            "date": "24/10",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1695a24d46db87021ab00_061f78ee_20261023.png?v=061f78ee",
             "width": 1600,
             "height": 1200
           }
@@ -735,12 +1023,228 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-49568ec456",
+          "name": "Melbourne Victory FC vs Melbourne City | 15:40 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-49568ec456",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-49568ec456",
+                  "name": "Melbourne Victory FC vs Melbourne City",
+                  "streams": [
+                    {
+                      "id": "st-49568ec456",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b8aeadf49c",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792570579_hd/1792570579_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Úc",
+            "team_a": "Melbourne Victory FC",
+            "team_b": "Melbourne City",
+            "logo_a": "https://images.keovip88.net/images/teams/melbourne-victory.png",
+            "logo_b": "https://images.keovip88.net/images/teams/melbourne-city.png",
+            "time": "15:40:00",
+            "date": "24/10",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1695c24d46db87021ae11_9e737131_20261023.png?v=9e737131",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1317685b57",
+          "name": "Bình Phước vs Thép Xanh Nam Định | 18:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1317685b57",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1317685b57",
+                  "name": "Bình Phước vs Thép Xanh Nam Định",
+                  "streams": [
+                    {
+                      "id": "st-1317685b57",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fc1eb53ba7",
+                          "name": "Tỵ ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792571105_hd/1792571105_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "Bình Phước",
+            "team_b": "Thép Xanh Nam Định",
+            "logo_a": "https://images.keovip88.net/images/teams/truong-tuoi-dong-nai.png",
+            "logo_b": "https://images.keovip88.net/images/teams/nam-dinh-fc.png",
+            "time": "18:00:00",
+            "date": "24/10",
+            "blv": "Tỵ ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1695e24d46db87021afed_4ed104c9_20261023.png?v=4ed104c9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f138f8e060",
+          "name": "Hồng Lĩnh Hà Tĩnh vs Hải Phòng | 18:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f138f8e060",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f138f8e060",
+                  "name": "Hồng Lĩnh Hà Tĩnh vs Hải Phòng",
+                  "streams": [
+                    {
+                      "id": "st-f138f8e060",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-98aed626d1",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792571134_hd/1792571134_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "Hồng Lĩnh Hà Tĩnh",
+            "team_b": "Hải Phòng",
+            "logo_a": "https://images.keovip88.net/images/teams/hong-linh-ha-tinh.png",
+            "logo_b": "https://images.keovip88.net/images/teams/hai-phong.png",
+            "time": "18:00:00",
+            "date": "24/10",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1695e24d46db87021afe9_a1b687f4_20261023.png?v=a1b687f4",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -753,10 +1257,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -805,7 +1309,7 @@
             "time": "17:00:00",
             "date": "23/10",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -825,10 +1329,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -877,7 +1381,7 @@
             "time": "17:30:00",
             "date": "23/10",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -885,6 +1389,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/10522278_fff19145_20261023.png?v=fff19145",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-bc13cb5adb",
+          "name": "Liaoning Flying Leopards vs SiChuan Jingqiang Blue Whales | 18:35 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bc13cb5adb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bc13cb5adb",
+                  "name": "Liaoning Flying Leopards vs SiChuan Jingqiang Blue Whales",
+                  "streams": [
+                    {
+                      "id": "st-bc13cb5adb",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-73cb88a819",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792569098_hd/1792569098_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "Liaoning Flying Leopards",
+            "team_b": "SiChuan Jingqiang Blue Whales",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e5b2db0dc53319933071f194e099180f.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/1cb8d991c7b1dbf8f56adbb08619f919.png",
+            "time": "18:35:00",
+            "date": "23/10",
+            "blv": "Cầy",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/38463472_523b62ca_20261023.png?v=523b62ca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9bef011416",
+          "name": "Zhejiang Golden Bulls vs QingDao Eagles | 18:35 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9bef011416",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9bef011416",
+                  "name": "Zhejiang Golden Bulls vs QingDao Eagles",
+                  "streams": [
+                    {
+                      "id": "st-9bef011416",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-556c3706fd",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792569164_hd/1792569164_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "Zhejiang Golden Bulls",
+            "team_b": "QingDao Eagles",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/eaff06bd8c853345d0a2061a1ef15585.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/cbbeaf29a9996f0500e140e33cb780ae.png",
+            "time": "18:35:00",
+            "date": "23/10",
+            "blv": "Điếc",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/36463470_54282e3e_20261023.png?v=54282e3e",
             "width": 1600,
             "height": 1200
           }
@@ -957,222 +1605,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/37463471_70dba641_20261023.png?v=70dba641",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-bc13cb5adb",
-          "name": "Liaoning Flying Leopards vs SiChuan Jingqiang Blue Whales | 18:35 23/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bc13cb5adb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bc13cb5adb",
-                  "name": "Liaoning Flying Leopards vs SiChuan Jingqiang Blue Whales",
-                  "streams": [
-                    {
-                      "id": "st-bc13cb5adb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-73cb88a819",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792569098_hd/1792569098_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Basketball Association",
-            "team_a": "Liaoning Flying Leopards",
-            "team_b": "SiChuan Jingqiang Blue Whales",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e5b2db0dc53319933071f194e099180f.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/1cb8d991c7b1dbf8f56adbb08619f919.png",
-            "time": "18:35:00",
-            "date": "23/10",
-            "blv": "Cầy",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/38463472_523b62ca_20261023.png?v=523b62ca",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-44dd702f58",
-          "name": "Tianjin Pioneers vs Guangzhou Loong Lions | 18:35 23/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-44dd702f58",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-44dd702f58",
-                  "name": "Tianjin Pioneers vs Guangzhou Loong Lions",
-                  "streams": [
-                    {
-                      "id": "st-44dd702f58",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1117c4f98c",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792569135_hd/1792569135_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Basketball Association",
-            "team_a": "Tianjin Pioneers",
-            "team_b": "Guangzhou Loong Lions",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c95a72565d21fd4797acfbfb63c829e8.PNG",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/9d93f6e7f4e54c71cd975b2be434bcf9.png",
-            "time": "18:35:00",
-            "date": "23/10",
-            "blv": "Vịt",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39463473_124cf196_20261023.png?v=124cf196",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-9bef011416",
-          "name": "Zhejiang Golden Bulls vs QingDao Eagles | 18:35 23/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9bef011416",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9bef011416",
-                  "name": "Zhejiang Golden Bulls vs QingDao Eagles",
-                  "streams": [
-                    {
-                      "id": "st-9bef011416",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-556c3706fd",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792569164_hd/1792569164_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Basketball Association",
-            "team_a": "Zhejiang Golden Bulls",
-            "team_b": "QingDao Eagles",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/eaff06bd8c853345d0a2061a1ef15585.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/cbbeaf29a9996f0500e140e33cb780ae.png",
-            "time": "18:35:00",
-            "date": "23/10",
-            "blv": "Điếc",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/36463470_54282e3e_20261023.png?v=54282e3e",
             "width": 1600,
             "height": 1200
           }
@@ -2136,6 +2568,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/5jx1y5f95uml_c436b015_20261023.png?v=c436b015",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-cc2c2b1773",
+          "name": "MSC Cruises United vs States Grand Prix | 04:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cc2c2b1773",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cc2c2b1773",
+                  "name": "MSC Cruises United vs States Grand Prix",
+                  "streams": [
+                    {
+                      "id": "st-cc2c2b1773",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9b32f14d24",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792742669_hd/1792742669_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "F1",
+            "team_a": "MSC Cruises United",
+            "team_b": "States Grand Prix",
+            "logo_a": "https://www.msccruises.com/int/-/media/global-contents/partnerships/formula-1/2025/msc25039603.jpg?bc=transparent&as=1&mh=600&mw=710&hash=30CE5EB072DCD54C988F6426BFF32E1C",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQd6wBrwJQVP3kRPJuGMYCt9KatH56_kwmJ3YeAC9xeCMCVVGi_VD2g1W9&s=10",
+            "time": "04:00:00",
+            "date": "24/10",
+            "blv": "Ngu",
+            "is_live": false,
+            "cate_type": "duaxe"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/f86j15g1hgro_7b5d8a9d_20261023.png?v=7b5d8a9d",
             "width": 1600,
             "height": 1200
           }
