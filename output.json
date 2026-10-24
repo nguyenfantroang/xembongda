@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-a8b4fd1d49",
-          "name": "Rayo Vallecano vs Elche | 19:00 24/10",
+          "id": "gv-5f30501a6d",
+          "name": "Napoli vs AS Roma | 23:00 24/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,95 @@
           ],
           "sources": [
             {
-              "id": "src-a8b4fd1d49",
+              "id": "src-5f30501a6d",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-a8b4fd1d49",
-                  "name": "Rayo Vallecano vs Elche",
+                  "id": "ct-5f30501a6d",
+                  "name": "Napoli vs AS Roma",
                   "streams": [
                     {
-                      "id": "st-a8b4fd1d49",
+                      "id": "st-5f30501a6d",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-b7b01f60ee",
-                          "name": "Trĩ",
+                          "id": "lnk-00ac182c7d",
+                          "name": "Hứa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572096_hd/1792572096_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821398_hd/1792821398_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Napoli",
+            "team_b": "AS Roma",
+            "logo_a": "https://images.keovip88.net/images/teams/napoli.png",
+            "logo_b": "https://images.keovip88.net/images/teams/as-roma.png",
+            "time": "23:00:00",
+            "date": "24/10",
+            "blv": "Hứa",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1696c24d46db87021c1ef_c0f326b3_20261025.png?v=c0f326b3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c59aee5a77",
+          "name": "Valencia vs Villarreal | 23:30 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c59aee5a77",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c59aee5a77",
+                  "name": "Valencia vs Villarreal",
+                  "streams": [
+                    {
+                      "id": "st-c59aee5a77",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8d8c1d482b",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821436_hd/1792821436_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,83 +141,11 @@
           ],
           "org_metadata": {
             "league": "La Liga",
-            "team_a": "Rayo Vallecano",
-            "team_b": "Elche",
-            "logo_a": "https://images.keovip88.net/images/teams/rayo-vallecano.png",
-            "logo_b": "https://images.keovip88.net/images/teams/elche.png",
-            "time": "19:00:00",
-            "date": "24/10",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1695f24d46db87021b0f9_dde16a69_20261024.png?v=dde16a69",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-2c71be15e2",
-          "name": "Cagliari vs Bologna | 20:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2c71be15e2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2c71be15e2",
-                  "name": "Cagliari vs Bologna",
-                  "streams": [
-                    {
-                      "id": "st-2c71be15e2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a45a429f34",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792824425_hd/1792824425_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Cagliari",
-            "team_b": "Bologna",
-            "logo_a": "https://images.keovip88.net/images/teams/cagliari.png",
-            "logo_b": "https://images.keovip88.net/images/teams/bologna.png",
-            "time": "20:00:00",
+            "team_a": "Valencia",
+            "team_b": "Villarreal",
+            "logo_a": "https://images.keovip88.net/images/teams/valencia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/villarreal.png",
+            "time": "23:30:00",
             "date": "24/10",
             "blv": "Mason",
             "is_live": true,
@@ -155,14 +155,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1696224d46db87021b497_edcef7e6_20261024.png?v=edcef7e6",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1696d24d46db87021c3c2_d8b484fa_20261025.png?v=d8b484fa",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "gv-8b1053c1cd",
-          "name": "Como vs US Sassuolo Calcio | 20:00 24/10",
+          "id": "gv-35e55bf674",
+          "name": "Chelsea FC vs Tottenham Hotspur | 23:30 24/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-8b1053c1cd",
+              "id": "src-35e55bf674",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-8b1053c1cd",
-                  "name": "Como vs US Sassuolo Calcio",
+                  "id": "ct-35e55bf674",
+                  "name": "Chelsea FC vs Tottenham Hotspur",
                   "streams": [
                     {
-                      "id": "st-8b1053c1cd",
+                      "id": "st-35e55bf674",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-7ac4c30065",
-                          "name": "Hứa",
+                          "id": "lnk-e41947bdc7",
+                          "name": "Chồn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792806376_hd/1792806376_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821470_hd/1792821470_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -203,68 +203,13 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Como",
-            "team_b": "US Sassuolo Calcio",
-            "logo_a": "https://images.keovip88.net/images/teams/como.png",
-            "logo_b": "https://images.keovip88.net/images/teams/sassuolo.png",
-            "time": "20:00:00",
-            "date": "24/10",
-            "blv": "Hứa",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1696224d46db87021b49d_204a08da_20261024.png?v=204a08da",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-da59827232",
-          "name": "Coventry vs Fulham | 21:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-da59827232",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-da59827232",
-                  "name": "Coventry vs Fulham",
-                  "streams": [
-                    {
-                      "id": "st-da59827232",
-                      "name": "GV",
-                      "stream_links": [
+                        },
                         {
-                          "id": "lnk-9593fca5a5",
-                          "name": "Trĩ",
+                          "id": "lnk-e14e23d815",
+                          "name": "Ben",
                           "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572158_hd/1792572158_hd@720p.m3u8",
+                          "default": false,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821518_hd/1792821518_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -285,13 +230,13 @@
           ],
           "org_metadata": {
             "league": "Ngoại hạng Anh",
-            "team_a": "Coventry",
-            "team_b": "Fulham",
-            "logo_a": "https://images.keovip88.net/images/teams/coventry-city.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fulham.png",
-            "time": "21:00:00",
+            "team_a": "Chelsea FC",
+            "team_b": "Tottenham Hotspur",
+            "logo_a": "https://images.keovip88.net/images/teams/chelsea.png",
+            "logo_b": "https://images.keovip88.net/images/teams/tottenham-hotspur.png",
+            "time": "23:30:00",
             "date": "24/10",
-            "blv": "Trĩ",
+            "blv": "Chồn, Ben",
             "is_live": true,
             "cate_type": "football"
           },
@@ -299,14 +244,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06f5_3f45d7d3_20261024.png?v=3f45d7d3",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06f7_898a0e59_20261025.png?v=898a0e59",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "gv-7a5854c69c",
-          "name": "Arsenal vs Everton | 21:00 24/10",
+          "id": "gv-b35a78d3da",
+          "name": "Borussia Dortmund vs Eintracht Frankfurt | 23:30 24/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -320,23 +265,23 @@
           ],
           "sources": [
             {
-              "id": "src-7a5854c69c",
+              "id": "src-b35a78d3da",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-7a5854c69c",
-                  "name": "Arsenal vs Everton",
+                  "id": "ct-b35a78d3da",
+                  "name": "Borussia Dortmund vs Eintracht Frankfurt",
                   "streams": [
                     {
-                      "id": "st-7a5854c69c",
+                      "id": "st-b35a78d3da",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-a7626c2610",
-                          "name": "Fan Arsenal: Ngọng + Cận",
+                          "id": "lnk-f4b392d496",
+                          "name": "Bee",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572204_hd/1792572204_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821535_hd/1792821535_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -356,14 +301,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Arsenal",
-            "team_b": "Everton",
-            "logo_a": "https://images.keovip88.net/images/teams/arsenal.png",
-            "logo_b": "https://images.keovip88.net/images/teams/everton.png",
-            "time": "21:00:00",
+            "league": "Bundesliga",
+            "team_a": "Borussia Dortmund",
+            "team_b": "Eintracht Frankfurt",
+            "logo_a": "https://images.keovip88.net/images/teams/borussia-dortmund.png",
+            "logo_b": "https://images.keovip88.net/images/teams/eintracht-frankfurt.png",
+            "time": "23:30:00",
             "date": "24/10",
-            "blv": "Fan Arsenal: Ngọng + Cận",
+            "blv": "Bee",
             "is_live": true,
             "cate_type": "football"
           },
@@ -371,7 +316,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06f6_60c73640_20261024.png?v=60c73640",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5cae5e6975d550f0780_9d6593a7_20261025.png?v=9d6593a7",
             "width": 1600,
             "height": 1200
           }
@@ -443,384 +388,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1696324d46db87021b6ab_43e76333_20261024.png?v=43e76333",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-41ec5d247d",
-          "name": "Racing Santander vs Espanyol | 21:15 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-41ec5d247d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-41ec5d247d",
-                  "name": "Racing Santander vs Espanyol",
-                  "streams": [
-                    {
-                      "id": "st-41ec5d247d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a1f64fa18a",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792806401_hd/1792806401_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Racing Santander",
-            "team_b": "Espanyol",
-            "logo_a": "https://images.keovip88.net/images/teams/racing-santander.png",
-            "logo_b": "https://images.keovip88.net/images/teams/rcd-espanyol.png",
-            "time": "21:15:00",
-            "date": "24/10",
-            "blv": "Chồn",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1696824d46db87021bd4a_3df029e9_20261024.png?v=3df029e9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-5f30501a6d",
-          "name": "Napoli vs AS Roma | 23:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5f30501a6d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5f30501a6d",
-                  "name": "Napoli vs AS Roma",
-                  "streams": [
-                    {
-                      "id": "st-5f30501a6d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-00ac182c7d",
-                          "name": "Hứa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821398_hd/1792821398_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Napoli",
-            "team_b": "AS Roma",
-            "logo_a": "https://images.keovip88.net/images/teams/napoli.png",
-            "logo_b": "https://images.keovip88.net/images/teams/as-roma.png",
-            "time": "23:00:00",
-            "date": "24/10",
-            "blv": "Hứa",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1696c24d46db87021c1ef_c0f326b3_20261024.png?v=c0f326b3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b35a78d3da",
-          "name": "Borussia Dortmund vs Eintracht Frankfurt | 23:30 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b35a78d3da",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b35a78d3da",
-                  "name": "Borussia Dortmund vs Eintracht Frankfurt",
-                  "streams": [
-                    {
-                      "id": "st-b35a78d3da",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f4b392d496",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821535_hd/1792821535_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Borussia Dortmund",
-            "team_b": "Eintracht Frankfurt",
-            "logo_a": "https://images.keovip88.net/images/teams/borussia-dortmund.png",
-            "logo_b": "https://images.keovip88.net/images/teams/eintracht-frankfurt.png",
-            "time": "23:30:00",
-            "date": "24/10",
-            "blv": "Bee",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5cae5e6975d550f0780_9d6593a7_20261024.png?v=9d6593a7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c59aee5a77",
-          "name": "Valencia vs Villarreal | 23:30 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c59aee5a77",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c59aee5a77",
-                  "name": "Valencia vs Villarreal",
-                  "streams": [
-                    {
-                      "id": "st-c59aee5a77",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8d8c1d482b",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821436_hd/1792821436_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Valencia",
-            "team_b": "Villarreal",
-            "logo_a": "https://images.keovip88.net/images/teams/valencia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/villarreal.png",
-            "time": "23:30:00",
-            "date": "24/10",
-            "blv": "Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1696d24d46db87021c3c2_d8b484fa_20261024.png?v=d8b484fa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-35e55bf674",
-          "name": "Chelsea FC vs Tottenham Hotspur | 23:30 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-35e55bf674",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-35e55bf674",
-                  "name": "Chelsea FC vs Tottenham Hotspur",
-                  "streams": [
-                    {
-                      "id": "st-35e55bf674",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e41947bdc7",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821470_hd/1792821470_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e14e23d815",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821518_hd/1792821518_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Chelsea FC",
-            "team_b": "Tottenham Hotspur",
-            "logo_a": "https://images.keovip88.net/images/teams/chelsea.png",
-            "logo_b": "https://images.keovip88.net/images/teams/tottenham-hotspur.png",
-            "time": "23:30:00",
-            "date": "24/10",
-            "blv": "Chồn, Ben",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06f7_898a0e59_20261024.png?v=898a0e59",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1696324d46db87021b6ab_43e76333_20261025.png?v=43e76333",
             "width": 1600,
             "height": 1200
           }
@@ -892,7 +460,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad2bad424d46db870e28e83_63ed646b_20261024.png?v=63ed646b",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad2bad424d46db870e28e83_63ed646b_20261025.png?v=63ed646b",
             "width": 1600,
             "height": 1200
           }
@@ -964,7 +532,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad40c5124d46db870c48d0e_7f2c1fff_20261024.png?v=7f2c1fff",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad40c5124d46db870c48d0e_7f2c1fff_20261025.png?v=7f2c1fff",
             "width": 1600,
             "height": 1200
           }
@@ -1036,7 +604,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad40c5224d46db870c48dd3_3b6c3e0e_20261024.png?v=3b6c3e0e",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad40c5224d46db870c48dd3_3b6c3e0e_20261025.png?v=3b6c3e0e",
             "width": 1600,
             "height": 1200
           }
@@ -1108,7 +676,600 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad40c5224d46db870c48dc8_2ff8475b_20261024.png?v=2ff8475b",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad40c5224d46db870c48dc8_2ff8475b_20261025.png?v=2ff8475b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-fe72c69868",
+          "name": "AS Monaco vs Lille OSC | 21:00 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fe72c69868",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fe72c69868",
+                  "name": "AS Monaco vs Lille OSC",
+                  "streams": [
+                    {
+                      "id": "st-fe72c69868",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41500b01bc",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572448_hd/1792572448_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "AS Monaco",
+            "team_b": "Lille OSC",
+            "logo_a": "https://images.keovip88.net/images/teams/monaco.png",
+            "logo_b": "https://images.keovip88.net/images/teams/lille.png",
+            "time": "21:00:00",
+            "date": "25/10",
+            "blv": "Ngu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5f5e5e6975d550f07c2_d143be2d_20261025.png?v=d143be2d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0bb7f65f36",
+          "name": "Liverpool vs Brighton   Hove Albion | 21:00 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0bb7f65f36",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0bb7f65f36",
+                  "name": "Liverpool vs Brighton   Hove Albion",
+                  "streams": [
+                    {
+                      "id": "st-0bb7f65f36",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a84227b032",
+                          "name": "Tỵ + Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572480_hd/1792572480_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Liverpool",
+            "team_b": "Brighton   Hove Albion",
+            "logo_a": "https://images.keovip88.net/images/teams/liverpool.png",
+            "logo_b": "https://images.keovip88.net/images/teams/brighton-hove-albion.png",
+            "time": "21:00:00",
+            "date": "25/10",
+            "blv": "Tỵ + Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06fa_aa845c6c_20261025.png?v=aa845c6c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f0288fc4ce",
+          "name": "Crystal Palace vs Newcastle United | 21:00 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f0288fc4ce",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f0288fc4ce",
+                  "name": "Crystal Palace vs Newcastle United",
+                  "streams": [
+                    {
+                      "id": "st-f0288fc4ce",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d1725ff206",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572501_hd/1792572501_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Crystal Palace",
+            "team_b": "Newcastle United",
+            "logo_a": "https://images.keovip88.net/images/teams/crystal-palace.png",
+            "logo_b": "https://images.keovip88.net/images/teams/newcastle-united.png",
+            "time": "21:00:00",
+            "date": "25/10",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06f8_34afc507_20261025.png?v=34afc507",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-58f157fc5c",
+          "name": "Manchester United vs AFC Bournemouth | 21:00 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-58f157fc5c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-58f157fc5c",
+                  "name": "Manchester United vs AFC Bournemouth",
+                  "streams": [
+                    {
+                      "id": "st-58f157fc5c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-70df60642e",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572559_hd/1792572559_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-30df0dc026",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572566_hd/1792572566_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Manchester United",
+            "team_b": "AFC Bournemouth",
+            "logo_a": "https://images.keovip88.net/images/teams/manchester-united.png",
+            "logo_b": "https://images.keovip88.net/images/teams/afc-bournemouth.png",
+            "time": "21:00:00",
+            "date": "25/10",
+            "blv": "Hấu, Chồn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06fb_3de41ba8_20261025.png?v=3de41ba8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-510fbea6cb",
+          "name": "Hull City vs Brentford | 21:00 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-510fbea6cb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-510fbea6cb",
+                  "name": "Hull City vs Brentford",
+                  "streams": [
+                    {
+                      "id": "st-510fbea6cb",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8d4343bb44",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572593_hd/1792572593_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Hull City",
+            "team_b": "Brentford",
+            "logo_a": "https://images.keovip88.net/images/teams/hull-city.png",
+            "logo_b": "https://images.keovip88.net/images/teams/brentford.png",
+            "time": "21:00:00",
+            "date": "25/10",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06f9_7c35b6d2_20261025.png?v=7c35b6d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b98200fefc",
+          "name": "Stade Rennais FC vs Strasbourg | 23:15 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b98200fefc",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b98200fefc",
+                  "name": "Stade Rennais FC vs Strasbourg",
+                  "streams": [
+                    {
+                      "id": "st-b98200fefc",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b3bd1a7482",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821633_hd/1792821633_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Stade Rennais FC",
+            "team_b": "Strasbourg",
+            "logo_a": "https://images.keovip88.net/images/teams/rennes.png",
+            "logo_b": "https://images.keovip88.net/images/teams/strasbourg.png",
+            "time": "23:15:00",
+            "date": "25/10",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5f5e5e6975d550f07c3_50af5f64_20261025.png?v=50af5f64",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-da97893acb",
+          "name": "Sunderland vs Leeds United | 23:30 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da97893acb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-da97893acb",
+                  "name": "Sunderland vs Leeds United",
+                  "streams": [
+                    {
+                      "id": "st-da97893acb",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-507e6b5e5b",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821665_hd/1792821665_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Sunderland",
+            "team_b": "Leeds United",
+            "logo_a": "https://images.keovip88.net/images/teams/sunderland-afc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/leeds-united.png",
+            "time": "23:30:00",
+            "date": "25/10",
+            "blv": "Chồn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06fc_7f61ca04_20261025.png?v=7f61ca04",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6427a5023b",
+          "name": "SC Freiburg vs Bayern Munich | 23:30 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6427a5023b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6427a5023b",
+                  "name": "SC Freiburg vs Bayern Munich",
+                  "streams": [
+                    {
+                      "id": "st-6427a5023b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8860d67f74",
+                          "name": "Hứa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821696_hd/1792821696_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "SC Freiburg",
+            "team_b": "Bayern Munich",
+            "logo_a": "https://images.keovip88.net/images/teams/sc-freiburg.png",
+            "logo_b": "https://images.keovip88.net/images/teams/bayern-munchen.png",
+            "time": "23:30:00",
+            "date": "25/10",
+            "blv": "Hứa",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5cae5e6975d550f0782_5a083922_20261025.png?v=5a083922",
             "width": 1600,
             "height": 1200
           }
@@ -1117,11 +1278,83 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-02a77606b1",
+          "name": "Atlanta Dream vs Golden State Valkyries | 00:00 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-02a77606b1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-02a77606b1",
+                  "name": "Atlanta Dream vs Golden State Valkyries",
+                  "streams": [
+                    {
+                      "id": "st-02a77606b1",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-53cbb0e2d2",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792859476_hd/1792859476_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Atlanta Dream",
+            "team_b": "Golden State Valkyries",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f527c983cab3560c60e7b9d147904d7d.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png",
+            "time": "00:00:00",
+            "date": "25/10",
+            "blv": "Điếc",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39335471_93859613_20261025.png?v=93859613",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-b78d3c4bf6",
           "name": "Shanghai Jiushi Sharks vs Fujian Xunxing Sturgeons | 18:35 24/10",
@@ -1189,79 +1422,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/22563477_040bb0b1_20261024.png?v=040bb0b1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-02a77606b1",
-          "name": "Atlanta Dream vs Golden State Valkyries | 00:00 25/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-02a77606b1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-02a77606b1",
-                  "name": "Atlanta Dream vs Golden State Valkyries",
-                  "streams": [
-                    {
-                      "id": "st-02a77606b1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f5334d7303",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821888_hd/1792821888_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "Atlanta Dream",
-            "team_b": "Golden State Valkyries",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f527c983cab3560c60e7b9d147904d7d.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png",
-            "time": "00:00:00",
-            "date": "25/10",
-            "blv": "Tôm",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39335471_93859613_20261024.png?v=93859613",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/22563477_040bb0b1_20261025.png?v=040bb0b1",
             "width": 1600,
             "height": 1200
           }
@@ -1333,7 +1494,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21436475_37bcaa0a_20261024.png?v=37bcaa0a",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21436475_37bcaa0a_20261025.png?v=37bcaa0a",
             "width": 1600,
             "height": 1200
           }
@@ -1405,7 +1566,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/23436477_85468cc3_20261024.png?v=85468cc3",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/23436477_85468cc3_20261025.png?v=85468cc3",
             "width": 1600,
             "height": 1200
           }
@@ -1477,7 +1638,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/22436476_903a1aad_20261024.png?v=903a1aad",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/22436476_903a1aad_20261025.png?v=903a1aad",
             "width": 1600,
             "height": 1200
           }
@@ -1549,7 +1710,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/33688274_7ed9c348_20261024.png?v=7ed9c348",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/33688274_7ed9c348_20261025.png?v=7ed9c348",
             "width": 1600,
             "height": 1200
           }
@@ -1621,7 +1782,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21928279_1e071bfe_20261024.png?v=1e071bfe",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21928279_1e071bfe_20261025.png?v=1e071bfe",
             "width": 1600,
             "height": 1200
           }
@@ -1693,7 +1854,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/32928270_b0450cd5_20261024.png?v=b0450cd5",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/32928270_b0450cd5_20261025.png?v=b0450cd5",
             "width": 1600,
             "height": 1200
           }
@@ -1765,7 +1926,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/34688275_2c4c4d99_20261024.png?v=2c4c4d99",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/34688275_2c4c4d99_20261025.png?v=2c4c4d99",
             "width": 1600,
             "height": 1200
           }
@@ -1837,7 +1998,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/35688276_046d0394_20261024.png?v=046d0394",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/35688276_046d0394_20261025.png?v=046d0394",
             "width": 1600,
             "height": 1200
           }
@@ -1909,7 +2070,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/33928271_749777cb_20261024.png?v=749777cb",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/33928271_749777cb_20261025.png?v=749777cb",
             "width": 1600,
             "height": 1200
           }
@@ -1924,8 +2085,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-f96efea49b",
-          "name": "CS2-PGL Masters Buncharest 2026 vs CS2-PGL Masters Buncharest 2026 | 17:00 24/10",
+          "id": "gv-a5a02b158b",
+          "name": "G2 Esports vs NAVI | 23:00 24/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1935,78 +2096,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f96efea49b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f96efea49b",
-                  "name": "CS2-PGL Masters Buncharest 2026 vs CS2-PGL Masters Buncharest 2026",
-                  "streams": [
-                    {
-                      "id": "st-f96efea49b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c2b9454dab",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792806519_hd/1792806519_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CS2-PGL Masters Buncharest 2026",
-            "team_a": "CS2-PGL Masters Buncharest 2026",
-            "team_b": "CS2-PGL Masters Buncharest 2026",
-            "logo_a": "https://liquipedia.net/commons/images/f/f4/PGL_Masters_Bucharest_2026_lightmode.png",
-            "logo_b": "https://liquipedia.net/commons/images/f/f4/PGL_Masters_Bucharest_2026_lightmode.png",
-            "time": "17:00:00",
-            "date": "24/10",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/5dxai318spse_8506c7b1_20261024.png?v=8506c7b1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-a5a02b158b",
-          "name": "G2 Esports vs NAVI | 23:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -2055,14 +2144,14 @@
             "time": "23:00:00",
             "date": "24/10",
             "blv": "Mickey",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/jnu49ti7nyzb_08a97817_20261024.png?v=08a97817",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/jnu49ti7nyzb_08a97817_20261025.png?v=08a97817",
             "width": 1600,
             "height": 1200
           }
@@ -2071,83 +2160,11 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (2 LIVE)",
+      "name": "🥊 Võ Thuật (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-06d24fbaa9",
-          "name": "YFU 97 vs YFU 97 | 20:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-06d24fbaa9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-06d24fbaa9",
-                  "name": "YFU 97 vs YFU 97",
-                  "streams": [
-                    {
-                      "id": "st-06d24fbaa9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b7eb34b3f0",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792312220_hd/1792312220_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "YFU 97",
-            "team_a": "YFU 97",
-            "team_b": "YFU 97",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh-TwLz4Z6MTkEmoM68NrSk9tmOB9dxyem6nM2wpR9XDWxzEupc6-AjDFr&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgZr089G1JT8KIezZtcgT1dJ50T32EPANyVR8pKuFB_A&s=10",
-            "time": "20:00:00",
-            "date": "24/10",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/r3scrditqxci_208cd6f5_20261024.png?v=208cd6f5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-132db51935",
           "name": "Alexander Volkanovski vs Movsar Evloev | 23:00 24/10",
@@ -2215,7 +2232,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/oj930b0i8692_24565cfe_20261024.png?v=24565cfe",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/oj930b0i8692_24565cfe_20261025.png?v=24565cfe",
             "width": 1600,
             "height": 1200
           }
@@ -2287,7 +2304,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/kzcpvhuaatwq_e0788b49_20261024.png?v=e0788b49",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/kzcpvhuaatwq_e0788b49_20261025.png?v=e0788b49",
             "width": 1600,
             "height": 1200
           }
@@ -2359,7 +2376,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/bg2q68hn5yia_72c38974_20261024.png?v=72c38974",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/bg2q68hn5yia_72c38974_20261025.png?v=72c38974",
             "width": 1600,
             "height": 1200
           }
@@ -2368,7 +2385,7 @@
     },
     {
       "id": "cate_duaxe",
-      "name": "🏎️ Đua Xe",
+      "name": "🏎️ Đua Xe (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2381,10 +2398,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2433,14 +2450,14 @@
             "time": "00:30:00",
             "date": "25/10",
             "blv": "Ngu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "duaxe"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/kjieed6i3rl5_c436b015_20261024.png?v=c436b015",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/kjieed6i3rl5_c436b015_20261025.png?v=c436b015",
             "width": 1600,
             "height": 1200
           }
@@ -2512,7 +2529,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/eng49jfp3qam_c436b015_20261024.png?v=c436b015",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/eng49jfp3qam_c436b015_20261025.png?v=c436b015",
             "width": 1600,
             "height": 1200
           }
@@ -2584,7 +2601,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/gynr3f935n0s_c436b015_20261024.png?v=c436b015",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/gynr3f935n0s_c436b015_20261025.png?v=c436b015",
             "width": 1600,
             "height": 1200
           }
@@ -2593,7 +2610,7 @@
     },
     {
       "id": "cate_rugby",
-      "name": "🏅 Thể Thao",
+      "name": "🏅 Thể Thao (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2606,10 +2623,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2658,14 +2675,14 @@
             "time": "23:00:00",
             "date": "24/10",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "rugby"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/h6756kdswzm1_ea2b29f0_20261024.png?v=ea2b29f0",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/h6756kdswzm1_ea2b29f0_20261025.png?v=ea2b29f0",
             "width": 1600,
             "height": 1200
           }
@@ -2737,7 +2754,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/vphcszn6wc4h_a5206062_20261024.png?v=a5206062",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/vphcszn6wc4h_a5206062_20261025.png?v=a5206062",
             "width": 1600,
             "height": 1200
           }
@@ -2809,7 +2826,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/2vd79nyvfezh_1573edb8_20261024.png?v=1573edb8",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/2vd79nyvfezh_1573edb8_20261025.png?v=1573edb8",
             "width": 1600,
             "height": 1200
           }
@@ -2881,7 +2898,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/oeee0l5i95nm_51c10c43_20261024.png?v=51c10c43",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/oeee0l5i95nm_51c10c43_20261025.png?v=51c10c43",
             "width": 1600,
             "height": 1200
           }
