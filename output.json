@@ -11,299 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-49568ec456",
-          "name": "Melbourne Victory FC vs Melbourne City | 15:40 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-49568ec456",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-49568ec456",
-                  "name": "Melbourne Victory FC vs Melbourne City",
-                  "streams": [
-                    {
-                      "id": "st-49568ec456",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b8aeadf49c",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792570579_hd/1792570579_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Úc",
-            "team_a": "Melbourne Victory FC",
-            "team_b": "Melbourne City",
-            "logo_a": "https://images.keovip88.net/images/teams/melbourne-victory.png",
-            "logo_b": "https://images.keovip88.net/images/teams/melbourne-city.png",
-            "time": "15:40:00",
-            "date": "24/10",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1695c24d46db87021ae11_9e737131_20261024.png?v=9e737131",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-1317685b57",
-          "name": "Đồng Nai vs Thép Xanh Nam Định | 18:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1317685b57",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1317685b57",
-                  "name": "Đồng Nai vs Thép Xanh Nam Định",
-                  "streams": [
-                    {
-                      "id": "st-1317685b57",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fc1eb53ba7",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792571105_hd/1792571105_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "Đồng Nai",
-            "team_b": "Thép Xanh Nam Định",
-            "logo_a": "https://images.keovip88.net/images/teams/truong-tuoi-dong-nai.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/6oSz1BdM-4YgEdVnq.png",
-            "time": "18:00:00",
-            "date": "24/10",
-            "blv": "Tỵ ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1695e24d46db87021afed_5c3562bc_20261024.png?v=5c3562bc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f138f8e060",
-          "name": "Hồng Lĩnh Hà Tĩnh vs Hải Phòng | 18:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f138f8e060",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f138f8e060",
-                  "name": "Hồng Lĩnh Hà Tĩnh vs Hải Phòng",
-                  "streams": [
-                    {
-                      "id": "st-f138f8e060",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-98aed626d1",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792571134_hd/1792571134_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "Hồng Lĩnh Hà Tĩnh",
-            "team_b": "Hải Phòng",
-            "logo_a": "https://images.keovip88.net/images/teams/hong-linh-ha-tinh.png",
-            "logo_b": "https://images.keovip88.net/images/teams/hai-phong.png",
-            "time": "18:00:00",
-            "date": "24/10",
-            "blv": "Mù",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1695e24d46db87021afe9_a1b687f4_20261024.png?v=a1b687f4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-4960895c37",
-          "name": "Aston Villa vs Manchester City | 18:30 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4960895c37",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4960895c37",
-                  "name": "Aston Villa vs Manchester City",
-                  "streams": [
-                    {
-                      "id": "st-4960895c37",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f10ef95552",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572068_hd/1792572068_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Aston Villa",
-            "team_b": "Manchester City",
-            "logo_a": "https://images.keovip88.net/images/teams/aston-villa.png",
-            "logo_b": "https://images.keovip88.net/images/teams/manchester-city.png",
-            "time": "18:30:00",
-            "date": "24/10",
-            "blv": "Ben",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06f4_c4f0da90_20261024.png?v=c4f0da90",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-a8b4fd1d49",
           "name": "Rayo Vallecano vs Elche | 19:00 24/10",
@@ -312,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -364,7 +76,7 @@
             "time": "19:00:00",
             "date": "24/10",
             "blv": "Trĩ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -377,78 +89,6 @@
           }
         },
         {
-          "id": "gv-8b1053c1cd",
-          "name": "Como vs US Sassuolo Calcio | 20:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8b1053c1cd",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8b1053c1cd",
-                  "name": "Como vs US Sassuolo Calcio",
-                  "streams": [
-                    {
-                      "id": "st-8b1053c1cd",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7ac4c30065",
-                          "name": "Hứa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792806376_hd/1792806376_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Como",
-            "team_b": "US Sassuolo Calcio",
-            "logo_a": "https://images.keovip88.net/images/teams/como.png",
-            "logo_b": "https://images.keovip88.net/images/teams/sassuolo.png",
-            "time": "20:00:00",
-            "date": "24/10",
-            "blv": "Hứa",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1696224d46db87021b49d_204a08da_20261024.png?v=204a08da",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-2c71be15e2",
           "name": "Cagliari vs Bologna | 20:00 24/10",
           "type": "single",
@@ -456,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -508,7 +148,7 @@
             "time": "20:00:00",
             "date": "24/10",
             "blv": "Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -516,6 +156,222 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1696224d46db87021b497_edcef7e6_20261024.png?v=edcef7e6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8b1053c1cd",
+          "name": "Como vs US Sassuolo Calcio | 20:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8b1053c1cd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8b1053c1cd",
+                  "name": "Como vs US Sassuolo Calcio",
+                  "streams": [
+                    {
+                      "id": "st-8b1053c1cd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7ac4c30065",
+                          "name": "Hứa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792806376_hd/1792806376_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Como",
+            "team_b": "US Sassuolo Calcio",
+            "logo_a": "https://images.keovip88.net/images/teams/como.png",
+            "logo_b": "https://images.keovip88.net/images/teams/sassuolo.png",
+            "time": "20:00:00",
+            "date": "24/10",
+            "blv": "Hứa",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1696224d46db87021b49d_204a08da_20261024.png?v=204a08da",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-da59827232",
+          "name": "Coventry vs Fulham | 21:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da59827232",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-da59827232",
+                  "name": "Coventry vs Fulham",
+                  "streams": [
+                    {
+                      "id": "st-da59827232",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9593fca5a5",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572158_hd/1792572158_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Coventry",
+            "team_b": "Fulham",
+            "logo_a": "https://images.keovip88.net/images/teams/coventry-city.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fulham.png",
+            "time": "21:00:00",
+            "date": "24/10",
+            "blv": "Trĩ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06f5_3f45d7d3_20261024.png?v=3f45d7d3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7a5854c69c",
+          "name": "Arsenal vs Everton | 21:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7a5854c69c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7a5854c69c",
+                  "name": "Arsenal vs Everton",
+                  "streams": [
+                    {
+                      "id": "st-7a5854c69c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a7626c2610",
+                          "name": "Fan Arsenal: Ngọng + Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572204_hd/1792572204_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Arsenal",
+            "team_b": "Everton",
+            "logo_a": "https://images.keovip88.net/images/teams/arsenal.png",
+            "logo_b": "https://images.keovip88.net/images/teams/everton.png",
+            "time": "21:00:00",
+            "date": "24/10",
+            "blv": "Fan Arsenal: Ngọng + Cận",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06f6_60c73640_20261024.png?v=60c73640",
             "width": 1600,
             "height": 1200
           }
@@ -588,150 +444,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1696324d46db87021b6ab_43e76333_20261024.png?v=43e76333",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-da59827232",
-          "name": "Coventry vs Fulham | 21:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-da59827232",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-da59827232",
-                  "name": "Coventry vs Fulham",
-                  "streams": [
-                    {
-                      "id": "st-da59827232",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9593fca5a5",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572158_hd/1792572158_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Coventry",
-            "team_b": "Fulham",
-            "logo_a": "https://images.keovip88.net/images/teams/coventry-city.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fulham.png",
-            "time": "21:00:00",
-            "date": "24/10",
-            "blv": "Trĩ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06f5_3f45d7d3_20261024.png?v=3f45d7d3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-7a5854c69c",
-          "name": "Arsenal vs Everton | 21:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7a5854c69c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7a5854c69c",
-                  "name": "Arsenal vs Everton",
-                  "streams": [
-                    {
-                      "id": "st-7a5854c69c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a7626c2610",
-                          "name": "Fan Arsenal: Ngọng + Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572204_hd/1792572204_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Arsenal",
-            "team_b": "Everton",
-            "logo_a": "https://images.keovip88.net/images/teams/arsenal.png",
-            "logo_b": "https://images.keovip88.net/images/teams/everton.png",
-            "time": "21:00:00",
-            "date": "24/10",
-            "blv": "Fan Arsenal: Ngọng + Cận",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06f6_60c73640_20261024.png?v=60c73640",
             "width": 1600,
             "height": 1200
           }
@@ -1181,6 +893,222 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad2bad424d46db870e28e83_63ed646b_20261024.png?v=63ed646b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f716757702",
+          "name": "SHB Đà Nẵng vs Hà Nội | 18:00 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f716757702",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f716757702",
+                  "name": "SHB Đà Nẵng vs Hà Nội",
+                  "streams": [
+                    {
+                      "id": "st-f716757702",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8cd603ae7d",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792827293_hd/1792827293_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "SHB Đà Nẵng",
+            "team_b": "Hà Nội",
+            "logo_a": "https://images.keovip88.net/images/teams/da-nang.png",
+            "logo_b": "https://images.keovip88.net/images/teams/hanoi-fc.png",
+            "time": "18:00:00",
+            "date": "25/10",
+            "blv": "Dory",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad40c5124d46db870c48d0e_7f2c1fff_20261024.png?v=7f2c1fff",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3de73dd806",
+          "name": "Dingnan Ganlian vs Yanbian Longding | 18:30 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3de73dd806",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3de73dd806",
+                  "name": "Dingnan Ganlian vs Yanbian Longding",
+                  "streams": [
+                    {
+                      "id": "st-3de73dd806",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-47d8cd272b",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572340_hd/1792572340_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hạng Nhất Trung Quốc",
+            "team_a": "Dingnan Ganlian",
+            "team_b": "Yanbian Longding",
+            "logo_a": "https://images.keovip88.net/images/teams/dingnan-ganlian.png",
+            "logo_b": "https://images.keovip88.net/images/teams/yanbian-longding.png",
+            "time": "18:30:00",
+            "date": "25/10",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad40c5224d46db870c48dd3_3b6c3e0e_20261024.png?v=3b6c3e0e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-bad115cba2",
+          "name": "Inter Milan vs Fiorentina | 18:30 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bad115cba2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bad115cba2",
+                  "name": "Inter Milan vs Fiorentina",
+                  "streams": [
+                    {
+                      "id": "st-bad115cba2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d988452af6",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572370_hd/1792572370_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Inter Milan",
+            "team_b": "Fiorentina",
+            "logo_a": "https://images.keovip88.net/images/teams/inter-milan.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fiorentina.png",
+            "time": "18:30:00",
+            "date": "25/10",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad40c5224d46db870c48dc8_2ff8475b_20261024.png?v=2ff8475b",
             "width": 1600,
             "height": 1200
           }
@@ -2143,7 +2071,7 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật",
+      "name": "🥊 Võ Thuật (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2156,10 +2084,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2208,7 +2136,7 @@
             "time": "20:00:00",
             "date": "24/10",
             "blv": "Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "vothuat"
           },
           "image": {
@@ -2216,6 +2144,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/r3scrditqxci_208cd6f5_20261024.png?v=208cd6f5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-132db51935",
+          "name": "Alexander Volkanovski vs Movsar Evloev | 23:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-132db51935",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-132db51935",
+                  "name": "Alexander Volkanovski vs Movsar Evloev",
+                  "streams": [
+                    {
+                      "id": "st-132db51935",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1d081919fe",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792312146_hd/1792312146_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UFC 333 Alexander Volkanovski vs Movsar Evloev",
+            "team_a": "Alexander Volkanovski",
+            "team_b": "Movsar Evloev",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpCFwiRWjTW9-MLdjRREytn6oSFmdGJZpHzKt4P-aIAA&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo_O-78aQRlTM4OdZ-5l2U-gkWTlyKtCjExJvE7jj6pw&s",
+            "time": "23:00:00",
+            "date": "24/10",
+            "blv": "Dory",
+            "is_live": true,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/oj930b0i8692_24565cfe_20261024.png?v=24565cfe",
             "width": 1600,
             "height": 1200
           }
@@ -2288,78 +2288,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/kzcpvhuaatwq_e0788b49_20261024.png?v=e0788b49",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-132db51935",
-          "name": "UFC 333 Alexander Volkanovski vs Movsar Evloev | 23:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-132db51935",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-132db51935",
-                  "name": "UFC 333 Alexander Volkanovski vs Movsar Evloev",
-                  "streams": [
-                    {
-                      "id": "st-132db51935",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1d081919fe",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792312146_hd/1792312146_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UFC 333 Alexander Volkanovski vs Movsar Evloev",
-            "team_a": "UFC 333 Alexander Volkanovski",
-            "team_b": "Movsar Evloev",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpCFwiRWjTW9-MLdjRREytn6oSFmdGJZpHzKt4P-aIAA&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo_O-78aQRlTM4OdZ-5l2U-gkWTlyKtCjExJvE7jj6pw&s",
-            "time": "23:00:00",
-            "date": "24/10",
-            "blv": "Dory",
-            "is_live": false,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/oj930b0i8692_24565cfe_20261024.png?v=24565cfe",
             "width": 1600,
             "height": 1200
           }
