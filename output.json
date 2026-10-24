@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-66cac92fa9",
-          "name": "Atletico Madrid vs Deportivo La Coruna | 02:00 25/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-66cac92fa9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-66cac92fa9",
-                  "name": "Atletico Madrid vs Deportivo La Coruna",
-                  "streams": [
-                    {
-                      "id": "st-66cac92fa9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-08671d0156",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821565_hd/1792821565_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Atletico Madrid",
-            "team_b": "Deportivo La Coruna",
-            "logo_a": "https://images.keovip88.net/images/teams/atletico-madrid.png",
-            "logo_b": "https://images.keovip88.net/images/teams/deportivo-la-coruna.png",
-            "time": "02:00:00",
-            "date": "25/10",
-            "blv": "Ngọng",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad2bad424d46db870e28e83_63ed646b_20261025.png?v=63ed646b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8fbd858e5b",
-          "name": "RB Leipzig vs SV Elversberg | 20:30 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8fbd858e5b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8fbd858e5b",
-                  "name": "RB Leipzig vs SV Elversberg",
-                  "streams": [
-                    {
-                      "id": "st-8fbd858e5b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-05036a53fe",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572133_hd/1792572133_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "RB Leipzig",
-            "team_b": "SV Elversberg",
-            "logo_a": "https://images.keovip88.net/images/teams/rb-leipzig.png",
-            "logo_b": "https://images.keovip88.net/images/teams/sv-elversberg.png",
-            "time": "20:30:00",
-            "date": "24/10",
-            "blv": "Ngu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1696324d46db87021b6ab_43e76333_20261025.png?v=43e76333",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f716757702",
           "name": "SHB Đà Nẵng vs Hà Nội | 18:00 25/10",
@@ -1040,49 +896,74 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-02a77606b1",
-          "name": "Atlanta Dream vs Golden State Valkyries | 00:00 25/10",
+          "id": "gv-97b291b091",
+          "name": "Barcelona vs Real Madrid | 03:00 26/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-02a77606b1",
+              "id": "src-97b291b091",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-02a77606b1",
-                  "name": "Atlanta Dream vs Golden State Valkyries",
+                  "id": "ct-97b291b091",
+                  "name": "Barcelona vs Real Madrid",
                   "streams": [
                     {
-                      "id": "st-02a77606b1",
+                      "id": "st-97b291b091",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-53cbb0e2d2",
-                          "name": "Điếc",
+                          "id": "lnk-2eb4eae966",
+                          "name": "Chồn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792859476_hd/1792859476_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821807_hd/1792821807_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-20098d8dfc",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821849_hd/1792821849_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-80456154b1",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821855_hd/1792821855_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1102,26 +983,35 @@
             }
           ],
           "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "Atlanta Dream",
-            "team_b": "Golden State Valkyries",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f527c983cab3560c60e7b9d147904d7d.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png",
-            "time": "00:00:00",
-            "date": "25/10",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "basketball"
+            "league": "La Liga",
+            "team_a": "Barcelona",
+            "team_b": "Real Madrid",
+            "logo_a": "https://images.keovip88.net/images/teams/fc-barcelona.png",
+            "logo_b": "https://images.keovip88.net/images/teams/real-madrid.png",
+            "time": "03:00:00",
+            "date": "26/10",
+            "blv": "Chồn, Mason, Súp",
+            "is_live": false,
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39335471_93859613_20261025.png?v=93859613",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5bce5e6975d550f075a_70af62ed_20261025.png?v=70af62ed",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_basketball",
+      "name": "🏀 Bóng Rổ",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "gv-b836cee2dc",
           "name": "Charlotte Hornets vs Miami Heat | 05:00 25/10",
@@ -1774,155 +1664,11 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-132db51935",
-          "name": "Alexander Volkanovski vs Movsar Evloev | 23:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-132db51935",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-132db51935",
-                  "name": "Alexander Volkanovski vs Movsar Evloev",
-                  "streams": [
-                    {
-                      "id": "st-132db51935",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1d081919fe",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792312146_hd/1792312146_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UFC 333 Alexander Volkanovski vs Movsar Evloev",
-            "team_a": "Alexander Volkanovski",
-            "team_b": "Movsar Evloev",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpCFwiRWjTW9-MLdjRREytn6oSFmdGJZpHzKt4P-aIAA&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo_O-78aQRlTM4OdZ-5l2U-gkWTlyKtCjExJvE7jj6pw&s",
-            "time": "23:00:00",
-            "date": "24/10",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/oj930b0i8692_24565cfe_20261025.png?v=24565cfe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-28bc1136e5",
-          "name": "Alexander Volkanovski vs Movsar Evloev vs Movsar Evloev | 21:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-28bc1136e5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-28bc1136e5",
-                  "name": "Alexander Volkanovski vs Movsar Evloev vs Movsar Evloev",
-                  "streams": [
-                    {
-                      "id": "st-28bc1136e5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-59694b5287",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792806716_hd/1792806716_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UFC 333 Alexander Volkanovski vs Movsar Evloev",
-            "team_a": "Alexander Volkanovski vs Movsar Evloev",
-            "team_b": "Movsar Evloev",
-            "logo_a": "https://static.flashscore.com/res/image/data/OQbhPswS-v1PbvjFP.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/MwfITIg5-OhmlqBrb.png",
-            "time": "21:00:00",
-            "date": "24/10",
-            "blv": "Dory",
-            "is_live": false,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/kzcpvhuaatwq_e0788b49_20261025.png?v=e0788b49",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-dfa1bc2e09",
           "name": "ONE Friday Fights 176 vs The Inner Circle 36 | 18:30 30/10",
@@ -1999,7 +1745,7 @@
     },
     {
       "id": "cate_duaxe",
-      "name": "🏎️ Đua Xe",
+      "name": "🏎️ Đua Xe (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2012,10 +1758,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2064,7 +1810,7 @@
             "time": "04:00:00",
             "date": "25/10",
             "blv": "Ngu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "duaxe"
           },
           "image": {
@@ -2152,83 +1898,11 @@
     },
     {
       "id": "cate_rugby",
-      "name": "🏅 Thể Thao (2 LIVE)",
+      "name": "🏅 Thể Thao (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c8b06d8625",
-          "name": "Indiana Hoosiers vs Michigan Wolverines | 23:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c8b06d8625",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c8b06d8625",
-                  "name": "Indiana Hoosiers vs Michigan Wolverines",
-                  "streams": [
-                    {
-                      "id": "st-c8b06d8625",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-51b4bc6f24",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792822580_hd/1792822580_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NCAA",
-            "team_a": "Indiana Hoosiers",
-            "team_b": "Michigan Wolverines",
-            "logo_a": "https://static.flashscore.com/res/image/data/rsjnNEZA-88T8XgEn.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/OzMivUfM-nPZTIbUt.png",
-            "time": "23:00:00",
-            "date": "24/10",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "rugby"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/h6756kdswzm1_ea2b29f0_20261025.png?v=ea2b29f0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ac28fa2df1",
           "name": "Alabama Crimson Tide vs Texas A&M Aggies | 02:30 25/10",
