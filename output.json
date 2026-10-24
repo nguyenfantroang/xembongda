@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "11:00:00",
             "date": "24/10",
             "blv": "Trĩ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +148,7 @@
             "time": "12:00:00",
             "date": "24/10",
             "blv": "Tỵ ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -168,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +220,7 @@
             "time": "12:00:00",
             "date": "24/10",
             "blv": "Mù",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -240,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +292,7 @@
             "time": "13:00:00",
             "date": "24/10",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -312,10 +312,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -364,7 +364,7 @@
             "time": "13:00:00",
             "date": "24/10",
             "blv": "Trĩ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -372,6 +372,438 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1695c24d46db87021ace0_d0738994_20261024.png?v=d0738994",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-be68cd1149",
+          "name": "Kashima Antlers vs Kashiwa Reysol | 13:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-be68cd1149",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-be68cd1149",
+                  "name": "Kashima Antlers vs Kashiwa Reysol",
+                  "streams": [
+                    {
+                      "id": "st-be68cd1149",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-76a3cfd206",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792819412_hd/1792819412_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Kashima Antlers",
+            "team_b": "Kashiwa Reysol",
+            "logo_a": "https://images.keovip88.net/images/teams/kashima-antlers.png",
+            "logo_b": "https://images.keovip88.net/images/teams/kashiwa-reysol.png",
+            "time": "13:00:00",
+            "date": "24/10",
+            "blv": "Súp",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1695c24d46db87021acd1_6c8a65d0_20261024.png?v=6c8a65d0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-374af7e9e2",
+          "name": "Tokyo Verdy vs Avispa Fukuoka | 13:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-374af7e9e2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-374af7e9e2",
+                  "name": "Tokyo Verdy vs Avispa Fukuoka",
+                  "streams": [
+                    {
+                      "id": "st-374af7e9e2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4a34dbb68a",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792819478_hd/1792819478_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Tokyo Verdy",
+            "team_b": "Avispa Fukuoka",
+            "logo_a": "https://images.keovip88.net/images/teams/tokyo-verdy.png",
+            "logo_b": "https://images.keovip88.net/images/teams/avispa-fukuoka.png",
+            "time": "13:00:00",
+            "date": "24/10",
+            "blv": "Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1695c24d46db87021acd8_32f50f68_20261024.png?v=32f50f68",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-319642dad5",
+          "name": "Gamba Osaka vs Kyoto Sanga | 14:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-319642dad5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-319642dad5",
+                  "name": "Gamba Osaka vs Kyoto Sanga",
+                  "streams": [
+                    {
+                      "id": "st-319642dad5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9a4d3cb51e",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1792819531_hd/1792819531_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Gamba Osaka",
+            "team_b": "Kyoto Sanga",
+            "logo_a": "https://images.keovip88.net/images/teams/gamba-osaka.png",
+            "logo_b": "https://images.keovip88.net/images/teams/kyoto-sanga.png",
+            "time": "14:00:00",
+            "date": "24/10",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1695c24d46db87021acef_0a3b6b91_20261024.png?v=0a3b6b91",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-18224c3570",
+          "name": "Chengdu Rongcheng vs Dalian Yingbo | 14:30 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-18224c3570",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-18224c3570",
+                  "name": "Chengdu Rongcheng vs Dalian Yingbo",
+                  "streams": [
+                    {
+                      "id": "st-18224c3570",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0dcc52db09",
+                          "name": "Tỵ ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792819581_hd/1792819581_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Trung Quốc",
+            "team_a": "Chengdu Rongcheng",
+            "team_b": "Dalian Yingbo",
+            "logo_a": "https://images.keovip88.net/images/teams/chengdu-rongcheng-fc.PNG",
+            "logo_b": "https://images.keovip88.net/images/teams/dalian-zhixing.png",
+            "time": "14:30:00",
+            "date": "24/10",
+            "blv": "Tỵ ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1695c24d46db87021ad2f_cad12b5a_20261024.png?v=cad12b5a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d3582b7f03",
+          "name": "Shenzhen Xinpengcheng vs Shanghai Shenhua | 14:30 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d3582b7f03",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d3582b7f03",
+                  "name": "Shenzhen Xinpengcheng vs Shanghai Shenhua",
+                  "streams": [
+                    {
+                      "id": "st-d3582b7f03",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f37836a749",
+                          "name": "Hứa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792819637_hd/1792819637_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Trung Quốc",
+            "team_a": "Shenzhen Xinpengcheng",
+            "team_b": "Shanghai Shenhua",
+            "logo_a": "https://images.keovip88.net/images/teams/shenzhen-xinpengcheng.png",
+            "logo_b": "https://images.keovip88.net/images/teams/shanghai-shenhua.png",
+            "time": "14:30:00",
+            "date": "24/10",
+            "blv": "Hứa",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1695c24d46db87021ad43_dfca0ee2_20261024.png?v=dfca0ee2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-eed22e0956",
+          "name": "Wuhan Three Towns vs Shandong Taishan | 14:30 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eed22e0956",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-eed22e0956",
+                  "name": "Wuhan Three Towns vs Shandong Taishan",
+                  "streams": [
+                    {
+                      "id": "st-eed22e0956",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-291c35fa25",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792819687_hd/1792819687_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Trung Quốc",
+            "team_a": "Wuhan Three Towns",
+            "team_b": "Shandong Taishan",
+            "logo_a": "https://images.keovip88.net/images/teams/wuhan-three-towns.png",
+            "logo_b": "https://images.keovip88.net/images/teams/shandong-taishan.png",
+            "time": "14:30:00",
+            "date": "24/10",
+            "blv": "Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1695c24d46db87021ad37_b15607a2_20261024.png?v=b15607a2",
             "width": 1600,
             "height": 1200
           }
@@ -737,6 +1169,78 @@
           }
         },
         {
+          "id": "gv-8b1053c1cd",
+          "name": "Como vs US Sassuolo Calcio | 20:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8b1053c1cd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8b1053c1cd",
+                  "name": "Como vs US Sassuolo Calcio",
+                  "streams": [
+                    {
+                      "id": "st-8b1053c1cd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7ac4c30065",
+                          "name": "Hứa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792806376_hd/1792806376_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Como",
+            "team_b": "US Sassuolo Calcio",
+            "logo_a": "https://images.keovip88.net/images/teams/como.png",
+            "logo_b": "https://images.keovip88.net/images/teams/sassuolo.png",
+            "time": "20:00:00",
+            "date": "24/10",
+            "blv": "Hứa",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1696224d46db87021b49d_204a08da_20261024.png?v=204a08da",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-8fbd858e5b",
           "name": "RB Leipzig vs SV Elversberg | 20:30 24/10",
           "type": "single",
@@ -923,23 +1427,6 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-4aa7b42f1f",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572202_hd/1792572202_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -956,7 +1443,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/everton.png",
             "time": "21:00:00",
             "date": "24/10",
-            "blv": "Fan Arsenal: Ngọng + Cận, Chồn",
+            "blv": "Fan Arsenal: Ngọng + Cận",
             "is_live": false,
             "cate_type": "football"
           },
@@ -968,808 +1455,88 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-41ec5d247d",
+          "name": "Racing Santander vs Espanyol | 21:15 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-41ec5d247d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-41ec5d247d",
+                  "name": "Racing Santander vs Espanyol",
+                  "streams": [
+                    {
+                      "id": "st-41ec5d247d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a1f64fa18a",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792806401_hd/1792806401_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Racing Santander",
+            "team_b": "Espanyol",
+            "logo_a": "https://images.keovip88.net/images/teams/racing-santander.png",
+            "logo_b": "https://images.keovip88.net/images/teams/rcd-espanyol.png",
+            "time": "21:15:00",
+            "date": "24/10",
+            "blv": "Chồn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad1696824d46db87021bd4a_3df029e9_20261024.png?v=3df029e9",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (6 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9c3ac7541f",
-          "name": "Charlotte Hornets vs Atlanta Hawks | 06:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9c3ac7541f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9c3ac7541f",
-                  "name": "Charlotte Hornets vs Atlanta Hawks",
-                  "streams": [
-                    {
-                      "id": "st-9c3ac7541f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-74282cbbb7",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792772858_hd/1792772858_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Charlotte Hornets",
-            "team_b": "Atlanta Hawks",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/9e28959b5af233b67c389787d2886c84.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/57bd383cc8c9b3d4f92a5d1c371e38e9.png",
-            "time": "06:00:00",
-            "date": "24/10",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/25810374_41a0ba23_20261024.png?v=41a0ba23",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ffb9b6b08c",
-          "name": "Boston Celtics vs New York Knicks | 06:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ffb9b6b08c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ffb9b6b08c",
-                  "name": "Boston Celtics vs New York Knicks",
-                  "streams": [
-                    {
-                      "id": "st-ffb9b6b08c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-be5e0213e1",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792577774_hd/1792577774_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Boston Celtics",
-            "team_b": "New York Knicks",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/ef37e5c1c853e5b689b6791b00e8bc58.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c34850b658b2b7735d3bf51912e01bd1.png",
-            "time": "06:00:00",
-            "date": "24/10",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/32687272_6d4f3733_20261024.png?v=6d4f3733",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c81376d80c",
-          "name": "Indiana Pacers vs Dallas Mavericks | 06:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c81376d80c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c81376d80c",
-                  "name": "Indiana Pacers vs Dallas Mavericks",
-                  "streams": [
-                    {
-                      "id": "st-c81376d80c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-23ef945370",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792577809_hd/1792577809_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Indiana Pacers",
-            "team_b": "Dallas Mavericks",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/3a8c9a8a304f078913c60b52698ab585.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/0ae1b26dafd6ba3ff82f91d19b235038.png",
-            "time": "06:00:00",
-            "date": "24/10",
-            "blv": "Mickey",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/26810375_733217ad_20261024.png?v=733217ad",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-0bc26a3eaf",
-          "name": "Washington Wizards vs Toronto Raptors | 06:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0bc26a3eaf",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0bc26a3eaf",
-                  "name": "Washington Wizards vs Toronto Raptors",
-                  "streams": [
-                    {
-                      "id": "st-0bc26a3eaf",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9b172d6452",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792577844_hd/1792577844_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Washington Wizards",
-            "team_b": "Toronto Raptors",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f4a3bba0c74c9f2b90bc5861ec26e3c7.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/3f61db02c20eb73e5f27948b3122f2fb.png",
-            "time": "06:00:00",
-            "date": "24/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/22904476_7619c79b_20261024.png?v=7619c79b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-4e1b4a581b",
-          "name": "Orlando Magic vs Minnesota Timberwolves | 06:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4e1b4a581b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4e1b4a581b",
-                  "name": "Orlando Magic vs Minnesota Timberwolves",
-                  "streams": [
-                    {
-                      "id": "st-4e1b4a581b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-da44ccbd45",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792577886_hd/1792577886_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Orlando Magic",
-            "team_b": "Minnesota Timberwolves",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/2566b135b0e54971193a132bd8a1473c.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/e97782502546bad80da0347446a3a311.png",
-            "time": "06:00:00",
-            "date": "24/10",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21904475_2e3f179f_20261024.png?v=2e3f179f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b92e7b5a29",
-          "name": "Miami Heat vs Detroit Pistons | 07:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b92e7b5a29",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b92e7b5a29",
-                  "name": "Miami Heat vs Detroit Pistons",
-                  "streams": [
-                    {
-                      "id": "st-b92e7b5a29",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b6906424c1",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792796853_hd/1792796853_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Miami Heat",
-            "team_b": "Detroit Pistons",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/43ebb4d6ad3ea5b68e9b1c969dff055b.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c4677b9a5c8823ad3070069d8741a809.png",
-            "time": "07:00:00",
-            "date": "24/10",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/23904477_4e902506_20261024.png?v=4e902506",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-50e3cadb03",
-          "name": "San Antonio Spurs vs Houston Rockets | 08:30 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-50e3cadb03",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-50e3cadb03",
-                  "name": "San Antonio Spurs vs Houston Rockets",
-                  "streams": [
-                    {
-                      "id": "st-50e3cadb03",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a9bba7b457",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792797206_hd/1792797206_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "San Antonio Spurs",
-            "team_b": "Houston Rockets",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/908efbb5ed053f61540cca47cc36e7ec.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/cd4e8cb86960160ecba025ba8d73cd3f.png",
-            "time": "08:30:00",
-            "date": "24/10",
-            "blv": "Vịt",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/38687278_836b7546_20261024.png?v=836b7546",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-0d73845364",
-          "name": "Utah Jazz vs New Orleans Pelicans | 08:30 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0d73845364",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0d73845364",
-                  "name": "Utah Jazz vs New Orleans Pelicans",
-                  "streams": [
-                    {
-                      "id": "st-0d73845364",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b02a50bc73",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792797266_hd/1792797266_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Utah Jazz",
-            "team_b": "New Orleans Pelicans",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/a0f2371dad505780cccd4cba8baa0610.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/b745bb8171bc1a860d480067c1bb9b8f.png",
-            "time": "08:30:00",
-            "date": "24/10",
-            "blv": "Mickey",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/36588276_a0832e61_20261024.png?v=a0832e61",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-723abfa6fd",
-          "name": "Los Angeles Lakers vs Los Angeles Clippers | 09:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-723abfa6fd",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-723abfa6fd",
-                  "name": "Los Angeles Lakers vs Los Angeles Clippers",
-                  "streams": [
-                    {
-                      "id": "st-723abfa6fd",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dfdad2356f",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792797361_hd/1792797361_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Los Angeles Lakers",
-            "team_b": "Los Angeles Clippers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/935e553f4435030c604a4948c1e4d243.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/d96dfd2dedd39877ed1f06ea31270a46.png",
-            "time": "09:00:00",
-            "date": "24/10",
-            "blv": "Điếc",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39588279_1ab49102_20261024.png?v=1ab49102",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-89fffab0c8",
-          "name": "Sacramento Kings vs Portland Trail Blazers | 09:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-89fffab0c8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-89fffab0c8",
-                  "name": "Sacramento Kings vs Portland Trail Blazers",
-                  "streams": [
-                    {
-                      "id": "st-89fffab0c8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e6f93a3923",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792797409_hd/1792797409_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Sacramento Kings",
-            "team_b": "Portland Trail Blazers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/b7096093642227c698108ad872603a76.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/ea86671a348a3277fa075840258d8bc7.png",
-            "time": "09:00:00",
-            "date": "24/10",
-            "blv": "Cầy",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/38588278_d4e5473d_20261024.png?v=d4e5473d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-9b1df77498",
-          "name": "Golden State Warriors vs Memphis Grizzlies | 09:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9b1df77498",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9b1df77498",
-                  "name": "Golden State Warriors vs Memphis Grizzlies",
-                  "streams": [
-                    {
-                      "id": "st-9b1df77498",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7639ebc94f",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792797479_hd/1792797479_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Golden State Warriors",
-            "team_b": "Memphis Grizzlies",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c7341a14964f12885ea2ae80b76cebe8.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/1a66910c422c9a4be29bde3618ff8af5.png",
-            "time": "09:00:00",
-            "date": "24/10",
-            "blv": "Ben",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/37588277_05edb97b_20261024.png?v=05edb97b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-00369e378b",
           "name": "Seoul SK Knights vs Changwon LG Sakers | 12:00 24/10",
@@ -1778,10 +1545,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1830,7 +1597,7 @@
             "time": "12:00:00",
             "date": "24/10",
             "blv": "Mickey",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -2014,11 +1781,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-a3fc9f1771",
-                          "name": "Tôm",
+                          "id": "lnk-e3c33344db",
+                          "name": "Điếc",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572261_hd/1792572261_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792814085_hd/1792814085_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2045,7 +1812,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/6a6d3d4063e675d1ce3e701153e3f367.png",
             "time": "15:30:00",
             "date": "24/10",
-            "blv": "Tôm",
+            "blv": "Điếc",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -2133,15 +1900,15 @@
       ]
     },
     {
-      "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "id": "cate_bongchuyen",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-0fac5e3a3b",
-          "name": "Swiss Stage Day 1 Ca 4 vs Swiss Stage Day 1 Ca 4 | 06:00 24/10",
+          "id": "gv-725165c9ff",
+          "name": "Okayama Seagulls Nữ vs Ageo Nữ | 12:05 24/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2155,23 +1922,23 @@
           ],
           "sources": [
             {
-              "id": "src-0fac5e3a3b",
+              "id": "src-725165c9ff",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-0fac5e3a3b",
-                  "name": "Swiss Stage Day 1 Ca 4 vs Swiss Stage Day 1 Ca 4",
+                  "id": "ct-725165c9ff",
+                  "name": "Okayama Seagulls Nữ vs Ageo Nữ",
                   "streams": [
                     {
-                      "id": "st-0fac5e3a3b",
+                      "id": "st-725165c9ff",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-cb29b32641",
-                          "name": "Hấu",
+                          "id": "lnk-c87ce69d73",
+                          "name": "Điếc",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792772753_hd/1792772753_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792814420_hd/1792814420_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2191,22 +1958,103 @@
             }
           ],
           "org_metadata": {
-            "league": "Worlds 2026",
-            "team_a": "Swiss Stage Day 1 Ca 4",
-            "team_b": "Swiss Stage Day 1 Ca 4",
-            "logo_a": "https://store-images.s-microsoft.com/image/apps.18996.14127010465288187.f9de4a96-0ee4-4da3-bf66-d4132b38c599.caf661a7-e0b3-492d-b91b-63627e47283e",
-            "logo_b": "https://store-images.s-microsoft.com/image/apps.18996.14127010465288187.f9de4a96-0ee4-4da3-bf66-d4132b38c599.caf661a7-e0b3-492d-b91b-63627e47283e",
-            "time": "06:00:00",
+            "league": "Nhật Bản SV. League",
+            "team_a": "Okayama Seagulls Nữ",
+            "team_b": "Ageo Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/hbnnxXeM-KGU5ehTK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/IDJLoIcM-Q9VBAmE7.png",
+            "time": "12:05:00",
             "date": "24/10",
-            "blv": "Hấu",
+            "blv": "Điếc",
             "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/85xkwhez134u_0ea868c4_20261024.png?v=0ea868c4",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-f96efea49b",
+          "name": "CS2-PGL Masters Buncharest 2026 vs CS2-PGL Masters Buncharest 2026 | 17:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f96efea49b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f96efea49b",
+                  "name": "CS2-PGL Masters Buncharest 2026 vs CS2-PGL Masters Buncharest 2026",
+                  "streams": [
+                    {
+                      "id": "st-f96efea49b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c2b9454dab",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792806519_hd/1792806519_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CS2-PGL Masters Buncharest 2026",
+            "team_a": "CS2-PGL Masters Buncharest 2026",
+            "team_b": "CS2-PGL Masters Buncharest 2026",
+            "logo_a": "https://liquipedia.net/commons/images/f/f4/PGL_Masters_Bucharest_2026_lightmode.png",
+            "logo_b": "https://liquipedia.net/commons/images/f/f4/PGL_Masters_Bucharest_2026_lightmode.png",
+            "time": "17:00:00",
+            "date": "24/10",
+            "blv": "Riko",
+            "is_live": false,
             "cate_type": "esport"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/5dcqp34r6a7y_6732c057_20261024.png?v=6732c057",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/5dxai318spse_8506c7b1_20261024.png?v=8506c7b1",
             "width": 1600,
             "height": 1200
           }
@@ -2288,6 +2136,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/r3scrditqxci_208cd6f5_20261024.png?v=208cd6f5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-28bc1136e5",
+          "name": "Alexander Volkanovski vs Movsar Evloev vs Movsar Evloev | 21:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-28bc1136e5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-28bc1136e5",
+                  "name": "Alexander Volkanovski vs Movsar Evloev vs Movsar Evloev",
+                  "streams": [
+                    {
+                      "id": "st-28bc1136e5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-59694b5287",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792806716_hd/1792806716_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UFC 333 Alexander Volkanovski vs Movsar Evloev",
+            "team_a": "Alexander Volkanovski vs Movsar Evloev",
+            "team_b": "Movsar Evloev",
+            "logo_a": "https://static.flashscore.com/res/image/data/OQbhPswS-v1PbvjFP.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/MwfITIg5-OhmlqBrb.png",
+            "time": "21:00:00",
+            "date": "24/10",
+            "blv": "Dory",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/kzcpvhuaatwq_e0788b49_20261024.png?v=e0788b49",
             "width": 1600,
             "height": 1200
           }
@@ -2432,87 +2352,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/bg2q68hn5yia_72c38974_20261024.png?v=72c38974",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-eb9835d339",
-          "name": "Tampa Bay Rays vs Milwaukee Brewers | 07:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eb9835d339",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-eb9835d339",
-                  "name": "Tampa Bay Rays vs Milwaukee Brewers",
-                  "streams": [
-                    {
-                      "id": "st-eb9835d339",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-12d6ca77cc",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792798145_hd/1792798145_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB - World Series",
-            "team_a": "Tampa Bay Rays",
-            "team_b": "Milwaukee Brewers",
-            "logo_a": "https://static.flashscore.com/res/image/data/lGlxbdyB-6yNDMrbJ.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/nitvFMWg-xIOhFH4B.png",
-            "time": "07:00:00",
-            "date": "24/10",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/5lt43lspvig9_9c3c2977_20261024.png?v=9c3c2977",
             "width": 1600,
             "height": 1200
           }
