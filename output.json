@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-f716757702",
-          "name": "SHB Đà Nẵng vs Hà Nội | 18:00 25/10",
+          "id": "gv-828d1ee2a7",
+          "name": "Celta Vigo vs Real Betis | 22:15 25/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,239 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-f716757702",
+              "id": "src-828d1ee2a7",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-f716757702",
-                  "name": "SHB Đà Nẵng vs Hà Nội",
+                  "id": "ct-828d1ee2a7",
+                  "name": "Celta Vigo vs Real Betis",
                   "streams": [
                     {
-                      "id": "st-f716757702",
+                      "id": "st-828d1ee2a7",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-8cd603ae7d",
+                          "id": "lnk-bab3b90135",
                           "name": "Dory",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792827293_hd/1792827293_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "SHB Đà Nẵng",
-            "team_b": "Hà Nội",
-            "logo_a": "https://images.keovip88.net/images/teams/da-nang.png",
-            "logo_b": "https://images.keovip88.net/images/teams/hanoi-fc.png",
-            "time": "18:00:00",
-            "date": "25/10",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad40c5124d46db870c48d0e_7f2c1fff_20261025.png?v=7f2c1fff",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-57ace0da15",
-          "name": "Ninh Bình FC vs TP Hồ Chí Minh | 18:00 25/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-57ace0da15",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-57ace0da15",
-                  "name": "Ninh Bình FC vs TP Hồ Chí Minh",
-                  "streams": [
-                    {
-                      "id": "st-57ace0da15",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-900480a3d8",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792927350_hd/1792927350_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "Ninh Bình FC",
-            "team_b": "TP Hồ Chí Minh",
-            "logo_a": "https://images.keovip88.net/images/teams/ninh-binh-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ho-chi-minh-city.png",
-            "time": "18:00:00",
-            "date": "25/10",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad40c5124d46db870c48d16_4840fae2_20261025.png?v=4840fae2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-bad115cba2",
-          "name": "Inter Milan vs Fiorentina | 18:30 25/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bad115cba2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bad115cba2",
-                  "name": "Inter Milan vs Fiorentina",
-                  "streams": [
-                    {
-                      "id": "st-bad115cba2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d988452af6",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572370_hd/1792572370_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Inter Milan",
-            "team_b": "Fiorentina",
-            "logo_a": "https://images.keovip88.net/images/teams/inter-milan.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fiorentina.png",
-            "time": "18:30:00",
-            "date": "25/10",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad40c5224d46db870c48dc8_2ff8475b_20261025.png?v=2ff8475b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-162efd9d14",
-          "name": "Athletic Bilbao vs Getafe | 20:00 25/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-162efd9d14",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-162efd9d14",
-                  "name": "Athletic Bilbao vs Getafe",
-                  "streams": [
-                    {
-                      "id": "st-162efd9d14",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f3c2a6ac4c",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792925458_hd/1792925458_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792925507_hd/1792925507_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -285,58 +69,130 @@
           ],
           "org_metadata": {
             "league": "La Liga",
-            "team_a": "Athletic Bilbao",
-            "team_b": "Getafe",
-            "logo_a": "https://images.keovip88.net/images/teams/athletic-bilbao.png",
-            "logo_b": "https://images.keovip88.net/images/teams/getafe.png",
-            "time": "20:00:00",
+            "team_a": "Celta Vigo",
+            "team_b": "Real Betis",
+            "logo_a": "https://images.keovip88.net/images/teams/celta-vigo.png",
+            "logo_b": "https://images.keovip88.net/images/teams/real-betis.png",
+            "time": "22:15:00",
             "date": "25/10",
-            "blv": "Trĩ",
-            "is_live": false,
+            "blv": "Dory",
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad40c5324d46db870c48ee4_bb8fd1ac_20261025.png?v=bb8fd1ac",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad40c5624d46db870c49335_8aa9c580_20261025.png?v=8aa9c580",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "gv-0bb7f65f36",
-          "name": "Liverpool vs Brighton   Hove Albion | 21:00 25/10",
+          "id": "gv-b98200fefc",
+          "name": "Stade Rennais FC vs Strasbourg | 23:15 25/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-0bb7f65f36",
+              "id": "src-b98200fefc",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-0bb7f65f36",
-                  "name": "Liverpool vs Brighton   Hove Albion",
+                  "id": "ct-b98200fefc",
+                  "name": "Stade Rennais FC vs Strasbourg",
                   "streams": [
                     {
-                      "id": "st-0bb7f65f36",
+                      "id": "st-b98200fefc",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-a84227b032",
-                          "name": "Tỵ ",
+                          "id": "lnk-b3bd1a7482",
+                          "name": "Trĩ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572480_hd/1792572480_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821633_hd/1792821633_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Stade Rennais FC",
+            "team_b": "Strasbourg",
+            "logo_a": "https://images.keovip88.net/images/teams/rennes.png",
+            "logo_b": "https://images.keovip88.net/images/teams/strasbourg.png",
+            "time": "23:15:00",
+            "date": "25/10",
+            "blv": "Trĩ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5f5e5e6975d550f07c3_50af5f64_20261025.png?v=50af5f64",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-da97893acb",
+          "name": "Sunderland vs Leeds United | 23:30 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da97893acb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-da97893acb",
+                  "name": "Sunderland vs Leeds United",
+                  "streams": [
+                    {
+                      "id": "st-da97893acb",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-507e6b5e5b",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821665_hd/1792821665_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -357,58 +213,130 @@
           ],
           "org_metadata": {
             "league": "Ngoại hạng Anh",
-            "team_a": "Liverpool",
-            "team_b": "Brighton   Hove Albion",
-            "logo_a": "https://images.keovip88.net/images/teams/liverpool.png",
-            "logo_b": "https://images.keovip88.net/images/teams/brighton-hove-albion.png",
-            "time": "21:00:00",
+            "team_a": "Sunderland",
+            "team_b": "Leeds United",
+            "logo_a": "https://images.keovip88.net/images/teams/sunderland-afc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/leeds-united.png",
+            "time": "23:30:00",
             "date": "25/10",
-            "blv": "Tỵ ",
-            "is_live": false,
+            "blv": "Chồn",
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06fa_aa845c6c_20261025.png?v=aa845c6c",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06fc_7f61ca04_20261025.png?v=7f61ca04",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "gv-f0288fc4ce",
-          "name": "Crystal Palace vs Newcastle United | 21:00 25/10",
+          "id": "gv-6427a5023b",
+          "name": "SC Freiburg vs Bayern Munich | 23:30 25/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-f0288fc4ce",
+              "id": "src-6427a5023b",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-f0288fc4ce",
-                  "name": "Crystal Palace vs Newcastle United",
+                  "id": "ct-6427a5023b",
+                  "name": "SC Freiburg vs Bayern Munich",
                   "streams": [
                     {
-                      "id": "st-f0288fc4ce",
+                      "id": "st-6427a5023b",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-d1725ff206",
+                          "id": "lnk-8860d67f74",
+                          "name": "Hứa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821696_hd/1792821696_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "SC Freiburg",
+            "team_b": "Bayern Munich",
+            "logo_a": "https://images.keovip88.net/images/teams/sc-freiburg.png",
+            "logo_b": "https://images.keovip88.net/images/teams/bayern-munchen.png",
+            "time": "23:30:00",
+            "date": "25/10",
+            "blv": "Hứa",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5cae5e6975d550f0782_5a083922_20261025.png?v=5a083922",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-62e63a0f4e",
+          "name": "Lecce vs Juventus | 23:59 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-62e63a0f4e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-62e63a0f4e",
+                  "name": "Lecce vs Juventus",
+                  "streams": [
+                    {
+                      "id": "st-62e63a0f4e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7a17d7fc00",
                           "name": "Súp",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572501_hd/1792572501_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792943479_hd/1792943479_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -428,183 +356,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Crystal Palace",
-            "team_b": "Newcastle United",
-            "logo_a": "https://images.keovip88.net/images/teams/crystal-palace.png",
-            "logo_b": "https://images.keovip88.net/images/teams/newcastle-united.png",
-            "time": "21:00:00",
+            "league": "Seria A",
+            "team_a": "Lecce",
+            "team_b": "Juventus",
+            "logo_a": "https://images.keovip88.net/images/teams/lecce.png",
+            "logo_b": "https://images.keovip88.net/images/teams/juventus.png",
+            "time": "23:59:00",
             "date": "25/10",
             "blv": "Súp",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06f8_34afc507_20261025.png?v=34afc507",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-58f157fc5c",
-          "name": "Manchester United vs AFC Bournemouth | 21:00 25/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-58f157fc5c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-58f157fc5c",
-                  "name": "Manchester United vs AFC Bournemouth",
-                  "streams": [
-                    {
-                      "id": "st-58f157fc5c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5bf7734f09",
-                          "name": "Trung lập: Hứa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792920802_hd/1792920802_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c408020add",
-                          "name": "Anti MU: Chồn",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792920807_hd/1792920807_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Manchester United",
-            "team_b": "AFC Bournemouth",
-            "logo_a": "https://images.keovip88.net/images/teams/manchester-united.png",
-            "logo_b": "https://images.keovip88.net/images/teams/afc-bournemouth.png",
-            "time": "21:00:00",
-            "date": "25/10",
-            "blv": "Trung lập: Hứa, Anti MU: Chồn",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06fb_3de41ba8_20261025.png?v=3de41ba8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-510fbea6cb",
-          "name": "Hull City vs Brentford | 21:00 25/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-510fbea6cb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-510fbea6cb",
-                  "name": "Hull City vs Brentford",
-                  "streams": [
-                    {
-                      "id": "st-510fbea6cb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8d4343bb44",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572593_hd/1792572593_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Hull City",
-            "team_b": "Brentford",
-            "logo_a": "https://images.keovip88.net/images/teams/hull-city.png",
-            "logo_b": "https://images.keovip88.net/images/teams/brentford.png",
-            "time": "21:00:00",
-            "date": "25/10",
-            "blv": "Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06f9_7c35b6d2_20261025.png?v=7c35b6d2",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad40c5a24d46db870c496d1_1df6f09f_20261025.png?v=1df6f09f",
             "width": 1600,
             "height": 1200
           }
@@ -682,294 +449,6 @@
           }
         },
         {
-          "id": "gv-828d1ee2a7",
-          "name": "Celta Vigo vs Real Betis | 22:15 25/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-828d1ee2a7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-828d1ee2a7",
-                  "name": "Celta Vigo vs Real Betis",
-                  "streams": [
-                    {
-                      "id": "st-828d1ee2a7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bab3b90135",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792925507_hd/1792925507_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Celta Vigo",
-            "team_b": "Real Betis",
-            "logo_a": "https://images.keovip88.net/images/teams/celta-vigo.png",
-            "logo_b": "https://images.keovip88.net/images/teams/real-betis.png",
-            "time": "22:15:00",
-            "date": "25/10",
-            "blv": "Dory",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad40c5624d46db870c49335_8aa9c580_20261025.png?v=8aa9c580",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b98200fefc",
-          "name": "Stade Rennais FC vs Strasbourg | 23:15 25/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b98200fefc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b98200fefc",
-                  "name": "Stade Rennais FC vs Strasbourg",
-                  "streams": [
-                    {
-                      "id": "st-b98200fefc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b3bd1a7482",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821633_hd/1792821633_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Stade Rennais FC",
-            "team_b": "Strasbourg",
-            "logo_a": "https://images.keovip88.net/images/teams/rennes.png",
-            "logo_b": "https://images.keovip88.net/images/teams/strasbourg.png",
-            "time": "23:15:00",
-            "date": "25/10",
-            "blv": "Trĩ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5f5e5e6975d550f07c3_50af5f64_20261025.png?v=50af5f64",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-da97893acb",
-          "name": "Sunderland vs Leeds United | 23:30 25/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-da97893acb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-da97893acb",
-                  "name": "Sunderland vs Leeds United",
-                  "streams": [
-                    {
-                      "id": "st-da97893acb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-507e6b5e5b",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821665_hd/1792821665_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Sunderland",
-            "team_b": "Leeds United",
-            "logo_a": "https://images.keovip88.net/images/teams/sunderland-afc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/leeds-united.png",
-            "time": "23:30:00",
-            "date": "25/10",
-            "blv": "Chồn",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06fc_7f61ca04_20261025.png?v=7f61ca04",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-6427a5023b",
-          "name": "SC Freiburg vs Bayern Munich | 23:30 25/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6427a5023b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6427a5023b",
-                  "name": "SC Freiburg vs Bayern Munich",
-                  "streams": [
-                    {
-                      "id": "st-6427a5023b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8860d67f74",
-                          "name": "Hứa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821696_hd/1792821696_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "SC Freiburg",
-            "team_b": "Bayern Munich",
-            "logo_a": "https://images.keovip88.net/images/teams/sc-freiburg.png",
-            "logo_b": "https://images.keovip88.net/images/teams/bayern-munchen.png",
-            "time": "23:30:00",
-            "date": "25/10",
-            "blv": "Hứa",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5cae5e6975d550f0782_5a083922_20261025.png?v=5a083922",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-0336e22e0c",
           "name": "Real Sociedad vs Levante | 00:30 26/10",
           "type": "single",
@@ -1042,6 +521,150 @@
           }
         },
         {
+          "id": "gv-b4a1d78b95",
+          "name": "Paris Saint Germain vs Lyonnais | 02:30 26/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b4a1d78b95",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b4a1d78b95",
+                  "name": "Paris Saint Germain vs Lyonnais",
+                  "streams": [
+                    {
+                      "id": "st-b4a1d78b95",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-47b1a987de",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792943543_hd/1792943543_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Paris Saint Germain",
+            "team_b": "Lyonnais",
+            "logo_a": "https://images.keovip88.net/images/teams/paris-saint-germain-psg.png",
+            "logo_b": "https://images.keovip88.net/images/teams/lyon.png",
+            "time": "02:30:00",
+            "date": "26/10",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad40c5c24d46db870c49a8a1_69058c68_20261025.png?v=69058c68",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-cc7aec781b",
+          "name": "Udinese vs AC Milan | 02:45 26/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cc7aec781b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cc7aec781b",
+                  "name": "Udinese vs AC Milan",
+                  "streams": [
+                    {
+                      "id": "st-cc7aec781b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-89c1886498",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792946274_hd/1792946274_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Udinese",
+            "team_b": "AC Milan",
+            "logo_a": "https://images.keovip88.net/images/teams/udinese.png",
+            "logo_b": "https://images.keovip88.net/images/teams/ac-milan.png",
+            "time": "02:45:00",
+            "date": "26/10",
+            "blv": "Dory",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad40c5c24d46db870c49a81_d94f1a2c_20261025.png?v=d94f1a2c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-97b291b091",
           "name": "Barcelona vs Real Madrid | 03:00 26/10",
           "type": "single",
@@ -1069,11 +692,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-2eb4eae966",
-                          "name": "Chồn",
+                          "id": "lnk-a592f9407b",
+                          "name": "Đầu cầu Real: Mason + Hấu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821807_hd/1792821807_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792937303_hd/1792937303_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1086,11 +709,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-20098d8dfc",
-                          "name": "Mason",
+                          "id": "lnk-2cdd445e4b",
+                          "name": "Đầu cầu Bà Xã: Súp",
                           "type": "hls",
                           "default": false,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821849_hd/1792821849_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792937299_hd/1792937299_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1103,11 +726,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-80456154b1",
-                          "name": "Súp",
+                          "id": "lnk-a8e115bffe",
+                          "name": "Trung lập Chồn",
                           "type": "hls",
                           "default": false,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792821855_hd/1792821855_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792937309_hd/1792937309_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1134,7 +757,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/real-madrid.png",
             "time": "03:00:00",
             "date": "26/10",
-            "blv": "Chồn, Mason, Súp",
+            "blv": "Đầu cầu Real: Mason + Hấu, Đầu cầu Bà Xã: Súp, Trung lập Chồn",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1146,160 +769,160 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-3f1a89796e",
+          "name": "Al Ahli Jeddah vs Al-Gharafa | 23:00 26/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3f1a89796e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3f1a89796e",
+                  "name": "Al Ahli Jeddah vs Al-Gharafa",
+                  "streams": [
+                    {
+                      "id": "st-3f1a89796e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d1f4e20bd0",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792912890_hd/1792912890_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Al Ahli Jeddah",
+            "team_b": "Al-Gharafa",
+            "logo_a": "https://images.keovip88.net/images/teams/al-ahli-sfc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-garrafa.png",
+            "time": "23:00:00",
+            "date": "26/10",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a8b8a6f4d3de1ad3e0d953c_0754a440_20261025.png?v=0754a440",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-bf080520e4",
+          "name": "Al Ain vs Teraktor-Sazi | 23:00 26/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bf080520e4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bf080520e4",
+                  "name": "Al Ain vs Teraktor-Sazi",
+                  "streams": [
+                    {
+                      "id": "st-bf080520e4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-db20fe860a",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792912968_hd/1792912968_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Al Ain",
+            "team_b": "Teraktor-Sazi",
+            "logo_a": "https://images.keovip88.net/images/teams/al-ain.png",
+            "logo_b": "https://images.keovip88.net/images/teams/tractor-sc.png",
+            "time": "23:00:00",
+            "date": "26/10",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a88e7865d02aeccba00527c_468ef229_20261025.png?v=468ef229",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b5941ad05e",
-          "name": "Liaoning Flying Leopards vs Xinjiang Flying Tigers | 18:35 25/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b5941ad05e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b5941ad05e",
-                  "name": "Liaoning Flying Leopards vs Xinjiang Flying Tigers",
-                  "streams": [
-                    {
-                      "id": "st-b5941ad05e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ece3e5c5d0",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792912786_hd/1792912786_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Basketball Association",
-            "team_a": "Liaoning Flying Leopards",
-            "team_b": "Xinjiang Flying Tigers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e5b2db0dc53319933071f194e099180f.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/f68788874e0a17dd655083cb42b1d00b.png",
-            "time": "18:35:00",
-            "date": "25/10",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/20663476_f09033e4_20261025.png?v=f09033e4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-95bdc9ad5f",
-          "name": "SiChuan Jingqiang Blue Whales vs Zhejiang Golden Bulls | 18:35 25/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-95bdc9ad5f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-95bdc9ad5f",
-                  "name": "SiChuan Jingqiang Blue Whales vs Zhejiang Golden Bulls",
-                  "streams": [
-                    {
-                      "id": "st-95bdc9ad5f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c674f24d9a",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792912848_hd/1792912848_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Basketball Association",
-            "team_a": "SiChuan Jingqiang Blue Whales",
-            "team_b": "Zhejiang Golden Bulls",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/1cb8d991c7b1dbf8f56adbb08619f919.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/eaff06bd8c853345d0a2061a1ef15585.png",
-            "time": "18:35:00",
-            "date": "25/10",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/36563471_b1ef7182_20261025.png?v=b1ef7182",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-a67926043f",
           "name": "Utah Jazz vs Los Angeles Lakers | 04:00 26/10",
@@ -1328,11 +951,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-c7faf5337f",
-                          "name": "Tôm",
+                          "id": "lnk-dff104fa47",
+                          "name": "Cận",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792822001_hd/1792822001_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792943858_hd/1792943858_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1359,7 +982,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/935e553f4435030c604a4948c1e4d243.png",
             "time": "04:00:00",
             "date": "26/10",
-            "blv": "Tôm",
+            "blv": "Cận",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -2311,15 +1934,15 @@
       ]
     },
     {
-      "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "id": "cate_esport",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-bdb1bc8dbf",
-          "name": "Chiếu lại vs UFC33 | 15:58 25/10",
+          "id": "gv-0fac5e3a3b",
+          "name": "Swiss Stage Round 3 vs Swiss Stage Round 3 | 23:59 25/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2333,23 +1956,23 @@
           ],
           "sources": [
             {
-              "id": "src-bdb1bc8dbf",
+              "id": "src-0fac5e3a3b",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-bdb1bc8dbf",
-                  "name": "Chiếu lại vs UFC33",
+                  "id": "ct-0fac5e3a3b",
+                  "name": "Swiss Stage Round 3 vs Swiss Stage Round 3",
                   "streams": [
                     {
-                      "id": "st-bdb1bc8dbf",
+                      "id": "st-0fac5e3a3b",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-ac76cdedd3",
-                          "name": "Dory",
+                          "id": "lnk-d3b4d458c5",
+                          "name": "Cận",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792917530_hd/1792917530_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792944551_hd/1792944551_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2369,26 +1992,107 @@
             }
           ],
           "org_metadata": {
-            "league": "UFC",
-            "team_a": "Chiếu lại",
-            "team_b": "UFC33",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpCFwiRWjTW9-MLdjRREytn6oSFmdGJZpHzKt4P-aIAA&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo_O-78aQRlTM4OdZ-5l2U-gkWTlyKtCjExJvE7jj6pw&s",
-            "time": "15:58:00",
+            "league": "Worlds 2026",
+            "team_a": "Swiss Stage Round 3",
+            "team_b": "Swiss Stage Round 3",
+            "logo_a": "https://store-images.s-microsoft.com/image/apps.18996.14127010465288187.f9de4a96-0ee4-4da3-bf66-d4132b38c599.caf661a7-e0b3-492d-b91b-63627e47283e",
+            "logo_b": "https://store-images.s-microsoft.com/image/apps.18996.14127010465288187.f9de4a96-0ee4-4da3-bf66-d4132b38c599.caf661a7-e0b3-492d-b91b-63627e47283e",
+            "time": "23:59:00",
             "date": "25/10",
-            "blv": "Dory",
+            "blv": "Cận",
             "is_live": true,
-            "cate_type": "vothuat"
+            "cate_type": "esport"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/spjv2eh6hb8z_24565cfe_20261025.png?v=24565cfe",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/5dcqp34r6a7y_6732c057_20261025.png?v=6732c057",
             "width": 1600,
             "height": 1200
           }
         },
+        {
+          "id": "gv-0a4f051f54",
+          "name": "DK vs MKOI | 02:00 26/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0a4f051f54",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0a4f051f54",
+                  "name": "DK vs MKOI",
+                  "streams": [
+                    {
+                      "id": "st-0a4f051f54",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2583dd928c",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792945612_hd/1792945612_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Worlds 2026",
+            "team_a": "DK",
+            "team_b": "MKOI",
+            "logo_a": "https://static.flashscore.com/res/image/data/IcRWRrAr-lAg5zKZ6.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/ED4kN5Wg-tzcD1pVD.png",
+            "time": "02:00:00",
+            "date": "26/10",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/5w7wjvtf2yzm_550d9578_20261025.png?v=550d9578",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_vothuat",
+      "name": "🥊 Võ Thuật",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "gv-dfa1bc2e09",
           "name": "ONE Friday Fights 176 vs The Inner Circle 36 | 18:30 30/10",
@@ -2546,95 +2250,23 @@
     },
     {
       "id": "cate_rugby",
-      "name": "🏅 Thể Thao",
+      "name": "🏅 Thể Thao (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-db78ce38ad",
-          "name": "Pittsburgh Steelers vs New Orleans Saints | 20:30 25/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-db78ce38ad",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-db78ce38ad",
-                  "name": "Pittsburgh Steelers vs New Orleans Saints",
-                  "streams": [
-                    {
-                      "id": "st-db78ce38ad",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-de0d6f15cb",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792913176_hd/1792913176_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NFL",
-            "team_a": "Pittsburgh Steelers",
-            "team_b": "New Orleans Saints",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMoXZEvZC3FfXKAIIiyiMFPypJlCSK-aEiwI7zNs235w&s",
-            "logo_b": "https://static.flashscore.com/res/image/data/MDbgCuCr-h0cvUNB6.png",
-            "time": "20:30:00",
-            "date": "25/10",
-            "blv": "Cận",
-            "is_live": false,
-            "cate_type": "rugby"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/rteppbfbpmzr_07b3b8eb_20261025.png?v=07b3b8eb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-fed172d7a9",
-          "name": "Baltimore Ravens vs Cincinnati Bengals | 00:00 26/10",
+          "name": "Baltimore Ravens vs Cincinnati Bengals | 23:50 25/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2680,10 +2312,10 @@
             "team_b": "Cincinnati Bengals",
             "logo_a": "https://static.flashscore.com/res/image/data/dUe4S2il-40MWbKRi.png",
             "logo_b": "https://static.flashscore.com/res/image/data/KI7ZD8ZA-IqzC8wpd.png",
-            "time": "00:00:00",
-            "date": "26/10",
+            "time": "23:50:00",
+            "date": "25/10",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "rugby"
           },
           "image": {
