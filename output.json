@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "20:45:00",
             "date": "26/10",
             "blv": "Trĩ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -377,6 +377,78 @@
           }
         },
         {
+          "id": "gv-cc6b3ffdb5",
+          "name": "Galatasaray vs Fenerbahce | 01:30 27/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cc6b3ffdb5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cc6b3ffdb5",
+                  "name": "Galatasaray vs Fenerbahce",
+                  "streams": [
+                    {
+                      "id": "st-cc6b3ffdb5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-145a979707",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1793000963_hd/1793000963_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Thổ Nhĩ Kỳ",
+            "team_a": "Galatasaray",
+            "team_b": "Fenerbahce",
+            "logo_a": "https://images.keovip88.net/images/teams/galatasaray.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fenerbahce.png",
+            "time": "01:30:00",
+            "date": "27/10",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad55dc824d46db87099c93b_2d5b81e4_20261026.png?v=2d5b81e4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-ce13238150",
           "name": "Paris Saint Germain vs Lyonnais | 02:30 27/10",
           "type": "single",
@@ -663,6 +735,438 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-218187e14d",
+          "name": "Daejeon Citizen vs Vissel Kobe | 17:00 27/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-218187e14d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-218187e14d",
+                  "name": "Daejeon Citizen vs Vissel Kobe",
+                  "streams": [
+                    {
+                      "id": "st-218187e14d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0efec756d6",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792952849_hd/1792952849_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Daejeon Citizen",
+            "team_b": "Vissel Kobe",
+            "logo_a": "https://images.keovip88.net/images/teams/daejeon-citizen.png",
+            "logo_b": "https://images.keovip88.net/images/teams/vissel-kobe.png",
+            "time": "17:00:00",
+            "date": "27/10",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a8a38deeb269e70040bbd73_416865ea_20261026.png?v=416865ea",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ccbed86b50",
+          "name": "Johor Darul Takzim vs Port FC | 17:00 27/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ccbed86b50",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ccbed86b50",
+                  "name": "Johor Darul Takzim vs Port FC",
+                  "streams": [
+                    {
+                      "id": "st-ccbed86b50",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b0fd198deb",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792953232_hd/1792953232_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Johor Darul Takzim",
+            "team_b": "Port FC",
+            "logo_a": "https://images.keovip88.net/images/teams/johor-darul-takzim.png",
+            "logo_b": "https://images.keovip88.net/images/teams/port-fc.png",
+            "time": "17:00:00",
+            "date": "27/10",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a88e7865d02aeccba005265_4c0acc0c_20261026.png?v=4c0acc0c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c35ba99f10",
+          "name": "Shanghai Port vs Công An Hà Nội | 17:00 27/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c35ba99f10",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c35ba99f10",
+                  "name": "Shanghai Port vs Công An Hà Nội",
+                  "streams": [
+                    {
+                      "id": "st-c35ba99f10",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-742d416876",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792953267_hd/1792953267_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Shanghai Port",
+            "team_b": "Công An Hà Nội",
+            "logo_a": "https://images.keovip88.net/images/teams/shanghai-port.png",
+            "logo_b": "https://images.keovip88.net/images/teams/cong-an-ha-noi.png",
+            "time": "17:00:00",
+            "date": "27/10",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a88e7865d02aeccba005266_832c9510_20261026.png?v=832c9510",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9f5a616dda",
+          "name": "Becamex Bình Dương vs Than Quảng Ninh | 18:00 27/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f5a616dda",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9f5a616dda",
+                  "name": "Becamex Bình Dương vs Than Quảng Ninh",
+                  "streams": [
+                    {
+                      "id": "st-9f5a616dda",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f584292bec",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792954032_hd/1792954032_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hạng Nhất Việt Nam",
+            "team_a": "Becamex Bình Dương",
+            "team_b": "Than Quảng Ninh",
+            "logo_a": "https://images.keovip88.net/images/teams/becamex-binh-duong.png",
+            "logo_b": "https://images.keovip88.net/images/teams/than-quang-ninh.gif",
+            "time": "18:00:00",
+            "date": "27/10",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad55dc924d46db87099ca1d_26bb8ea3_20261026.png?v=26bb8ea3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d3b92ec80c",
+          "name": "Beijing Guoan vs Jeonbuk Hyundai Motors | 19:15 27/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d3b92ec80c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d3b92ec80c",
+                  "name": "Beijing Guoan vs Jeonbuk Hyundai Motors",
+                  "streams": [
+                    {
+                      "id": "st-d3b92ec80c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-80457e0ffe",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792954469_hd/1792954469_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Beijing Guoan",
+            "team_b": "Jeonbuk Hyundai Motors",
+            "logo_a": "https://images.keovip88.net/images/teams/beijing-guoan.png",
+            "logo_b": "https://images.keovip88.net/images/teams/jeonbuk-hyundai-motors.png",
+            "time": "19:15:00",
+            "date": "27/10",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a88e7865d02aeccba005267_d3d5e9b5_20261026.png?v=d3d5e9b5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-38e8a9f90f",
+          "name": "Ratchaburi FC vs Kashiwa Reysol | 19:15 27/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-38e8a9f90f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-38e8a9f90f",
+                  "name": "Ratchaburi FC vs Kashiwa Reysol",
+                  "streams": [
+                    {
+                      "id": "st-38e8a9f90f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2760a1ca9c",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792954558_hd/1792954558_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Ratchaburi FC",
+            "team_b": "Kashiwa Reysol",
+            "logo_a": "https://images.keovip88.net/images/teams/ratchaburi-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/kashiwa-reysol.png",
+            "time": "19:15:00",
+            "date": "27/10",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a8a38deeb269e70040bbd75_80ad8e59_20261026.png?v=80ad8e59",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -673,222 +1177,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-4fd2b00ed5",
-          "name": "Goyang Orions vs Changwon LG Sakers | 17:00 26/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4fd2b00ed5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4fd2b00ed5",
-                  "name": "Goyang Orions vs Changwon LG Sakers",
-                  "streams": [
-                    {
-                      "id": "st-4fd2b00ed5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1a61628f40",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792950986_hd/1792950986_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korea Basketball League",
-            "team_a": "Goyang Orions",
-            "team_b": "Changwon LG Sakers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/5b0e513f868dee6a403d7d5dfc3628b3.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/ccac4cdb678cc18454c6aecd42e321d6.png",
-            "time": "17:00:00",
-            "date": "26/10",
-            "blv": "Cận",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/29060375_ccee619b_20261026.png?v=ccee619b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-609ba64672",
-          "name": "Ningbo Rockets vs Jilin Northeast Tigers | 18:35 26/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-609ba64672",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-609ba64672",
-                  "name": "Ningbo Rockets vs Jilin Northeast Tigers",
-                  "streams": [
-                    {
-                      "id": "st-609ba64672",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-20f586286e",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792951061_hd/1792951061_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Basketball Association",
-            "team_a": "Ningbo Rockets",
-            "team_b": "Jilin Northeast Tigers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/78539aa7b6e4518265799642461ab855.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/9b1edb3adebae8211e057008d8352b03.png",
-            "time": "18:35:00",
-            "date": "26/10",
-            "blv": "Cầy",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21663477_6480bfc2_20261026.png?v=6480bfc2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c09f727d4f",
-          "name": "Shanghai Jiushi Sharks vs Guangdong Southern Tigers | 18:35 26/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c09f727d4f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c09f727d4f",
-                  "name": "Shanghai Jiushi Sharks vs Guangdong Southern Tigers",
-                  "streams": [
-                    {
-                      "id": "st-c09f727d4f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee76b0709d",
-                          "name": "Nem",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792951556_hd/1792951556_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Basketball Association",
-            "team_a": "Shanghai Jiushi Sharks",
-            "team_b": "Guangdong Southern Tigers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/d67cd54e91fe7a46a2f9bdd646544989.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/37b8668860b7f12aeb8a40fafaaa2e83.png",
-            "time": "18:35:00",
-            "date": "26/10",
-            "blv": "Nem",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/22663478_f1526479_20261026.png?v=f1526479",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f281f7baa6",
           "name": "Cleveland Cavaliers vs Minnesota Timberwolves | 06:00 27/10",
