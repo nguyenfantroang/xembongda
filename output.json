@@ -11,227 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9e6caa885a",
-          "name": "LỄ TRAO GIẢI QBV 2026 vs LỄ TRAO GIẢI QBV 2026 | 03:00 27/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9e6caa885a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9e6caa885a",
-                  "name": "LỄ TRAO GIẢI QBV 2026 vs LỄ TRAO GIẢI QBV 2026",
-                  "streams": [
-                    {
-                      "id": "st-9e6caa885a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4f40a8269e",
-                          "name": "Hấu + Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792981768_hd/1792981768_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LỄ TRAO GIẢI QBV 2026",
-            "team_a": "LỄ TRAO GIẢI QBV 2026",
-            "team_b": "LỄ TRAO GIẢI QBV 2026",
-            "logo_a": "https://cdn-img.thethao247.vn/origin_640x0/storage/files/hoangnhien/2026/10/12/20-6acc972c5a139.jpg",
-            "logo_b": "https://cdn-img.thethao247.vn/origin_640x0/storage/files/hoangnhien/2026/10/12/20-6acc972c5a139.jpg",
-            "time": "03:00:00",
-            "date": "27/10",
-            "blv": "Hấu + Chồn",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/k82ew2dw3kjt_bec77109_20261027.png?v=bec77109",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e9a5655e67",
-          "name": "Flamengo vs Atletico Mineiro | 06:00 27/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e9a5655e67",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e9a5655e67",
-                  "name": "Flamengo vs Atletico Mineiro",
-                  "streams": [
-                    {
-                      "id": "st-e9a5655e67",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-87b9ae8c68",
-                          "name": "Hứa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792990366_hd/1792990366_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Brazil",
-            "team_a": "Flamengo",
-            "team_b": "Atletico Mineiro",
-            "logo_a": "https://images.keovip88.net/images/teams/flamengo.png",
-            "logo_b": "https://images.keovip88.net/images/teams/atletico-mineiro.png",
-            "time": "06:00:00",
-            "date": "27/10",
-            "blv": "Hứa",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ad55dc824d46db87099c9b6_2ec6a75c_20261027.png?v=2ec6a75c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-5fb9be3d2c",
-          "name": "Al-Nassr FC vs Al Wasl FC | 01:15 27/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5fb9be3d2c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5fb9be3d2c",
-                  "name": "Al-Nassr FC vs Al Wasl FC",
-                  "streams": [
-                    {
-                      "id": "st-5fb9be3d2c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e569604bd2",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792913095_hd/1792913095_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League",
-            "team_a": "Al-Nassr FC",
-            "team_b": "Al Wasl FC",
-            "logo_a": "https://images.keovip88.net/images/teams/al-nassr.png",
-            "logo_b": "https://images.keovip88.net/images/teams/al-wasl.png",
-            "time": "01:15:00",
-            "date": "27/10",
-            "blv": "Ben",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a88e7865d02aeccba00527d_114e3d7f_20261027.png?v=114e3d7f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-218187e14d",
           "name": "Daejeon Citizen vs Vissel Kobe | 17:00 27/10",
@@ -1250,8 +1034,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-f281f7baa6",
-          "name": "Cleveland Cavaliers vs Minnesota Timberwolves | 06:00 27/10",
+          "id": "gv-daa704d71b",
+          "name": "Oklahoma City Thunder vs Phoenix Suns | 07:00 27/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1265,23 +1049,23 @@
           ],
           "sources": [
             {
-              "id": "src-f281f7baa6",
+              "id": "src-daa704d71b",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-f281f7baa6",
-                  "name": "Cleveland Cavaliers vs Minnesota Timberwolves",
+                  "id": "ct-daa704d71b",
+                  "name": "Oklahoma City Thunder vs Phoenix Suns",
                   "streams": [
                     {
-                      "id": "st-f281f7baa6",
+                      "id": "st-daa704d71b",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-f56a9983bd",
-                          "name": "Ben",
+                          "id": "lnk-0bbfb34999",
+                          "name": "Chồn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792913172_hd/1792913172_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792947019_hd/1792947019_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1302,13 +1086,13 @@
           ],
           "org_metadata": {
             "league": "National Basketball Association",
-            "team_a": "Cleveland Cavaliers",
-            "team_b": "Minnesota Timberwolves",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/d4d48671e1b8c3830897ac4f6604ea9a.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/e97782502546bad80da0347446a3a311.png",
-            "time": "06:00:00",
+            "team_a": "Oklahoma City Thunder",
+            "team_b": "Phoenix Suns",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/75c31ec2c28ab86f2f54563667653426.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/6a6855785a58edb23c76c99ed6601a33.png",
+            "time": "07:00:00",
             "date": "27/10",
-            "blv": "Ben",
+            "blv": "Chồn",
             "is_live": true,
             "cate_type": "basketball"
           },
@@ -1316,223 +1100,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/37436471_29d37f7e_20261027.png?v=29d37f7e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c2b0025f11",
-          "name": "Charlotte Hornets vs Washington Wizards | 06:00 27/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c2b0025f11",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c2b0025f11",
-                  "name": "Charlotte Hornets vs Washington Wizards",
-                  "streams": [
-                    {
-                      "id": "st-c2b0025f11",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-581dd586b8",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792913207_hd/1792913207_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Charlotte Hornets",
-            "team_b": "Washington Wizards",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/9e28959b5af233b67c389787d2886c84.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/f4a3bba0c74c9f2b90bc5861ec26e3c7.png",
-            "time": "06:00:00",
-            "date": "27/10",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/36436470_4ae2150b_20261027.png?v=4ae2150b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-52fdd2f6e4",
-          "name": "Boston Celtics vs Chicago Bulls | 06:30 27/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-52fdd2f6e4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-52fdd2f6e4",
-                  "name": "Boston Celtics vs Chicago Bulls",
-                  "streams": [
-                    {
-                      "id": "st-52fdd2f6e4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2de4864376",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792913233_hd/1792913233_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Boston Celtics",
-            "team_b": "Chicago Bulls",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/ef37e5c1c853e5b689b6791b00e8bc58.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c73eca8b9cc18ff386bf6ff4c1236b9e.png",
-            "time": "06:30:00",
-            "date": "27/10",
-            "blv": "Mickey",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/38436472_1731e63a_20261027.png?v=1731e63a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-471b50c0f9",
-          "name": "Miami Heat vs Dallas Mavericks | 06:30 27/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-471b50c0f9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-471b50c0f9",
-                  "name": "Miami Heat vs Dallas Mavericks",
-                  "streams": [
-                    {
-                      "id": "st-471b50c0f9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-76cdcd5214",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792913256_hd/1792913256_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Miami Heat",
-            "team_b": "Dallas Mavericks",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/43ebb4d6ad3ea5b68e9b1c969dff055b.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/0ae1b26dafd6ba3ff82f91d19b235038.png",
-            "time": "06:30:00",
-            "date": "27/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39436473_cc980a19_20261027.png?v=cc980a19",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/37688278_76637e67_20261027.png?v=76637e67",
             "width": 1600,
             "height": 1200
           }
@@ -1610,78 +1178,6 @@
           }
         },
         {
-          "id": "gv-daa704d71b",
-          "name": "Oklahoma City Thunder vs Phoenix Suns | 07:00 27/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-daa704d71b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-daa704d71b",
-                  "name": "Oklahoma City Thunder vs Phoenix Suns",
-                  "streams": [
-                    {
-                      "id": "st-daa704d71b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0bbfb34999",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792947019_hd/1792947019_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Oklahoma City Thunder",
-            "team_b": "Phoenix Suns",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/75c31ec2c28ab86f2f54563667653426.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/6a6855785a58edb23c76c99ed6601a33.png",
-            "time": "07:00:00",
-            "date": "27/10",
-            "blv": "Chồn",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/37688278_76637e67_20261027.png?v=76637e67",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-a9db0dba4b",
           "name": "Houston Rockets vs Atlanta Hawks | 07:30 27/10",
           "type": "single",
@@ -1689,10 +1185,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1741,7 +1237,7 @@
             "time": "07:30:00",
             "date": "27/10",
             "blv": "Nem",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1761,10 +1257,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1813,7 +1309,7 @@
             "time": "08:00:00",
             "date": "27/10",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1833,10 +1329,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1885,7 +1381,7 @@
             "time": "09:00:00",
             "date": "27/10",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -2558,7 +2054,7 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2571,10 +2067,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2623,7 +2119,7 @@
             "time": "07:00:00",
             "date": "27/10",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchay"
           },
           "image": {
@@ -2639,7 +2135,7 @@
     },
     {
       "id": "cate_rugby",
-      "name": "🏅 Thể Thao",
+      "name": "🏅 Thể Thao (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2652,10 +2148,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2704,7 +2200,7 @@
             "time": "07:15:00",
             "date": "27/10",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "rugby"
           },
           "image": {
