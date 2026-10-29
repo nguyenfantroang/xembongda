@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-bf7875cdb3",
-          "name": "Gangwon FC vs Kuching FA | 17:00 29/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bf7875cdb3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bf7875cdb3",
-                  "name": "Gangwon FC vs Kuching FA",
-                  "streams": [
-                    {
-                      "id": "st-bf7875cdb3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7910e71710",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1793234567_hd/1793234567_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Cup",
-            "team_a": "Gangwon FC",
-            "team_b": "Kuching FA",
-            "logo_a": "https://images.keovip88.net/images/teams/gangwon-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/kuching-fa.png",
-            "time": "17:00:00",
-            "date": "29/10",
-            "blv": "Tỵ ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a8b8a724d3de1ad3e0d9575_23c02604_20261029.png?v=23c02604",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-4c9a20460b",
-          "name": "Tampines Rovers FC vs Svay Rieng FC | 17:00 29/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4c9a20460b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4c9a20460b",
-                  "name": "Tampines Rovers FC vs Svay Rieng FC",
-                  "streams": [
-                    {
-                      "id": "st-4c9a20460b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f1c213a609",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1793234724_hd/1793234724_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Cup",
-            "team_a": "Tampines Rovers FC",
-            "team_b": "Svay Rieng FC",
-            "logo_a": "https://images.keovip88.net/images/teams/tampines-rovers-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/svay-rieng-fc.png",
-            "time": "17:00:00",
-            "date": "29/10",
-            "blv": "Bee",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a88e7955d02aeccba0052a0_3dd0a3b6_20261029.png?v=3dd0a3b6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c86ffc125d",
           "name": "Phnom Penh FC vs Kitchee | 19:15 29/10",
@@ -168,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -188,11 +44,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-3c47b0e8b5",
+                          "id": "lnk-082855e69a",
                           "name": "Tỵ ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1793234765_hd/1793234765_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1793234765_hd/1793234765_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -220,7 +76,7 @@
             "time": "19:15:00",
             "date": "29/10",
             "blv": "Tỵ ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -240,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -260,11 +116,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-169b2fc881",
+                          "id": "lnk-a089694124",
                           "name": "Trĩ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1793234794_hd/1793234794_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1793234794_hd/1793234794_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -292,7 +148,7 @@
             "time": "19:15:00",
             "date": "29/10",
             "blv": "Trĩ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -300,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a8b8a724d3de1ad3e0d9570_4d6041f4_20261029.png?v=4d6041f4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c807565c06",
-          "name": "Wofoo Tai Po vs Bangkok Glass | 19:15 29/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c807565c06",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c807565c06",
-                  "name": "Wofoo Tai Po vs Bangkok Glass",
-                  "streams": [
-                    {
-                      "id": "st-c807565c06",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cd555952b4",
-                          "name": "Hứa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1793234826_hd/1793234826_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Cup",
-            "team_a": "Wofoo Tai Po",
-            "team_b": "Bangkok Glass",
-            "logo_a": "https://images.keovip88.net/images/teams/wofoo-tai-po.png",
-            "logo_b": "https://images.keovip88.net/images/teams/bg-pathum-united.png",
-            "time": "19:15:00",
-            "date": "29/10",
-            "blv": "Hứa",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a8b8a724d3de1ad3e0d9569_7cdf321f_20261029.png?v=7cdf321f",
             "width": 1600,
             "height": 1200
           }
@@ -1028,83 +812,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-369bfee307",
-          "name": "Brisbane Bullets vs Cairns Taipans | 16:00 29/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-369bfee307",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-369bfee307",
-                  "name": "Brisbane Bullets vs Cairns Taipans",
-                  "streams": [
-                    {
-                      "id": "st-369bfee307",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42fc7c0b0",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1793234887_hd/1793234887_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball League(Australia)",
-            "team_a": "Brisbane Bullets",
-            "team_b": "Cairns Taipans",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/fd1ef26f7174d02a5a30dbe9e69b45f9.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/690d69ad99fc8d3bd6fe4a7131521421.png",
-            "time": "16:00:00",
-            "date": "29/10",
-            "blv": "Cận",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/26522274_5049f5a6_20261029.png?v=5049f5a6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e53fed2556",
           "name": "Guangdong Southern Tigers vs Suzhou Dragons Kentier | 18:35 29/10",
@@ -1113,10 +825,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1133,11 +845,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-12a5a27e86",
+                          "id": "lnk-2780a90191",
                           "name": "Cầy",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1793235095_hd/1793235095_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1793235095_hd/1793235095_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1165,7 +877,7 @@
             "time": "18:35:00",
             "date": "29/10",
             "blv": "Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1185,10 +897,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1205,11 +917,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-f10ac72d51",
+                          "id": "lnk-2bcf98b2af",
                           "name": "Điếc",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1793235127_hd/1793235127_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1793235127_hd/1793235127_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1237,7 +949,7 @@
             "time": "18:35:00",
             "date": "29/10",
             "blv": "Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1257,10 +969,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1277,11 +989,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-bfadd480cf",
+                          "id": "lnk-b3a4139700",
                           "name": "Nem",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1793235006_hd/1793235006_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1793235006_hd/1793235006_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1309,7 +1021,7 @@
             "time": "18:35:00",
             "date": "29/10",
             "blv": "Nem",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1329,10 +1041,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1349,11 +1061,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-d18fe7a440",
+                          "id": "lnk-a45125651f",
                           "name": "Vịt",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1793235042_hd/1793235042_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1793235042_hd/1793235042_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1381,7 +1093,7 @@
             "time": "18:35:00",
             "date": "29/10",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1401,10 +1113,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1421,11 +1133,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-f403912762",
+                          "id": "lnk-245c1342f3",
                           "name": "Mason",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1793235157_hd/1793235157_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1793235157_hd/1793235157_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1453,7 +1165,7 @@
             "time": "19:00:00",
             "date": "29/10",
             "blv": "Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1901,7 +1613,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1914,10 +1626,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1934,11 +1646,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-e751a8a0f4",
+                          "id": "lnk-00816078a4",
                           "name": "Sún",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1793235221_hd/1793235221_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1793235221_hd/1793235221_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1966,7 +1678,7 @@
             "time": "19:30:00",
             "date": "29/10",
             "blv": "Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -2006,11 +1718,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-274bd40456",
+                          "id": "lnk-a0d8d70dfc",
                           "name": "Sún",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1793235265_hd/1793235265_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1793235265_hd/1793235265_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2054,11 +1766,83 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-b5fce8f3e1",
+          "name": "Aurora vs MOUZ | 21:00 29/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b5fce8f3e1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b5fce8f3e1",
+                  "name": "Aurora vs MOUZ",
+                  "streams": [
+                    {
+                      "id": "st-b5fce8f3e1",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a5d9971c34",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1793266801_hd/1793266801_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CS2-PGL Masters Buncharest 2026",
+            "team_a": "Aurora",
+            "team_b": "MOUZ",
+            "logo_a": "https://static.flashscore.com/res/image/data/8dZOBwvS-hvzueWgo.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/ObrRkAe5-xrMguOa9.png",
+            "time": "21:00:00",
+            "date": "29/10",
+            "blv": "Riko",
+            "is_live": true,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/tdhlbchj0b22_17b92a06_20261029.png?v=17b92a06",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-93cc116e3c",
           "name": "KC vs CFO | 03:00 30/10",
@@ -2657,7 +2441,7 @@
     },
     {
       "id": "cate_bongban",
-      "name": "🏓 Bóng Bàn",
+      "name": "🏓 Bóng Bàn (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2670,10 +2454,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2690,11 +2474,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-c74ddd3499",
+                          "id": "lnk-83ce13397f",
                           "name": "Súp",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1793235410_hd/1793235410_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1793235410_hd/1793235410_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2722,7 +2506,7 @@
             "time": "18:00:00",
             "date": "29/10",
             "blv": "Súp",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongban"
           },
           "image": {
