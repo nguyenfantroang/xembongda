@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-6701ec228e",
-          "name": "Alebrijes de Oaxaca vs Mineros de Zacatecas | 08:00 30/10",
+          "id": "gv-a0ea4820cd",
+          "name": "DPMM FC vs Negeri Sembilan | 15:00 30/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,78 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6701ec228e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6701ec228e",
-                  "name": "Alebrijes de Oaxaca vs Mineros de Zacatecas",
-                  "streams": [
-                    {
-                      "id": "st-6701ec228e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d4a34cde05",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1793295322_hd/1793295322_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Mexico - Liga de Expansión MX",
-            "team_a": "Alebrijes de Oaxaca",
-            "team_b": "Mineros de Zacatecas",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/lxOFg-0OLpjpsYyq9Q6u5g_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/nKmlT1o1eHIBc3cCKpfzug_96x96.png",
-            "time": "08:00:00",
-            "date": "30/10",
-            "blv": "Bee",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/0l5hpou58jg2_ccc473a0_20261030.png?v=ccc473a0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-a0ea4820cd",
-          "name": "DPMM FC vs Negeri Sembilan | 15:00 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -148,7 +76,7 @@
             "time": "15:00:00",
             "date": "30/10",
             "blv": "Hứa",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -168,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +148,7 @@
             "time": "16:00:00",
             "date": "30/10",
             "blv": "Tỵ ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -879,6 +807,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-5232f1f16f",
+          "name": "FC Macarthur vs Western Sydney Wanderers | 15:40 31/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5232f1f16f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5232f1f16f",
+                  "name": "FC Macarthur vs Western Sydney Wanderers",
+                  "streams": [
+                    {
+                      "id": "st-5232f1f16f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-309b44670e",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1793283693_hd/1793283693_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Úc",
+            "team_a": "FC Macarthur",
+            "team_b": "Western Sydney Wanderers",
+            "logo_a": "https://images.keovip88.net/images/teams/fc-macarthur.png",
+            "logo_b": "https://images.keovip88.net/images/teams/western-sydney.png",
+            "time": "15:40:00",
+            "date": "31/10",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6adaa3d524d46db8704c52d2_ba314111_20261030.png?v=ba314111",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -890,8 +890,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-b8fd297f3a",
-          "name": "Portland Trail Blazers vs Memphis Grizzlies | 09:00 30/10",
+          "id": "gv-b3e2529814",
+          "name": "Tasmania JackJumpers vs Sydney Kings | 15:30 30/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -901,150 +901,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b8fd297f3a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b8fd297f3a",
-                  "name": "Portland Trail Blazers vs Memphis Grizzlies",
-                  "streams": [
-                    {
-                      "id": "st-b8fd297f3a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9d4dd2c8d3",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1793295503_hd/1793295503_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Portland Trail Blazers",
-            "team_b": "Memphis Grizzlies",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/ea86671a348a3277fa075840258d8bc7.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/1a66910c422c9a4be29bde3618ff8af5.png",
-            "time": "09:00:00",
-            "date": "30/10",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/49788271_2bbfb3c8_20261030.png?v=2bbfb3c8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-23a4b60b8d",
-          "name": "New Zealand Breakers vs Adelaide 36ers | 13:30 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-23a4b60b8d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-23a4b60b8d",
-                  "name": "New Zealand Breakers vs Adelaide 36ers",
-                  "streams": [
-                    {
-                      "id": "st-23a4b60b8d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f939f502fd",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793295573_hd/1793295573_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball League(Australia)",
-            "team_a": "New Zealand Breakers",
-            "team_b": "Adelaide 36ers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/7778a93083d2fa50e4cb4e128f07cf5f.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/6a6d3d4063e675d1ce3e701153e3f367.png",
-            "time": "13:30:00",
-            "date": "30/10",
-            "blv": "Ben",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/27522275_0de1d96d_20261030.png?v=0de1d96d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b3e2529814",
-          "name": "Tasmania JackJumpers vs Sydney Kings | 15:30 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1093,7 +949,7 @@
             "time": "15:30:00",
             "date": "30/10",
             "blv": "Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -2433,87 +2289,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/k9ev6oqjtmiz_c6abb8f9_20261030.png?v=c6abb8f9",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_rugby",
-      "name": "🏅 Thể Thao (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-e1bed5593a",
-          "name": "Carolina Panthers vs Green Bay Packers | 07:15 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e1bed5593a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e1bed5593a",
-                  "name": "Carolina Panthers vs Green Bay Packers",
-                  "streams": [
-                    {
-                      "id": "st-e1bed5593a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-40141b9f47",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1793295716_hd/1793295716_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NFL",
-            "team_a": "Carolina Panthers",
-            "team_b": "Green Bay Packers",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/CXMe1uLygmmxPU3PNKga7g_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/VeFjPDwgNAreoWjnpVNqrg_96x96.png",
-            "time": "07:15:00",
-            "date": "30/10",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "rugby"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/5ipj9qwj6wpo_9e3da23d_20261030.png?v=9e3da23d",
             "width": 1600,
             "height": 1200
           }
