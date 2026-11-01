@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c518ba7967",
-          "name": "Melbourne Victory FC vs Central Coast Mariners FC | 11:00 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c518ba7967",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c518ba7967",
-                  "name": "Melbourne Victory FC vs Central Coast Mariners FC",
-                  "streams": [
-                    {
-                      "id": "st-c518ba7967",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4e32728b9f",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793374314_hd/1793374314_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Úc",
-            "team_a": "Melbourne Victory FC",
-            "team_b": "Central Coast Mariners FC",
-            "logo_a": "https://images.keovip88.net/images/teams/melbourne-victory.png",
-            "logo_b": "https://images.keovip88.net/images/teams/central-coast-mariners.png",
-            "time": "11:00:00",
-            "date": "01/11",
-            "blv": "Tỵ ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6adbf55224d46db8700db9cc_72e239d8_20261101.png?v=72e239d8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-348030a2f4",
           "name": "FC Machida Zelvia vs Gamba Osaka | 14:00 01/11",
@@ -96,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +76,7 @@
             "time": "14:00:00",
             "date": "01/11",
             "blv": "Hấu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -168,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +148,7 @@
             "time": "15:00:00",
             "date": "01/11",
             "blv": "Tỵ ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -915,6 +843,78 @@
           }
         },
         {
+          "id": "gv-d4316b8c6f",
+          "name": "Eintracht Frankfurt vs Hamburger | 23:30 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d4316b8c6f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d4316b8c6f",
+                  "name": "Eintracht Frankfurt vs Hamburger",
+                  "streams": [
+                    {
+                      "id": "st-d4316b8c6f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c48d50d064",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793509210_hd/1793509210_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Eintracht Frankfurt",
+            "team_b": "Hamburger",
+            "logo_a": "https://images.keovip88.net/images/teams/eintracht-frankfurt.png",
+            "logo_b": "https://images.keovip88.net/images/teams/hamburger-sv.png",
+            "time": "23:30:00",
+            "date": "01/11",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5cae5e6975d550f0787_00b400ef_20261101.png?v=00b400ef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-2702b7a819",
           "name": "Lecce vs Genoa | 23:59 01/11",
           "type": "single",
@@ -1054,6 +1054,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6add46cf24d46db870f8ad92_fa6732bc_20261101.png?v=fa6732bc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-30ec6f5dc4",
+          "name": "Palmeiras vs Vasco Gama | 02:00 02/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-30ec6f5dc4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-30ec6f5dc4",
+                  "name": "Palmeiras vs Vasco Gama",
+                  "streams": [
+                    {
+                      "id": "st-30ec6f5dc4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f75ddcf46b",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793509307_hd/1793509307_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp Brazil",
+            "team_a": "Palmeiras",
+            "team_b": "Vasco Gama",
+            "logo_a": "https://images.keovip88.net/images/teams/palmeiras.png",
+            "logo_b": "https://images.keovip88.net/images/teams/vasco-da-gama.png",
+            "time": "02:00:00",
+            "date": "02/11",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aa1f4090eec5464580631ee_ca4a2fa0_20261101.png?v=ca4a2fa0",
             "width": 1600,
             "height": 1200
           }
@@ -1278,515 +1350,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (6 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ad07a2d583",
-          "name": "New Orleans Pelicans vs Atlanta Hawks | 06:00 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ad07a2d583",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ad07a2d583",
-                  "name": "New Orleans Pelicans vs Atlanta Hawks",
-                  "streams": [
-                    {
-                      "id": "st-ad07a2d583",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cfe23be652",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793461977_hd/1793461977_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "New Orleans Pelicans",
-            "team_b": "Atlanta Hawks",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/b745bb8171bc1a860d480067c1bb9b8f.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/57bd383cc8c9b3d4f92a5d1c371e38e9.png",
-            "time": "06:00:00",
-            "date": "01/11",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/31888274_6efa28e3_20261101.png?v=6efa28e3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c36be1c813",
-          "name": "Golden State Valkyries vs Atlanta Dream | 07:00 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c36be1c813",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c36be1c813",
-                  "name": "Golden State Valkyries vs Atlanta Dream",
-                  "streams": [
-                    {
-                      "id": "st-c36be1c813",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3ab3e799e3",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793374986_hd/1793374986_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "Golden State Valkyries",
-            "team_b": "Atlanta Dream",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/f527c983cab3560c60e7b9d147904d7d.png",
-            "time": "07:00:00",
-            "date": "01/11",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21091573_ec8579d0_20261101.png?v=ec8579d0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-2839f4aa29",
-          "name": "Milwaukee Bucks vs Cleveland Cavaliers | 07:00 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2839f4aa29",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2839f4aa29",
-                  "name": "Milwaukee Bucks vs Cleveland Cavaliers",
-                  "streams": [
-                    {
-                      "id": "st-2839f4aa29",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-49fbbc56a9",
-                          "name": "Nem",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793375015_hd/1793375015_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Milwaukee Bucks",
-            "team_b": "Cleveland Cavaliers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e82de69ea44942a3e90a5be6cf0004da.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/d4d48671e1b8c3830897ac4f6604ea9a.png",
-            "time": "07:00:00",
-            "date": "01/11",
-            "blv": "Nem",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/35928273_9395b804_20261101.png?v=9395b804",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-62e2fc12a4",
-          "name": "San Antonio Spurs vs Minnesota Timberwolves | 07:00 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-62e2fc12a4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-62e2fc12a4",
-                  "name": "San Antonio Spurs vs Minnesota Timberwolves",
-                  "streams": [
-                    {
-                      "id": "st-62e2fc12a4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-08a6ad40be",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793375050_hd/1793375050_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "San Antonio Spurs",
-            "team_b": "Minnesota Timberwolves",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/908efbb5ed053f61540cca47cc36e7ec.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/e97782502546bad80da0347446a3a311.png",
-            "time": "07:00:00",
-            "date": "01/11",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/32888275_2f660a74_20261101.png?v=2f660a74",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-fd9cc9821b",
-          "name": "Memphis Grizzlies vs Sacramento Kings | 07:00 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fd9cc9821b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fd9cc9821b",
-                  "name": "Memphis Grizzlies vs Sacramento Kings",
-                  "streams": [
-                    {
-                      "id": "st-fd9cc9821b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a00a490b56",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793487633_hd/1793487633_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Memphis Grizzlies",
-            "team_b": "Sacramento Kings",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/1a66910c422c9a4be29bde3618ff8af5.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/b7096093642227c698108ad872603a76.png",
-            "time": "07:00:00",
-            "date": "01/11",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/33888276_a010083d_20261101.png?v=a010083d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-9de601a786",
-          "name": "Houston Rockets vs Oklahoma City Thunder | 07:30 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9de601a786",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9de601a786",
-                  "name": "Houston Rockets vs Oklahoma City Thunder",
-                  "streams": [
-                    {
-                      "id": "st-9de601a786",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e355ed8e51",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793375114_hd/1793375114_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Houston Rockets",
-            "team_b": "Oklahoma City Thunder",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/cd4e8cb86960160ecba025ba8d73cd3f.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/75c31ec2c28ab86f2f54563667653426.png",
-            "time": "07:30:00",
-            "date": "01/11",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/34888277_e429a364_20261101.png?v=e429a364",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-032a8c48f9",
-          "name": "South East Melbourne Phoenix vs Tasmania JackJumpers | 11:00 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-032a8c48f9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-032a8c48f9",
-                  "name": "South East Melbourne Phoenix vs Tasmania JackJumpers",
-                  "streams": [
-                    {
-                      "id": "st-032a8c48f9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3abbcd6db3",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793375147_hd/1793375147_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball League(Australia)",
-            "team_a": "South East Melbourne Phoenix",
-            "team_b": "Tasmania JackJumpers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e5c63f30ad74c5c5159f1e7695173ae5.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/b4775c62432e01185c4fd9669952b258.png",
-            "time": "11:00:00",
-            "date": "01/11",
-            "blv": "Vịt",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21622270_d734c02d_20261101.png?v=d734c02d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-1f43872311",
           "name": "Goyang Sono vs Suwon KT | 12:00 01/11",
@@ -1795,10 +1363,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1847,7 +1415,7 @@
             "time": "12:00:00",
             "date": "01/11",
             "blv": "Nem",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1860,78 +1428,6 @@
           }
         },
         {
-          "id": "gv-6052bcbae4",
-          "name": "LG Sakers vs Wonju DB | 12:00 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6052bcbae4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6052bcbae4",
-                  "name": "LG Sakers vs Wonju DB",
-                  "streams": [
-                    {
-                      "id": "st-6052bcbae4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ecd46c974e",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793487655_hd/1793487655_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "South Korean KBL Cup",
-            "team_a": "LG Sakers",
-            "team_b": "Wonju DB",
-            "logo_a": "https://static.flashscore.com/res/image/data/M5dauNCa-2el3ggr9.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/ELYOWIAr-xtco8W2d.png",
-            "time": "12:00:00",
-            "date": "01/11",
-            "blv": "Ben",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/1ti63htfw6jg_6f834a73_20261101.png?v=6f834a73",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-0bc91ac252",
           "name": "Adelaide 36ers vs Brisbane Bullets | 13:00 01/11",
           "type": "single",
@@ -1939,10 +1435,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1991,7 +1487,7 @@
             "time": "13:00:00",
             "date": "01/11",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -2292,6 +1788,78 @@
           }
         },
         {
+          "id": "gv-09f703f6a2",
+          "name": "Liaoning Flying Leopards vs Shenzhen Leopards | 18:35 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-09f703f6a2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-09f703f6a2",
+                  "name": "Liaoning Flying Leopards vs Shenzhen Leopards",
+                  "streams": [
+                    {
+                      "id": "st-09f703f6a2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-608dd4926a",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793517745_hd/1793517745_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "Liaoning Flying Leopards",
+            "team_b": "Shenzhen Leopards",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e5b2db0dc53319933071f194e099180f.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/4d9ec843176ad902c32b3b317118e543.png",
+            "time": "18:35:00",
+            "date": "01/11",
+            "blv": "Ngu",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/37863475_42f17396_20261101.png?v=42f17396",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-727fea17d2",
           "name": "Orlando Magic vs Boston Celtics | 03:30 02/11",
           "type": "single",
@@ -2578,19 +2146,10 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-b30a373293",
-          "name": "Okayama Seagulls Nữ vs Gunma Greenwings Nữ | 12:05 01/11",
+          "id": "gv-bb2cafbcd2",
+          "name": "Melbourne United vs New Zealand Breakers | 15:30 02/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2604,23 +2163,23 @@
           ],
           "sources": [
             {
-              "id": "src-b30a373293",
+              "id": "src-bb2cafbcd2",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-b30a373293",
-                  "name": "Okayama Seagulls Nữ vs Gunma Greenwings Nữ",
+                  "id": "ct-bb2cafbcd2",
+                  "name": "Melbourne United vs New Zealand Breakers",
                   "streams": [
                     {
-                      "id": "st-b30a373293",
+                      "id": "st-bb2cafbcd2",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-35fc4ec8cd",
-                          "name": "Sún",
+                          "id": "lnk-8deec76a49",
+                          "name": "Vịt",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793375626_hd/1793375626_hd@720p.m3u8",
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793510174_hd/1793510174_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2640,26 +2199,836 @@
             }
           ],
           "org_metadata": {
-            "league": "Nhật Bản SV. League",
-            "team_a": "Okayama Seagulls Nữ",
-            "team_b": "Gunma Greenwings Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/hbnnxXeM-KGU5ehTK.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/OQvoiZCr-KMZ7hG6b.png",
-            "time": "12:05:00",
-            "date": "01/11",
-            "blv": "Sún",
+            "league": "National Basketball League(Australia)",
+            "team_a": "Melbourne United",
+            "team_b": "New Zealand Breakers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/21d2a46a9599ab792dc3a7884839072f.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/7778a93083d2fa50e4cb4e128f07cf5f.png",
+            "time": "15:30:00",
+            "date": "02/11",
+            "blv": "Vịt",
             "is_live": false,
-            "cate_type": "bongchuyen"
+            "cate_type": "basketball"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/b9c9wtigwpzx_ff5f58ea_20261101.png?v=ff5f58ea",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/23622272_43edc99c_20261101.png?v=43edc99c",
             "width": 1600,
             "height": 1200
           }
         },
+        {
+          "id": "gv-abc50a4034",
+          "name": "Daegu KoGas Pegasus vs Anyang Jung Kwan Jang Red Boosters | 17:00 02/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-abc50a4034",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-abc50a4034",
+                  "name": "Daegu KoGas Pegasus vs Anyang Jung Kwan Jang Red Boosters",
+                  "streams": [
+                    {
+                      "id": "st-abc50a4034",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a96a09a33f",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793510195_hd/1793510195_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korea Basketball League",
+            "team_a": "Daegu KoGas Pegasus",
+            "team_b": "Anyang Jung Kwan Jang Red Boosters",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/a322b3f45e8fc272b36c48003e467f20.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/a41dc05de91a396420f82f30bab19765.png",
+            "time": "17:00:00",
+            "date": "02/11",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/10260378_861cbdda_20261101.png?v=861cbdda",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f77b2c3428",
+          "name": "Guangdong Southern Tigers vs QingDao Eagles | 18:35 02/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f77b2c3428",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f77b2c3428",
+                  "name": "Guangdong Southern Tigers vs QingDao Eagles",
+                  "streams": [
+                    {
+                      "id": "st-f77b2c3428",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-40047c8b4e",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793510255_hd/1793510255_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "Guangdong Southern Tigers",
+            "team_b": "QingDao Eagles",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/37b8668860b7f12aeb8a40fafaaa2e83.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/cbbeaf29a9996f0500e140e33cb780ae.png",
+            "time": "18:35:00",
+            "date": "02/11",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/31963470_c958ce50_20261101.png?v=c958ce50",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1bb22ab341",
+          "name": "Shandong Hi-Speed Kirin vs Beijing Royal Fighters | 18:35 02/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1bb22ab341",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1bb22ab341",
+                  "name": "Shandong Hi-Speed Kirin vs Beijing Royal Fighters",
+                  "streams": [
+                    {
+                      "id": "st-1bb22ab341",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7e29dd5773",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793510294_hd/1793510294_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "Shandong Hi-Speed Kirin",
+            "team_b": "Beijing Royal Fighters",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/5e5e6dd519553b0782b6ad7cda315e98.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/af8d9f59130550be6228fcd35c70ae11.png",
+            "time": "18:35:00",
+            "date": "02/11",
+            "blv": "Chồn",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/32963471_97988cec_20261101.png?v=97988cec",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b37e9f14a2",
+          "name": "Jeonju KCC Egis vs Goyang Orions | 17:00 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b37e9f14a2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b37e9f14a2",
+                  "name": "Jeonju KCC Egis vs Goyang Orions",
+                  "streams": [
+                    {
+                      "id": "st-b37e9f14a2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dffaaaf5a6",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793510503_hd/1793510503_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korea Basketball League",
+            "team_a": "Jeonju KCC Egis",
+            "team_b": "Goyang Orions",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/a2ba5e8d224376506856ad5dd34de831.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/5b0e513f868dee6a403d7d5dfc3628b3.png",
+            "time": "17:00:00",
+            "date": "03/11",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/11260379_59106213_20261101.png?v=59106213",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8957c9fe8e",
+          "name": "Beijing Shougang Ducks vs Ningbo Rockets | 18:35 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8957c9fe8e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8957c9fe8e",
+                  "name": "Beijing Shougang Ducks vs Ningbo Rockets",
+                  "streams": [
+                    {
+                      "id": "st-8957c9fe8e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19fd74e457",
+                          "name": "Nem",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793510527_hd/1793510527_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "Beijing Shougang Ducks",
+            "team_b": "Ningbo Rockets",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/58867afcb7d9cb68ffd5338c62c7af6a.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/78539aa7b6e4518265799642461ab855.png",
+            "time": "18:35:00",
+            "date": "03/11",
+            "blv": "Nem",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/35963474_7d1264bc_20261101.png?v=7d1264bc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ac810fb50c",
+          "name": "Liaoning Flying Leopards vs Guangzhou Loong Lions | 18:35 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ac810fb50c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ac810fb50c",
+                  "name": "Liaoning Flying Leopards vs Guangzhou Loong Lions",
+                  "streams": [
+                    {
+                      "id": "st-ac810fb50c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-83472d2d99",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793510573_hd/1793510573_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "Liaoning Flying Leopards",
+            "team_b": "Guangzhou Loong Lions",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e5b2db0dc53319933071f194e099180f.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/9d93f6e7f4e54c71cd975b2be434bcf9.png",
+            "time": "18:35:00",
+            "date": "03/11",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/34963473_4eaaebf1_20261101.png?v=4eaaebf1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1fb1a4347a",
+          "name": "NanJing Monkey Kings vs Suzhou Dragons Kentier | 18:35 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1fb1a4347a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1fb1a4347a",
+                  "name": "NanJing Monkey Kings vs Suzhou Dragons Kentier",
+                  "streams": [
+                    {
+                      "id": "st-1fb1a4347a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4db5ecf25c",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793510634_hd/1793510634_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "NanJing Monkey Kings",
+            "team_b": "Suzhou Dragons Kentier",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e3bbce6525ca22d736f744cd2e31ff59.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/d1c8a0f21d4d300f8ddce93f11b79c70.png",
+            "time": "18:35:00",
+            "date": "03/11",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/20073471_bb8e9e24_20261101.png?v=bb8e9e24",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ace48f055b",
+          "name": "Shanghai Jiushi Sharks vs Jilin Northeast Tigers | 18:35 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ace48f055b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ace48f055b",
+                  "name": "Shanghai Jiushi Sharks vs Jilin Northeast Tigers",
+                  "streams": [
+                    {
+                      "id": "st-ace48f055b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-03de86b34c",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793510690_hd/1793510690_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "Shanghai Jiushi Sharks",
+            "team_b": "Jilin Northeast Tigers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/d67cd54e91fe7a46a2f9bdd646544989.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/9b1edb3adebae8211e057008d8352b03.png",
+            "time": "18:35:00",
+            "date": "03/11",
+            "blv": "Ngu",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/38963477_d65b5355_20261101.png?v=d65b5355",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ff6a6294cc",
+          "name": "Shenzhen Leopards vs Zhejiang Golden Bulls | 18:35 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ff6a6294cc",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ff6a6294cc",
+                  "name": "Shenzhen Leopards vs Zhejiang Golden Bulls",
+                  "streams": [
+                    {
+                      "id": "st-ff6a6294cc",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5e99dba8a1",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793510723_hd/1793510723_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "Shenzhen Leopards",
+            "team_b": "Zhejiang Golden Bulls",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/4d9ec843176ad902c32b3b317118e543.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/eaff06bd8c853345d0a2061a1ef15585.png",
+            "time": "18:35:00",
+            "date": "03/11",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/37963476_6f670b1f_20261101.png?v=6f670b1f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a6f186c30a",
+          "name": "SiChuan Jingqiang Blue Whales vs Fujian Xunxing Sturgeons | 18:35 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a6f186c30a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a6f186c30a",
+                  "name": "SiChuan Jingqiang Blue Whales vs Fujian Xunxing Sturgeons",
+                  "streams": [
+                    {
+                      "id": "st-a6f186c30a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-20363f3a06",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793510755_hd/1793510755_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "SiChuan Jingqiang Blue Whales",
+            "team_b": "Fujian Xunxing Sturgeons",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/1cb8d991c7b1dbf8f56adbb08619f919.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/513a673e2abf3080d21b0dc4d0b0dad8.png",
+            "time": "18:35:00",
+            "date": "03/11",
+            "blv": "Chồn",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/33963472_0620cc9f_20261101.png?v=0620cc9f",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-62a06ab4cd",
+          "name": "Carlos Alcaraz vs Alex de Minaur | 20:00 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-62a06ab4cd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-62a06ab4cd",
+                  "name": "Carlos Alcaraz vs Alex de Minaur",
+                  "streams": [
+                    {
+                      "id": "st-62a06ab4cd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e025e6a47e",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793518243_hd/1793518243_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Vienna",
+            "team_a": "Carlos Alcaraz",
+            "team_b": "Alex de Minaur",
+            "logo_a": "https://static.flashscore.com/res/image/data/OfjQEPjl-KjZlrI8i.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/jcP2ujzB-CID30mRm.png",
+            "time": "20:00:00",
+            "date": "01/11",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/b45g5ox441rx_ee70acd3_20261101.png?v=ee70acd3",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "gv-eb6745c30b",
           "name": "Afyon Bld. Yuntas Nữ vs Vakifbank Nữ | 19:00 01/11",
@@ -2731,49 +3100,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-6465160bec",
-          "name": "Moicano vs Nolan | 04:00 01/11",
+          "id": "gv-b44926e935",
+          "name": "Fenerbahce Nữ vs Galatasaray Nữ | 23:00 01/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-6465160bec",
+              "id": "src-b44926e935",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-6465160bec",
-                  "name": "Moicano vs Nolan",
+                  "id": "ct-b44926e935",
+                  "name": "Fenerbahce Nữ vs Galatasaray Nữ",
                   "streams": [
                     {
-                      "id": "st-6465160bec",
+                      "id": "st-b44926e935",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-e61ecbd3c4",
-                          "name": "Cầy",
+                          "id": "lnk-4e2e16fad8",
+                          "name": "Sún",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793478680_hd/1793478680_hd@720p.m3u8",
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793509469_hd/1793509469_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2793,22 +3153,319 @@
             }
           ],
           "org_metadata": {
-            "league": "UFC Fight Night",
-            "team_a": "Moicano",
-            "team_b": "Nolan",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXisw_fVnepvKa_KNST_BsLoUvh4Ywtjfm3PnldyrxIXbl_DMJcizbneo&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrcjkccQqfi-nEpcoH6Md8lMzvQKjvTEa0xbePyz7q7g&s",
-            "time": "04:00:00",
+            "league": "Turkey Sultanlar Ligi Nữ",
+            "team_a": "Fenerbahce Nữ",
+            "team_b": "Galatasaray Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/8WgKWiCa-CCQtmQAB.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/YkqtQ9dM-Ayf8HTfc.png",
+            "time": "23:00:00",
             "date": "01/11",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "vothuat"
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/0c4kyohz39ru_e1c66a3b_20261101.png?v=e1c66a3b",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/j04ixz6zis0p_56ecd985_20261101.png?v=56ecd985",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-2f06dcd39b",
+          "name": "IBK nữ vs Hyundai E&C Hillstate Nữ | 17:00 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2f06dcd39b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2f06dcd39b",
+                  "name": "IBK nữ vs Hyundai E&C Hillstate Nữ",
+                  "streams": [
+                    {
+                      "id": "st-2f06dcd39b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-35fc95bdba",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793510396_hd/1793510396_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hàn Quốc Volleyball League Nữ",
+            "team_a": "IBK nữ",
+            "team_b": "Hyundai E&C Hillstate Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/GCVCfeyS-8pDUfQGg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/MkA1GJXg-YJMxkMx4.png",
+            "time": "17:00:00",
+            "date": "03/11",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/rs8lejvvo4t3_559bd133_20261101.png?v=559bd133",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d161bd0b59",
+          "name": "Istanbul GSK vs Gaziantep Genclik | 21:00 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d161bd0b59",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d161bd0b59",
+                  "name": "Istanbul GSK vs Gaziantep Genclik",
+                  "streams": [
+                    {
+                      "id": "st-d161bd0b59",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6e0b69891b",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793510444_hd/1793510444_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Turkey Sultanlar Ligi",
+            "team_a": "Istanbul GSK",
+            "team_b": "Gaziantep Genclik",
+            "logo_a": "https://static.flashscore.com/res/image/data/8CHi7lwS-EiasJpFF.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QDV5xnZg-xAGvjhGj.png",
+            "time": "21:00:00",
+            "date": "03/11",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/wnajhl4t9yni_348ecb6b_20261101.png?v=348ecb6b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c0e427783d",
+          "name": "Ziraat Bankasi vs Sungurlu | 23:00 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c0e427783d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c0e427783d",
+                  "name": "Ziraat Bankasi vs Sungurlu",
+                  "streams": [
+                    {
+                      "id": "st-c0e427783d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4736815b70",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793516360_hd/1793516360_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Turkey Sultanlar Ligi",
+            "team_a": "Ziraat Bankasi",
+            "team_b": "Sungurlu",
+            "logo_a": "https://static.flashscore.com/res/image/data/nN1hHJYA-vaQC7xt4.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/tjDcEUAr-Y5J053R1.png",
+            "time": "23:00:00",
+            "date": "03/11",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/1zn5qyanvn6m_d8c242b5_20261101.png?v=d8c242b5",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-86c120b9b2",
+          "name": "TES vs IG | 05:00 04/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-86c120b9b2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-86c120b9b2",
+                  "name": "TES vs IG",
+                  "streams": [
+                    {
+                      "id": "st-86c120b9b2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fe29644d21",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793516416_hd/1793516416_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Worlds 2026",
+            "team_a": "TES",
+            "team_b": "IG",
+            "logo_a": "https://am-a.akamaihd.net/image?resize=48:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1592592064571_TopEsportsTES-01-FullonDark.png",
+            "logo_b": "https://am-a.akamaihd.net/image?resize=48:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1634762917340_300px-Invictus_Gaming_logo.png",
+            "time": "05:00:00",
+            "date": "04/11",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/gyoq6mklrbxq_55bac877_20261101.png?v=55bac877",
             "width": 1600,
             "height": 1200
           }
@@ -2817,83 +3474,11 @@
     },
     {
       "id": "cate_duaxe",
-      "name": "🏎️ Đua Xe (1 LIVE)",
+      "name": "🏎️ Đua Xe",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-7392d18691",
-          "name": "F1 vs Mexico City Grand Prix | 04:00 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7392d18691",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7392d18691",
-                  "name": "F1 vs Mexico City Grand Prix",
-                  "streams": [
-                    {
-                      "id": "st-7392d18691",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b80b6dbf29",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793117585_hd/1793117585_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Mexico City Grand Prix",
-            "team_a": "F1",
-            "team_b": "Mexico City Grand Prix",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAVtO4ZUAUC-I-ifKovT2DG3AuvtB5LptfcsjRuc7ML5X0vA_k1HAtWq0&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoiU4NxDasec3SSLkJ8JrXgwfUuhlyYfVzfc7A2ohVNQ&s=10",
-            "time": "04:00:00",
-            "date": "01/11",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "duaxe"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/y58y8wi3kb1l_c6abb8f9_20261101.png?v=c6abb8f9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-7e09e20ee2",
           "name": "F1 vs Mexico City Grand Prix | 03:00 02/11",
@@ -2962,6 +3547,312 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/k9ev6oqjtmiz_c6abb8f9_20261101.png?v=c6abb8f9",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongban",
+      "name": "🏓 Bóng Bàn",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-dd2398d714",
+          "name": "Bán kết vs Bán kết | 17:00 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dd2398d714",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-dd2398d714",
+                  "name": "Bán kết vs Bán kết",
+                  "streams": [
+                    {
+                      "id": "st-dd2398d714",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5825f9ce9c",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793518479_hd/1793518479_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTT Champions Montpellier 2026",
+            "team_a": "Bán kết",
+            "team_b": "Bán kết",
+            "logo_a": "https://wttwebcmsprod.blob.core.windows.net/articledetailimages/AN-Jaehyun_WTT-Champions-Montpellier-2026_Day-1_0E6A1700_34e44a8b-75f3-4243-8183-3efbee581050.png",
+            "logo_b": "https://wttwebcmsprod.blob.core.windows.net/articledetailimages/Sora-MATSUSHIMA_WTT-Champions-Montpellier-2026_Day-1_0E6A4654_e45bd613-acab-41e2-8e12-110994257ef9.png",
+            "time": "17:00:00",
+            "date": "01/11",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "bongban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/es9ovdhqneno_9420072d_20261101.png?v=9420072d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f0df05b262",
+          "name": "chung kết vs chung kết | 23:30 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f0df05b262",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f0df05b262",
+                  "name": "chung kết vs chung kết",
+                  "streams": [
+                    {
+                      "id": "st-f0df05b262",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1980487e2a",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793509559_hd/1793509559_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTT Champions Montpellier 2026",
+            "team_a": "chung kết",
+            "team_b": "chung kết",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "23:30:00",
+            "date": "01/11",
+            "blv": "Dory",
+            "is_live": false,
+            "cate_type": "bongban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/4x6odj76u8ju_6654c734_20261101.png?v=6654c734",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_rugby",
+      "name": "🏅 Thể Thao",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-881ee259b5",
+          "name": "Baltimore Ravens vs Buffalo Bills | 01:00 02/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-881ee259b5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-881ee259b5",
+                  "name": "Baltimore Ravens vs Buffalo Bills",
+                  "streams": [
+                    {
+                      "id": "st-881ee259b5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-df40ac4c1c",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793509710_hd/1793509710_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NFL",
+            "team_a": "Baltimore Ravens",
+            "team_b": "Buffalo Bills",
+            "logo_a": "https://static.flashscore.com/res/image/data/dUe4S2il-40MWbKRi.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/WxLvPwFa-KIDlwIzm.png",
+            "time": "01:00:00",
+            "date": "02/11",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "rugby"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/vg6cvdht6l5u_49453b9d_20261101.png?v=49453b9d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a7a65a5376",
+          "name": "Kansas City Chiefs vs Denver Broncos | 04:25 02/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a7a65a5376",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a7a65a5376",
+                  "name": "Kansas City Chiefs vs Denver Broncos",
+                  "streams": [
+                    {
+                      "id": "st-a7a65a5376",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa678ac806",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793509773_hd/1793509773_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NFL",
+            "team_a": "Kansas City Chiefs",
+            "team_b": "Denver Broncos",
+            "logo_a": "https://static.flashscore.com/res/image/data/0ly3wzFG-8KiTm088.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/bs8k9qcM-dWj1wpBo.png",
+            "time": "04:25:00",
+            "date": "02/11",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "rugby"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/d5x07ysvaacg_233b2fea_20261101.png?v=233b2fea",
             "width": 1600,
             "height": 1200
           }
