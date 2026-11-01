@@ -89,6 +89,78 @@
           }
         },
         {
+          "id": "gv-348030a2f4",
+          "name": "FC Machida Zelvia vs Gamba Osaka | 14:00 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-348030a2f4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-348030a2f4",
+                  "name": "FC Machida Zelvia vs Gamba Osaka",
+                  "streams": [
+                    {
+                      "id": "st-348030a2f4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e25bf5166d",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793487159_hd/1793487159_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "FC Machida Zelvia",
+            "team_b": "Gamba Osaka",
+            "logo_a": "https://images.keovip88.net/images/teams/machida-zelvia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/gamba-osaka.png",
+            "time": "14:00:00",
+            "date": "01/11",
+            "blv": "Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6add46c424d46db870f89108_506d9f2b_20261101.png?v=506d9f2b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-7f9d94a69a",
           "name": "Perth Glory FC vs Adelaide United FC | 15:00 01/11",
           "type": "single",
@@ -1206,83 +1278,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-6d199e8628",
-          "name": "Charlotte Hornets vs Philadelphia 76ers | 05:00 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6d199e8628",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6d199e8628",
-                  "name": "Charlotte Hornets vs Philadelphia 76ers",
-                  "streams": [
-                    {
-                      "id": "st-6d199e8628",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1df07480b9",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793376909_hd/1793376909_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Charlotte Hornets",
-            "team_b": "Philadelphia 76ers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/9e28959b5af233b67c389787d2886c84.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/7f086c864d1e283b7862a756f0b88373.png",
-            "time": "05:00:00",
-            "date": "01/11",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/34928272_d18a97bb_20261101.png?v=d18a97bb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ad07a2d583",
           "name": "New Orleans Pelicans vs Atlanta Hawks | 06:00 01/11",
@@ -1363,10 +1363,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1415,7 +1415,7 @@
             "time": "07:00:00",
             "date": "01/11",
             "blv": "Chồn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1435,10 +1435,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1487,7 +1487,7 @@
             "time": "07:00:00",
             "date": "01/11",
             "blv": "Nem",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1507,10 +1507,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1559,7 +1559,7 @@
             "time": "07:00:00",
             "date": "01/11",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1579,10 +1579,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1599,11 +1599,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-93664923a7",
-                          "name": "Điếc",
+                          "id": "lnk-a00a490b56",
+                          "name": "Sún",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793375085_hd/1793375085_hd@720p.m3u8",
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793487633_hd/1793487633_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1630,8 +1630,8 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/b7096093642227c698108ad872603a76.png",
             "time": "07:00:00",
             "date": "01/11",
-            "blv": "Điếc",
-            "is_live": false,
+            "blv": "Sún",
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1651,10 +1651,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1703,7 +1703,7 @@
             "time": "07:30:00",
             "date": "01/11",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1887,11 +1887,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-c09a0a4eb5",
-                          "name": "Điếc",
+                          "id": "lnk-ecd46c974e",
+                          "name": "Ben",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793375402_hd/1793375402_hd@720p.m3u8",
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793487655_hd/1793487655_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1918,7 +1918,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/ELYOWIAr-xtco8W2d.png",
             "time": "12:00:00",
             "date": "01/11",
-            "blv": "Điếc",
+            "blv": "Ben",
             "is_live": false,
             "cate_type": "basketball"
           },
