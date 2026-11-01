@@ -11,443 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-30ec6f5dc4",
-          "name": "Palmeiras vs Vasco Gama | 02:00 02/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-30ec6f5dc4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-30ec6f5dc4",
-                  "name": "Palmeiras vs Vasco Gama",
-                  "streams": [
-                    {
-                      "id": "st-30ec6f5dc4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f75ddcf46b",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793509307_hd/1793509307_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp Brazil",
-            "team_a": "Palmeiras",
-            "team_b": "Vasco Gama",
-            "logo_a": "https://images.keovip88.net/images/teams/palmeiras.png",
-            "logo_b": "https://images.keovip88.net/images/teams/vasco-da-gama.png",
-            "time": "02:00:00",
-            "date": "02/11",
-            "blv": "Ngọng",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aa1f4090eec5464580631ee_ca4a2fa0_20261102.png?v=ca4a2fa0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e10e50c992",
-          "name": "Juventus vs Napoli | 02:45 02/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e10e50c992",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e10e50c992",
-                  "name": "Juventus vs Napoli",
-                  "streams": [
-                    {
-                      "id": "st-e10e50c992",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7e40911c49",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793376589_hd/1793376589_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Juventus",
-            "team_b": "Napoli",
-            "logo_a": "https://images.keovip88.net/images/teams/juventus.png",
-            "logo_b": "https://images.keovip88.net/images/teams/napoli.png",
-            "time": "02:45:00",
-            "date": "02/11",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6add46cf24d46db870f8ae1c_6b1a901a_20261102.png?v=6b1a901a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-a9b8a170b5",
-          "name": "Marseille vs Toulouse | 02:45 02/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a9b8a170b5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a9b8a170b5",
-                  "name": "Marseille vs Toulouse",
-                  "streams": [
-                    {
-                      "id": "st-a9b8a170b5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-41a9fec94b",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793376664_hd/1793376664_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Marseille",
-            "team_b": "Toulouse",
-            "logo_a": "https://images.keovip88.net/images/teams/marseille.png",
-            "logo_b": "https://images.keovip88.net/images/teams/toulouse.png",
-            "time": "02:45:00",
-            "date": "02/11",
-            "blv": "Bee",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6add46cf24d46db870f8ae24_a24c4faf_20261102.png?v=a24c4faf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-a395f22275",
-          "name": "Frosinone vs Torino | 21:00 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a395f22275",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a395f22275",
-                  "name": "Frosinone vs Torino",
-                  "streams": [
-                    {
-                      "id": "st-a395f22275",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-97fa29ba63",
-                          "name": "Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793447195_hd/1793447195_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Frosinone",
-            "team_b": "Torino",
-            "logo_a": "https://images.keovip88.net/images/teams/frosinone.png",
-            "logo_b": "https://images.keovip88.net/images/teams/torino.png",
-            "time": "21:00:00",
-            "date": "01/11",
-            "blv": "Hấu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6add46c724d46db870f8a3a0_60fadf01_20261102.png?v=60fadf01",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-11a46088ae",
-          "name": "Lazio vs Cagliari | 21:00 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-11a46088ae",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-11a46088ae",
-                  "name": "Lazio vs Cagliari",
-                  "streams": [
-                    {
-                      "id": "st-11a46088ae",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1934bce201",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793447220_hd/1793447220_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Lazio",
-            "team_b": "Cagliari",
-            "logo_a": "https://images.keovip88.net/images/teams/lazio.png",
-            "logo_b": "https://images.keovip88.net/images/teams/cagliari.png",
-            "time": "21:00:00",
-            "date": "01/11",
-            "blv": "Ben",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6add46c724d46db870f8a3a4_af289f75_20261102.png?v=af289f75",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ef9c8fa8df",
-          "name": "Athletic Bilbao vs Real Sociedad | 03:00 02/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ef9c8fa8df",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ef9c8fa8df",
-                  "name": "Athletic Bilbao vs Real Sociedad",
-                  "streams": [
-                    {
-                      "id": "st-ef9c8fa8df",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c191b80309",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793376699_hd/1793376699_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Athletic Bilbao",
-            "team_b": "Real Sociedad",
-            "logo_a": "https://images.keovip88.net/images/teams/athletic-bilbao.png",
-            "logo_b": "https://images.keovip88.net/images/teams/real-sociedad.png",
-            "time": "03:00:00",
-            "date": "02/11",
-            "blv": "Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6add46cf24d46db870f8ae29_407d97e7_20261102.png?v=407d97e7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-eb82849f91",
           "name": "Pakhtakor Tashkent vs Al-Nassr FC | 20:45 02/11",
@@ -879,12 +447,228 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-e75a90a950",
+          "name": "Atalanta vs Parma | 02:45 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e75a90a950",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e75a90a950",
+                  "name": "Atalanta vs Parma",
+                  "streams": [
+                    {
+                      "id": "st-e75a90a950",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9d82f747ce",
+                          "name": "Hứa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793515571_hd/1793515571_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Atalanta",
+            "team_b": "Parma",
+            "logo_a": "https://images.keovip88.net/images/teams/atalanta.png",
+            "logo_b": "https://images.keovip88.net/images/teams/parma.png",
+            "time": "02:45:00",
+            "date": "03/11",
+            "blv": "Hứa",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ade985424d46db870e562ad_36debe11_20261102.png?v=36debe11",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a33799c8fa",
+          "name": "Newcastle United vs Everton | 03:00 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a33799c8fa",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a33799c8fa",
+                  "name": "Newcastle United vs Everton",
+                  "streams": [
+                    {
+                      "id": "st-a33799c8fa",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5102a4c106",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793515587_hd/1793515587_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Newcastle United",
+            "team_b": "Everton",
+            "logo_a": "https://images.keovip88.net/images/teams/newcastle-united.png",
+            "logo_b": "https://images.keovip88.net/images/teams/everton.png",
+            "time": "03:00:00",
+            "date": "03/11",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e59ae5e6975d550f0702_62493b80_20261102.png?v=62493b80",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7bbe9dea1c",
+          "name": "Bragantino SP vs Santos | 06:00 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7bbe9dea1c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7bbe9dea1c",
+                  "name": "Bragantino SP vs Santos",
+                  "streams": [
+                    {
+                      "id": "st-7bbe9dea1c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f75d01be3c",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793515603_hd/1793515603_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Brazil",
+            "team_a": "Bragantino SP",
+            "team_b": "Santos",
+            "logo_a": "https://images.keovip88.net/images/teams/bragantino.png",
+            "logo_b": "https://images.keovip88.net/images/teams/santos.png",
+            "time": "06:00:00",
+            "date": "03/11",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ade985424d46db870e56306_7b14d71e_20261102.png?v=7b14d71e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -897,10 +681,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -949,7 +733,7 @@
             "time": "03:30:00",
             "date": "02/11",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -969,10 +753,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1021,7 +805,7 @@
             "time": "05:00:00",
             "date": "02/11",
             "blv": "Chồn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -2350,165 +2134,12 @@
       ]
     },
     {
-      "id": "cate_duaxe",
-      "name": "🏎️ Đua Xe (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-7e09e20ee2",
-          "name": "F1 vs Mexico City Grand Prix | 03:00 02/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7e09e20ee2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7e09e20ee2",
-                  "name": "F1 vs Mexico City Grand Prix",
-                  "streams": [
-                    {
-                      "id": "st-7e09e20ee2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b3272f936a",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793117640_hd/1793117640_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Mexico City Grand Prix",
-            "team_a": "F1",
-            "team_b": "Mexico City Grand Prix",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAVtO4ZUAUC-I-ifKovT2DG3AuvtB5LptfcsjRuc7ML5X0vA_k1HAtWq0&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoiU4NxDasec3SSLkJ8JrXgwfUuhlyYfVzfc7A2ohVNQ&s=10",
-            "time": "03:00:00",
-            "date": "02/11",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "duaxe"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/k9ev6oqjtmiz_c6abb8f9_20261102.png?v=c6abb8f9",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
       "id": "cate_rugby",
       "name": "🏅 Thể Thao (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-881ee259b5",
-          "name": "Baltimore Ravens vs Buffalo Bills | 01:00 02/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-881ee259b5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-881ee259b5",
-                  "name": "Baltimore Ravens vs Buffalo Bills",
-                  "streams": [
-                    {
-                      "id": "st-881ee259b5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-df40ac4c1c",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793509710_hd/1793509710_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NFL",
-            "team_a": "Baltimore Ravens",
-            "team_b": "Buffalo Bills",
-            "logo_a": "https://static.flashscore.com/res/image/data/dUe4S2il-40MWbKRi.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/WxLvPwFa-KIDlwIzm.png",
-            "time": "01:00:00",
-            "date": "02/11",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "rugby"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/vg6cvdht6l5u_49453b9d_20261102.png?v=49453b9d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-a7a65a5376",
           "name": "Kansas City Chiefs vs Denver Broncos | 04:25 02/11",
@@ -2517,10 +2148,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2569,7 +2200,7 @@
             "time": "04:25:00",
             "date": "02/11",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "rugby"
           },
           "image": {
