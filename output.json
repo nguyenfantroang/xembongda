@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "07:30:00",
             "date": "04/11",
             "blv": "Ngọng",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -948,6 +948,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a93737afccd5ecc44060e2f_f40349ef_20261104.png?v=f40349ef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-35e26c5140",
+          "name": "Flamengo vs Gremio (RS) | 05:30 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-35e26c5140",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-35e26c5140",
+                  "name": "Flamengo vs Gremio (RS)",
+                  "streams": [
+                    {
+                      "id": "st-35e26c5140",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bbb530b90e",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793516931_hd/1793516931_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Brazil",
+            "team_a": "Flamengo",
+            "team_b": "Gremio (RS)",
+            "logo_a": "https://images.keovip88.net/images/teams/flamengo.png",
+            "logo_b": "https://images.keovip88.net/images/teams/gremio-rs.png",
+            "time": "05:30:00",
+            "date": "05/11",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ae13b5524d46db870598c69_853474ce_20261104.png?v=853474ce",
             "width": 1600,
             "height": 1200
           }
@@ -2342,7 +2414,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2427,10 +2499,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2479,7 +2551,7 @@
             "time": "09:00:00",
             "date": "04/11",
             "blv": "Mickey",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
@@ -2559,87 +2631,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/smxxz7v1l1u9_910ed74e_20261104.png?v=910ed74e",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_formula1",
-      "name": "🏅 Thể Thao",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-aad3398abb",
-          "name": "NHL Hockey Colorado Avalanche vs Columbus Blue Jackets | 07:00 04/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aad3398abb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-aad3398abb",
-                  "name": "NHL Hockey Colorado Avalanche vs Columbus Blue Jackets",
-                  "streams": [
-                    {
-                      "id": "st-aad3398abb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d0c642e891",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793727255_hd/1793727255_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NHL Hockey",
-            "team_a": "NHL Hockey Colorado Avalanche",
-            "team_b": "Columbus Blue Jackets",
-            "logo_a": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/45/Colorado_Avalanche_logo.svg/1280px-Colorado_Avalanche_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUAack-zHGVBe33FApb0Mvz_sYvsfM4HcYDFMLT-dDsg&s=10",
-            "time": "07:00:00",
-            "date": "04/11",
-            "blv": "Riko",
-            "is_live": false,
-            "cate_type": "formula1"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/0r2vs4fzt972_d2af1dbf_20261104.png?v=d2af1dbf",
             "width": 1600,
             "height": 1200
           }
