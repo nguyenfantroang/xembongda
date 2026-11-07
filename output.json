@@ -11,227 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-cef1f8003f",
-          "name": "AS Roma vs US Sassuolo Calcio | 02:45 08/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cef1f8003f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cef1f8003f",
-                  "name": "AS Roma vs US Sassuolo Calcio",
-                  "streams": [
-                    {
-                      "id": "st-cef1f8003f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02bec43cdb",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793952607_hd/1793952607_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "AS Roma",
-            "team_b": "US Sassuolo Calcio",
-            "logo_a": "https://images.keovip88.net/images/teams/as-roma.png",
-            "logo_b": "https://images.keovip88.net/images/teams/sassuolo.png",
-            "time": "02:45:00",
-            "date": "08/11",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ae52fca24d46db870bc0667_85c175f2_20261108.png?v=85c175f2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-fed898617e",
-          "name": "Valencia vs Real Madrid | 03:00 08/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fed898617e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fed898617e",
-                  "name": "Valencia vs Real Madrid",
-                  "streams": [
-                    {
-                      "id": "st-fed898617e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e2d4e5a611",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793952715_hd/1793952715_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Valencia",
-            "team_b": "Real Madrid",
-            "logo_a": "https://images.keovip88.net/images/teams/valencia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/real-madrid.png",
-            "time": "03:00:00",
-            "date": "08/11",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ae52fca24d46db870bc0681_3e579e98_20261108.png?v=3e579e98",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-662caee2c3",
-          "name": "Paris Saint Germain vs ES Troyes AC | 03:05 08/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-662caee2c3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-662caee2c3",
-                  "name": "Paris Saint Germain vs ES Troyes AC",
-                  "streams": [
-                    {
-                      "id": "st-662caee2c3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-52a989644c",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794075693_hd/1794075693_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Paris Saint Germain",
-            "team_b": "ES Troyes AC",
-            "logo_a": "https://images.keovip88.net/images/teams/paris-saint-germain-psg.png",
-            "logo_b": "https://images.keovip88.net/images/teams/troyes.png",
-            "time": "03:05:00",
-            "date": "08/11",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ae52fca24d46db870bc066b_8ebc282a_20261108.png?v=8ebc282a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-024f79b866",
           "name": "Montreal Canadiens vs Toronto Maple Leafs | 07:00 08/11",
@@ -240,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +76,7 @@
             "time": "07:00:00",
             "date": "08/11",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2425,12 +2209,84 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-a63dd31f13",
+          "name": "Amadora vs SL Benfica | 03:30 09/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a63dd31f13",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a63dd31f13",
+                  "name": "Amadora vs SL Benfica",
+                  "streams": [
+                    {
+                      "id": "st-a63dd31f13",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afb660c0cd",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793985628_hd/1793985628_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Bồ Đào Nha",
+            "team_a": "Amadora",
+            "team_b": "SL Benfica",
+            "logo_a": "https://images.keovip88.net/images/teams/estrela-da-amadora.png",
+            "logo_b": "https://images.keovip88.net/images/teams/benfica.png",
+            "time": "03:30:00",
+            "date": "09/11",
+            "blv": "Dory",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ae6814a24d46db870b370ee_8dab5ce9_20261108.png?v=8dab5ce9",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2443,10 +2299,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2495,7 +2351,7 @@
             "time": "05:00:00",
             "date": "08/11",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -3960,7 +3816,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3973,10 +3829,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4025,7 +3881,7 @@
             "time": "05:00:00",
             "date": "08/11",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
@@ -4185,23 +4041,23 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật",
+      "name": "🥊 Võ Thuật (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "gv-6532357279",
-          "name": "Bonfim vs Brady | 05:00 08/11",
+          "name": "Cortes Acosta vs Walker | 05:00 08/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4211,7 +4067,7 @@
               "contents": [
                 {
                   "id": "ct-6532357279",
-                  "name": "Bonfim vs Brady",
+                  "name": "Cortes Acosta vs Walker",
                   "streams": [
                     {
                       "id": "st-6532357279",
@@ -4243,21 +4099,21 @@
           ],
           "org_metadata": {
             "league": "UFC Fight Night",
-            "team_a": "Bonfim",
-            "team_b": "Brady",
-            "logo_a": "https://static.flashscore.com/res/image/data/Sj1U7Qhl-KrL8gKXj.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/hteDZhxS-ltUIPw6O.png",
+            "team_a": "Cortes Acosta",
+            "team_b": "Walker",
+            "logo_a": "https://static.flashscore.com/res/image/data/KSYTqph5-2REdaxXb.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/fP5fSme5-h4e9B2ir.png",
             "time": "05:00:00",
             "date": "08/11",
             "blv": "Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "vothuat"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/kc1q30xzted9_9dde941d_20261108.png?v=9dde941d",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/kc1q30xzted9_51c12208_20261108.png?v=51c12208",
             "width": 1600,
             "height": 1200
           }
@@ -4266,83 +4122,11 @@
     },
     {
       "id": "cate_duaxe",
-      "name": "🏎️ Đua Xe (1 LIVE)",
+      "name": "🏎️ Đua Xe",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-753c14dfe8",
-          "name": "F1 vs F1 | 01:00 08/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-753c14dfe8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-753c14dfe8",
-                  "name": "F1 vs F1",
-                  "streams": [
-                    {
-                      "id": "st-753c14dfe8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-43004fd18f",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793953068_hd/1793953068_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "São Paulo Grand Prix",
-            "team_a": "F1",
-            "team_b": "F1",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS2MWPmU47fWOWgVDIxHZISezRBzN6J3ZfG-xfbtWOYAD3iqmgHsp4ybAo&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZV2pf5wilgSDo_wrsoRGDzvrqS2iMeHqQxcFrPZmjKoy-LTAPAegvmhlO&s=10",
-            "time": "01:00:00",
-            "date": "08/11",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "duaxe"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/4adrvktib6hr_64de9442_20261108.png?v=64de9442",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-db95165e87",
           "name": "F1 vs F1 | 00:00 09/11",
@@ -4418,165 +4202,12 @@
       ]
     },
     {
-      "id": "cate_bongban",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-a5c9b93e70",
-          "name": "Sora MATSUSHIMA vs Patrick FRANZISKA | 00:30 08/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a5c9b93e70",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a5c9b93e70",
-                  "name": "Sora MATSUSHIMA vs Patrick FRANZISKA",
-                  "streams": [
-                    {
-                      "id": "st-a5c9b93e70",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0b0a8b2542",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794065891_hd/1794065891_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTT Champions Frankfurt 2026",
-            "team_a": "Sora MATSUSHIMA",
-            "team_b": "Patrick FRANZISKA",
-            "logo_a": "https://static.flashscore.com/res/image/data/69MsHPAr-8pDGMe4G.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/CUoZP5eM-Kfa0NolB.png",
-            "time": "00:30:00",
-            "date": "08/11",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "bongban"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/9nbeuhtmn2eg_2fa120be_20261108.png?v=2fa120be",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
       "id": "cate_rugby",
-      "name": "🏅 Thể Thao (2 LIVE)",
+      "name": "🏅 Thể Thao (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-a9a07d1aeb",
-          "name": "Texas Longhorns vs Missouri Tigers | 00:00 08/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a9a07d1aeb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a9a07d1aeb",
-                  "name": "Texas Longhorns vs Missouri Tigers",
-                  "streams": [
-                    {
-                      "id": "st-a9a07d1aeb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e4786e390a",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793952934_hd/1793952934_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NCAA",
-            "team_a": "Texas Longhorns",
-            "team_b": "Missouri Tigers",
-            "logo_a": "https://static.flashscore.com/res/image/data/veYMMiZg-xOybRwL3.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/UqZui0Cr-QcZdZVLs.png",
-            "time": "00:00:00",
-            "date": "08/11",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "rugby"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/cqy1aon9fcql_29bde661_20261108.png?v=29bde661",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-185dc8766d",
           "name": "Alabama Crimson Tide vs LSU Tigers | 03:30 08/11",
