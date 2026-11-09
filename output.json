@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "gv-574d249e45",
-          "name": "Plymouth Parkway vs Berkhamsted | 02:03 10/11",
+          "name": "Plymouth Parkway vs Berkhamsted | 02:30 10/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,7 +73,7 @@
             "team_b": "Berkhamsted",
             "logo_a": "https://images.keovip88.net/images/teams/plymouth-argyle.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/d/df/BeroeLogo.png",
-            "time": "02:03:00",
+            "time": "02:30:00",
             "date": "10/11",
             "blv": "Ngọng",
             "is_live": false,
@@ -91,8 +91,593 @@
       ]
     },
     {
+      "id": "cate_basketball",
+      "name": "🏀 Bóng Rổ",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-6f2ae0e431",
+          "name": "Atlanta Hawks vs Los Angeles Lakers | 07:00 10/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f2ae0e431",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6f2ae0e431",
+                  "name": "Atlanta Hawks vs Los Angeles Lakers",
+                  "streams": [
+                    {
+                      "id": "st-6f2ae0e431",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-76193446bf",
+                          "name": "Nem",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794209618_hd/1794209618_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Atlanta Hawks",
+            "team_b": "Los Angeles Lakers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/57bd383cc8c9b3d4f92a5d1c371e38e9.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/935e553f4435030c604a4948c1e4d243.png",
+            "time": "07:00:00",
+            "date": "10/11",
+            "blv": "Nem",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21238273_09c6cf6a_20261109.png?v=09c6cf6a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-28e456807c",
+          "name": "Detroit Pistons vs Washington Wizards | 07:00 10/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-28e456807c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-28e456807c",
+                  "name": "Detroit Pistons vs Washington Wizards",
+                  "streams": [
+                    {
+                      "id": "st-28e456807c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8696f1570f",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794209701_hd/1794209701_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Detroit Pistons",
+            "team_b": "Washington Wizards",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c4677b9a5c8823ad3070069d8741a809.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/f4a3bba0c74c9f2b90bc5861ec26e3c7.png",
+            "time": "07:00:00",
+            "date": "10/11",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39138270_bc5e4d42_20261109.png?v=bc5e4d42",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0269db5744",
+          "name": "Charlotte Hornets vs Cleveland Cavaliers | 07:00 10/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0269db5744",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0269db5744",
+                  "name": "Charlotte Hornets vs Cleveland Cavaliers",
+                  "streams": [
+                    {
+                      "id": "st-0269db5744",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-67ed7db43f",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794209779_hd/1794209779_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Charlotte Hornets",
+            "team_b": "Cleveland Cavaliers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/9e28959b5af233b67c389787d2886c84.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/d4d48671e1b8c3830897ac4f6604ea9a.png",
+            "time": "07:00:00",
+            "date": "10/11",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/20238272_19cf8f5a_20261109.png?v=19cf8f5a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-77fb08acc8",
+          "name": "Toronto Raptors vs Memphis Grizzlies | 07:30 10/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-77fb08acc8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-77fb08acc8",
+                  "name": "Toronto Raptors vs Memphis Grizzlies",
+                  "streams": [
+                    {
+                      "id": "st-77fb08acc8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-48e200e066",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794210121_hd/1794210121_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Toronto Raptors",
+            "team_b": "Memphis Grizzlies",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/3f61db02c20eb73e5f27948b3122f2fb.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/1a66910c422c9a4be29bde3618ff8af5.png",
+            "time": "07:30:00",
+            "date": "10/11",
+            "blv": "Hấu",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/22238274_734128e4_20261109.png?v=734128e4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a7b0bf8e44",
+          "name": "Dallas Mavericks vs Indiana Pacers | 08:00 10/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a7b0bf8e44",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a7b0bf8e44",
+                  "name": "Dallas Mavericks vs Indiana Pacers",
+                  "streams": [
+                    {
+                      "id": "st-a7b0bf8e44",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-be1926ac3d",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794210258_hd/1794210258_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Dallas Mavericks",
+            "team_b": "Indiana Pacers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/0ae1b26dafd6ba3ff82f91d19b235038.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/3a8c9a8a304f078913c60b52698ab585.png",
+            "time": "08:00:00",
+            "date": "10/11",
+            "blv": "Chồn",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/20298278_33ac43ab_20261109.png?v=33ac43ab",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-bc3b3247cd",
+          "name": "Houston Rockets vs Denver Nuggets | 08:30 10/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bc3b3247cd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bc3b3247cd",
+                  "name": "Houston Rockets vs Denver Nuggets",
+                  "streams": [
+                    {
+                      "id": "st-bc3b3247cd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5d55a1dde0",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794210363_hd/1794210363_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Houston Rockets",
+            "team_b": "Denver Nuggets",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/cd4e8cb86960160ecba025ba8d73cd3f.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/36f49ea85609f6b7b32d9fbcba105c2d.png",
+            "time": "08:30:00",
+            "date": "10/11",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21298279_94ef2672_20261109.png?v=94ef2672",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-db7d434bf0",
+          "name": "Phoenix Suns vs San Antonio Spurs | 09:00 10/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-db7d434bf0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-db7d434bf0",
+                  "name": "Phoenix Suns vs San Antonio Spurs",
+                  "streams": [
+                    {
+                      "id": "st-db7d434bf0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d9c86af884",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794210444_hd/1794210444_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Phoenix Suns",
+            "team_b": "San Antonio Spurs",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/6a6855785a58edb23c76c99ed6601a33.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/908efbb5ed053f61540cca47cc36e7ec.png",
+            "time": "09:00:00",
+            "date": "10/11",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/32298270_b5b31c6e_20261109.png?v=b5b31c6e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7e15bf9079",
+          "name": "Golden State Warriors vs New Orleans Pelicans | 10:00 10/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7e15bf9079",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7e15bf9079",
+                  "name": "Golden State Warriors vs New Orleans Pelicans",
+                  "streams": [
+                    {
+                      "id": "st-7e15bf9079",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c0d08c140a",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794210596_hd/1794210596_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Golden State Warriors",
+            "team_b": "New Orleans Pelicans",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c7341a14964f12885ea2ae80b76cebe8.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/b745bb8171bc1a860d480067c1bb9b8f.png",
+            "time": "10:00:00",
+            "date": "10/11",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/33298271_0207f018_20261109.png?v=0207f018",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -105,10 +690,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -157,7 +742,7 @@
             "time": "23:30:00",
             "date": "09/11",
             "blv": "Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
@@ -165,6 +750,303 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/hb7w7oy5b7zr_4fe8e37e_20261109.png?v=4fe8e37e",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_rugby",
+      "name": "🏅 Thể Thao",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-7ecf76c86e",
+          "name": "Buffalo Bills vs Minnesota Vikings | 08:15 10/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7ecf76c86e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7ecf76c86e",
+                  "name": "Buffalo Bills vs Minnesota Vikings",
+                  "streams": [
+                    {
+                      "id": "st-7ecf76c86e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-44cd59780d",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794210718_hd/1794210718_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NFL",
+            "team_a": "Buffalo Bills",
+            "team_b": "Minnesota Vikings",
+            "logo_a": "https://static.flashscore.com/res/image/data/WxLvPwFa-KIDlwIzm.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/biIGYHdM-lKpbmRGS.png",
+            "time": "08:15:00",
+            "date": "10/11",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "rugby"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/c4eob008haos_fd2ecf54_20261109.png?v=fd2ecf54",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f09c2678f4",
+          "name": "Philadelphia Flyers vs Vancouver Canucks | 09:30 10/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f09c2678f4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f09c2678f4",
+                  "name": "Philadelphia Flyers vs Vancouver Canucks",
+                  "streams": [
+                    {
+                      "id": "st-f09c2678f4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ebc35e7202",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794210835_hd/1794210835_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NHL",
+            "team_a": "Philadelphia Flyers",
+            "team_b": "Vancouver Canucks",
+            "logo_a": "https://static.flashscore.com/res/image/data/bkKsBIhl-zRkGfUnJ.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/dAqcJsxS-lKtjafx1.png",
+            "time": "09:30:00",
+            "date": "10/11",
+            "blv": "Ngu",
+            "is_live": false,
+            "cate_type": "rugby"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/4799ixg4j22l_e501379d_20261109.png?v=e501379d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b94a251030",
+          "name": "Colorado Avalanche vs Toronto Maple Leafs | 07:00 11/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b94a251030",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b94a251030",
+                  "name": "Colorado Avalanche vs Toronto Maple Leafs",
+                  "streams": [
+                    {
+                      "id": "st-b94a251030",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-99f597b2de",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794234467_hd/1794234467_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NHL",
+            "team_a": "Colorado Avalanche",
+            "team_b": "Toronto Maple Leafs",
+            "logo_a": "https://static.flashscore.com/res/image/data/hzAqe0zB-UkrSKu1K.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/YNzyDZjl-xC30mm91.png",
+            "time": "07:00:00",
+            "date": "11/11",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "rugby"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/l9rts7e4982a_7829c75f_20261109.png?v=7829c75f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a80808cb04",
+          "name": "Nashville Predators vs Los Angeles Kings | 10:00 11/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a80808cb04",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a80808cb04",
+                  "name": "Nashville Predators vs Los Angeles Kings",
+                  "streams": [
+                    {
+                      "id": "st-a80808cb04",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-151f9a846f",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794236347_hd/1794236347_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NHL",
+            "team_a": "Nashville Predators",
+            "team_b": "Los Angeles Kings",
+            "logo_a": "https://static.flashscore.com/res/image/data/YouJXDg5-ITwf9voH.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Kl6wcHYA-Iih2qL9f.png",
+            "time": "10:00:00",
+            "date": "11/11",
+            "blv": "Ngu",
+            "is_live": false,
+            "cate_type": "rugby"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/gswbcxwqhohs_6c5d6d48_20261109.png?v=6c5d6d48",
             "width": 1600,
             "height": 1200
           }
