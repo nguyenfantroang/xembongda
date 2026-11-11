@@ -11,227 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-acab17e355",
-          "name": "Nữ Roma CF vs Servette (W) | 03:00 11/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-acab17e355",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-acab17e355",
-                  "name": "Nữ Roma CF vs Servette (W)",
-                  "streams": [
-                    {
-                      "id": "st-acab17e355",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-39c62b8b50",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794165273_hd/1794165273_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Champions League Nữ",
-            "team_a": "Nữ Roma CF",
-            "team_b": "Servette (W)",
-            "logo_a": "https://images.keovip88.net/images/teams/roma-cf-w.png",
-            "logo_b": "https://images.keovip88.net/images/teams/servette-w.png",
-            "time": "03:00:00",
-            "date": "11/11",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aaf22fc4e725bdee905b805_2b6c2546_20261111.png?v=2b6c2546",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b778dda219",
-          "name": "Nữ Inter Milan vs Nữ Manchester City | 03:00 11/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b778dda219",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b778dda219",
-                  "name": "Nữ Inter Milan vs Nữ Manchester City",
-                  "streams": [
-                    {
-                      "id": "st-b778dda219",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd3a6c6d74",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794165291_hd/1794165291_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Champions League Nữ",
-            "team_a": "Nữ Inter Milan",
-            "team_b": "Nữ Manchester City",
-            "logo_a": "https://images.keovip88.net/images/teams/inter-milan-w.png",
-            "logo_b": "https://images.keovip88.net/images/teams/manchester-city-w.png",
-            "time": "03:00:00",
-            "date": "11/11",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aaf22fc4e725bdee905b806_f7907784_20261111.png?v=f7907784",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-2afc8dc57c",
-          "name": "Nữ Paris Saint Germain vs Nữ Bayern Munich | 03:00 11/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2afc8dc57c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2afc8dc57c",
-                  "name": "Nữ Paris Saint Germain vs Nữ Bayern Munich",
-                  "streams": [
-                    {
-                      "id": "st-2afc8dc57c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cc8183f6eb",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794165311_hd/1794165311_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Champions League Nữ",
-            "team_a": "Nữ Paris Saint Germain",
-            "team_b": "Nữ Bayern Munich",
-            "logo_a": "https://images.keovip88.net/images/teams/paris-saint-germain-w.png",
-            "logo_b": "https://images.keovip88.net/images/teams/bayern-munchen-w.png",
-            "time": "03:00:00",
-            "date": "11/11",
-            "blv": "Ngọng",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aaf22fc4e725bdee905b807_5681abb2_20261111.png?v=5681abb2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-9b90699d84",
           "name": "Hà Lan U17 vs Norway U17 | 17:00 11/11",
@@ -1676,7 +1460,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1689,10 +1473,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1741,7 +1525,7 @@
             "time": "07:30:00",
             "date": "11/11",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1761,10 +1545,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1813,7 +1597,7 @@
             "time": "08:00:00",
             "date": "11/11",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1821,6 +1605,294 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/24238276_db4f361b_20261111.png?v=db4f361b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c2f114fd85",
+          "name": "Utah Jazz vs Miami Heat | 09:00 11/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c2f114fd85",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c2f114fd85",
+                  "name": "Utah Jazz vs Miami Heat",
+                  "streams": [
+                    {
+                      "id": "st-c2f114fd85",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8e1a771bd",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794359398_hd/1794359398_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Utah Jazz",
+            "team_b": "Miami Heat",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/a0f2371dad505780cccd4cba8baa0610.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/43ebb4d6ad3ea5b68e9b1c969dff055b.png",
+            "time": "09:00:00",
+            "date": "11/11",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/34298272_f2e8cb32_20261111.png?v=f2e8cb32",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ae5b5703f4",
+          "name": "Phoenix Suns vs Los Angeles Clippers | 09:00 11/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ae5b5703f4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ae5b5703f4",
+                  "name": "Phoenix Suns vs Los Angeles Clippers",
+                  "streams": [
+                    {
+                      "id": "st-ae5b5703f4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-73818fa0fb",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794359453_hd/1794359453_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Phoenix Suns",
+            "team_b": "Los Angeles Clippers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/6a6855785a58edb23c76c99ed6601a33.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/d96dfd2dedd39877ed1f06ea31270a46.png",
+            "time": "09:00:00",
+            "date": "11/11",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/35298273_0eaeb3f9_20261111.png?v=0eaeb3f9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-11bc462453",
+          "name": "Sacramento Kings vs Orlando Magic | 10:00 11/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-11bc462453",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-11bc462453",
+                  "name": "Sacramento Kings vs Orlando Magic",
+                  "streams": [
+                    {
+                      "id": "st-11bc462453",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-77750a9b98",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794359836_hd/1794359836_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Sacramento Kings",
+            "team_b": "Orlando Magic",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/b7096093642227c698108ad872603a76.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/2566b135b0e54971193a132bd8a1473c.png",
+            "time": "10:00:00",
+            "date": "11/11",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/36298274_3f6e4e64_20261111.png?v=3f6e4e64",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-58e8f93ab5",
+          "name": "Portland Trail Blazers vs Oklahoma City Thunder | 11:00 11/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-58e8f93ab5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-58e8f93ab5",
+                  "name": "Portland Trail Blazers vs Oklahoma City Thunder",
+                  "streams": [
+                    {
+                      "id": "st-58e8f93ab5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-54e518d460",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794359875_hd/1794359875_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Portland Trail Blazers",
+            "team_b": "Oklahoma City Thunder",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/ea86671a348a3277fa075840258d8bc7.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/75c31ec2c28ab86f2f54563667653426.png",
+            "time": "11:00:00",
+            "date": "11/11",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/37298275_0e33cfe9_20261111.png?v=0e33cfe9",
             "width": 1600,
             "height": 1200
           }
@@ -2630,7 +2702,7 @@
     },
     {
       "id": "cate_rugby",
-      "name": "🏅 Thể Thao",
+      "name": "🏅 Thể Thao (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2643,10 +2715,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2695,7 +2767,7 @@
             "time": "07:00:00",
             "date": "11/11",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "rugby"
           },
           "image": {
