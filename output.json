@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-dfce7ea682",
-          "name": "Đảo Síp vs Montenegro | 21:00 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dfce7ea682",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-dfce7ea682",
-                  "name": "Đảo Síp vs Montenegro",
-                  "streams": [
-                    {
-                      "id": "st-dfce7ea682",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7850afc263",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794723761_hd/1794723761_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Đảo Síp",
-            "team_b": "Montenegro",
-            "logo_a": "https://images.keovip88.net/images/teams/cyprus.png",
-            "logo_b": "https://images.keovip88.net/images/teams/montenegro.png",
-            "time": "21:00:00",
-            "date": "15/11",
-            "blv": "Trĩ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf69_e1434281_20261115.png?v=e1434281",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-3513e043fa",
-          "name": "Latvia vs Armenia | 21:00 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3513e043fa",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3513e043fa",
-                  "name": "Latvia vs Armenia",
-                  "streams": [
-                    {
-                      "id": "st-3513e043fa",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-48906f96da",
-                          "name": "Tỵ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794723825_hd/1794723825_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Latvia",
-            "team_b": "Armenia",
-            "logo_a": "https://images.keovip88.net/images/teams/latvia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/armenia.png",
-            "time": "21:00:00",
-            "date": "15/11",
-            "blv": "Tỵ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f3f2b74bff4a0c310bf788_f1079b3d_20261115.png?v=f1079b3d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-7208140318",
           "name": "Phần Lan vs San Marino | 00:00 16/11",
@@ -168,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,14 +76,14 @@
             "time": "00:00:00",
             "date": "16/11",
             "blv": "Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf64_fdea580c_20261115.png?v=fdea580c",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf64_fdea580c_20261116.png?v=fdea580c",
             "width": 1600,
             "height": 1200
           }
@@ -299,7 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f3f2b74bff4a0c310bf75f_4be69f71_20261115.png?v=4be69f71",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f3f2b74bff4a0c310bf75f_4be69f71_20261116.png?v=4be69f71",
             "width": 1600,
             "height": 1200
           }
@@ -371,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f3f2b74bff4a0c310bf76f_213849a4_20261115.png?v=213849a4",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f3f2b74bff4a0c310bf76f_213849a4_20261116.png?v=213849a4",
             "width": 1600,
             "height": 1200
           }
@@ -443,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf47_c9f10149_20261115.png?v=c9f10149",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf47_c9f10149_20261116.png?v=c9f10149",
             "width": 1600,
             "height": 1200
           }
@@ -515,7 +371,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f2a1a2bb398665fd0908da_8f3490f4_20261115.png?v=8f3490f4",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f2a1a2bb398665fd0908da_8f3490f4_20261116.png?v=8f3490f4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-335d43e142",
+          "name": "Trung Phi vs Benin | 23:00 16/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-335d43e142",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-335d43e142",
+                  "name": "Trung Phi vs Benin",
+                  "streams": [
+                    {
+                      "id": "st-335d43e142",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a0d62d8ed9",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794681590_hd/1794681590_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Africa Cup of Nations",
+            "team_a": "Trung Phi",
+            "team_b": "Benin",
+            "logo_a": "https://images.keovip88.net/images/teams/central-african-republic.png",
+            "logo_b": "https://images.keovip88.net/images/teams/benin.png",
+            "time": "23:00:00",
+            "date": "16/11",
+            "blv": "Mickey",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a35da18dbc86fdf90016047_379e40aa_20261116.png?v=379e40aa",
             "width": 1600,
             "height": 1200
           }
@@ -524,299 +452,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-12e82ded8c",
-          "name": "Forca Lleida vs Manresa | 18:00 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-12e82ded8c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-12e82ded8c",
-                  "name": "Forca Lleida vs Manresa",
-                  "streams": [
-                    {
-                      "id": "st-12e82ded8c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-23a6d952ea",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794725636_hd/1794725636_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spain ACB",
-            "team_a": "Forca Lleida",
-            "team_b": "Manresa",
-            "logo_a": "https://static.flashscore.com/res/image/data/x8LbomyS-zRykV8ZA.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/lzJMFXDa-U18AXLHF.png",
-            "time": "18:00:00",
-            "date": "15/11",
-            "blv": "Mason",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/en7upowohmwm_f2fc1a82_20261115.png?v=f2fc1a82",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e4864fbacb",
-          "name": "Valencia vs Leyma Coruna | 18:00 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e4864fbacb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e4864fbacb",
-                  "name": "Valencia vs Leyma Coruna",
-                  "streams": [
-                    {
-                      "id": "st-e4864fbacb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b20209c245",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794726551_hd/1794726551_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spain ACB",
-            "team_a": "Valencia",
-            "team_b": "Leyma Coruna",
-            "logo_a": "https://static.flashscore.com/res/image/data/UFmsOtyB-0xo9H7fm.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjtLMxW3r111pC9HPmFNrl6g5QJ6Ba2dFC3ZQB9Srfwg&s=10",
-            "time": "18:00:00",
-            "date": "15/11",
-            "blv": "Cầy",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/z4ood0hvp7gv_a74541a5_20261115.png?v=a74541a5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d77f43a706",
-          "name": "Finland (W) vs Lithuania (W) | 21:00 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d77f43a706",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d77f43a706",
-                  "name": "Finland (W) vs Lithuania (W)",
-                  "streams": [
-                    {
-                      "id": "st-d77f43a706",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-32c21ada00",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794726630_hd/1794726630_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "European Basketball Championship Qualifier(W)",
-            "team_a": "Finland (W)",
-            "team_b": "Lithuania (W)",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/ee75b09ad22df411e0d14b6726bda04e.jpg",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/6d5258d6c9e0575dd2d9673290b89a88.gif",
-            "time": "21:00:00",
-            "date": "15/11",
-            "blv": "Mickey",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/27600867_2ac918bf_20261115.png?v=2ac918bf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f158f6df38",
-          "name": "Sweden (W) vs Belgium (W) | 22:00 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f158f6df38",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f158f6df38",
-                  "name": "Sweden (W) vs Belgium (W)",
-                  "streams": [
-                    {
-                      "id": "st-f158f6df38",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a0dd14f909",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794731162_hd/1794731162_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "European Basketball Championship Qualifier(W)",
-            "team_a": "Sweden (W)",
-            "team_b": "Belgium (W)",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/bec1be64c3fb4e372a6bf2d722c9806e.bmp",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/fbd335f7eb2dc0653f2db839e104e3d6.png",
-            "time": "22:00:00",
-            "date": "15/11",
-            "blv": "Ngu",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/28600868_dbdf6487_20261115.png?v=dbdf6487",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6cc687837d",
           "name": "Barcelona vs Obradoiro CAB | 23:00 15/11",
@@ -825,10 +465,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -877,14 +517,14 @@
             "time": "23:00:00",
             "date": "15/11",
             "blv": "Chồn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/gu3dtayupbyd_7a410ad4_20261115.png?v=7a410ad4",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/gu3dtayupbyd_7a410ad4_20261116.png?v=7a410ad4",
             "width": 1600,
             "height": 1200
           }
@@ -897,10 +537,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -949,14 +589,14 @@
             "time": "23:59:00",
             "date": "15/11",
             "blv": "Nem",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/wj0tzjfmrlk1_d7481796_20261115.png?v=d7481796",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/wj0tzjfmrlk1_d7481796_20261116.png?v=d7481796",
             "width": 1600,
             "height": 1200
           }
@@ -1028,7 +668,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ym9s6629r24n_d938965d_20261115.png?v=d938965d",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ym9s6629r24n_d938965d_20261116.png?v=d938965d",
             "width": 1600,
             "height": 1200
           }
@@ -1100,7 +740,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/38338271_fd9ef6e0_20261115.png?v=fd9ef6e0",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/38338271_fd9ef6e0_20261116.png?v=fd9ef6e0",
             "width": 1600,
             "height": 1200
           }
@@ -1172,7 +812,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/33498273_be6bf1b7_20261115.png?v=be6bf1b7",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/33498273_be6bf1b7_20261116.png?v=be6bf1b7",
             "width": 1600,
             "height": 1200
           }
@@ -1244,7 +884,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/34498274_9f754b61_20261115.png?v=9f754b61",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/34498274_9f754b61_20261116.png?v=9f754b61",
             "width": 1600,
             "height": 1200
           }
@@ -1316,7 +956,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/35498275_2b9d407f_20261115.png?v=2b9d407f",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/35498275_2b9d407f_20261116.png?v=2b9d407f",
             "width": 1600,
             "height": 1200
           }
@@ -1388,7 +1028,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39338272_428b3724_20261115.png?v=428b3724",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/39338272_428b3724_20261116.png?v=428b3724",
             "width": 1600,
             "height": 1200
           }
@@ -1460,7 +1100,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/20438274_79dec736_20261115.png?v=79dec736",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/20438274_79dec736_20261116.png?v=79dec736",
             "width": 1600,
             "height": 1200
           }
@@ -1532,7 +1172,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21438275_75cbd93f_20261115.png?v=75cbd93f",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/21438275_75cbd93f_20261116.png?v=75cbd93f",
             "width": 1600,
             "height": 1200
           }
@@ -1604,7 +1244,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/22438276_a274bab0_20261115.png?v=a274bab0",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/22438276_a274bab0_20261116.png?v=a274bab0",
             "width": 1600,
             "height": 1200
           }
@@ -1676,7 +1316,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/36498276_074b9eca_20261115.png?v=074b9eca",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/36498276_074b9eca_20261116.png?v=074b9eca",
             "width": 1600,
             "height": 1200
           }
@@ -1690,78 +1330,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c02b55fd78",
-          "name": "Alexander Zverev vs Rafael Jodar | 20:00 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c02b55fd78",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c02b55fd78",
-                  "name": "Alexander Zverev vs Rafael Jodar",
-                  "streams": [
-                    {
-                      "id": "st-c02b55fd78",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dc0c4e9e91",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794727030_hd/1794727030_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Finals ",
-            "team_a": "Alexander Zverev",
-            "team_b": "Rafael Jodar",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfMNFE19_dWWHkHPTtxcqOQ54QcqTyz95M5V_AESQ-CQ&s",
-            "logo_b": "https://static.flashscore.com/res/image/data/A5stpqzB-bJuw1oYE.png",
-            "time": "20:00:00",
-            "date": "15/11",
-            "blv": "Điếc",
-            "is_live": false,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/t2fhocz0zogi_01729faf_20261115.png?v=01729faf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-1c444fc0f9",
           "name": "Ben Shelton vs Arthur Fils | 02:30 16/11",
@@ -1829,7 +1397,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/lp9w2jvwk7rw_fb1efa87_20261115.png?v=fb1efa87",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/lp9w2jvwk7rw_fb1efa87_20261116.png?v=fb1efa87",
             "width": 1600,
             "height": 1200
           }
@@ -1901,7 +1469,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/yn3qwqqc3mp5_9f78428f_20261115.png?v=9f78428f",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/yn3qwqqc3mp5_9f78428f_20261116.png?v=9f78428f",
             "width": 1600,
             "height": 1200
           }
@@ -1916,8 +1484,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-12d27a2743",
-          "name": "Fenerbahce Nữ vs Nilufer Bld. Nữ | 17:00 15/11",
+          "id": "gv-6663235076",
+          "name": "Scandicci Nữ vs UYBA Busto Arsizio Nữ | 23:00 15/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1927,150 +1495,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-12d27a2743",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-12d27a2743",
-                  "name": "Fenerbahce Nữ vs Nilufer Bld. Nữ",
-                  "streams": [
-                    {
-                      "id": "st-12d27a2743",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-249219e455",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794726809_hd/1794726809_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Turkey Sultanlar Ligi Nữ ",
-            "team_a": "Fenerbahce Nữ",
-            "team_b": "Nilufer Bld. Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/2NnRTQjl-llnQ8REs.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/rPFpfgDa-vRpcHup9.png",
-            "time": "17:00:00",
-            "date": "15/11",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6aajwftoxuj5_8b3c2e5e_20261115.png?v=8b3c2e5e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-cc8fc501c1",
-          "name": "Talmassons Nữ vs Novara Nữ | 22:00 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cc8fc501c1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cc8fc501c1",
-                  "name": "Talmassons Nữ vs Novara Nữ",
-                  "streams": [
-                    {
-                      "id": "st-cc8fc501c1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b4d23eedba",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794726870_hd/1794726870_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italy - Seri A1 Nữ ",
-            "team_a": "Talmassons Nữ",
-            "team_b": "Novara Nữ",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCGrworUc8A0AdZVTsQj9RO5RLL1MGoMZP03ZBItcQRQ&s=10",
-            "logo_b": "https://static.flashscore.com/res/image/data/8UCiWxdM-KbBsKXD2.png",
-            "time": "22:00:00",
-            "date": "15/11",
-            "blv": "Điếc",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/zy9eaa0qbecd_17d53bdd_20261115.png?v=17d53bdd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-6663235076",
-          "name": "Scandicci Nữ vs UYBA Busto Arsizio Nữ | 23:00 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -2119,95 +1543,14 @@
             "time": "23:00:00",
             "date": "15/11",
             "blv": "Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/7rh6gjon9nd5_830aad2c_20261115.png?v=830aad2c",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-d67931471e",
-          "name": "Grand Finals vs BLAST Rivals 2026 Season 2 | 15:00 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d67931471e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d67931471e",
-                  "name": "Grand Finals vs BLAST Rivals 2026 Season 2",
-                  "streams": [
-                    {
-                      "id": "st-d67931471e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3a7d3f3b19",
-                          "name": "Mickey vs Nem",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794727177_hd/1794727177_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BLAST Rivals 2026 Season 2",
-            "team_a": "Grand Finals",
-            "team_b": "BLAST Rivals 2026 Season 2",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyUnN8qAQScNlXcAmsGlDca_z15qQ2zqB4inO8N-JcHJz2KYEWFD9fJFk&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoC5E4VYW5XlnB7G-GHmN7zq9P_ywn9b6FByELOvWeYNxRdOmCHVMhIAg&s=10",
-            "time": "15:00:00",
-            "date": "15/11",
-            "blv": "Mickey vs Nem",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/my9waxm1fhnc_ee1a5a1b_20261115.png?v=ee1a5a1b",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/7rh6gjon9nd5_830aad2c_20261116.png?v=830aad2c",
             "width": 1600,
             "height": 1200
           }
@@ -2288,7 +1631,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/phjbz9x35up8_e858ea1e_20261115.png?v=e858ea1e",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/phjbz9x35up8_e858ea1e_20261116.png?v=e858ea1e",
             "width": 1600,
             "height": 1200
           }
@@ -2360,7 +1703,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ze9ckubir3t6_5a206add_20261115.png?v=5a206add",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ze9ckubir3t6_5a206add_20261116.png?v=5a206add",
             "width": 1600,
             "height": 1200
           }
@@ -2432,88 +1775,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/167z5ytc4xaa_07353df9_20261115.png?v=07353df9",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-85f917fe18",
-          "name": "Nhật Bản vs Hàn Quốc | 17:00 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-85f917fe18",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-85f917fe18",
-                  "name": "Nhật Bản vs Hàn Quốc",
-                  "streams": [
-                    {
-                      "id": "st-85f917fe18",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-80b27d6b84",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794733362_hd/1794733362_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asia Professional Championship",
-            "team_a": "Nhật Bản",
-            "team_b": "Hàn Quốc",
-            "logo_a": "https://static.flashscore.com/res/image/data/Crg4NaGG-ALs6yNah.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/W2K5SGfM-h05QSROl.png",
-            "time": "17:00:00",
-            "date": "15/11",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/w0vnbi4i6fo2_2e83daad_20261115.png?v=2e83daad",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/167z5ytc4xaa_07353df9_20261116.png?v=07353df9",
             "width": 1600,
             "height": 1200
           }
@@ -2522,7 +1784,7 @@
     },
     {
       "id": "cate_rugby",
-      "name": "🏅 Thể Thao",
+      "name": "🏅 Thể Thao (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2535,10 +1797,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2587,14 +1849,14 @@
             "time": "21:30:00",
             "date": "15/11",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "rugby"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/2ku7vcvsaj5u_0c51cd34_20261115.png?v=0c51cd34",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/2ku7vcvsaj5u_0c51cd34_20261116.png?v=0c51cd34",
             "width": 1600,
             "height": 1200
           }
@@ -2666,14 +1928,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ojg3rnrv3uvy_03813856_20261115.png?v=03813856",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ojg3rnrv3uvy_03813856_20261116.png?v=03813856",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "gv-db61a6d4e5",
-          "name": "Las Vegas Raiders vs Seattle Seahawks | 04:05 16/11",
+          "id": "gv-1acedece40",
+          "name": "San Francisco 49ers vs Dallas Cowboys | 04:25 16/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2687,23 +1949,23 @@
           ],
           "sources": [
             {
-              "id": "src-db61a6d4e5",
+              "id": "src-1acedece40",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-db61a6d4e5",
-                  "name": "Las Vegas Raiders vs Seattle Seahawks",
+                  "id": "ct-1acedece40",
+                  "name": "San Francisco 49ers vs Dallas Cowboys",
                   "streams": [
                     {
-                      "id": "st-db61a6d4e5",
+                      "id": "st-1acedece40",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-3affe7027e",
+                          "id": "lnk-ca3c5d76c8",
                           "name": "Riko",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794537994_hd/1794537994_hd@720p.m3u8",
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794751669_hd/1794751669_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2724,11 +1986,11 @@
           ],
           "org_metadata": {
             "league": "NFL",
-            "team_a": "Las Vegas Raiders",
-            "team_b": "Seattle Seahawks",
-            "logo_a": "https://static.flashscore.com/res/image/data/rD2Lyqil-4QFOfPSs.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/r3Fomsf5-ER5jeflb.png",
-            "time": "04:05:00",
+            "team_a": "San Francisco 49ers",
+            "team_b": "Dallas Cowboys",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/Sc-eM0054yQ9Pv4_HmNe0Q_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/AGEeRWtwE37msOgDD99Kcw_96x96.png",
+            "time": "04:25:00",
             "date": "16/11",
             "blv": "Riko",
             "is_live": false,
@@ -2738,7 +2000,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/265vfj0ywclj_4a77ba80_20261115.png?v=4a77ba80",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/nrsj4qn15qg5_4a261700_20261116.png?v=4a261700",
             "width": 1600,
             "height": 1200
           }
@@ -2810,7 +2072,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6rrqnvujnhqi_f95906f2_20261115.png?v=f95906f2",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6rrqnvujnhqi_f95906f2_20261116.png?v=f95906f2",
             "width": 1600,
             "height": 1200
           }
@@ -2882,7 +2144,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/1vu5r5q2gw26_e5503b92_20261115.png?v=e5503b92",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/1vu5r5q2gw26_e5503b92_20261116.png?v=e5503b92",
             "width": 1600,
             "height": 1200
           }
