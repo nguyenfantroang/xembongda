@@ -11,371 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-7208140318",
-          "name": "Phần Lan vs San Marino | 00:00 16/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7208140318",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7208140318",
-                  "name": "Phần Lan vs San Marino",
-                  "streams": [
-                    {
-                      "id": "st-7208140318",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-80943f03f1",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794536745_hd/1794536745_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Phần Lan",
-            "team_b": "San Marino",
-            "logo_a": "https://images.keovip88.net/images/teams/finland.png",
-            "logo_b": "https://images.keovip88.net/images/teams/san-marino.png",
-            "time": "00:00:00",
-            "date": "16/11",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf64_fdea580c_20261116.png?v=fdea580c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-38fe29cc1d",
-          "name": "Bỉ vs Ý | 02:45 16/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-38fe29cc1d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-38fe29cc1d",
-                  "name": "Bỉ vs Ý",
-                  "streams": [
-                    {
-                      "id": "st-38fe29cc1d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5709660a85",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794536629_hd/1794536629_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Bỉ",
-            "team_b": "Ý",
-            "logo_a": "https://images.keovip88.net/images/teams/belgium.png",
-            "logo_b": "https://images.keovip88.net/images/teams/italy.png",
-            "time": "02:45:00",
-            "date": "16/11",
-            "blv": "Súp",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f3f2b74bff4a0c310bf75f_4be69f71_20261116.png?v=4be69f71",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-7138e37d46",
-          "name": "Tây Ban Nha vs Anh | 02:45 16/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7138e37d46",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7138e37d46",
-                  "name": "Tây Ban Nha vs Anh",
-                  "streams": [
-                    {
-                      "id": "st-7138e37d46",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f7d569ce88",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794536660_hd/1794536660_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Tây Ban Nha",
-            "team_b": "Anh",
-            "logo_a": "https://images.keovip88.net/images/teams/spain.png",
-            "logo_b": "https://images.keovip88.net/images/teams/england.png",
-            "time": "02:45:00",
-            "date": "16/11",
-            "blv": "Ben",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f3f2b74bff4a0c310bf76f_213849a4_20261116.png?v=213849a4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d8c7fd77b9",
-          "name": "Croatia vs Cộng hòa Séc | 02:45 16/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d8c7fd77b9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d8c7fd77b9",
-                  "name": "Croatia vs Cộng hòa Séc",
-                  "streams": [
-                    {
-                      "id": "st-d8c7fd77b9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c3e1aff57c",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794536690_hd/1794536690_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Croatia",
-            "team_b": "Cộng hòa Séc",
-            "logo_a": "https://images.keovip88.net/images/teams/croatia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/czech-republic.png",
-            "time": "02:45:00",
-            "date": "16/11",
-            "blv": "Bee",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f7e7425c39b5554409bf47_c9f10149_20261116.png?v=c9f10149",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-496de6f5b9",
-          "name": "Pháp vs Thổ Nhĩ Kỳ | 02:45 16/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-496de6f5b9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-496de6f5b9",
-                  "name": "Pháp vs Thổ Nhĩ Kỳ",
-                  "streams": [
-                    {
-                      "id": "st-496de6f5b9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0744519df7",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794536708_hd/1794536708_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Pháp",
-            "team_b": "Thổ Nhĩ Kỳ",
-            "logo_a": "https://images.keovip88.net/images/teams/france.png",
-            "logo_b": "https://images.keovip88.net/images/teams/turkey.png",
-            "time": "02:45:00",
-            "date": "16/11",
-            "blv": "Ngọng",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/69f2a1a2bb398665fd0908da_8f3490f4_20261116.png?v=8f3490f4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-335d43e142",
           "name": "Trung Phi vs Benin | 23:00 16/11",
@@ -452,299 +92,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-6cc687837d",
-          "name": "Barcelona vs Obradoiro CAB | 23:00 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6cc687837d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6cc687837d",
-                  "name": "Barcelona vs Obradoiro CAB",
-                  "streams": [
-                    {
-                      "id": "st-6cc687837d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aba43dca0c",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794536931_hd/1794536931_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ACb",
-            "team_a": "Barcelona",
-            "team_b": "Obradoiro CAB",
-            "logo_a": "https://static.flashscore.com/res/image/data/Sn90D8FG-AZCWGI9F.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/GQO85GxS-MkO5VDN4.png",
-            "time": "23:00:00",
-            "date": "15/11",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/gu3dtayupbyd_7a410ad4_20261116.png?v=7a410ad4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e84721a33d",
-          "name": "Bilbao vs Murcia | 23:59 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e84721a33d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e84721a33d",
-                  "name": "Bilbao vs Murcia",
-                  "streams": [
-                    {
-                      "id": "st-e84721a33d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8ebb87b5ad",
-                          "name": "Nem",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794537116_hd/1794537116_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ACB",
-            "team_a": "Bilbao",
-            "team_b": "Murcia",
-            "logo_a": "https://static.flashscore.com/res/image/data/Ch6tZ7jl-0hu4VHO8.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/bFsA9LdM-hxasO7Sq.png",
-            "time": "23:59:00",
-            "date": "15/11",
-            "blv": "Nem",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/wj0tzjfmrlk1_d7481796_20261116.png?v=d7481796",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-1b19693248",
-          "name": "Baskonia vs Real Madrid | 01:00 16/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1b19693248",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1b19693248",
-                  "name": "Baskonia vs Real Madrid",
-                  "streams": [
-                    {
-                      "id": "st-1b19693248",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-76f0515280",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794537155_hd/1794537155_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ACB",
-            "team_a": "Baskonia",
-            "team_b": "Real Madrid",
-            "logo_a": "https://static.flashscore.com/res/image/data/fcISR1Ca-hhuZJcqF.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/GnbCKDYA-bXlcmj9T.png",
-            "time": "01:00:00",
-            "date": "16/11",
-            "blv": "Cầy",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ym9s6629r24n_d938965d_20261116.png?v=d938965d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ff9485bd79",
-          "name": "Philadelphia 76ers vs Indiana Pacers | 01:00 16/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ff9485bd79",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ff9485bd79",
-                  "name": "Philadelphia 76ers vs Indiana Pacers",
-                  "streams": [
-                    {
-                      "id": "st-ff9485bd79",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-476363af40",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794681717_hd/1794681717_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Philadelphia 76ers",
-            "team_b": "Indiana Pacers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/7f086c864d1e283b7862a756f0b88373.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/3a8c9a8a304f078913c60b52698ab585.png",
-            "time": "01:00:00",
-            "date": "16/11",
-            "blv": "Chồn",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/38338271_fd9ef6e0_20261116.png?v=fd9ef6e0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ed08e9303c",
           "name": "Phoenix Suns vs Los Angeles Lakers | 04:00 16/11",
@@ -753,10 +105,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -805,7 +157,7 @@
             "time": "04:00:00",
             "date": "16/11",
             "blv": "Chồn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -825,10 +177,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -877,7 +229,7 @@
             "time": "04:30:00",
             "date": "16/11",
             "blv": "Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -897,10 +249,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -949,7 +301,7 @@
             "time": "05:00:00",
             "date": "16/11",
             "blv": "Nem",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1325,7 +677,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1338,10 +690,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1390,7 +742,7 @@
             "time": "02:30:00",
             "date": "16/11",
             "blv": "Mù",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -1410,10 +762,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1462,7 +814,7 @@
             "time": "03:00:00",
             "date": "16/11",
             "blv": "Nem",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -1470,87 +822,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/yn3qwqqc3mp5_9f78428f_20261116.png?v=9f78428f",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-6663235076",
-          "name": "Scandicci Nữ vs UYBA Busto Arsizio Nữ | 23:00 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6663235076",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6663235076",
-                  "name": "Scandicci Nữ vs UYBA Busto Arsizio Nữ",
-                  "streams": [
-                    {
-                      "id": "st-6663235076",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-254f422493",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794681914_hd/1794681914_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italy - Seri A1 Nữ ",
-            "team_a": "Scandicci Nữ",
-            "team_b": "UYBA Busto Arsizio Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/0QZRMbg5-MuuCgGgG.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/pfEiFCxS-h8saiGlG.png",
-            "time": "23:00:00",
-            "date": "15/11",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/7rh6gjon9nd5_830aad2c_20261116.png?v=830aad2c",
             "width": 1600,
             "height": 1200
           }
@@ -1790,8 +1061,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-cae8ff42f9",
-          "name": "New England Patriots vs Detroit Lions | 21:30 15/11",
+          "id": "gv-1acedece40",
+          "name": "San Francisco 49ers vs Dallas Cowboys | 04:25 16/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1801,150 +1072,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cae8ff42f9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cae8ff42f9",
-                  "name": "New England Patriots vs Detroit Lions",
-                  "streams": [
-                    {
-                      "id": "st-cae8ff42f9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cdfe81617e",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794727551_hd/1794727551_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NFL",
-            "team_a": "New England Patriots",
-            "team_b": "Detroit Lions",
-            "logo_a": "https://static.flashscore.com/res/image/data/6BZuUlhl-Yo1QgCpL.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/zkjAStEa-z5QECN77.png",
-            "time": "21:30:00",
-            "date": "15/11",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "rugby"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/2ku7vcvsaj5u_0c51cd34_20261116.png?v=0c51cd34",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-097436af32",
-          "name": "Green Bay Packers vs Minnesota Vikings | 01:00 16/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-097436af32",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-097436af32",
-                  "name": "Green Bay Packers vs Minnesota Vikings",
-                  "streams": [
-                    {
-                      "id": "st-097436af32",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c284f0e072",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794537938_hd/1794537938_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NFL",
-            "team_a": "Green Bay Packers",
-            "team_b": "Minnesota Vikings",
-            "logo_a": "https://static.flashscore.com/res/image/data/hpgNlTf5-AinqGEaT.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/biIGYHdM-lKpbmRGS.png",
-            "time": "01:00:00",
-            "date": "16/11",
-            "blv": "Riko",
-            "is_live": false,
-            "cate_type": "rugby"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/ojg3rnrv3uvy_03813856_20261116.png?v=03813856",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-1acedece40",
-          "name": "San Francisco 49ers vs Dallas Cowboys | 04:25 16/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1993,7 +1120,7 @@
             "time": "04:25:00",
             "date": "16/11",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "rugby"
           },
           "image": {
