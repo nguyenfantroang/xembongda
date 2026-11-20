@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-336c2b4c3b",
-          "name": "Vitoria Salvador BA vs Bragantino SP | 05:30 20/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-336c2b4c3b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-336c2b4c3b",
-                  "name": "Vitoria Salvador BA vs Bragantino SP",
-                  "streams": [
-                    {
-                      "id": "st-336c2b4c3b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e15deabd32",
-                          "name": "Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795102493_hd/1795102493_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Brazil",
-            "team_a": "Vitoria Salvador BA",
-            "team_b": "Bragantino SP",
-            "logo_a": "https://images.keovip88.net/images/teams/vitoria-ba.png",
-            "logo_b": "https://images.keovip88.net/images/teams/bragantino.png",
-            "time": "05:30:00",
-            "date": "20/11",
-            "blv": "Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6af501b924d46db8700fcc70_897adf47_20261120.png?v=897adf47",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-61b7366753",
           "name": "Indonesia U-17 vs Myanmar U-17 | 15:30 20/11",
@@ -1527,6 +1455,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-9497c1a8be",
+          "name": "Auckland FC vs Melbourne Victory FC | 11:00 21/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9497c1a8be",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9497c1a8be",
+                  "name": "Auckland FC vs Melbourne Victory FC",
+                  "streams": [
+                    {
+                      "id": "st-9497c1a8be",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30a66fcb8c",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795061441_hd/1795061441_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Úc",
+            "team_a": "Auckland FC",
+            "team_b": "Melbourne Victory FC",
+            "logo_a": "https://images.keovip88.net/images/teams/auckland-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/melbourne-victory.png",
+            "time": "11:00:00",
+            "date": "21/11",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6af6533e24d46db870e043c2_59c5ae61_20261120.png?v=59c5ae61",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1537,366 +1537,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ba89f26564",
-          "name": "FC Bayern Munchen vs Saski Baskonia | 02:00 20/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ba89f26564",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ba89f26564",
-                  "name": "FC Bayern Munchen vs Saski Baskonia",
-                  "streams": [
-                    {
-                      "id": "st-ba89f26564",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9d1bddab0c",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795009070_hd/1795009070_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "EURO",
-            "team_a": "FC Bayern Munchen",
-            "team_b": "Saski Baskonia",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/1ee20d34aaf3954a5ae419166d015a1d.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/40ff02342689917a4e3a1f46343068cc.png",
-            "time": "02:00:00",
-            "date": "20/11",
-            "blv": "Cầy",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/10303275_90be9477_20261120.png?v=90be9477",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-857f96814a",
-          "name": "San Antonio Spurs vs Los Angeles Clippers | 08:00 20/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-857f96814a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-857f96814a",
-                  "name": "San Antonio Spurs vs Los Angeles Clippers",
-                  "streams": [
-                    {
-                      "id": "st-857f96814a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6e8a26c20b",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795073238_hd/1795073238_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "San Antonio Spurs",
-            "team_b": "Los Angeles Clippers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/908efbb5ed053f61540cca47cc36e7ec.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/d96dfd2dedd39877ed1f06ea31270a46.png",
-            "time": "08:00:00",
-            "date": "20/11",
-            "blv": "Vịt",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/31698273_5e2b9705_20261120.png?v=5e2b9705",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-89534ef911",
-          "name": "Memphis Grizzlies vs Golden State Warriors | 08:00 20/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-89534ef911",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-89534ef911",
-                  "name": "Memphis Grizzlies vs Golden State Warriors",
-                  "streams": [
-                    {
-                      "id": "st-89534ef911",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-62b467db87",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795073275_hd/1795073275_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Memphis Grizzlies",
-            "team_b": "Golden State Warriors",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/1a66910c422c9a4be29bde3618ff8af5.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c7341a14964f12885ea2ae80b76cebe8.png",
-            "time": "08:00:00",
-            "date": "20/11",
-            "blv": "Chồn",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/30698272_dee606f8_20261120.png?v=dee606f8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ac9f0c081e",
-          "name": "Minnesota Timberwolves vs New York Knicks | 08:00 20/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ac9f0c081e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ac9f0c081e",
-                  "name": "Minnesota Timberwolves vs New York Knicks",
-                  "streams": [
-                    {
-                      "id": "st-ac9f0c081e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cd2d5d11ea",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795073312_hd/1795073312_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Minnesota Timberwolves",
-            "team_b": "New York Knicks",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e97782502546bad80da0347446a3a311.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c34850b658b2b7735d3bf51912e01bd1.png",
-            "time": "08:00:00",
-            "date": "20/11",
-            "blv": "Ben",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/32698274_b59f98a8_20261120.png?v=b59f98a8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b8875b89ef",
-          "name": "Milwaukee Bucks vs Portland Trail Blazers | 08:00 20/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b8875b89ef",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b8875b89ef",
-                  "name": "Milwaukee Bucks vs Portland Trail Blazers",
-                  "streams": [
-                    {
-                      "id": "st-b8875b89ef",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-67ca4c6cdc",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795073363_hd/1795073363_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Milwaukee Bucks",
-            "team_b": "Portland Trail Blazers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e82de69ea44942a3e90a5be6cf0004da.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/ea86671a348a3277fa075840258d8bc7.png",
-            "time": "08:00:00",
-            "date": "20/11",
-            "blv": "Cận",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/35538270_04f97ad6_20261120.png?v=04f97ad6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-9eed7c6884",
           "name": "HK JinNiu vs Guangzhou Loong Lions | 14:30 20/11",
@@ -4277,83 +3917,11 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-fca35603a0",
-          "name": "Alexander Zverev vs Arthur Fils | 02:30 20/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fca35603a0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fca35603a0",
-                  "name": "Alexander Zverev vs Arthur Fils",
-                  "streams": [
-                    {
-                      "id": "st-fca35603a0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3802a5cb81",
-                          "name": "Nem",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795009371_hd/1795009371_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Finals",
-            "team_a": "Alexander Zverev",
-            "team_b": "Arthur Fils",
-            "logo_a": "https://static.flashscore.com/res/image/data/tO5cePjl-2DqYxEbl.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Eg01vrEa-SQeH6w5H.png",
-            "time": "02:30:00",
-            "date": "20/11",
-            "blv": "Nem",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/cwe9vmagcr1w_fc41593c_20261120.png?v=fc41593c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-0e058af1c5",
           "name": "Carlos Alcaraz vs Flavio Cobolli | 20:00 20/11",
@@ -5033,83 +4601,11 @@
     },
     {
       "id": "cate_duaxe",
-      "name": "🏎️ Đua Xe",
+      "name": "🏎️ Đua Xe (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5097a865d8",
-          "name": "Heineken Las Vegas vs Grand Prix | 07:30 20/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5097a865d8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5097a865d8",
-                  "name": "Heineken Las Vegas vs Grand Prix",
-                  "streams": [
-                    {
-                      "id": "st-5097a865d8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e6b6f009d0",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795074417_hd/1795074417_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "F1",
-            "team_a": "Heineken Las Vegas",
-            "team_b": "Grand Prix",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTWu9zRO6MM841Hq6XzhtphVXqS8z4h9jmVnsf3kLj5tb0FTLUVnAWAaWj&s=10",
-            "logo_b": "https://assets.simpleviewcms.com/simpleview/image/upload/c_limit,q_75,w_1200/v1/crm/lasvegas/Formula-1-2025_1E2EE61E-9E65-A996-EBF8C8E25482E9F9_1e2f7928-02bb-55f4-4ca9b411f6557587.jpg",
-            "time": "07:30:00",
-            "date": "20/11",
-            "blv": "Ngu",
-            "is_live": false,
-            "cate_type": "duaxe"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/55b2fjkz0nh7_1537bf40_20261120.png?v=1537bf40",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f196570095",
           "name": "Heineken Las Vegas vs Grand Prix | 11:00 20/11",
@@ -5118,10 +4614,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5170,7 +4666,7 @@
             "time": "11:00:00",
             "date": "20/11",
             "blv": "Ngu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "duaxe"
           },
           "image": {
@@ -5186,7 +4682,7 @@
     },
     {
       "id": "cate_rugby",
-      "name": "🏅 Thể Thao",
+      "name": "🏅 Thể Thao (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5199,10 +4695,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5251,7 +4747,7 @@
             "time": "08:15:00",
             "date": "20/11",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "rugby"
           },
           "image": {
