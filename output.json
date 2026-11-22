@@ -11,549 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-cc9bf34e68",
-          "name": "Liverpool vs Manchester United | 23:30 22/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cc9bf34e68",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cc9bf34e68",
-                  "name": "Liverpool vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "st-cc9bf34e68",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-640416e74a",
-                          "name": "Off Fan MU: Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795062352_hd/1795062352_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-5fa870b5a9",
-                          "name": "Đầu cầu cò: Thìn + Tỵ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795062300_hd/1795062300_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-edccd4a8eb",
-                          "name": "Anti Mân Đàn: Chồn",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795062324_hd/1795062324_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Liverpool",
-            "team_b": "Manchester United",
-            "logo_a": "https://images.keovip88.net/images/teams/liverpool.png",
-            "logo_b": "https://images.keovip88.net/images/teams/manchester-united.png",
-            "time": "23:30:00",
-            "date": "22/11",
-            "blv": "Off Fan MU: Hấu, Đầu cầu cò: Thìn + Tỵ, Anti Mân Đàn: Chồn",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6af7a4ca24d46db870c8a505_e3e1f23a_20261123.png?v=e3e1f23a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-806c690339",
-          "name": "Werder Bremen vs Hamburger | 23:30 22/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-806c690339",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-806c690339",
-                  "name": "Werder Bremen vs Hamburger",
-                  "streams": [
-                    {
-                      "id": "st-806c690339",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-591acce276",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795363385_hd/1795363385_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Werder Bremen",
-            "team_b": "Hamburger",
-            "logo_a": "https://images.keovip88.net/images/teams/werder-bremen.png",
-            "logo_b": "https://images.keovip88.net/images/teams/hamburger-sv.png",
-            "time": "23:30:00",
-            "date": "22/11",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6af7a4ca24d46db870c8a511_3188b235_20261123.png?v=3188b235",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-61d41ac7c6",
-          "name": "AC Milan vs Frosinone | 23:59 22/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-61d41ac7c6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-61d41ac7c6",
-                  "name": "AC Milan vs Frosinone",
-                  "streams": [
-                    {
-                      "id": "st-61d41ac7c6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-01b9ec5fc0",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795062408_hd/1795062408_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "AC Milan",
-            "team_b": "Frosinone",
-            "logo_a": "https://images.keovip88.net/images/teams/ac-milan.png",
-            "logo_b": "https://images.keovip88.net/images/teams/frosinone.png",
-            "time": "23:59:00",
-            "date": "22/11",
-            "blv": "Ngọng",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6af8f63824d46db870c6f00d_8cdc58c6_20261123.png?v=8cdc58c6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-89c8ece5e3",
-          "name": "Osasuna vs Malaga | 00:30 23/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-89c8ece5e3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-89c8ece5e3",
-                  "name": "Osasuna vs Malaga",
-                  "streams": [
-                    {
-                      "id": "st-89c8ece5e3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7617c1faae",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795062455_hd/1795062455_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Osasuna",
-            "team_b": "Malaga",
-            "logo_a": "https://images.keovip88.net/images/teams/osasuna.png",
-            "logo_b": "https://images.keovip88.net/images/teams/malaga.png",
-            "time": "00:30:00",
-            "date": "23/11",
-            "blv": "Bee",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e5bce5e6975d550f075d_f532806c_20261123.png?v=f532806c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-6752460ddb",
-          "name": "Atalanta vs Inter Milan | 02:45 23/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6752460ddb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6752460ddb",
-                  "name": "Atalanta vs Inter Milan",
-                  "streams": [
-                    {
-                      "id": "st-6752460ddb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-68c8b06f6c",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795062476_hd/1795062476_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Atalanta",
-            "team_b": "Inter Milan",
-            "logo_a": "https://images.keovip88.net/images/teams/atalanta.png",
-            "logo_b": "https://images.keovip88.net/images/teams/inter-milan.png",
-            "time": "02:45:00",
-            "date": "23/11",
-            "blv": "Súp",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6af8f63a24d46db870c6f2c2_1a276d9a_20261123.png?v=1a276d9a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b46e69ddf7",
-          "name": "Marseille vs Le Mans | 02:45 23/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b46e69ddf7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b46e69ddf7",
-                  "name": "Marseille vs Le Mans",
-                  "streams": [
-                    {
-                      "id": "st-b46e69ddf7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-586ee34ca9",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795062496_hd/1795062496_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Marseille",
-            "team_b": "Le Mans",
-            "logo_a": "https://images.keovip88.net/images/teams/marseille.png",
-            "logo_b": "https://images.keovip88.net/images/teams/le-mans.png",
-            "time": "02:45:00",
-            "date": "23/11",
-            "blv": "Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6af8f63a24d46db870c6f2c6_95b77558_20261123.png?v=95b77558",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-50ab460f40",
-          "name": "Getafe vs Atletico Madrid | 03:00 23/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-50ab460f40",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-50ab460f40",
-                  "name": "Getafe vs Atletico Madrid",
-                  "streams": [
-                    {
-                      "id": "st-50ab460f40",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8ad49da9b0",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795345985_hd/1795345985_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Getafe",
-            "team_b": "Atletico Madrid",
-            "logo_a": "https://images.keovip88.net/images/teams/getafe.png",
-            "logo_b": "https://images.keovip88.net/images/teams/atletico-madrid.png",
-            "time": "03:00:00",
-            "date": "23/11",
-            "blv": "Ngọng",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6af8f63a24d46db870c6f2ca_8de60c7b_20261123.png?v=8de60c7b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-9f2faf9d0c",
           "name": "Torreense vs Benfica | 03:45 23/11",
@@ -562,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -614,7 +76,7 @@
             "time": "03:45:00",
             "date": "23/11",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -634,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -686,7 +148,7 @@
             "time": "04:30:00",
             "date": "23/11",
             "blv": "Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -697,12 +159,444 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-01e8a22719",
+          "name": "Tây Ban Nha U17 vs Fiji U17 | 19:30 23/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-01e8a22719",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-01e8a22719",
+                  "name": "Tây Ban Nha U17 vs Fiji U17",
+                  "streams": [
+                    {
+                      "id": "st-01e8a22719",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cb099b121f",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795369712_hd/1795369712_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup U17",
+            "team_a": "Tây Ban Nha U17",
+            "team_b": "Fiji U17",
+            "logo_a": "https://images.keovip88.net/images/teams/spain-u17.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fiji-u17.png",
+            "time": "19:30:00",
+            "date": "23/11",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a1393a75618a0eb770ad647_d52ddbb4_20261123.png?v=d52ddbb4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d59bfa79d9",
+          "name": "Tajikistan U17 vs Croatia U17 | 19:30 23/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d59bfa79d9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d59bfa79d9",
+                  "name": "Tajikistan U17 vs Croatia U17",
+                  "streams": [
+                    {
+                      "id": "st-d59bfa79d9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-23ff1a90e2",
+                          "name": "Tỵ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795369753_hd/1795369753_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup U17",
+            "team_a": "Tajikistan U17",
+            "team_b": "Croatia U17",
+            "logo_a": "https://images.keovip88.net/images/teams/tajikistan-u17.png",
+            "logo_b": "https://images.keovip88.net/images/teams/croatia-u17.png",
+            "time": "19:30:00",
+            "date": "23/11",
+            "blv": "Tỵ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a1393a75618a0eb770ad63c_0bd23f3e_20261123.png?v=0bd23f3e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a6e25b2b7a",
+          "name": "Neftchi Fargona vs Al Hilal | 20:45 23/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a6e25b2b7a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a6e25b2b7a",
+                  "name": "Neftchi Fargona vs Al Hilal",
+                  "streams": [
+                    {
+                      "id": "st-a6e25b2b7a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a466a601a0",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795369814_hd/1795369814_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Neftchi Fargona",
+            "team_b": "Al Hilal",
+            "logo_a": "https://images.keovip88.net/images/teams/neftchi-fargona.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-hilal.png",
+            "time": "20:45:00",
+            "date": "23/11",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a88e7865d02aeccba005284_4fd4c7c4_20261123.png?v=4fd4c7c4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-63c2016b2e",
+          "name": "Ý U17 vs U17 Bờ Biển Ngà | 21:30 23/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-63c2016b2e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-63c2016b2e",
+                  "name": "Ý U17 vs U17 Bờ Biển Ngà",
+                  "streams": [
+                    {
+                      "id": "st-63c2016b2e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7d758379d1",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795369857_hd/1795369857_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup U17",
+            "team_a": "Ý U17",
+            "team_b": "U17 Bờ Biển Ngà",
+            "logo_a": "https://images.keovip88.net/images/teams/italy-u17.png",
+            "logo_b": "https://images.keovip88.net/images/teams/ivory-coast-u17.png",
+            "time": "21:30:00",
+            "date": "23/11",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a1393a75618a0eb770ad635_4dea7582_20261123.png?v=4dea7582",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9993e9e6c1",
+          "name": "Mali U17 vs U17 Bỉ | 22:30 23/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9993e9e6c1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9993e9e6c1",
+                  "name": "Mali U17 vs U17 Bỉ",
+                  "streams": [
+                    {
+                      "id": "st-9993e9e6c1",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-32cbae54e6",
+                          "name": "Tỵ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795369931_hd/1795369931_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup U17",
+            "team_a": "Mali U17",
+            "team_b": "U17 Bỉ",
+            "logo_a": "https://images.keovip88.net/images/teams/mali-u17.png",
+            "logo_b": "https://images.keovip88.net/images/teams/belgium-u17.png",
+            "time": "22:30:00",
+            "date": "23/11",
+            "blv": "Tỵ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a1393a75618a0eb770ad641_1c731f6f_20261123.png?v=1c731f6f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7f7cc02ea4",
+          "name": "Việt Nam U17 vs New Zealand U17 | 22:30 23/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7f7cc02ea4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7f7cc02ea4",
+                  "name": "Việt Nam U17 vs New Zealand U17",
+                  "streams": [
+                    {
+                      "id": "st-7f7cc02ea4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1c35d56161",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795369950_hd/1795369950_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup U17",
+            "team_a": "Việt Nam U17",
+            "team_b": "New Zealand U17",
+            "logo_a": "https://images.keovip88.net/images/teams/vietnam-u17.png",
+            "logo_b": "https://images.keovip88.net/images/teams/new-zealand-u17.png",
+            "time": "22:30:00",
+            "date": "23/11",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a1393a75618a0eb770ad642_84c16a74_20261123.png?v=84c16a74",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -715,10 +609,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -767,7 +661,7 @@
             "time": "03:30:00",
             "date": "23/11",
             "blv": "Chồn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1372,6 +1266,222 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-59614bf9b5",
+          "name": "Daejeon JKJ Nữ vs GS Caltex Nữ | 17:00 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-59614bf9b5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-59614bf9b5",
+                  "name": "Daejeon JKJ Nữ vs GS Caltex Nữ",
+                  "streams": [
+                    {
+                      "id": "st-59614bf9b5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4b343b0cc3",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795370483_hd/1795370483_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hàn Quốc Volleyball League Nữ",
+            "team_a": "Daejeon JKJ Nữ",
+            "team_b": "GS Caltex Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/C6oehGYg-YPeUstG1.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/EXtx7sXg-EL2iNWK6.png",
+            "time": "17:00:00",
+            "date": "24/11",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/si15c7zmttac_5e70add7_20261123.png?v=5e70add7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-2bdff80268",
+          "name": "Onikisubat vs Ziraat Bankasi | 18:00 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2bdff80268",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2bdff80268",
+                  "name": "Onikisubat vs Ziraat Bankasi",
+                  "streams": [
+                    {
+                      "id": "st-2bdff80268",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dab93a2710",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795370534_hd/1795370534_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Turkey Sultanlar Ligi",
+            "team_a": "Onikisubat",
+            "team_b": "Ziraat Bankasi",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/7/72/Sultanlar_Ligi.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+            "logo_b": "https://static.flashscore.com/res/image/data/nN1hHJYA-vaQC7xt4.png",
+            "time": "18:00:00",
+            "date": "24/11",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/a8lf95heg7ty_2c92c998_20261123.png?v=2c92c998",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-53838b5733",
+          "name": "IBK Nữ vs Expressway Co Nữ | 17:00 25/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-53838b5733",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-53838b5733",
+                  "name": "IBK Nữ vs Expressway Co Nữ",
+                  "streams": [
+                    {
+                      "id": "st-53838b5733",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-55887b5271",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795370595_hd/1795370595_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hàn Quốc Volleyball League Nữ",
+            "team_a": "IBK Nữ",
+            "team_b": "Expressway Co Nữ",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWUhuDalDPYPUS6X0OsouSXwJw-p56pRN7NbjLXCqyy69IBlVpiC8TQAOu&s=10",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/6/6a/Gyeongbuk_Gimcheon_Hi-pass.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+            "time": "17:00:00",
+            "date": "25/11",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/knv17rqfe5ti_6cf15452_20261123.png?v=6cf15452",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1453,12 +1563,156 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-d39b7d48ca",
+          "name": "PGL Major Stage 1 #1 Ca 3 vs PGL | 15:00 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d39b7d48ca",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d39b7d48ca",
+                  "name": "PGL Major Stage 1 #1 Ca 3 vs PGL",
+                  "streams": [
+                    {
+                      "id": "st-d39b7d48ca",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4de4997e5",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795370706_hd/1795370706_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PGL Major Singapore 2026 Stage 1",
+            "team_a": "PGL Major Stage 1 #1 Ca 3",
+            "team_b": "PGL",
+            "logo_a": "https://i.ytimg.com/vi/r15_iNWob2A/hq720.jpg?v=6b027605&sqp=CNT0idgG-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCMgyywsdWs1_At3eHsY4BRShmGEA",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRieTNl1mbFCEW3o8BeoEMfPYjMGf2Kx9yIjJ12Kxjj1A&s",
+            "time": "15:00:00",
+            "date": "24/11",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/kvh4nqepgx1m_fc2b3842_20261123.png?v=fc2b3842",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d638dceb61",
+          "name": "Super High Roller Series vs North Cyprus 2026 Day 10 | 20:00 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d638dceb61",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d638dceb61",
+                  "name": "Super High Roller Series vs North Cyprus 2026 Day 10",
+                  "streams": [
+                    {
+                      "id": "st-d638dceb61",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d4864be744",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795370839_hd/1795370839_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TRITON",
+            "team_a": "Super High Roller Series",
+            "team_b": "North Cyprus 2026 Day 10",
+            "logo_a": "https://i.ytimg.com/vi/rS-7vvE56xU/sddefault.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQFdtfOY-6B27HJYc-7UVmgbYNHOORlWxZQZmoW0J-ppHy3mokHaagUSg&s=10",
+            "time": "20:00:00",
+            "date": "24/11",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/gqu85loek89n_8a71b6ae_20261123.png?v=8a71b6ae",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_rugby",
-      "name": "🏅 Thể Thao",
+      "name": "🏅 Thể Thao (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1471,10 +1725,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1523,7 +1777,7 @@
             "time": "01:00:00",
             "date": "23/11",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "rugby"
           },
           "image": {
@@ -1536,78 +1790,6 @@
           }
         },
         {
-          "id": "gv-041d2a6bb0",
-          "name": "Baltimore Ravens vs Carolina Panthers | 01:00 23/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-041d2a6bb0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-041d2a6bb0",
-                  "name": "Baltimore Ravens vs Carolina Panthers",
-                  "streams": [
-                    {
-                      "id": "st-041d2a6bb0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0aa1e012cd",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795345812_hd/1795345812_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NFL",
-            "team_a": "Baltimore Ravens",
-            "team_b": "Carolina Panthers",
-            "logo_a": "https://static.flashscore.com/res/image/data/dUe4S2il-40MWbKRi.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/CXMe1uLygmmxPU3PNKga7g_96x96.png",
-            "time": "01:00:00",
-            "date": "23/11",
-            "blv": "Mickey",
-            "is_live": false,
-            "cate_type": "rugby"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/2tco8p8sn3ka_b1415eec_20261123.png?v=b1415eec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-2f5fd6f33c",
           "name": "Las Vegas Raiders vs Denver Broncos | 04:25 23/11",
           "type": "single",
@@ -1615,10 +1797,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1667,7 +1849,7 @@
             "time": "04:25:00",
             "date": "23/11",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "rugby"
           },
           "image": {
