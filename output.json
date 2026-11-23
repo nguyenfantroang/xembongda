@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "19:30:00",
             "date": "23/11",
             "blv": "Trĩ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +148,7 @@
             "time": "19:30:00",
             "date": "23/11",
             "blv": "Tỵ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -447,49 +447,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-35552e0e7c",
-          "name": "New York Knicks vs Indiana Pacers | 08:00 23/11",
+          "id": "gv-95f187acdc",
+          "name": "Al Ain vs Esteghlal Tehran | 23:00 23/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-35552e0e7c",
+              "id": "src-95f187acdc",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-35552e0e7c",
-                  "name": "New York Knicks vs Indiana Pacers",
+                  "id": "ct-95f187acdc",
+                  "name": "Al Ain vs Esteghlal Tehran",
                   "streams": [
                     {
-                      "id": "st-35552e0e7c",
+                      "id": "st-95f187acdc",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-36314b72c5",
-                          "name": "Ben",
+                          "id": "lnk-3db57a322d",
+                          "name": "Hứa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795365889_hd/1795365889_hd@720p.m3u8",
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795414665_hd/1795414665_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -509,59 +500,59 @@
             }
           ],
           "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "New York Knicks",
-            "team_b": "Indiana Pacers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c34850b658b2b7735d3bf51912e01bd1.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/3a8c9a8a304f078913c60b52698ab585.png",
-            "time": "08:00:00",
+            "league": "AFC Champions League",
+            "team_a": "Al Ain",
+            "team_b": "Esteghlal Tehran",
+            "logo_a": "https://images.keovip88.net/images/teams/al-ain.png",
+            "logo_b": "https://images.keovip88.net/images/teams/esteghlal-tehran.png",
+            "time": "23:00:00",
             "date": "23/11",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "basketball"
+            "blv": "Hứa",
+            "is_live": false,
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/37638273_bd9ad66c_20261123.png?v=bd9ad66c",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a8a38deeb269e70040bbd85_5c84cdfa_20261123.png?v=5c84cdfa",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "gv-c8400253f5",
-          "name": "Golden State Warriors vs Boston Celtics | 08:30 23/11",
+          "id": "gv-12671591a9",
+          "name": "Al-Shamal vs Al Ahli Jeddah | 23:00 23/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-c8400253f5",
+              "id": "src-12671591a9",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-c8400253f5",
-                  "name": "Golden State Warriors vs Boston Celtics",
+                  "id": "ct-12671591a9",
+                  "name": "Al-Shamal vs Al Ahli Jeddah",
                   "streams": [
                     {
-                      "id": "st-c8400253f5",
+                      "id": "st-12671591a9",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-9bb0ae966c",
-                          "name": "Vịt",
+                          "id": "lnk-45f778ed58",
+                          "name": "Trĩ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795365919_hd/1795365919_hd@720p.m3u8",
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795414714_hd/1795414714_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -581,22 +572,958 @@
             }
           ],
           "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Golden State Warriors",
-            "team_b": "Boston Celtics",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c7341a14964f12885ea2ae80b76cebe8.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/ef37e5c1c853e5b689b6791b00e8bc58.png",
-            "time": "08:30:00",
+            "league": "AFC Champions League",
+            "team_a": "Al-Shamal",
+            "team_b": "Al Ahli Jeddah",
+            "logo_a": "https://images.keovip88.net/images/teams/al-shamal.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-ahli-sfc.png",
+            "time": "23:00:00",
             "date": "23/11",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/32798275_ecba52ef_20261123.png?v=ecba52ef",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a8b8a6f4d3de1ad3e0d9541_a6039401_20261123.png?v=a6039401",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-56e113be1a",
+          "name": "Teraktor-Sazi vs Al Wasl FC | 23:00 23/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-56e113be1a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-56e113be1a",
+                  "name": "Teraktor-Sazi vs Al Wasl FC",
+                  "streams": [
+                    {
+                      "id": "st-56e113be1a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3bd543e321",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795414786_hd/1795414786_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Teraktor-Sazi",
+            "team_b": "Al Wasl FC",
+            "logo_a": "https://images.keovip88.net/images/teams/tractor-sc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-wasl.png",
+            "time": "23:00:00",
+            "date": "23/11",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a88e7865d02aeccba005285_18f807be_20261123.png?v=18f807be",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-2cc02acde4",
+          "name": "Al Ittihad Jeddah vs Pakhtakor Tashkent | 01:15 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2cc02acde4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2cc02acde4",
+                  "name": "Al Ittihad Jeddah vs Pakhtakor Tashkent",
+                  "streams": [
+                    {
+                      "id": "st-2cc02acde4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-439013eff6",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795415540_hd/1795415540_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Al Ittihad Jeddah",
+            "team_b": "Pakhtakor Tashkent",
+            "logo_a": "https://images.keovip88.net/images/teams/al-ittihad.png",
+            "logo_b": "https://images.keovip88.net/images/teams/pakhtakor.png",
+            "time": "01:15:00",
+            "date": "24/11",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a8b8a6f4d3de1ad3e0d9542_f597b441_20261123.png?v=f597b441",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8e799ef79d",
+          "name": "Al Quwa Al Jawiya vs Al-Gharafa | 01:15 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8e799ef79d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8e799ef79d",
+                  "name": "Al Quwa Al Jawiya vs Al-Gharafa",
+                  "streams": [
+                    {
+                      "id": "st-8e799ef79d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-65a036394f",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795415900_hd/1795415900_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Al Quwa Al Jawiya",
+            "team_b": "Al-Gharafa",
+            "logo_a": "https://images.keovip88.net/images/teams/al-quwa-al-jawiya.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-garrafa.png",
+            "time": "01:15:00",
+            "date": "24/11",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a8b8a6f4d3de1ad3e0d9543_ed617ae5_20261123.png?v=ed617ae5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c040372e41",
+          "name": "Monza vs Fiorentina | 02:45 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c040372e41",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c040372e41",
+                  "name": "Monza vs Fiorentina",
+                  "streams": [
+                    {
+                      "id": "st-c040372e41",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-74d3154939",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795415965_hd/1795415965_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Monza",
+            "team_b": "Fiorentina",
+            "logo_a": "https://images.keovip88.net/images/teams/monza.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fiorentina.png",
+            "time": "02:45:00",
+            "date": "24/11",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6afa47c424d46db870cf9e80_c9a390c3_20261123.png?v=c9a390c3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4e77951cab",
+          "name": "Brentford vs Everton | 03:00 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4e77951cab",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4e77951cab",
+                  "name": "Brentford vs Everton",
+                  "streams": [
+                    {
+                      "id": "st-4e77951cab",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eaa19a9327",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795416009_hd/1795416009_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Brentford",
+            "team_b": "Everton",
+            "logo_a": "https://images.keovip88.net/images/teams/brentford.png",
+            "logo_b": "https://images.keovip88.net/images/teams/everton.png",
+            "time": "03:00:00",
+            "date": "24/11",
+            "blv": "Dory",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6afa47c424d46db870cf9ea4_a8e55961_20261123.png?v=a8e55961",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f5f6cf45a3",
+          "name": "Levante vs Elche | 03:00 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f5f6cf45a3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f5f6cf45a3",
+                  "name": "Levante vs Elche",
+                  "streams": [
+                    {
+                      "id": "st-f5f6cf45a3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b2e575221e",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795416051_hd/1795416051_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Levante",
+            "team_b": "Elche",
+            "logo_a": "https://images.keovip88.net/images/teams/levante.png",
+            "logo_b": "https://images.keovip88.net/images/teams/elche.png",
+            "time": "03:00:00",
+            "date": "24/11",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6afa47c424d46db870cf9ea8_23302155_20261123.png?v=23302155",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-fe26994248",
+          "name": "Botafogo (RJ) vs Sao Paulo | 06:00 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fe26994248",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fe26994248",
+                  "name": "Botafogo (RJ) vs Sao Paulo",
+                  "streams": [
+                    {
+                      "id": "st-fe26994248",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f88265fc51",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795416124_hd/1795416124_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Brazil",
+            "team_a": "Botafogo (RJ)",
+            "team_b": "Sao Paulo",
+            "logo_a": "https://images.keovip88.net/images/teams/botafogo-rj.png",
+            "logo_b": "https://images.keovip88.net/images/teams/sao-paulo.png",
+            "time": "06:00:00",
+            "date": "24/11",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6ab1e635e5e6975d550f0821_2af642a1_20261123.png?v=2af642a1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4678013ca2",
+          "name": "Daejeon Citizen vs Beijing Guoan | 17:00 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4678013ca2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4678013ca2",
+                  "name": "Daejeon Citizen vs Beijing Guoan",
+                  "streams": [
+                    {
+                      "id": "st-4678013ca2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6232fe3414",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795369988_hd/1795369988_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Daejeon Citizen",
+            "team_b": "Beijing Guoan",
+            "logo_a": "https://images.keovip88.net/images/teams/daejeon-citizen.png",
+            "logo_b": "https://images.keovip88.net/images/teams/beijing-guoan.png",
+            "time": "17:00:00",
+            "date": "24/11",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a88e7865d02aeccba00526b_290791b9_20261123.png?v=290791b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-410e9a2254",
+          "name": "Kyoto Sanga vs Pohang Steelers | 17:00 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-410e9a2254",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-410e9a2254",
+                  "name": "Kyoto Sanga vs Pohang Steelers",
+                  "streams": [
+                    {
+                      "id": "st-410e9a2254",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-99a44daba3",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795370018_hd/1795370018_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Kyoto Sanga",
+            "team_b": "Pohang Steelers",
+            "logo_a": "https://images.keovip88.net/images/teams/kyoto-sanga.png",
+            "logo_b": "https://images.keovip88.net/images/teams/pohang-steelers.png",
+            "time": "17:00:00",
+            "date": "24/11",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a8a38deeb269e70040bbd79_e7544833_20261123.png?v=e7544833",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-da9d300e8f",
+          "name": "Công An Hà Nội vs Vissel Kobe | 19:15 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da9d300e8f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-da9d300e8f",
+                  "name": "Công An Hà Nội vs Vissel Kobe",
+                  "streams": [
+                    {
+                      "id": "st-da9d300e8f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-550cfee122",
+                          "name": "Tỵ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795370039_hd/1795370039_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Công An Hà Nội",
+            "team_b": "Vissel Kobe",
+            "logo_a": "https://images.keovip88.net/images/teams/cong-an-ha-noi.png",
+            "logo_b": "https://images.keovip88.net/images/teams/vissel-kobe.png",
+            "time": "19:15:00",
+            "date": "24/11",
+            "blv": "Tỵ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a88e7865d02aeccba00526c_55727cfb_20261123.png?v=55727cfb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-88fa3599d0",
+          "name": "Ratchaburi FC vs Johor Darul Takzim | 19:15 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-88fa3599d0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-88fa3599d0",
+                  "name": "Ratchaburi FC vs Johor Darul Takzim",
+                  "streams": [
+                    {
+                      "id": "st-88fa3599d0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3cde0b24e",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795370073_hd/1795370073_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Ratchaburi FC",
+            "team_b": "Johor Darul Takzim",
+            "logo_a": "https://images.keovip88.net/images/teams/ratchaburi-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/johor-darul-takzim.png",
+            "time": "19:15:00",
+            "date": "24/11",
+            "blv": "Dory",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a8a38deeb269e70040bbd7a_0c4a7b76_20261123.png?v=0c4a7b76",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-369f4a9383",
+          "name": "Shanghai Port vs Buriram United | 19:15 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-369f4a9383",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-369f4a9383",
+                  "name": "Shanghai Port vs Buriram United",
+                  "streams": [
+                    {
+                      "id": "st-369f4a9383",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-76804f4c25",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795370097_hd/1795370097_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Shanghai Port",
+            "team_b": "Buriram United",
+            "logo_a": "https://images.keovip88.net/images/teams/shanghai-port.png",
+            "logo_b": "https://images.keovip88.net/images/teams/buriram-united.png",
+            "time": "19:15:00",
+            "date": "24/11",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a8b8a6f4d3de1ad3e0d952c_276f6ec1_20261123.png?v=276f6ec1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a20c0011aa",
+          "name": "Nhật Bản U17 vs Serbia U17 | 20:00 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a20c0011aa",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a20c0011aa",
+                  "name": "Nhật Bản U17 vs Serbia U17",
+                  "streams": [
+                    {
+                      "id": "st-a20c0011aa",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-012b42c93f",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795370124_hd/1795370124_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup U17",
+            "team_a": "Nhật Bản U17",
+            "team_b": "Serbia U17",
+            "logo_a": "https://images.keovip88.net/images/teams/japan-u17.png",
+            "logo_b": "https://images.keovip88.net/images/teams/srbija-cgora-u17.png",
+            "time": "20:00:00",
+            "date": "24/11",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6a124178c018edea420a98fe_7080914c_20261123.png?v=7080914c",
             "width": 1600,
             "height": 1200
           }
@@ -830,83 +1757,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-02dcc13f1e",
-          "name": "Chicago Blackhawks vs Vancouver Canucks | 08:00 23/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-02dcc13f1e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-02dcc13f1e",
-                  "name": "Chicago Blackhawks vs Vancouver Canucks",
-                  "streams": [
-                    {
-                      "id": "st-02dcc13f1e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c6b73cc940",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795366077_hd/1795366077_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NHL",
-            "team_a": "Chicago Blackhawks",
-            "team_b": "Vancouver Canucks",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/kUlSd6LbUN7Jj03mqZcgAw_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/1SVoPsK2xW65VIfyQB2soQ_96x96.png",
-            "time": "08:00:00",
-            "date": "23/11",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/bsuuc65ka2f1_4fc45dad_20261123.png?v=4fc45dad",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-d39b7d48ca",
           "name": "PGL Major Stage 1 #1 Ca 3 vs PGL | 15:00 24/11",
@@ -1047,87 +1902,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/gqu85loek89n_8a71b6ae_20261123.png?v=8a71b6ae",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_rugby",
-      "name": "🏅 Thể Thao (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-818add635b",
-          "name": "Minnesota Vikings vs San Francisco 49ers | 08:20 23/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-818add635b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-818add635b",
-                  "name": "Minnesota Vikings vs San Francisco 49ers",
-                  "streams": [
-                    {
-                      "id": "st-818add635b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1a5d0f93ba",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795365987_hd/1795365987_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NFL",
-            "team_a": "Minnesota Vikings",
-            "team_b": "San Francisco 49ers",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/8yqZoGy4qCMuPcf3DpMhWQ_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/Sc-eM0054yQ9Pv4_HmNe0Q_96x96.png",
-            "time": "08:20:00",
-            "date": "23/11",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "rugby"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/7ikauzrppdfh_2686eb20_20261123.png?v=2686eb20",
             "width": 1600,
             "height": 1200
           }
