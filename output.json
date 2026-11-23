@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9f2faf9d0c",
-          "name": "Torreense vs Benfica | 03:45 23/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9f2faf9d0c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9f2faf9d0c",
-                  "name": "Torreense vs Benfica",
-                  "streams": [
-                    {
-                      "id": "st-9f2faf9d0c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fb49e3fd0f",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795360724_hd/1795360724_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portugal Cúp ",
-            "team_a": "Torreense",
-            "team_b": "Benfica",
-            "logo_a": "https://images.keovip88.net/images/teams/torreense-u23.png",
-            "logo_b": "https://images.keovip88.net/images/teams/sl-benfica-w.png",
-            "time": "03:45:00",
-            "date": "23/11",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/tz01fvqampbq_c8c0d2ba_20261123.png?v=c8c0d2ba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-dacb275ec1",
-          "name": "Fluminense (RJ) vs Mirassol FC | 04:30 23/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dacb275ec1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-dacb275ec1",
-                  "name": "Fluminense (RJ) vs Mirassol FC",
-                  "streams": [
-                    {
-                      "id": "st-dacb275ec1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a2f1d13ae0",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795360899_hd/1795360899_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Brazil",
-            "team_a": "Fluminense (RJ)",
-            "team_b": "Mirassol FC",
-            "logo_a": "https://images.keovip88.net/images/teams/fluminense-rj.png",
-            "logo_b": "https://images.keovip88.net/images/teams/mirassol.png",
-            "time": "04:30:00",
-            "date": "23/11",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6af8f63b24d46db870c6f377_52ddd88f_20261123.png?v=52ddd88f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-01e8a22719",
           "name": "Tây Ban Nha U17 vs Fiji U17 | 19:30 23/11",
@@ -596,14 +452,14 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-daef6a363f",
-          "name": "Atlanta Hawks vs Detroit Pistons | 03:30 23/11",
+          "id": "gv-35552e0e7c",
+          "name": "New York Knicks vs Indiana Pacers | 08:00 23/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -613,366 +469,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-daef6a363f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-daef6a363f",
-                  "name": "Atlanta Hawks vs Detroit Pistons",
-                  "streams": [
-                    {
-                      "id": "st-daef6a363f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4606db7056",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795063035_hd/1795063035_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Atlanta Hawks",
-            "team_b": "Detroit Pistons",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/57bd383cc8c9b3d4f92a5d1c371e38e9.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c4677b9a5c8823ad3070069d8741a809.png",
-            "time": "03:30:00",
-            "date": "23/11",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/23638279_a1be7106_20261123.png?v=a1be7106",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-808845eb9b",
-          "name": "Miami Heat vs Oklahoma City Thunder | 06:00 23/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-808845eb9b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-808845eb9b",
-                  "name": "Miami Heat vs Oklahoma City Thunder",
-                  "streams": [
-                    {
-                      "id": "st-808845eb9b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bafc7c0f91",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795063064_hd/1795063064_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Miami Heat",
-            "team_b": "Oklahoma City Thunder",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/43ebb4d6ad3ea5b68e9b1c969dff055b.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/75c31ec2c28ab86f2f54563667653426.png",
-            "time": "06:00:00",
-            "date": "23/11",
-            "blv": "Vịt",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/34638270_4370f4c3_20261123.png?v=4370f4c3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b44929e959",
-          "name": "Chicago Bulls vs Denver Nuggets | 07:00 23/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b44929e959",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b44929e959",
-                  "name": "Chicago Bulls vs Denver Nuggets",
-                  "streams": [
-                    {
-                      "id": "st-b44929e959",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dc79f396e7",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795365796_hd/1795365796_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Chicago Bulls",
-            "team_b": "Denver Nuggets",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c73eca8b9cc18ff386bf6ff4c1236b9e.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/36f49ea85609f6b7b32d9fbcba105c2d.png",
-            "time": "07:00:00",
-            "date": "23/11",
-            "blv": "Cận",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/36638272_d42d2346_20261123.png?v=d42d2346",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-6c84934004",
-          "name": "Utah Jazz vs Dallas Mavericks | 07:00 23/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6c84934004",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6c84934004",
-                  "name": "Utah Jazz vs Dallas Mavericks",
-                  "streams": [
-                    {
-                      "id": "st-6c84934004",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aec7d9d302",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795365820_hd/1795365820_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Utah Jazz",
-            "team_b": "Dallas Mavericks",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/a0f2371dad505780cccd4cba8baa0610.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/0ae1b26dafd6ba3ff82f91d19b235038.png",
-            "time": "07:00:00",
-            "date": "23/11",
-            "blv": "Cầy",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/31798274_34c4f14a_20261123.png?v=34c4f14a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-35eaed5767",
-          "name": "Washington Wizards vs Orlando Magic | 07:00 23/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-35eaed5767",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-35eaed5767",
-                  "name": "Washington Wizards vs Orlando Magic",
-                  "streams": [
-                    {
-                      "id": "st-35eaed5767",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5a9514f56e",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795365851_hd/1795365851_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Washington Wizards",
-            "team_b": "Orlando Magic",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f4a3bba0c74c9f2b90bc5861ec26e3c7.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/2566b135b0e54971193a132bd8a1473c.png",
-            "time": "07:00:00",
-            "date": "23/11",
-            "blv": "Mickey",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/35638271_9b77fbc6_20261123.png?v=9b77fbc6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-35552e0e7c",
-          "name": "New York Knicks vs Indiana Pacers | 08:00 23/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1021,7 +517,7 @@
             "time": "08:00:00",
             "date": "23/11",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1041,10 +537,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1093,7 +589,7 @@
             "time": "08:30:00",
             "date": "23/11",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1108,165 +604,12 @@
       ]
     },
     {
-      "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-d7573756c5",
-          "name": "Alexander Zverev vs Carlos Alcaraz | 23:59 22/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d7573756c5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d7573756c5",
-                  "name": "Alexander Zverev vs Carlos Alcaraz",
-                  "streams": [
-                    {
-                      "id": "st-d7573756c5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c9591e2171",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795346970_hd/1795346970_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Finals",
-            "team_a": "Alexander Zverev",
-            "team_b": "Carlos Alcaraz",
-            "logo_a": "https://static.flashscore.com/res/image/data/tO5cePjl-2DqYxEbl.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/OfjQEPjl-KjZlrI8i.png",
-            "time": "23:59:09",
-            "date": "22/11",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/0aa2gqo1ljse_5f0687c9_20261123.png?v=5f0687c9",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f690b52555",
-          "name": "Vero Volley Nữ vs Conegliano Nữ | 23:59 22/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f690b52555",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f690b52555",
-                  "name": "Vero Volley Nữ vs Conegliano Nữ",
-                  "streams": [
-                    {
-                      "id": "st-f690b52555",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-63a0e6bb32",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795063108_hd/1795063108_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italy - Seri A1 Nữ ",
-            "team_a": "Vero Volley Nữ",
-            "team_b": "Conegliano Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/prWwhLwS-dbN3tce0.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8SyXR1f5-zwIwk56d.png",
-            "time": "23:59:00",
-            "date": "22/11",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/26f1hbplk076_7a68eca1_20261123.png?v=7a68eca1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-59614bf9b5",
           "name": "Daejeon JKJ Nữ vs GS Caltex Nữ | 17:00 24/11",
@@ -1487,7 +830,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1500,10 +843,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1552,7 +895,7 @@
             "time": "08:00:00",
             "date": "23/11",
             "blv": "Ngu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
@@ -1712,155 +1055,11 @@
     },
     {
       "id": "cate_rugby",
-      "name": "🏅 Thể Thao (2 LIVE)",
+      "name": "🏅 Thể Thao (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5d8411f426",
-          "name": "Detroit Lions vs Tampa Bay Buccaneers | 01:00 23/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5d8411f426",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5d8411f426",
-                  "name": "Detroit Lions vs Tampa Bay Buccaneers",
-                  "streams": [
-                    {
-                      "id": "st-5d8411f426",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02b9c91961",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795345754_hd/1795345754_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NFL",
-            "team_a": "Detroit Lions",
-            "team_b": "Tampa Bay Buccaneers",
-            "logo_a": "https://static.flashscore.com/res/image/data/zkjAStEa-z5QECN77.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Ym4bBOeM-SAmySbid.png",
-            "time": "01:00:00",
-            "date": "23/11",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "rugby"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/3v0l2gaa4pmm_82317ae4_20261123.png?v=82317ae4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-2f5fd6f33c",
-          "name": "Las Vegas Raiders vs Denver Broncos | 04:25 23/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2f5fd6f33c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2f5fd6f33c",
-                  "name": "Las Vegas Raiders vs Denver Broncos",
-                  "streams": [
-                    {
-                      "id": "st-2f5fd6f33c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a69e2dc58a",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795345862_hd/1795345862_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NFL",
-            "team_a": "Las Vegas Raiders",
-            "team_b": "Denver Broncos",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/UVLlczXJQ1wxxKMT9ShJQw_96x96.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/bs8k9qcM-dWj1wpBo.png",
-            "time": "04:25:00",
-            "date": "23/11",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "rugby"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/mp9j30e1ys14_457a5b6e_20261123.png?v=457a5b6e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-818add635b",
           "name": "Minnesota Vikings vs San Francisco 49ers | 08:20 23/11",
@@ -1869,10 +1068,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1921,7 +1120,7 @@
             "time": "08:20:00",
             "date": "23/11",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "rugby"
           },
           "image": {
