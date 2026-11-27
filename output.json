@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-240e705628",
-          "name": "Sao Paulo vs Remo Belem (PA) | 06:00 27/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-240e705628",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-240e705628",
-                  "name": "Sao Paulo vs Remo Belem (PA)",
-                  "streams": [
-                    {
-                      "id": "st-240e705628",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1484e71ecf",
-                          "name": "Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795678046_hd/1795678046_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Brazil",
-            "team_a": "Sao Paulo",
-            "team_b": "Remo Belem (PA)",
-            "logo_a": "https://images.keovip88.net/images/teams/sao-paulo.png",
-            "logo_b": "https://images.keovip88.net/images/teams/remo-belem-pa.png",
-            "time": "06:00:00",
-            "date": "27/11",
-            "blv": "Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/6afe3c4724d46db87077ceed_90838e85_20261127.png?v=90838e85",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-35ce099608",
           "name": "Huế FC vs Đồng Tâm Long An | 15:30 27/11",
@@ -1394,8 +1322,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-5f5f866403",
-          "name": "Uruguay vs Canada | 05:10 27/11",
+          "id": "gv-a9eb9225f4",
+          "name": "Malaysia vs Fiji | 12:00 27/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1405,78 +1333,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5f5f866403",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5f5f866403",
-                  "name": "Uruguay vs Canada",
-                  "streams": [
-                    {
-                      "id": "st-5f5f866403",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cb8663d17c",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795678556_hd/1795678556_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup Americas qualifier",
-            "team_a": "Uruguay",
-            "team_b": "Canada",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/6519fc0d0107ca8d9b3cd9287b79d006.jpg",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/ba993f17f671a23a20b0d27c4cc2582b.jpg",
-            "time": "05:10:00",
-            "date": "27/11",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/11008278_b5803311_20261127.png?v=b5803311",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-a9eb9225f4",
-          "name": "Malaysia vs Fiji | 12:00 27/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1525,7 +1381,7 @@
             "time": "12:00:00",
             "date": "27/11",
             "blv": "Ngu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -2783,155 +2639,11 @@
     },
     {
       "id": "cate_rugby",
-      "name": "🏅 Thể Thao (1 LIVE)",
+      "name": "🏅 Thể Thao",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f515300d93",
-          "name": "Philadelphia Eagles vs Dallas Cowboys | 04:30 27/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f515300d93",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f515300d93",
-                  "name": "Philadelphia Eagles vs Dallas Cowboys",
-                  "streams": [
-                    {
-                      "id": "st-f515300d93",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-867eea25ea",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795679246_hd/1795679246_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NFL",
-            "team_a": "Philadelphia Eagles",
-            "team_b": "Dallas Cowboys",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ_aKqsWZ0tWj8iy4tHOnmpU8R59fzeAOqAiKNpfGXYw&s=10",
-            "logo_b": "https://static.flashscore.com/res/image/data/2DROi6Wg-IqxwDINa.png",
-            "time": "04:30:00",
-            "date": "27/11",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "rugby"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/e0shi98zdv1x_09baa88a_20261127.png?v=09baa88a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-69c097618c",
-          "name": "Kansas City Chiefs vs Buffalo Bills | 08:20 27/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-69c097618c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-69c097618c",
-                  "name": "Kansas City Chiefs vs Buffalo Bills",
-                  "streams": [
-                    {
-                      "id": "st-69c097618c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30d7730e90",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795678006_hd/1795678006_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NFL",
-            "team_a": "Kansas City Chiefs",
-            "team_b": "Buffalo Bills",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/UVLlczXJQ1wxxKMT9ShJQw_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/t-WvhVQI8fKZliuPz7RLKQ_96x96.png",
-            "time": "08:20:00",
-            "date": "27/11",
-            "blv": "Cận",
-            "is_live": false,
-            "cate_type": "rugby"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/nguyenfantroang/xembongda/refs/heads/main/thumbs/7wf0yhgmvyp4_b0367673_20261127.png?v=b0367673",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-25d9e0334d",
           "name": "Denver Broncos vs Pittsburgh Steelers | 03:00 28/11",
